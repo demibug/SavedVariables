@@ -327,7 +327,9 @@ DBM_MinimapIcon = {
 ["minimapPos"] = 152.6043441601308,
 ["showInCompartment"] = true,
 }
-DBM_AnnoyingPopupDisables = nil
+DBM_AnnoyingPopupDisables = {
+["Dungeons"] = 1725463541,
+}
 DBM_ModsToLoadWithFullTestSupport = {
 ["addonsWithTests"] = {
 },
