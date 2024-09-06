@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 58,
 ["lastSanitation"] = 3,
+["session"] = 63,
 ["errors"] = {
 {
 ["message"] = "...face/AddOns/DBM-Core/modules/objects/StringUtils.lua:25: attempt to index local 'fstr' (a nil value)",
