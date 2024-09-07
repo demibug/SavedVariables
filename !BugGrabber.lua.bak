@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 62,
 ["lastSanitation"] = 3,
+["session"] = 65,
 ["errors"] = {
 {
 ["message"] = "...face/AddOns/DBM-Core/modules/objects/StringUtils.lua:25: attempt to index local 'fstr' (a nil value)",
@@ -26,6 +26,22 @@ BugGrabberDB = {
 ["stack"] = "[string \"@Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua\"]:911: in function <Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua:899>\n[string \"@Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua\"]:1114: in function `OnEvent'\n[string \"@Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua\"]:1191: in function <Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua:1190>",
 ["session"] = 52,
 ["counter"] = 4,
+},
+{
+["message"] = "[ADDON_ACTION_BLOCKED] 插件 'Details' 嘗試調用保護功能 'TargetFrame:SetShown()'。",
+["time"] = "2024/09/07 12:42:19",
+["locals"] = "_ = Frame {\n}\nevent = \"ADDON_ACTION_BLOCKED\"\nevents = <table> {\n}\n",
+["stack"] = "[string \"@Interface/AddOns/!BugGrabber/BugGrabber.lua\"]:485: in function <Interface/AddOns/!BugGrabber/BugGrabber.lua:485>\n[string \"=[C]\"]: in function `SetShown'\n[string \"@Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialWatchers.lua\"]:191: in function `SetShown'\n[string \"@Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialTutorials.lua\"]:344: in function `OnComplete'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialBase.lua\"]:308: in function `Complete'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialQueue.lua\"]:27: in function `NotifyDone'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialManager.lua\"]:123: in function `Finished'\n[string \"@Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialTutorials.lua\"]:322: in function `CheckFinished'\n[string \"@Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialTutorials.lua\"]:297: in function `Callback'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialRangeManager.lua\"]:71: in function `Check'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialRangeManager.lua\"]:107: in function `_Check'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialRangeManager.lua\"]:120: in function <...rd_TutorialManager/Blizzard_TutorialRangeManager.lua:120>",
+["session"] = 64,
+["counter"] = 1,
+},
+{
+["message"] = "NamePlate5:GetRight(): Action[FrameMeasurement] failed because[Can't measure restricted regions]: attempted from: NamePlate5:GetRight().\nLua Taint: Details",
+["time"] = "2024/09/07 12:42:20",
+["locals"] = "(*temporary) = NamePlate5 {\n driverFrame = NamePlateDriverFrame {\n }\n currentNPEPointer = TutorialPointerFrame_2 {\n }\n template = \"NamePlateUnitFrameTemplate\"\n namePlateUnitToken = \"nameplate5\"\n UnitFrame = Button {\n }\n hasHookedScriptsForNPE = true\n}\n",
+["stack"] = "[string \"=[C]\"]: in function `getEdgeFunc'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialPointerFrame.lua\"]:168: in function `_DoesFrameFit'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialPointerFrame.lua\"]:68: in function `Show'\n[string \"@Interface/AddOns/Blizzard_TutorialManager/Blizzard_TutorialBase.lua\"]:147: in function `AddPointerTutorial'\n[string \"@Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialTutorials.lua\"]:431: in function `ShowResourceCallout'\n[string \"@Interface/AddOns/Blizzard_NewPlayerExperience/Blizzard_TutorialTutorials.lua\"]:460: in function `dispatcherCallback'\n[string \"@Interface/AddOns/Blizzard_Dispatcher/Blizzard_Dispatcher.lua\"]:103: in function `Invoke'\n[string \"@Interface/AddOns/Blizzard_Dispatcher/Blizzard_Dispatcher.lua\"]:216: in function `OnEvent'\n[string \"@Interface/AddOns/Blizzard_Dispatcher/Blizzard_Dispatcher.lua\"]:33: in function <...e/AddOns/Blizzard_Dispatcher/Blizzard_Dispatcher.lua:33>",
+["session"] = 64,
+["counter"] = 8,
 },
 },
 }

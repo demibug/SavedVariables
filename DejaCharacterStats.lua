@@ -22,8 +22,8 @@ DejaCharacterStatsDB = {
 ["dejacharacterstatsItemLevelChecked"] = {
 ["ItemLevelTwoDecimalsSetChecked"] = true,
 ["ItemLevelEQ_AV_SetChecked"] = true,
-["ItemLevelDecimalsSetChecked"] = false,
 ["ItemLevelClassColorSetChecked"] = true,
+["ItemLevelDecimalsSetChecked"] = false,
 },
 ["dejacharacterstatsShowItemLevelChecked"] = {
 ["ShowItemLevelSetChecked"] = true,
@@ -246,11 +246,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -471,11 +471,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hidden"] = true,
+["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -638,11 +638,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = false,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = false,
 },
 {
 ["statKey"] = "RatingCategory",
@@ -918,11 +918,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -1143,11 +1143,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -1182,7 +1182,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Sigurd:Tichondrius:5",
 },
-["Tempos:Tichondrius:3"] = {
+["Moradin:Tichondrius:5"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -1227,6 +1227,9 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAMINA",
+},
+{
+["statKey"] = "ARMOR",
 },
 {
 ["statKey"] = "OffenseCategory",
@@ -1292,28 +1295,21 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "DefenseCategory",
-},
-{
-["statKey"] = "ARMOR",
+["hidden"] = true,
 },
 {
 ["statKey"] = "DODGE",
 ["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "PARRY",
 ["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "BLOCK",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "STAGGER",
-["roles"] = {
-"TANK",
-},
-["hidden"] = false,
+["hidden"] = true,
 ["hideAt"] = 0,
 },
 {
@@ -1371,6 +1367,14 @@ DCS_ClassSpecDB = {
 ["hidden"] = true,
 },
 {
+["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
+["roles"] = {
+"TANK",
+},
+},
+{
 ["statKey"] = "HonorCategory",
 },
 {
@@ -1401,7 +1405,7 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Tempos:Tichondrius:3",
+["uniqueKey"] = "Moradin:Tichondrius:5",
 },
 ["Moradin:Tichondrius:2"] = {
 {
@@ -1589,11 +1593,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -1628,7 +1632,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Moradin:Tichondrius:2",
 },
-["Yesrpg:Tichondrius:2"] = {
+["Yesrpg:Tichondrius:3"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -1673,9 +1677,6 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAMINA",
-},
-{
-["statKey"] = "ARMOR",
 },
 {
 ["statKey"] = "OffenseCategory",
@@ -1741,22 +1742,29 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "DefenseCategory",
-["hidden"] = true,
+},
+{
+["statKey"] = "ARMOR",
 },
 {
 ["statKey"] = "DODGE",
 ["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "PARRY",
 ["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "BLOCK",
-["hidden"] = true,
 ["hideAt"] = 0,
+},
+{
+["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = false,
+["roles"] = {
+"TANK",
+},
 },
 {
 ["statKey"] = "RatingCategory",
@@ -1813,14 +1821,6 @@ DCS_ClassSpecDB = {
 ["hidden"] = true,
 },
 {
-["statKey"] = "STAGGER",
-["roles"] = {
-"TANK",
-},
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
 ["statKey"] = "HonorCategory",
 },
 {
@@ -1851,7 +1851,7 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Yesrpg:Tichondrius:2",
+["uniqueKey"] = "Yesrpg:Tichondrius:3",
 },
 ["Hijiwar:Tichondrius:5"] = {
 {
@@ -2039,11 +2039,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2264,11 +2264,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2490,11 +2490,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2715,11 +2715,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2754,7 +2754,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Tempos:Tichondrius:2",
 },
-["Moradin:Tichondrius:5"] = {
+["Yesrpg:Tichondrius:2"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -2940,11 +2940,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2977,9 +2977,9 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Moradin:Tichondrius:5",
+["uniqueKey"] = "Yesrpg:Tichondrius:2",
 },
-["Yesrpg:Tichondrius:3"] = {
+["Tempos:Tichondrius:3"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -3107,11 +3107,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["roles"] = {
-"TANK",
-},
-["hideAt"] = 0,
 ["hidden"] = false,
+["hideAt"] = 0,
+["roles"] = {
+"TANK",
+},
 },
 {
 ["statKey"] = "RatingCategory",
@@ -3198,7 +3198,7 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Yesrpg:Tichondrius:3",
+["uniqueKey"] = "Tempos:Tichondrius:3",
 },
 ["Tempos:Tichondrius:1"] = {
 {
@@ -3386,11 +3386,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
