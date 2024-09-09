@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 104,
 ["lastSanitation"] = 3,
+["session"] = 105,
 ["errors"] = {
 {
 ["message"] = "Lua 錯誤，在 WA 提醒效果 'DZKT_6_骰子': 觸發器 6\nWeakAuras 版本: 5.17.0\n堆疊層數追蹤:\n[string \"return function()\"]:12: attempt to call global 'UnitBuff' (a nil value)",
