@@ -7,18 +7,17 @@ WeakAurasSaved = {
 ["hide"] = false,
 },
 ["historyCutoff"] = 730,
-["ProfilingWindow"] = {
-["xOffset"] = 997.6217651367188,
-["yOffset"] = -359.38623046875,
-},
+["dbVersion"] = 77,
 ["editor_theme"] = "Monokai",
 ["dynamicIconCache"] = {
 },
 ["editor_font_size"] = 12,
-["lastArchiveClear"] = 1691333830,
-["lastUpgrade"] = 1725857175,
-["features"] = {
+["RealTimeProfilingWindow"] = {
+["xOffset"] = 1445.434692382813,
+["yOffset"] = -359.38623046875,
 },
+["lastUpgrade"] = 1725857175,
+["lastArchiveClear"] = 1691333830,
 ["migrationCutoff"] = 730,
 ["registered"] = {
 },
@@ -27,9 +26,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
-["xOffset"] = 100,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -37,11 +40,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "DRU_N",
 ["actions"] = {
@@ -240,11 +239,11 @@ WeakAurasSaved = {
 ["height"] = 32,
 ["rotate"] = false,
 ["load"] = {
+["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
 ["class_and_spec"] = {
 ["single"] = 105,
 },
@@ -252,12 +251,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["use_class_and_spec"] = true,
+["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -269,13 +268,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "ZS",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -309,7 +303,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "ZS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 30,
 ["actions"] = {
 ["start"] = {
@@ -467,9 +466,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
-["xOffset"] = 30,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -477,11 +480,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "FQ",
 ["actions"] = {
@@ -732,23 +731,15 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 150,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
 ["load"] = {
+["use_alive"] = true,
 ["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
 ["class_and_spec"] = {
 ["single"] = 263,
 },
@@ -756,12 +747,15 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
 ["size"] = {
 ["multi"] = {
 },
@@ -769,7 +763,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 150,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "SM_ZQ",
 ["actions"] = {
 ["start"] = {
@@ -967,13 +966,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 170,
 ["parent"] = "FZT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -1004,7 +998,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -1154,13 +1153,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 50,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -1192,7 +1186,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 50,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
 ["start"] = {
@@ -1483,22 +1482,23 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 32,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
 ["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
 ["class_and_spec"] = {
 ["single"] = 105,
 },
@@ -1506,12 +1506,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
 ["use_alive"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -1519,8 +1519,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 150,
 ["parent"] = "DRU_N",
 ["actions"] = {
 ["start"] = {
@@ -1849,14 +1848,9 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -1887,7 +1881,12 @@ WeakAurasSaved = {
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -1941,7 +1940,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -1950,24 +1949,31 @@ WeakAurasSaved = {
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -1989,15 +1995,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Bitter Immunity (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "dO5sFnqotsT",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -2017,6 +2017,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "dO5sFnqotsT",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -2048,12 +2052,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["Spell Block (Talent) Prot"] = {
 ["iconSource"] = -1,
@@ -2210,18 +2209,25 @@ WeakAurasSaved = {
 ["use_vehicleUi"] = false,
 ["zoneIds"] = "",
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[COOLDOWNS] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -2243,15 +2249,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Spell Block (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "XD2(RX5Aybz",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -2271,6 +2271,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "XD2(RX5Aybz",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -2302,20 +2306,15 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["DKB_6_致盲"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 50,
 ["authorOptions"] = {
 },
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -2346,7 +2345,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 50,
+["parent"] = "DKB",
 ["color"] = {
 1,
 1,
@@ -2551,13 +2550,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "DKT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -2588,7 +2587,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DKT",
+["xOffset"] = 150,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -2689,13 +2688,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 219809\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -2876,13 +2875,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "SS",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -2890,7 +2889,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "SS",
+["xOffset"] = 50,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -3061,13 +3060,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -3077,8 +3077,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 80,
 ["parent"] = "DH",
 ["actions"] = {
 ["start"] = {
@@ -3248,9 +3247,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 0,
 ["authorOptions"] = {
 },
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -3281,7 +3280,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 0,
+["parent"] = "DKB",
 ["color"] = {
 1,
 1,
@@ -3491,8 +3490,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_CAT",
-["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -3522,12 +3526,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 30,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -3606,13 +3605,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 5217\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 5217\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -3779,13 +3778,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 160,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -3796,7 +3790,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 160,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DKT",
 ["actions"] = {
 ["start"] = {
@@ -3897,13 +3896,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194308\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -3979,13 +3978,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -3995,8 +3995,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 20,
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
 ["start"] = {
@@ -4171,9 +4170,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["xOffset"] = 10,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 10,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -4204,11 +4207,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "DRU_T",
 ["actions"] = {
@@ -4311,9 +4310,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "KBZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -4323,7 +4322,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["xOffset"] = 70,
 ["color"] = {
 1,
 1,
@@ -4498,13 +4497,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["parent"] = "DRU_T_Hekili",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "DRU_T_Hekili",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -4514,7 +4509,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 70,
 ["actions"] = {
@@ -4581,13 +4580,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 200851\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 200851\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -4673,9 +4672,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -4706,12 +4710,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 60,
 ["parent"] = "DKB",
 ["actions"] = {
 ["start"] = {
@@ -4830,8 +4829,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["parent"] = "XDK",
-["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -4862,8 +4862,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 140,
 ["color"] = {
 1,
 1,
@@ -5018,13 +5017,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 10,
+["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -5055,7 +5049,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["parent"] = "CSZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -5210,13 +5209,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "DH",
 ["xOffset"] = 180,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -5247,7 +5241,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DH",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -5397,13 +5396,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -5413,8 +5413,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 40,
 ["parent"] = "DKB",
 ["actions"] = {
 ["start"] = {
@@ -5619,9 +5618,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -5629,12 +5633,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KTZ",
 ["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
@@ -5812,13 +5811,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -5829,7 +5827,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "WQZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 120,
 ["actions"] = {
 ["start"] = {
@@ -5997,9 +5996,9 @@ WeakAurasSaved = {
 },
 ["1_Hekili_Trigger"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["desaturate"] = false,
-["xOffset"] = 0,
 ["width"] = 10,
+["xOffset"] = 0,
+["anchorFrameType"] = "SCREEN",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -6038,13 +6037,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 0\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 0\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -6075,7 +6074,7 @@ WeakAurasSaved = {
 ["id"] = "1_Hekili_Trigger",
 ["uid"] = "F8qXJTypfW8",
 ["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 ["rotation"] = 0,
 ["config"] = {
 },
@@ -6180,14 +6179,9 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -6218,7 +6212,12 @@ WeakAurasSaved = {
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -6272,7 +6271,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -6281,24 +6280,31 @@ WeakAurasSaved = {
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -6320,15 +6326,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Heroic Leap (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "Xk6Lcx6KREC",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -6349,6 +6349,10 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["uid"] = "Xk6Lcx6KREC",
+["inverse"] = true,
+["authorOptions"] = {
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -6365,19 +6369,19 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
+["desaturate"] = false,
+},
+["FQ_7_提尔"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["width"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-},
-["FQ_7_提尔"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["width"] = 10,
 ["xOffset"] = 60,
-["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -6387,12 +6391,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "FQ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -6587,9 +6586,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 20,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -6597,11 +6600,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "DRU_T",
 ["actions"] = {
@@ -6795,13 +6794,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["xOffset"] = 130,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -6811,7 +6806,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "FZT",
 ["actions"] = {
@@ -6995,9 +6994,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 0,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -7028,12 +7032,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 0,
 ["parent"] = "DRU_CAT",
 ["actions"] = {
 ["start"] = {
@@ -7052,13 +7051,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 108238\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -7115,13 +7114,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["xOffset"] = 60,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -7150,7 +7145,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "ZS",
 ["actions"] = {
@@ -7316,23 +7315,19 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 30,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
 ["load"] = {
+["use_alive"] = true,
 ["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
 ["class_and_spec"] = {
 ["single"] = 266,
 },
@@ -7340,12 +7335,15 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
 ["size"] = {
 ["multi"] = {
 },
@@ -7353,7 +7351,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 30,
+["authorOptions"] = {
+},
 ["parent"] = "SS",
 ["actions"] = {
 ["start"] = {
@@ -7816,18 +7815,25 @@ WeakAurasSaved = {
 },
 ["zoneIds"] = "",
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[ACTION] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -7849,15 +7855,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Ravager (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "T4HEcipk2ot",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -7877,6 +7877,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "T4HEcipk2ot",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -7947,20 +7951,15 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["WQZ_11_劈顱"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "WQZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -7991,7 +7990,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["xOffset"] = 110,
 ["color"] = {
 1,
 1,
@@ -8145,9 +8144,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "ZS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -8155,12 +8159,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "ZS",
 ["xOffset"] = 20,
 ["actions"] = {
 ["start"] = {
@@ -8370,8 +8369,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["xOffset"] = 30,
-["parent"] = "DRU_T",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -8402,8 +8402,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "DRU_T",
 ["color"] = {
 1,
 1,
@@ -8547,9 +8546,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -8559,12 +8563,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 130,
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
 ["start"] = {
@@ -8626,13 +8625,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 213771\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 213771\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -8722,13 +8721,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "DRU_CAT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "DRU_CAT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -8738,7 +8733,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 120,
 ["actions"] = {
@@ -8818,13 +8817,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 106830\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 106830\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -8969,14 +8968,9 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -9007,7 +9001,12 @@ WeakAurasSaved = {
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -9061,7 +9060,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -9070,24 +9069,31 @@ WeakAurasSaved = {
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -9109,15 +9115,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Shockwave (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "t82oSEo5xQy",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -9137,6 +9137,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "t82oSEo5xQy",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -9167,19 +9171,15 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["XDK_7_爆发"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["parent"] = "XDK",
-["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -9210,8 +9210,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 70,
 ["color"] = {
 1,
 1,
@@ -9491,22 +9490,18 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 32,
-["xOffset"] = 200,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 200,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
 ["load"] = {
+["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 263,
 },
@@ -9514,12 +9509,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_class_and_spec"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
+["use_combat"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -9527,7 +9522,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "SM_ZQ",
 ["actions"] = {
@@ -9665,13 +9664,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 400,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -9679,8 +9679,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 400,
 ["parent"] = "DRU_N",
 ["actions"] = {
 ["start"] = {
@@ -9937,9 +9936,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "Monk_NoTalent",
 ["authorOptions"] = {
 },
-["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -9972,7 +9971,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "Monk_NoTalent",
+["xOffset"] = 90,
 ["color"] = {
 1,
 1,
@@ -10146,13 +10145,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "DRU_CAT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "DRU_CAT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -10162,7 +10157,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 60,
 ["actions"] = {
@@ -10224,13 +10223,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 391528\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 391528\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -10308,13 +10307,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
-["parent"] = "XDK",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -10345,7 +10340,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 30,
 ["actions"] = {
@@ -10575,14 +10574,9 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -10613,7 +10607,12 @@ WeakAurasSaved = {
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -10667,7 +10666,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -10676,24 +10675,31 @@ WeakAurasSaved = {
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -10715,15 +10721,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Piercing Howl (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "aAe)4fw7YRV",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -10743,6 +10743,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "aAe)4fw7YRV",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -10773,12 +10777,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["Shattering Throw (Talent) Prot"] = {
 ["iconSource"] = -1,
@@ -10855,14 +10854,9 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -10893,7 +10887,12 @@ WeakAurasSaved = {
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -10948,7 +10947,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -10957,24 +10956,31 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -10996,15 +11002,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Shattering Throw (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "a8xiNQPbJ7x",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -11024,6 +11024,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "a8xiNQPbJ7x",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -11068,19 +11072,19 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
+["desaturate"] = false,
+},
+["DRUT_4狂暴恢复"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-},
-["DRUT_4狂暴恢复"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
 ["xOffset"] = 30,
-["parent"] = "DRU_T_Hekili",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -11111,12 +11115,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DRU_T_Hekili",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -11287,13 +11286,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 90,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -11302,7 +11300,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 90,
+["authorOptions"] = {
+},
 ["parent"] = "DRU_T",
 ["actions"] = {
 ["start"] = {
@@ -11508,8 +11507,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_CAT",
-["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -11540,12 +11544,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 50,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -11621,13 +11620,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 106951\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 106951\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -11684,13 +11683,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "a4veW69oU)L",
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -11701,7 +11699,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 30,
 ["actions"] = {
 ["start"] = {
@@ -11880,13 +11879,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 110,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -11897,7 +11895,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 110,
+["authorOptions"] = {
+},
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
 ["start"] = {
@@ -11963,13 +11962,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 77758\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 77758\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -12055,13 +12054,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 10,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -12070,7 +12064,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
 ["start"] = {
@@ -12195,13 +12194,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["xOffset"] = 70,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -12230,7 +12225,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "ZS",
 ["actions"] = {
@@ -12382,9 +12381,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
-["xOffset"] = 120,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -12415,11 +12418,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "FQ",
 ["actions"] = {
@@ -12517,13 +12516,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 375576\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -12598,13 +12597,13 @@ WeakAurasSaved = {
 {
 ["trigger"] = {
 ["track"] = "auto",
-["use_charges"] = false,
+["remaining_operator"] = "<",
 ["names"] = {
 "Aspekt des Geparden",
 },
-["use_inverse"] = false,
+["duration"] = "1",
 ["subeventPrefix"] = "SPELL",
-["remaining_operator"] = "<",
+["use_genericShowOn"] = true,
 ["genericShowOn"] = "showAlways",
 ["unit"] = "player",
 ["use_showgcd"] = true,
@@ -12629,9 +12628,9 @@ WeakAurasSaved = {
 },
 ["use_totemName"] = false,
 ["use_unit"] = true,
-["use_genericShowOn"] = true,
+["use_inverse"] = false,
 ["use_track"] = true,
-["duration"] = "1",
+["use_charges"] = false,
 },
 ["untrigger"] = {
 ["showOn"] = "showOnCooldown",
@@ -12643,21 +12642,14 @@ WeakAurasSaved = {
 ["disjunctive"] = "any",
 ["activeTriggerMode"] = 1,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
+["parent"] = "[UTILITY] Prot",
 ["internalVersion"] = 77,
 ["progressSource"] = {
 -1,
 "",
 },
 ["selfPoint"] = "CENTER",
-["parent"] = "[UTILITY] Prot",
+["xOffset"] = 0,
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
@@ -12819,7 +12811,7 @@ WeakAurasSaved = {
 ["HUNTER"] = true,
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -12828,11 +12820,11 @@ WeakAurasSaved = {
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
 ["useTooltip"] = true,
 ["useAdjustededMax"] = false,
@@ -12957,15 +12949,21 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["xOffset"] = 0,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 },
 ["FQ_14_SP"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "FQ",
 ["xOffset"] = 130,
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -12975,7 +12973,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FQ",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -13077,13 +13076,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 193743\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 193743\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -13161,13 +13160,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 100,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -13176,7 +13170,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 100,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "SM_ZQ",
 ["actions"] = {
 ["start"] = {
@@ -13265,11 +13264,11 @@ WeakAurasSaved = {
 ["height"] = 32,
 ["rotate"] = false,
 ["load"] = {
+["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
 ["class_and_spec"] = {
 ["single"] = 263,
 },
@@ -13277,12 +13276,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["use_class_and_spec"] = true,
+["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -13294,13 +13293,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -13310,8 +13310,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 80,
 ["parent"] = "DK_NoTalent",
 ["actions"] = {
 ["start"] = {
@@ -13491,9 +13490,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 20,
 ["authorOptions"] = {
 },
-["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -13503,7 +13502,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 20,
+["parent"] = "KTZ",
 ["color"] = {
 1,
 1,
@@ -13715,13 +13714,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -13729,8 +13729,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 100,
 ["parent"] = "SM_ZQ",
 ["actions"] = {
 ["start"] = {
@@ -13850,8 +13849,11 @@ WeakAurasSaved = {
 ["height"] = 32,
 ["rotate"] = false,
 ["load"] = {
+["class"] = {
+["multi"] = {
+},
+},
 ["use_alive"] = true,
-["use_class_and_spec"] = true,
 ["class_and_spec"] = {
 ["single"] = 263,
 },
@@ -13859,15 +13861,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
 ["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -13879,13 +13878,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 100,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -13896,7 +13890,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 100,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "FZT",
 ["actions"] = {
 ["start"] = {
@@ -14237,18 +14236,25 @@ WeakAurasSaved = {
 ["use_vehicleUi"] = false,
 ["zoneIds"] = "",
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -14270,15 +14276,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Berserker Rage Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "qUGIJR8zi(n",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -14299,6 +14299,10 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["uid"] = "qUGIJR8zi(n",
+["inverse"] = true,
+["authorOptions"] = {
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -14316,24 +14320,15 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["FQ_10_正义盾击"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 90,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -14343,7 +14338,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "FQ",
 ["actions"] = {
@@ -14445,13 +14444,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 53600\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 53600\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -14596,14 +14595,9 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -14634,7 +14628,12 @@ WeakAurasSaved = {
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -14688,7 +14687,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -14697,24 +14696,31 @@ WeakAurasSaved = {
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -14736,15 +14742,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Intimidating Shout (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "O6yw)sBXzKc",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -14764,6 +14764,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "O6yw)sBXzKc",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -14808,24 +14812,19 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["SS_5_打断"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 40,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "SS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -14833,7 +14832,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 40,
+["parent"] = "SS",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -15034,13 +15033,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 40,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -15048,7 +15043,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "DRU_T",
 ["actions"] = {
@@ -15282,13 +15281,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "WQZ",
 ["xOffset"] = 50,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -15319,7 +15313,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -15478,13 +15477,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "CSZ",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -15515,7 +15509,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CSZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 60,
 ["actions"] = {
 ["start"] = {
@@ -15664,13 +15663,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -15681,7 +15679,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 180,
 ["actions"] = {
 ["start"] = {
@@ -15851,13 +15850,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -15865,8 +15865,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 50,
 ["parent"] = "DRU_T",
 ["actions"] = {
 ["start"] = {
@@ -16062,8 +16061,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 0,
-["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -16094,12 +16098,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "FQ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -16315,13 +16314,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 32,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 500,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -16351,8 +16351,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 500,
 ["parent"] = "DRU_N",
 ["actions"] = {
 ["start"] = {
@@ -16583,9 +16582,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 130,
 ["parent"] = "DRU_CAT",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -16615,7 +16613,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 130,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -16695,13 +16694,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1822\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1822\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -16872,7 +16871,8 @@ WeakAurasSaved = {
 ["borderEdge"] = "None",
 ["regionType"] = "group",
 ["borderSize"] = 16,
-["borderInset"] = 11,
+["config"] = {
+},
 ["borderOffset"] = 5,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
@@ -16881,9 +16881,8 @@ WeakAurasSaved = {
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["xOffset"] = 0,
+["borderInset"] = 11,
 ["uid"] = "epMRaidULqK",
-["config"] = {
-},
 ["frameStrata"] = 3,
 ["conditions"] = {
 },
@@ -16988,14 +16987,9 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -17026,7 +17020,12 @@ WeakAurasSaved = {
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -17080,7 +17079,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -17089,24 +17088,31 @@ WeakAurasSaved = {
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -17128,15 +17134,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Challenging Shout (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "6scwBPB7GVF",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -17156,6 +17156,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "6scwBPB7GVF",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -17187,19 +17191,15 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["DRUT_5铁鬃h"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["parent"] = "DRU_T_Hekili",
-["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -17209,8 +17209,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 40,
 ["color"] = {
 1,
 1,
@@ -17277,13 +17276,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 192081\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 192081\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -17373,9 +17372,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "FQ",
 ["authorOptions"] = {
 },
-["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -17406,7 +17405,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FQ",
+["xOffset"] = 40,
 ["color"] = {
 1,
 1,
@@ -17582,13 +17581,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -17619,8 +17619,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "DKT",
 ["xOffset"] = 120,
 ["actions"] = {
 ["start"] = {
@@ -17717,13 +17716,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -17782,13 +17781,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -17819,7 +17814,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 180,
 ["actions"] = {
@@ -17982,9 +17981,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["parent"] = "DKT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -18015,11 +18018,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 30,
 ["actions"] = {
@@ -18179,13 +18178,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 140,
 ["parent"] = "FZT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -18216,7 +18210,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 140,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -18366,13 +18365,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "SS",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -18383,7 +18377,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "SS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 0,
 ["actions"] = {
 ["start"] = {
@@ -18558,13 +18557,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 130,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -18596,7 +18594,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 130,
+["authorOptions"] = {
+},
 ["parent"] = "WQZ",
 ["actions"] = {
 ["start"] = {
@@ -18771,13 +18770,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "DRU_T",
 ["xOffset"] = 100,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -18808,7 +18802,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DRU_T",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -18911,12 +18910,12 @@ WeakAurasSaved = {
 ["event"] = "Health",
 ["unit"] = "player",
 ["custom_type"] = "status",
-["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        if not UnitIsDead(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit)\n        then\n            if WeakAuras.CheckRange(unit, 10, \"<=\")\n            then\n                count = count + 1\n                if count >= 2 then\n                    break\n                end\n            end\n        end\n    end\n    return count >= 2\nend",
-["events"] = "",
-["subeventPrefix"] = "SPELL",
-["check"] = "update",
 ["spellIds"] = {
 },
+["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        if not UnitIsDead(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit)\n        then\n            if WeakAuras.CheckRange(unit, 10, \"<=\")\n            then\n                count = count + 1\n                if count >= 2 then\n                    break\n                end\n            end\n        end\n    end\n    return count >= 2\nend",
+["subeventPrefix"] = "SPELL",
+["check"] = "update",
+["events"] = "",
 ["names"] = {
 },
 ["debuffType"] = "HELPFUL",
@@ -19009,13 +19008,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 70,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -19046,7 +19045,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["parent"] = "FQ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -19147,13 +19146,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 275779\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -19207,13 +19206,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "DRU_CAT",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -19224,7 +19222,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DRU_CAT",
+["authorOptions"] = {
+},
 ["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
@@ -19376,19 +19375,23 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 32,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
 ["load"] = {
+["class"] = {
+["multi"] = {
+},
+},
 ["use_alive"] = true,
-["use_class_and_spec"] = true,
 ["class_and_spec"] = {
 ["single"] = 105,
 },
@@ -19396,15 +19399,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
 ["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -19412,8 +19412,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 100,
 ["parent"] = "DRU_N",
 ["actions"] = {
 ["start"] = {
@@ -19571,13 +19570,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -19609,7 +19607,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KBZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 80,
 ["actions"] = {
 ["start"] = {
@@ -19771,8 +19770,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DKT",
-["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -19803,12 +19807,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 90,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -19906,13 +19905,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195182\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195182\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -19971,9 +19970,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 120,
 ["authorOptions"] = {
 },
-["parent"] = "SS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -19983,7 +19982,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 120,
+["parent"] = "SS",
 ["color"] = {
 1,
 1,
@@ -20053,13 +20052,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 267171\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -20153,13 +20152,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "iggEsVJr4yd",
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -20170,7 +20164,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 90,
 ["actions"] = {
 ["start"] = {
@@ -20340,8 +20339,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 80,
 ["width"] = 10,
-["parent"] = "KTZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -20372,12 +20376,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KTZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -20531,8 +20530,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["parent"] = "KTZ",
 ["xOffset"] = 100,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -20562,8 +20562,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "KTZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -20712,9 +20711,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -20745,12 +20749,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "FQ",
 ["xOffset"] = 100,
 ["actions"] = {
 ["start"] = {
@@ -20850,13 +20849,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 35395\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -20910,13 +20909,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 70,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -20947,7 +20946,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["parent"] = "DKB",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -21044,13 +21043,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 47568\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 47568\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -21106,9 +21105,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -21118,12 +21122,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKB",
 ["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
@@ -21316,9 +21315,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "14G2s3TKooB",
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -21328,7 +21327,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["xOffset"] = 140,
 ["color"] = {
 1,
 1,
@@ -21503,13 +21502,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -21541,7 +21539,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["parent"] = "KBZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
@@ -21696,13 +21695,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "KBZ",
 ["xOffset"] = 60,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -21733,7 +21727,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -21896,13 +21895,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "DKB",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -21933,7 +21932,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DKB",
+["xOffset"] = 160,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -22030,13 +22029,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 383269\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 383269\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -22092,13 +22091,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["xOffset"] = 250,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 250,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -22106,7 +22101,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "SM_ZQ",
 ["actions"] = {
@@ -22183,11 +22182,11 @@ WeakAurasSaved = {
 ["height"] = 32,
 ["rotate"] = false,
 ["load"] = {
-["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 263,
 },
@@ -22195,12 +22194,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
 ["use_class_and_spec"] = true,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -22212,13 +22211,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 100,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -22249,7 +22247,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 100,
+["authorOptions"] = {
+},
 ["parent"] = "SS",
 ["actions"] = {
 ["start"] = {
@@ -22310,13 +22309,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 264178\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -22407,13 +22406,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 70,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -22424,7 +22418,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_T",
 ["actions"] = {
 ["start"] = {
@@ -22595,9 +22594,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 180,
 ["authorOptions"] = {
 },
-["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -22607,7 +22606,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 180,
+["parent"] = "XDK",
 ["color"] = {
 1,
 1,
@@ -22780,10 +22779,10 @@ WeakAurasSaved = {
 },
 ["AOE"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["width"] = 32,
+["anchorFrameType"] = "SCREEN",
 ["authorOptions"] = {
 },
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -22834,14 +22833,14 @@ WeakAurasSaved = {
 ["event"] = "Health",
 ["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
+["spellIds"] = {
+},
 ["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        if not UnitIsDead(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit)\n        then\n            if WeakAuras.CheckRange(unit, 8, \"<=\")\n            then\n                count = count + 1\n                if count >= 2 then\n                    break\n                end\n            end\n        end\n    end\n    return count >= 2\nend",
-["events"] = "",
 ["custom_type"] = "status",
 ["check"] = "update",
 ["names"] = {
 },
-["spellIds"] = {
-},
+["events"] = "",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -22876,7 +22875,7 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["alpha"] = 1,
-["desaturate"] = false,
+["width"] = 32,
 ["rotation"] = 0,
 ["uid"] = "YAd2CUc0QvT",
 ["selfPoint"] = "TOPLEFT",
@@ -22898,13 +22897,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 10,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -22934,7 +22928,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "ZS",
 ["actions"] = {
 ["start"] = {
@@ -23135,13 +23134,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "SS",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -23151,7 +23150,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "SS",
+["xOffset"] = 140,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -23230,13 +23229,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 686\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 686\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -23333,8 +23332,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["parent"] = "FZT",
-["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -23344,8 +23344,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 150,
 ["color"] = {
 1,
 1,
@@ -23520,13 +23519,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 60,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -23535,7 +23533,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
+["authorOptions"] = {
+},
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
 ["start"] = {
@@ -23684,13 +23683,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 130,
 ["parent"] = "KBZ",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -23700,7 +23694,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 130,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -23884,9 +23883,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "ZS",
 ["xOffset"] = 90,
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -23915,7 +23913,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["parent"] = "ZS",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -24083,13 +24082,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "KBZ",
 ["xOffset"] = 90,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -24099,7 +24093,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -24283,8 +24282,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["parent"] = "DRU_T",
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -24315,8 +24315,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 80,
 ["color"] = {
 1,
 1,
@@ -24480,9 +24479,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["xOffset"] = 120,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -24492,11 +24495,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "DH",
 ["actions"] = {
@@ -24667,9 +24666,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -24700,12 +24704,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "FQ",
 ["xOffset"] = 20,
 ["actions"] = {
 ["start"] = {
@@ -24893,13 +24892,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 40,
 ["parent"] = "DRU_CAT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -24909,7 +24903,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 40,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -24989,13 +24988,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 391888\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 391888\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -25069,8 +25068,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 90,
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -25080,12 +25084,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKB",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -25179,13 +25178,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 196770\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -25265,8 +25264,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["parent"] = "KBZ",
-["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -25297,8 +25297,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 140,
 ["color"] = {
 1,
 1,
@@ -25452,8 +25451,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 170,
-["parent"] = "SS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -25483,12 +25487,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "SS",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -25553,13 +25552,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 206983\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -25615,13 +25614,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -25630,7 +25628,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 10,
+["authorOptions"] = {
+},
 ["parent"] = "WQZ",
 ["actions"] = {
 ["start"] = {
@@ -25808,13 +25807,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "DKT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -25824,7 +25823,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["xOffset"] = 100,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -25926,13 +25925,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 343294\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 343294\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -26008,13 +26007,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["xOffset"] = 120,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26045,7 +26040,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
@@ -26111,13 +26110,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 33917\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 33917\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -26228,18 +26227,22 @@ WeakAurasSaved = {
 },
 ["columnSpace"] = 1,
 ["internalVersion"] = 77,
-["gridWidth"] = 5,
+["alpha"] = 1,
 ["selfPoint"] = "CENTER",
 ["align"] = "CENTER",
-["regionType"] = "dynamicgroup",
-["arcLength"] = 360,
-["radius"] = 200,
-["stagger"] = 0,
+["limit"] = 5,
+["sortHybridTable"] = {
+["Spell Reflection (Talent) Prot"] = false,
+["Shield Charge (Talent)"] = false,
+["Demolish (Hero) Prot"] = false,
+},
 ["useLimit"] = false,
+["stagger"] = 0,
+["parent"] = "Doctorio [WARRIOR] Protection",
 ["version"] = 24,
 ["subRegions"] = {
 },
-["parent"] = "Doctorio [WARRIOR] Protection",
+["arcLength"] = 360,
 ["xOffset"] = 0,
 ["load"] = {
 ["talent"] = {
@@ -26287,25 +26290,25 @@ WeakAurasSaved = {
 },
 ["config"] = {
 },
+["source"] = "import",
 ["animate"] = false,
-["uid"] = ")WlhaYlddvK",
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
 ["stepAngle"] = 15,
 ["borderSize"] = 2,
-["limit"] = 5,
-["source"] = "import",
-["alpha"] = 1,
+["sort"] = "none",
+["regionType"] = "dynamicgroup",
+["frameStrata"] = 1,
 ["constantFactor"] = "RADIUS",
 ["rotation"] = 0,
 ["borderOffset"] = 4,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "[ACTION] Prot",
-["sort"] = "none",
-["frameStrata"] = 1,
+["uid"] = ")WlhaYlddvK",
+["gridWidth"] = 5,
 ["anchorFrameType"] = "SCREEN",
 ["space"] = 1,
 ["borderInset"] = 1,
@@ -26320,23 +26323,19 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["sortHybridTable"] = {
-["Spell Reflection (Talent) Prot"] = false,
-["Shield Charge (Talent)"] = false,
-["Demolish (Hero) Prot"] = false,
-},
+["radius"] = 200,
 },
 ["DKB_15_寒冰联结"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 140,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -26346,7 +26345,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 140,
+["parent"] = "DKB",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -26440,13 +26439,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 305392\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -26526,13 +26525,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "SS",
 ["xOffset"] = 110,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -26542,7 +26536,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "SS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -26608,13 +26607,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 265187\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 265187\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -26708,9 +26707,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26741,12 +26745,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKB",
 ["xOffset"] = 130,
 ["actions"] = {
 ["start"] = {
@@ -26839,13 +26838,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194913\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194913\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -26904,9 +26903,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "DKT",
 ["xOffset"] = 140,
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -26916,7 +26914,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -27018,13 +27017,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194844\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194844\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -27104,13 +27103,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 50,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -27140,7 +27138,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 50,
+["authorOptions"] = {
+},
 ["parent"] = "DRU_N",
 ["actions"] = {
 ["start"] = {
@@ -27318,23 +27317,22 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 0,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
 ["load"] = {
-["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 263,
 },
@@ -27342,12 +27340,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
 ["use_class_and_spec"] = true,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -27355,7 +27353,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 0,
+["authorOptions"] = {
+},
 ["parent"] = "SM_ZQ",
 ["actions"] = {
 ["start"] = {
@@ -27451,13 +27450,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "7tUTX8BdgLH",
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["xOffset"] = 130,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -27467,7 +27461,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -27638,13 +27637,8 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["xOffset"] = 150,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -27675,7 +27669,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CSZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -27824,13 +27823,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 160,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "SS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -27840,7 +27839,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 160,
+["parent"] = "SS",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -27906,13 +27905,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 207579\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 207579\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -27987,9 +27986,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "WQZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -28020,7 +28019,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["xOffset"] = 40,
 ["color"] = {
 1,
 1,
@@ -28183,13 +28182,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -28199,8 +28199,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "XDK",
 ["xOffset"] = 100,
 ["actions"] = {
 ["start"] = {
@@ -28370,13 +28369,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 80,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -28386,7 +28381,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "FQ",
 ["actions"] = {
@@ -28488,13 +28487,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 24275\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 24275\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -28568,9 +28567,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "DKT",
 ["xOffset"] = 50,
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -28580,7 +28578,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -28764,13 +28763,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 130,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -28801,7 +28800,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 130,
+["parent"] = "XDK",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -28951,13 +28950,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["xOffset"] = 110,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -28988,7 +28983,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "DH",
 ["actions"] = {
@@ -29138,9 +29137,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29150,12 +29154,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 170,
 ["parent"] = "KBZ",
 ["actions"] = {
 ["start"] = {
@@ -29396,14 +29395,9 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -29434,7 +29428,12 @@ WeakAurasSaved = {
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -29487,7 +29486,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -29496,24 +29495,31 @@ WeakAurasSaved = {
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -29535,15 +29541,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Pummel Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "oaV3(no0(X(",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -29563,6 +29563,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "oaV3(no0(X(",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -29609,24 +29613,15 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["XDK_17_SP"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["parent"] = "XDK",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29636,7 +29631,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 170,
 ["actions"] = {
@@ -29807,13 +29806,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -29844,7 +29843,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 10,
+["parent"] = "DKT",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -30143,9 +30142,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 80,
 ["authorOptions"] = {
 },
-["parent"] = "DRU_T_Hekili",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -30176,7 +30175,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 80,
+["parent"] = "DRU_T_Hekili",
 ["color"] = {
 1,
 1,
@@ -30246,13 +30245,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 400254\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -30525,12 +30524,12 @@ WeakAurasSaved = {
 ["text_text_format_2.p_format"] = "timed",
 ["text_text_format_1.p_time_precision"] = 1,
 ["type"] = "subtext",
+["text_text_format_3.p_time_dynamic_threshold"] = 0,
 ["text_text_format_1.p_time_dynamic_threshold"] = 3,
-["text_text_format_2.p_time_dynamic_threshold"] = 0,
 ["text_font"] = "Expressway",
 ["text_text_format_1.p_format"] = "timed",
 ["text_anchorYOffset"] = 15,
-["text_text_format_3.p_time_dynamic_threshold"] = 0,
+["text_text_format_2.p_time_dynamic_threshold"] = 0,
 ["text_text_format_3.p_format"] = "timed",
 ["text_shadowXOffset"] = 0,
 ["text_anchorPoint"] = "CENTER",
@@ -30613,18 +30612,25 @@ WeakAurasSaved = {
 ["spellknown"] = 307865,
 ["use_covenant"] = true,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[ACTION] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -30646,15 +30652,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Champion's Spear Champion's Might (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "fxJOQzY2Kv4",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -30674,6 +30674,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "fxJOQzY2Kv4",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -30742,24 +30746,19 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["Monk_6_轮回"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "Monk_NoTalent",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -30769,7 +30768,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "Monk_NoTalent",
+["xOffset"] = 60,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -30945,9 +30944,9 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -30978,7 +30977,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CSZ",
+["xOffset"] = 40,
 ["color"] = {
 1,
 1,
@@ -31131,8 +31130,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "XDK",
-["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -31142,12 +31146,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 50,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -31318,9 +31317,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "FZT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -31351,11 +31354,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 80,
 ["actions"] = {
@@ -31628,9 +31627,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -31640,12 +31644,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 80,
 ["parent"] = "DKB",
 ["actions"] = {
 ["start"] = {
@@ -31831,13 +31830,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 50,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -31869,7 +31867,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 50,
+["authorOptions"] = {
+},
 ["parent"] = "FZT",
 ["actions"] = {
 ["start"] = {
@@ -32044,13 +32043,8 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["xOffset"] = 120,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -32081,7 +32075,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CSZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -32230,13 +32229,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 90,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -32267,7 +32266,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 90,
+["parent"] = "XDK",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -32417,12 +32416,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 150,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -32433,8 +32433,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "KTZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -32604,9 +32603,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "WQZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -32616,7 +32615,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "WQZ",
+["xOffset"] = 100,
 ["color"] = {
 1,
 1,
@@ -32791,13 +32790,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "SDmKUpIdEEy",
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -32808,7 +32806,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 50,
 ["actions"] = {
 ["start"] = {
@@ -32977,9 +32976,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 90,
 ["authorOptions"] = {
 },
-["parent"] = "SS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -32989,7 +32988,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 90,
+["parent"] = "SS",
 ["color"] = {
 1,
 1,
@@ -33055,13 +33054,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 111898\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -33073,8 +33072,8 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_spellIds"] = true,
+["use_inverse"] = false,
 ["use_absorbMode"] = true,
-["use_genericShowOn"] = true,
 ["event"] = "Cast",
 ["unit"] = "player",
 ["realSpellName"] = 0,
@@ -33085,7 +33084,7 @@ WeakAurasSaved = {
 },
 ["use_unit"] = true,
 ["genericShowOn"] = "showOnCooldown",
-["use_inverse"] = false,
+["use_genericShowOn"] = true,
 ["use_track"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -33165,13 +33164,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 250,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -33200,8 +33200,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 250,
 ["parent"] = "DRU_N",
 ["actions"] = {
 ["start"] = {
@@ -33423,9 +33422,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["parent"] = "KTZ",
 ["authorOptions"] = {
 },
+["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -33455,7 +33454,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 160,
+["parent"] = "KTZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -33604,13 +33603,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 350,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 350,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -33641,7 +33636,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "DRU_N",
 ["actions"] = {
@@ -33941,8 +33940,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
 ["xOffset"] = 170,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -33953,12 +33957,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KTZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -34254,13 +34253,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -34270,7 +34269,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 90,
+["parent"] = "KTZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -34439,9 +34438,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 300,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 300,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -34451,11 +34454,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "DRU_N",
 ["actions"] = {
@@ -34732,8 +34731,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 110,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -34744,12 +34748,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KTZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -34918,13 +34917,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "CSZ",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -34956,7 +34950,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CSZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 100,
 ["actions"] = {
 ["start"] = {
@@ -35105,9 +35104,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "FZT",
 ["authorOptions"] = {
 },
-["xOffset"] = 180,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35138,7 +35137,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FZT",
+["xOffset"] = 180,
 ["color"] = {
 1,
 1,
@@ -35292,13 +35291,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35329,7 +35328,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CSZ",
+["xOffset"] = 80,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -35479,9 +35478,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35512,12 +35516,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 170,
 ["parent"] = "WQZ",
 ["actions"] = {
 ["start"] = {
@@ -35666,9 +35665,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 70,
 ["parent"] = "FZT",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35699,7 +35697,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -35896,13 +35895,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 70,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "SS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35932,7 +35931,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["parent"] = "SS",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -35994,13 +35993,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 196277\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 196277\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -36078,13 +36077,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -36094,7 +36089,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 50,
 ["actions"] = {
@@ -36264,13 +36263,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
-["xOffset"] = 110,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -36301,7 +36296,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "FZT",
 ["actions"] = {
@@ -36484,9 +36483,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["parent"] = "XDK",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -36496,11 +36499,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 80,
 ["actions"] = {
@@ -36887,18 +36886,25 @@ WeakAurasSaved = {
 ["use_vehicleUi"] = false,
 ["zoneIds"] = "",
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[COOLDOWNS] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -36920,15 +36926,9 @@ WeakAurasSaved = {
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Shield Wall (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "WFlLOCT4pJy",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -36948,6 +36948,10 @@ WeakAurasSaved = {
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "WFlLOCT4pJy",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -37034,24 +37038,20 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["SS_14_能量虹吸"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "SS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -37081,8 +37081,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "SS",
 ["xOffset"] = 130,
 ["actions"] = {
 ["start"] = {
@@ -37143,13 +37142,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 264130\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -37227,13 +37226,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "r4IM3Ywf4jc",
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -37244,7 +37242,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 110,
 ["actions"] = {
 ["start"] = {
@@ -37414,12 +37413,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 120,
 ["width"] = 10,
-["parent"] = "KTZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -37450,8 +37450,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "KTZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -37600,9 +37599,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "DH",
 ["authorOptions"] = {
 },
-["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -37633,7 +37632,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DH",
+["xOffset"] = 90,
 ["color"] = {
 1,
 1,
@@ -37788,13 +37787,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 180,
+["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -37804,7 +37798,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -37987,13 +37986,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "DKT",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -38025,7 +38019,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 130,
 ["actions"] = {
 ["start"] = {
@@ -38122,13 +38121,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -38187,13 +38186,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "WQZ",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -38225,7 +38219,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 160,
 ["actions"] = {
 ["start"] = {
@@ -38495,9 +38494,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -38528,12 +38532,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "XDK",
 ["xOffset"] = 60,
 ["actions"] = {
 ["start"] = {
@@ -38682,9 +38681,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "WQZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -38694,7 +38693,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "WQZ",
+["xOffset"] = 150,
 ["color"] = {
 1,
 1,
@@ -38895,20 +38894,18 @@ WeakAurasSaved = {
 ["itemName"] = 158320,
 ["use_genericShowOn"] = true,
 ["remaining_operator"] = "<",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["duration"] = "1",
 ["genericShowOn"] = "showAlways",
-["names"] = {
-"Chi Burst",
-},
+["use_unit"] = true,
 ["remaining"] = "600",
 ["itemSlot"] = 14,
 ["rem"] = "2.5",
-["custom_hide"] = "timed",
-["buffShowOn"] = "showOnActive",
-["realSpellName"] = "Chi Burst",
-["spellName"] = 123986,
 ["debuffType"] = "HELPFUL",
+["spellName"] = 123986,
+["realSpellName"] = "Chi Burst",
+["buffShowOn"] = "showOnActive",
+["custom_hide"] = "timed",
 ["use_itemName"] = true,
 ["use_remaining"] = true,
 ["unit"] = "player",
@@ -38923,7 +38920,9 @@ WeakAurasSaved = {
 },
 ["use_testForCooldown"] = true,
 ["remOperator"] = "<=",
-["subeventPrefix"] = "SPELL",
+["names"] = {
+"Chi Burst",
+},
 ["ownOnly"] = true,
 ["useRem"] = true,
 },
@@ -39073,7 +39072,7 @@ true,
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -39082,11 +39081,11 @@ true,
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
 ["desaturate"] = false,
 ["useAdjustededMax"] = false,
@@ -39095,7 +39094,10 @@ true,
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["parent"] = "[COOLDOWNS] Prot",
-["icon"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -39111,6 +39113,12 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Trinket 2 Prot",
+["icon"] = true,
+["frameStrata"] = 3,
+["width"] = 35,
+["cooldownEdge"] = true,
+["uid"] = "3CQWhyDahVW",
+["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -39131,12 +39139,6 @@ true,
 ["easeType"] = "none",
 },
 },
-["frameStrata"] = 3,
-["width"] = 35,
-["preferToUpdate"] = false,
-["uid"] = "3CQWhyDahVW",
-["inverse"] = true,
-["cooldownEdge"] = true,
 ["conditions"] = {
 {
 ["check"] = {
@@ -39184,22 +39186,15 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["preferToUpdate"] = false,
 },
 ["DKT_7_心打"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -39209,7 +39204,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 70,
 ["actions"] = {
@@ -39307,13 +39306,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 206930\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 206930\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -39544,18 +39543,25 @@ true,
 ["use_vehicleUi"] = false,
 ["zoneIds"] = "",
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[ACTION] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -39577,15 +39583,9 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Avatar (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "Hn2jwqqV)sn",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -39605,6 +39605,10 @@ true,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "Hn2jwqqV)sn",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -39636,24 +39640,14 @@ true,
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["DH_7_混沌"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 70,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -39685,7 +39679,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DH",
 ["actions"] = {
 ["start"] = {
@@ -39834,9 +39833,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "WQZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -39846,7 +39845,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "WQZ",
+["xOffset"] = 80,
 ["color"] = {
 1,
 1,
@@ -40021,9 +40020,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "Q1ckD5u0KZu",
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["xOffset"] = 70,
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -40033,7 +40031,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -40208,13 +40207,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "SS",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -40245,7 +40239,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "SS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 150,
 ["actions"] = {
 ["start"] = {
@@ -40306,13 +40305,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 208321\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -40371,8 +40370,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["xOffset"] = 100,
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -40403,8 +40403,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "DKB",
 ["color"] = {
 1,
 1,
@@ -40502,13 +40501,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49184\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49184\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -40567,9 +40566,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 70,
 ["parent"] = "DRU_CAT",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -40600,7 +40598,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -40683,13 +40682,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274837\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274837\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -40743,13 +40742,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -40760,7 +40758,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "WQZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 60,
 ["actions"] = {
 ["start"] = {
@@ -40930,13 +40929,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["xOffset"] = 30,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -40967,7 +40962,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "FZT",
 ["actions"] = {
@@ -41139,9 +41138,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "XDK",
 ["authorOptions"] = {
 },
-["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -41172,7 +41171,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XDK",
+["xOffset"] = 40,
 ["color"] = {
 1,
 1,
@@ -41335,13 +41334,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "FQ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 10,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -41349,7 +41348,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FQ",
+["xOffset"] = 10,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -41574,13 +41573,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 80,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "Monk_NoTalent",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -41590,7 +41589,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 80,
+["parent"] = "Monk_NoTalent",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -41817,13 +41816,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -41855,7 +41853,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 90,
 ["actions"] = {
 ["start"] = {
@@ -42143,9 +42142,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -42176,12 +42180,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 100,
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
 ["start"] = {
@@ -42243,13 +42242,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 8921\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 8921\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -42555,9 +42554,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 100,
 ["parent"] = "DRU_CAT",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -42567,7 +42565,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 100,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -42647,13 +42646,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 285381\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 285381\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -42731,13 +42730,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -42748,7 +42746,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "WQZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 140,
 ["actions"] = {
 ["start"] = {
@@ -42918,13 +42917,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "DRU_CAT",
 ["xOffset"] = 20,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -42932,7 +42926,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DRU_CAT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -43082,13 +43081,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -43096,8 +43096,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 80,
 ["parent"] = "ZS",
 ["actions"] = {
 ["start"] = {
@@ -43269,13 +43268,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "WQZ",
 ["xOffset"] = 70,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -43306,7 +43300,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -43456,14 +43455,22 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 0,
-["parent"] = "DKT_HINT",
 ["mirror"] = false,
 ["yOffset"] = 50,
 ["regionType"] = "texture",
 ["load"] = {
+["class"] = {
+["multi"] = {
+},
+},
 ["use_alive"] = true,
-["use_class_and_spec"] = true,
 ["class_and_spec"] = {
 ["single"] = 250,
 },
@@ -43471,15 +43478,12 @@ true,
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
 ["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -43487,12 +43491,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKT_HINT",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -43576,8 +43575,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "KBZ",
-["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -43608,12 +43612,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 30,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -43773,13 +43772,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "FZT",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -43788,7 +43782,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
@@ -43988,8 +43987,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["xOffset"] = 10,
-["parent"] = "SS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -44020,8 +44020,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "SS",
 ["color"] = {
 1,
 1,
@@ -44168,13 +44167,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
-["parent"] = "DRU_CAT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "DRU_CAT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -44205,7 +44200,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 90,
 ["actions"] = {
@@ -44281,13 +44280,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1079\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1079\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -44344,8 +44343,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_CAT",
-["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -44355,12 +44359,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 140,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -44436,13 +44435,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 5221\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 5221\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -44520,9 +44519,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 50,
 ["parent"] = "FQ",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -44532,7 +44530,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 50,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -44750,8 +44749,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_CAT",
-["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -44782,12 +44786,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 110,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -44866,13 +44865,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 202028\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 202028\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -44926,13 +44925,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 110,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -44943,7 +44941,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 110,
+["authorOptions"] = {
+},
 ["parent"] = "FQ",
 ["actions"] = {
 ["start"] = {
@@ -45044,13 +45043,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 26573\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 26573\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -45124,9 +45123,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -45157,12 +45161,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 120,
 ["parent"] = "FZT",
 ["actions"] = {
 ["start"] = {
@@ -45311,9 +45310,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "CSZ",
 ["xOffset"] = 170,
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -45323,7 +45321,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CSZ",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -45498,8 +45497,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 10,
-["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -45507,12 +45511,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "XDK",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -45725,9 +45724,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -45735,12 +45739,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 50,
 ["parent"] = "SM_ZQ",
 ["actions"] = {
 ["start"] = {
@@ -45833,8 +45832,11 @@ true,
 ["height"] = 32,
 ["rotate"] = false,
 ["load"] = {
+["class"] = {
+["multi"] = {
+},
+},
 ["use_alive"] = true,
-["use_class_and_spec"] = true,
 ["class_and_spec"] = {
 ["single"] = 263,
 },
@@ -45842,15 +45844,12 @@ true,
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
 ["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -45888,20 +45887,18 @@ true,
 ["itemName"] = 158320,
 ["use_genericShowOn"] = true,
 ["remaining_operator"] = "<",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["duration"] = "1",
 ["genericShowOn"] = "showAlways",
-["names"] = {
-"Chi Burst",
-},
+["use_unit"] = true,
 ["remaining"] = "600",
 ["itemSlot"] = 13,
 ["rem"] = "2.5",
-["custom_hide"] = "timed",
-["buffShowOn"] = "showOnActive",
-["realSpellName"] = "Chi Burst",
-["spellName"] = 123986,
 ["debuffType"] = "HELPFUL",
+["spellName"] = 123986,
+["realSpellName"] = "Chi Burst",
+["buffShowOn"] = "showOnActive",
+["custom_hide"] = "timed",
 ["use_itemName"] = true,
 ["use_remaining"] = true,
 ["unit"] = "player",
@@ -45916,7 +45913,9 @@ true,
 },
 ["use_testForCooldown"] = true,
 ["remOperator"] = "<=",
-["subeventPrefix"] = "SPELL",
+["names"] = {
+"Chi Burst",
+},
 ["ownOnly"] = true,
 ["useRem"] = true,
 },
@@ -46066,7 +46065,7 @@ true,
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -46075,11 +46074,11 @@ true,
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
 ["desaturate"] = false,
 ["useAdjustededMax"] = false,
@@ -46088,7 +46087,10 @@ true,
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["parent"] = "[COOLDOWNS] Prot",
-["icon"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -46104,6 +46106,12 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Trinket 1 Prot",
+["icon"] = true,
+["frameStrata"] = 3,
+["width"] = 35,
+["cooldownEdge"] = true,
+["uid"] = "hmiXW97T5wB",
+["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -46124,12 +46132,6 @@ true,
 ["easeType"] = "none",
 },
 },
-["frameStrata"] = 3,
-["width"] = 35,
-["preferToUpdate"] = false,
-["uid"] = "hmiXW97T5wB",
-["inverse"] = true,
-["cooldownEdge"] = true,
 ["conditions"] = {
 {
 ["check"] = {
@@ -46177,22 +46179,14 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["preferToUpdate"] = false,
 },
 ["DRUT_13_横扫"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "DRU_T",
 ["xOffset"] = 120,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -46223,7 +46217,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DRU_T",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -46542,14 +46541,9 @@ true,
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -46580,7 +46574,12 @@ true,
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -46635,7 +46634,7 @@ true,
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -46644,24 +46643,31 @@ true,
 ["multi"] = {
 },
 },
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[UTILITY] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -46683,15 +46689,9 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Wrecking Throw (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "Ri7KbY7gjIC",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -46711,6 +46711,10 @@ true,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "Ri7KbY7gjIC",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -46741,12 +46745,7 @@ true,
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["DK_NoTalent"] = {
 ["backdropColor"] = {
@@ -46867,9 +46866,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
 ["authorOptions"] = {
 },
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -46879,7 +46878,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 130,
+["parent"] = "KTZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -47046,10 +47045,10 @@ true,
 },
 ["1_bg"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["desaturate"] = false,
+["anchorFrameType"] = "SCREEN",
 ["authorOptions"] = {
 },
-["anchorFrameType"] = "SCREEN",
+["width"] = 200,
 ["mirror"] = false,
 ["yOffset"] = 5,
 ["regionType"] = "texture",
@@ -47136,7 +47135,7 @@ true,
 ["config"] = {
 },
 ["alpha"] = 1,
-["width"] = 200,
+["desaturate"] = false,
 ["rotation"] = 0,
 ["uid"] = "J6BeZI7xicE",
 ["selfPoint"] = "BOTTOMLEFT",
@@ -47156,13 +47155,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 0,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 0,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -47170,7 +47165,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "DRU_N",
 ["actions"] = {
@@ -47286,11 +47285,11 @@ true,
 ["height"] = 32,
 ["rotate"] = false,
 ["load"] = {
+["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 105,
 },
@@ -47298,12 +47297,12 @@ true,
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_class_and_spec"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
+["use_combat"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -47315,9 +47314,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 0,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -47348,12 +47352,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 0,
 ["parent"] = "DRU_T_Hekili",
 ["actions"] = {
 ["start"] = {
@@ -47375,13 +47374,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 108238\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 108238\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -47435,9 +47434,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -47470,12 +47474,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 70,
 ["parent"] = "DK_NoTalent",
 ["actions"] = {
 ["start"] = {
@@ -47632,13 +47631,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 110,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -47669,7 +47668,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 110,
+["parent"] = "XDK",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -47819,13 +47818,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "DKT",
 ["xOffset"] = 40,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -47835,7 +47829,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -48015,9 +48014,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 110,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -48027,11 +48030,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "DKT",
 ["actions"] = {
@@ -48133,13 +48132,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195292\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195292\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -48258,18 +48257,28 @@ true,
 },
 ["columnSpace"] = 1,
 ["internalVersion"] = 77,
-["gridWidth"] = 5,
+["alpha"] = 1,
 ["selfPoint"] = "CENTER",
 ["align"] = "CENTER",
-["regionType"] = "dynamicgroup",
-["arcLength"] = 360,
-["radius"] = 200,
-["stagger"] = 0,
+["limit"] = 5,
+["sortHybridTable"] = {
+["Trinket 2 Prot"] = false,
+["Champion's Spear Champion's Might (Talent) Prot"] = false,
+["Avatar (Talent) Prot"] = false,
+["Trinket 1 Prot"] = false,
+["Shield Wall (Talent) Prot"] = false,
+["Spell Block (Talent) Prot"] = false,
+["Ravager (Talent) Prot"] = false,
+["Champion's Spear (Talent) Prot"] = false,
+["Thunderous Roar (Talent) Prot"] = false,
+},
 ["useLimit"] = false,
+["stagger"] = 0,
+["parent"] = "Doctorio [WARRIOR] Protection",
 ["version"] = 24,
 ["subRegions"] = {
 },
-["parent"] = "Doctorio [WARRIOR] Protection",
+["arcLength"] = 360,
 ["xOffset"] = 0,
 ["load"] = {
 ["talent"] = {
@@ -48317,25 +48326,25 @@ true,
 },
 ["config"] = {
 },
+["source"] = "import",
 ["animate"] = false,
-["uid"] = "ZkHIsqlRsaB",
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
 ["stepAngle"] = 15,
 ["borderSize"] = 2,
-["limit"] = 5,
-["source"] = "import",
-["alpha"] = 1,
+["sort"] = "none",
+["regionType"] = "dynamicgroup",
+["frameStrata"] = 1,
 ["constantFactor"] = "RADIUS",
 ["rotation"] = 0,
 ["borderOffset"] = 4,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "[COOLDOWNS] Prot",
-["sort"] = "none",
-["frameStrata"] = 1,
+["uid"] = "ZkHIsqlRsaB",
+["gridWidth"] = 5,
 ["anchorFrameType"] = "SCREEN",
 ["space"] = 1,
 ["borderInset"] = 1,
@@ -48350,29 +48359,14 @@ true,
 },
 ["information"] = {
 },
-["sortHybridTable"] = {
-["Trinket 2 Prot"] = false,
-["Champion's Spear Champion's Might (Talent) Prot"] = false,
-["Avatar (Talent) Prot"] = false,
-["Trinket 1 Prot"] = false,
-["Shield Wall (Talent) Prot"] = false,
-["Spell Block (Talent) Prot"] = false,
-["Ravager (Talent) Prot"] = false,
-["Champion's Spear (Talent) Prot"] = false,
-["Thunderous Roar (Talent) Prot"] = false,
-},
+["radius"] = 200,
 },
 ["DKT_8_血沸"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 80,
 ["parent"] = "DKT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -48403,7 +48397,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 80,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -48504,13 +48503,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 50842\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 50842\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -48566,13 +48565,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "KBZ",
 ["xOffset"] = 120,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -48603,7 +48597,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -48753,13 +48752,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "DKT",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -48770,7 +48764,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 180,
 ["actions"] = {
 ["start"] = {
@@ -48871,13 +48870,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 46585\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 46585\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -49160,12 +49159,12 @@ true,
 ["text_text_format_2.p_format"] = "timed",
 ["text_text_format_1.p_time_precision"] = 1,
 ["type"] = "subtext",
+["text_text_format_3.p_time_dynamic_threshold"] = 0,
 ["text_text_format_1.p_time_dynamic_threshold"] = 3,
-["text_text_format_2.p_time_dynamic_threshold"] = 0,
 ["text_font"] = "Expressway",
 ["text_text_format_1.p_format"] = "timed",
 ["text_anchorYOffset"] = 15,
-["text_text_format_3.p_time_dynamic_threshold"] = 0,
+["text_text_format_2.p_time_dynamic_threshold"] = 0,
 ["text_text_format_3.p_format"] = "timed",
 ["text_shadowXOffset"] = 0,
 ["text_anchorPoint"] = "CENTER",
@@ -49249,18 +49248,25 @@ true,
 ["spellknown"] = 307865,
 ["use_covenant"] = true,
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[ACTION] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -49282,15 +49288,9 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Champion's Spear (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "s1zysmUfBkg",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -49310,6 +49310,10 @@ true,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
+},
+["uid"] = "s1zysmUfBkg",
+["inverse"] = true,
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -49378,24 +49382,18 @@ true,
 },
 },
 ["cooldown"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["desaturate"] = false,
 },
 ["KBZ_4_药水"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -49406,7 +49404,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 40,
 ["actions"] = {
 ["start"] = {
@@ -49886,12 +49885,12 @@ true,
 ["text_text_format_2.p_format"] = "timed",
 ["text_shadowXOffset"] = 0,
 ["type"] = "subtext",
-["text_text_format_2.p_time_dynamic_threshold"] = 60,
+["text_text_format_3.p_time_dynamic_threshold"] = 0,
 ["text_text_format_1.p_format"] = "timed",
 ["text_font"] = "Expressway",
-["text_text_format_1.p_time_dynamic_threshold"] = 0,
+["text_text_format_2.p_time_dynamic_threshold"] = 60,
 ["text_text_format_3.p_format"] = "timed",
-["text_text_format_3.p_time_dynamic_threshold"] = 0,
+["text_text_format_1.p_time_dynamic_threshold"] = 0,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_text_format_p_time_precision"] = 1,
 ["text_anchorPoint"] = "CENTER",
@@ -49988,27 +49987,34 @@ true,
 ["multi"] = {
 },
 },
+["use_spec"] = true,
+["use_vehicleUi"] = false,
 ["herotalent"] = {
 ["multi"] = {
 [117415] = true,
 },
 },
-["use_spec"] = true,
-["use_vehicleUi"] = false,
 ["use_herotalent"] = false,
 ["zoneIds"] = "",
 },
-["desaturate"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["useAdjustededMax"] = false,
-["internalVersion"] = 77,
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["preferToUpdate"] = false,
+["selfPoint"] = "CENTER",
 ["parent"] = "[ACTION] Prot",
-["keepAspectRatio"] = true,
+["internalVersion"] = 77,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -50023,14 +50029,13 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Demolish (Hero) Prot",
-["selfPoint"] = "CENTER",
+["keepAspectRatio"] = true,
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
+["xOffset"] = 0,
 ["uid"] = "xYNoKZaqN1J",
 ["inverse"] = true,
-["xOffset"] = 0,
+["desaturate"] = false,
 ["conditions"] = {
 {
 ["check"] = {
@@ -50110,26 +50115,15 @@ true,
 },
 },
 ["cooldown"] = true,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["authorOptions"] = {
 },
 },
 ["KBZ_10_斩杀"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 100,
 ["parent"] = "KBZ",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -50160,7 +50154,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 100,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -50323,22 +50322,18 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 150,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
 ["load"] = {
+["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
 ["class_and_spec"] = {
 ["single"] = 263,
 },
@@ -50346,12 +50341,12 @@ true,
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["use_class_and_spec"] = true,
+["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -50359,7 +50354,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "SM_ZQ",
 ["actions"] = {
@@ -50457,9 +50456,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 120,
 ["authorOptions"] = {
 },
-["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -50469,7 +50468,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 120,
+["parent"] = "XDK",
 ["color"] = {
 1,
 1,
@@ -50763,13 +50762,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 60,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -50801,7 +50795,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_T",
 ["actions"] = {
 ["start"] = {
@@ -50927,9 +50926,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -50939,12 +50943,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 110,
 ["parent"] = "DRU_T",
 ["actions"] = {
 ["start"] = {
@@ -51171,7 +51170,7 @@ true,
 },
 },
 ["stickyDuration"] = false,
-["desaturate"] = false,
+["alpha"] = 1,
 ["version"] = 24,
 ["subRegions"] = {
 {
@@ -51241,8 +51240,7 @@ true,
 },
 },
 ["height"] = 25,
-["authorOptions"] = {
-},
+["internalVersion"] = 77,
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -51292,7 +51290,7 @@ true,
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -51301,27 +51299,30 @@ true,
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["preferToUpdate"] = false,
+["icon"] = true,
 ["useAdjustededMax"] = false,
 ["cooldown"] = true,
 ["source"] = "import",
 ["displayIcon"] = "",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
-["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["config"] = {
 },
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["xOffset"] = 0,
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
-["frameStrata"] = 3,
+["selfPoint"] = "CENTER",
 ["anchorFrameParent"] = false,
 ["zoom"] = 0.3,
 ["semver"] = "1.0.23",
@@ -51329,20 +51330,18 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Storm Bolt (Talent) Prot",
-["icon"] = true,
-["alpha"] = 1,
-["width"] = 25,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["frameStrata"] = 3,
+["width"] = 25,
+["preferToUpdate"] = false,
 ["uid"] = "VQwQ(QwTKmp",
 ["inverse"] = true,
-["progressSource"] = {
--1,
-"",
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -51376,19 +51375,18 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["internalVersion"] = 77,
+["xOffset"] = 0,
 },
 ["SS_3_药水"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "SS",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -51399,7 +51397,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "SS",
+["authorOptions"] = {
+},
 ["xOffset"] = 20,
 ["actions"] = {
 ["start"] = {
@@ -51608,9 +51607,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 40,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "KTZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -51620,11 +51623,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -51794,8 +51793,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["xOffset"] = 60,
-["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -51826,8 +51826,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "FZT",
 ["color"] = {
 1,
 1,
@@ -51991,13 +51990,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 20,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -52028,7 +52027,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CSZ",
+["xOffset"] = 20,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -52262,7 +52261,7 @@ true,
 },
 },
 ["stickyDuration"] = false,
-["desaturate"] = false,
+["alpha"] = 1,
 ["version"] = 24,
 ["subRegions"] = {
 {
@@ -52305,14 +52304,9 @@ true,
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -52343,12 +52337,16 @@ true,
 ["text_text"] = "%1.p",
 ["text_fontSize"] = 20,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 35,
-["authorOptions"] = {
-},
+["internalVersion"] = 77,
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -52399,7 +52397,7 @@ true,
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -52408,27 +52406,30 @@ true,
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["preferToUpdate"] = false,
+["icon"] = true,
 ["useAdjustededMax"] = false,
 ["cooldown"] = true,
 ["source"] = "import",
 ["displayIcon"] = "",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
-["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["config"] = {
 },
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["xOffset"] = 0,
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
-["frameStrata"] = 3,
+["selfPoint"] = "CENTER",
 ["anchorFrameParent"] = false,
 ["zoom"] = 0.3,
 ["semver"] = "1.0.23",
@@ -52436,20 +52437,18 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Thunderous Roar (Talent) Prot",
-["icon"] = true,
-["alpha"] = 1,
-["width"] = 45,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["frameStrata"] = 3,
+["width"] = 45,
+["preferToUpdate"] = false,
 ["uid"] = "csSmE0F(XUJ",
 ["inverse"] = true,
-["progressSource"] = {
--1,
-"",
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -52497,15 +52496,14 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["internalVersion"] = 77,
+["xOffset"] = 0,
 },
 ["DRUT_10重欧h"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 90,
 ["parent"] = "DRU_T_Hekili",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -52515,7 +52513,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 90,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -52586,13 +52585,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 6807\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 6807\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -52678,9 +52677,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 150,
 ["parent"] = "XDK",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -52690,7 +52688,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 150,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -52865,13 +52864,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "XDK",
 ["xOffset"] = 20,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -52881,7 +52875,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -53067,8 +53066,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
 ["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -53078,8 +53078,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "KTZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -53248,13 +53247,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 32,
-["xOffset"] = 450,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 450,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -53262,7 +53257,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "DRU_N",
 ["actions"] = {
@@ -53403,11 +53402,8 @@ true,
 ["height"] = 32,
 ["rotate"] = false,
 ["load"] = {
+["use_alive"] = true,
 ["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
 ["class_and_spec"] = {
 ["single"] = 105,
 },
@@ -53415,12 +53411,15 @@ true,
 ["multi"] = {
 },
 },
+["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
 ["size"] = {
 ["multi"] = {
 },
@@ -53432,13 +53431,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "ZS",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -53447,7 +53445,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "ZS",
+["authorOptions"] = {
+},
 ["xOffset"] = 100,
 ["actions"] = {
 ["start"] = {
@@ -53619,9 +53618,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "FZT",
 ["authorOptions"] = {
 },
-["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -53631,7 +53630,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["xOffset"] = 40,
 ["color"] = {
 1,
 1,
@@ -53883,18 +53882,32 @@ true,
 },
 ["columnSpace"] = 1,
 ["internalVersion"] = 77,
-["gridWidth"] = 5,
+["alpha"] = 1,
 ["selfPoint"] = "CENTER",
 ["align"] = "CENTER",
-["regionType"] = "dynamicgroup",
-["arcLength"] = 360,
-["radius"] = 200,
-["stagger"] = 0,
+["limit"] = 5,
+["sortHybridTable"] = {
+["Challenging Shout (Talent) Prot"] = false,
+["Piercing Howl (Talent) Prot"] = false,
+["Shattering Throw (Talent) Prot"] = false,
+["Pummel Prot"] = false,
+["Berserker Rage Prot"] = false,
+["Storm Bolt (Talent) Prot"] = false,
+["Shockwave (Talent) Prot"] = false,
+["Heroic Leap (Talent) Prot"] = false,
+["Bitter Immunity (Talent) Prot"] = false,
+["Intervene (Talent) Prot"] = false,
+["Wrecking Throw (Talent) Prot"] = false,
+["Intimidating Shout (Talent) Prot"] = false,
+["Racial Prot"] = false,
+},
 ["useLimit"] = false,
+["stagger"] = 0,
+["parent"] = "Doctorio [WARRIOR] Protection",
 ["version"] = 24,
 ["subRegions"] = {
 },
-["parent"] = "Doctorio [WARRIOR] Protection",
+["arcLength"] = 360,
 ["xOffset"] = 0,
 ["load"] = {
 ["talent"] = {
@@ -53942,25 +53955,25 @@ true,
 },
 ["config"] = {
 },
+["source"] = "import",
 ["animate"] = false,
-["uid"] = "IFfmTXq(BnP",
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
 ["stepAngle"] = 15,
 ["borderSize"] = 2,
-["limit"] = 5,
-["source"] = "import",
-["alpha"] = 1,
+["sort"] = "none",
+["regionType"] = "dynamicgroup",
+["frameStrata"] = 1,
 ["constantFactor"] = "RADIUS",
 ["rotation"] = 0,
 ["borderOffset"] = 4,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "[UTILITY] Prot",
-["sort"] = "none",
-["frameStrata"] = 1,
+["uid"] = "IFfmTXq(BnP",
+["gridWidth"] = 5,
 ["anchorFrameType"] = "SCREEN",
 ["space"] = 1,
 ["borderInset"] = 1,
@@ -53975,28 +53988,15 @@ true,
 },
 ["information"] = {
 },
-["sortHybridTable"] = {
-["Challenging Shout (Talent) Prot"] = false,
-["Piercing Howl (Talent) Prot"] = false,
-["Shattering Throw (Talent) Prot"] = false,
-["Pummel Prot"] = false,
-["Berserker Rage Prot"] = false,
-["Storm Bolt (Talent) Prot"] = false,
-["Shockwave (Talent) Prot"] = false,
-["Heroic Leap (Talent) Prot"] = false,
-["Bitter Immunity (Talent) Prot"] = false,
-["Intervene (Talent) Prot"] = false,
-["Wrecking Throw (Talent) Prot"] = false,
-["Intimidating Shout (Talent) Prot"] = false,
-["Racial Prot"] = false,
-},
+["radius"] = 200,
 },
 ["DKB_13_湮灭"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["xOffset"] = 120,
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -54027,8 +54027,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "DKB",
 ["color"] = {
 1,
 1,
@@ -54129,13 +54128,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49020\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49020\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -54191,13 +54190,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 60,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -54208,7 +54202,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "SS",
 ["actions"] = {
 ["start"] = {
@@ -54269,13 +54268,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 104316\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 104316\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -54448,7 +54447,7 @@ true,
 },
 },
 ["stickyDuration"] = false,
-["desaturate"] = false,
+["alpha"] = 1,
 ["version"] = 24,
 ["subRegions"] = {
 {
@@ -54518,8 +54517,7 @@ true,
 },
 },
 ["height"] = 35,
-["authorOptions"] = {
-},
+["internalVersion"] = 77,
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -54570,7 +54568,7 @@ true,
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -54579,27 +54577,30 @@ true,
 },
 },
 ["use_petbattle"] = false,
-["faction"] = {
+["use_vehicleUi"] = false,
+["pvptalent"] = {
 ["multi"] = {
 },
 },
-["use_vehicleUi"] = false,
 },
-["preferToUpdate"] = false,
+["icon"] = true,
 ["useAdjustededMax"] = false,
 ["cooldown"] = true,
 ["source"] = "import",
 ["displayIcon"] = "",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
-["selfPoint"] = "CENTER",
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["config"] = {
 },
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["xOffset"] = 0,
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["anchorFrameType"] = "SCREEN",
 ["useCooldownModRate"] = true,
-["frameStrata"] = 3,
+["selfPoint"] = "CENTER",
 ["anchorFrameParent"] = false,
 ["zoom"] = 0.3,
 ["semver"] = "1.0.23",
@@ -54607,20 +54608,18 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Shield Charge (Talent)",
-["icon"] = true,
-["alpha"] = 1,
-["width"] = 45,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["frameStrata"] = 3,
+["width"] = 45,
+["preferToUpdate"] = false,
 ["uid"] = "ZQuOLqjDfqw",
 ["inverse"] = true,
-["progressSource"] = {
--1,
-"",
+["authorOptions"] = {
 },
 ["conditions"] = {
 {
@@ -54683,7 +54682,7 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["internalVersion"] = 77,
+["xOffset"] = 0,
 },
 ["Spell Reflection (Talent) Prot"] = {
 ["iconSource"] = -1,
@@ -54840,18 +54839,25 @@ true,
 ["use_vehicleUi"] = false,
 ["zoneIds"] = "",
 },
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["useAdjustededMax"] = false,
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["useTooltip"] = true,
+["progressSource"] = {
+-1,
+"",
+},
 ["parent"] = "[COOLDOWNS] Prot",
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["config"] = {
@@ -54873,15 +54879,9 @@ true,
 ["auto"] = true,
 ["tocversion"] = 110002,
 ["id"] = "Spell Reflection (Talent) Prot",
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["frameStrata"] = 3,
 ["anchorFrameType"] = "SCREEN",
-["desaturate"] = false,
-["uid"] = "u5wy6iIq)fx",
-["inverse"] = true,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -54902,6 +54902,10 @@ true,
 ["easeType"] = "none",
 },
 },
+["uid"] = "u5wy6iIq)fx",
+["inverse"] = true,
+["authorOptions"] = {
+},
 ["conditions"] = {
 {
 ["check"] = {
@@ -54918,20 +54922,19 @@ true,
 },
 },
 ["cooldown"] = true,
+["desaturate"] = false,
+},
+["WQZ_3_糖"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["alpha"] = 1,
+["width"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-},
-["WQZ_3_糖"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["alpha"] = 1,
-["width"] = 10,
 ["parent"] = "WQZ",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -54941,11 +54944,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 30,
 ["actions"] = {
@@ -55126,13 +55125,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -55143,7 +55141,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 110,
 ["actions"] = {
 ["start"] = {
@@ -55313,8 +55312,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DRU_CAT",
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -55324,12 +55328,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 80,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -55409,13 +55408,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 22568\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 22568\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -55489,8 +55488,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DKT",
-["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -55521,12 +55525,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 20,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -55721,13 +55720,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 70,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -55738,7 +55736,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["parent"] = "Monk_NoTalent",
 ["actions"] = {
 ["start"] = {
@@ -55912,13 +55911,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "KBZ",
 ["xOffset"] = 20,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -55928,7 +55922,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -56121,9 +56120,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "WQZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 180,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -56154,7 +56153,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["xOffset"] = 180,
 ["color"] = {
 1,
 1,
@@ -57004,14 +57003,9 @@ true,
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_s_format"] = "none",
 ["text_text_format_1.p_time_legacy_floor"] = false,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 ["anchorXOffset"] = 0,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
+["text_text_format_p_time_mod_rate"] = true,
 ["text_justify"] = "CENTER",
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -57042,7 +57036,12 @@ true,
 ["text_text"] = "%p",
 ["text_fontSize"] = 15,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
 },
 },
 ["height"] = 25,
@@ -57078,14 +57077,21 @@ true,
 ["anchorFrameType"] = "SCREEN",
 ["source"] = "import",
 ["frameStrata"] = 1,
-["preferToUpdate"] = false,
-["cooldownEdge"] = true,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["xOffset"] = 0,
 ["cooldown"] = true,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["xOffset"] = 0,
+["keepAspectRatio"] = true,
 ["useTooltip"] = true,
-["selfPoint"] = "CENTER",
+["cooldownEdge"] = true,
 ["config"] = {
 },
 ["useCooldownModRate"] = true,
@@ -57097,11 +57103,11 @@ true,
 ["parent"] = "[UTILITY] Prot",
 ["alpha"] = 1,
 ["width"] = 25,
-["keepAspectRatio"] = true,
-["uid"] = "kuJtCXEerPe",
-["inverse"] = false,
 ["authorOptions"] = {
 },
+["uid"] = "kuJtCXEerPe",
+["inverse"] = false,
+["preferToUpdate"] = false,
 ["conditions"] = {
 {
 ["check"] = {
@@ -57670,21 +57676,15 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
+["selfPoint"] = "CENTER",
 },
 ["XDK_16_亡者大军"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["parent"] = "XDK",
-["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -57715,8 +57715,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 160,
 ["color"] = {
 1,
 1,
@@ -57870,13 +57869,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 150,
 ["parent"] = "KBZ",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -57907,7 +57901,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 150,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -58057,13 +58056,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "FZT",
 ["xOffset"] = 20,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -58095,7 +58089,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -58257,13 +58256,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "FZT",
 ["xOffset"] = 160,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -58294,7 +58288,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -58574,9 +58573,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "KTZ",
 ["authorOptions"] = {
 },
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -58606,7 +58605,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 60,
+["parent"] = "KTZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -58755,13 +58754,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "DH",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -58771,7 +58770,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DH",
+["xOffset"] = 100,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -58943,9 +58942,9 @@ true,
 ["config"] = {
 },
 ["desaturate"] = false,
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
-["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -58976,7 +58975,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CSZ",
+["xOffset"] = 160,
 ["color"] = {
 1,
 1,
@@ -59129,9 +59128,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 10,
 ["parent"] = "Monk_NoTalent",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -59164,7 +59162,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 10,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -59360,9 +59359,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -59393,12 +59397,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 90,
 ["parent"] = "FZT",
 ["actions"] = {
 ["start"] = {
@@ -59565,9 +59564,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
-["xOffset"] = 0,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 0,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -59575,11 +59578,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "DRU_T",
 ["actions"] = {
@@ -59833,8 +59832,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 110,
-["parent"] = "DKB",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -59844,12 +59848,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKB",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -59947,13 +59946,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49143\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -60153,8 +60152,13 @@ true,
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["parent"] = "KTZ",
 ["xOffset"] = 140,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -60185,12 +60189,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KTZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -60339,13 +60338,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 80,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -60376,7 +60374,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 80,
+["authorOptions"] = {
+},
 ["parent"] = "SS",
 ["actions"] = {
 ["start"] = {
@@ -60457,13 +60456,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 105174\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -60475,8 +60474,8 @@ true,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_spellIds"] = false,
+["use_absorbMode"] = true,
 ["use_genericShowOn"] = true,
-["use_inverse"] = true,
 ["event"] = "Cast",
 ["unit"] = "player",
 ["realSpellName"] = 0,
@@ -60485,7 +60484,7 @@ true,
 },
 ["genericShowOn"] = "showOnCooldown",
 ["use_unit"] = true,
-["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["use_track"] = true,
 ["spellName"] = 0,
 },
@@ -60542,13 +60541,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -60580,7 +60578,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["authorOptions"] = {
+},
 ["xOffset"] = 20,
 ["actions"] = {
 ["start"] = {
@@ -60751,9 +60750,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["parent"] = "KBZ",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -60763,11 +60766,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 50,
 ["actions"] = {
@@ -60947,8 +60946,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["width"] = 10,
-["parent"] = "KTZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -60980,12 +60984,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KTZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -61143,13 +61142,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["parent"] = "DKT",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -61181,7 +61179,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DKT",
+["authorOptions"] = {
+},
 ["xOffset"] = 60,
 ["actions"] = {
 ["start"] = {
@@ -61372,9 +61371,10 @@ true,
 ["width"] = 10,
 },
 },
-["RealTimeProfilingWindow"] = {
-["xOffset"] = 1445.434692382813,
+["ProfilingWindow"] = {
+["xOffset"] = 997.6217651367188,
 ["yOffset"] = -359.38623046875,
 },
-["dbVersion"] = 77,
+["features"] = {
+},
 }

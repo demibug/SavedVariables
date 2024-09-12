@@ -1,7 +1,7 @@
 
 DBMAffixes_AllSavedVars = {
 ["Beppan-Tichondrius"] = {
-["talent2"] = "暴徒",
+["talent2"] = "狂徒",
 ["MPlusAffixes"] = {
 {
 ["Timer461895cd"] = true,
@@ -27,7 +27,7 @@ DBMAffixes_AllSavedVars = {
 ["Enabled"] = true,
 ["NPSanguine"] = false,
 ["SpecWarn350209you2SWNote"] = true,
-["Timer408556cd"] = true,
+["SpecWarn350209you2"] = false,
 ["Timer465051cd"] = true,
 ["SpecWarn240447moveawaySWNote"] = true,
 ["Timer240447nextTColor"] = 3,
@@ -37,7 +37,7 @@ DBMAffixes_AllSavedVars = {
 ["SpecWarn408556youSWSound"] = 1,
 ["Timer408556cdTColor"] = 3,
 ["announce350209you"] = true,
-["SpecWarn350209you2"] = false,
+["Timer408556cd"] = true,
 ["announce408805cast"] = false,
 },
 {
@@ -64,7 +64,7 @@ DBMAffixes_AllSavedVars = {
 ["Enabled"] = true,
 ["NPSanguine"] = false,
 ["SpecWarn350209you2SWNote"] = true,
-["SpecWarn350209you2"] = false,
+["Timer408556cd"] = true,
 ["Timer465051cd"] = true,
 ["SpecWarn240447moveawaySWNote"] = true,
 ["Timer240447nextTColor"] = 3,
@@ -74,7 +74,7 @@ DBMAffixes_AllSavedVars = {
 ["SpecWarn408556youSWSound"] = 1,
 ["Timer408556cdTColor"] = 3,
 ["announce350209you"] = true,
-["Timer408556cd"] = true,
+["SpecWarn350209you2"] = false,
 ["announce408805cast"] = false,
 },
 },
@@ -106,8 +106,8 @@ DBMAffixes_AllSavedVars = {
 ["Timer461895cdTColor"] = 1,
 ["Enabled"] = true,
 ["announce408805cast"] = false,
-["SpecWarn350209you2"] = false,
 ["Timer408556cd"] = true,
+["SpecWarn350209you2"] = false,
 ["announce350209you"] = true,
 ["Timer408556cdTColor"] = 3,
 ["Timer240447nextTColor"] = 3,
@@ -143,8 +143,8 @@ DBMAffixes_AllSavedVars = {
 ["Timer461895cdTColor"] = 1,
 ["Enabled"] = true,
 ["announce408805cast"] = false,
-["Timer408556cd"] = true,
 ["SpecWarn350209you2"] = false,
+["Timer408556cd"] = true,
 ["announce350209you"] = true,
 ["Timer408556cdTColor"] = 3,
 ["Timer240447nextTColor"] = 3,
