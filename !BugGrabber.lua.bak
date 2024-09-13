@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 118,
 ["lastSanitation"] = 3,
+["session"] = 123,
 ["errors"] = {
 {
 ["message"] = "Lua 錯誤，在 WA 提醒效果 'DZKT_6_骰子': 觸發器 6\nWeakAuras 版本: 5.17.0\n堆疊層數追蹤:\n[string \"return function()\"]:12: attempt to call global 'UnitBuff' (a nil value)",
@@ -34,6 +34,14 @@ BugGrabberDB = {
 ["stack"] = "[string \"@Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua\"]:911: in function <Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua:899>\n[string \"@Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua\"]:1114: in function `OnEvent'\n[string \"@Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua\"]:1191: in function <Interface/AddOns/BtWQuests/BtWQuestsCharacters.lua:1190>",
 ["session"] = 117,
 ["counter"] = 5,
+},
+{
+["message"] = "光环'DRUT_6打断'的Lua错误：触发器6\nWeakAuras 版本：5.17.1\n堆栈追踪：\n[string \"return function()\"]:3: attempt to call global 'GetSpellInfo' (a nil value)",
+["time"] = "2024/09/12 23:28:58",
+["locals"] = "skill_id = 106839\n(*temporary) = nil\n(*temporary) = 106839\n(*temporary) = \"attempt to call global 'GetSpellInfo' (a nil value)\"\n",
+["stack"] = "[string \"return function()\"]:3: in function <[string \"return function()\"]:1>\n[string \"=[C]\"]: in function `xpcall'\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:748: in function <Interface/AddOns/WeakAuras/GenericTrigger.lua:657>\n[string \"@Interface/AddOns/WeakAuras/GenericTrigger.lua\"]:1088: in function `CreateFakeStates'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4595: in function `UpdateFakeStatesFor'\n[string \"@Interface/AddOns/WeakAuras/WeakAuras.lua\"]:4571: in function `FakeStatesFor'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1539: in function `SyncVisibility'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:1565: in function `PriorityShow'\n[string \"@Interface/AddOns/WeakAurasOptions/OptionsFrames/OptionsFrame.lua\"]:1461: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/WeakAurasOptions.lua\"]:1282: in function `PickDisplay'\n[string \"@Interface/AddOns/WeakAurasOptions/AceGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua\"]:523: in function <...eGUI-Widgets/AceGUIWidget-WeakAurasDisplayButton.lua:472>",
+["session"] = 121,
+["counter"] = 1,
 },
 },
 }
