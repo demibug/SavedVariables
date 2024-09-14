@@ -7,13 +7,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 130,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -44,7 +44,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KBZ",
+["xOffset"] = 130,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -211,9 +211,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "ZS",
 ["authorOptions"] = {
 },
+["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -221,7 +221,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 90,
+["parent"] = "ZS",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -406,13 +406,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -443,7 +443,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 90,
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -605,12 +605,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["width"] = 10,
-["parent"] = "ZS",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -621,8 +622,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "ZS",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -803,8 +803,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 40,
 ["desaturate"] = false,
-["parent"] = "KBZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -836,12 +841,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -1116,13 +1116,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 170,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -1132,7 +1132,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["xOffset"] = 170,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -1428,8 +1428,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 110,
 ["width"] = 10,
-["parent"] = "CSZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -1461,12 +1466,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -1620,9 +1620,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 140,
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -1632,7 +1631,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -1874,14 +1874,14 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -1912,29 +1912,11 @@ WeakAurasSaved = {
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -1976,15 +1958,15 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -2000,24 +1982,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "dO5sFnqotsT",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -2075,10 +2078,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["Spell Block (Talent) Prot"] = {
 ["iconSource"] = -1,
@@ -2198,25 +2198,7 @@ WeakAurasSaved = {
 },
 },
 ["height"] = 30,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["use_petbattle"] = false,
@@ -2254,24 +2236,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "XD2(RX5Aybz",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -2329,10 +2332,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["[COOLDOWNS] Prot"] = {
 ["grow"] = "HORIZONTAL",
@@ -2381,15 +2381,14 @@ WeakAurasSaved = {
 },
 ["columnSpace"] = 1,
 ["internalVersion"] = 77,
-["frameStrata"] = 1,
+["gridWidth"] = 5,
 ["selfPoint"] = "CENTER",
 ["align"] = "CENTER",
-["config"] = {
-},
+["stepAngle"] = 15,
 ["arcLength"] = 360,
-["radius"] = 200,
-["stagger"] = 0,
 ["useLimit"] = false,
+["stagger"] = 0,
+["radius"] = 200,
 ["version"] = 24,
 ["subRegions"] = {
 },
@@ -2425,30 +2424,30 @@ WeakAurasSaved = {
 1,
 0.5,
 },
-["uid"] = "ZkHIsqlRsaB",
+["config"] = {
+},
 ["source"] = "import",
-["gridType"] = "RD",
+["uid"] = "ZkHIsqlRsaB",
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
-["stepAngle"] = 15,
+["regionType"] = "dynamicgroup",
 ["borderSize"] = 2,
-["limit"] = 5,
 ["sort"] = "none",
-["gridWidth"] = 5,
+["animate"] = false,
+["alpha"] = 1,
 ["constantFactor"] = "RADIUS",
 ["rotation"] = 0,
 ["borderOffset"] = 4,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "[COOLDOWNS] Prot",
-["regionType"] = "dynamicgroup",
-["alpha"] = 1,
+["limit"] = 5,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["animate"] = false,
-["borderInset"] = 1,
 ["xOffset"] = 0,
+["borderInset"] = 1,
 ["sortHybridTable"] = {
 ["Trinket 2 Prot"] = false,
 ["Champion's Spear Champion's Might (Talent) Prot"] = false,
@@ -2459,10 +2458,6 @@ WeakAurasSaved = {
 ["Ravager (Talent) Prot"] = false,
 ["Spell Block (Talent) Prot"] = false,
 ["Shield Wall (Talent) Prot"] = false,
-},
-["conditions"] = {
-},
-["information"] = {
 },
 ["animation"] = {
 ["start"] = {
@@ -2484,14 +2479,24 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["conditions"] = {
+},
+["information"] = {
+},
+["gridType"] = "RD",
 },
 ["DKT_15_墓石"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["parent"] = "DKT",
 ["xOffset"] = 150,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -2501,12 +2506,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKT",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -2604,13 +2604,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 219809\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 219809\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -2815,13 +2815,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 100,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "DKT_HINT",
+["xOffset"] = 0,
 ["mirror"] = false,
 ["yOffset"] = 50,
 ["anchorPoint"] = "CENTER",
@@ -2829,7 +2824,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 0,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -2905,11 +2905,11 @@ WeakAurasSaved = {
 ["height"] = 50,
 ["rotate"] = false,
 ["load"] = {
-["use_combat"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 250,
 },
@@ -2917,12 +2917,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
 ["use_class_and_spec"] = true,
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -2934,8 +2934,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "WQZ",
 ["width"] = 10,
-["xOffset"] = 10,
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -2967,12 +2972,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 10,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -3128,8 +3128,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
 ["xOffset"] = 100,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -3160,12 +3165,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -3262,13 +3262,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 343294\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 343294\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -3372,15 +3372,14 @@ WeakAurasSaved = {
 },
 ["columnSpace"] = 1,
 ["internalVersion"] = 77,
-["frameStrata"] = 1,
+["gridWidth"] = 5,
 ["selfPoint"] = "CENTER",
 ["align"] = "CENTER",
-["config"] = {
-},
+["stepAngle"] = 15,
 ["arcLength"] = 360,
-["radius"] = 200,
-["stagger"] = 0,
 ["useLimit"] = false,
+["stagger"] = 0,
+["radius"] = 200,
 ["version"] = 24,
 ["subRegions"] = {
 },
@@ -3416,38 +3415,34 @@ WeakAurasSaved = {
 1,
 0.5,
 },
-["uid"] = ")WlhaYlddvK",
+["config"] = {
+},
 ["source"] = "import",
-["gridType"] = "RD",
+["uid"] = ")WlhaYlddvK",
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
-["stepAngle"] = 15,
+["regionType"] = "dynamicgroup",
 ["borderSize"] = 2,
-["limit"] = 5,
 ["sort"] = "none",
-["gridWidth"] = 5,
+["animate"] = false,
+["alpha"] = 1,
 ["constantFactor"] = "RADIUS",
 ["rotation"] = 0,
 ["borderOffset"] = 4,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "[ACTION] Prot",
-["regionType"] = "dynamicgroup",
-["alpha"] = 1,
+["limit"] = 5,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["animate"] = false,
-["borderInset"] = 1,
 ["xOffset"] = 0,
+["borderInset"] = 1,
 ["sortHybridTable"] = {
 ["Spell Reflection (Talent) Prot"] = false,
 ["Demolish (Hero) Prot"] = false,
 ["Shield Charge (Talent)"] = false,
-},
-["conditions"] = {
-},
-["information"] = {
 },
 ["animation"] = {
 ["start"] = {
@@ -3469,17 +3464,23 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["conditions"] = {
+},
+["information"] = {
+},
+["gridType"] = "RD",
 },
 ["DKT_16_SP"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "DKT",
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 160,
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -3511,8 +3512,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 160,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -3609,13 +3609,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194308\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194308\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -3679,9 +3679,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "DKT",
 ["authorOptions"] = {
 },
+["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -3712,7 +3712,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 140,
+["parent"] = "DKT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -3810,13 +3810,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194844\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -3875,13 +3875,9 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -3891,7 +3887,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 30,
 ["actions"] = {
@@ -4075,8 +4075,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KBZ",
 ["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -4107,8 +4108,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -4258,13 +4258,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -4294,7 +4294,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 130,
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -4444,13 +4444,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -4460,7 +4460,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 150,
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -4635,9 +4635,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["parent"] = "FZT",
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -4647,7 +4646,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -4831,8 +4831,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "WQZ",
 ["xOffset"] = 40,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -4842,8 +4843,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -5027,9 +5027,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 140,
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -5039,7 +5038,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -5209,13 +5209,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -5223,7 +5223,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 10,
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -5402,13 +5402,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 140,
 ["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -5418,7 +5413,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 140,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -5594,9 +5594,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
 ["authorOptions"] = {
 },
+["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -5627,7 +5627,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 50,
+["parent"] = "DKT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -5786,8 +5786,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 130,
 ["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -5797,12 +5802,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 130,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -5972,13 +5972,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "KBZ",
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 170,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -6009,7 +6005,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -6159,13 +6159,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 10,
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "KTZ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -6196,7 +6192,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -6352,8 +6352,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 120,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -6385,12 +6390,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -6607,13 +6607,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 0\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 0\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -6630,10 +6630,10 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 ["rotation"] = 0,
 ["uid"] = "F8qXJTypfW8",
-["desaturate"] = false,
+["width"] = 10,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -6646,7 +6646,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["width"] = 10,
+["anchorFrameType"] = "SCREEN",
 },
 ["Heroic Leap (Talent) Prot"] = {
 ["iconSource"] = -1,
@@ -6720,14 +6720,14 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -6758,29 +6758,11 @@ WeakAurasSaved = {
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -6822,15 +6804,15 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -6846,24 +6828,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "Xk6Lcx6KREC",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -6907,23 +6910,15 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["XDK_1_死打"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "XDK",
+["xOffset"] = 10,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -6954,7 +6949,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -7144,8 +7144,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 10,
 ["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -7153,12 +7158,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 10,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -7479,8 +7479,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 90,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -7491,12 +7496,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -7891,37 +7891,19 @@ WeakAurasSaved = {
 ["text_font"] = "Expressway",
 ["text_anchorPoint"] = "CENTER",
 ["text_anchorYOffset"] = 15,
-["text_text_format_3.p_time_dynamic_threshold"] = 0,
+["text_text_format_2.p_time_dynamic_threshold"] = 0,
 ["text_shadowXOffset"] = 0,
 ["text_text_format_3.p_format"] = "timed",
 ["text_text_format_1.p_format"] = "timed",
-["text_text_format_2.p_time_dynamic_threshold"] = 0,
 ["text_text_format_1.p_time_dynamic_threshold"] = 3,
+["text_text_format_3.p_time_dynamic_threshold"] = 0,
 ["text_text_format_1.p_time_precision"] = 1,
 ["text_fontType"] = "OUTLINE",
 ["text_text_format_p_time_dynamic_threshold"] = 0,
 },
 },
 ["height"] = 35,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["use_petbattle"] = false,
@@ -7993,24 +7975,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "fxJOQzY2Kv4",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -8105,23 +8108,19 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["FZT_13_雷霆"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "FZT",
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -8152,7 +8151,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 130,
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -8314,14 +8314,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "ZS",
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -8329,7 +8328,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -8520,8 +8520,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CSZ",
 ["xOffset"] = 40,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -8531,8 +8532,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -8703,13 +8703,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 50,
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -8740,7 +8735,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -8889,14 +8889,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 80,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -8906,7 +8901,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -9387,25 +9387,7 @@ WeakAurasSaved = {
 },
 },
 ["height"] = 35,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["use_petbattle"] = false,
@@ -9445,24 +9427,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "T4HEcipk2ot",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -9559,10 +9562,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["WQZ_11_劈顱"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -9573,8 +9573,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 110,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -9584,8 +9585,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -9755,13 +9755,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 20,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "ZS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -9790,7 +9786,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -9980,8 +9980,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "FZT",
 ["width"] = 10,
-["xOffset"] = 50,
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -9992,12 +9997,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 50,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -10193,13 +10193,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -10209,7 +10209,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 120,
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -10450,14 +10450,14 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -10488,29 +10488,11 @@ WeakAurasSaved = {
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -10552,15 +10534,15 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -10576,24 +10558,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "t82oSEo5xQy",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -10650,10 +10653,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["XDK_7_爆发"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -10664,9 +10664,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 70,
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -10676,7 +10675,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -10972,9 +10972,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "MgcU5sppvFE",
 ["width"] = 10,
-["parent"] = "KTZ",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -11005,11 +11009,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 150,
 ["actions"] = {
@@ -11164,8 +11164,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 100,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -11196,8 +11197,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -11346,8 +11346,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 50,
 ["width"] = 10,
-["parent"] = "CSZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -11378,12 +11383,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -11532,14 +11532,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -11549,7 +11548,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -11799,14 +11799,14 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -11837,29 +11837,11 @@ WeakAurasSaved = {
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -11901,15 +11883,15 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -11925,24 +11907,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "aAe)4fw7YRV",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -11999,10 +12002,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["Shattering Throw (Talent) Prot"] = {
 ["iconSource"] = -1,
@@ -12079,14 +12079,14 @@ WeakAurasSaved = {
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -12117,29 +12117,11 @@ WeakAurasSaved = {
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -12177,7 +12159,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -12186,11 +12168,11 @@ WeakAurasSaved = {
 },
 },
 ["use_spellknown"] = false,
-["use_vehicleUi"] = false,
-["faction"] = {
+["pvptalent"] = {
 ["multi"] = {
 },
 },
+["use_vehicleUi"] = false,
 ["race"] = {
 ["multi"] = {
 },
@@ -12206,24 +12188,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "a8xiNQPbJ7x",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -12294,22 +12297,14 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["KTZ_17_潛行"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "BuzoshW3w9Q",
 ["width"] = 10,
+["xOffset"] = 170,
 ["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -12339,7 +12334,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -12490,8 +12490,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "FZP00)lO4gA",
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "KTZ",
-["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -12521,12 +12526,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 90,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -12676,14 +12676,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "TKSS",
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -12693,7 +12692,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 150,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -12850,13 +12850,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 80,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "TKSS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -12887,7 +12887,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "TKSS",
+["xOffset"] = 80,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -13039,13 +13039,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 140,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "TKSS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -13076,7 +13072,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -13234,9 +13234,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["xOffset"] = 70,
 ["authorOptions"] = {
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -13246,7 +13246,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["xOffset"] = 70,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -13459,13 +13459,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 120,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "TKSS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -13475,7 +13471,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -13646,14 +13646,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 80,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -13684,7 +13679,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -13833,14 +13833,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "FZT",
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -13850,7 +13849,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 110,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -14058,8 +14058,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 100,
 ["parent"] = "TKSS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -14069,8 +14070,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 100,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -14422,25 +14422,7 @@ WeakAurasSaved = {
 },
 },
 ["height"] = 30,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["use_petbattle"] = false,
@@ -14478,24 +14460,45 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "WFlLOCT4pJy",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -14608,22 +14611,15 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["TKS_9_无常"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 90,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "TKSS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -14654,7 +14650,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -14807,14 +14807,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 50,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -14844,7 +14843,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KTZ",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -14998,9 +14998,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["parent"] = "TKSS",
 ["authorOptions"] = {
 },
+["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -15010,7 +15010,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 160,
+["parent"] = "TKSS",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -15166,9 +15166,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -15178,11 +15182,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 120,
 ["actions"] = {
@@ -15352,13 +15352,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "TKSS",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -15367,7 +15366,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "TKSS",
+["authorOptions"] = {
+},
 ["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
@@ -15545,8 +15545,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["width"] = 10,
-["parent"] = "CSZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -15578,12 +15583,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -15742,13 +15742,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 20,
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -15758,7 +15753,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -16099,13 +16099,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "FZT",
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 90,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -16115,7 +16111,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -16439,20 +16439,20 @@ WeakAurasSaved = {
 ["itemName"] = 158320,
 ["duration"] = "1",
 ["use_genericShowOn"] = true,
+["use_unit"] = true,
+["ownOnly"] = true,
+["genericShowOn"] = "showAlways",
 ["names"] = {
 "Chi Burst",
 },
-["ownOnly"] = true,
-["genericShowOn"] = "showAlways",
-["subeventPrefix"] = "SPELL",
 ["itemSlot"] = 14,
 ["remaining"] = "600",
 ["rem"] = "2.5",
-["debuffType"] = "HELPFUL",
 ["custom_hide"] = "timed",
+["debuffType"] = "HELPFUL",
 ["use_itemSlot"] = true,
 ["use_remaining"] = true,
-["buffShowOn"] = "showOnActive",
+["spellName"] = 123986,
 ["event"] = "Cooldown Progress (Equipment Slot)",
 ["type"] = "item",
 ["unevent"] = "auto",
@@ -16460,14 +16460,14 @@ WeakAurasSaved = {
 ["use_showOn"] = true,
 ["unit"] = "player",
 ["use_itemName"] = true,
-["spellName"] = 123986,
+["buffShowOn"] = "showOnActive",
 ["realSpellName"] = "Chi Burst",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["use_testForCooldown"] = true,
 ["remOperator"] = "<=",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["remaining_operator"] = "<",
 ["useRem"] = true,
 },
@@ -16566,7 +16566,7 @@ WeakAurasSaved = {
 },
 },
 ["height"] = 30,
-["preferToUpdate"] = false,
+["cooldownEdge"] = true,
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -16608,15 +16608,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -16634,26 +16634,7 @@ true,
 },
 ["desaturate"] = false,
 ["useAdjustededMax"] = false,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["icon"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
@@ -16702,15 +16683,34 @@ true,
 },
 },
 },
+["preferToUpdate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["uid"] = "3CQWhyDahVW",
 ["progressSource"] = {
 -1,
 "",
 },
-["cooldownEdge"] = true,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["uid"] = "3CQWhyDahVW",
-["icon"] = true,
 ["width"] = 35,
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -16737,14 +16737,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "ZS",
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -16752,7 +16751,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -17038,25 +17038,7 @@ true,
 },
 },
 ["height"] = 35,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["use_petbattle"] = false,
@@ -17094,24 +17076,45 @@ true,
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "Hn2jwqqV)sn",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -17169,10 +17172,7 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["CSZ_16_茶"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -17183,8 +17183,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CSZ",
 ["xOffset"] = 160,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -17194,8 +17195,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -17370,9 +17370,8 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "TKSS",
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -17382,7 +17381,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 130,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -17560,9 +17560,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "CSZ",
 ["authorOptions"] = {
 },
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -17593,7 +17593,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -17742,12 +17742,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 100,
 ["desaturate"] = false,
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -17758,8 +17759,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -17929,12 +17929,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 160,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -17945,8 +17946,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -18134,13 +18134,13 @@ true,
 {
 ["trigger"] = {
 ["track"] = "auto",
-["use_genericShowOn"] = true,
+["use_inverse"] = false,
 ["unit"] = "player",
-["use_charges"] = false,
+["remaining_operator"] = "<",
 ["names"] = {
 "Aspekt des Geparden",
 },
-["use_inverse"] = false,
+["duration"] = "1",
 ["genericShowOn"] = "showAlways",
 ["use_unit"] = true,
 ["use_showgcd"] = true,
@@ -18165,9 +18165,9 @@ true,
 },
 ["debuffType"] = "HELPFUL",
 ["subeventPrefix"] = "SPELL",
-["duration"] = "1",
+["use_charges"] = false,
 ["use_track"] = true,
-["remaining_operator"] = "<",
+["use_genericShowOn"] = true,
 },
 ["untrigger"] = {
 ["showOn"] = "showOnCooldown",
@@ -18179,13 +18179,6 @@ true,
 ["disjunctive"] = "any",
 ["activeTriggerMode"] = 1,
 },
-["xOffset"] = 0,
-["internalVersion"] = 77,
-["progressSource"] = {
--1,
-"",
-},
-["selfPoint"] = "CENTER",
 ["actions"] = {
 ["start"] = {
 },
@@ -18194,6 +18187,13 @@ true,
 ["init"] = {
 },
 },
+["internalVersion"] = 77,
+["progressSource"] = {
+-1,
+"",
+},
+["selfPoint"] = "CENTER",
+["parent"] = "[UTILITY] Prot",
 ["cooldown"] = true,
 ["conditions"] = {
 {
@@ -18413,15 +18413,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -18493,14 +18493,19 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["parent"] = "[UTILITY] Prot",
+["xOffset"] = 0,
 },
 ["TKS_18_SP"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 180,
-["parent"] = "TKSS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -18531,12 +18536,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "TKSS",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -18698,14 +18698,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "FZT",
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -18715,7 +18714,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 30,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -18912,8 +18912,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "XDK",
 ["xOffset"] = 40,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -18923,8 +18924,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "XDK",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -19103,13 +19103,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "FZT",
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 120,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -19119,7 +19115,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -19415,13 +19415,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "WQZ",
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 170,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -19431,7 +19427,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -19607,8 +19607,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 20,
 ["parent"] = "KTZ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -19639,8 +19640,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 20,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -19822,218 +19822,18 @@ true,
 },
 ["desaturate"] = false,
 },
-["DKT_13_吞噬"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["xOffset"] = 130,
-["width"] = 10,
-["parent"] = "DKT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["authorOptions"] = {
-},
-["conditions"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["use_unit"] = true,
-["unit"] = "target",
-["hostility"] = "hostile",
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["names"] = {
-},
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["health_operator"] = {
-">",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["health"] = {
-"0",
-},
-["use_health"] = true,
-["use_unit"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["debuffType"] = "HELPFUL",
-["use_inverse"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-["realSpellName"] = 0,
-["use_spellName"] = true,
-["use_absorbMode"] = true,
-["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnCooldown",
-["use_unit"] = true,
-["use_track"] = true,
-["spellName"] = 0,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["subeventSuffix"] = "_CAST_START",
-["event"] = "Health",
-["subeventPrefix"] = "SPELL",
-["names"] = {
-},
-["spellIds"] = {
-},
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["unit"] = "player",
-["check"] = "event",
-["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 77,
-["config"] = {
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "DKT_13_吞噬",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["uid"] = "AwkQEkTVhke",
-["frameStrata"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["use_combat"] = true,
-["use_alive"] = true,
-["use_never"] = false,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["anchorFrameType"] = "SCREEN",
-},
 ["FZT_2_破釜沉舟"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "FZT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -20041,7 +19841,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 20,
+["parent"] = "FZT",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -20222,13 +20022,18 @@ true,
 },
 ["anchorFrameType"] = "SCREEN",
 },
-["XDK_11_死亡凋零"] = {
+["KBZ_6_剑刃风暴/破坏者"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 110,
-["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -20238,12 +20043,207 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
+["parent"] = "KBZ",
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["hostility"] = "hostile",
+["use_hostility"] = true,
+["unit"] = "target",
+["spellIds"] = {
+},
+["use_unit"] = true,
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["health_operator"] = {
+">",
+},
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "target",
+["health"] = {
+"0",
+},
+["use_health"] = true,
+["use_unit"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 446035\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 228920\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "custom",
+["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and t[4] and (t[5] or t[6])\nend",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 77,
+["config"] = {
+},
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "KBZ_6_剑刃风暴/破坏者",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["uid"] = "bexGKIQIJGf",
+["frameStrata"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_never"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 72,
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
+},
+["XDK_11_死亡凋零"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["authorOptions"] = {
+},
+["width"] = 10,
+["parent"] = "XDK",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["xOffset"] = 110,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -20414,13 +20414,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -20451,7 +20451,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 20,
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -20622,12 +20622,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "FZT",
 ["desaturate"] = false,
-["xOffset"] = 100,
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -20659,8 +20660,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 100,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -20942,25 +20942,7 @@ true,
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["use_petbattle"] = false,
@@ -20999,24 +20981,45 @@ true,
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "qUGIJR8zi(n",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -21061,10 +21064,7 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["XDK_16_亡者大军"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -21075,9 +21075,8 @@ true,
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 160,
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -21087,7 +21086,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -21257,9 +21257,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "ZS",
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["xOffset"] = 80,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -21288,11 +21292,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -21515,14 +21515,14 @@ true,
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -21553,29 +21553,11 @@ true,
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -21617,15 +21599,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -21641,24 +21623,45 @@ true,
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "O6yw)sBXzKc",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -21729,23 +21732,15 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["TKS_11_腐蚀之种"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "TKSS",
+["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -21776,7 +21771,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 110,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -21928,12 +21928,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 10,
 ["width"] = 10,
-["parent"] = "FZT",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -21966,8 +21967,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "FZT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -22713,14 +22713,14 @@ true,
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_s_format"] = "none",
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -22751,7 +22751,7 @@ true,
 ["text_shadowXOffset"] = 0,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
@@ -22786,17 +22786,6 @@ true,
 ["useAdjustededMax"] = false,
 ["width"] = 25,
 ["source"] = "import",
-["preferToUpdate"] = false,
-["authorOptions"] = {
-},
-["cooldownEdge"] = true,
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["keepAspectRatio"] = true,
 ["actions"] = {
 ["start"] = {
 },
@@ -22805,7 +22794,18 @@ true,
 ["init"] = {
 },
 },
+["preferToUpdate"] = false,
 ["xOffset"] = 0,
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["authorOptions"] = {
+},
+["selfPoint"] = "CENTER",
+["keepAspectRatio"] = true,
 ["uid"] = "kuJtCXEerPe",
 ["alpha"] = 1,
 ["parent"] = "[UTILITY] Prot",
@@ -23386,7 +23386,7 @@ true,
 },
 },
 ["cooldown"] = true,
-["selfPoint"] = "CENTER",
+["cooldownEdge"] = true,
 },
 ["XDK_15_憎恶附肢"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -23397,9 +23397,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 150,
 ["authorOptions"] = {
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -23430,7 +23430,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XDK",
+["xOffset"] = 150,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -23579,8 +23579,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["parent"] = "KTZ",
-["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -23590,8 +23591,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 160,
 ["color"] = {
 1,
 1,
@@ -23766,13 +23766,13 @@ true,
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["parent"] = "DKT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -23803,7 +23803,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 40,
+["parent"] = "DKT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -23966,8 +23966,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["parent"] = "FZT",
 ["xOffset"] = 180,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -23977,8 +23978,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "FZT",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -24148,13 +24148,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -24164,7 +24160,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -24336,13 +24336,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -24352,7 +24352,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 50,
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -24536,9 +24536,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["parent"] = "CSZ",
 ["authorOptions"] = {
 },
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -24569,7 +24569,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -24718,8 +24718,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 180,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KBZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -24751,12 +24756,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -24910,8 +24910,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 150,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -24942,8 +24943,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -25118,20 +25118,20 @@ true,
 ["itemName"] = 158320,
 ["duration"] = "1",
 ["use_genericShowOn"] = true,
+["use_unit"] = true,
+["ownOnly"] = true,
+["genericShowOn"] = "showAlways",
 ["names"] = {
 "Chi Burst",
 },
-["ownOnly"] = true,
-["genericShowOn"] = "showAlways",
-["subeventPrefix"] = "SPELL",
 ["itemSlot"] = 13,
 ["remaining"] = "600",
 ["rem"] = "2.5",
-["debuffType"] = "HELPFUL",
 ["custom_hide"] = "timed",
+["debuffType"] = "HELPFUL",
 ["use_itemSlot"] = true,
 ["use_remaining"] = true,
-["buffShowOn"] = "showOnActive",
+["spellName"] = 123986,
 ["event"] = "Cooldown Progress (Equipment Slot)",
 ["type"] = "item",
 ["unevent"] = "auto",
@@ -25139,14 +25139,14 @@ true,
 ["use_showOn"] = true,
 ["unit"] = "player",
 ["use_itemName"] = true,
-["spellName"] = 123986,
+["buffShowOn"] = "showOnActive",
 ["realSpellName"] = "Chi Burst",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["use_testForCooldown"] = true,
 ["remOperator"] = "<=",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["remaining_operator"] = "<",
 ["useRem"] = true,
 },
@@ -25245,7 +25245,7 @@ true,
 },
 },
 ["height"] = 30,
-["preferToUpdate"] = false,
+["cooldownEdge"] = true,
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -25287,15 +25287,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -25313,26 +25313,7 @@ true,
 },
 ["desaturate"] = false,
 ["useAdjustededMax"] = false,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["icon"] = true,
 ["source"] = "import",
 ["information"] = {
 ["forceEvents"] = true,
@@ -25381,15 +25362,34 @@ true,
 },
 },
 },
+["preferToUpdate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["uid"] = "hmiXW97T5wB",
 ["progressSource"] = {
 -1,
 "",
 },
-["cooldownEdge"] = true,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["uid"] = "hmiXW97T5wB",
-["icon"] = true,
 ["width"] = 35,
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -25421,8 +25421,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 120,
 ["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -25453,8 +25454,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 120,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -25608,8 +25608,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["parent"] = "FZT",
 ["xOffset"] = 40,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -25640,8 +25641,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "FZT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -25816,8 +25816,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 140,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -25849,12 +25854,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -26003,8 +26003,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "NN7ZJsYxnap",
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["parent"] = "KTZ",
-["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26034,8 +26035,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 130,
 ["color"] = {
 1,
 1,
@@ -26189,13 +26189,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "TKSS",
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 50,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26226,7 +26222,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -26413,14 +26413,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "WQZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26451,7 +26446,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -26615,9 +26615,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "TKSS",
 ["authorOptions"] = {
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26648,7 +26648,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 20,
+["parent"] = "TKSS",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -26803,13 +26803,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "TKSS",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -26819,7 +26819,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "TKSS",
+["xOffset"] = 70,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -26998,13 +26998,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 180,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -27035,7 +27035,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 180,
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -27269,14 +27269,14 @@ true,
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -27307,29 +27307,11 @@ true,
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -27371,15 +27353,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -27395,24 +27377,45 @@ true,
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "6scwBPB7GVF",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -27470,23 +27473,20 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["KBZ_15_奥丁"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 150,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -27496,7 +27496,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["xOffset"] = 150,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -27666,8 +27666,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -27699,12 +27704,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -27853,9 +27853,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "TKSS",
 ["xOffset"] = 40,
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -27865,7 +27864,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "TKSS",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -28289,37 +28289,19 @@ true,
 ["text_font"] = "Expressway",
 ["text_anchorPoint"] = "CENTER",
 ["text_anchorYOffset"] = 15,
-["text_text_format_3.p_time_dynamic_threshold"] = 0,
+["text_text_format_2.p_time_dynamic_threshold"] = 0,
 ["text_shadowXOffset"] = 0,
 ["text_text_format_3.p_format"] = "timed",
 ["text_text_format_1.p_format"] = "timed",
-["text_text_format_2.p_time_dynamic_threshold"] = 0,
 ["text_text_format_1.p_time_dynamic_threshold"] = 3,
+["text_text_format_3.p_time_dynamic_threshold"] = 0,
 ["text_text_format_1.p_time_precision"] = 1,
 ["text_fontType"] = "OUTLINE",
 ["text_text_format_p_time_dynamic_threshold"] = 0,
 },
 },
 ["height"] = 35,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["use_petbattle"] = false,
@@ -28392,24 +28374,45 @@ true,
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "s1zysmUfBkg",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -28504,21 +28507,19 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["CSZ_6_絞喉"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["desaturate"] = false,
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -28529,8 +28530,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -28900,7 +28900,10 @@ true,
 },
 },
 ["stickyDuration"] = false,
-["preferToUpdate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["version"] = 24,
 ["subRegions"] = {
 {
@@ -28970,7 +28973,7 @@ true,
 },
 },
 ["height"] = 25,
-["selfPoint"] = "CENTER",
+["preferToUpdate"] = false,
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -29011,15 +29014,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -29035,12 +29038,7 @@ true,
 },
 },
 },
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["selfPoint"] = "CENTER",
 ["useAdjustededMax"] = false,
 ["information"] = {
 ["forceEvents"] = true,
@@ -29075,16 +29073,20 @@ true,
 },
 },
 },
-["internalVersion"] = 77,
-["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["icon"] = true,
 ["uid"] = "VQwQ(QwTKmp",
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["authorOptions"] = {
-},
+["desaturate"] = false,
 ["width"] = 25,
+["useCooldownModRate"] = true,
 ["frameStrata"] = 3,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["anchorFrameParent"] = false,
 ["cooldownTextDisabled"] = true,
 ["auto"] = true,
@@ -29092,28 +29094,30 @@ true,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "Storm Bolt (Talent) Prot",
-["useCooldownModRate"] = true,
+["internalVersion"] = 77,
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["progressSource"] = {
--1,
-"",
-},
+["xOffset"] = 0,
 ["config"] = {
 },
 ["inverse"] = true,
-["xOffset"] = 0,
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["displayIcon"] = "",
 ["cooldown"] = true,
-["icon"] = true,
+["authorOptions"] = {
+},
 },
 ["DKT_12_凋零"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 120,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29123,11 +29127,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -29227,13 +29227,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -29311,14 +29311,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 180,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29328,7 +29327,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KTZ",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -29625,7 +29625,7 @@ true,
 ["borderEdge"] = "None",
 ["regionType"] = "group",
 ["borderSize"] = 16,
-["uid"] = "epMRaidULqK",
+["borderInset"] = 11,
 ["borderOffset"] = 5,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
@@ -29653,9 +29653,9 @@ true,
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["xOffset"] = 0,
+["uid"] = "epMRaidULqK",
 ["config"] = {
 },
-["borderInset"] = 11,
 ["frameStrata"] = 3,
 ["conditions"] = {
 },
@@ -29670,14 +29670,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29687,7 +29682,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -29868,13 +29868,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 140,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29884,7 +29884,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["xOffset"] = 140,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -30054,13 +30054,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "UTEAke3DXDs",
 ["width"] = 10,
-["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -30090,7 +30086,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 110,
 ["actions"] = {
@@ -30241,13 +30241,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "TKSS",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -30278,7 +30278,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["parent"] = "TKSS",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -30413,8 +30413,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "WQZ",
 ["desaturate"] = false,
-["xOffset"] = 130,
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -30425,12 +30430,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 130,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -30696,11 +30696,11 @@ true,
 ["id"] = "1_bg",
 ["uid"] = "J6BeZI7xicE",
 ["frameStrata"] = 2,
-["width"] = 200,
+["desaturate"] = false,
 ["rotation"] = 0,
 ["config"] = {
 },
-["desaturate"] = false,
+["anchorFrameType"] = "SCREEN",
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -30728,7 +30728,7 @@ true,
 },
 },
 },
-["anchorFrameType"] = "SCREEN",
+["width"] = 200,
 },
 ["WQZ_18_撕裂"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -30739,8 +30739,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 180,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -30750,8 +30751,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -30922,13 +30922,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "FZT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -30938,7 +30938,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 160,
+["parent"] = "FZT",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -31108,13 +31108,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "A7BmzdtmGSF",
 ["width"] = 10,
+["parent"] = "KTZ",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -31145,7 +31140,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KTZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 40,
 ["actions"] = {
 ["start"] = {
@@ -31294,13 +31294,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "TKSS",
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 60,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -31331,7 +31327,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -31490,8 +31490,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 20,
-["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -31501,12 +31506,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -31762,7 +31762,10 @@ true,
 },
 },
 ["stickyDuration"] = false,
-["preferToUpdate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["version"] = 24,
 ["subRegions"] = {
 {
@@ -31805,14 +31808,14 @@ true,
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -31843,11 +31846,11 @@ true,
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 20,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 35,
-["selfPoint"] = "CENTER",
+["preferToUpdate"] = false,
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -31889,15 +31892,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -31913,12 +31916,7 @@ true,
 },
 },
 },
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["selfPoint"] = "CENTER",
 ["useAdjustededMax"] = false,
 ["information"] = {
 ["forceEvents"] = true,
@@ -31967,16 +31965,20 @@ true,
 },
 },
 },
-["internalVersion"] = 77,
-["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["icon"] = true,
 ["uid"] = "csSmE0F(XUJ",
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["authorOptions"] = {
-},
+["desaturate"] = false,
 ["width"] = 45,
+["useCooldownModRate"] = true,
 ["frameStrata"] = 3,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["anchorFrameParent"] = false,
 ["cooldownTextDisabled"] = true,
 ["auto"] = true,
@@ -31984,20 +31986,18 @@ true,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "Thunderous Roar (Talent) Prot",
-["useCooldownModRate"] = true,
+["internalVersion"] = 77,
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["progressSource"] = {
--1,
-"",
-},
+["xOffset"] = 0,
 ["config"] = {
 },
 ["inverse"] = true,
-["xOffset"] = 0,
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["displayIcon"] = "",
 ["cooldown"] = true,
-["icon"] = true,
+["authorOptions"] = {
+},
 },
 ["Demolish (Hero) Prot"] = {
 ["iconSource"] = -1,
@@ -32183,13 +32183,13 @@ true,
 ["text_font"] = "Expressway",
 ["text_text_format_1.p_time_precision"] = 1,
 ["text_anchorPoint"] = "CENTER",
-["text_text_format_3.p_time_dynamic_threshold"] = 0,
+["text_text_format_1.p_time_dynamic_threshold"] = 0,
 ["text_text_format_p_time_precision"] = 1,
 ["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_text_format_3.p_format"] = "timed",
-["text_text_format_1.p_time_dynamic_threshold"] = 0,
-["text_text_format_1.p_format"] = "timed",
 ["text_text_format_2.p_time_dynamic_threshold"] = 60,
+["text_text_format_1.p_format"] = "timed",
+["text_text_format_3.p_time_dynamic_threshold"] = 0,
 ["text_shadowXOffset"] = 0,
 ["text_fontType"] = "OUTLINE",
 },
@@ -32244,7 +32244,7 @@ true,
 },
 },
 ["height"] = 35,
-["xOffset"] = 0,
+["desaturate"] = false,
 ["load"] = {
 ["use_petbattle"] = false,
 ["class_and_spec"] = {
@@ -32271,13 +32271,13 @@ true,
 ["zoneIds"] = "",
 ["use_class"] = true,
 ["use_herotalent"] = false,
+["use_spec"] = true,
 ["herotalent"] = {
 ["multi"] = {
 [117415] = true,
 },
 },
 ["use_vehicleUi"] = false,
-["use_spec"] = true,
 ["spec"] = {
 ["single"] = 3,
 ["multi"] = {
@@ -32290,12 +32290,14 @@ true,
 },
 },
 },
-["authorOptions"] = {
-},
+["xOffset"] = 0,
 ["useAdjustededMax"] = false,
-["keepAspectRatio"] = true,
+["internalVersion"] = 77,
 ["source"] = "import",
 ["cooldown"] = true,
+["authorOptions"] = {
+},
+["selfPoint"] = "CENTER",
 ["actions"] = {
 ["start"] = {
 },
@@ -32304,12 +32306,10 @@ true,
 ["init"] = {
 },
 },
-["preferToUpdate"] = false,
-["desaturate"] = false,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "xYNoKZaqN1J",
-["internalVersion"] = 77,
+["preferToUpdate"] = false,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
 ["anchorFrameParent"] = false,
@@ -32409,14 +32409,19 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["selfPoint"] = "CENTER",
+["keepAspectRatio"] = true,
 },
 ["KBZ_8_嗜血"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 80,
 ["width"] = 10,
-["parent"] = "KBZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -32427,12 +32432,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KBZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -32616,13 +32616,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "XDK",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -32653,7 +32653,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 20,
+["parent"] = "XDK",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -32812,9 +32812,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "R0H4bknKYMY",
 ["width"] = 10,
+["xOffset"] = 70,
 ["parent"] = "KTZ",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -32844,7 +32843,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -33003,9 +33003,8 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "TKSS",
+["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -33013,7 +33012,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 30,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -33191,8 +33191,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 100,
 ["desaturate"] = false,
-["parent"] = "ZS",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -33222,12 +33227,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "ZS",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -33379,13 +33379,8 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 90,
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -33395,7 +33390,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -33494,13 +33494,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195182\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195182\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -33579,13 +33579,8 @@ true,
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 30,
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -33595,7 +33590,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -33775,12 +33775,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 180,
 ["desaturate"] = false,
-["parent"] = "DKT",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -33812,8 +33813,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "DKT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -33910,13 +33910,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 46585\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -33976,13 +33976,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 80,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -33992,7 +33992,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["xOffset"] = 80,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -34090,13 +34090,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 50842\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 50842\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -34175,12 +34175,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 90,
 ["width"] = 10,
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -34212,8 +34213,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -34362,14 +34362,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "DKT",
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -34400,7 +34395,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 110,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -34497,13 +34497,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195292\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -34562,13 +34562,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -34578,7 +34574,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 80,
 ["actions"] = {
@@ -34819,14 +34819,14 @@ true,
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -34857,29 +34857,11 @@ true,
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -34917,7 +34899,7 @@ true,
 ["multi"] = {
 },
 },
-["pvptalent"] = {
+["faction"] = {
 ["multi"] = {
 },
 },
@@ -34926,11 +34908,11 @@ true,
 },
 },
 ["use_spellknown"] = false,
-["use_vehicleUi"] = false,
-["faction"] = {
+["pvptalent"] = {
 ["multi"] = {
 },
 },
+["use_vehicleUi"] = false,
 ["race"] = {
 ["multi"] = {
 },
@@ -34946,24 +34928,45 @@ true,
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "Ri7KbY7gjIC",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -35020,18 +35023,14 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["KTZ_10_抹殺"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 100,
 ["parent"] = "KTZ",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -35041,7 +35040,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 100,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -35216,13 +35216,13 @@ true,
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -35232,7 +35232,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 120,
+["parent"] = "KBZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -35402,14 +35402,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 70,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35440,7 +35439,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "DKT",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -35538,13 +35538,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 206930\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -35603,13 +35603,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -35619,7 +35619,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 70,
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -35903,25 +35903,7 @@ true,
 },
 },
 ["height"] = 30,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["use_petbattle"] = false,
@@ -35959,24 +35941,45 @@ true,
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "u5wy6iIq)fx",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -36020,10 +36023,7 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["FZT"] = {
 ["backdropColor"] = {
@@ -36160,8 +36160,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "CSZ",
 ["xOffset"] = 140,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -36192,8 +36193,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -36342,8 +36342,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KBZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -36352,12 +36357,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KBZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -36535,8 +36535,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 20,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -36547,12 +36552,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -36740,17 +36740,17 @@ true,
 },
 ["desaturate"] = false,
 },
-["KBZ_6_剑刃风暴/破坏者"] = {
+["DKT_13_吞噬"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["authorOptions"] = {
-},
+["xOffset"] = 130,
 ["width"] = 10,
-["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -36761,7 +36761,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
+["parent"] = "DKT",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -36781,15 +36781,15 @@ true,
 ["subeventSuffix"] = "_CAST_START",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["hostility"] = "hostile",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["unit"] = "target",
+["hostility"] = "hostile",
 ["spellIds"] = {
 },
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["subeventPrefix"] = "SPELL",
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -36834,14 +36834,20 @@ true,
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["use_inverse"] = true,
-["use_absorbMode"] = true,
 ["event"] = "Cast",
 ["unit"] = "player",
+["realSpellName"] = 0,
+["use_spellName"] = true,
+["use_absorbMode"] = true,
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["use_track"] = true,
+["spellName"] = 0,
 },
 ["untrigger"] = {
 },
@@ -36849,38 +36855,30 @@ true,
 {
 ["trigger"] = {
 ["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 446035\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
+["subeventSuffix"] = "_CAST_START",
+["event"] = "Health",
+["subeventPrefix"] = "SPELL",
+["names"] = {
+},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["unit"] = "player",
+["check"] = "event",
+["custom_type"] = "status",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
-{
-["trigger"] = {
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 228920\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "custom",
-["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and t[4] and (t[5] or t[6])\nend",
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
 ["activeTriggerMode"] = -10,
 },
 ["internalVersion"] = 77,
 ["config"] = {
 },
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "KBZ_6_剑刃风暴/破坏者",
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -36901,10 +36899,12 @@ true,
 ["easeType"] = "none",
 },
 },
+["id"] = "DKT_13_吞噬",
+["selfPoint"] = "BOTTOMLEFT",
 ["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 ["rotation"] = 0,
-["uid"] = "bexGKIQIJGf",
+["uid"] = "AwkQEkTVhke",
 ["frameStrata"] = 1,
 ["subRegions"] = {
 {
@@ -36914,7 +36914,9 @@ true,
 ["height"] = 10,
 ["rotate"] = false,
 ["load"] = {
-["use_never"] = false,
+["class_and_spec"] = {
+["single"] = 250,
+},
 ["talent"] = {
 ["multi"] = {
 },
@@ -36923,35 +36925,33 @@ true,
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 72,
-},
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
 ["use_combat"] = true,
 ["use_alive"] = true,
-["use_class_and_spec"] = true,
+["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
 },
 },
-["desaturate"] = false,
+["anchorFrameType"] = "SCREEN",
 },
 ["KBZ_10_斩杀"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 100,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -36961,7 +36961,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["xOffset"] = 100,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -37145,8 +37145,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "CSZ",
 ["xOffset"] = 80,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -37156,12 +37161,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -37336,8 +37336,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 80,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -37368,8 +37369,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -37569,15 +37569,14 @@ true,
 },
 ["columnSpace"] = 1,
 ["internalVersion"] = 77,
-["frameStrata"] = 1,
+["gridWidth"] = 5,
 ["selfPoint"] = "CENTER",
 ["align"] = "CENTER",
-["config"] = {
-},
+["stepAngle"] = 15,
 ["arcLength"] = 360,
-["radius"] = 200,
-["stagger"] = 0,
 ["useLimit"] = false,
+["stagger"] = 0,
+["radius"] = 200,
 ["version"] = 24,
 ["subRegions"] = {
 },
@@ -37613,30 +37612,30 @@ true,
 1,
 0.5,
 },
-["uid"] = "IFfmTXq(BnP",
+["config"] = {
+},
 ["source"] = "import",
-["gridType"] = "RD",
+["uid"] = "IFfmTXq(BnP",
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
 ["borderEdge"] = "Square Full White",
-["stepAngle"] = 15,
+["regionType"] = "dynamicgroup",
 ["borderSize"] = 2,
-["limit"] = 5,
 ["sort"] = "none",
-["gridWidth"] = 5,
+["animate"] = false,
+["alpha"] = 1,
 ["constantFactor"] = "RADIUS",
 ["rotation"] = 0,
 ["borderOffset"] = 4,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "[UTILITY] Prot",
-["regionType"] = "dynamicgroup",
-["alpha"] = 1,
+["limit"] = 5,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["animate"] = false,
-["borderInset"] = 1,
 ["xOffset"] = 0,
+["borderInset"] = 1,
 ["sortHybridTable"] = {
 ["Challenging Shout (Talent) Prot"] = false,
 ["Piercing Howl (Talent) Prot"] = false,
@@ -37651,10 +37650,6 @@ true,
 ["Wrecking Throw (Talent) Prot"] = false,
 ["Intervene (Talent) Prot"] = false,
 ["Bitter Immunity (Talent) Prot"] = false,
-},
-["conditions"] = {
-},
-["information"] = {
 },
 ["animation"] = {
 ["start"] = {
@@ -37676,13 +37671,23 @@ true,
 ["easeType"] = "none",
 },
 },
+["conditions"] = {
+},
+["information"] = {
+},
+["gridType"] = "RD",
 },
 ["KBZ_11_旋风斩"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 110,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KBZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -37714,12 +37719,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -37943,7 +37943,10 @@ true,
 },
 },
 ["stickyDuration"] = false,
-["preferToUpdate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["version"] = 24,
 ["subRegions"] = {
 {
@@ -38013,7 +38016,7 @@ true,
 },
 },
 ["height"] = 35,
-["selfPoint"] = "CENTER",
+["preferToUpdate"] = false,
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -38055,15 +38058,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -38079,12 +38082,7 @@ true,
 },
 },
 },
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["selfPoint"] = "CENTER",
 ["useAdjustededMax"] = false,
 ["information"] = {
 ["forceEvents"] = true,
@@ -38148,16 +38146,20 @@ true,
 },
 },
 },
-["internalVersion"] = 77,
-["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["icon"] = true,
 ["uid"] = "ZQuOLqjDfqw",
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
-["authorOptions"] = {
-},
+["desaturate"] = false,
 ["width"] = 45,
+["useCooldownModRate"] = true,
 ["frameStrata"] = 3,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["anchorFrameParent"] = false,
 ["cooldownTextDisabled"] = true,
 ["auto"] = true,
@@ -38165,20 +38167,18 @@ true,
 ["semver"] = "1.0.23",
 ["tocversion"] = 110002,
 ["id"] = "Shield Charge (Talent)",
-["useCooldownModRate"] = true,
+["internalVersion"] = 77,
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["progressSource"] = {
--1,
-"",
-},
+["xOffset"] = 0,
 ["config"] = {
 },
 ["inverse"] = true,
-["xOffset"] = 0,
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 ["displayIcon"] = "",
 ["cooldown"] = true,
-["icon"] = true,
+["authorOptions"] = {
+},
 },
 ["XDK_18_亡者复生"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -38189,8 +38189,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 180,
 ["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -38221,8 +38222,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 180,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -38425,14 +38425,14 @@ true,
 ["event"] = "Health",
 ["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
+["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        if not UnitIsDead(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit)\n        then\n            if WeakAuras.CheckRange(unit, 8, \"<=\")\n            then\n                count = count + 1\n                if count >= 2 then\n                    break\n                end\n            end\n        end\n    end\n    return count >= 2\nend",
 ["events"] = "",
-["spellIds"] = {
-},
 ["names"] = {
 },
 ["check"] = "update",
 ["custom_type"] = "status",
-["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        if not UnitIsDead(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit)\n        then\n            if WeakAuras.CheckRange(unit, 8, \"<=\")\n            then\n                count = count + 1\n                if count >= 2 then\n                    break\n                end\n            end\n        end\n    end\n    return count >= 2\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -38450,11 +38450,11 @@ true,
 ["id"] = "AOE",
 ["uid"] = "YAd2CUc0QvT",
 ["frameStrata"] = 1,
-["desaturate"] = false,
+["width"] = 32,
 ["rotation"] = 0,
 ["config"] = {
 },
-["width"] = 32,
+["anchorFrameType"] = "SCREEN",
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -38481,18 +38481,19 @@ true,
 },
 },
 },
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 },
 ["ZS_1_盾擋"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "ZS",
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -38501,8 +38502,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 10,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -38725,8 +38725,13 @@ true,
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 90,
 ["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -38736,12 +38741,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 90,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -38911,8 +38911,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["parent"] = "KTZ",
-["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -38922,8 +38923,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 60,
 ["color"] = {
 1,
 1,
@@ -39102,9 +39102,8 @@ true,
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 150,
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -39135,7 +39134,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FZT",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -39355,14 +39355,14 @@ true,
 {
 ["text_text_format_p_time_format"] = 0,
 ["text_text_format_1.p_time_legacy_floor"] = false,
+["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_time_dynamic_threshold"] = 0,
 ["text_shadowColor"] = {
 0,
 0,
 0,
 1,
 },
-["text_text_format_p_time_dynamic_threshold"] = 0,
-["text_text_format_p_format"] = "timed",
 ["text_text_format_1.p_time_mod_rate"] = true,
 ["text_selfPoint"] = "AUTO",
 ["text_automaticWidth"] = "Auto",
@@ -39393,29 +39393,11 @@ true,
 ["text_text_format_p_time_precision"] = 1,
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_p_time_mod_rate"] = true,
+["text_text_format_p_format"] = "timed",
 },
 },
 ["height"] = 25,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["authorOptions"] = {
 },
 ["load"] = {
 ["ingroup"] = {
@@ -39456,15 +39438,15 @@ true,
 ["multi"] = {
 },
 },
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
 },
 ["use_vehicleUi"] = false,
-["faction"] = {
-["multi"] = {
-},
-},
 ["use_petbattle"] = false,
 ["race"] = {
 ["multi"] = {
@@ -39480,24 +39462,45 @@ true,
 },
 },
 },
-["desaturate"] = false,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["useAdjustededMax"] = false,
-["url"] = "https://wago.io/DoctorioWarriorProtection/24",
+["preferToUpdate"] = false,
 ["source"] = "import",
 ["cooldown"] = true,
+["desaturate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["useTooltip"] = true,
-["authorOptions"] = {
-},
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
 ["uid"] = "oaV3(no0(X(",
-["preferToUpdate"] = false,
+["useTooltip"] = true,
 ["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 3,
 ["anchorFrameParent"] = false,
@@ -39570,23 +39573,19 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["url"] = "https://wago.io/DoctorioWarriorProtection/24",
 },
 ["XDK_17_SP"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 170,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -39617,7 +39616,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -39766,14 +39766,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 50,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -39804,7 +39799,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -39962,9 +39962,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 100,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -39995,11 +39999,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -40149,8 +40149,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["width"] = 10,
-["parent"] = "DKT",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -40161,12 +40166,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKT",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -40388,20 +40388,20 @@ true,
 ["dynamicIconCache"] = {
 },
 ["editor_font_size"] = 12,
-["lastArchiveClear"] = 1691333830,
-["lastUpgrade"] = 1725857175,
-["ProfilingWindow"] = {
-["xOffset"] = 997.6217651367188,
+["RealTimeProfilingWindow"] = {
+["xOffset"] = 1445.434692382813,
 ["yOffset"] = -359.38623046875,
+},
+["lastUpgrade"] = 1725857175,
+["features"] = {
 },
 ["migrationCutoff"] = 730,
 ["registered"] = {
 },
 ["login_squelch_time"] = 10,
-["features"] = {
-},
-["RealTimeProfilingWindow"] = {
-["xOffset"] = 1445.434692382813,
+["lastArchiveClear"] = 1691333830,
+["ProfilingWindow"] = {
+["xOffset"] = 997.6217651367188,
 ["yOffset"] = -359.38623046875,
 },
 }
