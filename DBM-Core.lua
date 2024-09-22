@@ -327,7 +327,7 @@ DBM_AllSavedOptions = {
 },
 }
 DBM_MinimapIcon = {
-["minimapPos"] = 146.1328721377049,
+["minimapPos"] = 132.7348987043475,
 ["showInCompartment"] = true,
 }
 DBM_AnnoyingPopupDisables = {
