@@ -6,20 +6,23 @@ HekiliDB = {
 },
 ["profileKeys"] = {
 ["Tempos - Tichondrius"] = "Default",
-["Jiesuo - 金色平原"] = "Default",
+["Voodo - Tichondrius"] = "Default",
+["Rage - 暗影之月"] = "Default",
+["Bhaal - 暗影之月"] = "Default",
+["Beppan - Tichondrius"] = "Default",
+["Moradin - Tichondrius"] = "Default",
+["Rage - 金色平原"] = "Default",
+["Asima - Tichondrius"] = "Default",
+["Rune - 暗影之月"] = "Default",
 ["Voodoo - 萨格拉斯"] = "Default",
 ["Zehir - Tichondrius"] = "Default",
 ["Rare - 萨格拉斯"] = "Default",
-["Pazuru - Tichondrius"] = "Default",
-["Beppan - Tichondrius"] = "Default",
 ["Zxcvb - 国王之谷"] = "Default",
-["Rage - 金色平原"] = "Default",
-["Asima - Tichondrius"] = "Default",
 ["Epic - 国王之谷"] = "Default",
-["Voodo - Tichondrius"] = "Default",
+["Jiesuo - 金色平原"] = "Default",
 ["福音 - 萨格拉斯"] = "Default",
 ["Lolth - 国王之谷"] = "Default",
-["Moradin - Tichondrius"] = "Default",
+["Pazuru - Tichondrius"] = "Default",
 ["Aqei - Tichondrius"] = "Default",
 },
 ["profiles"] = {
@@ -50,10 +53,10 @@ HekiliDB = {
 },
 ["autoSnapshot"] = false,
 ["iconStore"] = {
-["minimapPos"] = 118.1807731903267,
+["minimapPos"] = 260.1824357484271,
 },
 ["runOnce"] = {
-["forceReloadClassDefaultOptions_20220306_72"] = true,
+["forceReloadClassDefaultOptions_20220306_1473"] = true,
 ["forceReloadClassDefaultOptions_20220306_265"] = true,
 ["forceReloadClassDefaultOptions_20220306_262"] = true,
 ["forceSpellFlashBrightness_20221030"] = true,
@@ -61,7 +64,7 @@ HekiliDB = {
 ["forceReloadClassDefaultOptions_20220306_252"] = true,
 ["forceReloadClassDefaultOptions_20220306_264"] = true,
 ["forceReloadClassDefaultOptions_20220306_263"] = true,
-["forceReloadClassDefaultOptions_20220306_1473"] = true,
+["forceReloadClassDefaultOptions_20220306_251"] = true,
 ["forceReloadClassDefaultOptions_20220306_254"] = true,
 ["forceReloadClassDefaultOptions_20220306_266"] = true,
 ["forceReloadClassDefaultOptions_20220306_255"] = true,
@@ -75,7 +78,7 @@ HekiliDB = {
 ["forceReloadClassDefaultOptions_20220306_261"] = true,
 ["forceEnableAllClassesOnceDueToBug_20220225"] = true,
 ["forceReloadClassDefaultOptions_20220306_267"] = true,
-["forceReloadClassDefaultOptions_20220306_251"] = true,
+["forceReloadClassDefaultOptions_20220306_72"] = true,
 ["fixHavocPriorityVersion_20240805"] = true,
 ["forceReloadClassDefaultOptions_20220306_253"] = true,
 ["forceReloadClassDefaultOptions_20220306_1467"] = true,
@@ -92,9 +95,9 @@ HekiliDB = {
 ["items"] = {
 {
 ["enabled"] = true,
+["name"] = "nymues_unraveling_spindle",
 ["action"] = "nymues_unraveling_spindle",
 ["criteria"] = "cooldown.breath_of_eons.remains <= 3 & ( trinket.t1.is.nymues_unraveling_spindle & variable.trinket_priority = 1 || trinket.t2.is.nymues_unraveling_spindle & variable.trinket_priority = 2 ) || ( cooldown.fire_breath.remains <= 4 || cooldown.upheaval.remains <= 4 ) & cooldown.breath_of_eons.remains > 10 & ! ( debuff.temporal_wound.up || prev_gcd.1.breath_of_eons ) & ( trinket.t1.is.nymues_unraveling_spindle & variable.trinket_priority = 2 || trinket.t2.is.nymues_unraveling_spindle & variable.trinket_priority = 1 )",
-["name"] = "nymues_unraveling_spindle",
 },
 {
 ["enabled"] = true,
@@ -103,15 +106,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["name"] = "treacherous_transmitter",
 ["action"] = "treacherous_transmitter",
 ["criteria"] = "cooldown.breath_of_eons.remains <= 10",
-["name"] = "treacherous_transmitter",
 },
 {
 ["enabled"] = true,
+["name"] = "spymasters_web",
 ["action"] = "spymasters_web",
 ["criteria"] = "buff.spymasters_report.stack = 1 & ! cooldown.breath_of_eons.up & ! buff.spymasters_web.up & time < 10 || ( debuff.temporal_wound.up || prev_gcd.1.breath_of_eons ) & ( fight_remains < 120 ) || ( boss & fight_remains <= 20 || evoker.allied_cds_up > 0 & fight_remains <= 60 || evoker.allied_cds_up > 0 & boss & fight_remains <= 30 & ( trinket.t1.is.spymasters_web & ( trinket.t2.cooldown.duration = 0 || trinket.t2.cooldown.remains ) || trinket.t2.is.spymasters_web & ( trinket.t1.cooldown.duration = 0 || trinket.t1.cooldown.remains ) ) ) & ! buff.spymasters_web.up",
-["name"] = "spymasters_web",
 },
 {
 ["enabled"] = true,
@@ -253,9 +256,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "talent.threads_of_fate.enabled & ( prev_gcd.1.breath_of_eons || boss & fight_remains <= 30 )",
 ["action"] = "tip_the_scales",
 ["description"] = "actions.default+=/tip_the_scales,if=talent.threads_of_fate&(!cooldown.breath_of_eons.up||time>10)",
-["criteria"] = "talent.threads_of_fate.enabled & ( prev_gcd.1.breath_of_eons || boss & fight_remains <= 30 )",
 },
 {
 ["enabled"] = true,
@@ -907,33 +910,33 @@ HekiliDB = {
 ["stealthed"] = {
 {
 ["enabled"] = true,
+["for_next"] = 1,
 ["action"] = "pool_resource",
 ["description"] = "Stealthed Actions",
-["for_next"] = 1,
 },
 {
 ["enabled"] = true,
+["criteria"] = "! debuff.deathstalkers_mark.up & talent.deathstalkers_mark.enabled",
 ["action"] = "ambush",
 ["description"] = "Apply Deathstalkers Mark if it has fallen off",
-["criteria"] = "! debuff.deathstalkers_mark.up & talent.deathstalkers_mark.enabled",
 },
 {
 ["enabled"] = true,
+["criteria"] = "talent.kingsbane.enabled & ( dot.kingsbane.ticking || cooldown.kingsbane.up ) & ( ! debuff.shiv.up & debuff.shiv.remains < 1 ) & buff.envenom.up",
 ["action"] = "shiv",
 ["description"] = "Make sure to have Shiv up during Kingsbane as a final check",
-["criteria"] = "talent.kingsbane.enabled & ( dot.kingsbane.ticking || cooldown.kingsbane.up ) & ( ! debuff.shiv.up & debuff.shiv.remains < 1 ) & buff.envenom.up",
 },
 {
 ["enabled"] = true,
+["criteria"] = "effective_combo_points >= variable.effective_spend_cp & dot.kingsbane.ticking & buff.envenom.remains <= 3 & ( debuff.deathstalkers_mark.up || buff.edge_case.up || buff.cold_blood.up )",
 ["action"] = "envenom",
 ["description"] = "Envenom to maintain the buff during Subterfuge",
-["criteria"] = "effective_combo_points >= variable.effective_spend_cp & dot.kingsbane.ticking & buff.envenom.remains <= 3 & ( debuff.deathstalkers_mark.up || buff.edge_case.up || buff.cold_blood.up )",
 },
 {
 ["enabled"] = true,
+["criteria"] = "effective_combo_points >= variable.effective_spend_cp & buff.master_assassin_aura.up & variable.single_target & ( debuff.deathstalkers_mark.up || buff.edge_case.up || buff.cold_blood.up )",
 ["action"] = "envenom",
 ["description"] = "Envenom during Master Assassin in single target",
-["criteria"] = "effective_combo_points >= variable.effective_spend_cp & buff.master_assassin_aura.up & variable.single_target & ( debuff.deathstalkers_mark.up || buff.edge_case.up || buff.cold_blood.up )",
 },
 {
 ["enabled"] = true,
@@ -965,33 +968,33 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "! buff.fatebound_lucky_coin.up & ( buff.fatebound_coin_tails.stack >= 5 || buff.fatebound_coin_heads.stack >= 5 )",
 ["action"] = "vanish",
 ["description"] = "Vanish to fish for Fateful Ending",
-["criteria"] = "! buff.fatebound_lucky_coin.up & ( buff.fatebound_coin_tails.stack >= 5 || buff.fatebound_coin_heads.stack >= 5 )",
 },
 {
 ["enabled"] = true,
+["criteria"] = "! talent.master_assassin.enabled & ! talent.indiscriminate_carnage.enabled & talent.improved_garrote.enabled & cooldown.garrote.up & ( dot.garrote.pmultiplier <= 1 || dot.garrote.refreshable ) & ( debuff.deathmark.up || cooldown.deathmark.remains < 4 ) & combo_points.deficit >= ( spell_targets.fan_of_knives >? 4 )",
 ["action"] = "vanish",
 ["description"] = "Vanish to spread Garrote during Deathmark without Indiscriminate Carnage",
-["criteria"] = "! talent.master_assassin.enabled & ! talent.indiscriminate_carnage.enabled & talent.improved_garrote.enabled & cooldown.garrote.up & ( dot.garrote.pmultiplier <= 1 || dot.garrote.refreshable ) & ( debuff.deathmark.up || cooldown.deathmark.remains < 4 ) & combo_points.deficit >= ( spell_targets.fan_of_knives >? 4 )",
 },
 {
 ["enabled"] = true,
+["for_next"] = 1,
 ["action"] = "pool_resource",
 ["extra_amount"] = "45",
-["for_next"] = 1,
 },
 {
 ["enabled"] = true,
+["criteria"] = "! talent.master_assassin.enabled & talent.indiscriminate_carnage.enabled & talent.improved_garrote.enabled & cooldown.garrote.up & ( dot.garrote.pmultiplier <= 1 || dot.garrote.refreshable ) & spell_targets.fan_of_knives > 2",
 ["action"] = "vanish",
 ["description"] = "Vanish for cleaving Garrotes with Indiscriminate Carnage",
-["criteria"] = "! talent.master_assassin.enabled & talent.indiscriminate_carnage.enabled & talent.improved_garrote.enabled & cooldown.garrote.up & ( dot.garrote.pmultiplier <= 1 || dot.garrote.refreshable ) & spell_targets.fan_of_knives > 2",
 },
 {
 ["enabled"] = true,
+["criteria"] = "talent.master_assassin.enabled & talent.kingsbane.enabled & dot.kingsbane.remains <= 3 & dot.kingsbane.ticking & debuff.deathmark.remains <= 3 & dot.deathmark.ticking",
 ["action"] = "vanish",
 ["description"] = "Vanish for Master Assassin during Kingsbane",
-["criteria"] = "talent.master_assassin.enabled & talent.kingsbane.enabled & dot.kingsbane.remains <= 3 & dot.kingsbane.ticking & debuff.deathmark.remains <= 3 & dot.deathmark.ticking",
 },
 {
 ["enabled"] = true,
@@ -1000,41 +1003,41 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "! talent.improved_garrote.enabled & talent.master_assassin.enabled & ! dot.rupture.refreshable & dot.garrote.remains > 3 & debuff.deathmark.up & ( debuff.shiv.up || debuff.deathmark.remains < 4 )",
 ["action"] = "vanish",
 ["description"] = "Vanish fallback for Master Assassin",
-["criteria"] = "! talent.improved_garrote.enabled & talent.master_assassin.enabled & ! dot.rupture.refreshable & dot.garrote.remains > 3 & debuff.deathmark.up & ( debuff.shiv.up || debuff.deathmark.remains < 4 )",
 },
 {
 ["enabled"] = true,
+["criteria"] = "talent.improved_garrote.enabled & cooldown.garrote.up & ( dot.garrote.pmultiplier <= 1 || dot.garrote.refreshable ) & ( debuff.deathmark.up || cooldown.deathmark.remains < 4 ) & raid_event.adds.in > 30",
 ["action"] = "vanish",
 ["description"] = "Vanish fallback for Improved Garrote during Deathmark if no add waves are expected",
-["criteria"] = "talent.improved_garrote.enabled & cooldown.garrote.up & ( dot.garrote.pmultiplier <= 1 || dot.garrote.refreshable ) & ( debuff.deathmark.up || cooldown.deathmark.remains < 4 ) & raid_event.adds.in > 30",
 },
 {
 ["enabled"] = true,
+["criteria"] = "! talent.improved_garrote.enabled & buff.darkest_night.up & combo_points.deficit >= 3 & variable.single_target",
 ["action"] = "vanish",
 ["description"] = "Vanish for slightly more mark uptime since you can apply mark and have darkest night at the same time",
-["criteria"] = "! talent.improved_garrote.enabled & buff.darkest_night.up & combo_points.deficit >= 3 & variable.single_target",
 },
 },
 ["core_dot"] = {
 {
 ["enabled"] = true,
+["criteria"] = "combo_points.deficit >= 1 & ( pmultiplier <= 1 ) & refreshable & target.time_to_die - remains > 12",
 ["action"] = "garrote",
 ["description"] = "Core damage over time abilities used everywhere Maintain Garrote",
-["criteria"] = "combo_points.deficit >= 1 & ( pmultiplier <= 1 ) & refreshable & target.time_to_die - remains > 12",
 },
 {
 ["enabled"] = true,
+["criteria"] = "effective_combo_points >= variable.effective_spend_cp & ( pmultiplier <= 1 ) & refreshable & target.time_to_die - remains > ( 4 + ( talent.dashing_scoundrel.enabled * 5 ) + ( variable.regen_saturated * 6 ) ) & ! buff.darkest_night.up",
 ["action"] = "rupture",
 ["description"] = "Maintain Rupture unless darkest night is up",
-["criteria"] = "effective_combo_points >= variable.effective_spend_cp & ( pmultiplier <= 1 ) & refreshable & target.time_to_die - remains > ( 4 + ( talent.dashing_scoundrel.enabled * 5 ) + ( variable.regen_saturated * 6 ) ) & ! buff.darkest_night.up",
 },
 {
 ["enabled"] = true,
+["criteria"] = "effective_combo_points >= variable.effective_spend_cp & refreshable & buff.momentum_of_despair.remains > 6 & variable.single_target",
 ["action"] = "crimson_tempest",
 ["description"] = "Crimson Tempest with Momentum of Despair",
-["criteria"] = "effective_combo_points >= variable.effective_spend_cp & refreshable & buff.momentum_of_despair.remains > 6 & variable.single_target",
 },
 },
 ["shiv"] = {
@@ -1055,15 +1058,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "talent.arterial_precision.enabled & variable.shiv_condition & spell_targets.fan_of_knives >= 4 & dot.crimson_tempest.ticking",
 ["action"] = "shiv",
 ["description"] = "Shiv for aoe with Arterial Precision",
-["criteria"] = "talent.arterial_precision.enabled & variable.shiv_condition & spell_targets.fan_of_knives >= 4 & dot.crimson_tempest.ticking",
 },
 {
 ["enabled"] = true,
+["criteria"] = "! talent.lightweight_shiv.enabled & variable.shiv_kingsbane_condition & ( dot.kingsbane.ticking & dot.kingsbane.remains < 8 || ! dot.kingsbane.ticking & cooldown.kingsbane.remains >= 24 ) & ( ! talent.crimson_tempest.enabled || variable.single_target || dot.crimson_tempest.ticking )",
 ["action"] = "shiv",
 ["description"] = "Shiv cases for Kingsbane",
-["criteria"] = "! talent.lightweight_shiv.enabled & variable.shiv_kingsbane_condition & ( dot.kingsbane.ticking & dot.kingsbane.remains < 8 || ! dot.kingsbane.ticking & cooldown.kingsbane.remains >= 24 ) & ( ! talent.crimson_tempest.enabled || variable.single_target || dot.crimson_tempest.ticking )",
 },
 {
 ["enabled"] = true,
@@ -1072,35 +1075,35 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "talent.arterial_precision.enabled & variable.shiv_condition & debuff.deathmark.up",
 ["action"] = "shiv",
 ["description"] = "Fallback shiv for arterial during deathmark",
-["criteria"] = "talent.arterial_precision.enabled & variable.shiv_condition & debuff.deathmark.up",
 },
 {
 ["enabled"] = true,
+["criteria"] = "! talent.kingsbane.enabled & ! talent.arterial_precision.enabled & variable.shiv_condition & ( ! talent.crimson_tempest.enabled || variable.single_target || dot.crimson_tempest.ticking )",
 ["action"] = "shiv",
 ["description"] = "Fallback if no special cases apply",
-["criteria"] = "! talent.kingsbane.enabled & ! talent.arterial_precision.enabled & variable.shiv_condition & ( ! talent.crimson_tempest.enabled || variable.single_target || dot.crimson_tempest.ticking )",
 },
 {
 ["enabled"] = true,
+["criteria"] = "boss & fight_remains <= charges * 8",
 ["action"] = "shiv",
 ["description"] = "Dump Shiv on fight end",
-["criteria"] = "boss & fight_remains <= charges * 8",
 },
 },
 ["misc_cds"] = {
 {
 ["enabled"] = true,
+["criteria"] = "buff.bloodlust.react || boss & fight_remains < 30 || debuff.deathmark.up",
 ["action"] = "potion",
 ["description"] = "Miscellaneous Cooldowns Potion",
-["criteria"] = "buff.bloodlust.react || boss & fight_remains < 30 || debuff.deathmark.up",
 },
 {
 ["enabled"] = true,
+["criteria"] = "debuff.deathmark.up",
 ["action"] = "blood_fury",
 ["description"] = "Various special racials to be synced with cooldowns",
-["criteria"] = "debuff.deathmark.up",
 },
 {
 ["enabled"] = true,
@@ -1145,9 +1148,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "spell_targets >= 2 & variable.dot_finisher_condition & refreshable & target.time_to_die - remains > 6",
 ["action"] = "crimson_tempest",
 ["description"] = "Crimson Tempest on 2+ Targets if we have enough energy regen",
-["criteria"] = "spell_targets >= 2 & variable.dot_finisher_condition & refreshable & target.time_to_die - remains > 6",
 },
 {
 ["enabled"] = true,
@@ -1171,9 +1174,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "refreshable & combo_points.deficit >= 1 & ( pmultiplier <= 1 || remains <= tick_time & spell_targets.fan_of_knives >= 3 ) & ( remains <= tick_time * 2 & spell_targets.fan_of_knives >= 3 ) & ( target.time_to_die - remains ) > 4 & master_assassin_remains = 0",
 ["action"] = "garrote",
 ["description"] = "Garrote as a special generator for the last CP before a finisher for edge case handling",
-["criteria"] = "refreshable & combo_points.deficit >= 1 & ( pmultiplier <= 1 || remains <= tick_time & spell_targets.fan_of_knives >= 3 ) & ( remains <= tick_time * 2 & spell_targets.fan_of_knives >= 3 ) & ( target.time_to_die - remains ) > 4 & master_assassin_remains = 0",
 },
 },
 ["items"] = {
@@ -1229,9 +1232,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["slots"] = "trinket2",
 ["action"] = "trinket2",
 ["criteria"] = "( variable.trinket_sync_slot = 2 & ( debuff.deathmark.up || boss & fight_remains <= 20 ) || ( variable.trinket_sync_slot = 1 & ( ! trinket.t1.cooldown.ready || ! debuff.deathmark.up & cooldown.deathmark.remains > 20 ) ) || ! variable.trinket_sync_slot )",
-["slots"] = "trinket2",
 },
 },
 ["default"] = {
@@ -1294,9 +1297,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "! buff.slice_and_dice.up & dot.rupture.ticking & combo_points >= 1 & ( ! buff.indiscriminate_carnage.up || variable.single_target )",
 ["action"] = "slice_and_dice",
 ["description"] = "Put SnD up initially for Cut to the Chase, refresh with Envenom if at low duration",
-["criteria"] = "! buff.slice_and_dice.up & dot.rupture.ticking & combo_points >= 1 & ( ! buff.indiscriminate_carnage.up || variable.single_target )",
 },
 {
 ["enabled"] = true,
@@ -1395,15 +1398,15 @@ HekiliDB = {
 ["direct"] = {
 {
 ["enabled"] = true,
+["criteria"] = "! buff.darkest_night.up & effective_combo_points >= variable.effective_spend_cp & ( variable.not_pooling || debuff.amplifying_poison.stack >= 20 || effective_combo_points > cp_max_spend || ! variable.single_target ) & ! buff.vanish.up",
 ["action"] = "envenom",
 ["description"] = "Direct Damage Abilities   Envenom at applicable cp if not pooling, capped on amplifying poison stacks, on an animacharged CP, or in aoe.",
-["criteria"] = "! buff.darkest_night.up & effective_combo_points >= variable.effective_spend_cp & ( variable.not_pooling || debuff.amplifying_poison.stack >= 20 || effective_combo_points > cp_max_spend || ! variable.single_target ) & ! buff.vanish.up",
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.darkest_night.up & effective_combo_points >= cp_max_spend",
 ["action"] = "envenom",
 ["description"] = "Special Envenom handling for Darkest Night",
-["criteria"] = "buff.darkest_night.up & effective_combo_points >= cp_max_spend",
 },
 {
 ["enabled"] = true,
@@ -1433,15 +1436,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "variable.use_filler || boss & fight_remains < 20",
 ["action"] = "echoing_reprimand",
 ["description"] = "Use Echoing Reprimand on cooldown",
-["criteria"] = "variable.use_filler || boss & fight_remains < 20",
 },
 {
 ["enabled"] = true,
+["criteria"] = "variable.use_filler & ! priority_rotation & ( spell_targets.fan_of_knives >= 3 - ( talent.momentum_of_despair.enabled & talent.thrown_precision.enabled ) || buff.clear_the_witnesses.up & ! talent.vicious_venoms.enabled )",
 ["action"] = "fan_of_knives",
 ["description"] = "Fan of Knives at 3+ targets, accounting for various edge cases",
-["criteria"] = "variable.use_filler & ! priority_rotation & ( spell_targets.fan_of_knives >= 3 - ( talent.momentum_of_despair.enabled & talent.thrown_precision.enabled ) || buff.clear_the_witnesses.up & ! talent.vicious_venoms.enabled )",
 },
 {
 ["enabled"] = true,
@@ -1452,9 +1455,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "variable.use_filler & ( buff.blindside.up || stealthed.rogue ) & ( ! dot.kingsbane.ticking || debuff.deathmark.down || buff.blindside.up )",
 ["action"] = "ambush",
 ["description"] = "Ambush on Blindside/Subterfuge. Do not use Ambush from stealth during Kingsbane & Deathmark.",
-["criteria"] = "variable.use_filler & ( buff.blindside.up || stealthed.rogue ) & ( ! dot.kingsbane.ticking || debuff.deathmark.down || buff.blindside.up )",
 },
 {
 ["enabled"] = true,
@@ -1465,15 +1468,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "! variable.use_filler & combo_points.deficit <= 1 & ( energy.pct >= ( 40 + 30 * talent.hand_of_fate.enabled - 15 * talent.vicious_venoms.enabled ) || boss & fight_remains <= 20 )",
 ["action"] = "envenom",
 ["description"] = "Fallback Envenom",
-["criteria"] = "! variable.use_filler & combo_points.deficit <= 1 & ( energy.pct >= ( 40 + 30 * talent.hand_of_fate.enabled - 15 * talent.vicious_venoms.enabled ) || boss & fight_remains <= 20 )",
 },
 {
 ["enabled"] = true,
+["criteria"] = "variable.use_filler",
 ["action"] = "mutilate",
 ["description"] = "Fallback Mutilate",
-["criteria"] = "variable.use_filler",
 },
 },
 ["cds"] = {
@@ -1508,9 +1511,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "( variable.deathmark_condition & target.time_to_die >= 10 ) || boss & fight_remains <= 20",
 ["action"] = "deathmark",
 ["description"] = "Cast Deathmark if the target will survive long enough",
-["criteria"] = "( variable.deathmark_condition & target.time_to_die >= 10 ) || boss & fight_remains <= 20",
 },
 {
 ["enabled"] = true,
@@ -1525,9 +1528,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "! buff.thistle_tea.up & ( ( ( energy.deficit >= 100 + energy.regen_combined || charges >= 3 ) & debuff.shiv.remains >= 4 ) || spell_targets.fan_of_knives >= 4 & debuff.shiv.remains >= 6 ) || ( buff.thistle_tea.down || energy.deficit > 100 ) & fight_remains < charges * 6",
 ["action"] = "thistle_tea",
 ["description"] = "Avoid overcapped energy, use with shiv, or dump charges at the end of a fight",
-["criteria"] = "! buff.thistle_tea.up & ( ( ( energy.deficit >= 100 + energy.regen_combined || charges >= 3 ) & debuff.shiv.remains >= 4 ) || spell_targets.fan_of_knives >= 4 & debuff.shiv.remains >= 6 ) || ( buff.thistle_tea.down || energy.deficit > 100 ) & fight_remains < charges * 6",
 },
 {
 ["enabled"] = true,
@@ -1543,9 +1546,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "! buff.edge_case.up & cooldown.deathmark.remains > 10 & ! buff.darkest_night.up & effective_combo_points >= variable.effective_spend_cp & ( variable.not_pooling || debuff.amplifying_poison.stack >= 20 || ! variable.single_target ) & ! buff.vanish.up & ( ! cooldown.kingsbane.up || ! variable.single_target ) & ! cooldown.deathmark.up",
 ["action"] = "cold_blood",
 ["description"] = "Cold Blood with similar conditions to Envenom, avoiding munching Edge Case",
-["criteria"] = "! buff.edge_case.up & cooldown.deathmark.remains > 10 & ! buff.darkest_night.up & effective_combo_points >= variable.effective_spend_cp & ( variable.not_pooling || debuff.amplifying_poison.stack >= 20 || ! variable.single_target ) & ! buff.vanish.up & ( ! cooldown.kingsbane.up || ! variable.single_target ) & ! cooldown.deathmark.up",
 },
 },
 },
@@ -1564,9 +1567,9 @@ HekiliDB = {
 ["aoe_setup"] = {
 {
 ["enabled"] = true,
+["criteria"] = "! death_and_decay.ticking & ( ! talent.bursting_sores.enabled & ! talent.vile_contagion.enabled || death_knight.fwounded_targets >= cycle_enemies || death_knight.fwounded_targets >= 8 || raid_event.adds.exists & raid_event.adds.remains <= 11 & raid_event.adds.remains > 5 )",
 ["action"] = "any_dnd",
 ["description"] = "AoE Setup",
-["criteria"] = "! death_and_decay.ticking & ( ! talent.bursting_sores.enabled & ! talent.vile_contagion.enabled || death_knight.fwounded_targets >= cycle_enemies || death_knight.fwounded_targets >= 8 || raid_event.adds.exists & raid_event.adds.remains <= 11 & raid_event.adds.remains > 5 )",
 },
 {
 ["enabled"] = true,
@@ -1636,9 +1639,9 @@ HekiliDB = {
 ["cleave"] = {
 {
 ["enabled"] = true,
+["criteria"] = "! death_and_decay.ticking",
 ["action"] = "any_dnd",
 ["description"] = "Cleave",
-["criteria"] = "! death_and_decay.ticking",
 },
 {
 ["enabled"] = true,
@@ -1671,9 +1674,9 @@ HekiliDB = {
 ["cds_shared"] = {
 {
 ["enabled"] = true,
+["criteria"] = "active_enemies >= 1 & ( ! talent.summon_gargoyle.enabled || cooldown.summon_gargoyle.remains > 60 ) & ( buff.dark_transformation.up & 30 >= buff.dark_transformation.remains || pet.army_ghoul.active & pet.army_ghoul.remains <= 30 || pet.apoc_ghoul.active & pet.apoc_ghoul.remains <= 30 || pet.abomination.active & pet.abomination.remains <= 30 ) || boss & fight_remains <= 30",
 ["action"] = "potion",
 ["description"] = "Shared Cooldowns",
-["criteria"] = "active_enemies >= 1 & ( ! talent.summon_gargoyle.enabled || cooldown.summon_gargoyle.remains > 60 ) & ( buff.dark_transformation.up & 30 >= buff.dark_transformation.remains || pet.army_ghoul.active & pet.army_ghoul.remains <= 30 || pet.apoc_ghoul.active & pet.apoc_ghoul.remains <= 30 || pet.abomination.active & pet.abomination.remains <= 30 ) || boss & fight_remains <= 30",
 },
 {
 ["enabled"] = true,
@@ -1745,9 +1748,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["name"] = "treacherous_transmitter",
 ["action"] = "treacherous_transmitter",
 ["criteria"] = "( variable.adds_remain || variable.st_planning ) & cooldown.dark_transformation.remains < 10",
-["name"] = "treacherous_transmitter",
 },
 {
 ["enabled"] = true,
@@ -1777,9 +1780,9 @@ HekiliDB = {
 ["san_fishing"] = {
 {
 ["enabled"] = true,
+["criteria"] = "death_knight.ams_absorb_percent > 0 & runic_power < 40",
 ["action"] = "antimagic_shell",
 ["description"] = "San'layn Fishing",
-["criteria"] = "death_knight.ams_absorb_percent > 0 & runic_power < 40",
 },
 {
 ["enabled"] = true,
@@ -1815,9 +1818,9 @@ HekiliDB = {
 ["cds_aoe_san"] = {
 {
 ["enabled"] = true,
+["criteria"] = "variable.adds_remain & buff.death_and_decay.up",
 ["action"] = "dark_transformation",
 ["description"] = "San'layn AoE Cooldowns",
-["criteria"] = "variable.adds_remain & buff.death_and_decay.up",
 },
 {
 ["enabled"] = true,
@@ -1851,9 +1854,9 @@ HekiliDB = {
 ["aoe_burst"] = {
 {
 ["enabled"] = true,
+["criteria"] = "! buff.vampiric_strike.react & ( ! talent.bursting_sores.enabled || talent.bursting_sores.enabled & death_knight.fwounded_targets < cycle_enemies & death_knight.fwounded_targets < active_enemies * 0.4 & buff.sudden_doom.react || buff.sudden_doom.react & ( buff.a_feast_of_souls.up || debuff.death_rot.remains < gcd.max || debuff.death_rot.stack < 10 ) )",
 ["action"] = "epidemic",
 ["description"] = "AoE Burst",
-["criteria"] = "! buff.vampiric_strike.react & ( ! talent.bursting_sores.enabled || talent.bursting_sores.enabled & death_knight.fwounded_targets < cycle_enemies & death_knight.fwounded_targets < active_enemies * 0.4 & buff.sudden_doom.react || buff.sudden_doom.react & ( buff.a_feast_of_souls.up || debuff.death_rot.remains < gcd.max || debuff.death_rot.stack < 10 ) )",
 },
 {
 ["enabled"] = true,
@@ -1891,9 +1894,9 @@ HekiliDB = {
 ["st"] = {
 {
 ["enabled"] = true,
+["criteria"] = "target.health.pct <= 35 & fight_remains > 5",
 ["action"] = "soul_reaper",
 ["description"] = "Single Taget Non-San'layn",
-["criteria"] = "target.health.pct <= 35 & fight_remains > 5",
 },
 {
 ["enabled"] = true,
@@ -1936,9 +1939,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["name"] = "treacherous_transmitter",
 ["action"] = "treacherous_transmitter",
 ["criteria"] = "( variable.adds_remain || variable.st_planning ) & cooldown.dark_transformation.remains < 10",
-["name"] = "treacherous_transmitter",
 },
 {
 ["enabled"] = true,
@@ -2072,9 +2075,9 @@ HekiliDB = {
 ["cds_san"] = {
 {
 ["enabled"] = true,
+["criteria"] = "active_enemies >= 1 & variable.st_planning & ( talent.apocalypse.enabled & pet.apoc_ghoul.active || ! talent.apocalypse.enabled ) || boss & fight_remains < 20",
 ["action"] = "dark_transformation",
 ["description"] = "San'layn Cooldowns",
-["criteria"] = "active_enemies >= 1 & variable.st_planning & ( talent.apocalypse.enabled & pet.apoc_ghoul.active || ! talent.apocalypse.enabled ) || boss & fight_remains < 20",
 },
 {
 ["enabled"] = true,
@@ -2180,9 +2183,9 @@ HekiliDB = {
 ["racials"] = {
 {
 ["enabled"] = true,
+["criteria"] = "runic_power < 20 & rune < 2",
 ["action"] = "arcane_torrent",
 ["description"] = "Racials",
-["criteria"] = "runic_power < 20 & rune < 2",
 },
 {
 ["enabled"] = true,
@@ -2223,9 +2226,9 @@ HekiliDB = {
 ["cds"] = {
 {
 ["enabled"] = true,
+["criteria"] = "variable.st_planning & ( cooldown.apocalypse.remains < 8 || ! talent.apocalypse.enabled || active_enemies >= 1 ) || boss & fight_remains < 20",
 ["action"] = "dark_transformation",
 ["description"] = "Non-San'layn Cooldowns",
-["criteria"] = "variable.st_planning & ( cooldown.apocalypse.remains < 8 || ! talent.apocalypse.enabled || active_enemies >= 1 ) || boss & fight_remains < 20",
 },
 {
 ["enabled"] = true,
@@ -2252,9 +2255,9 @@ HekiliDB = {
 ["san_st"] = {
 {
 ["enabled"] = true,
+["criteria"] = "! death_and_decay.ticking & talent.unholy_ground.enabled & cooldown.dark_transformation.remains < 5",
 ["action"] = "any_dnd",
 ["description"] = "Single Target San'layn",
-["criteria"] = "! death_and_decay.ticking & talent.unholy_ground.enabled & cooldown.dark_transformation.remains < 5",
 },
 {
 ["enabled"] = true,
@@ -2370,9 +2373,9 @@ HekiliDB = {
 ["single_target"] = {
 {
 ["enabled"] = true,
+["description"] = "Single Target Rotation",
 ["criteria"] = "talent.a_feast_of_souls.enabled & debuff.razorice.stack = 5 & talent.shattering_blade.enabled & buff.a_feast_of_souls.up",
 ["action"] = "frost_strike",
-["description"] = "Single Target Rotation",
 },
 {
 ["enabled"] = true,
@@ -2453,9 +2456,9 @@ HekiliDB = {
 ["cold_heart"] = {
 {
 ["enabled"] = true,
+["description"] = "Cold Heart",
 ["criteria"] = "fight_remains < gcd.max & ( rune < 2 || ! buff.killing_machine.up & ( ! main_hand.2h & buff.cold_heart.stack >= 4 || main_hand.2h & buff.cold_heart.stack > 8 ) || buff.killing_machine.up & ( ! main_hand.2h & buff.cold_heart.stack > 8 || main_hand.2h & buff.cold_heart.stack > 10 ) )",
 ["action"] = "chains_of_ice",
-["description"] = "Cold Heart",
 },
 {
 ["enabled"] = true,
@@ -2624,9 +2627,9 @@ HekiliDB = {
 ["high_prio"] = {
 {
 ["enabled"] = true,
+["description"] = "Interrupt",
 ["criteria"] = "target.debuff.casting.up",
 ["action"] = "mind_freeze",
-["description"] = "Interrupt",
 },
 {
 ["enabled"] = true,
@@ -2635,9 +2638,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Maintain Frost Fever, Icy Talons and Unleashed Frenzy",
 ["criteria"] = "! dot.frost_fever.ticking & active_enemies >= 2 & ( ! talent.obliteration.enabled || talent.obliteration.enabled & ( ! cooldown.pillar_of_frost.ready || buff.pillar_of_frost.up & ! buff.killing_machine.up ) )",
 ["action"] = "howling_blast",
-["description"] = "Maintain Frost Fever, Icy Talons and Unleashed Frenzy",
 },
 {
 ["enabled"] = true,
@@ -2673,47 +2676,105 @@ HekiliDB = {
 ["cycle_targets"] = 1,
 },
 },
-["racials"] = {
+["variables"] = {
 {
 ["enabled"] = true,
-["criteria"] = "variable.cooldown_check",
-["action"] = "blood_fury",
-["description"] = "Racial Abilities",
+["op"] = "set",
+["action"] = "variable",
+["value"] = "active_enemies = 1 & ( raid_event.adds.in > 15 || ! raid_event.adds.exists )",
+["var_name"] = "st_planning",
+["description"] = "Variables",
 },
 {
 ["enabled"] = true,
-["criteria"] = "variable.cooldown_check",
-["action"] = "berserking",
+["op"] = "set",
+["action"] = "variable",
+["value"] = "active_enemies >= 2 & ( ! raid_event.adds.exists || raid_event.adds.exists & raid_event.adds.remains > 5 )",
+["var_name"] = "adds_remain",
 },
 {
 ["enabled"] = true,
-["criteria"] = "variable.cooldown_check",
-["action"] = "arcane_pulse",
+["op"] = "set",
+["action"] = "variable",
+["value"] = "( variable.st_planning || variable.adds_remain )",
+["var_name"] = "sending_cds",
 },
 {
 ["enabled"] = true,
-["criteria"] = "variable.cooldown_check",
-["action"] = "lights_judgment",
+["op"] = "set",
+["action"] = "variable",
+["value"] = "buff.rime.up & ( variable.static_rime_buffs || talent.avalanche.enabled & ! talent.arctic_assault.enabled & debuff.razorice.stack < 5 )",
+["var_name"] = "rime_buffs",
 },
 {
 ["enabled"] = true,
-["criteria"] = "variable.cooldown_check",
-["action"] = "ancestral_call",
+["op"] = "set",
+["action"] = "variable",
+["value"] = "talent.unleashed_frenzy.enabled & ( buff.unleashed_frenzy.remains < gcd.max * 3 || buff.unleashed_frenzy.stack < 3 ) || talent.icy_talons.enabled & ( buff.icy_talons.remains < gcd.max * 3 || buff.icy_talons.stack < ( 3 + ( 2 * talent.smothering_offense.enabled ) + ( 2 * talent.dark_talons.enabled ) ) )",
+["var_name"] = "rp_buffs",
 },
 {
 ["enabled"] = true,
-["criteria"] = "variable.cooldown_check",
-["action"] = "fireblood",
+["op"] = "set",
+["action"] = "variable",
+["value"] = "talent.pillar_of_frost.enabled & buff.pillar_of_frost.up & ( talent.obliteration.enabled & buff.pillar_of_frost.remains > 10 || ! talent.obliteration.enabled ) || ! talent.pillar_of_frost.enabled & buff.empower_rune_weapon.up || ! talent.pillar_of_frost.enabled & ! talent.empower_rune_weapon.enabled || active_enemies >= 2 & buff.pillar_of_frost.up",
+["var_name"] = "cooldown_check",
 },
 {
 ["enabled"] = true,
-["criteria"] = "talent.obliteration.enabled & ! buff.pillar_of_frost.up & buff.unholy_strength.up",
-["action"] = "bag_of_tricks",
+["op"] = "setif",
+["description"] = "Formulaic approach to determine the time before these abilities come off cooldown that the simulation should star to pool resources. Capped at 15s in the run_action_list call.",
+["var_name"] = "true_breath_cooldown",
+["value"] = "cooldown.breath_of_sindragosa.remains",
+["action"] = "variable",
+["value_else"] = "cooldown.pillar_of_frost.remains",
+["criteria"] = "cooldown.breath_of_sindragosa.remains > cooldown.pillar_of_frost.remains",
 },
 {
 ["enabled"] = true,
-["criteria"] = "! talent.obliteration.enabled & buff.pillar_of_frost.up & ( buff.unholy_strength.up & buff.unholy_strength.remains < gcd.max * 3 || buff.pillar_of_frost.remains < gcd.max * 3 )",
-["action"] = "bag_of_tricks",
+["op"] = "setif",
+["action"] = "variable",
+["var_name"] = "oblit_pooling_time",
+["value"] = "( ( cooldown.pillar_of_frost.remains_expected + 1 ) / gcd.max ) / ( ( rune + 1 ) * ( ( runic_power + 5 ) ) ) * 100",
+["value_else"] = "3",
+["criteria"] = "runic_power < 35 & rune < 2 & cooldown.pillar_of_frost.remains_expected < 10",
+},
+{
+["enabled"] = true,
+["op"] = "setif",
+["action"] = "variable",
+["var_name"] = "breath_pooling_time",
+["value"] = "( ( variable.true_breath_cooldown + 1 ) / gcd.max ) / ( ( rune + 1 ) * ( runic_power + 20 ) ) * 100",
+["value_else"] = "2",
+["criteria"] = "runic_power.deficit > 10 & variable.true_breath_cooldown < 10",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "rune < variable.oblit_rune_pooling & talent.obliteration.enabled & ( ! talent.breath_of_sindragosa.enabled || variable.true_breath_cooldown > 0 ) & cooldown.pillar_of_frost.remains_expected < variable.oblit_pooling_time",
+["var_name"] = "pooling_runes",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "talent.breath_of_sindragosa.enabled & ( variable.true_breath_cooldown < variable.breath_pooling_time || boss & fight_remains < 30 & ! cooldown.breath_of_sindragosa.remains ) || talent.obliteration.enabled & runic_power < 35 & cooldown.pillar_of_frost.remains < variable.oblit_pooling_time",
+["var_name"] = "pooling_runic_power",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "( ! talent.shattered_frost.enabled & talent.shattering_blade.enabled & active_enemies >= 4 ) || ( ! talent.shattered_frost.enabled & ! talent.shattering_blade.enabled & active_enemies >= 2 )",
+["var_name"] = "ga_priority",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "runic_power < variable.breath_rp_cost * 2 * gcd.max & rune.time_to_2 > runic_power / variable.breath_rp_cost",
+["var_name"] = "breath_dying",
 },
 },
 ["default"] = {
@@ -2927,12 +2988,114 @@ HekiliDB = {
 ["default"] = "60",
 },
 },
+["aoe"] = {
+{
+["enabled"] = true,
+["description"] = "AoE Action List",
+["criteria"] = "buff.killing_machine.up & talent.cleaving_strikes.enabled & buff.death_and_decay.up",
+["action"] = "obliterate",
+},
+{
+["enabled"] = true,
+["criteria"] = "! dot.frost_fever.ticking",
+["action"] = "howling_blast",
+["cycle_targets"] = 1,
+},
+{
+["enabled"] = true,
+["criteria"] = "! variable.pooling_runic_power & debuff.razorice.stack = 5 & talent.shattering_blade.enabled & ( talent.shattered_frost.enabled || active_enemies < 4 )",
+["action"] = "frost_strike",
+["cycle_targets"] = 1,
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.rime.up",
+["action"] = "howling_blast",
+},
+{
+["enabled"] = true,
+["criteria"] = "! variable.pooling_runic_power & ( variable.ga_priority || debuff.razorice.stack < 5 )",
+["action"] = "glacial_advance",
+["cycle_targets"] = 1,
+},
+{
+["action"] = "obliterate",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "! variable.pooling_runic_power",
+["action"] = "frost_strike",
+["cycle_targets"] = 1,
+},
+{
+["enabled"] = true,
+["criteria"] = "rune < 2 & runic_power.deficit > 25 & ( ! talent.breath_of_sindragosa.enabled || variable.true_breath_cooldown > cooldown.horn_of_winter.duration - 15 )",
+["action"] = "horn_of_winter",
+},
+{
+["enabled"] = true,
+["criteria"] = "runic_power.deficit > 25",
+["action"] = "arcane_torrent",
+},
+},
+["trinkets"] = {
+{
+["enabled"] = true,
+["name"] = "treacherous_transmitter",
+["use_off_gcd"] = 1,
+["description"] = "Trinkets",
+["criteria"] = "cooldown.pillar_of_frost.remains < 6 & ( ! talent.breath_of_sindragosa.enabled || ( buff.breath_of_sindragosa.up || variable.true_breath_cooldown < 6 ) ) || boss & fight_remains < 30",
+["action"] = "treacherous_transmitter",
+},
+{
+["enabled"] = true,
+["action"] = "trinket1",
+["slot"] = "trinket1",
+["description"] = "Trinkets The trinket with the highest estimated value, will be used first and paired with Pillar of Frost.",
+["criteria"] = "trinket.t1.cast_time = 0 & variable.trinket_1_buffs & ! variable.trinket_1_manual & ( ! talent.breath_of_sindragosa.enabled || buff.breath_of_sindragosa.up || cooldown.breath_of_sindragosa.remains > trinket.t1.cooldown.remains / 2 ) & ( buff.breath_of_sindragosa.up || ! talent.breath_of_sindragosa.enabled & buff.pillar_of_frost.remains > 10 ) & ( ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains || variable.trinket_priority = 1 )",
+},
+{
+["enabled"] = true,
+["criteria"] = "trinket.t2.cast_time = 0 & variable.trinket_2_buffs & ! variable.trinket_2_manual & ( ! talent.breath_of_sindragosa.enabled || buff.breath_of_sindragosa.up || cooldown.breath_of_sindragosa.remains > trinket.t2.cooldown.remains / 2 ) & ( buff.breath_of_sindragosa.up || ! talent.breath_of_sindragosa.enabled & buff.pillar_of_frost.remains > 10 ) & ( ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 )",
+["action"] = "trinket2",
+["slot"] = "trinket2",
+},
+{
+["enabled"] = true,
+["action"] = "trinket1",
+["slot"] = "trinket1",
+["use_off_gcd"] = 1,
+["description"] = "Channeled buff trinkets will be used before cooldowns",
+["criteria"] = "trinket.t1.cast_time > 0 & variable.trinket_1_buffs & ! variable.trinket_1_manual & ! buff.pillar_of_frost.up & ( ! talent.breath_of_sindragosa.enabled || ! buff.breath_of_sindragosa.up & runic_power > variable.breath_rp_threshold & ( cooldown.pillar_of_frost.ready & variable.sending_cds ) ) & ( ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains || variable.trinket_priority = 1 ) || variable.trinket_1_duration >= fight_remains & boss",
+},
+{
+["enabled"] = true,
+["action"] = "trinket2",
+["slot"] = "trinket2",
+["use_off_gcd"] = 1,
+["criteria"] = "trinket.t2.cast_time > 0 & variable.trinket_2_buffs & ! variable.trinket_2_manual & ! buff.pillar_of_frost.up & ( ! talent.breath_of_sindragosa.enabled || ! buff.breath_of_sindragosa.up & runic_power > variable.breath_rp_threshold & ( cooldown.pillar_of_frost.ready & variable.sending_cds ) ) & ( ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 ) || variable.trinket_2_duration >= fight_remains & boss",
+},
+{
+["enabled"] = true,
+["action"] = "trinket1",
+["slot"] = "trinket1",
+["description"] = "If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.",
+["criteria"] = "! variable.trinket_1_buffs & ! variable.trinket_1_manual & ( variable.damage_trinket_priority = 1 || ( ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains ) ) & ( ( trinket.t1.cast_time > 0 & ( ! talent.breath_of_sindragosa.enabled || ! buff.breath_of_sindragosa.up || ! variable.breath_dying ) & ! buff.pillar_of_frost.up || ! trinket.t1.cast_time > 0 ) & ( ! variable.trinket_2_buffs || cooldown.pillar_of_frost.remains > 20 ) || ! talent.pillar_of_frost.enabled ) || boss & fight_remains < 15",
+},
+{
+["enabled"] = true,
+["criteria"] = "! variable.trinket_2_buffs & ! variable.trinket_2_manual & ( variable.damage_trinket_priority = 2 || ( ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains ) ) & ( ( trinket.t2.cast_time > 0 & ( ! talent.breath_of_sindragosa.enabled || ! buff.breath_of_sindragosa.up || ! variable.breath_dying ) & ! buff.pillar_of_frost.up || ! trinket.t2.cast_time > 0 ) & ( ! variable.trinket_1_buffs || cooldown.pillar_of_frost.remains > 20 ) || ! talent.pillar_of_frost.enabled ) || boss & fight_remains < 15",
+["action"] = "trinket2",
+["slot"] = "trinket2",
+},
+},
 ["cooldowns"] = {
 {
 ["enabled"] = true,
+["description"] = "Cooldowns",
 ["criteria"] = "( talent.pillar_of_frost.enabled & buff.pillar_of_frost.up || ! talent.pillar_of_frost.enabled & buff.empower_rune_weapon.up || ! talent.pillar_of_frost.enabled & ! talent.empower_rune_weapon.enabled || active_enemies >= 2 & buff.pillar_of_frost.up ) || boss & fight_remains < 25",
 ["action"] = "potion",
-["description"] = "Cooldowns",
 },
 {
 ["enabled"] = true,
@@ -3037,207 +3200,47 @@ HekiliDB = {
 ["action"] = "any_dnd",
 },
 },
-["trinkets"] = {
+["racials"] = {
 {
 ["enabled"] = true,
-["name"] = "treacherous_transmitter",
-["use_off_gcd"] = 1,
-["description"] = "Trinkets",
-["criteria"] = "cooldown.pillar_of_frost.remains < 6 & ( ! talent.breath_of_sindragosa.enabled || ( buff.breath_of_sindragosa.up || variable.true_breath_cooldown < 6 ) ) || boss & fight_remains < 30",
-["action"] = "treacherous_transmitter",
-},
-{
-["enabled"] = true,
-["action"] = "trinket1",
-["slot"] = "trinket1",
-["description"] = "Trinkets The trinket with the highest estimated value, will be used first and paired with Pillar of Frost.",
-["criteria"] = "trinket.t1.cast_time = 0 & variable.trinket_1_buffs & ! variable.trinket_1_manual & ( ! talent.breath_of_sindragosa.enabled || buff.breath_of_sindragosa.up || cooldown.breath_of_sindragosa.remains > trinket.t1.cooldown.remains / 2 ) & ( buff.breath_of_sindragosa.up || ! talent.breath_of_sindragosa.enabled & buff.pillar_of_frost.remains > 10 ) & ( ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains || variable.trinket_priority = 1 )",
+["description"] = "Racial Abilities",
+["criteria"] = "variable.cooldown_check",
+["action"] = "blood_fury",
 },
 {
 ["enabled"] = true,
-["criteria"] = "trinket.t2.cast_time = 0 & variable.trinket_2_buffs & ! variable.trinket_2_manual & ( ! talent.breath_of_sindragosa.enabled || buff.breath_of_sindragosa.up || cooldown.breath_of_sindragosa.remains > trinket.t2.cooldown.remains / 2 ) & ( buff.breath_of_sindragosa.up || ! talent.breath_of_sindragosa.enabled & buff.pillar_of_frost.remains > 10 ) & ( ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 )",
-["action"] = "trinket2",
-["slot"] = "trinket2",
+["criteria"] = "variable.cooldown_check",
+["action"] = "berserking",
 },
 {
 ["enabled"] = true,
-["action"] = "trinket1",
-["slot"] = "trinket1",
-["use_off_gcd"] = 1,
-["description"] = "Channeled buff trinkets will be used before cooldowns",
-["criteria"] = "trinket.t1.cast_time > 0 & variable.trinket_1_buffs & ! variable.trinket_1_manual & ! buff.pillar_of_frost.up & ( ! talent.breath_of_sindragosa.enabled || ! buff.breath_of_sindragosa.up & runic_power > variable.breath_rp_threshold & ( cooldown.pillar_of_frost.ready & variable.sending_cds ) ) & ( ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains || variable.trinket_priority = 1 ) || variable.trinket_1_duration >= fight_remains & boss",
+["criteria"] = "variable.cooldown_check",
+["action"] = "arcane_pulse",
 },
 {
 ["enabled"] = true,
-["action"] = "trinket2",
-["slot"] = "trinket2",
-["use_off_gcd"] = 1,
-["criteria"] = "trinket.t2.cast_time > 0 & variable.trinket_2_buffs & ! variable.trinket_2_manual & ! buff.pillar_of_frost.up & ( ! talent.breath_of_sindragosa.enabled || ! buff.breath_of_sindragosa.up & runic_power > variable.breath_rp_threshold & ( cooldown.pillar_of_frost.ready & variable.sending_cds ) ) & ( ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 ) || variable.trinket_2_duration >= fight_remains & boss",
+["criteria"] = "variable.cooldown_check",
+["action"] = "lights_judgment",
 },
 {
 ["enabled"] = true,
-["action"] = "trinket1",
-["slot"] = "trinket1",
-["description"] = "If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.",
-["criteria"] = "! variable.trinket_1_buffs & ! variable.trinket_1_manual & ( variable.damage_trinket_priority = 1 || ( ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains ) ) & ( ( trinket.t1.cast_time > 0 & ( ! talent.breath_of_sindragosa.enabled || ! buff.breath_of_sindragosa.up || ! variable.breath_dying ) & ! buff.pillar_of_frost.up || ! trinket.t1.cast_time > 0 ) & ( ! variable.trinket_2_buffs || cooldown.pillar_of_frost.remains > 20 ) || ! talent.pillar_of_frost.enabled ) || boss & fight_remains < 15",
+["criteria"] = "variable.cooldown_check",
+["action"] = "ancestral_call",
 },
 {
 ["enabled"] = true,
-["criteria"] = "! variable.trinket_2_buffs & ! variable.trinket_2_manual & ( variable.damage_trinket_priority = 2 || ( ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains ) ) & ( ( trinket.t2.cast_time > 0 & ( ! talent.breath_of_sindragosa.enabled || ! buff.breath_of_sindragosa.up || ! variable.breath_dying ) & ! buff.pillar_of_frost.up || ! trinket.t2.cast_time > 0 ) & ( ! variable.trinket_1_buffs || cooldown.pillar_of_frost.remains > 20 ) || ! talent.pillar_of_frost.enabled ) || boss & fight_remains < 15",
-["action"] = "trinket2",
-["slot"] = "trinket2",
-},
-},
-["aoe"] = {
-{
-["enabled"] = true,
-["criteria"] = "buff.killing_machine.up & talent.cleaving_strikes.enabled & buff.death_and_decay.up",
-["action"] = "obliterate",
-["description"] = "AoE Action List",
+["criteria"] = "variable.cooldown_check",
+["action"] = "fireblood",
 },
 {
 ["enabled"] = true,
-["criteria"] = "! dot.frost_fever.ticking",
-["action"] = "howling_blast",
-["cycle_targets"] = 1,
+["criteria"] = "talent.obliteration.enabled & ! buff.pillar_of_frost.up & buff.unholy_strength.up",
+["action"] = "bag_of_tricks",
 },
 {
 ["enabled"] = true,
-["criteria"] = "! variable.pooling_runic_power & debuff.razorice.stack = 5 & talent.shattering_blade.enabled & ( talent.shattered_frost.enabled || active_enemies < 4 )",
-["action"] = "frost_strike",
-["cycle_targets"] = 1,
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.rime.up",
-["action"] = "howling_blast",
-},
-{
-["enabled"] = true,
-["criteria"] = "! variable.pooling_runic_power & ( variable.ga_priority || debuff.razorice.stack < 5 )",
-["action"] = "glacial_advance",
-["cycle_targets"] = 1,
-},
-{
-["action"] = "obliterate",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "! variable.pooling_runic_power",
-["action"] = "frost_strike",
-["cycle_targets"] = 1,
-},
-{
-["enabled"] = true,
-["criteria"] = "rune < 2 & runic_power.deficit > 25 & ( ! talent.breath_of_sindragosa.enabled || variable.true_breath_cooldown > cooldown.horn_of_winter.duration - 15 )",
-["action"] = "horn_of_winter",
-},
-{
-["enabled"] = true,
-["criteria"] = "runic_power.deficit > 25",
-["action"] = "arcane_torrent",
-},
-},
-["variables"] = {
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "active_enemies = 1 & ( raid_event.adds.in > 15 || ! raid_event.adds.exists )",
-["var_name"] = "st_planning",
-["description"] = "Variables",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "active_enemies >= 2 & ( ! raid_event.adds.exists || raid_event.adds.exists & raid_event.adds.remains > 5 )",
-["var_name"] = "adds_remain",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "( variable.st_planning || variable.adds_remain )",
-["var_name"] = "sending_cds",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "buff.rime.up & ( variable.static_rime_buffs || talent.avalanche.enabled & ! talent.arctic_assault.enabled & debuff.razorice.stack < 5 )",
-["var_name"] = "rime_buffs",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "talent.unleashed_frenzy.enabled & ( buff.unleashed_frenzy.remains < gcd.max * 3 || buff.unleashed_frenzy.stack < 3 ) || talent.icy_talons.enabled & ( buff.icy_talons.remains < gcd.max * 3 || buff.icy_talons.stack < ( 3 + ( 2 * talent.smothering_offense.enabled ) + ( 2 * talent.dark_talons.enabled ) ) )",
-["var_name"] = "rp_buffs",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "talent.pillar_of_frost.enabled & buff.pillar_of_frost.up & ( talent.obliteration.enabled & buff.pillar_of_frost.remains > 10 || ! talent.obliteration.enabled ) || ! talent.pillar_of_frost.enabled & buff.empower_rune_weapon.up || ! talent.pillar_of_frost.enabled & ! talent.empower_rune_weapon.enabled || active_enemies >= 2 & buff.pillar_of_frost.up",
-["var_name"] = "cooldown_check",
-},
-{
-["enabled"] = true,
-["op"] = "setif",
-["description"] = "Formulaic approach to determine the time before these abilities come off cooldown that the simulation should star to pool resources. Capped at 15s in the run_action_list call.",
-["var_name"] = "true_breath_cooldown",
-["value"] = "cooldown.breath_of_sindragosa.remains",
-["action"] = "variable",
-["value_else"] = "cooldown.pillar_of_frost.remains",
-["criteria"] = "cooldown.breath_of_sindragosa.remains > cooldown.pillar_of_frost.remains",
-},
-{
-["enabled"] = true,
-["op"] = "setif",
-["action"] = "variable",
-["var_name"] = "oblit_pooling_time",
-["value"] = "( ( cooldown.pillar_of_frost.remains_expected + 1 ) / gcd.max ) / ( ( rune + 1 ) * ( ( runic_power + 5 ) ) ) * 100",
-["value_else"] = "3",
-["criteria"] = "runic_power < 35 & rune < 2 & cooldown.pillar_of_frost.remains_expected < 10",
-},
-{
-["enabled"] = true,
-["op"] = "setif",
-["action"] = "variable",
-["var_name"] = "breath_pooling_time",
-["value"] = "( ( variable.true_breath_cooldown + 1 ) / gcd.max ) / ( ( rune + 1 ) * ( runic_power + 20 ) ) * 100",
-["value_else"] = "2",
-["criteria"] = "runic_power.deficit > 10 & variable.true_breath_cooldown < 10",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "rune < variable.oblit_rune_pooling & talent.obliteration.enabled & ( ! talent.breath_of_sindragosa.enabled || variable.true_breath_cooldown > 0 ) & cooldown.pillar_of_frost.remains_expected < variable.oblit_pooling_time",
-["var_name"] = "pooling_runes",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "talent.breath_of_sindragosa.enabled & ( variable.true_breath_cooldown < variable.breath_pooling_time || boss & fight_remains < 30 & ! cooldown.breath_of_sindragosa.remains ) || talent.obliteration.enabled & runic_power < 35 & cooldown.pillar_of_frost.remains < variable.oblit_pooling_time",
-["var_name"] = "pooling_runic_power",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "( ! talent.shattered_frost.enabled & talent.shattering_blade.enabled & active_enemies >= 4 ) || ( ! talent.shattered_frost.enabled & ! talent.shattering_blade.enabled & active_enemies >= 2 )",
-["var_name"] = "ga_priority",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "runic_power < variable.breath_rp_cost * 2 * gcd.max & rune.time_to_2 > runic_power / variable.breath_rp_cost",
-["var_name"] = "breath_dying",
+["criteria"] = "! talent.obliteration.enabled & buff.pillar_of_frost.up & ( buff.unholy_strength.up & buff.unholy_strength.remains < gcd.max * 3 || buff.pillar_of_frost.remains < gcd.max * 3 )",
+["action"] = "bag_of_tricks",
 },
 },
 },
@@ -3427,9 +3430,9 @@ HekiliDB = {
 ["plcleave"] = {
 {
 ["enabled"] = true,
+["criteria"] = "cooldown.coordinated_assault.remains",
 ["action"] = "spearhead",
 ["description"] = "PACK LEADER AOE ACTIONLIST",
-["criteria"] = "cooldown.coordinated_assault.remains",
 },
 {
 ["enabled"] = true,
@@ -3514,9 +3517,9 @@ HekiliDB = {
 ["cds"] = {
 {
 ["enabled"] = true,
+["criteria"] = "settings.use_harpoon",
 ["action"] = "harpoon",
 ["description"] = "COOLDOWNS ACTIONLIST",
-["criteria"] = "settings.use_harpoon",
 },
 {
 ["enabled"] = true,
@@ -3661,9 +3664,9 @@ HekiliDB = {
 ["sentcleave"] = {
 {
 ["enabled"] = true,
+["criteria"] = "cooldown.coordinated_assault.remains",
 ["action"] = "spearhead",
 ["description"] = "SENTINEL || DEFAULT AOE ACTIONLIST",
-["criteria"] = "cooldown.coordinated_assault.remains",
 },
 {
 ["enabled"] = true,
@@ -4722,38 +4725,59 @@ HekiliDB = {
 ["Outlaw"] = {
 ["source"] = "https://github.com/simulationcraft/simc/",
 ["builtIn"] = true,
-["date"] = 20240915,
+["date"] = 20240917,
 ["author"] = "SimC",
 ["desc"] = "2024-09-08, 09-10, 09-15: SimC update\n\n2024-09-03: Poisons\n\n2024-08-25, 09-01: SimC rtb_reroll tweak\n\n2024-08-22: Respect LD Opener setting\n\n2024-08-15: Major revisions from SimC\n\n2024-08-09: Update finisher conditions from SimC\n\n2024-08-06: Respect Vanish CD when considering BtE with Crackshot\n\n2024-07-28: The War Within",
 ["lists"] = {
-["finish"] = {
+["build"] = {
 {
 ["enabled"] = true,
-["action"] = "between_the_eyes",
-["description"] = "Finishers  Use Between the Eyes to keep the crit buff up, but on cooldown if Improved/Greenskins, and avoid overriding Greenskins",
-["criteria"] = "! talent.crackshot.enabled & ( buff.between_the_eyes.remains < 4 || talent.improved_between_the_eyes.enabled || talent.greenskins_wickers.enabled ) & ! buff.greenskins_wickers.up",
+["description"] = "Builders",
+["action"] = "echoing_reprimand",
 },
 {
 ["enabled"] = true,
-["action"] = "between_the_eyes",
-["description"] = "Crackshot builds use Between the Eyes outside of Stealth if we are unlikely to enter a Stealth window before the next BtE cast or if we are unlikely to lose Adrenaline Rush uptime by hitting BtE before the next cast of Vanish",
-["criteria"] = "talent.crackshot.enabled & ( cooldown.vanish.remains > 45 || talent.underhanded_upper_hand.enabled & talent.without_a_trace.enabled & ( buff.adrenaline_rush.remains > 12 || buff.adrenaline_rush.down & cooldown.adrenaline_rush.remains > 45 ) ) & ( raid_event.adds.remains > 8 || raid_event.adds.in < raid_event.adds.remains || ! raid_event.adds.up )",
+["action"] = "ambush",
+["description"] = "High priority Ambush for Hidden Opportunity builds",
+["criteria"] = "talent.hidden_opportunity.enabled & buff.audacity.up",
 },
 {
 ["enabled"] = true,
-["criteria"] = "buff.slice_and_dice.remains < fight_remains & refreshable",
-["action"] = "slice_and_dice",
+["action"] = "pistol_shot",
+["description"] = "With Audacity + Hidden Opportunity + Fan the Hammer, consume Opportunity to proc Audacity any time Ambush is not available",
+["criteria"] = "talent.fan_the_hammer.enabled & talent.audacity.enabled & talent.hidden_opportunity.enabled & buff.opportunity.up & ! buff.audacity.up",
 },
 {
-["action"] = "cold_blood",
 ["enabled"] = true,
+["action"] = "pistol_shot",
+["description"] = "With Fan the Hammer, consume Opportunity as a higher priority if at max stacks or if it will expire",
+["criteria"] = "talent.fan_the_hammer.enabled & buff.opportunity.up & ( buff.opportunity.stack >= buff.opportunity.max_stack || buff.opportunity.remains < 2 )",
 },
 {
-["action"] = "dispatch",
 ["enabled"] = true,
+["action"] = "pistol_shot",
+["description"] = "With Fan the Hammer, consume Opportunity if it will not overcap CPs, or with 1 CP at minimum",
+["criteria"] = "talent.fan_the_hammer.enabled & buff.opportunity.up & ( combo_points.deficit >= ( 1 + ( talent.quick_draw.enabled + buff.broadside.up ) * ( talent.fan_the_hammer.rank + 1 ) ) || combo_points <= talent.ruthlessness.enabled )",
 },
 {
-["action"] = "dispatch",
+["enabled"] = true,
+["action"] = "pistol_shot",
+["description"] = "If not using Fan the Hammer, then consume Opportunity based on energy, when it will exactly cap CPs, or when using Quick Draw",
+["criteria"] = "! talent.fan_the_hammer.enabled & buff.opportunity.up & ( energy.base_deficit > energy.regen * 1.5 || combo_points.deficit <= 1 + buff.broadside.up || talent.quick_draw.enabled || talent.audacity.enabled & ! buff.audacity.up )",
+},
+{
+["enabled"] = true,
+["action"] = "pool_resource",
+["description"] = "Fallback pooling just so Sinister Strike is never casted if Ambush is available for Hidden Opportunity builds",
+["for_next"] = 1,
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.hidden_opportunity.enabled",
+["action"] = "ambush",
+},
+{
+["action"] = "sinister_strike",
 ["enabled"] = true,
 },
 },
@@ -4773,33 +4797,33 @@ HekiliDB = {
 ["op"] = "set",
 ["action"] = "variable",
 ["value"] = "rtb_buffs_will_lose = ( rtb_buffs_will_lose_buff.buried_treasure + rtb_buffs_will_lose_buff.grand_melee & spell_targets.blade_flurry < 2 & raid_event.adds.in > 12 & raid_event.adds.count < 2 )",
-["var_name"] = "rtb_reroll",
 ["description"] = "Variables that define the reroll rules for Roll the Bones  Default rule: reroll if the only buff that will be rolled away is Buried Treasure, or Grand Melee in single target without upcoming adds",
+["var_name"] = "rtb_reroll",
 },
 {
 ["enabled"] = true,
 ["op"] = "set",
 ["action"] = "variable",
 ["var_name"] = "rtb_reroll",
-["value"] = "rtb_buffs_will_lose = buff.loaded_dice.up",
-["description"] = "If Loaded Dice is talented, then keep any 1 buff from Roll the Bones but roll it into 2 buffs when Loaded Dice is active",
 ["criteria"] = "talent.loaded_dice.enabled",
+["description"] = "If Loaded Dice is talented, then keep any 1 buff from Roll the Bones but roll it into 2 buffs when Loaded Dice is active",
+["value"] = "rtb_buffs_will_lose = buff.loaded_dice.up",
 },
 {
 ["enabled"] = true,
 ["op"] = "set",
 ["action"] = "variable",
 ["value"] = "variable.rtb_reroll & rtb_buffs_longer = 0 || rtb_buffs_normal = 0 & rtb_buffs_longer >= 1 & rtb_buffs < 6 & rtb_buffs_max_remains <= 39 & ! stealthed.all & buff.loaded_dice.up",
-["var_name"] = "rtb_reroll",
 ["description"] = "If all active Roll the Bones buffs are ahead of its container buff and have under 40s remaining, then reroll again with Loaded Dice active in an attempt to get even more buffs",
+["var_name"] = "rtb_reroll",
 },
 {
 ["enabled"] = true,
 ["op"] = "reset",
 ["action"] = "variable",
 ["var_name"] = "rtb_reroll",
-["description"] = "Avoid rerolls when we will not have time remaining on the fight or add wave to recoup the opportunity cost of the global",
 ["criteria"] = "! ( raid_event.adds.remains > 12 || raid_event.adds.up & ( raid_event.adds.in - raid_event.adds.remains ) < 6 || target.time_to_die > 12 ) || fight_remains < 12",
+["description"] = "Avoid rerolls when we will not have time remaining on the fight or add wave to recoup the opportunity cost of the global",
 },
 {
 ["enabled"] = true,
@@ -4813,16 +4837,16 @@ HekiliDB = {
 ["op"] = "set",
 ["action"] = "variable",
 ["value"] = "effective_combo_points >= cp_max_spend - 1 - ( stealthed.all & talent.crackshot.enabled || ( talent.hand_of_fate.enabled || talent.flawless_form.enabled ) & talent.hidden_opportunity.enabled & ( buff.audacity.up || buff.opportunity.up ) )",
-["var_name"] = "finish_condition",
 ["description"] = "Use finishers if at -1 from max combo points, or -2 in Stealth with Crackshot. With the hero trees, Hidden Opportunity builds also finish at -2 if Audacity or Opportunity is active",
+["var_name"] = "finish_condition",
 },
 {
 ["enabled"] = true,
 ["op"] = "set",
 ["action"] = "variable",
 ["value"] = "spell_targets.blade_flurry < 2 & raid_event.adds.in > 20 || buff.blade_flurry.remains > gcd.max",
-["var_name"] = "blade_flurry_sync",
 ["description"] = "With multiple targets, this variable is checked to decide whether some CDs should be synced with Blade Flurry",
+["var_name"] = "blade_flurry_sync",
 },
 {
 ["enabled"] = true,
@@ -4831,17 +4855,17 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["action"] = "call_action_list",
 ["description"] = "High priority stealth list, will fall through if no conditions are met",
+["action"] = "call_action_list",
 ["strict"] = 1,
-["criteria"] = "stealthed.all",
+["criteria"] = "stealthed.all & stealthed.all_remains > settings.stealth_padding",
 ["list_name"] = "stealth",
 },
 {
 ["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
 ["criteria"] = "variable.finish_condition",
+["strict"] = 1,
+["action"] = "run_action_list",
 ["list_name"] = "finish",
 },
 {
@@ -4886,62 +4910,26 @@ HekiliDB = {
 ["enabled"] = true,
 ["action"] = "adrenaline_rush",
 ["precombat_seconds"] = "2",
-["description"] = "Builds with Keep it Rolling prepull Adrenaline Rush before Roll the Bones to consume Loaded Dice immediately instead of on the next pandemic roll",
 ["criteria"] = "settings.use_ld_opener & talent.improved_adrenaline_rush.enabled & buff.adrenaline_rush.down & talent.keep_it_rolling.enabled & talent.loaded_dice.enabled",
+["description"] = "Builds with Keep it Rolling prepull Adrenaline Rush before Roll the Bones to consume Loaded Dice immediately instead of on the next pandemic roll",
 },
 {
 ["enabled"] = true,
-["criteria"] = "buff.roll_the_bones.down",
 ["action"] = "roll_the_bones",
+["criteria"] = "buff.roll_the_bones.down",
 ["precombat_seconds"] = "2",
 },
 {
 ["enabled"] = true,
-["criteria"] = "talent.improved_adrenaline_rush.enabled & buff.adrenaline_rush.down",
 ["action"] = "adrenaline_rush",
+["criteria"] = "talent.improved_adrenaline_rush.enabled & buff.adrenaline_rush.down",
 ["precombat_seconds"] = "1",
 },
 {
 ["enabled"] = true,
-["criteria"] = "refreshable",
 ["action"] = "slice_and_dice",
+["criteria"] = "refreshable",
 ["precombat_seconds"] = "1",
-},
-},
-["stealth"] = {
-{
-["enabled"] = true,
-["action"] = "cold_blood",
-["description"] = "Stealth",
-["criteria"] = "variable.finish_condition",
-},
-{
-["enabled"] = true,
-["action"] = "pool_resource",
-["description"] = "Ensure Crackshot BtE is not skipped because of low energy",
-["for_next"] = 1,
-},
-{
-["enabled"] = true,
-["action"] = "between_the_eyes",
-["description"] = "High priority Between the Eyes for Crackshot, except not directly out of Shadowmeld",
-["criteria"] = "variable.finish_condition & talent.crackshot.enabled & ( ! buff.shadowmeld.up || stealthed.rogue )",
-},
-{
-["enabled"] = true,
-["criteria"] = "variable.finish_condition",
-["action"] = "dispatch",
-},
-{
-["enabled"] = true,
-["action"] = "pistol_shot",
-["description"] = "2 Fan the Hammer Crackshot builds can consume Opportunity in stealth with max stacks, Broadside, and low CPs, or with Greenskins active",
-["criteria"] = "talent.crackshot.enabled & talent.fan_the_hammer.rank >= 2 & buff.opportunity.stack >= 6 & ( buff.broadside.up & combo_points <= 1 || buff.greenskins_wickers.up )",
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.hidden_opportunity.enabled",
-["action"] = "ambush",
 },
 },
 ["cds"] = {
@@ -5019,8 +5007,8 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["action"] = "call_action_list",
 ["description"] = "Crackshot builds use stealth cooldowns if Between the Eyes is ready",
+["action"] = "call_action_list",
 ["criteria"] = "! stealthed.all & ( ! talent.crackshot.enabled || cooldown.between_the_eyes.ready )",
 ["list_name"] = "stealth_cds",
 },
@@ -5069,6 +5057,42 @@ HekiliDB = {
 ["slots"] = "trinket2",
 },
 },
+["stealth"] = {
+{
+["enabled"] = true,
+["action"] = "cold_blood",
+["description"] = "Stealth",
+["criteria"] = "variable.finish_condition",
+},
+{
+["enabled"] = true,
+["action"] = "pool_resource",
+["description"] = "Ensure Crackshot BtE is not skipped because of low energy",
+["for_next"] = 1,
+},
+{
+["enabled"] = true,
+["action"] = "between_the_eyes",
+["description"] = "High priority Between the Eyes for Crackshot, except not directly out of Shadowmeld",
+["criteria"] = "variable.finish_condition & talent.crackshot.enabled & ( ! buff.shadowmeld.up || stealthed.rogue )",
+},
+{
+["enabled"] = true,
+["criteria"] = "variable.finish_condition",
+["action"] = "dispatch",
+},
+{
+["enabled"] = true,
+["action"] = "pistol_shot",
+["description"] = "2 Fan the Hammer Crackshot builds can consume Opportunity in stealth with max stacks, Broadside, and low CPs, or with Greenskins active",
+["criteria"] = "talent.crackshot.enabled & talent.fan_the_hammer.rank >= 2 & buff.opportunity.stack >= 6 & ( buff.broadside.up & combo_points <= 1 || buff.greenskins_wickers.up )",
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.hidden_opportunity.enabled",
+["action"] = "ambush",
+},
+},
 ["stealth_cds"] = {
 {
 ["enabled"] = true,
@@ -5106,63 +5130,43 @@ HekiliDB = {
 ["action"] = "shadowmeld",
 },
 },
-["build"] = {
+["finish"] = {
 {
 ["enabled"] = true,
-["description"] = "Builders",
-["action"] = "echoing_reprimand",
+["action"] = "between_the_eyes",
+["description"] = "Finishers  Use Between the Eyes to keep the crit buff up, but on cooldown if Improved/Greenskins, and avoid overriding Greenskins",
+["criteria"] = "! talent.crackshot.enabled & ( buff.between_the_eyes.remains < 4 || talent.improved_between_the_eyes.enabled || talent.greenskins_wickers.enabled ) & ! buff.greenskins_wickers.up",
 },
 {
 ["enabled"] = true,
-["action"] = "ambush",
-["description"] = "High priority Ambush for Hidden Opportunity builds",
-["criteria"] = "talent.hidden_opportunity.enabled & buff.audacity.up",
+["action"] = "between_the_eyes",
+["description"] = "Crackshot builds use Between the Eyes outside of Stealth if we are unlikely to enter a Stealth window before the next BtE cast or if we are unlikely to lose Adrenaline Rush uptime by hitting BtE before the next cast of Vanish",
+["criteria"] = "talent.crackshot.enabled & ( cooldown.vanish.true_remains > 45 || talent.underhanded_upper_hand.enabled & talent.without_a_trace.enabled & ( buff.adrenaline_rush.remains > 12 || buff.adrenaline_rush.down & cooldown.adrenaline_rush.true_remains > 45 ) ) & ( raid_event.adds.remains > 8 || raid_event.adds.in < raid_event.adds.remains || ! raid_event.adds.up )",
 },
 {
 ["enabled"] = true,
-["action"] = "pistol_shot",
-["description"] = "With Audacity + Hidden Opportunity + Fan the Hammer, consume Opportunity to proc Audacity any time Ambush is not available",
-["criteria"] = "talent.fan_the_hammer.enabled & talent.audacity.enabled & talent.hidden_opportunity.enabled & buff.opportunity.up & ! buff.audacity.up",
+["criteria"] = "buff.slice_and_dice.remains < fight_remains & refreshable",
+["action"] = "slice_and_dice",
 },
 {
+["action"] = "cold_blood",
 ["enabled"] = true,
-["action"] = "pistol_shot",
-["description"] = "With Fan the Hammer, consume Opportunity as a higher priority if at max stacks or if it will expire",
-["criteria"] = "talent.fan_the_hammer.enabled & buff.opportunity.up & ( buff.opportunity.stack >= buff.opportunity.max_stack || buff.opportunity.remains < 2 )",
 },
 {
+["action"] = "dispatch",
 ["enabled"] = true,
-["action"] = "pistol_shot",
-["description"] = "With Fan the Hammer, consume Opportunity if it will not overcap CPs, or with 1 CP at minimum",
-["criteria"] = "talent.fan_the_hammer.enabled & buff.opportunity.up & ( combo_points.deficit >= ( 1 + ( talent.quick_draw.enabled + buff.broadside.up ) * ( talent.fan_the_hammer.rank + 1 ) ) || combo_points <= talent.ruthlessness.enabled )",
 },
 {
-["enabled"] = true,
-["action"] = "pistol_shot",
-["description"] = "If not using Fan the Hammer, then consume Opportunity based on energy, when it will exactly cap CPs, or when using Quick Draw",
-["criteria"] = "! talent.fan_the_hammer.enabled & buff.opportunity.up & ( energy.base_deficit > energy.regen * 1.5 || combo_points.deficit <= 1 + buff.broadside.up || talent.quick_draw.enabled || talent.audacity.enabled & ! buff.audacity.up )",
-},
-{
-["enabled"] = true,
-["action"] = "pool_resource",
-["description"] = "Fallback pooling just so Sinister Strike is never casted if Ambush is available for Hidden Opportunity builds",
-["for_next"] = 1,
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.hidden_opportunity.enabled",
-["action"] = "ambush",
-},
-{
-["action"] = "sinister_strike",
+["action"] = "dispatch",
 ["enabled"] = true,
 },
 },
 },
-["version"] = 20240915,
+["version"] = 20240917,
 ["warnings"] = "The import for 'finish' required some automated changes.\nLine 1: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 1: Converted 'talent.improved_between_the_eyes' to 'talent.improved_between_the_eyes.enabled' (1x).\nLine 1: Converted 'talent.greenskins_wickers' to 'talent.greenskins_wickers.enabled' (1x).\nLine 2: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 2: Converted 'talent.underhanded_upper_hand' to 'talent.underhanded_upper_hand.enabled' (1x).\nLine 2: Converted 'talent.without_a_trace' to 'talent.without_a_trace.enabled' (1x).\n\nThe import for 'default' required some automated changes.\nLine 3: Converted 'rtb_buffs.will_lose.buried_treasure' to 'rtb_buffs_will_lose_buff.buried_treasure' (1x).\nLine 3: Converted 'rtb_buffs.will_lose.grand_melee' to 'rtb_buffs_will_lose_buff.grand_melee' (1x).\nLine 4: Converted 'talent.loaded_dice' to 'talent.loaded_dice.enabled' (1x).\nLine 7: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\nLine 7: Converted 'talent.improved_ambush' to 'talent.improved_ambush.enabled' (1x).\nLine 8: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 8: Converted 'talent.hand_of_fate' to 'talent.hand_of_fate.enabled' (1x).\nLine 8: Converted 'talent.flawless_form' to 'talent.flawless_form.enabled' (1x).\nLine 8: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\n\nThe import for 'precombat' required some automated changes.\nLine 4: Converted 'talent.improved_adrenaline_rush' to 'talent.improved_adrenaline_rush.enabled' (1x).\nLine 4: Converted 'talent.keep_it_rolling' to 'talent.keep_it_rolling.enabled' (1x).\nLine 4: Converted 'talent.loaded_dice' to 'talent.loaded_dice.enabled' (1x).\nLine 6: Converted 'talent.improved_adrenaline_rush' to 'talent.improved_adrenaline_rush.enabled' (1x).\n\nThe import for 'stealth' required some automated changes.\nLine 3: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 5: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 6: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\n\nThe import for 'cds' required some automated changes.\nLine 1: Converted 'talent.improved_adrenaline_rush' to 'talent.improved_adrenaline_rush.enabled' (1x).\nLine 1: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 1: Converted 'talent.improved_adrenaline_rush' to 'talent.improved_adrenaline_rush.enabled' (1x).\nLine 2: Converted 'trinket.1.is.scroll_of_momentum' to 'trinket.t1.is.scroll_of_momentum' (1x).\nLine 2: Converted 'trinket.2.is.scroll_of_momentum' to 'trinket.t2.is.scroll_of_momentum' (1x).\nLine 4: Converted 'talent.deft_maneuvers' to 'talent.deft_maneuvers.enabled' (1x).\nLine 13: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 21: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 22: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\n\nThe import for 'stealth_cds' required some automated changes.\nLine 1: Converted 'talent.underhanded_upper_hand' to 'talent.underhanded_upper_hand.enabled' (1x).\nLine 1: Converted 'talent.subterfuge' to 'talent.subterfuge.enabled' (1x).\nLine 1: Converted 'talent.without_a_trace' to 'talent.without_a_trace.enabled' (1x).\nLine 1: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 1: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 1: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\nLine 2: Converted 'talent.underhanded_upper_hand' to 'talent.underhanded_upper_hand.enabled' (1x).\nLine 2: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 3: Converted 'talent.underhanded_upper_hand' to 'talent.underhanded_upper_hand.enabled' (1x).\nLine 3: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 3: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\nLine 4: Converted 'talent.underhanded_upper_hand' to 'talent.underhanded_upper_hand.enabled' (1x).\nLine 4: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 4: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\nLine 4: Converted 'talent.fateful_ending' to 'talent.fateful_ending.enabled' (1x).\nLine 5: Converted 'talent.underhanded_upper_hand' to 'talent.underhanded_upper_hand.enabled' (1x).\nLine 5: Converted 'talent.crackshot' to 'talent.crackshot.enabled' (1x).\nLine 5: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\nLine 5: Converted 'talent.fateful_ending' to 'talent.fateful_ending.enabled' (1x).\nLine 5: Converted 'talent.take_em_by_surprise' to 'talent.take_em_by_surprise.enabled' (1x).\n\nThe import for 'build' required some automated changes.\nLine 2: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\nLine 3: Converted 'talent.fan_the_hammer' to 'talent.fan_the_hammer.enabled' (1x).\nLine 3: Converted 'talent.audacity' to 'talent.audacity.enabled' (1x).\nLine 3: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\nLine 4: Converted 'talent.fan_the_hammer' to 'talent.fan_the_hammer.enabled' (1x).\nLine 5: Converted 'talent.fan_the_hammer' to 'talent.fan_the_hammer.enabled' (1x).\nLine 5: Converted 'talent.quick_draw' to 'talent.quick_draw.enabled' (1x).\nLine 5: Converted 'talent.ruthlessness' to 'talent.ruthlessness.enabled' (1x).\nLine 6: Converted 'talent.fan_the_hammer' to 'talent.fan_the_hammer.enabled' (1x).\nLine 8: Converted 'talent.hidden_opportunity' to 'talent.hidden_opportunity.enabled' (1x).\n\nImported 7 action lists.\n",
-["profile"] = "actions.precombat+=/use_item,name=imperfect_ascendancy_serum\nactions.precombat+=/apply_poison\nactions.precombat+=/stealth,precombat_seconds=2\n# Builds with Keep it Rolling prepull Adrenaline Rush before Roll the Bones to consume Loaded Dice immediately instead of on the next pandemic roll\nactions.precombat+=/adrenaline_rush,precombat_seconds=2,if=settings.use_ld_opener&talent.improved_adrenaline_rush&buff.adrenaline_rush.down&talent.keep_it_rolling&talent.loaded_dice\nactions.precombat+=/roll_the_bones,precombat_seconds=2,if=buff.roll_the_bones.down\nactions.precombat+=/adrenaline_rush,precombat_seconds=1,if=talent.improved_adrenaline_rush&buff.adrenaline_rush.down\nactions.precombat+=/slice_and_dice,precombat_seconds=1,if=refreshable\n\n# Restealth if possible (no vulnerable enemies in combat)\nactions+=/stealth\n# Interrupt on cooldown to allow simming interactions with that\nactions+=/kick\n# Variables that define the reroll rules for Roll the Bones  Default rule: reroll if the only buff that will be rolled away is Buried Treasure, or Grand Melee in single target without upcoming adds\nactions+=/variable,name=rtb_reroll,value=rtb_buffs.will_lose=(rtb_buffs.will_lose.buried_treasure+rtb_buffs.will_lose.grand_melee&spell_targets.blade_flurry<2&raid_event.adds.in>12&raid_event.adds.count<2)\n# If Loaded Dice is talented, then keep any 1 buff from Roll the Bones but roll it into 2 buffs when Loaded Dice is active\nactions+=/variable,name=rtb_reroll,if=talent.loaded_dice,value=rtb_buffs.will_lose=buff.loaded_dice.up\n# If all active Roll the Bones buffs are ahead of its container buff and have under 40s remaining, then reroll again with Loaded Dice active in an attempt to get even more buffs\nactions+=/variable,name=rtb_reroll,value=variable.rtb_reroll&rtb_buffs.longer=0||rtb_buffs.normal=0&rtb_buffs.longer>=1&rtb_buffs<6&rtb_buffs.max_remains<=39&!stealthed.all&buff.loaded_dice.up\n# Avoid rerolls when we will not have time remaining on the fight or add wave to recoup the opportunity cost of the global\nactions+=/variable,name=rtb_reroll,op=reset,if=!(raid_event.adds.remains>12||raid_event.adds.up&(raid_event.adds.in-raid_event.adds.remains)<6||target.time_to_die>12)||fight_remains<12\nactions+=/variable,name=ambush_condition,value=(talent.hidden_opportunity||combo_points.deficit>=2+talent.improved_ambush+buff.broadside.up)&energy>=50\n# Use finishers if at -1 from max combo points, or -2 in Stealth with Crackshot. With the hero trees, Hidden Opportunity builds also finish at -2 if Audacity or Opportunity is active\nactions+=/variable,name=finish_condition,value=effective_combo_points>=cp_max_spend-1-(stealthed.all&talent.crackshot||(talent.hand_of_fate||talent.flawless_form)&talent.hidden_opportunity&(buff.audacity.up||buff.opportunity.up))\n# With multiple targets, this variable is checked to decide whether some CDs should be synced with Blade Flurry\nactions+=/variable,name=blade_flurry_sync,value=spell_targets.blade_flurry<2&raid_event.adds.in>20||buff.blade_flurry.remains>gcd\nactions+=/call_action_list,name=cds\n# High priority stealth list, will fall through if no conditions are met\nactions+=/call_action_list,name=stealth,strict=1,if=stealthed.all\nactions+=/run_action_list,name=finish,strict=1,if=variable.finish_condition\nactions+=/call_action_list,name=build\nactions+=/arcane_torrent,if=energy.base_deficit>=15+energy.regen\nactions+=/arcane_pulse\nactions+=/lights_judgment\nactions+=/bag_of_tricks\n\n# Builders\nactions.build+=/echoing_reprimand\n# High priority Ambush for Hidden Opportunity builds\nactions.build+=/ambush,if=talent.hidden_opportunity&buff.audacity.up\n# With Audacity + Hidden Opportunity + Fan the Hammer, consume Opportunity to proc Audacity any time Ambush is not available\nactions.build+=/pistol_shot,if=talent.fan_the_hammer&talent.audacity&talent.hidden_opportunity&buff.opportunity.up&!buff.audacity.up\n# With Fan the Hammer, consume Opportunity as a higher priority if at max stacks or if it will expire\nactions.build+=/pistol_shot,if=talent.fan_the_hammer&buff.opportunity.up&(buff.opportunity.stack>=buff.opportunity.max_stack||buff.opportunity.remains<2)\n# With Fan the Hammer, consume Opportunity if it will not overcap CPs, or with 1 CP at minimum\nactions.build+=/pistol_shot,if=talent.fan_the_hammer&buff.opportunity.up&(combo_points.deficit>=(1+(talent.quick_draw+buff.broadside.up)*(talent.fan_the_hammer.rank+1))||combo_points<=talent.ruthlessness)\n# If not using Fan the Hammer, then consume Opportunity based on energy, when it will exactly cap CPs, or when using Quick Draw\nactions.build+=/pistol_shot,if=!talent.fan_the_hammer&buff.opportunity.up&(energy.base_deficit>energy.regen*1.5||combo_points.deficit<=1+buff.broadside.up||talent.quick_draw.enabled||talent.audacity.enabled&!buff.audacity.up)\n# Fallback pooling just so Sinister Strike is never casted if Ambush is available for Hidden Opportunity builds\nactions.build+=/pool_resource,for_next=1\nactions.build+=/ambush,if=talent.hidden_opportunity\nactions.build+=/sinister_strike\n\n# Cooldowns  Use Adrenaline Rush if it is not active and the finisher condition is not met, but Crackshot builds can refresh it with 2cp or lower inside stealth\nactions.cds+=/adrenaline_rush,if=!buff.adrenaline_rush.up&(!variable.finish_condition||!talent.improved_adrenaline_rush)||stealthed.all&talent.crackshot&talent.improved_adrenaline_rush&combo_points<=2\n# Sprint to further benefit from Scroll of Momentum trinket\nactions.cds+=/sprint,if=(trinket.1.is.scroll_of_momentum||trinket.2.is.scroll_of_momentum)&buff.full_momentum.up\n# Maintain Blade Flurry on 2+ targets\nactions.cds+=/blade_flurry,if=spell_targets>=2&buff.blade_flurry.remains<gcd\n# With Deft Maneuvers, use Blade Flurry on cooldown at 5+ targets, or at 3-4 targets if missing combo points equal to the amount given\nactions.cds+=/blade_flurry,if=talent.deft_maneuvers&!variable.finish_condition&(spell_targets>=3&combo_points.deficit=spell_targets+buff.broadside.up||spell_targets>=5)\n# Use Roll the Bones if reroll conditions are met, or with no buffs\nactions.cds+=/roll_the_bones,if=variable.rtb_reroll||rtb_buffs=0\n# Use Keep it Rolling with any 4 buffs. If Broadside is not active, then wait until just before the lowest buff expires in an attempt to obtain it from Count the Odds.\nactions.cds+=/keep_it_rolling,if=rtb_buffs>=4&(rtb_buffs.min_remains<2||buff.broadside.up)\nactions.cds+=/ghostly_strike,if=combo_points<cp_max_spend\n# Trinkets that should not be used during stealth and have higher priority than entering stealth\nactions.cds+=/use_item,name=manic_grieftorch,if=!stealthed.all&buff.between_the_eyes.up||fight_remains<=5\nactions.cds+=/use_item,name=beacon_to_the_beyond,if=!stealthed.all&buff.between_the_eyes.up||boss&fight_remains<=5\nactions.cds+=/use_item,name=imperfect_ascendancy_serum,if=!stealthed.all||boss&fight_remains<=22\nactions.cds+=/use_item,name=mad_queens_mandate,if=!stealthed.all||boss&fight_remains<=5\n# Killing Spree has higher priority than stealth cooldowns\nactions.cds+=/killing_spree,if=variable.finish_condition&!stealthed.all\n# Crackshot builds use stealth cooldowns if Between the Eyes is ready\nactions.cds+=/call_action_list,name=stealth_cds,if=!stealthed.all&(!talent.crackshot||cooldown.between_the_eyes.ready)\nactions.cds+=/thistle_tea,if=!buff.thistle_tea.up&(energy.base_deficit>=150||fight_remains<charges*6)\n# Use Blade Rush at minimal energy outside of stealth\nactions.cds+=/blade_rush,if=energy.base_time_to_max>4&!stealthed.all\nactions.cds+=/potion,if=buff.bloodlust.react||fight_remains<30||buff.adrenaline_rush.up\nactions.cds+=/blood_fury\nactions.cds+=/berserking\nactions.cds+=/fireblood\nactions.cds+=/ancestral_call\nactions.cds+=/use_items,slots=trinket1,if=buff.between_the_eyes.up||trinket.1.has_stat.any_dps||boss&fight_remains<=20\nactions.cds+=/use_items,slots=trinket2,if=buff.between_the_eyes.up||trinket.2.has_stat.any_dps||boss&fight_remains<=20\n\n# Finishers  Use Between the Eyes to keep the crit buff up, but on cooldown if Improved/Greenskins, and avoid overriding Greenskins\nactions.finish+=/between_the_eyes,if=!talent.crackshot&(buff.between_the_eyes.remains<4||talent.improved_between_the_eyes||talent.greenskins_wickers)&!buff.greenskins_wickers.up\n# Crackshot builds use Between the Eyes outside of Stealth if we are unlikely to enter a Stealth window before the next BtE cast or if we are unlikely to lose Adrenaline Rush uptime by hitting BtE before the next cast of Vanish\nactions.finish+=/between_the_eyes,if=talent.crackshot&(cooldown.vanish.remains>45||talent.underhanded_upper_hand&talent.without_a_trace&(buff.adrenaline_rush.remains>12||buff.adrenaline_rush.down&cooldown.adrenaline_rush.remains>45))&(raid_event.adds.remains>8||raid_event.adds.in<raid_event.adds.remains||!raid_event.adds.up)\nactions.finish+=/slice_and_dice,if=buff.slice_and_dice.remains<fight_remains&refreshable\nactions.finish+=/cold_blood\nactions.finish+=/coup_de_grace\nactions.finish+=/dispatch\n\n# Stealth\nactions.stealth+=/cold_blood,if=variable.finish_condition\n# Ensure Crackshot BtE is not skipped because of low energy\nactions.stealth+=/pool_resource,for_next=1\n# High priority Between the Eyes for Crackshot, except not directly out of Shadowmeld\nactions.stealth+=/between_the_eyes,if=variable.finish_condition&talent.crackshot&(!buff.shadowmeld.up||stealthed.rogue)\nactions.stealth+=/dispatch,if=variable.finish_condition\n# 2 Fan the Hammer Crackshot builds can consume Opportunity in stealth with max stacks, Broadside, and low CPs, or with Greenskins active\nactions.stealth+=/pistol_shot,if=talent.crackshot&talent.fan_the_hammer.rank>=2&buff.opportunity.stack>=6&(buff.broadside.up&combo_points<=1||buff.greenskins_wickers.up)\nactions.stealth+=/ambush,if=talent.hidden_opportunity\n\n# Stealth Cooldowns  Builds with Underhanded Upper Hand and Subterfuge (and Without a Trace for Crackshot) must use Vanish while Adrenaline Rush is active\nactions.stealth_cds+=/vanish,if=talent.underhanded_upper_hand&talent.subterfuge&(buff.adrenaline_rush.up||!talent.without_a_trace&talent.crackshot)&(variable.finish_condition||!talent.crackshot&(variable.ambush_condition||!talent.hidden_opportunity))\n# Builds without Underhanded Upper Hand but with Crackshot must still use Vanish into Between the Eyes on cooldown\nactions.stealth_cds+=/vanish,if=!talent.underhanded_upper_hand&talent.crackshot&variable.finish_condition\n# Builds without Underhanded Upper Hand and Crackshot but still Hidden Opportunity use Vanish into Ambush when Audacity is not active and under max Opportunity stacks\nactions.stealth_cds+=/vanish,if=!talent.underhanded_upper_hand&!talent.crackshot&talent.hidden_opportunity&!buff.audacity.up&buff.opportunity.stack<buff.opportunity.max_stack&variable.ambush_condition\n# Builds without Underhanded Upper Hand, Crackshot, and Hidden Opportunity but with Fatebound use Vanish at five stacks of either Fatebound coin in order to proc the Lucky Coin if it's not already active, and otherwise continue to Vanish into a Dispatch to proc Double Jeopardy on a biased coin\nactions.stealth_cds+=/vanish,if=!talent.underhanded_upper_hand&!talent.crackshot&!talent.hidden_opportunity&talent.fateful_ending&(!buff.fatebound_lucky_coin.up&(buff.fatebound_coin_tails.stack>=5||buff.fatebound_coin_heads.stack>=5)||buff.fatebound_lucky_coin.up&!cooldown.between_the_eyes.ready)\n# Builds with none of the above can use Vanish to maintain Take 'em By Surprise\nactions.stealth_cds+=/vanish,if=!talent.underhanded_upper_hand&!talent.crackshot&!talent.hidden_opportunity&!talent.fateful_ending&talent.take_em_by_surprise&!buff.take_em_by_surprise.up\nactions.stealth_cds+=/shadowmeld,if=variable.finish_condition&!cooldown.vanish.ready",
 ["spec"] = 260,
+["basedOn"] = "Outlaw",
+["profile"] = "actions.precombat+=/use_item,name=imperfect_ascendancy_serum\nactions.precombat+=/apply_poison\nactions.precombat+=/stealth,precombat_seconds=2\n# Builds with Keep it Rolling prepull Adrenaline Rush before Roll the Bones to consume Loaded Dice immediately instead of on the next pandemic roll\nactions.precombat+=/adrenaline_rush,precombat_seconds=2,if=settings.use_ld_opener&talent.improved_adrenaline_rush&buff.adrenaline_rush.down&talent.keep_it_rolling&talent.loaded_dice\nactions.precombat+=/roll_the_bones,precombat_seconds=2,if=buff.roll_the_bones.down\nactions.precombat+=/adrenaline_rush,precombat_seconds=1,if=talent.improved_adrenaline_rush&buff.adrenaline_rush.down\nactions.precombat+=/slice_and_dice,precombat_seconds=1,if=refreshable\n\n# Restealth if possible (no vulnerable enemies in combat)\nactions+=/stealth\n# Interrupt on cooldown to allow simming interactions with that\nactions+=/kick\n# Variables that define the reroll rules for Roll the Bones  Default rule: reroll if the only buff that will be rolled away is Buried Treasure, or Grand Melee in single target without upcoming adds\nactions+=/variable,name=rtb_reroll,value=rtb_buffs.will_lose=(rtb_buffs.will_lose.buried_treasure+rtb_buffs.will_lose.grand_melee&spell_targets.blade_flurry<2&raid_event.adds.in>12&raid_event.adds.count<2)\n# If Loaded Dice is talented, then keep any 1 buff from Roll the Bones but roll it into 2 buffs when Loaded Dice is active\nactions+=/variable,name=rtb_reroll,if=talent.loaded_dice,value=rtb_buffs.will_lose=buff.loaded_dice.up\n# If all active Roll the Bones buffs are ahead of its container buff and have under 40s remaining, then reroll again with Loaded Dice active in an attempt to get even more buffs\nactions+=/variable,name=rtb_reroll,value=variable.rtb_reroll&rtb_buffs.longer=0||rtb_buffs.normal=0&rtb_buffs.longer>=1&rtb_buffs<6&rtb_buffs.max_remains<=39&!stealthed.all&buff.loaded_dice.up\n# Avoid rerolls when we will not have time remaining on the fight or add wave to recoup the opportunity cost of the global\nactions+=/variable,name=rtb_reroll,op=reset,if=!(raid_event.adds.remains>12||raid_event.adds.up&(raid_event.adds.in-raid_event.adds.remains)<6||target.time_to_die>12)||fight_remains<12\nactions+=/variable,name=ambush_condition,value=(talent.hidden_opportunity||combo_points.deficit>=2+talent.improved_ambush+buff.broadside.up)&energy>=50\n# Use finishers if at -1 from max combo points, or -2 in Stealth with Crackshot. With the hero trees, Hidden Opportunity builds also finish at -2 if Audacity or Opportunity is active\nactions+=/variable,name=finish_condition,value=effective_combo_points>=cp_max_spend-1-(stealthed.all&talent.crackshot||(talent.hand_of_fate||talent.flawless_form)&talent.hidden_opportunity&(buff.audacity.up||buff.opportunity.up))\n# With multiple targets, this variable is checked to decide whether some CDs should be synced with Blade Flurry\nactions+=/variable,name=blade_flurry_sync,value=spell_targets.blade_flurry<2&raid_event.adds.in>20||buff.blade_flurry.remains>gcd\nactions+=/call_action_list,name=cds\n# High priority stealth list, will fall through if no conditions are met\nactions+=/call_action_list,name=stealth,strict=1,if=stealthed.all\nactions+=/run_action_list,name=finish,strict=1,if=variable.finish_condition\nactions+=/call_action_list,name=build\nactions+=/arcane_torrent,if=energy.base_deficit>=15+energy.regen\nactions+=/arcane_pulse\nactions+=/lights_judgment\nactions+=/bag_of_tricks\n\n# Builders\nactions.build+=/echoing_reprimand\n# High priority Ambush for Hidden Opportunity builds\nactions.build+=/ambush,if=talent.hidden_opportunity&buff.audacity.up\n# With Audacity + Hidden Opportunity + Fan the Hammer, consume Opportunity to proc Audacity any time Ambush is not available\nactions.build+=/pistol_shot,if=talent.fan_the_hammer&talent.audacity&talent.hidden_opportunity&buff.opportunity.up&!buff.audacity.up\n# With Fan the Hammer, consume Opportunity as a higher priority if at max stacks or if it will expire\nactions.build+=/pistol_shot,if=talent.fan_the_hammer&buff.opportunity.up&(buff.opportunity.stack>=buff.opportunity.max_stack||buff.opportunity.remains<2)\n# With Fan the Hammer, consume Opportunity if it will not overcap CPs, or with 1 CP at minimum\nactions.build+=/pistol_shot,if=talent.fan_the_hammer&buff.opportunity.up&(combo_points.deficit>=(1+(talent.quick_draw+buff.broadside.up)*(talent.fan_the_hammer.rank+1))||combo_points<=talent.ruthlessness)\n# If not using Fan the Hammer, then consume Opportunity based on energy, when it will exactly cap CPs, or when using Quick Draw\nactions.build+=/pistol_shot,if=!talent.fan_the_hammer&buff.opportunity.up&(energy.base_deficit>energy.regen*1.5||combo_points.deficit<=1+buff.broadside.up||talent.quick_draw.enabled||talent.audacity.enabled&!buff.audacity.up)\n# Fallback pooling just so Sinister Strike is never casted if Ambush is available for Hidden Opportunity builds\nactions.build+=/pool_resource,for_next=1\nactions.build+=/ambush,if=talent.hidden_opportunity\nactions.build+=/sinister_strike\n\n# Cooldowns  Use Adrenaline Rush if it is not active and the finisher condition is not met, but Crackshot builds can refresh it with 2cp or lower inside stealth\nactions.cds+=/adrenaline_rush,if=!buff.adrenaline_rush.up&(!variable.finish_condition||!talent.improved_adrenaline_rush)||stealthed.all&talent.crackshot&talent.improved_adrenaline_rush&combo_points<=2\n# Sprint to further benefit from Scroll of Momentum trinket\nactions.cds+=/sprint,if=(trinket.1.is.scroll_of_momentum||trinket.2.is.scroll_of_momentum)&buff.full_momentum.up\n# Maintain Blade Flurry on 2+ targets\nactions.cds+=/blade_flurry,if=spell_targets>=2&buff.blade_flurry.remains<gcd\n# With Deft Maneuvers, use Blade Flurry on cooldown at 5+ targets, or at 3-4 targets if missing combo points equal to the amount given\nactions.cds+=/blade_flurry,if=talent.deft_maneuvers&!variable.finish_condition&(spell_targets>=3&combo_points.deficit=spell_targets+buff.broadside.up||spell_targets>=5)\n# Use Roll the Bones if reroll conditions are met, or with no buffs\nactions.cds+=/roll_the_bones,if=variable.rtb_reroll||rtb_buffs=0\n# Use Keep it Rolling with any 4 buffs. If Broadside is not active, then wait until just before the lowest buff expires in an attempt to obtain it from Count the Odds.\nactions.cds+=/keep_it_rolling,if=rtb_buffs>=4&(rtb_buffs.min_remains<2||buff.broadside.up)\nactions.cds+=/ghostly_strike,if=combo_points<cp_max_spend\n# Trinkets that should not be used during stealth and have higher priority than entering stealth\nactions.cds+=/use_item,name=manic_grieftorch,if=!stealthed.all&buff.between_the_eyes.up||fight_remains<=5\nactions.cds+=/use_item,name=beacon_to_the_beyond,if=!stealthed.all&buff.between_the_eyes.up||boss&fight_remains<=5\nactions.cds+=/use_item,name=imperfect_ascendancy_serum,if=!stealthed.all||boss&fight_remains<=22\nactions.cds+=/use_item,name=mad_queens_mandate,if=!stealthed.all||boss&fight_remains<=5\n# Killing Spree has higher priority than stealth cooldowns\nactions.cds+=/killing_spree,if=variable.finish_condition&!stealthed.all\n# Crackshot builds use stealth cooldowns if Between the Eyes is ready\nactions.cds+=/call_action_list,name=stealth_cds,if=!stealthed.all&(!talent.crackshot||cooldown.between_the_eyes.ready)\nactions.cds+=/thistle_tea,if=!buff.thistle_tea.up&(energy.base_deficit>=150||fight_remains<charges*6)\n# Use Blade Rush at minimal energy outside of stealth\nactions.cds+=/blade_rush,if=energy.base_time_to_max>4&!stealthed.all\nactions.cds+=/potion,if=buff.bloodlust.react||fight_remains<30||buff.adrenaline_rush.up\nactions.cds+=/blood_fury\nactions.cds+=/berserking\nactions.cds+=/fireblood\nactions.cds+=/ancestral_call\nactions.cds+=/use_items,slots=trinket1,if=buff.between_the_eyes.up||trinket.1.has_stat.any_dps||boss&fight_remains<=20\nactions.cds+=/use_items,slots=trinket2,if=buff.between_the_eyes.up||trinket.2.has_stat.any_dps||boss&fight_remains<=20\n\n# Finishers  Use Between the Eyes to keep the crit buff up, but on cooldown if Improved/Greenskins, and avoid overriding Greenskins\nactions.finish+=/between_the_eyes,if=!talent.crackshot&(buff.between_the_eyes.remains<4||talent.improved_between_the_eyes||talent.greenskins_wickers)&!buff.greenskins_wickers.up\n# Crackshot builds use Between the Eyes outside of Stealth if we are unlikely to enter a Stealth window before the next BtE cast or if we are unlikely to lose Adrenaline Rush uptime by hitting BtE before the next cast of Vanish\nactions.finish+=/between_the_eyes,if=talent.crackshot&(cooldown.vanish.remains>45||talent.underhanded_upper_hand&talent.without_a_trace&(buff.adrenaline_rush.remains>12||buff.adrenaline_rush.down&cooldown.adrenaline_rush.remains>45))&(raid_event.adds.remains>8||raid_event.adds.in<raid_event.adds.remains||!raid_event.adds.up)\nactions.finish+=/slice_and_dice,if=buff.slice_and_dice.remains<fight_remains&refreshable\nactions.finish+=/cold_blood\nactions.finish+=/coup_de_grace\nactions.finish+=/dispatch\n\n# Stealth\nactions.stealth+=/cold_blood,if=variable.finish_condition\n# Ensure Crackshot BtE is not skipped because of low energy\nactions.stealth+=/pool_resource,for_next=1\n# High priority Between the Eyes for Crackshot, except not directly out of Shadowmeld\nactions.stealth+=/between_the_eyes,if=variable.finish_condition&talent.crackshot&(!buff.shadowmeld.up||stealthed.rogue)\nactions.stealth+=/dispatch,if=variable.finish_condition\n# 2 Fan the Hammer Crackshot builds can consume Opportunity in stealth with max stacks, Broadside, and low CPs, or with Greenskins active\nactions.stealth+=/pistol_shot,if=talent.crackshot&talent.fan_the_hammer.rank>=2&buff.opportunity.stack>=6&(buff.broadside.up&combo_points<=1||buff.greenskins_wickers.up)\nactions.stealth+=/ambush,if=talent.hidden_opportunity\n\n# Stealth Cooldowns  Builds with Underhanded Upper Hand and Subterfuge (and Without a Trace for Crackshot) must use Vanish while Adrenaline Rush is active\nactions.stealth_cds+=/vanish,if=talent.underhanded_upper_hand&talent.subterfuge&(buff.adrenaline_rush.up||!talent.without_a_trace&talent.crackshot)&(variable.finish_condition||!talent.crackshot&(variable.ambush_condition||!talent.hidden_opportunity))\n# Builds without Underhanded Upper Hand but with Crackshot must still use Vanish into Between the Eyes on cooldown\nactions.stealth_cds+=/vanish,if=!talent.underhanded_upper_hand&talent.crackshot&variable.finish_condition\n# Builds without Underhanded Upper Hand and Crackshot but still Hidden Opportunity use Vanish into Ambush when Audacity is not active and under max Opportunity stacks\nactions.stealth_cds+=/vanish,if=!talent.underhanded_upper_hand&!talent.crackshot&talent.hidden_opportunity&!buff.audacity.up&buff.opportunity.stack<buff.opportunity.max_stack&variable.ambush_condition\n# Builds without Underhanded Upper Hand, Crackshot, and Hidden Opportunity but with Fatebound use Vanish at five stacks of either Fatebound coin in order to proc the Lucky Coin if it's not already active, and otherwise continue to Vanish into a Dispatch to proc Double Jeopardy on a biased coin\nactions.stealth_cds+=/vanish,if=!talent.underhanded_upper_hand&!talent.crackshot&!talent.hidden_opportunity&talent.fateful_ending&(!buff.fatebound_lucky_coin.up&(buff.fatebound_coin_tails.stack>=5||buff.fatebound_coin_heads.stack>=5)||buff.fatebound_lucky_coin.up&!cooldown.between_the_eyes.ready)\n# Builds with none of the above can use Vanish to maintain Take 'em By Surprise\nactions.stealth_cds+=/vanish,if=!talent.underhanded_upper_hand&!talent.crackshot&!talent.hidden_opportunity&!talent.fateful_ending&talent.take_em_by_surprise&!buff.take_em_by_surprise.up\nactions.stealth_cds+=/shadowmeld,if=variable.finish_condition&!cooldown.vanish.ready",
 },
 ["Elemental"] = {
 ["source"] = "https://github.com/simulationcraft/simc/",
@@ -5188,21 +5192,21 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Just use Stormkeeper.",
 ["criteria"] = "! buff.ascendance.up & ! buff.stormkeeper.up",
 ["action"] = "stormkeeper",
-["description"] = "Just use Stormkeeper.",
 },
 {
 ["enabled"] = true,
+["description"] = "{Fire} Reset LMT CD as early as possible [Hekili] based on true cooldown remaining",
 ["criteria"] = "cooldown.liquid_magma_totem.true_remains > 15 & spell_targets.chain_lightning > 1 & talent.fire_elemental.enabled",
 ["action"] = "totemic_recall",
-["description"] = "{Fire} Reset LMT CD as early as possible [Hekili] based on true cooldown remaining",
 },
 {
 ["enabled"] = true,
+["description"] = "Use LMT outside Ascendance in fire builds and on 2 targets for lightning.",
 ["criteria"] = "! totem.liquid_magma_totem.active & ! buff.ascendance.up & ( talent.fire_elemental.enabled || spell_targets.chain_lightning > 1 )",
 ["action"] = "liquid_magma_totem",
-["description"] = "Use LMT outside Ascendance in fire builds and on 2 targets for lightning.",
 },
 {
 ["enabled"] = true,
@@ -5213,9 +5217,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Use Ancestral Swiftness as much as possible. Use on EB instead of LvB where possible.",
 ["criteria"] = "! buff.primordial_wave.up || ! buff.stormkeeper.up || ! talent.elemental_blast.enabled",
 ["action"] = "ancestral_swiftness",
-["description"] = "Use Ancestral Swiftness as much as possible. Use on EB instead of LvB where possible.",
 },
 {
 ["enabled"] = true,
@@ -5246,9 +5250,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Stormkeeper is strong and should be used.",
 ["criteria"] = "buff.stormkeeper.up & buff.surge_of_power.up",
 ["action"] = "lightning_bolt",
-["description"] = "Stormkeeper is strong and should be used.",
 },
 {
 ["enabled"] = true,
@@ -5259,15 +5263,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Buff Stormkeeper with at least something if you can.",
 ["criteria"] = "buff.stormkeeper.up & ! talent.surge_of_power.enabled & ( buff.master_of_the_elements.up || ! talent.master_of_the_elements.enabled )",
 ["action"] = "lightning_bolt",
-["description"] = "Buff Stormkeeper with at least something if you can.",
 },
 {
 ["enabled"] = true,
+["description"] = "Surge of Power is strong and should be used.",
 ["criteria"] = "buff.surge_of_power.up & ! buff.ascendance.up & talent.echo_chamber.enabled",
 ["action"] = "lightning_bolt",
-["description"] = "Surge of Power is strong and should be used.",
 },
 {
 ["enabled"] = true,
@@ -5290,27 +5294,27 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "{Fire} Spend if you have MotE buff and: not in Ascendance OR Ascendance gona last so long you will need to spend anyway OR nature fusion buff up OR close to maelstrom cap. Respect Echoes of Great Sundering.",
 ["criteria"] = "buff.master_of_the_elements.up & ( buff.echoes_of_great_sundering_es.up || buff.echoes_of_great_sundering_eb.up || spell_targets.chain_lightning > 1 & ! talent.echoes_of_great_sundering.enabled & ! talent.elemental_blast.enabled ) & ( buff.fusion_of_elements_nature.up || maelstrom > variable.mael_cap - 15 || buff.ascendance.remains > 9 || ! buff.ascendance.up ) & talent.fire_elemental.enabled",
 ["action"] = "earthquake",
-["description"] = "{Fire} Spend if you have MotE buff and: not in Ascendance OR Ascendance gona last so long you will need to spend anyway OR nature fusion buff up OR close to maelstrom cap. Respect Echoes of Great Sundering.",
 },
 {
 ["enabled"] = true,
+["description"] = "{Fire} Spend if you have MotE buff and: not in Ascendance OR Ascendance gona last so long you will need to spend anyway OR any fusion buff up OR close to maelstrom cap.",
 ["criteria"] = "buff.master_of_the_elements.up & ( buff.fusion_of_elements_nature.up || buff.fusion_of_elements_fire.up || maelstrom > variable.mael_cap - 15 || buff.ascendance.remains > 6 || ! buff.ascendance.up ) & talent.fire_elemental.enabled",
 ["action"] = "elemental_blast",
-["description"] = "{Fire} Spend if you have MotE buff and: not in Ascendance OR Ascendance gona last so long you will need to spend anyway OR any fusion buff up OR close to maelstrom cap.",
 },
 {
 ["enabled"] = true,
+["description"] = "{Fire} Spend if you have MotE buff and: not in Ascendance OR Ascendance gona last so long you will need to spend anyway OR nature fusion buff up OR close to maelstrom cap.",
 ["criteria"] = "buff.master_of_the_elements.up & ( buff.fusion_of_elements_nature.up || maelstrom > variable.mael_cap - 15 || buff.ascendance.remains > 9 || ! buff.ascendance.up ) & talent.fire_elemental.enabled",
 ["action"] = "earth_shock",
-["description"] = "{Fire} Spend if you have MotE buff and: not in Ascendance OR Ascendance gona last so long you will need to spend anyway OR nature fusion buff up OR close to maelstrom cap.",
 },
 {
 ["enabled"] = true,
+["description"] = "{Lightning} Spend if Stormkeeper is active OR Pwave is coming next gcd and you arent specced into LMT. Respect Echoes of Great Sundering.",
 ["criteria"] = "( buff.echoes_of_great_sundering_es.up || buff.echoes_of_great_sundering_eb.up || spell_targets.chain_lightning > 1 & ! talent.echoes_of_great_sundering.enabled & ! talent.elemental_blast.enabled ) & ( buff.stormkeeper.up || cooldown.primordial_wave.remains < gcd.max & talent.surge_of_power.enabled & ! talent.liquid_magma_totem.enabled ) & talent.storm_elemental.enabled",
 ["action"] = "earthquake",
-["description"] = "{Lightning} Spend if Stormkeeper is active OR Pwave is coming next gcd and you arent specced into LMT. Respect Echoes of Great Sundering.",
 },
 {
 ["enabled"] = true,
@@ -5321,9 +5325,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "{Lightning}[1t] Spend if you have Master of the Elements buff and Stormkeeper is not coming up soon OR Stormkeeper is active OR Lightning Rod ran out.",
 ["criteria"] = "( ( buff.master_of_the_elements.up || lightning_rod = 0 ) & cooldown.stormkeeper.remains > 10 & ( rolling_thunder.next_tick > 5 || ! talent.rolling_thunder.enabled ) || buff.stormkeeper.up ) & talent.storm_elemental.enabled & spell_targets.chain_lightning = 1",
 ["action"] = "earth_shock",
-["description"] = "{Lightning}[1t] Spend if you have Master of the Elements buff and Stormkeeper is not coming up soon OR Stormkeeper is active OR Lightning Rod ran out.",
 },
 {
 ["enabled"] = true,
@@ -5334,9 +5338,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Don't waste Icefury stacks even during Ascendance.",
 ["criteria"] = "! ( buff.fusion_of_elements_nature.up || buff.fusion_of_elements_fire.up ) & buff.icefury.stack = 2 & ( talent.fusion_of_elements.enabled || ! buff.ascendance.up )",
 ["action"] = "icefury",
-["description"] = "Don't waste Icefury stacks even during Ascendance.",
 },
 {
 ["enabled"] = true,
@@ -5361,9 +5365,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Spend if close to overcaping. Respect Echoes of Great Sundering.",
 ["criteria"] = "( buff.echoes_of_great_sundering_es.up || buff.echoes_of_great_sundering_eb.up || spell_targets.chain_lightning > 1 & ! talent.echoes_of_great_sundering.enabled & ! talent.elemental_blast.enabled ) & ( maelstrom > variable.mael_cap - 35 || fight_remains < 5 )",
 ["action"] = "earthquake",
-["description"] = "Spend if close to overcaping. Respect Echoes of Great Sundering.",
 },
 {
 ["enabled"] = true,
@@ -5386,27 +5390,27 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Use Icefury if you won't overwrite Fusion of Elements buffs.",
 ["criteria"] = "! ( buff.fusion_of_elements_nature.up || buff.fusion_of_elements_fire.up )",
 ["action"] = "icefury",
-["description"] = "Use Icefury if you won't overwrite Fusion of Elements buffs.",
 },
 {
 ["enabled"] = true,
+["description"] = "Use Icefury-buffed Frost Shock against 1 target or if you need to generate for SoP buff on Stormkeeper.",
 ["criteria"] = "buff.icefury_dmg.up & ( spell_targets.chain_lightning = 1 || buff.stormkeeper.up & talent.surge_of_power.enabled )",
 ["action"] = "frost_shock",
-["description"] = "Use Icefury-buffed Frost Shock against 1 target or if you need to generate for SoP buff on Stormkeeper.",
 },
 {
 ["enabled"] = true,
+["description"] = "Utilize the Power of the Maelstrom buff.",
 ["criteria"] = "buff.power_of_the_maelstrom.up & spell_targets.chain_lightning > 1 & ! buff.stormkeeper.up",
 ["action"] = "chain_lightning",
-["description"] = "Utilize the Power of the Maelstrom buff.",
 },
 {
 ["enabled"] = true,
+["description"] = "Utilize the Power of the Maelstrom buff.",
 ["criteria"] = "buff.power_of_the_maelstrom.up & ! buff.stormkeeper.up",
 ["action"] = "lightning_bolt",
-["description"] = "Utilize the Power of the Maelstrom buff.",
 },
 {
 ["enabled"] = true,
@@ -5417,9 +5421,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Casting Chain Lightning at two targets is more efficient than Lightning Bolt.",
 ["criteria"] = "spell_targets.chain_lightning > 1 & ! buff.stormkeeper.up",
 ["action"] = "chain_lightning",
-["description"] = "Casting Chain Lightning at two targets is more efficient than Lightning Bolt.",
 },
 {
 ["enabled"] = true,
@@ -5467,9 +5471,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "{Fire} Reset LMT CD as early as possible [Hekili] based on true cooldown remaining",
 ["criteria"] = "cooldown.liquid_magma_totem.true_remains > 15 & ( active_dot.flame_shock < ( spell_targets.chain_lightning >? 6 ) - 2 || talent.fire_elemental.enabled )",
 ["action"] = "totemic_recall",
-["description"] = "{Fire} Reset LMT CD as early as possible [Hekili] based on true cooldown remaining",
 },
 {
 ["enabled"] = true,
@@ -5521,15 +5525,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Against 6 targets or more Surge of Power should be used with Lava Beam rather than Lava Burst.",
 ["criteria"] = "active_enemies >= 6 & buff.surge_of_power.up & buff.ascendance.remains > cast_time",
 ["action"] = "lava_beam",
-["description"] = "Against 6 targets or more Surge of Power should be used with Lava Beam rather than Lava Burst.",
 },
 {
 ["enabled"] = true,
+["description"] = "Against 6 targets or more Surge of Power should be used with Chain Lightning rather than Lava Burst.",
 ["criteria"] = "active_enemies >= 6 & buff.surge_of_power.up",
 ["action"] = "chain_lightning",
-["description"] = "Against 6 targets or more Surge of Power should be used with Chain Lightning rather than Lava Burst.",
 },
 {
 ["enabled"] = true,
@@ -5554,27 +5558,27 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Activate Surge of Power if next global is Primordial wave. Respect Echoes of Great Sundering.",
 ["criteria"] = "cooldown.primordial_wave.remains < gcd.max & talent.surge_of_power.enabled & ( buff.echoes_of_great_sundering_es.up || buff.echoes_of_great_sundering_eb.up || ! talent.echoes_of_great_sundering.enabled )",
 ["action"] = "earthquake",
-["description"] = "Activate Surge of Power if next global is Primordial wave. Respect Echoes of Great Sundering.",
 },
 {
 ["enabled"] = true,
+["description"] = "Spend if all Lightning Rods ran out or you are close to overcaping. Respect Echoes of Great Sundering.",
 ["criteria"] = "( lightning_rod = 0 & talent.lightning_rod.enabled || maelstrom > variable.mael_cap - 30 ) & ( buff.echoes_of_great_sundering_es.up || buff.echoes_of_great_sundering_eb.up || ! talent.echoes_of_great_sundering.enabled )",
 ["action"] = "earthquake",
-["description"] = "Spend if all Lightning Rods ran out or you are close to overcaping. Respect Echoes of Great Sundering.",
 },
 {
 ["enabled"] = true,
+["description"] = "Spend to buff your follow-up Stormkeeper with Surge of Power on 6+ targets. Respect Echoes of Great Sundering.",
 ["criteria"] = "buff.stormkeeper.up & spell_targets.chain_lightning >= 6 & talent.surge_of_power.enabled & ( buff.echoes_of_great_sundering_es.up || buff.echoes_of_great_sundering_eb.up || ! talent.echoes_of_great_sundering.enabled )",
 ["action"] = "earthquake",
-["description"] = "Spend to buff your follow-up Stormkeeper with Surge of Power on 6+ targets. Respect Echoes of Great Sundering.",
 },
 {
 ["enabled"] = true,
+["description"] = "{Fire} Spend if you have Master of the elements buff or fighting 5+ enemies. Bank maelstrom during the end of Ascendance. Respect Echoes of Great Sundering.",
 ["criteria"] = "( buff.master_of_the_elements.up || spell_targets.chain_lightning >= 5 ) & ( buff.fusion_of_elements_nature.up || buff.ascendance.remains > 9 || ! buff.ascendance.up ) & ( buff.echoes_of_great_sundering_es.up || buff.echoes_of_great_sundering_eb.up || ! talent.echoes_of_great_sundering.enabled ) & talent.fire_elemental.enabled",
 ["action"] = "earthquake",
-["description"] = "{Fire} Spend if you have Master of the elements buff or fighting 5+ enemies. Bank maelstrom during the end of Ascendance. Respect Echoes of Great Sundering.",
 },
 {
 ["enabled"] = true,
@@ -5592,9 +5596,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Use Icefury for Fusion of Elements proc.",
 ["criteria"] = "talent.fusion_of_elements.enabled & ! ( buff.fusion_of_elements_nature.up || buff.fusion_of_elements_fire.up )",
 ["action"] = "icefury",
-["description"] = "Use Icefury for Fusion of Elements proc.",
 },
 {
 ["enabled"] = true,
@@ -5605,33 +5609,33 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Stormkeeper is strong and should be used.",
 ["criteria"] = "buff.stormkeeper.up & ( buff.surge_of_power.up || spell_targets.lava_beam < 6 )",
 ["action"] = "lava_beam",
-["description"] = "Stormkeeper is strong and should be used.",
 },
 {
 ["enabled"] = true,
+["description"] = "Stormkeeper is strong and should be used.",
 ["criteria"] = "buff.stormkeeper.up & ( buff.surge_of_power.up || spell_targets.chain_lightning < 6 )",
 ["action"] = "chain_lightning",
-["description"] = "Stormkeeper is strong and should be used.",
 },
 {
 ["enabled"] = true,
+["description"] = "Power of the Maelstrom is strong and should be used.",
 ["criteria"] = "buff.power_of_the_maelstrom.up & buff.ascendance.remains > cast_time & ! buff.stormkeeper.up",
 ["action"] = "lava_beam",
-["description"] = "Power of the Maelstrom is strong and should be used.",
 },
 {
 ["enabled"] = true,
+["description"] = "Power of the Maelstrom is strong and should be used.",
 ["criteria"] = "buff.power_of_the_maelstrom.up & ! buff.stormkeeper.up",
 ["action"] = "chain_lightning",
-["description"] = "Power of the Maelstrom is strong and should be used.",
 },
 {
 ["enabled"] = true,
+["description"] = "Consume Master of the Elements with Lava Beam on 4+ targets. Just spam it over hardcasted Lava Burst on 5+ targets.",
 ["criteria"] = "( buff.master_of_the_elements.up & spell_targets.lava_beam >= 4 || spell_targets.lava_beam >= 5 ) & buff.ascendance.remains > cast_time & ! buff.stormkeeper.up",
 ["action"] = "lava_beam",
-["description"] = "Consume Master of the Elements with Lava Beam on 4+ targets. Just spam it over hardcasted Lava Burst on 5+ targets.",
 },
 {
 ["enabled"] = true,
@@ -5743,9 +5747,9 @@ HekiliDB = {
 ["precombat"] = {
 {
 ["enabled"] = true,
+["description"] = "Ensure weapon enchant is applied if you've selected Improved Flametongue Weapon.",
 ["criteria"] = "talent.improved_flametongue_weapon.enabled",
 ["action"] = "flametongue_weapon",
-["description"] = "Ensure weapon enchant is applied if you've selected Improved Flametongue Weapon.",
 },
 {
 ["action"] = "skyfury",
@@ -5795,12 +5799,12 @@ HekiliDB = {
 ["Fury"] = {
 ["source"] = "https://github.com/simulationcraft/simc/",
 ["builtIn"] = true,
-["date"] = 20240910,
+["date"] = 20240922,
 ["author"] = "SimC",
-["desc"] = "2024-09-03, 09-05, 09-10: SimC update\n\n2024-08-25: Update using Icy-Veins\n\n2024-08-15: Sim update\n\n2024-07-30: Sim update\n\n2024-07-23: The War Within",
-["profile"] = "actions.precombat+=/battle_shout\nactions.precombat+=/berserker_stance,toggle=on\nactions.precombat+=/recklessness,if=!equipped.fyralath_the_dreamrender\nactions.precombat+=/avatar,if=!talent.titans_torment\nactions.precombat+=/variable,name=trinket_1_exclude,value=trinket.1.is.treacherous_transmitter\nactions.precombat+=/variable,name=trinket_2_exclude,value=trinket.2.is.treacherous_transmitter\n# Evaluates a trinkets cooldown, divided by avatar or odyns fur. If it's value has no remainder return 1, else return 0.5.\nactions.precombat+=/variable,name=trinket_1_sync,op=setif,value=1,value_else=0.5,condition=trinket.1.has_use_buff&(trinket.1.cooldown.duration%%cooldown.avatar.duration=0||trinket.1.cooldown.duration%%cooldown.odyns_fury.duration=0)\nactions.precombat+=/variable,name=trinket_2_sync,op=setif,value=1,value_else=0.5,condition=trinket.2.has_use_buff&(trinket.2.cooldown.duration%%cooldown.avatar.duration=0||trinket.2.cooldown.duration%%cooldown.odyns_fury.duration=0)\nactions.precombat+=/variable,name=trinket_1_buffs,value=trinket.1.has_use_buff||(trinket.1.has_stat.any_dps&!variable.trinket_1_exclude)\nactions.precombat+=/variable,name=trinket_2_buffs,value=trinket.2.has_use_buff||(trinket.2.has_stat.any_dps&!variable.trinket_2_exclude)\nactions.precombat+=/variable,name=trinket_priority,op=setif,value=2,value_else=1,condition=!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.2.cooldown.duration%trinket.2.proc.any_dps.duration)*(1.5+trinket.2.has_buff.strength)*(variable.trinket_2_sync))>((trinket.1.cooldown.duration%trinket.1.proc.any_dps.duration)*(1.5+trinket.1.has_buff.strength)*(variable.trinket_1_sync))\nactions.precombat+=/variable,name=trinket_1_manual,value=trinket.1.is.algethar_puzzle_box\nactions.precombat+=/variable,name=trinket_2_manual,value=trinket.2.is.algethar_puzzle_box\n\nactions+=/pummel,if=target.debuff.casting.react\nactions+=/charge,if=time<=0.5||movement.distance>5\nactions+=/heroic_leap,if=(raid_event.movement.distance>25&raid_event.movement.in>45)\nactions+=/potion\nactions+=/call_action_list,name=trinkets\nactions+=/call_action_list,name=variables\nactions+=/lights_judgment,if=variable.on_gcd_racials\nactions+=/bag_of_tricks,if=variable.on_gcd_racials\nactions+=/berserking,if=buff.recklessness.up\nactions+=/blood_fury\nactions+=/fireblood\nactions+=/ancestral_call\n## actions+=/invoke_external_buff,name=power_infusion,if=buff.avatar.remains>15&fight_remains>=135||variable.execute_phase&buff.avatar.up||fight_remains<=25\nactions+=/run_action_list,name=slayer_st,strict=1,if=talent.slayers_dominance&active_enemies=1\nactions+=/run_action_list,name=slayer_mt,strict=1,if=talent.slayers_dominance&active_enemies>1\nactions+=/run_action_list,name=thane_st,strict=1,if=!talent.slayers_dominance&active_enemies=1\nactions+=/run_action_list,name=thane_mt,strict=1,if=!talent.slayers_dominance&active_enemies>1\n\nactions.slayer_st+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.slayer_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_st+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_st+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_st+=/execute,if=debuff.marked_for_execution.stack=3||(talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up)\nactions.slayer_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_st+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=9\nactions.slayer_st+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_st+=/rampage,if=talent.anger_management\nactions.slayer_st+=/crushing_blow\nactions.slayer_st+=/onslaught,if=talent.tenderize\nactions.slayer_st+=/bloodbath,if=rage<100||target.health.pct<35&talent.vicious_contempt\nactions.slayer_st+=/raging_blow,if=rage<100&!buff.opportunist.up\nactions.slayer_st+=/rampage,if=talent.reckless_abandon\nactions.slayer_st+=/execute,if=buff.enrage.up&debuff.marked_for_execution.up\nactions.slayer_st+=/bloodthirst,if=!talent.reckless_abandon&buff.enrage.up\nactions.slayer_st+=/raging_blow\nactions.slayer_st+=/onslaught\nactions.slayer_st+=/execute\nactions.slayer_st+=/bloodthirst\nactions.slayer_st+=/whirlwind,if=talent.meat_cleaver\nactions.slayer_st+=/slam\nactions.slayer_st+=/storm_bolt,if=buff.bladestorm.up\n\nactions.slayer_mt+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.slayer_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_mt+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_mt+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_mt+=/whirlwind,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.slayer_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.slayer_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_mt+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=9\nactions.slayer_mt+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_mt+=/rampage,if=talent.anger_management\nactions.slayer_mt+=/crushing_blow\nactions.slayer_mt+=/onslaught,if=talent.tenderize\nactions.slayer_mt+=/bloodbath,if=buff.enrage.up\nactions.slayer_mt+=/rampage,if=talent.reckless_abandon\nactions.slayer_mt+=/execute,if=buff.enrage.up&debuff.marked_for_execution.up\nactions.slayer_mt+=/bloodbath\nactions.slayer_mt+=/raging_blow,if=talent.slaughtering_strikes\nactions.slayer_mt+=/onslaught\nactions.slayer_mt+=/execute\nactions.slayer_mt+=/bloodthirst\nactions.slayer_mt+=/raging_blow\nactions.slayer_mt+=/whirlwind\nactions.slayer_mt+=/storm_bolt,if=buff.bladestorm.up\n\nactions.thane_st+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.thane_st+=/thunder_blast,if=buff.enrage.up\nactions.thane_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.thane_st+=/ravager\nactions.thane_st+=/thunderous_roar,if=buff.enrage.up\nactions.thane_st+=/champions_spear,if=buff.enrage.up&(cooldown.avatar.remains<gcd||!talent.titans_torment)\nactions.thane_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_st+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_st+=/bladestorm,if=buff.enrage.up&talent.unhinged\nactions.thane_st+=/rampage,if=talent.anger_management\nactions.thane_st+=/crushing_blow\nactions.thane_st+=/onslaught,if=talent.tenderize\nactions.thane_st+=/bloodbath\nactions.thane_st+=/rampage,if=talent.reckless_abandon\nactions.thane_st+=/raging_blow\nactions.thane_st+=/execute\nactions.thane_st+=/bloodthirst,if=buff.enrage.up&(!buff.burst_of_power.up||!talent.reckless_abandon)\nactions.thane_st+=/onslaught\nactions.thane_st+=/bloodthirst\nactions.thane_st+=/thunder_clap\nactions.thane_st+=/whirlwind,if=talent.meat_cleaver\nactions.thane_st+=/slam\n\nactions.thane_mt+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.thane_mt+=/thunder_blast,if=buff.enrage.up\nactions.thane_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.thane_mt+=/thunder_clap,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.thane_mt+=/thunderous_roar,if=buff.enrage.up\nactions.thane_mt+=/ravager\nactions.thane_mt+=/champions_spear,if=buff.enrage.up\nactions.thane_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_mt+=/bladestorm,if=buff.enrage.up\nactions.thane_mt+=/rampage,if=talent.anger_management\nactions.thane_mt+=/crushing_blow,if=buff.enrage.up\nactions.thane_mt+=/onslaught,if=talent.tenderize\nactions.thane_mt+=/bloodbath\nactions.thane_mt+=/rampage,if=talent.reckless_abandon\nactions.thane_mt+=/bloodthirst\nactions.thane_mt+=/thunder_clap\nactions.thane_mt+=/onslaught\nactions.thane_mt+=/execute\nactions.thane_mt+=/raging_blow\nactions.thane_mt+=/whirlwind\n\n# Trinkets\n## actions.trinkets+=/do_treacherous_transmitter_task,use_off_gcd=1\nactions.trinkets+=/use_item,name=treacherous_transmitter,if=variable.adds_remain||variable.st_planning\n# Trinkets The trinket with the highest estimated value, will be used first and paired with Avatar.\nactions.trinkets+=/use_item,slot=trinket1,if=variable.trinket_1_buffs&!variable.trinket_1_manual&(!buff.avatar.up&trinket.1.cast_time>0||!trinket.1.cast_time>0)&((talent.titans_torment&cooldown.avatar.ready)||(buff.avatar.up&!talent.titans_torment))&(variable.trinket_2_exclude||!trinket.2.has_cooldown||trinket.2.cooldown.remains||variable.trinket_priority=1)||trinket.1.proc.any_dps.duration>=fight_remains&boss\nactions.trinkets+=/use_item,slot=trinket2,if=variable.trinket_2_buffs&!variable.trinket_2_manual&(!buff.avatar.up&trinket.2.cast_time>0||!trinket.2.cast_time>0)&((talent.titans_torment&cooldown.avatar.ready)||(buff.avatar.up&!talent.titans_torment))&(variable.trinket_1_exclude||!trinket.1.has_cooldown||trinket.1.cooldown.remains||variable.trinket_priority=2)||trinket.2.proc.any_dps.duration>=fight_remains&boss\n# If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.\nactions.trinkets+=/use_item,slot=trinket1,if=!variable.trinket_1_buffs&(trinket.1.cast_time>0&!buff.avatar.up||!trinket.1.cast_time>0)&!variable.trinket_1_manual&(!variable.trinket_1_buffs&(trinket.2.cooldown.remains||!variable.trinket_2_buffs)||(trinket.1.cast_time>0&!buff.avatar.up||!trinket.1.cast_time>0)||cooldown.avatar.remains_expected>20)\nactions.trinkets+=/use_item,slot=trinket2,if=!variable.trinket_2_buffs&(trinket.2.cast_time>0&!buff.avatar.up||!trinket.2.cast_time>0)&!variable.trinket_2_manual&(!variable.trinket_2_buffs&(trinket.1.cooldown.remains||!variable.trinket_1_buffs)||(trinket.2.cast_time>0&!buff.avatar.up||!trinket.2.cast_time>0)||cooldown.avatar.remains_expected>20)\nactions.trinkets+=/use_item,slot=main_hand,if=!equipped.fyralath_the_dreamrender&(!variable.trinket_1_buffs||trinket.1.cooldown.remains)&(!variable.trinket_2_buffs||trinket.2.cooldown.remains)\n\n# Variables\nactions.variables+=/variable,name=st_planning,value=active_enemies=1&(raid_event.adds.in>15||!raid_event.adds.exists)\nactions.variables+=/variable,name=adds_remain,value=active_enemies>=2&(!raid_event.adds.exists||raid_event.adds.exists&raid_event.adds.remains>5)\nactions.variables+=/variable,name=execute_phase,value=(talent.massacre.enabled&target.health.pct<35)||target.health.pct<20\nactions.variables+=/variable,name=on_gcd_racials,value=buff.recklessness.down&buff.avatar.down&rage<80&buff.bloodbath.down&buff.crushing_blow.down&buff.sudden_death.down&!cooldown.bladestorm.ready&(!cooldown.execute.ready||!variable.execute_phase)",
-["version"] = 20240910,
-["warnings"] = "The import for 'slayer_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 6: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 7: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 9: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 10: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 12: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 13: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 15: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 17: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 22: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nThe import for 'slayer_mt' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 6: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 7: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 8: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 11: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 13: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 15: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 18: Converted 'talent.slaughtering_strikes' to 'talent.slaughtering_strikes.enabled' (1x).\n\nThe import for 'default' required some automated changes.\nLine 13: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 14: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 15: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 16: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\n\nThe import for 'precombat' required some automated changes.\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'trinket.1.is.treacherous_transmitter' to 'trinket.t1.is.treacherous_transmitter' (1x).\nLine 6: Converted 'trinket.2.is.treacherous_transmitter' to 'trinket.t2.is.treacherous_transmitter' (1x).\nLine 7: Converted 'trinket.1.has_use_buff' to 'trinket.t1.has_use_buff' (1x).\nLine 7: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 7: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 7: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 7: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 7: Converted operations in 'trinket.t1.has_use_buff&(trinket.t1.cooldown.duration%%cooldown.avatar.duration=0||trinket.t1.cooldown.duration%%cooldown.odyns_fury.duration=0)' to 'trinket.t1.has_use_buff&(trinket.t1.cooldown.duration%cooldown.avatar.duration=0||trinket.t1.cooldown.duration%cooldown.odyns_fury.duration=0)'.\nLine 8: Converted 'trinket.2.has_use_buff' to 'trinket.t2.has_use_buff' (1x).\nLine 8: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 8: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 8: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 8: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 8: Converted operations in 'trinket.t2.has_use_buff&(trinket.t2.cooldown.duration%%cooldown.avatar.duration=0||trinket.t2.cooldown.duration%%cooldown.odyns_fury.duration=0)' to 'trinket.t2.has_use_buff&(trinket.t2.cooldown.duration%cooldown.avatar.duration=0||trinket.t2.cooldown.duration%cooldown.odyns_fury.duration=0)'.\nLine 9: Converted 'trinket.1.has_use_buff' to 'trinket.t1.has_use_buff' (1x).\nLine 9: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 10: Converted 'trinket.2.has_use_buff' to 'trinket.t2.has_use_buff' (1x).\nLine 10: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 11: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 11: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 11: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 11: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 11: Converted 'trinket.2.has_buff.strength' to 'trinket.t2.has_buff.strength' (1x).\nLine 11: Converted 'trinket.2.has_buff.strength' to 'trinket.t2.has_use_buff' (1x).\nLine 11: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 11: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 11: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 11: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 11: Converted 'trinket.1.has_buff.strength' to 'trinket.t1.has_buff.strength' (1x).\nLine 11: Converted 'trinket.1.has_buff.strength' to 'trinket.t1.has_use_buff' (1x).\nLine 11: Converted operations in '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration%trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration%trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))' to '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration/trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration/trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))'.\nLine 12: Converted 'trinket.1.is.algethar_puzzle_box' to 'trinket.t1.is.algethar_puzzle_box' (1x).\nLine 13: Converted 'trinket.2.is.algethar_puzzle_box' to 'trinket.t2.is.algethar_puzzle_box' (1x).\n\nThe import for 'thane_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 8: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 9: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.unhinged' to 'talent.unhinged.enabled' (1x).\nLine 11: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 13: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 15: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 18: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 22: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nThe import for 'trinkets' required some automated changes.\nLine 2: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 2: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 2: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 2: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 2: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 2: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 3: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 3: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\nLine 3: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 3: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 3: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 3: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 4: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 5: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 6: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 6: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 6: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 6: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\n\nThe import for 'thane_mt' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 8: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 9: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 10: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 12: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 14: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 16: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\n\nImported 8 action lists.\n",
+["desc"] = "2024-09-03, 09-05, 09-10, 09-22: SimC update\n\n2024-08-25: Update using Icy-Veins\n\n2024-08-15: Sim update\n\n2024-07-30: Sim update\n\n2024-07-23: The War Within",
+["profile"] = "actions.precombat+=/battle_shout\nactions.precombat+=/berserker_stance,toggle=on\nactions.precombat+=/variable,name=treacherous_transmitter_precombat_cast,value=2\nactions.precombat+=/use_item,name=treacherous_transmitter\nactions.precombat+=/recklessness,if=!equipped.fyralath_the_dreamrender\nactions.precombat+=/avatar,if=!talent.titans_torment\nactions.precombat+=/variable,name=trinket_1_exclude,value=trinket.1.is.treacherous_transmitter\nactions.precombat+=/variable,name=trinket_2_exclude,value=trinket.2.is.treacherous_transmitter\n# Evaluates a trinkets cooldown, divided by avatar or odyns fur. If it's value has no remainder return 1, else return 0.5.\nactions.precombat+=/variable,name=trinket_1_sync,op=setif,value=1,value_else=0.5,condition=trinket.1.has_use_buff&(trinket.1.cooldown.duration%%cooldown.avatar.duration=0||trinket.1.cooldown.duration%%cooldown.odyns_fury.duration=0)\nactions.precombat+=/variable,name=trinket_2_sync,op=setif,value=1,value_else=0.5,condition=trinket.2.has_use_buff&(trinket.2.cooldown.duration%%cooldown.avatar.duration=0||trinket.2.cooldown.duration%%cooldown.odyns_fury.duration=0)\nactions.precombat+=/variable,name=trinket_1_buffs,value=trinket.1.has_use_buff||(trinket.1.has_stat.any_dps&!variable.trinket_1_exclude)\nactions.precombat+=/variable,name=trinket_2_buffs,value=trinket.2.has_use_buff||(trinket.2.has_stat.any_dps&!variable.trinket_2_exclude)\nactions.precombat+=/variable,name=trinket_priority,op=setif,value=2,value_else=1,condition=!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.2.cooldown.duration%trinket.2.proc.any_dps.duration)*(1.5+trinket.2.has_buff.strength)*(variable.trinket_2_sync))>((trinket.1.cooldown.duration%trinket.1.proc.any_dps.duration)*(1.5+trinket.1.has_buff.strength)*(variable.trinket_1_sync))\nactions.precombat+=/variable,name=trinket_1_manual,value=trinket.1.is.algethar_puzzle_box\nactions.precombat+=/variable,name=trinket_2_manual,value=trinket.2.is.algethar_puzzle_box\n\nactions+=/pummel,if=target.debuff.casting.react\nactions+=/charge,if=time<=0.5||movement.distance>5\nactions+=/heroic_leap,if=(raid_event.movement.distance>25&raid_event.movement.in>45)\nactions+=/potion\nactions+=/call_action_list,name=trinkets\nactions+=/call_action_list,name=variables\nactions+=/lights_judgment,if=variable.on_gcd_racials\nactions+=/bag_of_tricks,if=variable.on_gcd_racials\nactions+=/berserking,if=buff.recklessness.up\nactions+=/blood_fury\nactions+=/fireblood\nactions+=/ancestral_call\n## actions+=/invoke_external_buff,name=power_infusion,if=buff.avatar.remains>15&fight_remains>=135||variable.execute_phase&buff.avatar.up||fight_remains<=25\nactions+=/run_action_list,name=slayer_st,strict=1,if=talent.slayers_dominance&active_enemies=1\nactions+=/run_action_list,name=slayer_mt,strict=1,if=talent.slayers_dominance&active_enemies>1\nactions+=/run_action_list,name=thane_st,strict=1,if=!talent.slayers_dominance&active_enemies=1\nactions+=/run_action_list,name=thane_mt,strict=1,if=!talent.slayers_dominance&active_enemies>1\n\nactions.slayer_st+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.slayer_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_st+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_st+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_st+=/execute,if=debuff.marked_for_execution.stack=3||(talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up)\nactions.slayer_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_st+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=9\nactions.slayer_st+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_st+=/rampage,if=talent.anger_management\nactions.slayer_st+=/crushing_blow\nactions.slayer_st+=/onslaught,if=talent.tenderize\nactions.slayer_st+=/bloodbath,if=rage<100||target.health.pct<35&talent.vicious_contempt\nactions.slayer_st+=/raging_blow,if=rage<100&!buff.opportunist.up\nactions.slayer_st+=/rampage,if=talent.reckless_abandon\nactions.slayer_st+=/execute,if=buff.enrage.up&debuff.marked_for_execution.up\nactions.slayer_st+=/bloodthirst,if=!talent.reckless_abandon&buff.enrage.up\nactions.slayer_st+=/raging_blow\nactions.slayer_st+=/onslaught\nactions.slayer_st+=/execute\nactions.slayer_st+=/bloodthirst\nactions.slayer_st+=/whirlwind,if=talent.meat_cleaver\nactions.slayer_st+=/slam\nactions.slayer_st+=/storm_bolt,if=buff.bladestorm.up\n\nactions.slayer_mt+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.slayer_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_mt+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_mt+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_mt+=/whirlwind,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.slayer_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.slayer_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_mt+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=9\nactions.slayer_mt+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_mt+=/rampage,if=talent.anger_management\nactions.slayer_mt+=/crushing_blow\nactions.slayer_mt+=/onslaught,if=talent.tenderize\nactions.slayer_mt+=/bloodbath,if=buff.enrage.up\nactions.slayer_mt+=/rampage,if=talent.reckless_abandon\nactions.slayer_mt+=/execute,if=buff.enrage.up&debuff.marked_for_execution.up\nactions.slayer_mt+=/bloodbath\nactions.slayer_mt+=/raging_blow,if=talent.slaughtering_strikes\nactions.slayer_mt+=/onslaught\nactions.slayer_mt+=/execute\nactions.slayer_mt+=/bloodthirst\nactions.slayer_mt+=/raging_blow\nactions.slayer_mt+=/whirlwind\nactions.slayer_mt+=/storm_bolt,if=buff.bladestorm.up\n\nactions.thane_st+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.thane_st+=/thunder_blast,if=buff.enrage.up\nactions.thane_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.thane_st+=/ravager\nactions.thane_st+=/thunderous_roar,if=buff.enrage.up\nactions.thane_st+=/champions_spear,if=buff.enrage.up&(cooldown.avatar.remains<gcd||!talent.titans_torment)\nactions.thane_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_st+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_st+=/bladestorm,if=buff.enrage.up&talent.unhinged\nactions.thane_st+=/rampage,if=talent.anger_management\nactions.thane_st+=/crushing_blow\nactions.thane_st+=/onslaught,if=talent.tenderize\nactions.thane_st+=/bloodbath\nactions.thane_st+=/rampage,if=talent.reckless_abandon\nactions.thane_st+=/raging_blow\nactions.thane_st+=/execute\nactions.thane_st+=/bloodthirst,if=buff.enrage.up&(!buff.burst_of_power.up||!talent.reckless_abandon)\nactions.thane_st+=/onslaught\nactions.thane_st+=/bloodthirst\nactions.thane_st+=/thunder_clap\nactions.thane_st+=/whirlwind,if=talent.meat_cleaver\nactions.thane_st+=/slam\n\nactions.thane_mt+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.thane_mt+=/thunder_blast,if=buff.enrage.up\nactions.thane_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.thane_mt+=/thunder_clap,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.thane_mt+=/thunderous_roar,if=buff.enrage.up\nactions.thane_mt+=/ravager\nactions.thane_mt+=/champions_spear,if=buff.enrage.up\nactions.thane_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_mt+=/bladestorm,if=buff.enrage.up\nactions.thane_mt+=/rampage,if=talent.anger_management\nactions.thane_mt+=/crushing_blow,if=buff.enrage.up\nactions.thane_mt+=/onslaught,if=talent.tenderize\nactions.thane_mt+=/bloodbath\nactions.thane_mt+=/rampage,if=talent.reckless_abandon\nactions.thane_mt+=/bloodthirst\nactions.thane_mt+=/thunder_clap\nactions.thane_mt+=/onslaught\nactions.thane_mt+=/execute\nactions.thane_mt+=/raging_blow\nactions.thane_mt+=/whirlwind\n\n# Trinkets\n## actions.trinkets+=/do_treacherous_transmitter_task,use_off_gcd=1\nactions.trinkets+=/use_item,name=treacherous_transmitter,if=variable.adds_remain||variable.st_planning\n# Trinkets The trinket with the highest estimated value, will be used first and paired with Avatar.\nactions.trinkets+=/use_item,slot=trinket1,if=variable.trinket_1_buffs&!variable.trinket_1_manual&(!buff.avatar.up&trinket.1.cast_time>0||!trinket.1.cast_time>0)&((talent.titans_torment&cooldown.avatar.ready)||(buff.avatar.up&!talent.titans_torment))&(variable.trinket_2_exclude||!trinket.2.has_cooldown||trinket.2.cooldown.remains||variable.trinket_priority=1)||trinket.1.proc.any_dps.duration>=fight_remains&boss\nactions.trinkets+=/use_item,slot=trinket2,if=variable.trinket_2_buffs&!variable.trinket_2_manual&(!buff.avatar.up&trinket.2.cast_time>0||!trinket.2.cast_time>0)&((talent.titans_torment&cooldown.avatar.ready)||(buff.avatar.up&!talent.titans_torment))&(variable.trinket_1_exclude||!trinket.1.has_cooldown||trinket.1.cooldown.remains||variable.trinket_priority=2)||trinket.2.proc.any_dps.duration>=fight_remains&boss\n# If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.\nactions.trinkets+=/use_item,slot=trinket1,if=!variable.trinket_1_buffs&(trinket.1.cast_time>0&!buff.avatar.up||!trinket.1.cast_time>0)&!variable.trinket_1_manual&(!variable.trinket_1_buffs&(trinket.2.cooldown.remains||!variable.trinket_2_buffs)||(trinket.1.cast_time>0&!buff.avatar.up||!trinket.1.cast_time>0)||cooldown.avatar.remains_expected>20)\nactions.trinkets+=/use_item,slot=trinket2,if=!variable.trinket_2_buffs&(trinket.2.cast_time>0&!buff.avatar.up||!trinket.2.cast_time>0)&!variable.trinket_2_manual&(!variable.trinket_2_buffs&(trinket.1.cooldown.remains||!variable.trinket_1_buffs)||(trinket.2.cast_time>0&!buff.avatar.up||!trinket.2.cast_time>0)||cooldown.avatar.remains_expected>20)\nactions.trinkets+=/use_item,slot=main_hand,if=!equipped.fyralath_the_dreamrender&(!variable.trinket_1_buffs||trinket.1.cooldown.remains)&(!variable.trinket_2_buffs||trinket.2.cooldown.remains)\n\n# Variables\nactions.variables+=/variable,name=st_planning,value=active_enemies=1&(raid_event.adds.in>15||!raid_event.adds.exists)\nactions.variables+=/variable,name=adds_remain,value=active_enemies>=2&(!raid_event.adds.exists||raid_event.adds.exists&raid_event.adds.remains>5)\nactions.variables+=/variable,name=execute_phase,value=(talent.massacre.enabled&target.health.pct<35)||target.health.pct<20\nactions.variables+=/variable,name=on_gcd_racials,value=buff.recklessness.down&buff.avatar.down&rage<80&buff.bloodbath.down&buff.crushing_blow.down&buff.sudden_death.down&!cooldown.bladestorm.ready&(!cooldown.execute.ready||!variable.execute_phase)",
+["version"] = 20240922,
+["warnings"] = "The import for 'slayer_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 6: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 7: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 9: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 10: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 12: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 13: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 15: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 17: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 22: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nThe import for 'slayer_mt' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 6: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 7: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 8: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 11: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 13: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 15: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 18: Converted 'talent.slaughtering_strikes' to 'talent.slaughtering_strikes.enabled' (1x).\n\nThe import for 'default' required some automated changes.\nLine 13: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 14: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 15: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 16: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\n\nThe import for 'precombat' required some automated changes.\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'trinket.1.is.treacherous_transmitter' to 'trinket.t1.is.treacherous_transmitter' (1x).\nLine 8: Converted 'trinket.2.is.treacherous_transmitter' to 'trinket.t2.is.treacherous_transmitter' (1x).\nLine 9: Converted 'trinket.1.has_use_buff' to 'trinket.t1.has_use_buff' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 9: Converted operations in 'trinket.t1.has_use_buff&(trinket.t1.cooldown.duration%%cooldown.avatar.duration=0||trinket.t1.cooldown.duration%%cooldown.odyns_fury.duration=0)' to 'trinket.t1.has_use_buff&(trinket.t1.cooldown.duration%cooldown.avatar.duration=0||trinket.t1.cooldown.duration%cooldown.odyns_fury.duration=0)'.\nLine 10: Converted 'trinket.2.has_use_buff' to 'trinket.t2.has_use_buff' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 10: Converted operations in 'trinket.t2.has_use_buff&(trinket.t2.cooldown.duration%%cooldown.avatar.duration=0||trinket.t2.cooldown.duration%%cooldown.odyns_fury.duration=0)' to 'trinket.t2.has_use_buff&(trinket.t2.cooldown.duration%cooldown.avatar.duration=0||trinket.t2.cooldown.duration%cooldown.odyns_fury.duration=0)'.\nLine 11: Converted 'trinket.1.has_use_buff' to 'trinket.t1.has_use_buff' (1x).\nLine 11: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 12: Converted 'trinket.2.has_use_buff' to 'trinket.t2.has_use_buff' (1x).\nLine 12: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 13: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 13: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 13: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 13: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 13: Converted 'trinket.2.has_buff.strength' to 'trinket.t2.has_buff.strength' (1x).\nLine 13: Converted 'trinket.2.has_buff.strength' to 'trinket.t2.has_use_buff' (1x).\nLine 13: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 13: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 13: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 13: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 13: Converted 'trinket.1.has_buff.strength' to 'trinket.t1.has_buff.strength' (1x).\nLine 13: Converted 'trinket.1.has_buff.strength' to 'trinket.t1.has_use_buff' (1x).\nLine 13: Converted operations in '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration%trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration%trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))' to '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration/trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration/trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))'.\nLine 14: Converted 'trinket.1.is.algethar_puzzle_box' to 'trinket.t1.is.algethar_puzzle_box' (1x).\nLine 15: Converted 'trinket.2.is.algethar_puzzle_box' to 'trinket.t2.is.algethar_puzzle_box' (1x).\n\nThe import for 'thane_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 8: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 9: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.unhinged' to 'talent.unhinged.enabled' (1x).\nLine 11: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 13: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 15: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 18: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 22: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nThe import for 'trinkets' required some automated changes.\nLine 2: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 2: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 2: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 2: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 2: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 2: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 3: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 3: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\nLine 3: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 3: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 3: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 3: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 4: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 5: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 6: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 6: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 6: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 6: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\n\nThe import for 'thane_mt' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 8: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 9: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 10: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 12: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 14: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 16: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\n\nImported 8 action lists.\n",
 ["lists"] = {
 ["slayer_st"] = {
 {
@@ -6149,6 +6153,18 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "2",
+["var_name"] = "treacherous_transmitter_precombat_cast",
+},
+{
+["enabled"] = true,
+["name"] = "treacherous_transmitter",
+["action"] = "treacherous_transmitter",
+},
+{
+["enabled"] = true,
 ["criteria"] = "! equipped.fyralath_the_dreamrender",
 ["action"] = "recklessness",
 },
@@ -6175,20 +6191,20 @@ HekiliDB = {
 ["enabled"] = true,
 ["op"] = "setif",
 ["description"] = "Evaluates a trinkets cooldown, divided by avatar or odyns fur. If it's value has no remainder return 1, else return 0.5.",
-["value"] = "1",
+["criteria"] = "trinket.t1.has_use_buff & ( trinket.t1.cooldown.duration % cooldown.avatar.duration = 0 || trinket.t1.cooldown.duration % cooldown.odyns_fury.duration = 0 )",
 ["var_name"] = "trinket_1_sync",
 ["action"] = "variable",
 ["value_else"] = "0.5",
-["criteria"] = "trinket.t1.has_use_buff & ( trinket.t1.cooldown.duration % cooldown.avatar.duration = 0 || trinket.t1.cooldown.duration % cooldown.odyns_fury.duration = 0 )",
+["value"] = "1",
 },
 {
 ["enabled"] = true,
 ["op"] = "setif",
 ["action"] = "variable",
 ["var_name"] = "trinket_2_sync",
-["value"] = "1",
-["value_else"] = "0.5",
 ["criteria"] = "trinket.t2.has_use_buff & ( trinket.t2.cooldown.duration % cooldown.avatar.duration = 0 || trinket.t2.cooldown.duration % cooldown.odyns_fury.duration = 0 )",
+["value_else"] = "0.5",
+["value"] = "1",
 },
 {
 ["enabled"] = true,
@@ -6209,9 +6225,9 @@ HekiliDB = {
 ["op"] = "setif",
 ["action"] = "variable",
 ["var_name"] = "trinket_priority",
-["value"] = "2",
-["value_else"] = "1",
 ["criteria"] = "! variable.trinket_1_buffs & variable.trinket_2_buffs || variable.trinket_2_buffs & ( ( trinket.t2.cooldown.duration / trinket.t2.buff_duration ) * ( 1.5 + trinket.t2.has_use_buff ) * ( variable.trinket_2_sync ) ) > ( ( trinket.t1.cooldown.duration / trinket.t1.buff_duration ) * ( 1.5 + trinket.t1.has_use_buff ) * ( variable.trinket_1_sync ) )",
+["value_else"] = "1",
+["value"] = "2",
 },
 {
 ["enabled"] = true,
@@ -6340,40 +6356,40 @@ HekiliDB = {
 {
 ["enabled"] = true,
 ["name"] = "treacherous_transmitter",
-["action"] = "treacherous_transmitter",
-["criteria"] = "variable.adds_remain || variable.st_planning",
 ["description"] = "Trinkets",
+["criteria"] = "variable.adds_remain || variable.st_planning",
+["action"] = "treacherous_transmitter",
 },
 {
 ["enabled"] = true,
 ["action"] = "trinket1",
 ["slot"] = "trinket1",
-["description"] = "Trinkets The trinket with the highest estimated value, will be used first and paired with Avatar.",
 ["criteria"] = "variable.trinket_1_buffs & ! variable.trinket_1_manual & ( ! buff.avatar.up & trinket.t1.cast_time > 0 || ! trinket.t1.cast_time > 0 ) & ( ( talent.titans_torment.enabled & cooldown.avatar.ready ) || ( buff.avatar.up & ! talent.titans_torment.enabled ) ) & ( variable.trinket_2_exclude || ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains || variable.trinket_priority = 1 ) || trinket.t1.buff_duration >= fight_remains & boss",
+["description"] = "Trinkets The trinket with the highest estimated value, will be used first and paired with Avatar.",
 },
 {
 ["enabled"] = true,
-["criteria"] = "variable.trinket_2_buffs & ! variable.trinket_2_manual & ( ! buff.avatar.up & trinket.t2.cast_time > 0 || ! trinket.t2.cast_time > 0 ) & ( ( talent.titans_torment.enabled & cooldown.avatar.ready ) || ( buff.avatar.up & ! talent.titans_torment.enabled ) ) & ( variable.trinket_1_exclude || ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 ) || trinket.t2.buff_duration >= fight_remains & boss",
 ["action"] = "trinket2",
+["criteria"] = "variable.trinket_2_buffs & ! variable.trinket_2_manual & ( ! buff.avatar.up & trinket.t2.cast_time > 0 || ! trinket.t2.cast_time > 0 ) & ( ( talent.titans_torment.enabled & cooldown.avatar.ready ) || ( buff.avatar.up & ! talent.titans_torment.enabled ) ) & ( variable.trinket_1_exclude || ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 ) || trinket.t2.buff_duration >= fight_remains & boss",
 ["slot"] = "trinket2",
 },
 {
 ["enabled"] = true,
 ["action"] = "trinket1",
 ["slot"] = "trinket1",
-["description"] = "If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.",
 ["criteria"] = "! variable.trinket_1_buffs & ( trinket.t1.cast_time > 0 & ! buff.avatar.up || ! trinket.t1.cast_time > 0 ) & ! variable.trinket_1_manual & ( ! variable.trinket_1_buffs & ( trinket.t2.cooldown.remains || ! variable.trinket_2_buffs ) || ( trinket.t1.cast_time > 0 & ! buff.avatar.up || ! trinket.t1.cast_time > 0 ) || cooldown.avatar.remains_expected > 20 )",
+["description"] = "If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.",
 },
 {
 ["enabled"] = true,
-["criteria"] = "! variable.trinket_2_buffs & ( trinket.t2.cast_time > 0 & ! buff.avatar.up || ! trinket.t2.cast_time > 0 ) & ! variable.trinket_2_manual & ( ! variable.trinket_2_buffs & ( trinket.t1.cooldown.remains || ! variable.trinket_1_buffs ) || ( trinket.t2.cast_time > 0 & ! buff.avatar.up || ! trinket.t2.cast_time > 0 ) || cooldown.avatar.remains_expected > 20 )",
 ["action"] = "trinket2",
+["criteria"] = "! variable.trinket_2_buffs & ( trinket.t2.cast_time > 0 & ! buff.avatar.up || ! trinket.t2.cast_time > 0 ) & ! variable.trinket_2_manual & ( ! variable.trinket_2_buffs & ( trinket.t1.cooldown.remains || ! variable.trinket_1_buffs ) || ( trinket.t2.cast_time > 0 & ! buff.avatar.up || ! trinket.t2.cast_time > 0 ) || cooldown.avatar.remains_expected > 20 )",
 ["slot"] = "trinket2",
 },
 {
 ["enabled"] = true,
-["criteria"] = "! equipped.fyralath_the_dreamrender & ( ! variable.trinket_1_buffs || trinket.t1.cooldown.remains ) & ( ! variable.trinket_2_buffs || trinket.t2.cooldown.remains )",
 ["action"] = "main_hand",
+["criteria"] = "! equipped.fyralath_the_dreamrender & ( ! variable.trinket_1_buffs || trinket.t1.cooldown.remains ) & ( ! variable.trinket_2_buffs || trinket.t2.cooldown.remains )",
 ["slot"] = "main_hand",
 },
 },
@@ -6383,8 +6399,8 @@ HekiliDB = {
 ["op"] = "set",
 ["action"] = "variable",
 ["value"] = "active_enemies = 1 & ( raid_event.adds.in > 15 || ! raid_event.adds.exists )",
-["var_name"] = "st_planning",
 ["description"] = "Variables",
+["var_name"] = "st_planning",
 },
 {
 ["enabled"] = true,
@@ -6896,9 +6912,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "spymasters_web",
 ["criteria"] = "variable.cd_dots_up & ( boss & fight_remains <= 80 || talent.drain_soul.enabled & target.health.pct < 20 ) || boss & fight_remains < 20",
 ["name"] = "spymasters_web",
-["action"] = "spymasters_web",
 },
 {
 ["enabled"] = true,
@@ -8686,9 +8702,9 @@ HekiliDB = {
 ["items"] = {
 {
 ["enabled"] = true,
+["action"] = "spymasters_web",
 ["criteria"] = "pet.infernal.remains >= 10 & pet.infernal.remains <= 20 & buff.spymasters_report.stack >= 38 & ( fight_remains > 240 || fight_remains <= 140 ) || boss & fight_remains <= 30",
 ["name"] = "spymasters_web",
-["action"] = "spymasters_web",
 },
 {
 ["enabled"] = true,
@@ -9505,86 +9521,134 @@ HekiliDB = {
 },
 ["Subtlety"] = {
 ["builtIn"] = true,
-["date"] = 20240911,
+["date"] = 20240922,
 ["spec"] = 261,
-["desc"] = "2024-09-03, 09-11: SimC updates\n\n2024-08-15, 22: SimC updates\n\n2024-07-28: The War Within",
+["desc"] = "2024-09-22: Efficiency updates\n\n2024-09-03, 09-11: SimC updates\n\n2024-08-15, 22: SimC updates\n\n2024-07-28: The War Within",
 ["lists"] = {
 ["items"] = {
 {
 ["enabled"] = true,
+["action"] = "ashes_of_the_embersoul",
 ["criteria"] = "( buff.cold_blood.up || ( ! talent.danse_macabre.enabled & buff.shadow_dance.up || buff.danse_macabre.stack >= 3 ) & ! talent.cold_blood.enabled ) || boss & fight_remains < 10",
 ["name"] = "ashes_of_the_embersoul",
-["action"] = "ashes_of_the_embersoul",
 },
 {
 ["enabled"] = true,
+["action"] = "witherbarks_branch",
 ["criteria"] = "buff.flagellation_buff.up & talent.invigorating_shadowdust.enabled || buff.shadow_blades.up || equipped.bandolier_of_twisted_blades & raid_event.adds.up",
 ["name"] = "witherbarks_branch",
-["action"] = "witherbarks_branch",
 },
 {
 ["enabled"] = true,
+["action"] = "mirror_of_fractured_tomorrows",
 ["criteria"] = "buff.shadow_dance.up & ( target.time_to_die >= 15 || equipped.ashes_of_the_embersoul )",
 ["name"] = "mirror_of_fractured_tomorrows",
-["action"] = "mirror_of_fractured_tomorrows",
 },
 {
 ["enabled"] = true,
 ["action"] = "beacon_to_the_beyond",
 ["use_off_gcd"] = 1,
-["name"] = "beacon_to_the_beyond",
 ["criteria"] = "! stealthed.all & ( buff.deeper_daggers.up || ! talent.deeper_daggers.enabled ) & ( ! raid_event.adds.up || ! equipped.stormeaters_boon || cooldown.stormeaters_boon.remains > 20 )",
+["name"] = "beacon_to_the_beyond",
 },
 {
 ["enabled"] = true,
 ["action"] = "manic_grieftorch",
 ["use_off_gcd"] = 1,
-["name"] = "manic_grieftorch",
 ["criteria"] = "! stealthed.all & ( ! raid_event.adds.up || ! equipped.stormeaters_boon || cooldown.stormeaters_boon.remains > 20 )",
+["name"] = "manic_grieftorch",
 },
 {
 ["enabled"] = true,
+["action"] = "treacherous_transmitter",
 ["criteria"] = "buff.shadow_blades.up || fight_remains <= 15",
 ["name"] = "treacherous_transmitter",
-["action"] = "treacherous_transmitter",
-},
-{
-["enabled"] = false,
-["name"] = "imperfect_ascendancy_serum",
-["criteria"] = "dot.rupture.ticking & buff.flagellation_buff.up",
-["use_off_gcd"] = 1,
 },
 {
 ["enabled"] = true,
+["action"] = "imperfect_ascendancy_serum",
+["use_off_gcd"] = 1,
+["criteria"] = "dot.rupture.ticking & buff.flagellation_buff.up",
+["name"] = "imperfect_ascendancy_serum",
+},
+{
+["enabled"] = true,
+["action"] = "trinket1",
 ["criteria"] = "( variable.trinket_sync_slot = 1 & ( buff.shadow_blades.up || ( 1 + cooldown.shadow_blades.remains ) >= trinket.t1.cooldown.duration || boss & fight_remains <= 20 ) || ( variable.trinket_sync_slot = 2 & ( ! trinket.t2.cooldown.ready & ! buff.shadow_blades.up & cooldown.shadow_blades.remains > 20 ) ) || ! variable.trinket_sync_slot )",
 ["slots"] = "trinket1",
-["action"] = "trinket1",
 },
 {
 ["enabled"] = true,
+["action"] = "trinket2",
 ["criteria"] = "( variable.trinket_sync_slot = 2 & ( buff.shadow_blades.up || ( 1 + cooldown.shadow_blades.remains ) >= trinket.t2.cooldown.duration || boss & fight_remains <= 20 ) || ( variable.trinket_sync_slot = 1 & ( ! trinket.t1.cooldown.ready & ! buff.shadow_blades.up & cooldown.shadow_blades.remains > 20 ) ) || ! variable.trinket_sync_slot )",
 ["slots"] = "trinket2",
-["action"] = "trinket2",
 },
 },
-["build"] = {
+["finish"] = {
 {
 ["enabled"] = true,
-["criteria"] = "spell_targets >= 2 + ( talent.gloomblade.enabled & buff.lingering_shadow.remains >= 6 || buff.perforated_veins.up ) - ( ! debuff.find_weakness.up & ! talent.improved_backstab.enabled ) & ( buff.flawless_form.up || ! talent.unseen_blade.enabled )",
-["action"] = "shuriken_storm",
+["op"] = "set",
+["action"] = "variable",
+["value"] = "( ( buff.danse_macabre.stack >= 3 ) || ! talent.danse_macabre.enabled || ( talent.unseen_blade.enabled & buff.shadow_dance.up & ( buff.escalating_blade.stack >= 2 || buff.shadow_blades.up ) ) )",
+["var_name"] = "secret_condition",
 },
 {
 ["enabled"] = true,
-["description"] = "Deathstalker shuriken storm on singletarget",
-["criteria"] = "buff.clear_the_witnesses.up & ( ! buff.symbols_of_death.up || ! talent.inevitability.enabled ) & ( buff.lingering_shadow.remains <= 6 || ! talent.lingering_shadow.enabled )",
-["action"] = "shuriken_storm",
+["action"] = "rupture",
+["description"] = "Apply Rupture if its not up.",
+["criteria"] = "! dot.rupture.ticking & target.time_to_die - remains > 6",
 },
 {
-["action"] = "gloomblade",
 ["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "buff.thistle_tea.up & spell_targets.shuriken_storm = 1 || buff.shadow_dance.up & ( spell_targets.shuriken_storm = 1 || dot.rupture.ticking & spell_targets.shuriken_storm >= 2 ) || buff.darkest_night.up",
+["var_name"] = "skip_rupture",
 },
 {
-["action"] = "backstab",
+["enabled"] = true,
+["criteria"] = "( ! variable.skip_rupture || priority_rotation ) & target.time_to_die - remains > 6 & refreshable",
+["action"] = "rupture",
+},
+{
+["enabled"] = true,
+["criteria"] = "debuff.fazed.up & ( buff.shadow_dance.up || ( buff.symbols_of_death.up & cooldown.shadow_dance.charges_fractional <= 0.85 ) )",
+["action"] = "dispatch",
+},
+{
+["enabled"] = true,
+["criteria"] = "variable.secret_condition & cooldown.secret_technique.ready",
+["action"] = "cold_blood",
+},
+{
+["enabled"] = true,
+["criteria"] = "variable.secret_condition & ( ! talent.cold_blood.enabled || cooldown.cold_blood.remains > buff.shadow_dance.remains - 2 || ! talent.improved_shadow_dance.enabled )",
+["action"] = "secret_technique",
+},
+{
+["enabled"] = true,
+["criteria"] = "! variable.skip_rupture & buff.finality_rupture.up & ( cooldown.symbols_of_death.remains <= 3 || buff.symbols_of_death.up )",
+["action"] = "rupture",
+},
+{
+["enabled"] = true,
+["action"] = "black_powder",
+["description"] = "deathstalker bp",
+["criteria"] = "! variable.priority_rotation & talent.deathstalkers_mark.enabled & spell_targets >= 3 & ! buff.darkest_night.up",
+},
+{
+["enabled"] = true,
+["action"] = "black_powder",
+["description"] = "trickster bp",
+["criteria"] = "! variable.priority_rotation & talent.unseen_blade.enabled & ( ( buff.escalating_blade.stack = 4 & ! buff.shadow_dance.up ) || spell_targets >= 3 & ! buff.flawless_form.up || ( ! used_for_danse & buff.shadow_dance.up & talent.shuriken_tornado.enabled & spell_targets >= 3 ) )",
+},
+{
+["enabled"] = true,
+["criteria"] = "debuff.fazed.up",
+["action"] = "dispatch",
+},
+{
+["action"] = "eviscerate",
 ["enabled"] = true,
 },
 },
@@ -9628,8 +9692,8 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["description"] = "Check if you should use dance, vanish or shadowmeld to enter stealth",
 ["action"] = "call_action_list",
+["description"] = "Check if you should use dance, vanish or shadowmeld to enter stealth",
 ["list_name"] = "stealth_cds",
 },
 {
@@ -9641,8 +9705,8 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["criteria"] = "energy.deficit <= 20 + talent.vigor.rank * 25 + talent.thistle_tea.enabled * 20 + talent.shadowcraft.enabled * 20",
 ["action"] = "call_action_list",
+["criteria"] = "energy.deficit <= 20 + talent.vigor.rank * 25 + talent.thistle_tea.enabled * 20 + talent.shadowcraft.enabled * 20",
 ["list_name"] = "build",
 },
 {
@@ -9690,24 +9754,24 @@ HekiliDB = {
 ["op"] = "set",
 ["action"] = "variable",
 ["value"] = "toggle.funnel",
-["description"] = "Swap to priority rotation if the variable is enabled",
 ["var_name"] = "priority_rotation",
+["description"] = "Swap to priority rotation if the variable is enabled",
 },
 {
 ["enabled"] = true,
 ["op"] = "set",
 ["action"] = "variable",
 ["value"] = "1",
-["criteria"] = "trinket.t1.has_stat.any_dps & ( ! trinket.t2.has_stat.any_dps || trinket.t1.cooldown.duration >= trinket.t2.cooldown.duration )",
 ["var_name"] = "trinket_sync_slot",
+["criteria"] = "trinket.t1.has_stat.any_dps & ( ! trinket.t2.has_stat.any_dps || trinket.t1.cooldown.duration >= trinket.t2.cooldown.duration )",
 },
 {
 ["enabled"] = true,
 ["op"] = "set",
 ["action"] = "variable",
 ["value"] = "2",
-["criteria"] = "trinket.t2.has_stat.any_dps & ( ! trinket.t1.has_stat.any_dps || trinket.t2.cooldown.duration > trinket.t1.cooldown.duration )",
 ["var_name"] = "trinket_sync_slot",
+["criteria"] = "trinket.t2.has_stat.any_dps & ( ! trinket.t1.has_stat.any_dps || trinket.t2.cooldown.duration > trinket.t1.cooldown.duration )",
 },
 {
 ["action"] = "stealth",
@@ -9722,33 +9786,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["criteria"] = "buff.darkest_night.up & combo_points = cp_max_spend",
 ["action"] = "call_action_list",
+["criteria"] = "buff.darkest_night.up & combo_points = cp_max_spend || effective_combo_points >= cp_max_spend & ! buff.darkest_night.up || buff.shuriken_tornado.up & combo_points.deficit <= 2 & ! buff.darkest_night.up || ( combo_points.deficit <= 1 + talent.deathstalkers_mark.enabled ) & ! buff.darkest_night.up",
 ["list_name"] = "finish",
 },
 {
 ["enabled"] = true,
-["criteria"] = "effective_combo_points >= cp_max_spend & ! buff.darkest_night.up",
-["action"] = "call_action_list",
-["list_name"] = "finish",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.shuriken_tornado.up & combo_points.deficit <= 2 & ! buff.darkest_night.up",
-["action"] = "call_action_list",
-["list_name"] = "finish",
-},
-{
-["enabled"] = true,
-["criteria"] = "( combo_points.deficit <= 1 + talent.deathstalkers_mark.enabled ) & ! buff.darkest_night.up",
-["action"] = "call_action_list",
-["list_name"] = "finish",
-},
-{
-["enabled"] = true,
+["action"] = "shadowstrike",
 ["description"] = "Use shadowstrike for Danse Macabre on aoe and for Trickster use it instead of storm on 2+ targets",
 ["criteria"] = "( ! used_for_danse & buff.shadow_blades.up ) || ( talent.unseen_blade.enabled & spell_targets >= 2 )",
-["action"] = "shadowstrike",
 },
 {
 ["enabled"] = true,
@@ -9785,21 +9831,21 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["action"] = "flagellation",
 ["criteria"] = "variable.snd_condition & variable.ruptures_before_flag & combo_points >= 5 & target.time_to_die > 10 & ( cooldown.shadow_blades.remains <= 2 || fight_remains <= 24 ) & ( ! talent.invigorating_shadowdust.enabled || cooldown.symbols_of_death.remains <= 3 || buff.symbols_of_death.remains > 3 )",
+["action"] = "flagellation",
 ["cycle_targets"] = 1,
 },
 {
 ["enabled"] = true,
+["action"] = "symbols_of_death",
 ["description"] = "Symbols without Invigorating Shadowdust",
 ["criteria"] = "! talent.invigorating_shadowdust.enabled & variable.snd_condition & ( buff.shadow_blades.up || cooldown.shadow_blades.remains > 20 )",
-["action"] = "symbols_of_death",
 },
 {
 ["enabled"] = true,
+["action"] = "symbols_of_death",
 ["description"] = "Symbols with Invigorating Shadowdust",
 ["criteria"] = "talent.invigorating_shadowdust.enabled & variable.snd_condition & buff.symbols_of_death.remains <= 3 & ! buff.the_rotten.up & ( cooldown.flagellation.remains > 10 || cooldown.flagellation.up & cooldown.shadow_blades.remains >= 20 || buff.shadow_dance.remains >= 2 )",
-["action"] = "symbols_of_death",
 },
 {
 ["enabled"] = true,
@@ -9823,15 +9869,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "vanish",
 ["description"] = "Vanish during dance if trickster",
 ["criteria"] = "buff.shadow_dance.up & talent.invigorating_shadowdust.enabled & talent.unseen_blade.enabled & ( combo_points.deficit > 1 ) & ( cooldown.flagellation.remains >= 60 || ! talent.flagellation.enabled || fight_remains <= ( 30 * cooldown.vanish.charges ) ) & cooldown.secret_technique.remains >= 10",
-["action"] = "vanish",
 },
 {
 ["enabled"] = true,
+["action"] = "shadow_dance",
 ["description"] = "Use shadow dance during subterfuge in CDs or if the fight ends in <8s",
 ["criteria"] = "! buff.shadow_dance.up & ( talent.invigorating_shadowdust.enabled & buff.shadow_blades.up & ( ( talent.deathstalkers_mark.enabled & buff.subterfuge.up ) || ( dot.rupture.ticking & variable.snd_condition & talent.unseen_blade.enabled ) ) ) || boss & fight_remains <= 8",
-["action"] = "shadow_dance",
 },
 {
 ["enabled"] = true,
@@ -9879,15 +9925,15 @@ HekiliDB = {
 ["stealth_cds"] = {
 {
 ["enabled"] = true,
+["action"] = "vanish",
 ["description"] = "No dust vanish",
 ["criteria"] = "! talent.invigorating_shadowdust.enabled & ! talent.subterfuge.enabled & combo_points.deficit >= 3 & ( ! dot.rupture.ticking || ( buff.shadow_blades.up & buff.symbols_of_death.up ) || talent.premeditation.enabled || boss & fight_remains < 10 )",
-["action"] = "vanish",
 },
 {
 ["enabled"] = true,
+["action"] = "vanish",
 ["description"] = "Dust Vanish",
 ["criteria"] = "! buff.shadow_dance.up & talent.invigorating_shadowdust.enabled & talent.deathstalkers_mark.enabled & ( combo_points.deficit > 1 || buff.shadow_blades.up ) & ( cooldown.flagellation.remains >= 60 || ! talent.flagellation.enabled || fight_remains <= ( 30 * cooldown.vanish.charges ) ) & cooldown.secret_technique.remains >= 10",
-["action"] = "vanish",
 },
 {
 ["enabled"] = true,
@@ -9896,9 +9942,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "vanish",
 ["description"] = "No Dust subterfuge vanish",
 ["criteria"] = "! talent.invigorating_shadowdust.enabled & talent.subterfuge.enabled & combo_points.deficit >= 3 & ( buff.symbols_of_death.up || cooldown.symbols_of_death.remains >= 3 )",
-["action"] = "vanish",
 },
 {
 ["enabled"] = true,
@@ -9906,79 +9952,32 @@ HekiliDB = {
 ["action"] = "shadowmeld",
 },
 },
-["finish"] = {
+["build"] = {
 {
 ["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "( ( buff.danse_macabre.stack >= 3 ) || ! talent.danse_macabre.enabled || ( talent.unseen_blade.enabled & buff.shadow_dance.up & ( buff.escalating_blade.stack >= 2 || buff.shadow_blades.up ) ) )",
-["var_name"] = "secret_condition",
+["criteria"] = "spell_targets >= 2 + ( talent.gloomblade.enabled & buff.lingering_shadow.remains >= 6 || buff.perforated_veins.up ) - ( ! debuff.find_weakness.up & ! talent.improved_backstab.enabled ) & ( buff.flawless_form.up || ! talent.unseen_blade.enabled )",
+["action"] = "shuriken_storm",
 },
 {
 ["enabled"] = true,
-["description"] = "Apply Rupture if its not up.",
-["criteria"] = "! dot.rupture.ticking & target.time_to_die - remains > 6",
-["action"] = "rupture",
+["action"] = "shuriken_storm",
+["description"] = "Deathstalker shuriken storm on singletarget",
+["criteria"] = "buff.clear_the_witnesses.up & ( ! buff.symbols_of_death.up || ! talent.inevitability.enabled ) & ( buff.lingering_shadow.remains <= 6 || ! talent.lingering_shadow.enabled )",
 },
 {
+["action"] = "gloomblade",
 ["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "buff.thistle_tea.up & spell_targets.shuriken_storm = 1 || buff.shadow_dance.up & ( spell_targets.shuriken_storm = 1 || dot.rupture.ticking & spell_targets.shuriken_storm >= 2 ) || buff.darkest_night.up",
-["var_name"] = "skip_rupture",
 },
 {
-["enabled"] = true,
-["criteria"] = "( ! variable.skip_rupture || priority_rotation ) & target.time_to_die - remains > 6 & refreshable",
-["action"] = "rupture",
-},
-{
-["enabled"] = true,
-["criteria"] = "debuff.fazed.up & ( buff.shadow_dance.up || ( buff.symbols_of_death.up & cooldown.shadow_dance.charges_fractional <= 0.85 ) )",
-["action"] = "dispatch",
-},
-{
-["enabled"] = true,
-["criteria"] = "variable.secret_condition & cooldown.secret_technique.ready",
-["action"] = "cold_blood",
-},
-{
-["enabled"] = true,
-["criteria"] = "variable.secret_condition & ( ! talent.cold_blood.enabled || cooldown.cold_blood.remains > buff.shadow_dance.remains - 2 || ! talent.improved_shadow_dance.enabled )",
-["action"] = "secret_technique",
-},
-{
-["enabled"] = true,
-["criteria"] = "! variable.skip_rupture & buff.finality_rupture.up & ( cooldown.symbols_of_death.remains <= 3 || buff.symbols_of_death.up )",
-["action"] = "rupture",
-},
-{
-["enabled"] = true,
-["description"] = "deathstalker bp",
-["criteria"] = "! variable.priority_rotation & talent.deathstalkers_mark.enabled & spell_targets >= 3 & ! buff.darkest_night.up",
-["action"] = "black_powder",
-},
-{
-["enabled"] = true,
-["description"] = "trickster bp",
-["criteria"] = "! variable.priority_rotation & talent.unseen_blade.enabled & ( ( buff.escalating_blade.stack = 4 & ! buff.shadow_dance.up ) || spell_targets >= 3 & ! buff.flawless_form.up || ( ! used_for_danse & buff.shadow_dance.up & talent.shuriken_tornado.enabled & spell_targets >= 3 ) )",
-["action"] = "black_powder",
-},
-{
-["enabled"] = true,
-["criteria"] = "debuff.fazed.up",
-["action"] = "dispatch",
-},
-{
-["action"] = "eviscerate",
+["action"] = "backstab",
 ["enabled"] = true,
 },
 },
 },
-["version"] = 20240911,
-["warnings"] = "The import for 'items' required some automated changes.\nLine 1: Converted 'talent.danse_macabre' to 'talent.danse_macabre.enabled' (1x).\nLine 1: Converted 'talent.cold_blood' to 'talent.cold_blood.enabled' (1x).\nLine 2: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 4: Converted 'talent.deeper_daggers' to 'talent.deeper_daggers.enabled' (1x).\nLine 4: Converted 'trinket.stormeaters_boon.cooldown.remains' to 'cooldown.stormeaters_boon.remains'.\nLine 5: Converted 'trinket.stormeaters_boon.cooldown.remains' to 'cooldown.stormeaters_boon.remains'.\nLine 7: Unsupported use_item action [ imperfect_ascendancy_serum]; entry disabled.\nLine 8: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 8: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 8: Converted 'trinket.2.cooldown.ready' to 'trinket.t2.cooldown.ready' (1x).\nLine 8: Converted 'trinket.2.cooldown.ready' to 'trinket.t2.cooldown.ready'.\nLine 9: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 9: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 9: Converted 'trinket.1.cooldown.ready' to 'trinket.t1.cooldown.ready' (1x).\nLine 9: Converted 'trinket.1.cooldown.ready' to 'trinket.t1.cooldown.ready'.\n\nThe import for 'stealthed' required some automated changes.\nLine 1: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 2: Converted operations in 'buff.darkest_night.up&combo_points==cp_max_spend' to 'buff.darkest_night.up&combo_points=cp_max_spend'.\nLine 5: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 6: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\n\nThe import for 'default' required some automated changes.\nLine 9: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 10: Converted 'talent.thistle_tea' to 'talent.thistle_tea.enabled' (1x).\nLine 10: Converted 'talent.shadowcraft' to 'talent.shadowcraft.enabled' (1x).\n\nThe import for 'precombat' required some automated changes.\nLine 6: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 6: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 6: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 6: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 6: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 6: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 7: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 7: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 7: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 7: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 7: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 7: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\n\nThe import for 'finish' required some automated changes.\nLine 1: Converted 'talent.danse_macabre' to 'talent.danse_macabre.enabled' (1x).\nLine 1: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 7: Converted 'talent.cold_blood' to 'talent.cold_blood.enabled' (1x).\nLine 7: Converted 'talent.improved_shadow_dance' to 'talent.improved_shadow_dance.enabled' (1x).\nLine 9: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 10: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 10: Converted 'talent.shuriken_tornado' to 'talent.shuriken_tornado.enabled' (1x).\n\nThe import for 'cds' required some automated changes.\nLine 1: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 1: Converted 'talent.follow_the_blood' to 'talent.follow_the_blood.enabled' (1x).\nLine 1: Converted 'talent.replicating_shadows' to 'talent.replicating_shadows.enabled' (1x).\nLine 1: Converted 'talent.replicating_shadows' to 'talent.replicating_shadows.enabled' (1x).\nLine 2: Converted 'talent.secret_technique' to 'talent.secret_technique.enabled' (1x).\nLine 4: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 5: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 6: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 7: Converted 'talent.flagellation' to 'talent.flagellation.enabled' (1x).\nLine 8: Converted 'talent.the_rotten' to 'talent.the_rotten.enabled' (1x).\nLine 8: Converted 'talent.reverberation' to 'talent.reverberation.enabled' (1x).\nLine 9: Converted 'talent.flagellation' to 'talent.flagellation.enabled' (1x).\nLine 11: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 11: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 11: Converted 'talent.flagellation' to 'talent.flagellation.enabled' (1x).\nLine 12: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 12: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 12: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 13: Converted 'talent.double_dance' to 'talent.double_dance.enabled' (1x).\nLine 13: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 13: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 13: Converted 'talent.the_rotten' to 'talent.the_rotten.enabled' (1x).\nLine 16: Converted 'talent.shadow_blades' to 'talent.shadow_blades.enabled' (1x).\n\nThe import for 'stealth_cds' required some automated changes.\nLine 1: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 1: Converted 'talent.subterfuge' to 'talent.subterfuge.enabled' (1x).\nLine 1: Converted 'talent.premeditation' to 'talent.premeditation.enabled' (1x).\nLine 2: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 2: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 2: Converted 'talent.flagellation' to 'talent.flagellation.enabled' (1x).\nLine 3: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 3: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 3: Converted 'talent.the_first_dance' to 'talent.the_first_dance.enabled' (1x).\nLine 4: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 4: Converted 'talent.subterfuge' to 'talent.subterfuge.enabled' (1x).\n\nThe import for 'build' required some automated changes.\nLine 1: Converted 'talent.gloomblade' to 'talent.gloomblade.enabled' (1x).\nLine 1: Converted 'talent.improved_backstab' to 'talent.improved_backstab.enabled' (1x).\nLine 1: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 2: Converted 'talent.inevitability' to 'talent.inevitability.enabled' (1x).\nLine 2: Converted 'talent.lingering_shadow' to 'talent.lingering_shadow.enabled' (1x).\n\nImported 8 action lists.\n",
+["version"] = 20240922,
+["warnings"] = "The import for 'items' required some automated changes.\nLine 1: Converted 'talent.danse_macabre' to 'talent.danse_macabre.enabled' (1x).\nLine 1: Converted 'talent.cold_blood' to 'talent.cold_blood.enabled' (1x).\nLine 2: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 4: Converted 'talent.deeper_daggers' to 'talent.deeper_daggers.enabled' (1x).\nLine 4: Converted 'trinket.stormeaters_boon.cooldown.remains' to 'cooldown.stormeaters_boon.remains'.\nLine 5: Converted 'trinket.stormeaters_boon.cooldown.remains' to 'cooldown.stormeaters_boon.remains'.\nLine 8: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 8: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 8: Converted 'trinket.2.cooldown.ready' to 'trinket.t2.cooldown.ready' (1x).\nLine 8: Converted 'trinket.2.cooldown.ready' to 'trinket.t2.cooldown.ready'.\nLine 9: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 9: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 9: Converted 'trinket.1.cooldown.ready' to 'trinket.t1.cooldown.ready' (1x).\nLine 9: Converted 'trinket.1.cooldown.ready' to 'trinket.t1.cooldown.ready'.\n\nThe import for 'stealthed' required some automated changes.\nLine 1: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 2: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 3: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\n\nThe import for 'default' required some automated changes.\nLine 9: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 10: Converted 'talent.thistle_tea' to 'talent.thistle_tea.enabled' (1x).\nLine 10: Converted 'talent.shadowcraft' to 'talent.shadowcraft.enabled' (1x).\n\nThe import for 'precombat' required some automated changes.\nLine 6: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 6: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 6: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 6: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 6: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 6: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 7: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 7: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 7: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 7: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 7: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 7: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\n\nThe import for 'finish' required some automated changes.\nLine 1: Converted 'talent.danse_macabre' to 'talent.danse_macabre.enabled' (1x).\nLine 1: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 7: Converted 'talent.cold_blood' to 'talent.cold_blood.enabled' (1x).\nLine 7: Converted 'talent.improved_shadow_dance' to 'talent.improved_shadow_dance.enabled' (1x).\nLine 9: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 10: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 10: Converted 'talent.shuriken_tornado' to 'talent.shuriken_tornado.enabled' (1x).\n\nThe import for 'cds' required some automated changes.\nLine 1: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 1: Converted 'talent.follow_the_blood' to 'talent.follow_the_blood.enabled' (1x).\nLine 1: Converted 'talent.replicating_shadows' to 'talent.replicating_shadows.enabled' (1x).\nLine 1: Converted 'talent.replicating_shadows' to 'talent.replicating_shadows.enabled' (1x).\nLine 2: Converted 'talent.secret_technique' to 'talent.secret_technique.enabled' (1x).\nLine 4: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 5: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 6: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 7: Converted 'talent.flagellation' to 'talent.flagellation.enabled' (1x).\nLine 8: Converted 'talent.the_rotten' to 'talent.the_rotten.enabled' (1x).\nLine 8: Converted 'talent.reverberation' to 'talent.reverberation.enabled' (1x).\nLine 9: Converted 'talent.flagellation' to 'talent.flagellation.enabled' (1x).\nLine 11: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 11: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 11: Converted 'talent.flagellation' to 'talent.flagellation.enabled' (1x).\nLine 12: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 12: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 12: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 13: Converted 'talent.double_dance' to 'talent.double_dance.enabled' (1x).\nLine 13: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 13: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 13: Converted 'talent.the_rotten' to 'talent.the_rotten.enabled' (1x).\nLine 16: Converted 'talent.shadow_blades' to 'talent.shadow_blades.enabled' (1x).\n\nThe import for 'stealth_cds' required some automated changes.\nLine 1: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 1: Converted 'talent.subterfuge' to 'talent.subterfuge.enabled' (1x).\nLine 1: Converted 'talent.premeditation' to 'talent.premeditation.enabled' (1x).\nLine 2: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 2: Converted 'talent.deathstalkers_mark' to 'talent.deathstalkers_mark.enabled' (1x).\nLine 2: Converted 'talent.flagellation' to 'talent.flagellation.enabled' (1x).\nLine 3: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 3: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 3: Converted 'talent.the_first_dance' to 'talent.the_first_dance.enabled' (1x).\nLine 4: Converted 'talent.invigorating_shadowdust' to 'talent.invigorating_shadowdust.enabled' (1x).\nLine 4: Converted 'talent.subterfuge' to 'talent.subterfuge.enabled' (1x).\n\nThe import for 'build' required some automated changes.\nLine 1: Converted 'talent.gloomblade' to 'talent.gloomblade.enabled' (1x).\nLine 1: Converted 'talent.improved_backstab' to 'talent.improved_backstab.enabled' (1x).\nLine 1: Converted 'talent.unseen_blade' to 'talent.unseen_blade.enabled' (1x).\nLine 2: Converted 'talent.inevitability' to 'talent.inevitability.enabled' (1x).\nLine 2: Converted 'talent.lingering_shadow' to 'talent.lingering_shadow.enabled' (1x).\n\nImported 8 action lists.\n",
+["profile"] = "actions.precombat+=/apply_poison\nactions.precombat+=/variable,name=algethar_puzzle_box_precombat_cast,value=3\nactions.precombat+=/use_item,name=algethar_puzzle_box\nactions.precombat+=/slice_and_dice,precombat_seconds=1\n# Swap to priority rotation if the variable is enabled\nactions.precombat+=/variable,name=priority_rotation,value=toggle.funnel\nactions.precombat+=/variable,name=trinket_sync_slot,value=1,if=trinket.1.has_stat.any_dps&(!trinket.2.has_stat.any_dps||trinket.1.cooldown.duration>=trinket.2.cooldown.duration)\nactions.precombat+=/variable,name=trinket_sync_slot,value=2,if=trinket.2.has_stat.any_dps&(!trinket.1.has_stat.any_dps||trinket.2.cooldown.duration>trinket.1.cooldown.duration)\nactions.precombat+=/stealth\n\n\nactions+=/stealth\nactions+=/kick\nactions+=/variable,name=snd_condition,value=buff.slice_and_dice.up\nactions+=/call_action_list,name=cds\nactions+=/call_action_list,name=items\nactions+=/slice_and_dice,if=combo_points>=1&!variable.snd_condition\nactions+=/run_action_list,name=stealthed,strict=1,if=stealthed.all\n# Check if you should use dance, vanish or shadowmeld to enter stealth\nactions+=/call_action_list,name=stealth_cds\nactions+=/call_action_list,name=finish,strict=1,if=buff.darkest_night.up&combo_points=cp_max_spend||effective_combo_points>=cp_max_spend&!buff.darkest_night.up||(combo_points.deficit<=1+talent.deathstalkers_mark||fight_remains<=1&effective_combo_points>=3)&!buff.darkest_night.up\nactions+=/call_action_list,name=build,if=energy.deficit<=20+talent.vigor.rank*25+talent.thistle_tea*20+talent.shadowcraft*20\nactions+=/arcane_torrent,if=energy.deficit>=15+energy.regen\nactions+=/arcane_pulse\nactions+=/lights_judgment\nactions+=/bag_of_tricks\n\nactions.build+=/shuriken_storm,if=spell_targets>=2+(talent.gloomblade&buff.lingering_shadow.remains>=6||buff.perforated_veins.up)-(!debuff.find_weakness.up&!talent.improved_backstab)&(buff.flawless_form.up||!talent.unseen_blade)\n# Deathstalker shuriken storm on singletarget\nactions.build+=/shuriken_storm,if=buff.clear_the_witnesses.up&(!buff.symbols_of_death.up||!talent.inevitability)&(buff.lingering_shadow.remains<=6||!talent.lingering_shadow)\nactions.build+=/gloomblade\nactions.build+=/backstab\n\nactions.cds+=/variable,name=ruptures_before_flag,value=variable.priority_rotation||spell_targets<=4||talent.invigorating_shadowdust&!talent.follow_the_blood||(talent.replicating_shadows&(spell_targets>=5&active_dot.rupture>=spell_targets-2))||!talent.replicating_shadows\nactions.cds+=/cold_blood,if=!talent.secret_technique&combo_points>=6\nactions.cds+=/sepsis,if=variable.snd_condition&(cooldown.shadow_blades.remains<=3&cooldown.symbols_of_death.remains<=3||fight_remains<=12)\nactions.cds+=/flagellation,cycle_targets=1,if=variable.snd_condition&variable.ruptures_before_flag&combo_points>=5&target.time_to_die>10&(cooldown.shadow_blades.remains<=2||fight_remains<=24)&(!talent.invigorating_shadowdust||cooldown.symbols_of_death.remains<=3||buff.symbols_of_death.remains>3)\n# Symbols without Invigorating Shadowdust\nactions.cds+=/symbols_of_death,if=!talent.invigorating_shadowdust&variable.snd_condition&(buff.shadow_blades.up||cooldown.shadow_blades.remains>20)\n# Symbols with Invigorating Shadowdust\nactions.cds+=/symbols_of_death,if=talent.invigorating_shadowdust&variable.snd_condition&buff.symbols_of_death.remains<=3&!buff.the_rotten.up&(cooldown.flagellation.remains>10||cooldown.flagellation.up&cooldown.shadow_blades.remains>=20||buff.shadow_dance.remains>=2)\nactions.cds+=/shadow_blades,if=variable.snd_condition&combo_points<=1&(buff.flagellation_buff.up||!talent.flagellation)||fight_remains<=20\nactions.cds+=/echoing_reprimand,if=variable.snd_condition&combo_points.deficit>=3&(!talent.the_rotten||!talent.reverberation||buff.shadow_dance.up)\nactions.cds+=/shuriken_tornado,if=variable.snd_condition&buff.symbols_of_death.up&combo_points<=2&!buff.premeditation.up&(!talent.flagellation||cooldown.flagellation.remains>20)&spell_targets.shuriken_storm>=3\nactions.cds+=/shuriken_tornado,if=variable.snd_condition&!buff.shadow_dance.up&!buff.flagellation_buff.up&!buff.flagellation_persist.up&!buff.shadow_blades.up&spell_targets.shuriken_storm<=2&!raid_event.adds.up\n# Vanish during dance if trickster\nactions.cds+=/vanish,if=buff.shadow_dance.up&talent.invigorating_shadowdust&talent.unseen_blade&(combo_points.deficit>1)&(cooldown.flagellation.remains>=60||!talent.flagellation||fight_remains<=(30*cooldown.vanish.charges))&cooldown.secret_technique.remains>=10\n# Use shadow dance during subterfuge in CDs or if the fight ends in <8s\nactions.cds+=/shadow_dance,if=!buff.shadow_dance.up&(talent.invigorating_shadowdust&buff.shadow_blades.up&((talent.deathstalkers_mark&buff.subterfuge.up)||(dot.rupture.ticking&variable.snd_condition&talent.unseen_blade)))||boss&fight_remains<=8\nactions.cds+=/goremaws_bite,if=variable.snd_condition&combo_points.deficit>=3&(!cooldown.shadow_dance.up||talent.double_dance&buff.shadow_dance.up&!talent.invigorating_shadowdust||spell_targets.shuriken_storm<4&!talent.invigorating_shadowdust||talent.the_rotten||raid_event.adds.up)\nactions.cds+=/thistle_tea,if=!buff.thistle_tea.up&(buff.shadow_dance.remains>=6)||(buff.thistle_tea.down||energy.deficit>100)&fight_remains<=(6*cooldown.thistle_tea.charges)\nactions.cds+=/potion,if=buff.bloodlust.react||boss&fight_remains<30||buff.symbols_of_death.up&(buff.shadow_blades.up||cooldown.shadow_blades.remains<=10)\nactions.cds+=/variable,name=racial_sync,value=buff.shadow_blades.up||!talent.shadow_blades&buff.symbols_of_death.up||boss&fight_remains<20\nactions.cds+=/blood_fury,if=variable.racial_sync\nactions.cds+=/berserking,if=variable.racial_sync\nactions.cds+=/fireblood,if=variable.racial_sync&buff.shadow_dance.up\nactions.cds+=/ancestral_call,if=variable.racial_sync\n\nactions.items+=/use_item,name=ashes_of_the_embersoul,if=(buff.cold_blood.up||(!talent.danse_macabre&buff.shadow_dance.up||buff.danse_macabre.stack>=3)&!talent.cold_blood)||boss&fight_remains<10\nactions.items+=/use_item,name=witherbarks_branch,if=buff.flagellation_buff.up&talent.invigorating_shadowdust||buff.shadow_blades.up||equipped.bandolier_of_twisted_blades&raid_event.adds.up\nactions.items+=/use_item,name=mirror_of_fractured_tomorrows,if=buff.shadow_dance.up&(target.time_to_die>=15||equipped.ashes_of_the_embersoul)\nactions.items+=/use_item,name=beacon_to_the_beyond,use_off_gcd=1,if=!stealthed.all&(buff.deeper_daggers.up||!talent.deeper_daggers)&(!raid_event.adds.up||!equipped.stormeaters_boon||trinket.stormeaters_boon.cooldown.remains>20)\nactions.items+=/use_item,name=manic_grieftorch,use_off_gcd=1,if=!stealthed.all&(!raid_event.adds.up||!equipped.stormeaters_boon||trinket.stormeaters_boon.cooldown.remains>20)\nactions.items+=/use_item,name=treacherous_transmitter,if=buff.shadow_blades.up||fight_remains<=15\n## actions.items+=/do_treacherous_transmitter_task,if=buff.shadow_blades.up||fight_remains<=15\nactions.items+=/use_item,name=imperfect_ascendancy_serum,use_off_gcd=1,if=dot.rupture.ticking&buff.flagellation_buff.up\nactions.items+=/use_items,slots=trinket1,if=(variable.trinket_sync_slot=1&(buff.shadow_blades.up||(1+cooldown.shadow_blades.remains)>=trinket.1.cooldown.duration||boss&fight_remains<=20)||(variable.trinket_sync_slot=2&(!trinket.2.cooldown.ready&!buff.shadow_blades.up&cooldown.shadow_blades.remains>20))||!variable.trinket_sync_slot)\nactions.items+=/use_items,slots=trinket2,if=(variable.trinket_sync_slot=2&(buff.shadow_blades.up||(1+cooldown.shadow_blades.remains)>=trinket.2.cooldown.duration||boss&fight_remains<=20)||(variable.trinket_sync_slot=1&(!trinket.1.cooldown.ready&!buff.shadow_blades.up&cooldown.shadow_blades.remains>20))||!variable.trinket_sync_slot)\n\nactions.finish+=/variable,name=secret_condition,value=((buff.danse_macabre.stack>=3)||!talent.danse_macabre||(talent.unseen_blade&buff.shadow_dance.up&(buff.escalating_blade.stack>=2||buff.shadow_blades.up)))\n# Apply Rupture if its not up.\nactions.finish+=/rupture,if=!dot.rupture.ticking&target.time_to_die-remains>6\nactions.finish+=/variable,name=skip_rupture,value=buff.thistle_tea.up&spell_targets.shuriken_storm=1||buff.shadow_dance.up&(spell_targets.shuriken_storm=1||dot.rupture.ticking&spell_targets.shuriken_storm>=2)||buff.darkest_night.up\nactions.finish+=/rupture,if=(!variable.skip_rupture||priority_rotation)&target.time_to_die-remains>6&refreshable\nactions.finish+=/coup_de_grace,if=debuff.fazed.up&(buff.shadow_dance.up||(buff.symbols_of_death.up&cooldown.shadow_dance.charges_fractional<=0.85))\nactions.finish+=/cold_blood,if=variable.secret_condition&cooldown.secret_technique.ready\nactions.finish+=/secret_technique,if=variable.secret_condition&(!talent.cold_blood||cooldown.cold_blood.remains>buff.shadow_dance.remains-2||!talent.improved_shadow_dance)\nactions.finish+=/rupture,if=!variable.skip_rupture&buff.finality_rupture.up&(cooldown.symbols_of_death.remains<=3||buff.symbols_of_death.up)\n# deathstalker bp\nactions.finish+=/black_powder,if=!variable.priority_rotation&talent.deathstalkers_mark&spell_targets>=3&!buff.darkest_night.up\n# trickster bp\nactions.finish+=/black_powder,if=!variable.priority_rotation&talent.unseen_blade&((buff.escalating_blade.stack=4&!buff.shadow_dance.up)||spell_targets>=3&!buff.flawless_form.up||(!used_for_danse&buff.shadow_dance.up&talent.shuriken_tornado&spell_targets>=3))\nactions.finish+=/coup_de_grace,if=debuff.fazed.up\nactions.finish+=/eviscerate\n\n# No dust vanish\nactions.stealth_cds+=/vanish,if=!talent.invigorating_shadowdust&!talent.subterfuge&combo_points.deficit>=3&(!dot.rupture.ticking||(buff.shadow_blades.up&buff.symbols_of_death.up)||talent.premeditation||boss&fight_remains<10)\n# Dust Vanish\nactions.stealth_cds+=/vanish,if=!buff.shadow_dance.up&talent.invigorating_shadowdust&talent.deathstalkers_mark&(combo_points.deficit>1||buff.shadow_blades.up)&(cooldown.flagellation.remains>=60||!talent.flagellation||fight_remains<=(30*cooldown.vanish.charges))&cooldown.secret_technique.remains>=10\nactions.stealth_cds+=/shadow_dance,if=dot.rupture.ticking&variable.snd_condition&(buff.symbols_of_death.remains>=6&!buff.flagellation_buff.up||buff.symbols_of_death.up&buff.shadow_blades.up||buff.shadow_blades.up&!talent.invigorating_shadowdust)&cooldown.secret_technique.remains<10+12*!talent.invigorating_shadowdust&(!talent.the_first_dance||(combo_points.deficit>=7&!buff.shadow_blades.up||buff.shadow_blades.up))\n# No Dust subterfuge vanish\nactions.stealth_cds+=/vanish,if=!talent.invigorating_shadowdust&talent.subterfuge&combo_points.deficit>=3&(buff.symbols_of_death.up||cooldown.symbols_of_death.remains>=3)\nactions.stealth_cds+=/shadowmeld,if=energy>=40&combo_points.deficit>3\n\nactions.stealthed+=/shadowstrike,if=talent.deathstalkers_mark&!debuff.deathstalkers_mark.up&!buff.darkest_night.up\nactions.stealthed+=/call_action_list,name=finish,if=buff.darkest_night.up&combo_points=cp_max_spend||effective_combo_points>=cp_max_spend&!buff.darkest_night.up||buff.shuriken_tornado.up&combo_points.deficit<=2&!buff.darkest_night.up||(combo_points.deficit<=1+talent.deathstalkers_mark)&!buff.darkest_night.up\n# Use shadowstrike for Danse Macabre on aoe and for Trickster use it instead of storm on 2+ targets\nactions.stealthed+=/shadowstrike,if=(!used_for_danse&buff.shadow_blades.up)||(talent.unseen_blade&spell_targets>=2)\nactions.stealthed+=/shuriken_storm,if=!buff.premeditation.up&spell_targets>=4\nactions.stealthed+=/gloomblade,if=buff.lingering_shadow.remains>=10&buff.shadow_blades.up&spell_targets=1\nactions.stealthed+=/shadowstrike",
 ["author"] = "SimC",
-["profile"] = "actions.precombat+=/apply_poison\nactions.precombat+=/variable,name=algethar_puzzle_box_precombat_cast,value=3\nactions.precombat+=/use_item,name=algethar_puzzle_box\nactions.precombat+=/slice_and_dice,precombat_seconds=1\n# Swap to priority rotation if the variable is enabled\nactions.precombat+=/variable,name=priority_rotation,value=toggle.funnel\nactions.precombat+=/variable,name=trinket_sync_slot,value=1,if=trinket.1.has_stat.any_dps&(!trinket.2.has_stat.any_dps||trinket.1.cooldown.duration>=trinket.2.cooldown.duration)\nactions.precombat+=/variable,name=trinket_sync_slot,value=2,if=trinket.2.has_stat.any_dps&(!trinket.1.has_stat.any_dps||trinket.2.cooldown.duration>trinket.1.cooldown.duration)\nactions.precombat+=/stealth\n\n\nactions+=/stealth\nactions+=/kick\nactions+=/variable,name=snd_condition,value=buff.slice_and_dice.up\nactions+=/call_action_list,name=cds\nactions+=/call_action_list,name=items\nactions+=/slice_and_dice,if=combo_points>=1&!variable.snd_condition\nactions+=/run_action_list,name=stealthed,strict=1,if=stealthed.all\n# Check if you should use dance, vanish or shadowmeld to enter stealth\nactions+=/call_action_list,name=stealth_cds\nactions+=/call_action_list,name=finish,strict=1,if=buff.darkest_night.up&combo_points=cp_max_spend||effective_combo_points>=cp_max_spend&!buff.darkest_night.up||(combo_points.deficit<=1+talent.deathstalkers_mark||fight_remains<=1&effective_combo_points>=3)&!buff.darkest_night.up\nactions+=/call_action_list,name=build,if=energy.deficit<=20+talent.vigor.rank*25+talent.thistle_tea*20+talent.shadowcraft*20\nactions+=/arcane_torrent,if=energy.deficit>=15+energy.regen\nactions+=/arcane_pulse\nactions+=/lights_judgment\nactions+=/bag_of_tricks\n\nactions.build+=/shuriken_storm,if=spell_targets>=2+(talent.gloomblade&buff.lingering_shadow.remains>=6||buff.perforated_veins.up)-(!debuff.find_weakness.up&!talent.improved_backstab)&(buff.flawless_form.up||!talent.unseen_blade)\n# Deathstalker shuriken storm on singletarget\nactions.build+=/shuriken_storm,if=buff.clear_the_witnesses.up&(!buff.symbols_of_death.up||!talent.inevitability)&(buff.lingering_shadow.remains<=6||!talent.lingering_shadow)\nactions.build+=/gloomblade\nactions.build+=/backstab\n\nactions.cds+=/variable,name=ruptures_before_flag,value=variable.priority_rotation||spell_targets<=4||talent.invigorating_shadowdust&!talent.follow_the_blood||(talent.replicating_shadows&(spell_targets>=5&active_dot.rupture>=spell_targets-2))||!talent.replicating_shadows\nactions.cds+=/cold_blood,if=!talent.secret_technique&combo_points>=6\nactions.cds+=/sepsis,if=variable.snd_condition&(cooldown.shadow_blades.remains<=3&cooldown.symbols_of_death.remains<=3||fight_remains<=12)\nactions.cds+=/flagellation,cycle_targets=1,if=variable.snd_condition&variable.ruptures_before_flag&combo_points>=5&target.time_to_die>10&(cooldown.shadow_blades.remains<=2||fight_remains<=24)&(!talent.invigorating_shadowdust||cooldown.symbols_of_death.remains<=3||buff.symbols_of_death.remains>3)\n# Symbols without Invigorating Shadowdust\nactions.cds+=/symbols_of_death,if=!talent.invigorating_shadowdust&variable.snd_condition&(buff.shadow_blades.up||cooldown.shadow_blades.remains>20)\n# Symbols with Invigorating Shadowdust\nactions.cds+=/symbols_of_death,if=talent.invigorating_shadowdust&variable.snd_condition&buff.symbols_of_death.remains<=3&!buff.the_rotten.up&(cooldown.flagellation.remains>10||cooldown.flagellation.up&cooldown.shadow_blades.remains>=20||buff.shadow_dance.remains>=2)\nactions.cds+=/shadow_blades,if=variable.snd_condition&combo_points<=1&(buff.flagellation_buff.up||!talent.flagellation)||fight_remains<=20\nactions.cds+=/echoing_reprimand,if=variable.snd_condition&combo_points.deficit>=3&(!talent.the_rotten||!talent.reverberation||buff.shadow_dance.up)\nactions.cds+=/shuriken_tornado,if=variable.snd_condition&buff.symbols_of_death.up&combo_points<=2&!buff.premeditation.up&(!talent.flagellation||cooldown.flagellation.remains>20)&spell_targets.shuriken_storm>=3\nactions.cds+=/shuriken_tornado,if=variable.snd_condition&!buff.shadow_dance.up&!buff.flagellation_buff.up&!buff.flagellation_persist.up&!buff.shadow_blades.up&spell_targets.shuriken_storm<=2&!raid_event.adds.up\n# Vanish during dance if trickster\nactions.cds+=/vanish,if=buff.shadow_dance.up&talent.invigorating_shadowdust&talent.unseen_blade&(combo_points.deficit>1)&(cooldown.flagellation.remains>=60||!talent.flagellation||fight_remains<=(30*cooldown.vanish.charges))&cooldown.secret_technique.remains>=10\n# Use shadow dance during subterfuge in CDs or if the fight ends in <8s\nactions.cds+=/shadow_dance,if=!buff.shadow_dance.up&(talent.invigorating_shadowdust&buff.shadow_blades.up&((talent.deathstalkers_mark&buff.subterfuge.up)||(dot.rupture.ticking&variable.snd_condition&talent.unseen_blade)))||boss&fight_remains<=8\nactions.cds+=/goremaws_bite,if=variable.snd_condition&combo_points.deficit>=3&(!cooldown.shadow_dance.up||talent.double_dance&buff.shadow_dance.up&!talent.invigorating_shadowdust||spell_targets.shuriken_storm<4&!talent.invigorating_shadowdust||talent.the_rotten||raid_event.adds.up)\nactions.cds+=/thistle_tea,if=!buff.thistle_tea.up&(buff.shadow_dance.remains>=6)||(buff.thistle_tea.down||energy.deficit>100)&fight_remains<=(6*cooldown.thistle_tea.charges)\nactions.cds+=/potion,if=buff.bloodlust.react||boss&fight_remains<30||buff.symbols_of_death.up&(buff.shadow_blades.up||cooldown.shadow_blades.remains<=10)\nactions.cds+=/variable,name=racial_sync,value=buff.shadow_blades.up||!talent.shadow_blades&buff.symbols_of_death.up||boss&fight_remains<20\nactions.cds+=/blood_fury,if=variable.racial_sync\nactions.cds+=/berserking,if=variable.racial_sync\nactions.cds+=/fireblood,if=variable.racial_sync&buff.shadow_dance.up\nactions.cds+=/ancestral_call,if=variable.racial_sync\n\nactions.items+=/use_item,name=ashes_of_the_embersoul,if=(buff.cold_blood.up||(!talent.danse_macabre&buff.shadow_dance.up||buff.danse_macabre.stack>=3)&!talent.cold_blood)||boss&fight_remains<10\nactions.items+=/use_item,name=witherbarks_branch,if=buff.flagellation_buff.up&talent.invigorating_shadowdust||buff.shadow_blades.up||equipped.bandolier_of_twisted_blades&raid_event.adds.up\nactions.items+=/use_item,name=mirror_of_fractured_tomorrows,if=buff.shadow_dance.up&(target.time_to_die>=15||equipped.ashes_of_the_embersoul)\nactions.items+=/use_item,name=beacon_to_the_beyond,use_off_gcd=1,if=!stealthed.all&(buff.deeper_daggers.up||!talent.deeper_daggers)&(!raid_event.adds.up||!equipped.stormeaters_boon||trinket.stormeaters_boon.cooldown.remains>20)\nactions.items+=/use_item,name=manic_grieftorch,use_off_gcd=1,if=!stealthed.all&(!raid_event.adds.up||!equipped.stormeaters_boon||trinket.stormeaters_boon.cooldown.remains>20)\nactions.items+=/use_item,name=treacherous_transmitter,if=buff.shadow_blades.up||fight_remains<=15\n## actions.items+=/do_treacherous_transmitter_task,if=buff.shadow_blades.up||fight_remains<=15\nactions.items+=/use_item,name=imperfect_ascendancy_serum,use_off_gcd=1,if=dot.rupture.ticking&buff.flagellation_buff.up\nactions.items+=/use_items,slots=trinket1,if=(variable.trinket_sync_slot=1&(buff.shadow_blades.up||(1+cooldown.shadow_blades.remains)>=trinket.1.cooldown.duration||boss&fight_remains<=20)||(variable.trinket_sync_slot=2&(!trinket.2.cooldown.ready&!buff.shadow_blades.up&cooldown.shadow_blades.remains>20))||!variable.trinket_sync_slot)\nactions.items+=/use_items,slots=trinket2,if=(variable.trinket_sync_slot=2&(buff.shadow_blades.up||(1+cooldown.shadow_blades.remains)>=trinket.2.cooldown.duration||boss&fight_remains<=20)||(variable.trinket_sync_slot=1&(!trinket.1.cooldown.ready&!buff.shadow_blades.up&cooldown.shadow_blades.remains>20))||!variable.trinket_sync_slot)\n\nactions.finish+=/variable,name=secret_condition,value=((buff.danse_macabre.stack>=3)||!talent.danse_macabre||(talent.unseen_blade&buff.shadow_dance.up&(buff.escalating_blade.stack>=2||buff.shadow_blades.up)))\n# Apply Rupture if its not up.\nactions.finish+=/rupture,if=!dot.rupture.ticking&target.time_to_die-remains>6\nactions.finish+=/variable,name=skip_rupture,value=buff.thistle_tea.up&spell_targets.shuriken_storm=1||buff.shadow_dance.up&(spell_targets.shuriken_storm=1||dot.rupture.ticking&spell_targets.shuriken_storm>=2)||buff.darkest_night.up\nactions.finish+=/rupture,if=(!variable.skip_rupture||priority_rotation)&target.time_to_die-remains>6&refreshable\nactions.finish+=/coup_de_grace,if=debuff.fazed.up&(buff.shadow_dance.up||(buff.symbols_of_death.up&cooldown.shadow_dance.charges_fractional<=0.85))\nactions.finish+=/cold_blood,if=variable.secret_condition&cooldown.secret_technique.ready\nactions.finish+=/secret_technique,if=variable.secret_condition&(!talent.cold_blood||cooldown.cold_blood.remains>buff.shadow_dance.remains-2||!talent.improved_shadow_dance)\nactions.finish+=/rupture,if=!variable.skip_rupture&buff.finality_rupture.up&(cooldown.symbols_of_death.remains<=3||buff.symbols_of_death.up)\n# deathstalker bp\nactions.finish+=/black_powder,if=!variable.priority_rotation&talent.deathstalkers_mark&spell_targets>=3&!buff.darkest_night.up\n# trickster bp\nactions.finish+=/black_powder,if=!variable.priority_rotation&talent.unseen_blade&((buff.escalating_blade.stack=4&!buff.shadow_dance.up)||spell_targets>=3&!buff.flawless_form.up||(!used_for_danse&buff.shadow_dance.up&talent.shuriken_tornado&spell_targets>=3))\nactions.finish+=/coup_de_grace,if=debuff.fazed.up\nactions.finish+=/eviscerate\n\n# No dust vanish\nactions.stealth_cds+=/vanish,if=!talent.invigorating_shadowdust&!talent.subterfuge&combo_points.deficit>=3&(!dot.rupture.ticking||(buff.shadow_blades.up&buff.symbols_of_death.up)||talent.premeditation||boss&fight_remains<10)\n# Dust Vanish\nactions.stealth_cds+=/vanish,if=!buff.shadow_dance.up&talent.invigorating_shadowdust&talent.deathstalkers_mark&(combo_points.deficit>1||buff.shadow_blades.up)&(cooldown.flagellation.remains>=60||!talent.flagellation||fight_remains<=(30*cooldown.vanish.charges))&cooldown.secret_technique.remains>=10\nactions.stealth_cds+=/shadow_dance,if=dot.rupture.ticking&variable.snd_condition&(buff.symbols_of_death.remains>=6&!buff.flagellation_buff.up||buff.symbols_of_death.up&buff.shadow_blades.up||buff.shadow_blades.up&!talent.invigorating_shadowdust)&cooldown.secret_technique.remains<10+12*!talent.invigorating_shadowdust&(!talent.the_first_dance||(combo_points.deficit>=7&!buff.shadow_blades.up||buff.shadow_blades.up))\n# No Dust subterfuge vanish\nactions.stealth_cds+=/vanish,if=!talent.invigorating_shadowdust&talent.subterfuge&combo_points.deficit>=3&(buff.symbols_of_death.up||cooldown.symbols_of_death.remains>=3)\nactions.stealth_cds+=/shadowmeld,if=energy>=40&combo_points.deficit>3\n\nactions.stealthed+=/shadowstrike,if=talent.deathstalkers_mark&!debuff.deathstalkers_mark.up&!buff.darkest_night.up\nactions.stealthed+=/call_action_list,name=finish,if=buff.darkest_night.up&combo_points==cp_max_spend\nactions.stealthed+=/call_action_list,name=finish,if=effective_combo_points>=cp_max_spend&!buff.darkest_night.up\nactions.stealthed+=/call_action_list,name=finish,if=buff.shuriken_tornado.up&combo_points.deficit<=2&!buff.darkest_night.up\nactions.stealthed+=/call_action_list,name=finish,if=(combo_points.deficit<=1+talent.deathstalkers_mark)&!buff.darkest_night.up\n# Use shadowstrike for Danse Macabre on aoe and for Trickster use it instead of storm on 2+ targets\nactions.stealthed+=/shadowstrike,if=(!used_for_danse&buff.shadow_blades.up)||(talent.unseen_blade&spell_targets>=2)\nactions.stealthed+=/shuriken_storm,if=!buff.premeditation.up&spell_targets>=4\nactions.stealthed+=/gloomblade,if=buff.lingering_shadow.remains>=10&buff.shadow_blades.up&spell_targets=1\nactions.stealthed+=/shadowstrike",
 },
 ["Demonology"] = {
 ["source"] = "https://github.com/simulationcraft/simc/blob/dragonflight/engine/class_modules/apl/warlock.cpp",
@@ -10037,9 +10036,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "mirror_of_fractured_tomorrows",
 ["criteria"] = "trinket.t1.is.mirror_of_fractured_tomorrows & variable.trinket_priority = 2 || trinket.t2.is.mirror_of_fractured_tomorrows & variable.trinket_priority = 1",
 ["name"] = "mirror_of_fractured_tomorrows",
-["action"] = "mirror_of_fractured_tomorrows",
 },
 {
 ["enabled"] = true,
@@ -10918,15 +10917,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "aimed_shot",
 ["description"] = "Precast Aimed Shot on one or two targets unless we could cleave it with Volley on two targets.",
 ["criteria"] = "active_enemies < 3 & ( ! talent.volley.enabled || active_enemies < 2 )",
-["action"] = "aimed_shot",
 },
 {
 ["enabled"] = true,
+["action"] = "steady_shot",
 ["description"] = "Precast Steady Shot on two targets if we are saving Aimed Shot to cleave with Volley, otherwise on three or more targets.",
 ["criteria"] = "active_enemies > 2 || talent.volley.enabled & active_enemies = 2",
-["action"] = "steady_shot",
 },
 },
 ["trinkets"] = {
@@ -10996,9 +10995,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "rapid_fire",
 ["description"] = "Hold Rapid Fire for up to 5s to proc Lunar Storm. Ignore Lunar Storm if Wailing Arrow is up.",
 ["criteria"] = "talent.lunar_storm.enabled & ( ! cooldown.lunar_storm.remains || cooldown.lunar_storm.remains > 5 || action.wailing_arrow.ready ) || ! talent.lunar_storm.enabled",
-["action"] = "rapid_fire",
 },
 {
 ["enabled"] = true,
@@ -11007,9 +11006,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "multishot",
 ["description"] = "Trigger Salvo if Volley isn't being used to trigger it.",
 ["criteria"] = "buff.salvo.up & ! talent.volley.enabled",
-["action"] = "multishot",
 },
 {
 ["enabled"] = true,
@@ -11183,21 +11182,21 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "( cooldown.fire_breath.remains < 4 || cooldown.eternity_surge.remains < 4 & ( ! set_bonus.tww1_4pc || ! talent.mass_disintegrate.enabled ) ) & ( cooldown.fire_breath.remains < 8 & ( cooldown.eternity_surge.remains < 8 || set_bonus.tww1_4pc & talent.mass_disintegrate.enabled ) ) & target.time_to_die >= 32 || boss & fight_remains < 32",
 ["action"] = "dragonrage",
 ["description"] = "Relaxed Dragonrage Entry Requirements, cannot reliably reach third extend under normal conditions (Bloodlust + Power Infusion/Very high haste gear) DS optimization: Only cast if current fight will last 32s+ or encounter ends in less than 30s",
-["criteria"] = "( cooldown.fire_breath.remains < 4 || cooldown.eternity_surge.remains < 4 & ( ! set_bonus.tww1_4pc || ! talent.mass_disintegrate.enabled ) ) & ( cooldown.fire_breath.remains < 8 & ( cooldown.eternity_surge.remains < 8 || set_bonus.tww1_4pc & talent.mass_disintegrate.enabled ) ) & target.time_to_die >= 32 || boss & fight_remains < 32",
 },
 {
 ["enabled"] = true,
+["criteria"] = "( ! talent.dragonrage.enabled || buff.dragonrage.up ) & ( cooldown.fire_breath.remains < cooldown.eternity_surge.remains || ( cooldown.eternity_surge.remains < cooldown.fire_breath.remains & talent.font_of_magic.enabled ) )",
 ["action"] = "tip_the_scales",
 ["description"] = "Tip second FB if not playing font of magic or if playing EBF, otherwise tip ES.",
-["criteria"] = "( ! talent.dragonrage.enabled || buff.dragonrage.up ) & ( cooldown.fire_breath.remains < cooldown.eternity_surge.remains || ( cooldown.eternity_surge.remains < cooldown.fire_breath.remains & talent.font_of_magic.enabled ) )",
 },
 {
 ["enabled"] = true,
+["criteria"] = "( buff.essence_burst.stack < buff.essence_burst.max_stack || ! talent.arcane_vigor.enabled ) & ( ! cooldown.eternity_surge.up || ! buff.dragonrage.up || talent.mass_disintegrate.enabled || ! talent.event_horizon.enabled & ( ! talent.traveling_flame.enabled || ! cooldown.engulf.up ) ) & ( cooldown.dragonrage.remains >= 15 || cooldown.fire_breath.remains >= 8 || buff.dragonrage.up & ( cooldown.fire_breath.remains <= gcd.max & buff.tip_the_scales.up || cooldown.tip_the_scales.remains >= 15 & ! buff.tip_the_scales.up ) || ! talent.traveling_flame.enabled ) & ( ! cooldown.fire_breath.up || buff.tip_the_scales.up )",
 ["action"] = "shattering_star",
 ["description"] = "Throw Star on CD, Don't overcap with Arcane Vigor.",
-["criteria"] = "( buff.essence_burst.stack < buff.essence_burst.max_stack || ! talent.arcane_vigor.enabled ) & ( ! cooldown.eternity_surge.up || ! buff.dragonrage.up || talent.mass_disintegrate.enabled || ! talent.event_horizon.enabled & ( ! talent.traveling_flame.enabled || ! cooldown.engulf.up ) ) & ( cooldown.dragonrage.remains >= 15 || cooldown.fire_breath.remains >= 8 || buff.dragonrage.up & ( cooldown.fire_breath.remains <= gcd.max & buff.tip_the_scales.up || cooldown.tip_the_scales.remains >= 15 & ! buff.tip_the_scales.up ) || ! talent.traveling_flame.enabled ) & ( ! cooldown.fire_breath.up || buff.tip_the_scales.up )",
 },
 {
 ["enabled"] = true,
@@ -11236,9 +11235,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.dragonrage.up & buff.dragonrage.remains < ( buff.essence_burst.max_stack - buff.essence_burst.stack ) * gcd.max & buff.burnout.up",
 ["action"] = "living_flame",
 ["description"] = "Spend the last 1 or 2 GCDs of DR on fillers to exit with 2 EBs",
-["criteria"] = "buff.dragonrage.up & buff.dragonrage.remains < ( buff.essence_burst.max_stack - buff.essence_burst.stack ) * gcd.max & buff.burnout.up",
 },
 {
 ["enabled"] = true,
@@ -11252,15 +11251,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.burnout.up & buff.leaping_flames.up & ! buff.essence_burst.up & buff.dragonrage.up",
 ["action"] = "living_flame",
 ["description"] = "Spend burnout procs without overcapping resources",
-["criteria"] = "buff.burnout.up & buff.leaping_flames.up & ! buff.essence_burst.up & buff.dragonrage.up",
 },
 {
 ["enabled"] = true,
+["criteria"] = "! buff.dragonrage.up & debuff.shattering_star_debuff.down & talent.feed_the_flames.enabled & ( ( ! talent.dragonrage.enabled || cooldown.dragonrage.remains >= 10 ) & ( essence >= 3 || buff.essence_burst.up || talent.shattering_star.enabled & cooldown.shattering_star.remains <= 6 ) || talent.dragonrage.enabled & cooldown.dragonrage.remains <= cast_time & cooldown.fire_breath.remains < 6 & cooldown.eternity_surge.remains < 12 ) & ! debuff.in_firestorm.up",
 ["action"] = "firestorm",
 ["description"] = "Hard cast only outside of SS and DR windows",
-["criteria"] = "! buff.dragonrage.up & debuff.shattering_star_debuff.down & talent.feed_the_flames.enabled & ( ( ! talent.dragonrage.enabled || cooldown.dragonrage.remains >= 10 ) & ( essence >= 3 || buff.essence_burst.up || talent.shattering_star.enabled & cooldown.shattering_star.remains <= 6 ) || talent.dragonrage.enabled & cooldown.dragonrage.remains <= cast_time & cooldown.fire_breath.remains < 6 & cooldown.eternity_surge.remains < 12 ) & ! debuff.in_firestorm.up",
 },
 {
 ["enabled"] = true,
@@ -11269,9 +11268,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "debuff.in_firestorm.up & talent.feed_the_flames.enabled & buff.charged_blast.stack = 20 & active_enemies >= 2",
 ["action"] = "pyre",
 ["description"] = "Spend pyre if raging inferno debuff is active and you have 20 stacks of CB on 2T",
-["criteria"] = "debuff.in_firestorm.up & talent.feed_the_flames.enabled & buff.charged_blast.stack = 20 & active_enemies >= 2",
 },
 {
 ["enabled"] = true,
@@ -11283,25 +11282,25 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "disintegrate",
 ["chain"] = "1",
-["description"] = "Dis logic Early Chain if needed for resources management. Clip after in DR after third tick for more important buttons.",
 ["cycle_targets"] = 1,
 ["interrupt_if"] = "evoker.use_clipping&ticks>=2&(raid_event.movement.in>2||buff.hover.up)",
 ["early_chain_if"] = "evoker.use_early_chaining&ticks>=2&(raid_event.movement.in>2||buff.hover.up)",
 ["criteria"] = "( raid_event.movement.in > 2 || buff.hover.up ) & ! variable.pool_for_id",
-["action"] = "disintegrate",
+["description"] = "Dis logic Early Chain if needed for resources management. Clip after in DR after third tick for more important buttons.",
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.snapfire.up || ! debuff.in_firestorm.up & talent.feed_the_flames.enabled",
 ["action"] = "firestorm",
 ["description"] = "Spend firestorm procs ASAP",
-["criteria"] = "buff.snapfire.up || ! debuff.in_firestorm.up & talent.feed_the_flames.enabled",
 },
 {
 ["enabled"] = true,
+["criteria"] = "! buff.dragonrage.up & active_enemies >= 2 & ( ( raid_event.adds.in >= 120 & ! talent.onyx_legacy.enabled ) || ( raid_event.adds.in >= 60 & talent.onyx_legacy.enabled ) )",
 ["action"] = "deep_breath",
 ["description"] = "Use Deep Breath on 2T, unless adds will come before it'll be ready again or if talented ID.",
-["criteria"] = "! buff.dragonrage.up & active_enemies >= 2 & ( ( raid_event.adds.in >= 120 & ! talent.onyx_legacy.enabled ) || ( raid_event.adds.in >= 60 & talent.onyx_legacy.enabled ) )",
 },
 {
 ["enabled"] = true,
@@ -11316,9 +11315,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "! buff.dragonrage.up || ( buff.iridescence_red.remains > execute_time || ! talent.engulfing_blaze.enabled || buff.iridescence_blue.up || buff.burnout.up || buff.leaping_flames.up & cooldown.fire_breath.remains <= 5 ) & active_enemies = 1",
 ["action"] = "living_flame",
 ["description"] = "Cast LF outside of DR, In DR only cast with Iridescence.",
-["criteria"] = "! buff.dragonrage.up || ( buff.iridescence_red.remains > execute_time || ! talent.engulfing_blaze.enabled || buff.iridescence_blue.up || buff.burnout.up || buff.leaping_flames.up & cooldown.fire_breath.remains <= 5 ) & active_enemies = 1",
 },
 {
 ["action"] = "azure_strike",
@@ -11328,9 +11327,9 @@ HekiliDB = {
 ["default"] = {
 {
 ["enabled"] = true,
+["criteria"] = "buff.dragonrage.up & ( ! cooldown.shattering_star.up || active_enemies >= 2 ) || boss & fight_remains < 35",
 ["action"] = "potion",
 ["description"] = "Delay pot in ST if you are about to SS - mostly relevant for opener where you want DR->FB->SS->rotation",
-["criteria"] = "buff.dragonrage.up & ( ! cooldown.shattering_star.up || active_enemies >= 2 ) || boss & fight_remains < 35",
 },
 {
 ["enabled"] = true,
@@ -11404,15 +11403,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.snapfire.up",
 ["action"] = "firestorm",
 ["description"] = "Spend firestorm procs ASAP",
-["criteria"] = "buff.snapfire.up",
 },
 {
 ["enabled"] = true,
+["criteria"] = "talent.feed_the_flames.enabled",
 ["action"] = "firestorm",
 ["description"] = "Acquire the buff",
-["criteria"] = "talent.feed_the_flames.enabled",
 },
 {
 ["enabled"] = true,
@@ -11432,9 +11431,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.dragonrage.up & ( ( active_enemies <= 3 + 3 * talent.eternitys_span.enabled & ! talent.engulf.enabled ) || ! cooldown.fire_breath.up )",
 ["action"] = "tip_the_scales",
 ["description"] = "Tip ES at appropiate target count or when playing Flameshaper otherwise Tip FB",
-["criteria"] = "buff.dragonrage.up & ( ( active_enemies <= 3 + 3 * talent.eternitys_span.enabled & ! talent.engulf.enabled ) || ! cooldown.fire_breath.up )",
 },
 {
 ["enabled"] = true,
@@ -11452,9 +11451,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "! buff.dragonrage.up & essence.deficit > 3",
 ["action"] = "deep_breath",
 ["description"] = "Cast DB if not in DR and not going to overflow essence.",
-["criteria"] = "! buff.dragonrage.up & essence.deficit > 3",
 },
 {
 ["enabled"] = true,
@@ -11497,13 +11496,13 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "disintegrate",
 ["chain"] = "1",
-["description"] = "Yoinked the disintegrate logic from ST",
 ["cycle_targets"] = 1,
 ["interrupt_if"] = "evoker.use_clipping&buff.dragonrage.up&ticks>=2&(raid_event.movement.in>2||buff.hover.up)",
 ["early_chain_if"] = "evoker.use_early_chaining&ticks>=2&(raid_event.movement.in>2||buff.hover.up)",
 ["criteria"] = "( raid_event.movement.in > 2 || buff.hover.up ) & ! variable.pool_for_id",
-["action"] = "disintegrate",
+["description"] = "Yoinked the disintegrate logic from ST",
 },
 {
 ["enabled"] = true,
@@ -11529,9 +11528,9 @@ HekiliDB = {
 ["trinkets"] = {
 {
 ["enabled"] = true,
+["name"] = "spymasters_web",
 ["action"] = "spymasters_web",
 ["criteria"] = "buff.dragonrage.up & ( fight_remains < 130 ) & buff.spymasters_report.stack >= 15 || ( boss & fight_remains <= 20 || cooldown.engulf.up & talent.engulf.enabled & fight_remains <= 40 & cooldown.dragonrage.remains >= 40 )",
-["name"] = "spymasters_web",
 },
 {
 ["enabled"] = true,
@@ -11728,9 +11727,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "talent.scarlet_adaptation.enabled",
 ["action"] = "verdant_embrace",
 ["description"] = "Get Some Scarlet Adaptation Prepull",
-["criteria"] = "talent.scarlet_adaptation.enabled",
 },
 {
 ["enabled"] = true,
@@ -11867,9 +11866,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "tanking & incoming_damage_5s >= ibf_damage & ! ( buff.dancing_rune_weapon.up || buff.vampiric_blood.up )",
 ["action"] = "icebound_fortitude",
 ["description"] = "Use Icebound Fortitude if you're taking sufficient damage and you don't have Dancing Rune Weapon or Vampiric Blood up.",
-["criteria"] = "tanking & incoming_damage_5s >= ibf_damage & ! ( buff.dancing_rune_weapon.up || buff.vampiric_blood.up )",
 },
 {
 ["enabled"] = true,
@@ -11878,15 +11877,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "tanking & incoming_damage_5s >= rt_damage & ! ( buff.dancing_rune_weapon.up || buff.vampiric_blood.up || buff.icebound_fortitude.up )",
 ["action"] = "rune_tap",
 ["description"] = "Use Rune Tap if you're taking sufficient damage and you don't have Dancing Rune Weapon, Vampiric Blood, or Icebound Fortitude up.",
-["criteria"] = "tanking & incoming_damage_5s >= rt_damage & ! ( buff.dancing_rune_weapon.up || buff.vampiric_blood.up || buff.icebound_fortitude.up )",
 },
 {
 ["enabled"] = true,
+["criteria"] = "settings.save_blood_shield & buff.blood_shield.up & buff.blood_shield.remains <= gcd.max",
 ["action"] = "death_strike",
 ["description"] = "Use Death Strike if your Blood Shield is going to expire.",
-["criteria"] = "settings.save_blood_shield & buff.blood_shield.up & buff.blood_shield.remains <= gcd.max",
 },
 {
 ["enabled"] = true,
@@ -12257,6 +12256,11 @@ HekiliDB = {
 },
 },
 [260] = {
+["abilities"] = {
+["sinister_strike"] = {
+["clash"] = -0.5,
+},
+},
 ["settings"] = {
 ["never_roll_in_window"] = false,
 ["stealth_padding"] = 0.2,
@@ -12266,11 +12270,6 @@ HekiliDB = {
 ["allow_shadowmeld"] = false,
 ["sinister_clash"] = -0.5,
 ["crackshot_lock"] = false,
-},
-["abilities"] = {
-["sinister_strike"] = {
-["clash"] = -0.5,
-},
 },
 },
 [71] = {
@@ -12302,16 +12301,16 @@ HekiliDB = {
 ["settings"] = {
 ["rupture_duration"] = 12,
 ["mfd_points"] = 3,
-["priority_rotation"] = false,
 ["solo_vanish"] = true,
+["priority_rotation"] = false,
 },
 },
 [1468] = {
 ["settings"] = {
-["fire_breath_fixed"] = 0,
-["use_unravel"] = false,
 ["spend_essence"] = false,
 ["use_deep_breath"] = true,
+["fire_breath_fixed"] = 0,
+["use_unravel"] = false,
 },
 },
 [251] = {
