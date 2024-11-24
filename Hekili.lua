@@ -12,21 +12,21 @@ HekiliDB = {
 ["Rage - 金色平原"] = "Default",
 ["Laofuzi - 国王之谷"] = "Default",
 ["Zehir - Tichondrius"] = "Default",
-["Typ - Tichondrius"] = "Default",
+["Veneno - Tichondrius"] = "Default",
 ["Typhoon - 国王之谷"] = "Default",
 ["Laperte - Tichondrius"] = "Default",
 ["Azuth - 暗影之月"] = "Default",
 ["假行僧 - 国王之谷"] = "Default",
 ["Shado - 国王之谷"] = "Default",
-["Veneno - Tichondrius"] = "Default",
+["Diabo - Tichondrius"] = "Default",
 ["Zxcvb - 国王之谷"] = "Default",
 ["鉄観音 - 国王之谷"] = "Default",
 ["Epic - 国王之谷"] = "Default",
-["Diabo - Tichondrius"] = "Default",
+["Wokao - Tichondrius"] = "Default",
 ["歌丹恩丶石戒 - 金色平原"] = "Default",
 ["福音 - 萨格拉斯"] = "Default",
-["Wokao - Tichondrius"] = "Default",
 ["Pazuru - Tichondrius"] = "Default",
+["Typ - Tichondrius"] = "Default",
 ["Aqei - Tichondrius"] = "Default",
 },
 ["profiles"] = {
@@ -216,6 +216,7 @@ HekiliDB = {
 [72] = {
 ["settings"] = {
 ["check_ww_range"] = true,
+["charge_min_range"] = 10,
 ["spell_reflection_filter"] = true,
 ["shockwave_interrupt"] = true,
 ["t30_bloodthirst_crit"] = 95,
@@ -396,26 +397,6 @@ HekiliDB = {
 },
 [73] = {
 ["package"] = "Protection Warrior_TANK",
-["abilities"] = {
-["shield_charge"] = {
-["disabled"] = true,
-},
-["avatar"] = {
-["disabled"] = true,
-},
-["thunderous_roar"] = {
-["disabled"] = true,
-},
-["ravager"] = {
-["disabled"] = true,
-},
-["fireblood"] = {
-["disabled"] = true,
-},
-["champions_spear"] = {
-["disabled"] = true,
-},
-},
 ["settings"] = {
 ["spell_block_amount"] = 25,
 ["shield_wall_amount"] = 20,
@@ -432,6 +413,26 @@ HekiliDB = {
 ["last_stand_health"] = 70,
 ["victory_rush_health"] = 75,
 ["overlap_ignore_pain"] = true,
+},
+["abilities"] = {
+["shield_charge"] = {
+["disabled"] = true,
+},
+["avatar"] = {
+["disabled"] = true,
+},
+["fireblood"] = {
+["disabled"] = true,
+},
+["ravager"] = {
+["disabled"] = true,
+},
+["thunderous_roar"] = {
+["disabled"] = true,
+},
+["champions_spear"] = {
+["disabled"] = true,
+},
 },
 },
 [102] = {
@@ -5670,12 +5671,12 @@ HekiliDB = {
 ["Fury"] = {
 ["source"] = "https://github.com/simulationcraft/simc/",
 ["builtIn"] = true,
-["date"] = 20241109,
+["date"] = 20241119,
 ["author"] = "SimC",
-["desc"] = "2024-11-09: Fix Reckless Abandon and action-list splitting\n\n2024-10-30: SimC update\n\n2024-10-22: 11.0.5 update; enable pre-Hero talents\n\n2024-10-21: SimC update\n\n2024-10-06: Fix trinket/variables order\n\n2024-09-03, 09-05, 09-10, 09-22: SimC update\n\n2024-08-25: Update using Icy-Veins\n\n2024-08-15: Sim update\n\n2024-07-30: Sim update\n\n2024-07-23: The War Within",
-["profile"] = "actions.precombat+=/battle_shout\nactions.precombat+=/berserker_stance,toggle=on\nactions.precombat+=/variable,name=treacherous_transmitter_precombat_cast,value=2\nactions.precombat+=/use_item,name=treacherous_transmitter\nactions.precombat+=/recklessness,if=!equipped.fyralath_the_dreamrender\nactions.precombat+=/avatar,if=!talent.titans_torment\nactions.precombat+=/variable,name=trinket_1_exclude,value=trinket.1.is.treacherous_transmitter\nactions.precombat+=/variable,name=trinket_2_exclude,value=trinket.2.is.treacherous_transmitter\n# Evaluates a trinkets cooldown, divided by avatar or odyns fur. If it's value has no remainder return 1, else return 0.5.\nactions.precombat+=/variable,name=trinket_1_sync,op=setif,value=1,value_else=0.5,condition=trinket.1.has_use_buff&(trinket.1.cooldown.duration%%cooldown.avatar.duration=0||trinket.1.cooldown.duration%%cooldown.odyns_fury.duration=0)\nactions.precombat+=/variable,name=trinket_2_sync,op=setif,value=1,value_else=0.5,condition=trinket.2.has_use_buff&(trinket.2.cooldown.duration%%cooldown.avatar.duration=0||trinket.2.cooldown.duration%%cooldown.odyns_fury.duration=0)\nactions.precombat+=/variable,name=trinket_1_buffs,value=trinket.1.has_use_buff||(trinket.1.has_stat.any_dps&!variable.trinket_1_exclude)\nactions.precombat+=/variable,name=trinket_2_buffs,value=trinket.2.has_use_buff||(trinket.2.has_stat.any_dps&!variable.trinket_2_exclude)\nactions.precombat+=/variable,name=trinket_priority,op=setif,value=2,value_else=1,condition=!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.2.cooldown.duration%trinket.2.proc.any_dps.duration)*(1.5+trinket.2.has_buff.strength)*(variable.trinket_2_sync))>((trinket.1.cooldown.duration%trinket.1.proc.any_dps.duration)*(1.5+trinket.1.has_buff.strength)*(variable.trinket_1_sync))\nactions.precombat+=/variable,name=trinket_1_manual,value=trinket.1.is.algethar_puzzle_box\nactions.precombat+=/variable,name=trinket_2_manual,value=trinket.2.is.algethar_puzzle_box\n\nactions+=/pummel,if=target.debuff.casting.react\nactions+=/charge,if=time<=0.5||movement.distance>5\nactions+=/heroic_leap,if=movement.distance>25\nactions+=/potion\nactions+=/call_action_list,name=variables\nactions+=/call_action_list,name=trinkets\nactions+=/lights_judgment,if=variable.on_gcd_racials\nactions+=/bag_of_tricks,if=variable.on_gcd_racials\nactions+=/berserking,if=buff.recklessness.up\nactions+=/blood_fury\nactions+=/fireblood\nactions+=/ancestral_call\n## actions+=/invoke_external_buff,name=power_infusion,if=buff.avatar.remains>15&fight_remains>=135||variable.execute_phase&buff.avatar.up||fight_remains<=25\nactions+=/run_action_list,name=slayer_ra_st,strict=1,if=talent.slayers_dominance&talent.reckless_abandon&active_enemies=1\nactions+=/run_action_list,name=slayer_am_st,strict=1,if=talent.slayers_dominance&(talent.anger_management||!talent.reckless_abandon)&active_enemies=1\nactions+=/run_action_list,name=slayer_ra_mt,strict=1,if=talent.slayers_dominance&talent.reckless_abandon&active_enemies>1\nactions+=/run_action_list,name=slayer_am_mt,strict=1,if=talent.slayers_dominance&(talent.anger_management||!talent.reckless_abandon)&active_enemies>1\nactions+=/run_action_list,name=thane_ra_st,strict=1,if=!talent.slayers_dominance&talent.reckless_abandon&active_enemies=1\nactions+=/run_action_list,name=thane_am_st,strict=1,if=!talent.slayers_dominance&(talent.anger_management||!talent.reckless_abandon)&active_enemies=1\nactions+=/run_action_list,name=thane_ra_mt,strict=1,if=!talent.slayers_dominance&talent.reckless_abandon&active_enemies>1\nactions+=/run_action_list,name=thane_am_mt,strict=1,if=!talent.slayers_dominance&(talent.anger_management||!talent.reckless_abandon)&active_enemies>1\n\nactions.slayer_am_st+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.slayer_am_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_am_st+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_am_st+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_am_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_am_st+=/execute,if=debuff.marked_for_execution.stack=3||buff.ashen_juggernaut.remains<2||buff.sudden_death.stack=2&buff.sudden_death.remains<7||buff.sudden_death.remains<2\nactions.slayer_am_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_am_st+=/bladestorm,if=buff.enrage.up&(cooldown.recklessness.remains>=9||cooldown.avatar.remains>=9)\nactions.slayer_am_st+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_am_st+=/rampage,if=!buff.enrage.up\nactions.slayer_am_st+=/raging_blow,if=buff.opportunist.up\nactions.slayer_am_st+=/bloodthirst,if=target.health.pct<35&talent.vicious_contempt&buff.bloodcraze.stack>=2\nactions.slayer_am_st+=/rampage,if=action.raging_blow.charges<=1&rage>=115\nactions.slayer_am_st+=/bloodthirst,if=buff.bloodcraze.stack>3||crit_pct_current>=85\nactions.slayer_am_st+=/raging_blow\nactions.slayer_am_st+=/bloodthirst\nactions.slayer_am_st+=/execute\nactions.slayer_am_st+=/rampage\nactions.slayer_am_st+=/onslaught,if=talent.tenderize\nactions.slayer_am_st+=/whirlwind,if=talent.meat_cleaver\nactions.slayer_am_st+=/slam\nactions.slayer_am_st+=/storm_bolt,if=buff.bladestorm.up\n\nactions.slayer_ra_st+=/recklessness,if=cooldown.avatar.remains<1&talent.titans_torment||!talent.titans_torment\nactions.slayer_ra_st+=/rampage,if=!buff.enrage.up\nactions.slayer_ra_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_ra_st+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_ra_st+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_ra_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_ra_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_ra_st+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=9\nactions.slayer_ra_st+=/execute,if=debuff.marked_for_execution.stack=3||buff.ashen_juggernaut.remains<2||buff.sudden_death.stack=2&buff.sudden_death.remains<7||buff.sudden_death.remains<2\nactions.slayer_ra_st+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_ra_st+=/bloodbath,if=crit_pct_current>=85||buff.bloodcraze.stack>=3\nactions.slayer_ra_st+=/crushing_blow\nactions.slayer_ra_st+=/onslaught,if=talent.tenderize\nactions.slayer_ra_st+=/bloodbath,if=target.health.pct<35&talent.vicious_contempt\nactions.slayer_ra_st+=/rampage,if=rage>=115\nactions.slayer_ra_st+=/raging_blow\nactions.slayer_ra_st+=/bloodbath\nactions.slayer_ra_st+=/rampage\nactions.slayer_ra_st+=/bloodthirst\nactions.slayer_ra_st+=/execute\nactions.slayer_ra_st+=/onslaught\nactions.slayer_ra_st+=/whirlwind,if=talent.meat_cleaver\nactions.slayer_ra_st+=/slam\nactions.slayer_ra_st+=/storm_bolt,if=buff.bladestorm.up\n\nactions.slayer_am_mt+=/recklessness\nactions.slayer_am_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_am_mt+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_am_mt+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_am_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_am_mt+=/whirlwind,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.slayer_am_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.slayer_am_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_am_mt+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=5\nactions.slayer_am_mt+=/onslaught,if=talent.tenderize\nactions.slayer_am_mt+=/execute,if=buff.enrage.up&debuff.marked_for_execution.stack=3\nactions.slayer_am_mt+=/rampage,if=!buff.enrage.up\nactions.slayer_am_mt+=/bloodthirst\nactions.slayer_am_mt+=/rampage,if=buff.slaughtering_strikes.stack>=2\nactions.slayer_am_mt+=/raging_blow\nactions.slayer_am_mt+=/execute,if=buff.enrage.up\nactions.slayer_am_mt+=/rampage\nactions.slayer_am_mt+=/onslaught\nactions.slayer_am_mt+=/whirlwind\nactions.slayer_am_mt+=/storm_bolt,if=buff.bladestorm.up\n\nactions.slayer_ra_mt+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||!talent.titans_torment\nactions.slayer_ra_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment&buff.enrage.up\nactions.slayer_ra_mt+=/rampage,if=!buff.enrage.up&!talent.titans_torment\nactions.slayer_ra_mt+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_ra_mt+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_ra_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_ra_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_ra_mt+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=9&buff.enrage.remains>3\nactions.slayer_ra_mt+=/whirlwind,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.slayer_ra_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.slayer_ra_mt+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_ra_mt+=/rampage,if=!buff.enrage.up\nactions.slayer_ra_mt+=/bloodbath,if=active_enemies>=6\nactions.slayer_ra_mt+=/crushing_blow\nactions.slayer_ra_mt+=/bloodbath\nactions.slayer_ra_mt+=/bloodthirst,if=active_enemies>=6\nactions.slayer_ra_mt+=/execute,if=buff.enrage.up&debuff.marked_for_execution.up\nactions.slayer_ra_mt+=/onslaught,if=talent.tenderize\nactions.slayer_ra_mt+=/rampage,if=rage>115\nactions.slayer_ra_mt+=/raging_blow,if=talent.slaughtering_strikes\nactions.slayer_ra_mt+=/onslaught\nactions.slayer_ra_mt+=/bloodthirst\nactions.slayer_ra_mt+=/raging_blow\nactions.slayer_ra_mt+=/whirlwind\nactions.slayer_ra_mt+=/storm_bolt,if=buff.bladestorm.up\n\nactions.thane_am_st+=/recklessness,if=talent.anger_management||!talent.titans_torment\nactions.thane_am_st+=/thunder_blast,if=buff.enrage.up\nactions.thane_am_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.thane_am_st+=/ravager\nactions.thane_am_st+=/thunderous_roar,if=buff.enrage.up\nactions.thane_am_st+=/champions_spear,if=buff.enrage.up&(cooldown.avatar.remains<gcd||!talent.titans_torment)\nactions.thane_am_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_am_st+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_am_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_am_st+=/bladestorm,if=buff.enrage.up&talent.unhinged\nactions.thane_am_st+=/onslaught,if=talent.tenderize\nactions.thane_am_st+=/rampage\nactions.thane_am_st+=/bloodthirst,if=talent.vicious_contempt&target.health.pct<35&buff.bloodcraze.stack>=2||!dot.ravager.remains&buff.bloodcraze.stack>=3\nactions.thane_am_st+=/raging_blow\nactions.thane_am_st+=/execute,if=talent.ashen_juggernaut\nactions.thane_am_st+=/bloodthirst\nactions.thane_am_st+=/execute\nactions.thane_am_st+=/thunder_clap\n\nactions.thane_ra_st+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.thane_ra_st+=/thunder_blast,if=buff.enrage.up\nactions.thane_ra_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment&buff.enrage.up\nactions.thane_ra_st+=/ravager\nactions.thane_ra_st+=/thunderous_roar,if=buff.enrage.up\nactions.thane_ra_st+=/champions_spear,if=buff.enrage.up&(cooldown.avatar.remains<gcd||!talent.titans_torment)\nactions.thane_ra_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_ra_st+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_ra_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_ra_st+=/bladestorm,if=buff.enrage.up&talent.unhinged\nactions.thane_ra_st+=/rampage,if=!buff.enrage.up\nactions.thane_ra_st+=/bloodbath,if=talent.vicious_contempt&target.health.pct<35||buff.bloodcraze.stack>=3\nactions.thane_ra_st+=/crushing_blow\nactions.thane_ra_st+=/onslaught,if=talent.tenderize\nactions.thane_ra_st+=/rampage,if=rage>=115\nactions.thane_ra_st+=/raging_blow\nactions.thane_ra_st+=/bloodbath\nactions.thane_ra_st+=/bloodthirst,if=buff.enrage.up&!buff.burst_of_power.up\nactions.thane_ra_st+=/rampage\nactions.thane_ra_st+=/execute\nactions.thane_ra_st+=/onslaught\nactions.thane_ra_st+=/bloodthirst\nactions.thane_ra_st+=/thunder_clap\nactions.thane_ra_st+=/whirlwind,if=talent.meat_cleaver\nactions.thane_ra_st+=/slam\n\nactions.thane_am_mt+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.thane_am_mt+=/thunder_blast,if=buff.enrage.up\nactions.thane_am_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.thane_am_mt+=/thunder_clap,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.thane_am_mt+=/thunderous_roar,if=buff.enrage.up\nactions.thane_am_mt+=/ravager\nactions.thane_am_mt+=/champions_spear,if=buff.enrage.up\nactions.thane_am_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_am_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_am_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_am_mt+=/bladestorm,if=buff.enrage.up\nactions.thane_am_mt+=/onslaught,if=talent.tenderize\nactions.thane_am_mt+=/rampage\nactions.thane_am_mt+=/bloodthirst\nactions.thane_am_mt+=/thunder_clap,if=active_enemies>=3\nactions.thane_am_mt+=/raging_blow\nactions.thane_am_mt+=/thunder_clap\nactions.thane_am_mt+=/onslaught\nactions.thane_am_mt+=/execute\nactions.thane_am_mt+=/whirlwind\nactions.thane_am_mt+=/slam\n\nactions.thane_ra_mt+=/recklessness,if=cooldown.avatar.remains<1&talent.titans_torment||!talent.titans_torment\nactions.thane_ra_mt+=/thunder_blast,if=buff.enrage.up\nactions.thane_ra_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment&buff.enrage.up\nactions.thane_ra_mt+=/thunder_clap,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.thane_ra_mt+=/thunderous_roar,if=buff.enrage.up\nactions.thane_ra_mt+=/ravager\nactions.thane_ra_mt+=/champions_spear,if=buff.enrage.up\nactions.thane_ra_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_ra_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_ra_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_ra_mt+=/bladestorm,if=buff.enrage.up\nactions.thane_ra_mt+=/onslaught,if=talent.tenderize\nactions.thane_ra_mt+=/rampage,if=!buff.enrage.up\nactions.thane_ra_mt+=/bloodbath\nactions.thane_ra_mt+=/crushing_blow\nactions.thane_ra_mt+=/rampage,if=buff.recklessness.up||rage>115\nactions.thane_ra_mt+=/onslaught,if=talent.tenderize\nactions.thane_ra_mt+=/bloodthirst\nactions.thane_ra_mt+=/thunder_clap\nactions.thane_ra_mt+=/raging_blow\nactions.thane_ra_mt+=/onslaught\nactions.thane_ra_mt+=/rampage\nactions.thane_ra_mt+=/execute\nactions.thane_ra_mt+=/whirlwind\n\n# Trinkets\n## actions.trinkets+=/do_treacherous_transmitter_task\nactions.trinkets+=/use_item,name=treacherous_transmitter,if=variable.adds_remain||variable.st_planning\n# Trinkets The trinket with the highest estimated value, will be used first and paired with Avatar.\nactions.trinkets+=/use_item,slot=trinket1,if=variable.trinket_1_buffs&!variable.trinket_1_manual&(!buff.avatar.up&trinket.1.cast_time>0||!trinket.1.cast_time>0)&((talent.titans_torment&cooldown.avatar.ready)||(buff.avatar.up&!talent.titans_torment))&(variable.trinket_2_exclude||!trinket.2.has_cooldown||trinket.2.cooldown.remains||variable.trinket_priority=1)||trinket.1.proc.any_dps.duration>=fight_remains&boss\nactions.trinkets+=/use_item,slot=trinket2,if=variable.trinket_2_buffs&!variable.trinket_2_manual&(!buff.avatar.up&trinket.2.cast_time>0||!trinket.2.cast_time>0)&((talent.titans_torment&cooldown.avatar.ready)||(buff.avatar.up&!talent.titans_torment))&(variable.trinket_1_exclude||!trinket.1.has_cooldown||trinket.1.cooldown.remains||variable.trinket_priority=2)||trinket.2.proc.any_dps.duration>=fight_remains&boss\n# If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.\nactions.trinkets+=/use_item,slot=trinket1,if=!variable.trinket_1_buffs&(trinket.1.cast_time>0&!buff.avatar.up||!trinket.1.cast_time>0)&!variable.trinket_1_manual&(!variable.trinket_1_buffs&(trinket.2.cooldown.remains||!variable.trinket_2_buffs)||(trinket.1.cast_time>0&!buff.avatar.up||!trinket.1.cast_time>0)||cooldown.avatar.remains_expected>20)\nactions.trinkets+=/use_item,slot=trinket2,if=!variable.trinket_2_buffs&(trinket.2.cast_time>0&!buff.avatar.up||!trinket.2.cast_time>0)&!variable.trinket_2_manual&(!variable.trinket_2_buffs&(trinket.1.cooldown.remains||!variable.trinket_1_buffs)||(trinket.2.cast_time>0&!buff.avatar.up||!trinket.2.cast_time>0)||cooldown.avatar.remains_expected>20)\nactions.trinkets+=/use_item,slot=main_hand,if=!equipped.fyralath_the_dreamrender&(!variable.trinket_1_buffs||trinket.1.cooldown.remains)&(!variable.trinket_2_buffs||trinket.2.cooldown.remains)\n\n# Variables\nactions.variables+=/variable,name=st_planning,value=active_enemies=1&(raid_event.adds.in>15||!raid_event.adds.exists)\nactions.variables+=/variable,name=adds_remain,value=active_enemies>=2&(!raid_event.adds.exists||raid_event.adds.exists&raid_event.adds.remains>5)\nactions.variables+=/variable,name=execute_phase,value=(talent.massacre.enabled&target.health.pct<35)||target.health.pct<20\nactions.variables+=/variable,name=on_gcd_racials,value=buff.recklessness.down&buff.avatar.down&rage<80&buff.bloodbath.down&buff.crushing_blow.down&buff.sudden_death.down&!cooldown.bladestorm.ready&(!cooldown.execute.ready||!variable.execute_phase)",
-["version"] = 20241109,
-["warnings"] = "The import for 'slayer_ra_st' required some automated changes.\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 7: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 13: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 14: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 22: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nThe import for 'thane_am_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 8: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 9: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.unhinged' to 'talent.unhinged.enabled' (1x).\nLine 11: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 13: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 15: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\n\nThe import for 'thane_am_mt' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 8: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 9: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 10: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 12: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\n\nThe import for 'slayer_am_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 7: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 9: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 12: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 19: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 20: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nThe import for 'slayer_ra_mt' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 7: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 9: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 10: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 11: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 18: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 20: Converted 'talent.slaughtering_strikes' to 'talent.slaughtering_strikes.enabled' (1x).\n\nThe import for 'thane_ra_mt' required some automated changes.\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 8: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 9: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 10: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 12: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 17: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\n\nThe import for 'default' required some automated changes.\nLine 13: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 13: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 14: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 14: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 14: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 15: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 15: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 16: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 16: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 16: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 17: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 17: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 18: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 18: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 18: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 19: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 19: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 20: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 20: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 20: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\n\nThe import for 'precombat' required some automated changes.\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'trinket.1.is.treacherous_transmitter' to 'trinket.t1.is.treacherous_transmitter' (1x).\nLine 8: Converted 'trinket.2.is.treacherous_transmitter' to 'trinket.t2.is.treacherous_transmitter' (1x).\nLine 9: Converted 'trinket.1.has_use_buff' to 'trinket.t1.has_use_buff' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 9: Converted operations in 'trinket.t1.has_use_buff&(trinket.t1.cooldown.duration%%cooldown.avatar.duration=0||trinket.t1.cooldown.duration%%cooldown.odyns_fury.duration=0)' to 'trinket.t1.has_use_buff&(trinket.t1.cooldown.duration%cooldown.avatar.duration=0||trinket.t1.cooldown.duration%cooldown.odyns_fury.duration=0)'.\nLine 10: Converted 'trinket.2.has_use_buff' to 'trinket.t2.has_use_buff' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 10: Converted operations in 'trinket.t2.has_use_buff&(trinket.t2.cooldown.duration%%cooldown.avatar.duration=0||trinket.t2.cooldown.duration%%cooldown.odyns_fury.duration=0)' to 'trinket.t2.has_use_buff&(trinket.t2.cooldown.duration%cooldown.avatar.duration=0||trinket.t2.cooldown.duration%cooldown.odyns_fury.duration=0)'.\nLine 11: Converted 'trinket.1.has_use_buff' to 'trinket.t1.has_use_buff' (1x).\nLine 11: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 12: Converted 'trinket.2.has_use_buff' to 'trinket.t2.has_use_buff' (1x).\nLine 12: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 13: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 13: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 13: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 13: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 13: Converted 'trinket.2.has_buff.strength' to 'trinket.t2.has_buff.strength' (1x).\nLine 13: Converted 'trinket.2.has_buff.strength' to 'trinket.t2.has_use_buff' (1x).\nLine 13: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 13: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 13: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 13: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 13: Converted 'trinket.1.has_buff.strength' to 'trinket.t1.has_buff.strength' (1x).\nLine 13: Converted 'trinket.1.has_buff.strength' to 'trinket.t1.has_use_buff' (1x).\nLine 13: Converted operations in '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration%trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration%trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))' to '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration/trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration/trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))'.\nLine 14: Converted 'trinket.1.is.algethar_puzzle_box' to 'trinket.t1.is.algethar_puzzle_box' (1x).\nLine 15: Converted 'trinket.2.is.algethar_puzzle_box' to 'trinket.t2.is.algethar_puzzle_box' (1x).\n\nThe import for 'trinkets' required some automated changes.\nLine 2: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 2: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 2: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 2: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 2: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 2: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 3: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 3: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\nLine 3: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 3: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 3: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 3: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 4: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 4: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 5: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 5: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 6: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 6: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 6: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 6: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\n\nThe import for 'slayer_am_mt' required some automated changes.\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 6: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 7: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 8: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\n\nThe import for 'thane_ra_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 8: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 9: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.unhinged' to 'talent.unhinged.enabled' (1x).\nLine 12: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 14: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 24: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nImported 12 action lists.\n",
+["desc"] = "2024-11-19: Fix Slayer Execute vs. Rampage\n\n2024-11-09: Fix Reckless Abandon and action-list splitting\n\n2024-10-30: SimC update\n\n2024-10-22: 11.0.5 update; enable pre-Hero talents\n\n2024-10-21: SimC update\n\n2024-10-06: Fix trinket/variables order\n\n2024-09-03, 09-05, 09-10, 09-22: SimC update\n\n2024-08-25: Update using Icy-Veins\n\n2024-08-15: Sim update\n\n2024-07-30: Sim update\n\n2024-07-23: The War Within",
+["profile"] = "actions.precombat+=/battle_shout\nactions.precombat+=/berserker_stance,toggle=on\nactions.precombat+=/variable,name=treacherous_transmitter_precombat_cast,value=2\nactions.precombat+=/use_item,name=treacherous_transmitter\nactions.precombat+=/recklessness,if=!equipped.fyralath_the_dreamrender\nactions.precombat+=/avatar,if=!talent.titans_torment\nactions.precombat+=/variable,name=trinket_1_exclude,value=trinket.1.is.treacherous_transmitter\nactions.precombat+=/variable,name=trinket_2_exclude,value=trinket.2.is.treacherous_transmitter\n# Evaluates a trinkets cooldown, divided by avatar or odyns fur. If it's value has no remainder return 1, else return 0.5.\nactions.precombat+=/variable,name=trinket_1_sync,op=setif,value=1,value_else=0.5,condition=trinket.1.has_use_buff&(trinket.1.cooldown.duration%%cooldown.avatar.duration=0||trinket.1.cooldown.duration%%cooldown.odyns_fury.duration=0)\nactions.precombat+=/variable,name=trinket_2_sync,op=setif,value=1,value_else=0.5,condition=trinket.2.has_use_buff&(trinket.2.cooldown.duration%%cooldown.avatar.duration=0||trinket.2.cooldown.duration%%cooldown.odyns_fury.duration=0)\nactions.precombat+=/variable,name=trinket_1_buffs,value=trinket.1.has_use_buff||(trinket.1.has_stat.any_dps&!variable.trinket_1_exclude)\nactions.precombat+=/variable,name=trinket_2_buffs,value=trinket.2.has_use_buff||(trinket.2.has_stat.any_dps&!variable.trinket_2_exclude)\nactions.precombat+=/variable,name=trinket_priority,op=setif,value=2,value_else=1,condition=!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.2.cooldown.duration%trinket.2.proc.any_dps.duration)*(1.5+trinket.2.has_buff.strength)*(variable.trinket_2_sync))>((trinket.1.cooldown.duration%trinket.1.proc.any_dps.duration)*(1.5+trinket.1.has_buff.strength)*(variable.trinket_1_sync))\nactions.precombat+=/variable,name=trinket_1_manual,value=trinket.1.is.algethar_puzzle_box\nactions.precombat+=/variable,name=trinket_2_manual,value=trinket.2.is.algethar_puzzle_box\n\nactions+=/pummel,if=target.debuff.casting.react\nactions+=/charge,if=time<=0.5||movement.distance>5\nactions+=/heroic_leap,if=movement.distance>25\nactions+=/potion\nactions+=/variable,name=st_planning,value=active_enemies=1&(raid_event.adds.in>15||!raid_event.adds.exists)\nactions+=/variable,name=adds_remain,value=active_enemies>=2&(!raid_event.adds.exists||raid_event.adds.exists&raid_event.adds.remains>5)\nactions+=/variable,name=execute_phase,value=(talent.massacre.enabled&target.health.pct<35)||target.health.pct<20\n## actions.trinkets+=/do_treacherous_transmitter_task\nactions+=/use_item,name=treacherous_transmitter,if=variable.adds_remain||variable.st_planning\n# Trinkets The trinket with the highest estimated value, will be used first and paired with Avatar.\nactions+=/use_item,slot=trinket1,if=variable.trinket_1_buffs&!variable.trinket_1_manual&(!buff.avatar.up&trinket.1.cast_time>0||!trinket.1.cast_time>0)&((talent.titans_torment&cooldown.avatar.ready)||(buff.avatar.up&!talent.titans_torment))&(variable.trinket_2_exclude||!trinket.2.has_cooldown||trinket.2.cooldown.remains||variable.trinket_priority=1)||trinket.1.proc.any_dps.duration>=fight_remains&boss\nactions+=/use_item,slot=trinket2,if=variable.trinket_2_buffs&!variable.trinket_2_manual&(!buff.avatar.up&trinket.2.cast_time>0||!trinket.2.cast_time>0)&((talent.titans_torment&cooldown.avatar.ready)||(buff.avatar.up&!talent.titans_torment))&(variable.trinket_1_exclude||!trinket.1.has_cooldown||trinket.1.cooldown.remains||variable.trinket_priority=2)||trinket.2.proc.any_dps.duration>=fight_remains&boss\n# If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.\nactions+=/use_item,slot=trinket1,if=!variable.trinket_1_buffs&(trinket.1.cast_time>0&!buff.avatar.up||!trinket.1.cast_time>0)&!variable.trinket_1_manual&(!variable.trinket_1_buffs&(trinket.2.cooldown.remains||!variable.trinket_2_buffs)||(trinket.1.cast_time>0&!buff.avatar.up||!trinket.1.cast_time>0)||cooldown.avatar.remains_expected>20)\nactions+=/use_item,slot=trinket2,if=!variable.trinket_2_buffs&(trinket.2.cast_time>0&!buff.avatar.up||!trinket.2.cast_time>0)&!variable.trinket_2_manual&(!variable.trinket_2_buffs&(trinket.1.cooldown.remains||!variable.trinket_1_buffs)||(trinket.2.cast_time>0&!buff.avatar.up||!trinket.2.cast_time>0)||cooldown.avatar.remains_expected>20)\nactions+=/use_item,slot=main_hand,if=!equipped.fyralath_the_dreamrender&(!variable.trinket_1_buffs||trinket.1.cooldown.remains)&(!variable.trinket_2_buffs||trinket.2.cooldown.remains)\nactions+=/lights_judgment,if=buff.recklessness.down&buff.avatar.down&rage<80&buff.bloodbath.down&buff.crushing_blow.down&buff.sudden_death.down&!cooldown.bladestorm.ready&(!cooldown.execute.ready||!variable.execute_phase)\nactions+=/bag_of_tricks,if=buff.recklessness.down&buff.avatar.down&rage<80&buff.bloodbath.down&buff.crushing_blow.down&buff.sudden_death.down&!cooldown.bladestorm.ready&(!cooldown.execute.ready||!variable.execute_phase)\nactions+=/berserking,if=buff.recklessness.up\nactions+=/blood_fury\nactions+=/fireblood\nactions+=/ancestral_call\n## actions+=/invoke_external_buff,name=power_infusion,if=buff.avatar.remains>15&fight_remains>=135||variable.execute_phase&buff.avatar.up||fight_remains<=25\nactions+=/run_action_list,name=slayer_ra_st,strict=1,if=talent.slayers_dominance&talent.reckless_abandon&active_enemies=1\nactions+=/run_action_list,name=slayer_am_st,strict=1,if=talent.slayers_dominance&(talent.anger_management||!talent.reckless_abandon)&active_enemies=1\nactions+=/run_action_list,name=slayer_ra_mt,strict=1,if=talent.slayers_dominance&talent.reckless_abandon&active_enemies>1\nactions+=/run_action_list,name=slayer_am_mt,strict=1,if=talent.slayers_dominance&(talent.anger_management||!talent.reckless_abandon)&active_enemies>1\nactions+=/run_action_list,name=thane_ra_st,strict=1,if=!talent.slayers_dominance&talent.reckless_abandon&active_enemies=1\nactions+=/run_action_list,name=thane_am_st,strict=1,if=!talent.slayers_dominance&(talent.anger_management||!talent.reckless_abandon)&active_enemies=1\nactions+=/run_action_list,name=thane_ra_mt,strict=1,if=!talent.slayers_dominance&talent.reckless_abandon&active_enemies>1\nactions+=/run_action_list,name=thane_am_mt,strict=1,if=!talent.slayers_dominance&(talent.anger_management||!talent.reckless_abandon)&active_enemies>1\n\nactions.slayer_am_st+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.slayer_am_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_am_st+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_am_st+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_am_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_am_st+=/execute,if=debuff.marked_for_execution.stack=3||talent.ashen_juggernaut&buff.ashen_juggernaut.remains<2||buff.sudden_death.stack=2&buff.sudden_death.remains<7||buff.sudden_death.up&buff.sudden_death.remains<2\nactions.slayer_am_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_am_st+=/bladestorm,if=buff.enrage.up&(cooldown.recklessness.remains>=9||cooldown.avatar.remains>=9)\nactions.slayer_am_st+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_am_st+=/rampage,if=!buff.enrage.up\nactions.slayer_am_st+=/raging_blow,if=buff.opportunist.up\nactions.slayer_am_st+=/bloodthirst,if=target.health.pct<35&talent.vicious_contempt&buff.bloodcraze.stack>=2\nactions.slayer_am_st+=/rampage,if=action.raging_blow.charges<=1&rage>=115\nactions.slayer_am_st+=/bloodthirst,if=buff.bloodcraze.stack>3||crit_pct_current>=85\nactions.slayer_am_st+=/raging_blow\nactions.slayer_am_st+=/bloodthirst\nactions.slayer_am_st+=/execute\nactions.slayer_am_st+=/rampage\nactions.slayer_am_st+=/onslaught,if=talent.tenderize\nactions.slayer_am_st+=/whirlwind,if=talent.meat_cleaver\nactions.slayer_am_st+=/slam\nactions.slayer_am_st+=/storm_bolt,if=buff.bladestorm.up\n\nactions.slayer_ra_st+=/recklessness,if=cooldown.avatar.remains<1&talent.titans_torment||!talent.titans_torment\nactions.slayer_ra_st+=/rampage,if=!buff.enrage.up\nactions.slayer_ra_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_ra_st+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_ra_st+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_ra_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_ra_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_ra_st+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=9\nactions.slayer_ra_st+=/execute,if=debuff.marked_for_execution.stack=3||talent.ashen_juggernaut&buff.ashen_juggernaut.remains<2||buff.sudden_death.stack=2&buff.sudden_death.remains<7||buff.sudden_death.up&buff.sudden_death.remains<2\nactions.slayer_ra_st+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_ra_st+=/bloodbath,if=crit_pct_current>=85||buff.bloodcraze.stack>=3\nactions.slayer_ra_st+=/crushing_blow\nactions.slayer_ra_st+=/onslaught,if=talent.tenderize\nactions.slayer_ra_st+=/bloodbath,if=target.health.pct<35&talent.vicious_contempt\nactions.slayer_ra_st+=/rampage,if=rage>=115\nactions.slayer_ra_st+=/raging_blow\nactions.slayer_ra_st+=/bloodbath\nactions.slayer_ra_st+=/rampage\nactions.slayer_ra_st+=/bloodthirst\nactions.slayer_ra_st+=/execute\nactions.slayer_ra_st+=/onslaught\nactions.slayer_ra_st+=/whirlwind,if=talent.meat_cleaver\nactions.slayer_ra_st+=/slam\nactions.slayer_ra_st+=/storm_bolt,if=buff.bladestorm.up\n\nactions.slayer_am_mt+=/recklessness\nactions.slayer_am_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.slayer_am_mt+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_am_mt+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_am_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_am_mt+=/whirlwind,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.slayer_am_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.slayer_am_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_am_mt+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=5\nactions.slayer_am_mt+=/onslaught,if=talent.tenderize\nactions.slayer_am_mt+=/execute,if=buff.enrage.up&debuff.marked_for_execution.stack=3\nactions.slayer_am_mt+=/rampage,if=!buff.enrage.up\nactions.slayer_am_mt+=/bloodthirst\nactions.slayer_am_mt+=/rampage,if=buff.slaughtering_strikes.stack>=2\nactions.slayer_am_mt+=/raging_blow\nactions.slayer_am_mt+=/execute,if=buff.enrage.up\nactions.slayer_am_mt+=/rampage\nactions.slayer_am_mt+=/onslaught\nactions.slayer_am_mt+=/whirlwind\nactions.slayer_am_mt+=/storm_bolt,if=buff.bladestorm.up\n\nactions.slayer_ra_mt+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||!talent.titans_torment\nactions.slayer_ra_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment&buff.enrage.up\nactions.slayer_ra_mt+=/rampage,if=!buff.enrage.up&!talent.titans_torment\nactions.slayer_ra_mt+=/thunderous_roar,if=buff.enrage.up\nactions.slayer_ra_mt+=/champions_spear,if=(buff.enrage.up&talent.titans_torment&cooldown.avatar.remains<gcd)||(buff.enrage.up&!talent.titans_torment)\nactions.slayer_ra_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.slayer_ra_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.slayer_ra_mt+=/bladestorm,if=buff.enrage.up&cooldown.avatar.remains>=9&buff.enrage.remains>3\nactions.slayer_ra_mt+=/whirlwind,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.slayer_ra_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.slayer_ra_mt+=/onslaught,if=talent.tenderize&buff.brutal_finish.up\nactions.slayer_ra_mt+=/rampage,if=!buff.enrage.up\nactions.slayer_ra_mt+=/bloodbath,if=active_enemies>=6\nactions.slayer_ra_mt+=/crushing_blow\nactions.slayer_ra_mt+=/bloodbath\nactions.slayer_ra_mt+=/bloodthirst,if=active_enemies>=6\nactions.slayer_ra_mt+=/execute,if=buff.enrage.up&debuff.marked_for_execution.up\nactions.slayer_ra_mt+=/onslaught,if=talent.tenderize\nactions.slayer_ra_mt+=/rampage,if=rage>115\nactions.slayer_ra_mt+=/raging_blow,if=talent.slaughtering_strikes\nactions.slayer_ra_mt+=/onslaught\nactions.slayer_ra_mt+=/bloodthirst\nactions.slayer_ra_mt+=/raging_blow\nactions.slayer_ra_mt+=/whirlwind\nactions.slayer_ra_mt+=/storm_bolt,if=buff.bladestorm.up\n\nactions.thane_am_st+=/recklessness,if=talent.anger_management||!talent.titans_torment\nactions.thane_am_st+=/thunder_blast,if=buff.enrage.up\nactions.thane_am_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.thane_am_st+=/ravager\nactions.thane_am_st+=/thunderous_roar,if=buff.enrage.up\nactions.thane_am_st+=/champions_spear,if=buff.enrage.up&(cooldown.avatar.remains<gcd||!talent.titans_torment)\nactions.thane_am_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_am_st+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_am_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_am_st+=/bladestorm,if=buff.enrage.up&talent.unhinged\nactions.thane_am_st+=/onslaught,if=talent.tenderize\nactions.thane_am_st+=/rampage\nactions.thane_am_st+=/bloodthirst,if=talent.vicious_contempt&target.health.pct<35&buff.bloodcraze.stack>=2||!dot.ravager.remains&buff.bloodcraze.stack>=3\nactions.thane_am_st+=/raging_blow\nactions.thane_am_st+=/execute,if=talent.ashen_juggernaut\nactions.thane_am_st+=/bloodthirst\nactions.thane_am_st+=/execute\nactions.thane_am_st+=/thunder_clap\n\nactions.thane_ra_st+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.thane_ra_st+=/thunder_blast,if=buff.enrage.up\nactions.thane_ra_st+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment&buff.enrage.up\nactions.thane_ra_st+=/ravager\nactions.thane_ra_st+=/thunderous_roar,if=buff.enrage.up\nactions.thane_ra_st+=/champions_spear,if=buff.enrage.up&(cooldown.avatar.remains<gcd||!talent.titans_torment)\nactions.thane_ra_st+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_ra_st+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_ra_st+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_ra_st+=/bladestorm,if=buff.enrage.up&talent.unhinged\nactions.thane_ra_st+=/rampage,if=!buff.enrage.up\nactions.thane_ra_st+=/bloodbath,if=talent.vicious_contempt&target.health.pct<35||buff.bloodcraze.stack>=3\nactions.thane_ra_st+=/crushing_blow\nactions.thane_ra_st+=/onslaught,if=talent.tenderize\nactions.thane_ra_st+=/rampage,if=rage>=115\nactions.thane_ra_st+=/raging_blow\nactions.thane_ra_st+=/bloodbath\nactions.thane_ra_st+=/bloodthirst,if=buff.enrage.up&!buff.burst_of_power.up\nactions.thane_ra_st+=/rampage\nactions.thane_ra_st+=/execute\nactions.thane_ra_st+=/onslaught\nactions.thane_ra_st+=/bloodthirst\nactions.thane_ra_st+=/thunder_clap\nactions.thane_ra_st+=/whirlwind,if=talent.meat_cleaver\nactions.thane_ra_st+=/slam\n\nactions.thane_am_mt+=/recklessness,if=(!talent.anger_management&cooldown.avatar.remains<1&talent.titans_torment)||talent.anger_management||!talent.titans_torment\nactions.thane_am_mt+=/thunder_blast,if=buff.enrage.up\nactions.thane_am_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment\nactions.thane_am_mt+=/thunder_clap,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.thane_am_mt+=/thunderous_roar,if=buff.enrage.up\nactions.thane_am_mt+=/ravager\nactions.thane_am_mt+=/champions_spear,if=buff.enrage.up\nactions.thane_am_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_am_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_am_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_am_mt+=/bladestorm,if=buff.enrage.up\nactions.thane_am_mt+=/onslaught,if=talent.tenderize\nactions.thane_am_mt+=/rampage\nactions.thane_am_mt+=/bloodthirst\nactions.thane_am_mt+=/thunder_clap,if=active_enemies>=3\nactions.thane_am_mt+=/raging_blow\nactions.thane_am_mt+=/thunder_clap\nactions.thane_am_mt+=/onslaught\nactions.thane_am_mt+=/execute\nactions.thane_am_mt+=/whirlwind\nactions.thane_am_mt+=/slam\n\nactions.thane_ra_mt+=/recklessness,if=cooldown.avatar.remains<1&talent.titans_torment||!talent.titans_torment\nactions.thane_ra_mt+=/thunder_blast,if=buff.enrage.up\nactions.thane_ra_mt+=/avatar,if=(talent.titans_torment&(buff.enrage.up||talent.titanic_rage)&(debuff.champions_might.up||!talent.champions_might))||!talent.titans_torment&buff.enrage.up\nactions.thane_ra_mt+=/thunder_clap,if=buff.meat_cleaver.stack=0&talent.meat_cleaver\nactions.thane_ra_mt+=/thunderous_roar,if=buff.enrage.up\nactions.thane_ra_mt+=/ravager\nactions.thane_ra_mt+=/champions_spear,if=buff.enrage.up\nactions.thane_ra_mt+=/odyns_fury,if=dot.odyns_fury_torment_mh.remains<1&(buff.enrage.up||talent.titanic_rage)&cooldown.avatar.remains\nactions.thane_ra_mt+=/execute,if=talent.ashen_juggernaut&buff.ashen_juggernaut.remains<=gcd&buff.enrage.up\nactions.thane_ra_mt+=/rampage,if=talent.bladestorm&cooldown.bladestorm.remains<=gcd&!debuff.champions_might.up\nactions.thane_ra_mt+=/bladestorm,if=buff.enrage.up\nactions.thane_ra_mt+=/onslaught,if=talent.tenderize\nactions.thane_ra_mt+=/rampage,if=!buff.enrage.up\nactions.thane_ra_mt+=/bloodbath\nactions.thane_ra_mt+=/crushing_blow\nactions.thane_ra_mt+=/rampage,if=buff.recklessness.up||rage>115\nactions.thane_ra_mt+=/onslaught,if=talent.tenderize\nactions.thane_ra_mt+=/bloodthirst\nactions.thane_ra_mt+=/thunder_clap\nactions.thane_ra_mt+=/raging_blow\nactions.thane_ra_mt+=/onslaught\nactions.thane_ra_mt+=/rampage\nactions.thane_ra_mt+=/execute\nactions.thane_ra_mt+=/whirlwind",
+["version"] = 20241119,
+["warnings"] = "The import for 'slayer_ra_st' required some automated changes.\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 7: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 9: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 10: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 13: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 14: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 22: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nThe import for 'thane_am_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 8: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 9: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.unhinged' to 'talent.unhinged.enabled' (1x).\nLine 11: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 13: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 15: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\n\nThe import for 'slayer_ra_mt' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 7: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 9: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 10: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 11: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 18: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 20: Converted 'talent.slaughtering_strikes' to 'talent.slaughtering_strikes.enabled' (1x).\n\nThe import for 'thane_ra_mt' required some automated changes.\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 8: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 9: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 10: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 12: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 17: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\n\nThe import for 'default' required some automated changes.\nLine 9: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 9: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 9: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 9: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 9: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 9: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 9: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 9: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 9: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 10: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 10: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 10: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 10: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 10: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\nLine 10: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 10: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 10: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 10: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 11: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 11: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 11: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 11: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 11: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 11: Converted 'trinket.1.cast_time' to 'trinket.t1.cast_time' (1x).\nLine 12: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 12: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 12: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 12: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 12: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 12: Converted 'trinket.2.cast_time' to 'trinket.t2.cast_time' (1x).\nLine 13: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains' (1x).\nLine 13: Converted 'trinket.1.cooldown.remains' to 'trinket.t1.cooldown.remains'.\nLine 13: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains' (1x).\nLine 13: Converted 'trinket.2.cooldown.remains' to 'trinket.t2.cooldown.remains'.\nLine 20: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 20: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 21: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 21: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 21: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 22: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 22: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 23: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 23: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 23: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 24: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 24: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 25: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 25: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 25: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 26: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 26: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\nLine 27: Converted 'talent.slayers_dominance' to 'talent.slayers_dominance.enabled' (1x).\nLine 27: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 27: Converted 'talent.reckless_abandon' to 'talent.reckless_abandon.enabled' (1x).\n\nThe import for 'precombat' required some automated changes.\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'trinket.1.is.treacherous_transmitter' to 'trinket.t1.is.treacherous_transmitter' (1x).\nLine 8: Converted 'trinket.2.is.treacherous_transmitter' to 'trinket.t2.is.treacherous_transmitter' (1x).\nLine 9: Converted 'trinket.1.has_use_buff' to 'trinket.t1.has_use_buff' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 9: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 9: Converted operations in 'trinket.t1.has_use_buff&(trinket.t1.cooldown.duration%%cooldown.avatar.duration=0||trinket.t1.cooldown.duration%%cooldown.odyns_fury.duration=0)' to 'trinket.t1.has_use_buff&(trinket.t1.cooldown.duration%cooldown.avatar.duration=0||trinket.t1.cooldown.duration%cooldown.odyns_fury.duration=0)'.\nLine 10: Converted 'trinket.2.has_use_buff' to 'trinket.t2.has_use_buff' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 10: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 10: Converted operations in 'trinket.t2.has_use_buff&(trinket.t2.cooldown.duration%%cooldown.avatar.duration=0||trinket.t2.cooldown.duration%%cooldown.odyns_fury.duration=0)' to 'trinket.t2.has_use_buff&(trinket.t2.cooldown.duration%cooldown.avatar.duration=0||trinket.t2.cooldown.duration%cooldown.odyns_fury.duration=0)'.\nLine 11: Converted 'trinket.1.has_use_buff' to 'trinket.t1.has_use_buff' (1x).\nLine 11: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 12: Converted 'trinket.2.has_use_buff' to 'trinket.t2.has_use_buff' (1x).\nLine 12: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 13: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 13: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 13: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.proc.any_dps.duration' (1x).\nLine 13: Converted 'trinket.2.proc.any_dps.duration' to 'trinket.t2.buff_duration' (1x).\nLine 13: Converted 'trinket.2.has_buff.strength' to 'trinket.t2.has_buff.strength' (1x).\nLine 13: Converted 'trinket.2.has_buff.strength' to 'trinket.t2.has_use_buff' (1x).\nLine 13: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 13: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 13: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.proc.any_dps.duration' (1x).\nLine 13: Converted 'trinket.1.proc.any_dps.duration' to 'trinket.t1.buff_duration' (1x).\nLine 13: Converted 'trinket.1.has_buff.strength' to 'trinket.t1.has_buff.strength' (1x).\nLine 13: Converted 'trinket.1.has_buff.strength' to 'trinket.t1.has_use_buff' (1x).\nLine 13: Converted operations in '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration%trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration%trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))' to '!variable.trinket_1_buffs&variable.trinket_2_buffs||variable.trinket_2_buffs&((trinket.t2.cooldown.duration/trinket.t2.buff_duration)*(1.5+trinket.t2.has_use_buff)*(variable.trinket_2_sync))>((trinket.t1.cooldown.duration/trinket.t1.buff_duration)*(1.5+trinket.t1.has_use_buff)*(variable.trinket_1_sync))'.\nLine 14: Converted 'trinket.1.is.algethar_puzzle_box' to 'trinket.t1.is.algethar_puzzle_box' (1x).\nLine 15: Converted 'trinket.2.is.algethar_puzzle_box' to 'trinket.t2.is.algethar_puzzle_box' (1x).\n\nThe import for 'thane_am_mt' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 8: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 9: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 10: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 12: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\n\nThe import for 'slayer_am_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 6: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 7: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 9: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 12: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 19: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 20: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nThe import for 'slayer_am_mt' required some automated changes.\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 2: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 2: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 2: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 4: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 5: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 6: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\nLine 7: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 8: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\n\nThe import for 'thane_ra_st' required some automated changes.\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 1: Converted 'talent.anger_management' to 'talent.anger_management.enabled' (1x).\nLine 1: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 3: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 3: Converted 'talent.champions_might' to 'talent.champions_might.enabled' (1x).\nLine 3: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 6: Converted 'talent.titans_torment' to 'talent.titans_torment.enabled' (1x).\nLine 7: Converted 'talent.titanic_rage' to 'talent.titanic_rage.enabled' (1x).\nLine 8: Converted 'talent.ashen_juggernaut' to 'talent.ashen_juggernaut.enabled' (1x).\nLine 9: Converted 'talent.bladestorm' to 'talent.bladestorm.enabled' (1x).\nLine 10: Converted 'talent.unhinged' to 'talent.unhinged.enabled' (1x).\nLine 12: Converted 'talent.vicious_contempt' to 'talent.vicious_contempt.enabled' (1x).\nLine 14: Converted 'talent.tenderize' to 'talent.tenderize.enabled' (1x).\nLine 24: Converted 'talent.meat_cleaver' to 'talent.meat_cleaver.enabled' (1x).\n\nImported 10 action lists.\n",
 ["spec"] = 72,
 ["lists"] = {
 ["slayer_ra_st"] = {
@@ -5721,7 +5722,7 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["criteria"] = "debuff.marked_for_execution.stack = 3 || buff.ashen_juggernaut.remains < 2 || buff.sudden_death.stack = 2 & buff.sudden_death.remains < 7 || buff.sudden_death.remains < 2",
+["criteria"] = "debuff.marked_for_execution.stack = 3 || talent.ashen_juggernaut.enabled & buff.ashen_juggernaut.remains < 2 || buff.sudden_death.stack = 2 & buff.sudden_death.remains < 7 || buff.sudden_death.up & buff.sudden_death.remains < 2",
 ["action"] = "execute",
 },
 {
@@ -5906,7 +5907,7 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["criteria"] = "debuff.marked_for_execution.stack = 3 || buff.ashen_juggernaut.remains < 2 || buff.sudden_death.stack = 2 & buff.sudden_death.remains < 7 || buff.sudden_death.remains < 2",
+["criteria"] = "debuff.marked_for_execution.stack = 3 || talent.ashen_juggernaut.enabled & buff.ashen_juggernaut.remains < 2 || buff.sudden_death.stack = 2 & buff.sudden_death.remains < 7 || buff.sudden_death.up & buff.sudden_death.remains < 2",
 ["action"] = "execute",
 },
 {
@@ -5983,6 +5984,389 @@ HekiliDB = {
 ["enabled"] = true,
 ["criteria"] = "buff.bladestorm.up",
 ["action"] = "storm_bolt",
+},
+},
+["thane_ra_st"] = {
+{
+["enabled"] = true,
+["criteria"] = "( ! talent.anger_management.enabled & cooldown.avatar.remains < 1 & talent.titans_torment.enabled ) || talent.anger_management.enabled || ! talent.titans_torment.enabled",
+["action"] = "recklessness",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up",
+["action"] = "thunder_blast",
+},
+{
+["enabled"] = true,
+["criteria"] = "( talent.titans_torment.enabled & ( buff.enrage.up || talent.titanic_rage.enabled ) & ( debuff.champions_might.up || ! talent.champions_might.enabled ) ) || ! talent.titans_torment.enabled & buff.enrage.up",
+["action"] = "avatar",
+},
+{
+["action"] = "ravager",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up",
+["action"] = "thunderous_roar",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up & ( cooldown.avatar.remains < gcd.max || ! talent.titans_torment.enabled )",
+["action"] = "champions_spear",
+},
+{
+["enabled"] = true,
+["criteria"] = "dot.odyns_fury_torment_mh.remains < 1 & ( buff.enrage.up || talent.titanic_rage.enabled ) & cooldown.avatar.remains",
+["action"] = "odyns_fury",
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.ashen_juggernaut.enabled & buff.ashen_juggernaut.remains <= gcd.max & buff.enrage.up",
+["action"] = "execute",
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.bladestorm.enabled & cooldown.bladestorm.remains <= gcd.max & ! debuff.champions_might.up",
+["action"] = "rampage",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up & talent.unhinged.enabled",
+["action"] = "bladestorm",
+},
+{
+["enabled"] = true,
+["criteria"] = "! buff.enrage.up",
+["action"] = "rampage",
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.vicious_contempt.enabled & target.health.pct < 35 || buff.bloodcraze.stack >= 3",
+["action"] = "bloodbath",
+},
+{
+["action"] = "crushing_blow",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.tenderize.enabled",
+["action"] = "onslaught",
+},
+{
+["enabled"] = true,
+["criteria"] = "rage >= 115",
+["action"] = "rampage",
+},
+{
+["action"] = "raging_blow",
+["enabled"] = true,
+},
+{
+["action"] = "bloodbath",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up & ! buff.burst_of_power.up",
+["action"] = "bloodthirst",
+},
+{
+["action"] = "rampage",
+["enabled"] = true,
+},
+{
+["action"] = "execute",
+["enabled"] = true,
+},
+{
+["action"] = "onslaught",
+["enabled"] = true,
+},
+{
+["action"] = "bloodthirst",
+["enabled"] = true,
+},
+{
+["action"] = "thunder_clap",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.meat_cleaver.enabled",
+["action"] = "whirlwind",
+},
+{
+["action"] = "slam",
+["enabled"] = true,
+},
+},
+["default"] = {
+{
+["enabled"] = true,
+["criteria"] = "target.debuff.casting.react",
+["action"] = "pummel",
+},
+{
+["enabled"] = true,
+["criteria"] = "time <= 0.5 || movement.distance > 5",
+["action"] = "charge",
+},
+{
+["enabled"] = true,
+["criteria"] = "movement.distance > 25",
+["action"] = "heroic_leap",
+},
+{
+["action"] = "potion",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "active_enemies = 1 & ( raid_event.adds.in > 15 || ! raid_event.adds.exists )",
+["var_name"] = "st_planning",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "active_enemies >= 2 & ( ! raid_event.adds.exists || raid_event.adds.exists & raid_event.adds.remains > 5 )",
+["var_name"] = "adds_remain",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "( talent.massacre.enabled & target.health.pct < 35 ) || target.health.pct < 20",
+["var_name"] = "execute_phase",
+},
+{
+["enabled"] = true,
+["criteria"] = "variable.adds_remain || variable.st_planning",
+["name"] = "treacherous_transmitter",
+["action"] = "treacherous_transmitter",
+},
+{
+["enabled"] = true,
+["action"] = "trinket1",
+["slot"] = "trinket1",
+["description"] = "Trinkets The trinket with the highest estimated value, will be used first and paired with Avatar.",
+["criteria"] = "variable.trinket_1_buffs & ! variable.trinket_1_manual & ( ! buff.avatar.up & trinket.t1.cast_time > 0 || ! trinket.t1.cast_time > 0 ) & ( ( talent.titans_torment.enabled & cooldown.avatar.ready ) || ( buff.avatar.up & ! talent.titans_torment.enabled ) ) & ( variable.trinket_2_exclude || ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains || variable.trinket_priority = 1 ) || trinket.t1.buff_duration >= fight_remains & boss",
+},
+{
+["enabled"] = true,
+["criteria"] = "variable.trinket_2_buffs & ! variable.trinket_2_manual & ( ! buff.avatar.up & trinket.t2.cast_time > 0 || ! trinket.t2.cast_time > 0 ) & ( ( talent.titans_torment.enabled & cooldown.avatar.ready ) || ( buff.avatar.up & ! talent.titans_torment.enabled ) ) & ( variable.trinket_1_exclude || ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 ) || trinket.t2.buff_duration >= fight_remains & boss",
+["action"] = "trinket2",
+["slot"] = "trinket2",
+},
+{
+["enabled"] = true,
+["action"] = "trinket1",
+["slot"] = "trinket1",
+["description"] = "If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.",
+["criteria"] = "! variable.trinket_1_buffs & ( trinket.t1.cast_time > 0 & ! buff.avatar.up || ! trinket.t1.cast_time > 0 ) & ! variable.trinket_1_manual & ( ! variable.trinket_1_buffs & ( trinket.t2.cooldown.remains || ! variable.trinket_2_buffs ) || ( trinket.t1.cast_time > 0 & ! buff.avatar.up || ! trinket.t1.cast_time > 0 ) || cooldown.avatar.remains_expected > 20 )",
+},
+{
+["enabled"] = true,
+["criteria"] = "! variable.trinket_2_buffs & ( trinket.t2.cast_time > 0 & ! buff.avatar.up || ! trinket.t2.cast_time > 0 ) & ! variable.trinket_2_manual & ( ! variable.trinket_2_buffs & ( trinket.t1.cooldown.remains || ! variable.trinket_1_buffs ) || ( trinket.t2.cast_time > 0 & ! buff.avatar.up || ! trinket.t2.cast_time > 0 ) || cooldown.avatar.remains_expected > 20 )",
+["action"] = "trinket2",
+["slot"] = "trinket2",
+},
+{
+["enabled"] = true,
+["criteria"] = "! equipped.fyralath_the_dreamrender & ( ! variable.trinket_1_buffs || trinket.t1.cooldown.remains ) & ( ! variable.trinket_2_buffs || trinket.t2.cooldown.remains )",
+["action"] = "main_hand",
+["slot"] = "main_hand",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.recklessness.down & buff.avatar.down & rage < 80 & buff.bloodbath.down & buff.crushing_blow.down & buff.sudden_death.down & ! cooldown.bladestorm.ready & ( ! cooldown.execute.ready || ! variable.execute_phase )",
+["action"] = "lights_judgment",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.recklessness.down & buff.avatar.down & rage < 80 & buff.bloodbath.down & buff.crushing_blow.down & buff.sudden_death.down & ! cooldown.bladestorm.ready & ( ! cooldown.execute.ready || ! variable.execute_phase )",
+["action"] = "bag_of_tricks",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.recklessness.up",
+["action"] = "berserking",
+},
+{
+["action"] = "blood_fury",
+["enabled"] = true,
+},
+{
+["action"] = "fireblood",
+["enabled"] = true,
+},
+{
+["action"] = "ancestral_call",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["action"] = "run_action_list",
+["strict"] = 1,
+["criteria"] = "talent.slayers_dominance.enabled & talent.reckless_abandon.enabled & active_enemies = 1",
+["list_name"] = "slayer_ra_st",
+},
+{
+["enabled"] = true,
+["action"] = "run_action_list",
+["strict"] = 1,
+["criteria"] = "talent.slayers_dominance.enabled & ( talent.anger_management.enabled || ! talent.reckless_abandon.enabled ) & active_enemies = 1",
+["list_name"] = "slayer_am_st",
+},
+{
+["enabled"] = true,
+["action"] = "run_action_list",
+["strict"] = 1,
+["criteria"] = "talent.slayers_dominance.enabled & talent.reckless_abandon.enabled & active_enemies > 1",
+["list_name"] = "slayer_ra_mt",
+},
+{
+["enabled"] = true,
+["action"] = "run_action_list",
+["strict"] = 1,
+["criteria"] = "talent.slayers_dominance.enabled & ( talent.anger_management.enabled || ! talent.reckless_abandon.enabled ) & active_enemies > 1",
+["list_name"] = "slayer_am_mt",
+},
+{
+["enabled"] = true,
+["action"] = "run_action_list",
+["strict"] = 1,
+["criteria"] = "! talent.slayers_dominance.enabled & talent.reckless_abandon.enabled & active_enemies = 1",
+["list_name"] = "thane_ra_st",
+},
+{
+["enabled"] = true,
+["action"] = "run_action_list",
+["strict"] = 1,
+["criteria"] = "! talent.slayers_dominance.enabled & ( talent.anger_management.enabled || ! talent.reckless_abandon.enabled ) & active_enemies = 1",
+["list_name"] = "thane_am_st",
+},
+{
+["enabled"] = true,
+["action"] = "run_action_list",
+["strict"] = 1,
+["criteria"] = "! talent.slayers_dominance.enabled & talent.reckless_abandon.enabled & active_enemies > 1",
+["list_name"] = "thane_ra_mt",
+},
+{
+["enabled"] = true,
+["action"] = "run_action_list",
+["strict"] = 1,
+["criteria"] = "! talent.slayers_dominance.enabled & ( talent.anger_management.enabled || ! talent.reckless_abandon.enabled ) & active_enemies > 1",
+["list_name"] = "thane_am_mt",
+},
+},
+["precombat"] = {
+{
+["action"] = "battle_shout",
+["enabled"] = true,
+},
+{
+["toggle"] = "on",
+["action"] = "berserker_stance",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "2",
+["var_name"] = "treacherous_transmitter_precombat_cast",
+},
+{
+["enabled"] = true,
+["name"] = "treacherous_transmitter",
+["action"] = "treacherous_transmitter",
+},
+{
+["enabled"] = true,
+["criteria"] = "! equipped.fyralath_the_dreamrender",
+["action"] = "recklessness",
+},
+{
+["enabled"] = true,
+["criteria"] = "! talent.titans_torment.enabled",
+["action"] = "avatar",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "trinket.t1.is.treacherous_transmitter",
+["var_name"] = "trinket_1_exclude",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "trinket.t2.is.treacherous_transmitter",
+["var_name"] = "trinket_2_exclude",
+},
+{
+["enabled"] = true,
+["op"] = "setif",
+["description"] = "Evaluates a trinkets cooldown, divided by avatar or odyns fur. If it's value has no remainder return 1, else return 0.5.",
+["value"] = "1",
+["var_name"] = "trinket_1_sync",
+["action"] = "variable",
+["value_else"] = "0.5",
+["criteria"] = "trinket.t1.has_use_buff & ( trinket.t1.cooldown.duration % cooldown.avatar.duration = 0 || trinket.t1.cooldown.duration % cooldown.odyns_fury.duration = 0 )",
+},
+{
+["enabled"] = true,
+["op"] = "setif",
+["action"] = "variable",
+["var_name"] = "trinket_2_sync",
+["value"] = "1",
+["value_else"] = "0.5",
+["criteria"] = "trinket.t2.has_use_buff & ( trinket.t2.cooldown.duration % cooldown.avatar.duration = 0 || trinket.t2.cooldown.duration % cooldown.odyns_fury.duration = 0 )",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "trinket.t1.has_use_buff || ( trinket.t1.has_stat.any_dps & ! variable.trinket_1_exclude )",
+["var_name"] = "trinket_1_buffs",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "trinket.t2.has_use_buff || ( trinket.t2.has_stat.any_dps & ! variable.trinket_2_exclude )",
+["var_name"] = "trinket_2_buffs",
+},
+{
+["enabled"] = true,
+["op"] = "setif",
+["action"] = "variable",
+["var_name"] = "trinket_priority",
+["value"] = "2",
+["value_else"] = "1",
+["criteria"] = "! variable.trinket_1_buffs & variable.trinket_2_buffs || variable.trinket_2_buffs & ( ( trinket.t2.cooldown.duration / trinket.t2.buff_duration ) * ( 1.5 + trinket.t2.has_use_buff ) * ( variable.trinket_2_sync ) ) > ( ( trinket.t1.cooldown.duration / trinket.t1.buff_duration ) * ( 1.5 + trinket.t1.has_use_buff ) * ( variable.trinket_1_sync ) )",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "trinket.t1.is.algethar_puzzle_box",
+["var_name"] = "trinket_1_manual",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "trinket.t2.is.algethar_puzzle_box",
+["var_name"] = "trinket_2_manual",
 },
 },
 ["thane_am_mt"] = {
@@ -6204,6 +6588,102 @@ HekiliDB = {
 ["action"] = "storm_bolt",
 },
 },
+["slayer_am_mt"] = {
+{
+["action"] = "recklessness",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "( talent.titans_torment.enabled & ( buff.enrage.up || talent.titanic_rage.enabled ) & ( debuff.champions_might.up || ! talent.champions_might.enabled ) ) || ! talent.titans_torment.enabled",
+["action"] = "avatar",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up",
+["action"] = "thunderous_roar",
+},
+{
+["enabled"] = true,
+["criteria"] = "( buff.enrage.up & talent.titans_torment.enabled & cooldown.avatar.remains < gcd.max ) || ( buff.enrage.up & ! talent.titans_torment.enabled )",
+["action"] = "champions_spear",
+},
+{
+["enabled"] = true,
+["criteria"] = "dot.odyns_fury_torment_mh.remains < 1 & ( buff.enrage.up || talent.titanic_rage.enabled ) & cooldown.avatar.remains",
+["action"] = "odyns_fury",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.meat_cleaver.stack = 0 & talent.meat_cleaver.enabled",
+["action"] = "whirlwind",
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.ashen_juggernaut.enabled & buff.ashen_juggernaut.remains <= gcd.max & buff.enrage.up",
+["action"] = "execute",
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.bladestorm.enabled & cooldown.bladestorm.remains <= gcd.max & ! debuff.champions_might.up",
+["action"] = "rampage",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up & cooldown.avatar.remains >= 5",
+["action"] = "bladestorm",
+},
+{
+["enabled"] = true,
+["criteria"] = "talent.tenderize.enabled",
+["action"] = "onslaught",
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up & debuff.marked_for_execution.stack = 3",
+["action"] = "execute",
+},
+{
+["enabled"] = true,
+["criteria"] = "! buff.enrage.up",
+["action"] = "rampage",
+},
+{
+["action"] = "bloodthirst",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.slaughtering_strikes.stack >= 2",
+["action"] = "rampage",
+},
+{
+["action"] = "raging_blow",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.enrage.up",
+["action"] = "execute",
+},
+{
+["action"] = "rampage",
+["enabled"] = true,
+},
+{
+["action"] = "onslaught",
+["enabled"] = true,
+},
+{
+["action"] = "whirlwind",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["criteria"] = "buff.bladestorm.up",
+["action"] = "storm_bolt",
+},
+},
 ["thane_ra_mt"] = {
 {
 ["enabled"] = true,
@@ -6313,508 +6793,6 @@ HekiliDB = {
 },
 {
 ["action"] = "whirlwind",
-["enabled"] = true,
-},
-},
-["default"] = {
-{
-["enabled"] = true,
-["criteria"] = "target.debuff.casting.react",
-["action"] = "pummel",
-},
-{
-["enabled"] = true,
-["criteria"] = "time <= 0.5 || movement.distance > 5",
-["action"] = "charge",
-},
-{
-["enabled"] = true,
-["criteria"] = "movement.distance > 25",
-["action"] = "heroic_leap",
-},
-{
-["action"] = "potion",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["action"] = "call_action_list",
-["list_name"] = "variables",
-},
-{
-["enabled"] = true,
-["action"] = "call_action_list",
-["list_name"] = "trinkets",
-},
-{
-["enabled"] = true,
-["criteria"] = "variable.on_gcd_racials",
-["action"] = "lights_judgment",
-},
-{
-["enabled"] = true,
-["criteria"] = "variable.on_gcd_racials",
-["action"] = "bag_of_tricks",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.recklessness.up",
-["action"] = "berserking",
-},
-{
-["action"] = "blood_fury",
-["enabled"] = true,
-},
-{
-["action"] = "fireblood",
-["enabled"] = true,
-},
-{
-["action"] = "ancestral_call",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
-["criteria"] = "talent.slayers_dominance.enabled & talent.reckless_abandon.enabled & active_enemies = 1",
-["list_name"] = "slayer_ra_st",
-},
-{
-["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
-["criteria"] = "talent.slayers_dominance.enabled & ( talent.anger_management.enabled || ! talent.reckless_abandon.enabled ) & active_enemies = 1",
-["list_name"] = "slayer_am_st",
-},
-{
-["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
-["criteria"] = "talent.slayers_dominance.enabled & talent.reckless_abandon.enabled & active_enemies > 1",
-["list_name"] = "slayer_ra_mt",
-},
-{
-["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
-["criteria"] = "talent.slayers_dominance.enabled & ( talent.anger_management.enabled || ! talent.reckless_abandon.enabled ) & active_enemies > 1",
-["list_name"] = "slayer_am_mt",
-},
-{
-["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
-["criteria"] = "! talent.slayers_dominance.enabled & talent.reckless_abandon.enabled & active_enemies = 1",
-["list_name"] = "thane_ra_st",
-},
-{
-["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
-["criteria"] = "! talent.slayers_dominance.enabled & ( talent.anger_management.enabled || ! talent.reckless_abandon.enabled ) & active_enemies = 1",
-["list_name"] = "thane_am_st",
-},
-{
-["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
-["criteria"] = "! talent.slayers_dominance.enabled & talent.reckless_abandon.enabled & active_enemies > 1",
-["list_name"] = "thane_ra_mt",
-},
-{
-["enabled"] = true,
-["action"] = "run_action_list",
-["strict"] = 1,
-["criteria"] = "! talent.slayers_dominance.enabled & ( talent.anger_management.enabled || ! talent.reckless_abandon.enabled ) & active_enemies > 1",
-["list_name"] = "thane_am_mt",
-},
-},
-["precombat"] = {
-{
-["action"] = "battle_shout",
-["enabled"] = true,
-},
-{
-["toggle"] = "on",
-["action"] = "berserker_stance",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "2",
-["var_name"] = "treacherous_transmitter_precombat_cast",
-},
-{
-["enabled"] = true,
-["name"] = "treacherous_transmitter",
-["action"] = "treacherous_transmitter",
-},
-{
-["enabled"] = true,
-["criteria"] = "! equipped.fyralath_the_dreamrender",
-["action"] = "recklessness",
-},
-{
-["enabled"] = true,
-["criteria"] = "! talent.titans_torment.enabled",
-["action"] = "avatar",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "trinket.t1.is.treacherous_transmitter",
-["var_name"] = "trinket_1_exclude",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "trinket.t2.is.treacherous_transmitter",
-["var_name"] = "trinket_2_exclude",
-},
-{
-["enabled"] = true,
-["op"] = "setif",
-["description"] = "Evaluates a trinkets cooldown, divided by avatar or odyns fur. If it's value has no remainder return 1, else return 0.5.",
-["value"] = "1",
-["var_name"] = "trinket_1_sync",
-["action"] = "variable",
-["value_else"] = "0.5",
-["criteria"] = "trinket.t1.has_use_buff & ( trinket.t1.cooldown.duration % cooldown.avatar.duration = 0 || trinket.t1.cooldown.duration % cooldown.odyns_fury.duration = 0 )",
-},
-{
-["enabled"] = true,
-["op"] = "setif",
-["action"] = "variable",
-["var_name"] = "trinket_2_sync",
-["value"] = "1",
-["value_else"] = "0.5",
-["criteria"] = "trinket.t2.has_use_buff & ( trinket.t2.cooldown.duration % cooldown.avatar.duration = 0 || trinket.t2.cooldown.duration % cooldown.odyns_fury.duration = 0 )",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "trinket.t1.has_use_buff || ( trinket.t1.has_stat.any_dps & ! variable.trinket_1_exclude )",
-["var_name"] = "trinket_1_buffs",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "trinket.t2.has_use_buff || ( trinket.t2.has_stat.any_dps & ! variable.trinket_2_exclude )",
-["var_name"] = "trinket_2_buffs",
-},
-{
-["enabled"] = true,
-["op"] = "setif",
-["action"] = "variable",
-["var_name"] = "trinket_priority",
-["value"] = "2",
-["value_else"] = "1",
-["criteria"] = "! variable.trinket_1_buffs & variable.trinket_2_buffs || variable.trinket_2_buffs & ( ( trinket.t2.cooldown.duration / trinket.t2.buff_duration ) * ( 1.5 + trinket.t2.has_use_buff ) * ( variable.trinket_2_sync ) ) > ( ( trinket.t1.cooldown.duration / trinket.t1.buff_duration ) * ( 1.5 + trinket.t1.has_use_buff ) * ( variable.trinket_1_sync ) )",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "trinket.t1.is.algethar_puzzle_box",
-["var_name"] = "trinket_1_manual",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "trinket.t2.is.algethar_puzzle_box",
-["var_name"] = "trinket_2_manual",
-},
-},
-["variables"] = {
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "active_enemies = 1 & ( raid_event.adds.in > 15 || ! raid_event.adds.exists )",
-["var_name"] = "st_planning",
-["description"] = "Variables",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "active_enemies >= 2 & ( ! raid_event.adds.exists || raid_event.adds.exists & raid_event.adds.remains > 5 )",
-["var_name"] = "adds_remain",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "( talent.massacre.enabled & target.health.pct < 35 ) || target.health.pct < 20",
-["var_name"] = "execute_phase",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "buff.recklessness.down & buff.avatar.down & rage < 80 & buff.bloodbath.down & buff.crushing_blow.down & buff.sudden_death.down & ! cooldown.bladestorm.ready & ( ! cooldown.execute.ready || ! variable.execute_phase )",
-["var_name"] = "on_gcd_racials",
-},
-},
-["trinkets"] = {
-{
-["enabled"] = true,
-["name"] = "treacherous_transmitter",
-["action"] = "treacherous_transmitter",
-["criteria"] = "variable.adds_remain || variable.st_planning",
-["description"] = "Trinkets",
-},
-{
-["enabled"] = true,
-["action"] = "trinket1",
-["slot"] = "trinket1",
-["description"] = "Trinkets The trinket with the highest estimated value, will be used first and paired with Avatar.",
-["criteria"] = "variable.trinket_1_buffs & ! variable.trinket_1_manual & ( ! buff.avatar.up & trinket.t1.cast_time > 0 || ! trinket.t1.cast_time > 0 ) & ( ( talent.titans_torment.enabled & cooldown.avatar.ready ) || ( buff.avatar.up & ! talent.titans_torment.enabled ) ) & ( variable.trinket_2_exclude || ! trinket.t2.has_cooldown || trinket.t2.cooldown.remains || variable.trinket_priority = 1 ) || trinket.t1.buff_duration >= fight_remains & boss",
-},
-{
-["enabled"] = true,
-["criteria"] = "variable.trinket_2_buffs & ! variable.trinket_2_manual & ( ! buff.avatar.up & trinket.t2.cast_time > 0 || ! trinket.t2.cast_time > 0 ) & ( ( talent.titans_torment.enabled & cooldown.avatar.ready ) || ( buff.avatar.up & ! talent.titans_torment.enabled ) ) & ( variable.trinket_1_exclude || ! trinket.t1.has_cooldown || trinket.t1.cooldown.remains || variable.trinket_priority = 2 ) || trinket.t2.buff_duration >= fight_remains & boss",
-["action"] = "trinket2",
-["slot"] = "trinket2",
-},
-{
-["enabled"] = true,
-["action"] = "trinket1",
-["slot"] = "trinket1",
-["description"] = "If only one on use trinket provides a buff, use the other on cooldown. Or if neither trinket provides a buff, use both on cooldown.",
-["criteria"] = "! variable.trinket_1_buffs & ( trinket.t1.cast_time > 0 & ! buff.avatar.up || ! trinket.t1.cast_time > 0 ) & ! variable.trinket_1_manual & ( ! variable.trinket_1_buffs & ( trinket.t2.cooldown.remains || ! variable.trinket_2_buffs ) || ( trinket.t1.cast_time > 0 & ! buff.avatar.up || ! trinket.t1.cast_time > 0 ) || cooldown.avatar.remains_expected > 20 )",
-},
-{
-["enabled"] = true,
-["criteria"] = "! variable.trinket_2_buffs & ( trinket.t2.cast_time > 0 & ! buff.avatar.up || ! trinket.t2.cast_time > 0 ) & ! variable.trinket_2_manual & ( ! variable.trinket_2_buffs & ( trinket.t1.cooldown.remains || ! variable.trinket_1_buffs ) || ( trinket.t2.cast_time > 0 & ! buff.avatar.up || ! trinket.t2.cast_time > 0 ) || cooldown.avatar.remains_expected > 20 )",
-["action"] = "trinket2",
-["slot"] = "trinket2",
-},
-{
-["enabled"] = true,
-["criteria"] = "! equipped.fyralath_the_dreamrender & ( ! variable.trinket_1_buffs || trinket.t1.cooldown.remains ) & ( ! variable.trinket_2_buffs || trinket.t2.cooldown.remains )",
-["action"] = "main_hand",
-["slot"] = "main_hand",
-},
-},
-["slayer_am_mt"] = {
-{
-["action"] = "recklessness",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "( talent.titans_torment.enabled & ( buff.enrage.up || talent.titanic_rage.enabled ) & ( debuff.champions_might.up || ! talent.champions_might.enabled ) ) || ! talent.titans_torment.enabled",
-["action"] = "avatar",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up",
-["action"] = "thunderous_roar",
-},
-{
-["enabled"] = true,
-["criteria"] = "( buff.enrage.up & talent.titans_torment.enabled & cooldown.avatar.remains < gcd.max ) || ( buff.enrage.up & ! talent.titans_torment.enabled )",
-["action"] = "champions_spear",
-},
-{
-["enabled"] = true,
-["criteria"] = "dot.odyns_fury_torment_mh.remains < 1 & ( buff.enrage.up || talent.titanic_rage.enabled ) & cooldown.avatar.remains",
-["action"] = "odyns_fury",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.meat_cleaver.stack = 0 & talent.meat_cleaver.enabled",
-["action"] = "whirlwind",
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.ashen_juggernaut.enabled & buff.ashen_juggernaut.remains <= gcd.max & buff.enrage.up",
-["action"] = "execute",
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.bladestorm.enabled & cooldown.bladestorm.remains <= gcd.max & ! debuff.champions_might.up",
-["action"] = "rampage",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up & cooldown.avatar.remains >= 5",
-["action"] = "bladestorm",
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.tenderize.enabled",
-["action"] = "onslaught",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up & debuff.marked_for_execution.stack = 3",
-["action"] = "execute",
-},
-{
-["enabled"] = true,
-["criteria"] = "! buff.enrage.up",
-["action"] = "rampage",
-},
-{
-["action"] = "bloodthirst",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.slaughtering_strikes.stack >= 2",
-["action"] = "rampage",
-},
-{
-["action"] = "raging_blow",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up",
-["action"] = "execute",
-},
-{
-["action"] = "rampage",
-["enabled"] = true,
-},
-{
-["action"] = "onslaught",
-["enabled"] = true,
-},
-{
-["action"] = "whirlwind",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.bladestorm.up",
-["action"] = "storm_bolt",
-},
-},
-["thane_ra_st"] = {
-{
-["enabled"] = true,
-["criteria"] = "( ! talent.anger_management.enabled & cooldown.avatar.remains < 1 & talent.titans_torment.enabled ) || talent.anger_management.enabled || ! talent.titans_torment.enabled",
-["action"] = "recklessness",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up",
-["action"] = "thunder_blast",
-},
-{
-["enabled"] = true,
-["criteria"] = "( talent.titans_torment.enabled & ( buff.enrage.up || talent.titanic_rage.enabled ) & ( debuff.champions_might.up || ! talent.champions_might.enabled ) ) || ! talent.titans_torment.enabled & buff.enrage.up",
-["action"] = "avatar",
-},
-{
-["action"] = "ravager",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up",
-["action"] = "thunderous_roar",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up & ( cooldown.avatar.remains < gcd.max || ! talent.titans_torment.enabled )",
-["action"] = "champions_spear",
-},
-{
-["enabled"] = true,
-["criteria"] = "dot.odyns_fury_torment_mh.remains < 1 & ( buff.enrage.up || talent.titanic_rage.enabled ) & cooldown.avatar.remains",
-["action"] = "odyns_fury",
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.ashen_juggernaut.enabled & buff.ashen_juggernaut.remains <= gcd.max & buff.enrage.up",
-["action"] = "execute",
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.bladestorm.enabled & cooldown.bladestorm.remains <= gcd.max & ! debuff.champions_might.up",
-["action"] = "rampage",
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up & talent.unhinged.enabled",
-["action"] = "bladestorm",
-},
-{
-["enabled"] = true,
-["criteria"] = "! buff.enrage.up",
-["action"] = "rampage",
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.vicious_contempt.enabled & target.health.pct < 35 || buff.bloodcraze.stack >= 3",
-["action"] = "bloodbath",
-},
-{
-["action"] = "crushing_blow",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.tenderize.enabled",
-["action"] = "onslaught",
-},
-{
-["enabled"] = true,
-["criteria"] = "rage >= 115",
-["action"] = "rampage",
-},
-{
-["action"] = "raging_blow",
-["enabled"] = true,
-},
-{
-["action"] = "bloodbath",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "buff.enrage.up & ! buff.burst_of_power.up",
-["action"] = "bloodthirst",
-},
-{
-["action"] = "rampage",
-["enabled"] = true,
-},
-{
-["action"] = "execute",
-["enabled"] = true,
-},
-{
-["action"] = "onslaught",
-["enabled"] = true,
-},
-{
-["action"] = "bloodthirst",
-["enabled"] = true,
-},
-{
-["action"] = "thunder_clap",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["criteria"] = "talent.meat_cleaver.enabled",
-["action"] = "whirlwind",
-},
-{
-["action"] = "slam",
 ["enabled"] = true,
 },
 },
@@ -16420,10 +16398,70 @@ HekiliDB = {
 ["Protection Paladin"] = {
 ["source"] = "https://github.com/simulationcraft/simc/",
 ["builtIn"] = true,
-["date"] = 20271021,
+["date"] = 20271122,
 ["author"] = "SimC",
-["desc"] = "2024-10-11, 10-21: Update from SimC\n\n2024-09-08: Restore mitigation action list\n\n2024-09-02, 09-04, 09-08: SimC update\n\n2024-08-11, 22: Update from SimC\n\n2024-07-23: The War Within",
+["desc"] = "2024-10-11, 10-21, 11-22: Update from SimC\n\n2024-09-08: Restore mitigation action list\n\n2024-09-02, 09-04, 09-08: SimC update\n\n2024-08-11, 22: Update from SimC\n\n2024-07-23: The War Within",
 ["lists"] = {
+["default"] = {
+{
+["action"] = "rebuke",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["action"] = "call_action_list",
+["list_name"] = "mitigation",
+},
+{
+["enabled"] = true,
+["action"] = "call_action_list",
+["list_name"] = "cooldowns",
+},
+{
+["enabled"] = true,
+["action"] = "call_action_list",
+["list_name"] = "trinkets",
+},
+{
+["enabled"] = true,
+["action"] = "call_action_list",
+["list_name"] = "standard",
+},
+},
+["precombat"] = {
+{
+["action"] = "devotion_aura",
+["enabled"] = true,
+},
+{
+["action"] = "lights_judgment",
+["enabled"] = true,
+},
+{
+["action"] = "arcane_torrent",
+["enabled"] = true,
+},
+{
+["action"] = "consecration",
+["enabled"] = true,
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "1",
+["criteria"] = "trinket.t1.has_cooldown & trinket.t1.has_stat.any_dps & ( ! trinket.t2.has_stat.any_dps || trinket.t1.cooldown.duration >= trinket.t2.cooldown.duration ) || ! trinket.t2.has_cooldown",
+["var_name"] = "trinket_sync_slot",
+},
+{
+["enabled"] = true,
+["op"] = "set",
+["action"] = "variable",
+["value"] = "2",
+["criteria"] = "trinket.t2.has_cooldown & trinket.t2.has_stat.any_dps & ( ! trinket.t1.has_stat.any_dps || trinket.t2.cooldown.duration > trinket.t1.cooldown.duration ) || ! trinket.t1.has_cooldown",
+["var_name"] = "trinket_sync_slot",
+},
+},
 ["cooldowns"] = {
 {
 ["enabled"] = true,
@@ -16460,72 +16498,32 @@ HekiliDB = {
 ["action"] = "fireblood",
 },
 },
-["default"] = {
+["trinkets"] = {
 {
-["action"] = "rebuke",
 ["enabled"] = true,
+["criteria"] = "( variable.trinket_sync_slot = 1 & ( buff.avenging_wrath.up || fight_remains <= 40 ) || ( variable.trinket_sync_slot = 2 & ( ! trinket.t2.cooldown.ready || ! buff.avenging_wrath.up ) ) || ! variable.trinket_sync_slot )",
+["slots"] = "trinket1",
+["action"] = "trinket1",
 },
 {
 ["enabled"] = true,
-["action"] = "call_action_list",
-["list_name"] = "cooldowns",
-},
-{
-["enabled"] = true,
-["action"] = "call_action_list",
-["list_name"] = "mitigation",
-},
-{
-["enabled"] = true,
-["action"] = "call_action_list",
-["list_name"] = "trinkets",
-},
-{
-["enabled"] = true,
-["action"] = "call_action_list",
-["list_name"] = "standard",
-},
-},
-["precombat"] = {
-{
-["action"] = "devotion_aura",
-["enabled"] = true,
-},
-{
-["action"] = "lights_judgment",
-["enabled"] = true,
-},
-{
-["action"] = "arcane_torrent",
-["enabled"] = true,
-},
-{
-["action"] = "consecration",
-["enabled"] = true,
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "1",
-["var_name"] = "trinket_sync_slot",
-["criteria"] = "trinket.t1.has_cooldown & trinket.t1.has_stat.any_dps & ( ! trinket.t2.has_stat.any_dps || trinket.t1.cooldown.duration >= trinket.t2.cooldown.duration ) || ! trinket.t2.has_cooldown",
-},
-{
-["enabled"] = true,
-["op"] = "set",
-["action"] = "variable",
-["value"] = "2",
-["var_name"] = "trinket_sync_slot",
-["criteria"] = "trinket.t2.has_cooldown & trinket.t2.has_stat.any_dps & ( ! trinket.t1.has_stat.any_dps || trinket.t2.cooldown.duration > trinket.t1.cooldown.duration ) || ! trinket.t1.has_cooldown",
+["criteria"] = "( variable.trinket_sync_slot = 2 & ( buff.avenging_wrath.up || fight_remains <= 40 ) || ( variable.trinket_sync_slot = 1 & ( ! trinket.t1.cooldown.ready || ! buff.avenging_wrath.up ) ) || ! variable.trinket_sync_slot )",
+["slots"] = "trinket2",
+["action"] = "trinket2",
 },
 },
 ["standard"] = {
 {
 ["enabled"] = true,
-["action"] = "call_action_list",
 ["criteria"] = "talent.lights_guidance.enabled & ( cooldown.eye_of_tyr.remains < 2 || buff.hammer_of_light_ready.up ) & ( ! talent.redoubt.enabled || buff.redoubt.stack >= 2 || ! talent.bastion_of_light.enabled ) & ! buff.hammer_of_light_free.up",
+["action"] = "call_action_list",
 ["list_name"] = "hammer_of_light",
+},
+{
+["enabled"] = true,
+["action"] = "judgment",
+["criteria"] = "charges >= 2 || full_recharge_time <= gcd.max",
+["cycle_targets"] = 1,
 },
 {
 ["enabled"] = true,
@@ -16534,18 +16532,23 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "( hpg_to_2dawn = 5 || ! talent.of_dusk_and_dawn.enabled ) & talent.lights_guidance.enabled",
+["action"] = "eye_of_tyr",
+},
+{
+["enabled"] = true,
+["criteria"] = "( hpg_to_2dawn = 1 || buff.blessing_of_dawn.stack > 0 ) & talent.lights_guidance.enabled",
+["action"] = "eye_of_tyr",
+},
+{
+["enabled"] = true,
 ["criteria"] = "( ! talent.righteous_protector.enabled || cooldown.righteous_protector_icd.remains = 0 ) & ! buff.hammer_of_light_ready.up",
 ["action"] = "shield_of_the_righteous",
 },
 {
 ["enabled"] = true,
-["criteria"] = "next_armament = sacred_weapon & ( ! buff.sacred_weapon.up || ( buff.sacred_weapon.remains < 6 & ! buff.avenging_wrath.up & cooldown.avenging_wrath.remains <= 30 ) )",
-["action"] = "holy_armaments",
-},
-{
-["enabled"] = true,
-["criteria"] = "spell_targets.shield_of_the_righteous > 3 & buff.bulwark_of_righteous_fury.stack >= 3 & holy_power < 3",
 ["action"] = "judgment",
+["criteria"] = "spell_targets.shield_of_the_righteous > 3 & buff.bulwark_of_righteous_fury.stack >= 3 & holy_power < 3",
 ["cycle_targets"] = 1,
 },
 {
@@ -16570,8 +16573,8 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
-["criteria"] = "charges >= 2 || full_recharge_time <= gcd.max",
 ["action"] = "judgment",
+["criteria"] = "charges >= 2 || full_recharge_time <= gcd.max",
 ["cycle_targets"] = 1,
 },
 {
@@ -16580,18 +16583,37 @@ HekiliDB = {
 ["action"] = "consecration",
 },
 {
+["enabled"] = true,
+["criteria"] = "next_armament = sacred_weapon & ( ! buff.sacred_weapon.up || ( buff.sacred_weapon.remains < 6 & ! buff.avenging_wrath.up & cooldown.avenging_wrath.remains <= 30 ) )",
+["action"] = "holy_armaments",
+},
+{
 ["action"] = "hammer_of_wrath",
 ["enabled"] = true,
 },
 {
+["action"] = "divine_toll",
 ["enabled"] = true,
-["criteria"] = "next_armament = holy_bulwark & charges = 2",
-["action"] = "holy_armaments",
 },
 {
 ["enabled"] = true,
-["criteria"] = "( ! raid_event.adds.exists || raid_event.adds.in > 10 )",
-["action"] = "divine_toll",
+["criteria"] = "! buff.shake_the_heavens.up & talent.shake_the_heavens.enabled",
+["action"] = "avengers_shield",
+},
+{
+["enabled"] = true,
+["criteria"] = "( buff.blessed_assurance.up & spell_targets.shield_of_the_righteous < 3 ) || buff.shake_the_heavens.up",
+["action"] = "hammer_of_the_righteous",
+},
+{
+["enabled"] = true,
+["criteria"] = "( buff.blessed_assurance.up & spell_targets.shield_of_the_righteous < 3 ) || buff.shake_the_heavens.up",
+["action"] = "blessed_hammer",
+},
+{
+["enabled"] = true,
+["criteria"] = "( buff.blessed_assurance.up & spell_targets.shield_of_the_righteous < 2 ) || buff.shake_the_heavens.up",
+["action"] = "crusader_strike",
 },
 {
 ["enabled"] = true,
@@ -16675,66 +16697,6 @@ HekiliDB = {
 ["enabled"] = true,
 },
 },
-["trinkets"] = {
-{
-["enabled"] = true,
-["criteria"] = "( variable.trinket_sync_slot = 1 & ( buff.avenging_wrath.up || fight_remains <= 40 ) || ( variable.trinket_sync_slot = 2 & ( ! trinket.t2.cooldown.ready || ! buff.avenging_wrath.up ) ) || ! variable.trinket_sync_slot )",
-["slots"] = "trinket1",
-["action"] = "trinket1",
-},
-{
-["enabled"] = true,
-["criteria"] = "( variable.trinket_sync_slot = 2 & ( buff.avenging_wrath.up || fight_remains <= 40 ) || ( variable.trinket_sync_slot = 1 & ( ! trinket.t1.cooldown.ready || ! buff.avenging_wrath.up ) ) || ! variable.trinket_sync_slot )",
-["slots"] = "trinket2",
-["action"] = "trinket2",
-},
-},
-["hammer_of_light"] = {
-{
-["enabled"] = true,
-["criteria"] = "( buff.blessing_of_dawn.stack > 0 || ! talent.of_dusk_and_dawn.enabled ) || spell_targets.shield_of_the_righteous >= 5",
-["action"] = "hammer_of_light",
-},
-{
-["enabled"] = true,
-["criteria"] = "hpg_to_2dawn = 5 || ! talent.of_dusk_and_dawn.enabled",
-["action"] = "eye_of_tyr",
-},
-{
-["enabled"] = true,
-["criteria"] = "hpg_to_2dawn = 4",
-["action"] = "shield_of_the_righteous",
-},
-{
-["enabled"] = true,
-["criteria"] = "hpg_to_2dawn = 1 || buff.blessing_of_dawn.stack > 0",
-["action"] = "eye_of_tyr",
-},
-{
-["action"] = "hammer_of_wrath",
-["enabled"] = true,
-},
-{
-["action"] = "judgment",
-["enabled"] = true,
-},
-{
-["action"] = "blessed_hammer",
-["enabled"] = true,
-},
-{
-["action"] = "hammer_of_the_righteous",
-["enabled"] = true,
-},
-{
-["action"] = "crusader_strike",
-["enabled"] = true,
-},
-{
-["action"] = "divine_toll",
-["enabled"] = true,
-},
-},
 ["mitigation"] = {
 {
 ["enabled"] = true,
@@ -16759,7 +16721,7 @@ HekiliDB = {
 {
 ["enabled"] = true,
 ["criteria"] = "defensive_sentinel & tanking & incoming_damage_5s > goak_damage & ! ( buff.ardent_defender.up || buff.guardian_of_ancient_kings.up || buff.divine_shield.up || buff.potion.up )",
-["action"] = "avenging_wrath",
+["action"] = "sentinel",
 },
 {
 ["enabled"] = true,
@@ -16773,10 +16735,10 @@ HekiliDB = {
 },
 },
 },
-["version"] = 20271021,
-["warnings"] = "The import for 'precombat' required some automated changes.\nLine 5: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\nLine 5: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 5: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 5: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 5: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 5: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 5: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 5: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 6: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 6: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 6: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 6: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 6: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 6: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 6: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 6: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\n\nThe import for 'trinkets' required some automated changes.\nLine 1: Converted 'trinket.2.cooldown.ready' to 'trinket.t2.cooldown.ready' (1x).\nLine 1: Converted 'trinket.2.cooldown.ready' to 'trinket.t2.cooldown.ready'.\nLine 2: Converted 'trinket.1.cooldown.ready' to 'trinket.t1.cooldown.ready' (1x).\nLine 2: Converted 'trinket.1.cooldown.ready' to 'trinket.t1.cooldown.ready'.\n\nImported 7 action lists.\n",
+["version"] = 20271122,
+["warnings"] = "The import for 'precombat' required some automated changes.\nLine 5: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\nLine 5: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 5: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 5: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 5: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 5: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 5: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 5: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 6: Converted 'trinket.2.has_cooldown' to 'trinket.t2.has_cooldown' (1x).\nLine 6: Converted 'trinket.2.has_stat.any_dps' to 'trinket.t2.has_stat.any_dps' (1x).\nLine 6: Converted 'trinket.1.has_stat.any_dps' to 'trinket.t1.has_stat.any_dps' (1x).\nLine 6: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration' (1x).\nLine 6: Converted 'trinket.2.cooldown.duration' to 'trinket.t2.cooldown.duration'.\nLine 6: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration' (1x).\nLine 6: Converted 'trinket.1.cooldown.duration' to 'trinket.t1.cooldown.duration'.\nLine 6: Converted 'trinket.1.has_cooldown' to 'trinket.t1.has_cooldown' (1x).\n\nThe import for 'trinkets' required some automated changes.\nLine 1: Converted 'trinket.2.cooldown.ready' to 'trinket.t2.cooldown.ready' (1x).\nLine 1: Converted 'trinket.2.cooldown.ready' to 'trinket.t2.cooldown.ready'.\nLine 2: Converted 'trinket.1.cooldown.ready' to 'trinket.t1.cooldown.ready' (1x).\nLine 2: Converted 'trinket.1.cooldown.ready' to 'trinket.t1.cooldown.ready'.\n\nImported 6 action lists.\n",
+["profile"] = "## actions.precombat+=/rite_of_sanctification\n## actions.precombat+=/rite_of_adjuration\nactions.precombat+=/devotion_aura\nactions.precombat+=/lights_judgment\nactions.precombat+=/arcane_torrent\nactions.precombat+=/consecration\nactions.precombat+=/variable,name=trinket_sync_slot,value=1,if=trinket.1.has_cooldown&trinket.1.has_stat.any_dps&(!trinket.2.has_stat.any_dps||trinket.1.cooldown.duration>=trinket.2.cooldown.duration)||!trinket.2.has_cooldown\nactions.precombat+=/variable,name=trinket_sync_slot,value=2,if=trinket.2.has_cooldown&trinket.2.has_stat.any_dps&(!trinket.1.has_stat.any_dps||trinket.2.cooldown.duration>trinket.1.cooldown.duration)||!trinket.1.has_cooldown\n\nactions+=/rebuke\nactions+=/call_action_list,name=mitigation\nactions+=/call_action_list,name=cooldowns\nactions+=/call_action_list,name=trinkets\nactions+=/call_action_list,name=standard\n\nactions.cooldowns+=/lights_judgment,if=spell_targets.lights_judgment>=2||!raid_event.adds.exists||raid_event.adds.in>75||raid_event.adds.up\nactions.cooldowns+=/avenging_wrath\nactions.cooldowns+=/potion,if=buff.avenging_wrath.up\nactions.cooldowns+=/moment_of_glory,if=(buff.avenging_wrath.remains<15||(time>10))\nactions.cooldowns+=/divine_toll,if=spell_targets.shield_of_the_righteous>=3\nactions.cooldowns+=/bastion_of_light,if=buff.avenging_wrath.up||cooldown.avenging_wrath.remains<=30\n## actions.cooldowns+=/invoke_external_buff,name=power_infusion,if=buff.avenging_wrath.up\nactions.cooldowns+=/fireblood,if=buff.avenging_wrath.remains>8\n\nactions.mitigation+=/shield_of_the_righteous,if=tanking&buff.shield_of_the_righteous.down&(holy_power.deficit=0||buff.divine_purpose.up)\nactions.mitigation+=/word_of_glory,if=health.pct<wog_health&(holy_power.deficit=0||buff.divine_purpose.up||buff.shining_light_free.up)\nactions.mitigation+=/divine_shield,if=talent.final_stand.enabled&tanking&incoming_damage_5s>ds_damage&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/guardian_of_ancient_kings,if=tanking&incoming_damage_5s>goak_damage&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/sentinel,if=defensive_sentinel&tanking&incoming_damage_5s>goak_damage&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/ardent_defender,if=tanking&incoming_damage_5s>goak_damage&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/lay_on_hands,if=health.pct<15\n\nactions.standard+=/call_action_list,name=hammer_of_light,if=talent.lights_guidance.enabled&(cooldown.eye_of_tyr.remains<2||buff.hammer_of_light_ready.up)&(!talent.redoubt.enabled||buff.redoubt.stack>=2||!talent.bastion_of_light.enabled)&!buff.hammer_of_light_free.up\nactions.standard+=/judgment,cycle_targets=1,if=charges>=2||full_recharge_time<=gcd.max\nactions.standard+=/hammer_of_light,if=buff.hammer_of_light_free.remains<2||buff.shake_the_heavens.duration<1||!buff.shake_the_heavens.up||cooldown.eye_of_tyr.remains<1.5||fight_remains<2\nactions.standard+=/eye_of_tyr,if=(hpg_to_2dawn=5||!talent.of_dusk_and_dawn.enabled)&talent.lights_guidance.enabled\nactions.standard+=/eye_of_tyr,if=(hpg_to_2dawn=1||buff.blessing_of_dawn.stack>0)&talent.lights_guidance.enabled\nactions.standard+=/shield_of_the_righteous,if=(!talent.righteous_protector.enabled||cooldown.righteous_protector_icd.remains=0)&!buff.hammer_of_light_ready.up\nactions.standard+=/judgment,cycle_targets=1,if=spell_targets.shield_of_the_righteous>3&buff.bulwark_of_righteous_fury.stack>=3&holy_power<3\nactions.standard+=/avengers_shield,if=!buff.bulwark_of_righteous_fury.up&talent.bulwark_of_righteous_fury.enabled&spell_targets.shield_of_the_righteous>=3\nactions.standard+=/hammer_of_the_righteous,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3&!buff.avenging_wrath.up\nactions.standard+=/blessed_hammer,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3&!buff.avenging_wrath.up\nactions.standard+=/crusader_strike,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<2&!buff.avenging_wrath.up\nactions.standard+=/judgment,cycle_targets=1,if=charges>=2||full_recharge_time<=gcd.max\nactions.standard+=/consecration,if=buff.divine_guidance.stack=5\nactions.standard+=/holy_armaments,if=next_armament=sacred_weapon&(!buff.sacred_weapon.up||(buff.sacred_weapon.remains<6&!buff.avenging_wrath.up&cooldown.avenging_wrath.remains<=30))\nactions.standard+=/hammer_of_wrath\nactions.standard+=/divine_toll\nactions.standard+=/avengers_shield,if=!buff.shake_the_heavens.up&talent.shake_the_heavens.enabled\nactions.standard+=/hammer_of_the_righteous,if=(buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3)||buff.shake_the_heavens.up\nactions.standard+=/blessed_hammer,if=(buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3)||buff.shake_the_heavens.up\nactions.standard+=/crusader_strike,if=(buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<2)||buff.shake_the_heavens.up\nactions.standard+=/judgment,cycle_targets=1\nactions.standard+=/hammer_of_the_righteous,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3\nactions.standard+=/blessed_hammer,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3\nactions.standard+=/crusader_strike,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<2\n# In single target, Templar should prioritize maintaining Shake the Heavens by casting spells listed in Higher Calling.\nactions.standard+=/avengers_shield,if=!talent.lights_guidance.enabled\nactions.standard+=/consecration,if=!consecration.up\nactions.standard+=/eye_of_tyr,if=(talent.inmost_light.enabled&raid_event.adds.in>=45||spell_targets.shield_of_the_righteous>=3)&!talent.lights_deliverance.enabled\nactions.standard+=/holy_armaments,if=next_armament=holy_bulwark\nactions.standard+=/blessed_hammer\nactions.standard+=/hammer_of_the_righteous\nactions.standard+=/crusader_strike\nactions.standard+=/word_of_glory,if=buff.shining_light_free.up&(talent.blessed_assurance.enabled||(talent.lights_guidance.enabled&cooldown.hammerfall_icd.remains=0))\nactions.standard+=/avengers_shield\nactions.standard+=/eye_of_tyr,if=!talent.lights_deliverance.enabled\nactions.standard+=/word_of_glory,if=buff.shining_light_free.up\nactions.standard+=/arcane_torrent,if=holy_power<5\nactions.standard+=/consecration\n\nactions.trinkets+=/use_items,slots=trinket1,if=(variable.trinket_sync_slot=1&(buff.avenging_wrath.up||fight_remains<=40)||(variable.trinket_sync_slot=2&(!trinket.2.cooldown.ready||!buff.avenging_wrath.up))||!variable.trinket_sync_slot)\nactions.trinkets+=/use_items,slots=trinket2,if=(variable.trinket_sync_slot=2&(buff.avenging_wrath.up||fight_remains<=40)||(variable.trinket_sync_slot=1&(!trinket.1.cooldown.ready||!buff.avenging_wrath.up))||!variable.trinket_sync_slot)",
 ["spec"] = 66,
-["profile"] = "## actions.precombat+=/rite_of_sanctification\n## actions.precombat+=/rite_of_adjuration\nactions.precombat+=/devotion_aura\nactions.precombat+=/lights_judgment\nactions.precombat+=/arcane_torrent\nactions.precombat+=/consecration\nactions.precombat+=/variable,name=trinket_sync_slot,value=1,if=trinket.1.has_cooldown&trinket.1.has_stat.any_dps&(!trinket.2.has_stat.any_dps||trinket.1.cooldown.duration>=trinket.2.cooldown.duration)||!trinket.2.has_cooldown\nactions.precombat+=/variable,name=trinket_sync_slot,value=2,if=trinket.2.has_cooldown&trinket.2.has_stat.any_dps&(!trinket.1.has_stat.any_dps||trinket.2.cooldown.duration>trinket.1.cooldown.duration)||!trinket.1.has_cooldown\n\nactions+=/rebuke\nactions+=/call_action_list,name=cooldowns\nactions+=/call_action_list,name=mitigation\nactions+=/call_action_list,name=trinkets\nactions+=/call_action_list,name=standard\n\nactions.cooldowns+=/lights_judgment,if=spell_targets.lights_judgment>=2||!raid_event.adds.exists||raid_event.adds.in>75||raid_event.adds.up\nactions.cooldowns+=/avenging_wrath\nactions.cooldowns+=/potion,if=buff.avenging_wrath.up\nactions.cooldowns+=/moment_of_glory,if=(buff.avenging_wrath.remains<15||(time>10))\nactions.cooldowns+=/divine_toll,if=spell_targets.shield_of_the_righteous>=3\nactions.cooldowns+=/bastion_of_light,if=buff.avenging_wrath.up||cooldown.avenging_wrath.remains<=30\n## actions.cooldowns+=/invoke_external_buff,name=power_infusion,if=buff.avenging_wrath.up\nactions.cooldowns+=/fireblood,if=buff.avenging_wrath.remains>8\n\nactions.mitigation+=/shield_of_the_righteous,if=tanking&buff.shield_of_the_righteous.down&(holy_power.deficit=0||buff.divine_purpose.up)\nactions.mitigation+=/word_of_glory,if=health.pct<wog_health&(holy_power.deficit=0||buff.divine_purpose.up||buff.shining_light_free.up)\nactions.mitigation+=/divine_shield,if=talent.final_stand.enabled&tanking&incoming_damage_5s>ds_damage&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/guardian_of_ancient_kings,if=tanking&incoming_damage_5s>goak_damage&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/sentinel,if=defensive_sentinel&tanking&incoming_damage_5s>goak_damage&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/ardent_defender,if=tanking&incoming_damage_5s>goak_damage&!(buff.ardent_defender.up||buff.guardian_of_ancient_kings.up||buff.divine_shield.up||buff.potion.up)\nactions.mitigation+=/lay_on_hands,if=health.pct<15\n\nactions.standard+=/call_action_list,name=hammer_of_light,if=talent.lights_guidance.enabled&(cooldown.eye_of_tyr.remains<2||buff.hammer_of_light_ready.up)&(!talent.redoubt.enabled||buff.redoubt.stack>=2||!talent.bastion_of_light.enabled)&!buff.hammer_of_light_free.up\nactions.standard+=/hammer_of_light,if=buff.hammer_of_light_free.remains<2||buff.shake_the_heavens.duration<1||!buff.shake_the_heavens.up||cooldown.eye_of_tyr.remains<1.5||fight_remains<2\nactions.standard+=/shield_of_the_righteous,if=(!talent.righteous_protector.enabled||cooldown.righteous_protector_icd.remains=0)&!buff.hammer_of_light_ready.up\nactions.standard+=/holy_armaments,if=next_armament=sacred_weapon&(!buff.sacred_weapon.up||(buff.sacred_weapon.remains<6&!buff.avenging_wrath.up&cooldown.avenging_wrath.remains<=30))\nactions.standard+=/judgment,cycle_targets=1,if=spell_targets.shield_of_the_righteous>3&buff.bulwark_of_righteous_fury.stack>=3&holy_power<3\nactions.standard+=/avengers_shield,if=!buff.bulwark_of_righteous_fury.up&talent.bulwark_of_righteous_fury.enabled&spell_targets.shield_of_the_righteous>=3\nactions.standard+=/hammer_of_the_righteous,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3&!buff.avenging_wrath.up\nactions.standard+=/blessed_hammer,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3&!buff.avenging_wrath.up\nactions.standard+=/crusader_strike,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<2&!buff.avenging_wrath.up\nactions.standard+=/judgment,cycle_targets=1,if=charges>=2||full_recharge_time<=gcd.max\nactions.standard+=/consecration,if=buff.divine_guidance.stack=5\nactions.standard+=/hammer_of_wrath\nactions.standard+=/holy_armaments,if=next_armament=holy_bulwark&charges=2\nactions.standard+=/divine_toll,if=(!raid_event.adds.exists||raid_event.adds.in>10)\nactions.standard+=/judgment,cycle_targets=1\nactions.standard+=/hammer_of_the_righteous,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3\nactions.standard+=/blessed_hammer,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<3\nactions.standard+=/crusader_strike,if=buff.blessed_assurance.up&spell_targets.shield_of_the_righteous<2\n# In single target, Templar should prioritize maintaining Shake the Heavens by casting spells listed in Higher Calling.\nactions.standard+=/avengers_shield,if=!talent.lights_guidance.enabled\nactions.standard+=/consecration,if=!consecration.up\nactions.standard+=/eye_of_tyr,if=(talent.inmost_light.enabled&raid_event.adds.in>=45||spell_targets.shield_of_the_righteous>=3)&!talent.lights_deliverance.enabled\nactions.standard+=/holy_armaments,if=next_armament=holy_bulwark\nactions.standard+=/blessed_hammer\nactions.standard+=/hammer_of_the_righteous\nactions.standard+=/crusader_strike\nactions.standard+=/word_of_glory,if=buff.shining_light_free.up&(talent.blessed_assurance.enabled||(talent.lights_guidance.enabled&cooldown.hammerfall_icd.remains=0))\nactions.standard+=/avengers_shield\nactions.standard+=/eye_of_tyr,if=!talent.lights_deliverance.enabled\nactions.standard+=/word_of_glory,if=buff.shining_light_free.up\nactions.standard+=/arcane_torrent,if=holy_power<5\nactions.standard+=/consecration\n\nactions.hammer_of_light+=/hammer_of_light,if=(buff.blessing_of_dawn.stack>0||!talent.of_dusk_and_dawn.enabled)||spell_targets.shield_of_the_righteous>=5\nactions.hammer_of_light+=/eye_of_tyr,if=hpg_to_2dawn=5||!talent.of_dusk_and_dawn.enabled\nactions.hammer_of_light+=/shield_of_the_righteous,if=hpg_to_2dawn=4\nactions.hammer_of_light+=/eye_of_tyr,if=hpg_to_2dawn=1||buff.blessing_of_dawn.stack>0\nactions.hammer_of_light+=/hammer_of_wrath\nactions.hammer_of_light+=/judgment\nactions.hammer_of_light+=/blessed_hammer\nactions.hammer_of_light+=/hammer_of_the_righteous\nactions.hammer_of_light+=/crusader_strike\nactions.hammer_of_light+=/divine_toll\n\nactions.trinkets+=/use_items,slots=trinket1,if=(variable.trinket_sync_slot=1&(buff.avenging_wrath.up||fight_remains<=40)||(variable.trinket_sync_slot=2&(!trinket.2.cooldown.ready||!buff.avenging_wrath.up))||!variable.trinket_sync_slot)\nactions.trinkets+=/use_items,slots=trinket2,if=(variable.trinket_sync_slot=2&(buff.avenging_wrath.up||fight_remains<=40)||(variable.trinket_sync_slot=1&(!trinket.1.cooldown.ready||!buff.avenging_wrath.up))||!variable.trinket_sync_slot)",
 },
 ["Marksmanship"] = {
 ["source"] = "# https://github.com/simulationcraft/simc/",
