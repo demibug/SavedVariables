@@ -7,16 +7,17 @@ WeakAurasSaved = {
 ["hide"] = false,
 },
 ["historyCutoff"] = 730,
-["dbVersion"] = 78,
+["ProfilingWindow"] = {
+["xOffset"] = 997.6217651367188,
+["yOffset"] = -359.38623046875,
+},
 ["editor_theme"] = "Monokai",
 ["dynamicIconCache"] = {
 },
 ["editor_font_size"] = 12,
 ["lastArchiveClear"] = 1732336172,
 ["lastUpgrade"] = 1728342562,
-["RealTimeProfilingWindow"] = {
-["xOffset"] = 499.0067138671875,
-["yOffset"] = -304.5638427734375,
+["registered"] = {
 },
 ["migrationCutoff"] = 730,
 ["features"] = {
@@ -26,13 +27,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -42,7 +43,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["xOffset"] = 140,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -213,9 +214,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "mhKh1RiPng9",
 ["desaturate"] = false,
+["xOffset"] = 40,
 ["parent"] = "FQ",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -225,7 +225,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 40,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -370,13 +371,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 100,
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -407,7 +403,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "ZQS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -556,12 +557,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["width"] = 10,
-["parent"] = "ZS",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -572,8 +574,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "ZS",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -877,14 +878,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -953,13 +956,11 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["FQ_11_清毒"] = {
@@ -967,13 +968,9 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["width"] = 10,
-["xOffset"] = 110,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -983,7 +980,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["parent"] = "FQ",
 ["actions"] = {
@@ -1346,29 +1347,6 @@ WeakAurasSaved = {
 ["anchorFrameFrame"] = "WeakAuras:General Options - LWA - Warrior",
 ["hybridPosition"] = "hybridFirst",
 ["limit"] = 5,
-["borderSize"] = 2,
-["config"] = {
-},
-["xOffset"] = -6.103515625e-05,
-["anchorFrameParent"] = false,
-["gridType"] = "RD",
-["uid"] = "Sz0KEI8CK47",
-["rotation"] = 0,
-["semver"] = "11.0.15",
-["sort"] = "none",
-["id"] = "Dynamic Effects - LWA - Warrior",
-["frameStrata"] = 1,
-["gridWidth"] = 5,
-["anchorFrameType"] = "SELECTFRAME",
-["borderEdge"] = "Square Full White",
-["radius"] = 200,
-["rowSpace"] = 1,
-["stepAngle"] = 15,
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-},
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -1389,19 +1367,37 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["xOffset"] = -6.103515625e-05,
+["gridType"] = "RD",
+["anchorFrameParent"] = false,
+["borderSize"] = 2,
+["uid"] = "Sz0KEI8CK47",
+["rotation"] = 0,
+["semver"] = "11.0.15",
+["sort"] = "none",
+["id"] = "Dynamic Effects - LWA - Warrior",
+["frameStrata"] = 1,
+["gridWidth"] = 5,
+["anchorFrameType"] = "SELECTFRAME",
+["borderEdge"] = "Square Full White",
+["radius"] = 200,
+["rowSpace"] = 1,
+["stepAngle"] = 15,
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+},
+["config"] = {
+},
 },
 ["JX_3_玄牛酒"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "JX",
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -1411,7 +1407,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 30,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -1642,9 +1643,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -1654,11 +1659,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 120,
 ["actions"] = {
@@ -1942,9 +1943,8 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "CJQ",
+["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -1954,7 +1954,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 90,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -2124,8 +2125,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["parent"] = "KTZ",
-["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -2135,8 +2137,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 160,
 ["color"] = {
 1,
 1,
@@ -2437,13 +2438,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "CAT",
+["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -2453,7 +2449,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 100,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -2552,13 +2553,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 155625\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 155625\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -2636,13 +2637,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -2652,8 +2654,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 80,
 ["parent"] = "JX",
 ["actions"] = {
 ["start"] = {
@@ -2865,14 +2866,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 130,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -2882,7 +2882,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "ZQS",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -3052,8 +3053,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["xOffset"] = 110,
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -3084,8 +3086,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -3188,13 +3189,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 113656\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 113656\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -3258,8 +3259,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 100,
 ["parent"] = "TKS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -3269,8 +3271,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 100,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -3646,14 +3647,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -3706,13 +3709,11 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["JX_1_移花"] = {
@@ -3720,13 +3721,14 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 10,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -3736,8 +3738,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 10,
 ["parent"] = "JX",
 ["actions"] = {
 ["start"] = {
@@ -4054,13 +4055,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["xOffset"] = 50,
 ["parent"] = "MK",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -4070,7 +4066,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 50,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -4266,9 +4267,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "ZS",
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["xOffset"] = 80,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -4297,11 +4302,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -4453,13 +4454,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 120,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "TKS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -4469,7 +4466,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -4647,8 +4648,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KBZ",
 ["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -4679,8 +4681,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -4829,13 +4830,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 50,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "CJQ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -4843,7 +4840,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -5070,8 +5071,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "XDK",
 ["desaturate"] = false,
-["xOffset"] = 180,
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -5103,12 +5109,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 180,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -5257,13 +5258,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -5271,7 +5272,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 10,
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -5450,13 +5451,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 140,
 ["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -5466,7 +5462,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 140,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -5642,9 +5643,8 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["xOffset"] = 80,
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -5654,7 +5654,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "ZQS",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -5950,13 +5951,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 10,
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "KTZ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -5987,7 +5984,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -6148,9 +6149,8 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "EMS",
+["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -6160,7 +6160,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 140,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -6334,8 +6335,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 120,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -6367,12 +6373,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -6589,13 +6590,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 0\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 0\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -6612,10 +6613,10 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 ["rotation"] = 0,
 ["uid"] = "F8qXJTypfW8",
-["desaturate"] = false,
+["width"] = 10,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -6628,20 +6629,15 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["width"] = 10,
+["anchorFrameType"] = "SCREEN",
 },
 ["XDK_1_死打"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "XDK",
+["xOffset"] = 10,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -6672,7 +6668,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -6861,9 +6862,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 180,
 ["parent"] = "TF",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -6894,7 +6894,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 180,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -6977,13 +6978,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 231462\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 231462\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -7057,13 +7058,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 160,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -7094,7 +7095,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FQ",
+["xOffset"] = 160,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -7305,8 +7306,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["xOffset"] = 90,
 ["parent"] = "CAT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -7336,8 +7338,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 90,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -7436,13 +7437,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1822\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1822\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -7657,14 +7658,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -7734,27 +7737,20 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-},
-["FZT_10_破壞者"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["parent"] = "FZT",
-["desaturate"] = false,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+},
+["FZT_10_破壞者"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["parent"] = "FZT",
+["desaturate"] = false,
 ["authorOptions"] = {
 },
+["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -7785,7 +7781,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 100,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -7952,14 +7953,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 40,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "JX",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -7969,7 +7965,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "JX",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -8233,14 +8234,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "ZS",
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -8248,7 +8248,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -8434,14 +8435,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "XDK",
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -8451,7 +8447,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 150,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -8747,13 +8748,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "OldqjWGuQDm",
 ["width"] = 10,
+["xOffset"] = 70,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -8764,7 +8764,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["parent"] = "FQ",
 ["actions"] = {
 ["start"] = {
@@ -9162,18 +9163,26 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["source"] = "import",
 ["zoom"] = 0.48,
-["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
-["color"] = {
-1,
-1,
-1,
-1,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["information"] = {
-["forceEvents"] = true,
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -9184,9 +9193,23 @@ WeakAurasSaved = {
 ["do_custom"] = true,
 },
 },
+["information"] = {
+["forceEvents"] = true,
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["progressSource"] = {
+-1,
+"",
+},
 ["authorOptions"] = {
 },
-["preferToUpdate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["config"] = {
 },
 ["anchorFrameParent"] = false,
@@ -9199,13 +9222,10 @@ WeakAurasSaved = {
 ["useCooldownModRate"] = true,
 ["frameStrata"] = 1,
 ["width"] = 48,
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Warrior",
 ["uid"] = "ywa9CgPxqWl",
 ["inverse"] = true,
-["parent"] = "Core - LWA - Warrior",
+["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
 ["conditions"] = {
 {
 ["check"] = {
@@ -9288,26 +9308,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["preferToUpdate"] = false,
 },
 ["WQZ_11_劈顱"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -9318,8 +9319,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 110,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -9329,8 +9331,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -9678,13 +9679,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 20,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "ZS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -9713,7 +9710,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -9904,8 +9905,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 30,
 ["parent"] = "EMS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -9936,12 +9942,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 30,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -10096,13 +10097,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["parent"] = "ZQS",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -10112,7 +10109,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 20,
 ["actions"] = {
@@ -10309,13 +10310,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 120,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -10347,7 +10343,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 120,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "FQ",
 ["actions"] = {
 ["start"] = {
@@ -10539,8 +10540,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 130,
 ["parent"] = "EMS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -10571,12 +10577,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 130,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -10744,14 +10745,14 @@ WeakAurasSaved = {
 ["event"] = "GTFO",
 ["unit"] = "player",
 ["custom_hide"] = "custom",
+["custom"] = "function ()\n    WeakAuras.ScanEvents(\"LWA_OPTIONS\")\nend",
 ["events"] = "OPTIONS",
-["spellIds"] = {
-},
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
 ["custom_type"] = "event",
-["custom"] = "function ()\n    WeakAuras.ScanEvents(\"LWA_OPTIONS\")\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -10834,330 +10835,11 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["width"] = 1,
 ["source"] = "import",
-["desc"] = "Made by Luxthos - twitch.tv/luxthos",
 ["color"] = {
 0,
 0,
 0,
 0,
-},
-["cooldown"] = false,
-["displayIcon"] = 134520,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-["custom"] = "aura_env.CLASS = aura_env.id:gsub(\"Class Options %- LWA %- \", \"\")\n\nLWA = LWA or {}\nLWA[aura_env.CLASS] = LWA[aura_env.CLASS] or {}\n\nlocal LWA = LWA[aura_env.CLASS]\n\nLWA.configs = LWA.configs or {}\nLWA.configs[\"class\"] = aura_env.config\n\n",
-["do_custom"] = true,
-},
-["finish"] = {
-},
-},
-["preferToUpdate"] = false,
-["config"] = {
-["resources"] = {
-["ancient_teachings_bar"] = {
-["font_size"] = 14,
-["font"] = "Friz Quadrata TT",
-["height"] = 10,
-["gradient"] = 1,
-["color2"] = {
-0.92941182851791,
-0.78431379795074,
-0.47058826684952,
-1,
-},
-["color1"] = {
-0.81960791349411,
-0.47843140363693,
-0.094117656350136,
-1,
-},
-},
-["flurry_strikes_bar"] = {
-["ooc_gradient"] = 1,
-["ooc_color2"] = {
-1,
-1,
-1,
-0,
-},
-["ooc_color1"] = {
-1,
-1,
-1,
-0,
-},
-["color1"] = {
-0.15294118225574,
-0.4627451300621,
-0.4588235616684,
-1,
-},
-["color2"] = {
-0.36078432202339,
-0.89803928136826,
-0.79607850313187,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["max_color2"] = {
-1,
-1,
-1,
-1,
-},
-["font_size"] = 14,
-["height"] = 5,
-["gradient"] = 1,
-["gradientcopy"] = 1,
-["max_color1"] = {
-1,
-1,
-1,
-1,
-},
-},
-["vitality_bar"] = {
-["ooc_gradient"] = 1,
-["ooc_color2"] = {
-1,
-1,
-1,
-0,
-},
-["ooc_color1"] = {
-1,
-1,
-1,
-0,
-},
-["color1"] = {
-0.18823531270027,
-0.56470590829849,
-0.56078433990479,
-1,
-},
-["color2"] = {
-0.54509806632996,
-1,
-0.91372555494308,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["max_color2"] = {
-1,
-1,
-1,
-1,
-},
-["font_size"] = 14,
-["height"] = 5,
-["gradient"] = 1,
-["gradientcopy"] = 1,
-["max_color1"] = {
-1,
-1,
-1,
-1,
-},
-},
-["chi"] = {
-["full_gradient"] = 1,
-["color1"] = {
-0.14901961386204,
-0.8117647767067,
-0.58431375026703,
-1,
-},
-["color2"] = {
-0.73333334922791,
-1,
-0.90588241815567,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["full_color2"] = {
-1,
-1,
-1,
-1,
-},
-["full_color1"] = {
-1,
-1,
-1,
-0.80000001192093,
-},
-["gradient"] = 1,
-["height"] = 10,
-["font_size"] = 14,
-},
-["renewing_mist"] = {
-["cooldown_color2"] = {
-0.92941182851791,
-0.92941182851791,
-0.92941182851791,
-0.5,
-},
-["color1"] = {
-0.1294117718935,
-0.74117648601532,
-0.50196081399918,
-1,
-},
-["color2"] = {
-0.40392160415649,
-0.90980398654938,
-0.76470595598221,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["cooldown_color1"] = {
-0.69803923368454,
-0.69803923368454,
-0.69803923368454,
-0.5,
-},
-["height"] = 10,
-["gradient"] = 1,
-["cooldown_gradient"] = 1,
-["font_size"] = 14,
-},
-["roll"] = {
-["cooldown_color2"] = {
-0.92941182851791,
-0.92941182851791,
-0.92941182851791,
-0.5,
-},
-["color1"] = {
-0.3137255012989,
-0.6235294342041,
-0.3137255012989,
-1,
-},
-["color2"] = {
-1,
-1,
-0.54901963472366,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["cooldown_color1"] = {
-0.69803923368454,
-0.69803923368454,
-0.69803923368454,
-0.5,
-},
-["height"] = 5,
-["gradient"] = 1,
-["cooldown_gradient"] = 1,
-["font_size"] = 14,
-},
-["energy_bar"] = {
-["font_size"] = 14,
-["font"] = "Friz Quadrata TT",
-["height"] = 20,
-["gradient"] = 1,
-["color2"] = {
-1,
-0.90588241815567,
-0.38823533058166,
-1,
-},
-["color1"] = {
-0.89803928136826,
-0.69803923368454,
-0.098039224743843,
-1,
-},
-},
-["mana_bar"] = {
-["color2"] = {
-0.23137254901961,
-0.63137254901961,
-1,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["font_size"] = 14,
-["height"] = 5,
-["gradient"] = 1,
-["format"] = 5,
-["color1"] = {
-0.03921568627451,
-0.45098039215686,
-0.82745098039216,
-1,
-},
-},
-["stagger_bar"] = {
-["moderate_gradient"] = 1,
-["moderate_color2"] = {
-1,
-0.92941182851791,
-0.55294120311737,
-1,
-},
-["high_color1"] = {
-0.90588241815567,
-0.22352942824364,
-0.2039215862751,
-1,
-},
-["high_gradient"] = 1,
-["high_color2"] = {
-1,
-0.47058826684952,
-0.47058826684952,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["font_size"] = 14,
-["color2"] = {
-0.58823531866074,
-1,
-0.58823531866074,
-1,
-},
-["height"] = 20,
-["gradient"] = 1,
-["moderate_color1"] = {
-0.94509810209274,
-0.74117648601532,
-0.2549019753933,
-1,
-},
-["color1"] = {
-0.40000003576279,
-0.93725496530533,
-0.32941177487373,
-1,
-},
-},
-},
-},
-["keepAspectRatio"] = false,
-["useCooldownModRate"] = true,
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["semver"] = "11.0.19",
-["tocversion"] = 110005,
-["id"] = "Class Options - LWA - Monk",
-["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
-["alpha"] = 0,
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 0,
-["uid"] = "y5(64TKn)2a",
-["inverse"] = false,
-["selfPoint"] = "TOP",
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
 },
 ["authorOptions"] = {
 {
@@ -12723,13 +12405,337 @@ WeakAurasSaved = {
 ["size"] = 10,
 },
 },
+["cooldown"] = false,
+["displayIcon"] = 134520,
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+["custom"] = "aura_env.CLASS = aura_env.id:gsub(\"Class Options %- LWA %- \", \"\")\n\nLWA = LWA or {}\nLWA[aura_env.CLASS] = LWA[aura_env.CLASS] or {}\n\nlocal LWA = LWA[aura_env.CLASS]\n\nLWA.configs = LWA.configs or {}\nLWA.configs[\"class\"] = aura_env.config\n\n",
+["do_custom"] = true,
+},
+["finish"] = {
+},
+},
+["preferToUpdate"] = false,
+["config"] = {
+["resources"] = {
+["ancient_teachings_bar"] = {
+["font_size"] = 14,
+["font"] = "Friz Quadrata TT",
+["height"] = 10,
+["gradient"] = 1,
+["color2"] = {
+0.92941182851791,
+0.78431379795074,
+0.47058826684952,
+1,
+},
+["color1"] = {
+0.81960791349411,
+0.47843140363693,
+0.094117656350136,
+1,
+},
+},
+["flurry_strikes_bar"] = {
+["ooc_gradient"] = 1,
+["ooc_color2"] = {
+1,
+1,
+1,
+0,
+},
+["ooc_color1"] = {
+1,
+1,
+1,
+0,
+},
+["color1"] = {
+0.15294118225574,
+0.4627451300621,
+0.4588235616684,
+1,
+},
+["color2"] = {
+0.36078432202339,
+0.89803928136826,
+0.79607850313187,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["max_color2"] = {
+1,
+1,
+1,
+1,
+},
+["font_size"] = 14,
+["height"] = 5,
+["gradient"] = 1,
+["gradientcopy"] = 1,
+["max_color1"] = {
+1,
+1,
+1,
+1,
+},
+},
+["vitality_bar"] = {
+["ooc_gradient"] = 1,
+["ooc_color2"] = {
+1,
+1,
+1,
+0,
+},
+["ooc_color1"] = {
+1,
+1,
+1,
+0,
+},
+["color1"] = {
+0.18823531270027,
+0.56470590829849,
+0.56078433990479,
+1,
+},
+["color2"] = {
+0.54509806632996,
+1,
+0.91372555494308,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["max_color2"] = {
+1,
+1,
+1,
+1,
+},
+["font_size"] = 14,
+["height"] = 5,
+["gradient"] = 1,
+["gradientcopy"] = 1,
+["max_color1"] = {
+1,
+1,
+1,
+1,
+},
+},
+["chi"] = {
+["full_gradient"] = 1,
+["color1"] = {
+0.14901961386204,
+0.8117647767067,
+0.58431375026703,
+1,
+},
+["color2"] = {
+0.73333334922791,
+1,
+0.90588241815567,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["full_color2"] = {
+1,
+1,
+1,
+1,
+},
+["full_color1"] = {
+1,
+1,
+1,
+0.80000001192093,
+},
+["gradient"] = 1,
+["height"] = 10,
+["font_size"] = 14,
+},
+["renewing_mist"] = {
+["cooldown_color2"] = {
+0.92941182851791,
+0.92941182851791,
+0.92941182851791,
+0.5,
+},
+["color1"] = {
+0.1294117718935,
+0.74117648601532,
+0.50196081399918,
+1,
+},
+["color2"] = {
+0.40392160415649,
+0.90980398654938,
+0.76470595598221,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["cooldown_color1"] = {
+0.69803923368454,
+0.69803923368454,
+0.69803923368454,
+0.5,
+},
+["height"] = 10,
+["gradient"] = 1,
+["cooldown_gradient"] = 1,
+["font_size"] = 14,
+},
+["roll"] = {
+["cooldown_color2"] = {
+0.92941182851791,
+0.92941182851791,
+0.92941182851791,
+0.5,
+},
+["color1"] = {
+0.3137255012989,
+0.6235294342041,
+0.3137255012989,
+1,
+},
+["color2"] = {
+1,
+1,
+0.54901963472366,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["cooldown_color1"] = {
+0.69803923368454,
+0.69803923368454,
+0.69803923368454,
+0.5,
+},
+["height"] = 5,
+["gradient"] = 1,
+["cooldown_gradient"] = 1,
+["font_size"] = 14,
+},
+["energy_bar"] = {
+["font_size"] = 14,
+["font"] = "Friz Quadrata TT",
+["height"] = 20,
+["gradient"] = 1,
+["color2"] = {
+1,
+0.90588241815567,
+0.38823533058166,
+1,
+},
+["color1"] = {
+0.89803928136826,
+0.69803923368454,
+0.098039224743843,
+1,
+},
+},
+["mana_bar"] = {
+["color2"] = {
+0.23137254901961,
+0.63137254901961,
+1,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["font_size"] = 14,
+["height"] = 5,
+["gradient"] = 1,
+["format"] = 5,
+["color1"] = {
+0.03921568627451,
+0.45098039215686,
+0.82745098039216,
+1,
+},
+},
+["stagger_bar"] = {
+["moderate_gradient"] = 1,
+["moderate_color2"] = {
+1,
+0.92941182851791,
+0.55294120311737,
+1,
+},
+["high_color1"] = {
+0.90588241815567,
+0.22352942824364,
+0.2039215862751,
+1,
+},
+["high_gradient"] = 1,
+["high_color2"] = {
+1,
+0.47058826684952,
+0.47058826684952,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["font_size"] = 14,
+["color2"] = {
+0.58823531866074,
+1,
+0.58823531866074,
+1,
+},
+["height"] = 20,
+["gradient"] = 1,
+["moderate_color1"] = {
+0.94509810209274,
+0.74117648601532,
+0.2549019753933,
+1,
+},
+["color1"] = {
+0.40000003576279,
+0.93725496530533,
+0.32941177487373,
+1,
+},
+},
+},
+},
+["keepAspectRatio"] = false,
+["useCooldownModRate"] = true,
+["zoom"] = 0,
+["cooldownTextDisabled"] = false,
+["semver"] = "11.0.19",
+["tocversion"] = 110005,
+["id"] = "Class Options - LWA - Monk",
+["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
+["alpha"] = 0,
+["anchorFrameType"] = "SCREEN",
+["xOffset"] = 0,
+["uid"] = "y5(64TKn)2a",
+["inverse"] = false,
+["selfPoint"] = "TOP",
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+},
+["desc"] = "Made by Luxthos - twitch.tv/luxthos",
 },
 ["EMS_5_血瓶"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "EMS",
-["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -12739,12 +12745,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 50,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -12957,9 +12958,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 70,
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -12969,7 +12969,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -13270,9 +13271,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 20,
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -13303,7 +13303,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["parent"] = "DKT",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -13518,13 +13519,9 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["width"] = 10,
-["parent"] = "DKT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -13534,7 +13531,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 120,
 ["actions"] = {
@@ -13633,13 +13634,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 206930\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 206930\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -13878,13 +13879,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -13894,7 +13895,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 70,
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -14065,8 +14066,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 140,
 ["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -14097,12 +14103,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 140,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -14251,9 +14252,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 100,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "EMS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -14284,11 +14289,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -14442,8 +14443,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["xOffset"] = 130,
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -14474,8 +14476,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -14558,13 +14559,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 392983\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 392983\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -14661,15 +14662,13 @@ WeakAurasSaved = {
 ["spellId"] = "49206",
 ["auranames"] = {
 },
-["names"] = {
-},
+["subeventPrefix"] = "SPELL",
 ["ownOnly"] = true,
 ["genericShowOn"] = "showOnCooldown",
-["use_unit"] = true,
+["unit"] = "player",
 ["use_genericShowOn"] = true,
-["spellIds"] = {
-},
 ["events"] = "PLAYER_TOTEM_UPDATE",
+["custom"] = "function(event, arg1)\n    if event == \"PLAYER_TOTEM_UPDATE\" and arg1 then\n        local haveTotem, name, startTime, duration, icon = GetTotemInfo(arg1)\n        if haveTotem and icon == aura_env.texture then\n            aura_env.haveTotem, aura_env.name, aura_env.startTime, aura_env.duration, aura_env.icon = haveTotem, name, startTime, duration, icon\n            aura_env.index = arg1\n            return true\n        elseif aura_env.index == arg1 then\n            aura_env.index = 0\n            aura_env.startTime, aura_env.duration = nil, nil\n        end\n    end\nend",
 ["use_spellName"] = true,
 ["realSpellName"] = 0,
 ["duration"] = "35",
@@ -14678,19 +14677,21 @@ WeakAurasSaved = {
 ["useName"] = true,
 ["type"] = "custom",
 ["debuffType"] = "HELPFUL",
-["unevent"] = "auto",
 ["subeventSuffix"] = "_CAST_SUCCESS",
 ["custom_type"] = "status",
+["unevent"] = "auto",
 ["event"] = "Cooldown Progress (Spell)",
 ["totemName"] = "27829",
 ["customDuration"] = "function()\n    if aura_env.startTime then\n        return aura_env.duration, aura_env.startTime + aura_env.duration\n    end\nend",
 ["use_spellId"] = true,
-["custom"] = "function(event, arg1)\n    if event == \"PLAYER_TOTEM_UPDATE\" and arg1 then\n        local haveTotem, name, startTime, duration, icon = GetTotemInfo(arg1)\n        if haveTotem and icon == aura_env.texture then\n            aura_env.haveTotem, aura_env.name, aura_env.startTime, aura_env.duration, aura_env.icon = haveTotem, name, startTime, duration, icon\n            aura_env.index = arg1\n            return true\n        elseif aura_env.index == arg1 then\n            aura_env.index = 0\n            aura_env.startTime, aura_env.duration = nil, nil\n        end\n    end\nend",
+["spellIds"] = {
+},
 ["use_sourceUnit"] = true,
 ["check"] = "event",
-["unit"] = "player",
+["use_unit"] = true,
 ["use_track"] = true,
-["subeventPrefix"] = "SPELL",
+["names"] = {
+},
 },
 ["untrigger"] = {
 ["custom"] = "function()\n    return aura_env.index == 0\nend",
@@ -14836,13 +14837,13 @@ WeakAurasSaved = {
 },
 ["useAdjustededMax"] = false,
 ["width"] = 48,
-["icon"] = true,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["keepAspectRatio"] = true,
 ["cooldown"] = true,
 ["displayIcon"] = 574571,
 ["useAdjustededMin"] = false,
@@ -14976,15 +14977,20 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["keepAspectRatio"] = true,
+["icon"] = true,
 },
 ["FQ_10_飞盾"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 100,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -15015,12 +15021,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 100,
 ["parent"] = "FQ",
 ["actions"] = {
 ["start"] = {
@@ -15151,13 +15152,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 31935\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 31935\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -15253,13 +15254,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 140,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -15291,7 +15291,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 140,
+["authorOptions"] = {
+},
 ["parent"] = "FQ",
 ["actions"] = {
 ["start"] = {
@@ -15422,13 +15423,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 275779\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 275779\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -15488,13 +15489,13 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 100,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -15504,7 +15505,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 100,
+["parent"] = "TF",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -15603,13 +15604,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 101546\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 101546\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -15689,13 +15690,14 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 210,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -15705,8 +15707,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 210,
 ["parent"] = "JX",
 ["actions"] = {
 ["start"] = {
@@ -15784,13 +15785,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 100780\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 100780\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -16016,14 +16017,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -16092,13 +16095,11 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["Expel Harm (Mistweaver)"] = {
@@ -16241,17 +16242,29 @@ WeakAurasSaved = {
 },
 ["useAdjustededMax"] = false,
 ["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["preferToUpdate"] = false,
-["parent"] = "Core - LWA - Monk",
+["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["cooldown"] = true,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["preferToUpdate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -16272,15 +16285,6 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["uid"] = "0Up)nlYCccU",
 ["anchorFrameParent"] = false,
 ["width"] = 48,
@@ -16362,10 +16366,7 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Monk",
 },
 ["Tea of Serenity (Enveloping Mist)"] = {
 ["iconSource"] = -1,
@@ -16494,14 +16495,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -16570,26 +16573,19 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["JX_9_打断"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "bOlFM4SlrSq",
 ["desaturate"] = false,
+["parent"] = "JX",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -16600,7 +16596,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "JX",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 90,
 ["actions"] = {
 ["start"] = {
@@ -16861,8 +16862,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["xOffset"] = 150,
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -16893,8 +16895,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -16980,13 +16981,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 123904\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 123904\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -17056,13 +17057,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 240,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "JX",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -17072,7 +17069,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -17152,13 +17153,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 116847\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -17261,14 +17262,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "ZS",
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -17276,7 +17276,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -17448,14 +17449,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 70,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -17486,7 +17482,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "ZQS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -17665,9 +17666,13 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["width"] = 10,
-["xOffset"] = 130,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -17677,11 +17682,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "FQ",
 ["actions"] = {
@@ -17894,8 +17895,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 60,
 ["parent"] = "DKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -17905,12 +17911,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 60,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -18009,13 +18010,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -18254,8 +18255,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 130,
 ["parent"] = "CJQ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -18286,12 +18292,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 130,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -18440,13 +18441,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 180,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -18478,7 +18478,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 180,
+["authorOptions"] = {
+},
 ["parent"] = "TKS",
 ["actions"] = {
 ["start"] = {
@@ -18626,13 +18627,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "WQZ",
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 170,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -18642,7 +18639,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -18989,14 +18990,16 @@ WeakAurasSaved = {
 },
 ["alpha"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
@@ -19153,22 +19156,24 @@ WeakAurasSaved = {
 },
 ["displayIcon"] = "",
 ["cooldown"] = true,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["DKT_7_印记"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["parent"] = "DKT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -19199,11 +19204,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 70,
 ["actions"] = {
@@ -19302,13 +19303,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -19400,9 +19401,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "JX",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "JX",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -19433,11 +19438,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 230,
 ["actions"] = {
@@ -19516,13 +19517,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 322729\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -19606,8 +19607,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 110,
 ["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -19617,12 +19623,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 110,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -19793,9 +19794,14 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -19805,12 +19811,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "TF",
 ["xOffset"] = 160,
 ["actions"] = {
 ["start"] = {
@@ -19892,13 +19893,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 137639\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 137639\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -19987,9 +19988,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["parent"] = "DKT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -20020,11 +20025,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 100,
 ["actions"] = {
@@ -20123,13 +20124,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 219809\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 219809\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -20344,14 +20345,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -20420,26 +20423,20 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-},
-["CJQ_7_愤怒之锤"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["desaturate"] = false,
-["parent"] = "CJQ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+},
+["CJQ_7_愤怒之锤"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["authorOptions"] = {
+},
+["parent"] = "CJQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -20449,7 +20446,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 70,
 ["actions"] = {
@@ -20620,9 +20621,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 40,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "ZQS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -20653,11 +20658,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -20837,13 +20838,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "TKS",
+["xOffset"] = 110,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -20874,7 +20870,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 110,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -21028,13 +21029,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "XT",
+["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -21065,7 +21061,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 40,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -21310,9 +21311,8 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "FZT",
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -21322,7 +21322,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -21620,9 +21621,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "XDK",
 ["authorOptions"] = {
 },
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -21653,7 +21654,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 130,
+["parent"] = "XDK",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -21947,13 +21948,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -21963,7 +21964,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 50,
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -22142,12 +22143,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["desaturate"] = false,
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -22158,8 +22160,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -22328,8 +22329,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 180,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KBZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -22361,12 +22367,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -22515,8 +22516,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 140,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -22548,12 +22554,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -22703,8 +22704,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 150,
 ["parent"] = "CAT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -22734,12 +22740,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 150,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -22837,13 +22838,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 391528\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 391528\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -22903,13 +22904,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "JX",
+["xOffset"] = 220,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -22919,7 +22915,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 220,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -22998,13 +22999,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 107428\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 107428\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -23108,8 +23109,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 20,
 ["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -23117,12 +23123,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 20,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -23307,13 +23308,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 180,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -23344,7 +23345,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 180,
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -23507,8 +23508,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "yJlrmygp3J7",
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["parent"] = "MK",
-["xOffset"] = 10,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -23516,8 +23518,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 10,
 ["color"] = {
 1,
 1,
@@ -23708,13 +23709,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 30,
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -23724,7 +23720,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -24002,29 +24003,6 @@ WeakAurasSaved = {
 ["anchorFrameFrame"] = "WeakAuras:General Options - LWA - Warrior",
 ["hybridPosition"] = "hybridFirst",
 ["limit"] = 5,
-["borderSize"] = 2,
-["config"] = {
-},
-["xOffset"] = -6.103515625e-05,
-["anchorFrameParent"] = false,
-["gridType"] = "RD",
-["uid"] = "jbwIYZap4I6",
-["rotation"] = 0,
-["semver"] = "11.0.15",
-["sort"] = "none",
-["id"] = "Utilities - LWA - Warrior",
-["frameStrata"] = 1,
-["gridWidth"] = 5,
-["anchorFrameType"] = "SELECTFRAME",
-["borderEdge"] = "Square Full White",
-["radius"] = 200,
-["rowSpace"] = 1,
-["stepAngle"] = 15,
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-},
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -24045,13 +24023,41 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["xOffset"] = -6.103515625e-05,
+["gridType"] = "RD",
+["anchorFrameParent"] = false,
+["borderSize"] = 2,
+["uid"] = "jbwIYZap4I6",
+["rotation"] = 0,
+["semver"] = "11.0.15",
+["sort"] = "none",
+["id"] = "Utilities - LWA - Warrior",
+["frameStrata"] = 1,
+["gridWidth"] = 5,
+["anchorFrameType"] = "SELECTFRAME",
+["borderEdge"] = "Square Full White",
+["radius"] = 200,
+["rowSpace"] = 1,
+["stepAngle"] = 15,
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+},
+["config"] = {
+},
 },
 ["DKT_18_乾坤"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DKT",
-["xOffset"] = 180,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -24082,12 +24088,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 180,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -24189,13 +24190,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 312411\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 312411\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -24284,13 +24285,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "UTEAke3DXDs",
 ["width"] = 10,
-["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -24320,7 +24317,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 110,
 ["actions"] = {
@@ -24475,9 +24476,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["parent"] = "JX",
 ["authorOptions"] = {
 },
+["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -24487,7 +24488,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 140,
+["parent"] = "JX",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -24567,13 +24568,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 387184\n    local skill_id_1 = 231462\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -24678,9 +24679,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "KTZ",
 ["authorOptions"] = {
 },
+["xOffset"] = 180,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -24691,7 +24692,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 180,
+["parent"] = "KTZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -24861,13 +24862,12 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["width"] = 10,
+["parent"] = "XT",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -24878,7 +24878,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XT",
+["authorOptions"] = {
+},
 ["xOffset"] = 120,
 ["actions"] = {
 ["start"] = {
@@ -25009,13 +25010,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 77758\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 77758\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -25094,12 +25095,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "DKT",
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 30,
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -25110,8 +25112,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 30,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -25296,8 +25297,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "MK",
 ["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -25307,8 +25309,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "MK",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -25492,9 +25493,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 70,
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -25525,7 +25525,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XT",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -25703,8 +25704,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "WQZ",
 ["desaturate"] = false,
-["xOffset"] = 130,
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -25715,12 +25721,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 130,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -25916,13 +25917,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 180,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "CJQ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -25953,7 +25950,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -26108,8 +26109,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 180,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -26119,8 +26121,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -26295,9 +26296,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["xOffset"] = 80,
 ["authorOptions"] = {
 },
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26328,7 +26329,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XT",
+["xOffset"] = 80,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -26505,9 +26506,8 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "TKS",
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26538,7 +26538,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 60,
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -26696,13 +26697,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "FZT",
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 120,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26733,7 +26730,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -26888,8 +26889,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["xOffset"] = 80,
 ["parent"] = "KBZ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -26899,8 +26901,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 80,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -27205,18 +27206,26 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["source"] = "import",
 ["zoom"] = 0.3,
-["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
-["color"] = {
-1,
-1,
-1,
-1,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["information"] = {
-["forceEvents"] = true,
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -27225,9 +27234,23 @@ WeakAurasSaved = {
 ["init"] = {
 },
 },
+["information"] = {
+["forceEvents"] = true,
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["progressSource"] = {
+-1,
+"",
+},
 ["authorOptions"] = {
 },
-["preferToUpdate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["config"] = {
 },
 ["anchorFrameParent"] = false,
@@ -27240,13 +27263,10 @@ WeakAurasSaved = {
 ["useCooldownModRate"] = true,
 ["frameStrata"] = 1,
 ["width"] = 48,
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Warrior",
 ["uid"] = "3)Um8zqkAS7",
 ["inverse"] = true,
-["parent"] = "Core - LWA - Warrior",
+["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
 ["conditions"] = {
 {
 ["check"] = {
@@ -27319,26 +27339,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["preferToUpdate"] = false,
 },
 ["ZQS_16_野性狼魂/新星"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -27349,9 +27350,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 160,
 ["authorOptions"] = {
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -27361,7 +27362,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "ZQS",
+["xOffset"] = 160,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -27531,9 +27532,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "ZQS",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -27543,11 +27548,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 120,
 ["actions"] = {
@@ -27856,18 +27857,26 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["source"] = "import",
 ["zoom"] = 0.3,
-["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
-["color"] = {
-1,
-1,
-1,
-1,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["information"] = {
-["forceEvents"] = true,
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -27876,9 +27885,23 @@ WeakAurasSaved = {
 ["init"] = {
 },
 },
+["information"] = {
+["forceEvents"] = true,
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["progressSource"] = {
+-1,
+"",
+},
 ["authorOptions"] = {
 },
-["preferToUpdate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["config"] = {
 },
 ["anchorFrameParent"] = false,
@@ -27891,13 +27914,10 @@ WeakAurasSaved = {
 ["useCooldownModRate"] = true,
 ["frameStrata"] = 1,
 ["width"] = 48,
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Warrior",
 ["uid"] = "Sg3hwD5HZB2",
 ["inverse"] = true,
-["parent"] = "Core - LWA - Warrior",
+["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
 ["conditions"] = {
 {
 ["check"] = {
@@ -27970,26 +27990,7 @@ WeakAurasSaved = {
 },
 },
 ["cooldown"] = true,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["preferToUpdate"] = false,
 },
 ["Right Side - LWA - Monk"] = {
 ["arcLength"] = 360,
@@ -28139,9 +28140,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 100,
 ["parent"] = "KTZ",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -28151,7 +28151,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 100,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -28326,13 +28327,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 150,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -28342,7 +28343,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "ZQS",
+["xOffset"] = 150,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -28512,14 +28513,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 40,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -28529,7 +28529,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -28724,9 +28725,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 180,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "EMS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -28736,11 +28741,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -28910,13 +28911,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "XDK",
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 160,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -28947,7 +28944,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -29102,8 +29103,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["parent"] = "CSZ",
 ["xOffset"] = 140,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -29134,8 +29136,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -29285,13 +29286,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 110,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29301,7 +29302,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "ZQS",
+["xOffset"] = 110,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -29593,9 +29594,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "KBZ",
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 100,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29605,11 +29610,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -29781,8 +29782,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "CSZ",
 ["xOffset"] = 80,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -29792,12 +29798,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -29972,9 +29973,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "ZQS",
 ["authorOptions"] = {
 },
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -30005,7 +30006,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["parent"] = "ZQS",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -30169,15 +30170,13 @@ WeakAurasSaved = {
 ["spellId"] = "49206",
 ["auranames"] = {
 },
-["names"] = {
-},
+["subeventPrefix"] = "SPELL",
 ["ownOnly"] = true,
 ["genericShowOn"] = "showOnCooldown",
-["use_unit"] = true,
+["unit"] = "player",
 ["use_genericShowOn"] = true,
-["spellIds"] = {
-},
 ["events"] = "PLAYER_TOTEM_UPDATE",
+["custom"] = "function(event, arg1)\n    if event == \"PLAYER_TOTEM_UPDATE\" and arg1 then\n        local haveTotem, name, startTime, duration, icon = GetTotemInfo(arg1)\n        if haveTotem and icon == aura_env.texture then\n            aura_env.haveTotem, aura_env.name, aura_env.startTime, aura_env.duration, aura_env.icon = haveTotem, name, startTime, duration, icon\n            aura_env.index = arg1\n            return true\n        elseif aura_env.index == arg1 then\n            aura_env.index = 0\n            aura_env.startTime, aura_env.duration = nil, nil\n        end\n    end\nend",
 ["use_spellName"] = true,
 ["realSpellName"] = 0,
 ["duration"] = "35",
@@ -30186,19 +30185,21 @@ WeakAurasSaved = {
 ["useName"] = true,
 ["type"] = "custom",
 ["debuffType"] = "HELPFUL",
-["unevent"] = "auto",
 ["subeventSuffix"] = "_CAST_SUCCESS",
 ["custom_type"] = "status",
+["unevent"] = "auto",
 ["event"] = "Cooldown Progress (Spell)",
 ["totemName"] = "27829",
 ["customDuration"] = "function()\n    if aura_env.startTime then\n        return aura_env.duration, aura_env.startTime + aura_env.duration\n    end\nend",
 ["use_spellId"] = true,
-["custom"] = "function(event, arg1)\n    if event == \"PLAYER_TOTEM_UPDATE\" and arg1 then\n        local haveTotem, name, startTime, duration, icon = GetTotemInfo(arg1)\n        if haveTotem and icon == aura_env.texture then\n            aura_env.haveTotem, aura_env.name, aura_env.startTime, aura_env.duration, aura_env.icon = haveTotem, name, startTime, duration, icon\n            aura_env.index = arg1\n            return true\n        elseif aura_env.index == arg1 then\n            aura_env.index = 0\n            aura_env.startTime, aura_env.duration = nil, nil\n        end\n    end\nend",
+["spellIds"] = {
+},
 ["use_sourceUnit"] = true,
 ["check"] = "event",
-["unit"] = "player",
+["use_unit"] = true,
 ["use_track"] = true,
-["subeventPrefix"] = "SPELL",
+["names"] = {
+},
 },
 ["untrigger"] = {
 ["custom"] = "function()\n    return aura_env.index == 0\nend",
@@ -30377,14 +30378,18 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+["custom"] = "aura_env.texture = 877514",
+["do_custom"] = true,
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = 877514,
 ["animation"] = {
@@ -30554,15 +30559,11 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-["custom"] = "aura_env.texture = 877514",
-["do_custom"] = true,
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["AOE"] = {
@@ -30623,14 +30624,14 @@ WeakAurasSaved = {
 ["event"] = "Health",
 ["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
+["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        if not UnitIsDead(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit)\n        then\n            if WeakAuras.CheckRange(unit, 8, \"<=\")\n            then\n                count = count + 1\n                if count >= 2 then\n                    break\n                end\n            end\n        end\n    end\n    return count >= 2\nend",
 ["events"] = "",
-["spellIds"] = {
-},
 ["names"] = {
 },
 ["check"] = "update",
 ["custom_type"] = "status",
-["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        if not UnitIsDead(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit)\n        then\n            if WeakAuras.CheckRange(unit, 8, \"<=\")\n            then\n                count = count + 1\n                if count >= 2 then\n                    break\n                end\n            end\n        end\n    end\n    return count >= 2\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -30648,11 +30649,11 @@ WeakAurasSaved = {
 ["id"] = "AOE",
 ["uid"] = "YAd2CUc0QvT",
 ["frameStrata"] = 1,
-["desaturate"] = false,
+["width"] = 32,
 ["rotation"] = 0,
 ["config"] = {
 },
-["width"] = 32,
+["anchorFrameType"] = "SCREEN",
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -30679,18 +30680,19 @@ WeakAurasSaved = {
 },
 },
 },
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 },
 ["ZS_1_盾擋"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "ZS",
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -30699,8 +30701,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 10,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -30922,14 +30923,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 150,
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "CJQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -30960,7 +30956,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CJQ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -31296,10 +31297,10 @@ WeakAurasSaved = {
 ["debuffType"] = "HELPFUL",
 ["event"] = "Chat Message",
 ["unit"] = "player",
+["events"] = "CLEU:UNIT_DIED, CLEU:SPELL_DAMAGE, WA_MIST_NAV, PLAYER_REGEN_DISABLED, PLAYER_REGEN_ENABLED, ZONE_CHANGED, ZONE_CHANGED_INDOORS, PLAYER_ENTERING_WORLD, ENCOUNTER_START, ENCOUNTER_END, WA_MIST_NAV_DEBUG, BOSS_KILL",
 ["custom"] = "function (...) return aura_env:ON_EVENT(...) end",
 ["spellIds"] = {
 },
-["events"] = "CLEU:UNIT_DIED, CLEU:SPELL_DAMAGE, WA_MIST_NAV, PLAYER_REGEN_DISABLED, PLAYER_REGEN_ENABLED, ZONE_CHANGED, ZONE_CHANGED_INDOORS, PLAYER_ENTERING_WORLD, ENCOUNTER_START, ENCOUNTER_END, WA_MIST_NAV_DEBUG, BOSS_KILL",
 ["names"] = {
 },
 ["check"] = "event",
@@ -31554,9 +31555,8 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "CAT",
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -31566,7 +31566,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -31665,13 +31666,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 22568\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 22568\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -31750,13 +31751,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 30,
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -31787,7 +31783,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -31961,12 +31962,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 100,
 ["desaturate"] = false,
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -31977,8 +31979,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -32153,8 +32154,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["xOffset"] = 100,
 ["parent"] = "CJQ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -32185,8 +32187,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 100,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -32335,9 +32336,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 90,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -32368,11 +32373,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -32638,8 +32639,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 40,
 ["desaturate"] = false,
-["parent"] = "KBZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -32671,12 +32677,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -32932,11 +32933,8 @@ WeakAurasSaved = {
 ["anchorFrameFrame"] = "WeakAuras:General Options - LWA - Monk",
 ["hybridPosition"] = "hybridFirst",
 ["limit"] = 5,
-["config"] = {
-},
-["gridType"] = "RD",
+["xOffset"] = -6.103515625e-05,
 ["borderSize"] = 2,
-["anchorFrameParent"] = false,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -32957,6 +32955,9 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["anchorFrameParent"] = false,
+["config"] = {
+},
 ["stepAngle"] = 15,
 ["rowSpace"] = 1,
 ["semver"] = "11.0.19",
@@ -32974,15 +32975,16 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["xOffset"] = -6.103515625e-05,
+["gridType"] = "RD",
 },
 ["DKT_13_收割"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["config"] = {
 },
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["parent"] = "DKT",
-["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -32992,8 +32994,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 130,
 ["color"] = {
 1,
 1,
@@ -33100,13 +33101,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 343294\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 343294\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -33376,10 +33377,10 @@ WeakAurasSaved = {
 {
 ["trigger"] = {
 ["debuffClass"] = {
-["curse"] = true,
-["disease"] = true,
-["bleed"] = true,
 ["poison"] = true,
+["curse"] = true,
+["bleed"] = true,
+["disease"] = true,
 },
 ["auranames"] = {
 "451241",
@@ -33639,9 +33640,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 10,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["parent"] = "EMS",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -33672,11 +33677,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -33832,9 +33833,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "CJQ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -33865,11 +33870,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -34028,13 +34029,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 160,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -34066,7 +34066,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 160,
+["authorOptions"] = {
+},
 ["parent"] = "JX",
 ["actions"] = {
 ["start"] = {
@@ -34144,13 +34145,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 205523\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -34227,8 +34228,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 110,
 ["width"] = 10,
-["parent"] = "CSZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -34260,12 +34266,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -34415,9 +34416,13 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["width"] = 10,
-["parent"] = "EMS",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "EMS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -34448,11 +34453,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 160,
 ["actions"] = {
@@ -34713,13 +34714,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 140,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "TKS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -34750,7 +34747,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -34909,8 +34910,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["parent"] = "KBZ",
 ["xOffset"] = 160,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -34920,8 +34922,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "KBZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -35091,8 +35092,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["xOffset"] = 40,
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35123,8 +35125,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -35369,9 +35370,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -35381,11 +35386,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -35604,9 +35605,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["xOffset"] = 160,
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35637,7 +35637,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XT",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -35736,13 +35737,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 8921\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 8921\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -35805,8 +35806,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["xOffset"] = 20,
 ["parent"] = "CAT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -35837,8 +35839,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 20,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -36018,9 +36019,8 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "EMS",
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -36051,7 +36051,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 120,
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -36203,13 +36204,9 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["width"] = 10,
-["parent"] = "DKT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -36219,7 +36216,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 150,
 ["actions"] = {
@@ -36318,13 +36319,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -36437,13 +36438,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["parent"] = "JX",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 180,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -36474,7 +36475,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 180,
+["parent"] = "JX",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -36637,8 +36638,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 10,
 ["parent"] = "CAT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -36646,8 +36648,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 10,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -36832,8 +36833,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "WQZ",
 ["width"] = 10,
-["xOffset"] = 10,
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -36865,12 +36871,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 10,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -37025,12 +37026,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 160,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -37041,8 +37043,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -37212,8 +37213,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "UxHhUQTnAJ6",
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "ZQS",
-["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -37244,12 +37250,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 140,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -37709,14 +37710,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -37831,21 +37834,24 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["KBZ_11_旋风斩"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 110,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KBZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -37877,12 +37883,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -38031,8 +38032,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["width"] = 10,
-["parent"] = "CSZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -38064,12 +38070,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -38348,17 +38349,29 @@ WeakAurasSaved = {
 },
 ["useAdjustededMax"] = false,
 ["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["preferToUpdate"] = false,
-["parent"] = "Core - LWA - Monk",
+["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["cooldown"] = true,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["preferToUpdate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -38379,15 +38392,6 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["uid"] = "cjCT6HprXbe",
 ["anchorFrameParent"] = false,
 ["width"] = 48,
@@ -38484,17 +38488,19 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Monk",
 },
 ["WQZ_2_集結"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 20,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -38505,12 +38511,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -38703,13 +38704,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "CAT",
+["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -38719,7 +38715,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 140,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -38818,13 +38819,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 106951\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 106951\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -38902,14 +38903,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 110,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -38919,7 +38919,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -39216,13 +39217,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -39253,8 +39255,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 70,
 ["parent"] = "JX",
 ["actions"] = {
 ["start"] = {
@@ -39446,12 +39447,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CJQ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -39462,8 +39464,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CJQ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -39643,13 +39644,14 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "JX",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -39657,8 +39659,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "JX",
 ["xOffset"] = 110,
 ["actions"] = {
 ["start"] = {
@@ -39933,8 +39934,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 50,
 ["parent"] = "CAT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -39944,12 +39950,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 50,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -40148,13 +40149,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["parent"] = "CJQ",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -40163,7 +40159,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CJQ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
@@ -40526,14 +40527,18 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+["custom"] = "",
+["do_custom"] = false,
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = 6035313,
 ["animation"] = {
@@ -40696,15 +40701,11 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-["custom"] = "",
-["do_custom"] = false,
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["Jade Empowerment"] = {
@@ -40874,14 +40875,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "606542",
 ["animation"] = {
@@ -40948,13 +40951,11 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["Left Side - LWA - Monk"] = {
@@ -41105,12 +41106,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "JX",
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 60,
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -41121,8 +41123,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 60,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -41633,14 +41634,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -41792,13 +41795,11 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["CSZ_15_死亡印記"] = {
@@ -41806,13 +41807,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -41822,7 +41823,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 150,
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -41997,9 +41998,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["xOffset"] = 90,
 ["authorOptions"] = {
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -42030,7 +42031,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "ZQS",
+["xOffset"] = 90,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -42184,8 +42185,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "WQZ",
 ["xOffset"] = 40,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -42195,8 +42197,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -42375,9 +42376,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["parent"] = "DKT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -42408,11 +42413,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 80,
 ["actions"] = {
@@ -42511,13 +42512,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195182\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195182\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -42609,9 +42610,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 100,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -42642,11 +42647,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -42796,14 +42797,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -42834,7 +42830,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -43009,8 +43010,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "B(9KVMJDiqZ",
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "ZQS",
-["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -43020,12 +43026,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 50,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -43232,8 +43233,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 30,
 ["parent"] = "CAT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -43243,8 +43245,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 30,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -43439,8 +43440,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "(qYT9yGFeDW",
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["xOffset"] = 30,
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -43471,8 +43473,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -43651,12 +43652,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 50,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -43688,8 +43690,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "DKT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -43930,8 +43931,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 130,
 ["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -43941,12 +43947,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 130,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -44117,13 +44118,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["parent"] = "DKT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -44154,7 +44155,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 40,
+["parent"] = "DKT",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -44313,9 +44314,9 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["desaturate"] = false,
+["parent"] = "XT",
 ["authorOptions"] = {
 },
-["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -44325,7 +44326,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XT",
+["xOffset"] = 150,
 ["color"] = {
 1,
 1,
@@ -44432,13 +44433,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 6807\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 6807\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -44518,8 +44519,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["xOffset"] = 170,
 ["parent"] = "CAT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -44549,8 +44551,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 170,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -44649,13 +44650,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 5221\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 5221\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -44718,9 +44719,8 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "TKS",
+["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -44728,7 +44728,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 30,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -44906,13 +44907,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "TKS",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -44921,7 +44921,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "TKS",
+["authorOptions"] = {
+},
 ["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
@@ -45099,9 +45100,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["xOffset"] = 40,
 ["authorOptions"] = {
 },
-["parent"] = "TKS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -45111,7 +45112,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 40,
+["parent"] = "TKS",
 ["color"] = {
 1,
 1,
@@ -45328,13 +45329,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -45344,7 +45341,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 80,
 ["actions"] = {
@@ -45514,13 +45515,12 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
+["parent"] = "FQ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -45552,7 +45552,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["parent"] = "FQ",
+["authorOptions"] = {
+},
 ["xOffset"] = 30,
 ["actions"] = {
 ["start"] = {
@@ -45871,14 +45872,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 20,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "JX",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -45909,7 +45909,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "JX",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -46321,14 +46322,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -46508,22 +46511,24 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["FZT_1_勝利"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 10,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -46555,11 +46560,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -46736,8 +46737,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["xOffset"] = 10,
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -46768,8 +46770,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -46954,9 +46955,8 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["xOffset"] = 10,
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -46964,7 +46964,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "DKT",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -47193,14 +47194,14 @@ WeakAurasSaved = {
 ["event"] = "GTFO",
 ["unit"] = "player",
 ["debuffType"] = "HELPFUL",
+["custom"] = "function ()\n    WeakAuras.ScanEvents(\"LWA_OPTIONS\")\nend",
 ["events"] = "OPTIONS",
-["spellIds"] = {
-},
 ["custom_type"] = "event",
 ["names"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["custom"] = "function ()\n    WeakAuras.ScanEvents(\"LWA_OPTIONS\")\nend",
+["spellIds"] = {
+},
 ["custom_hide"] = "custom",
 },
 ["untrigger"] = {
@@ -47256,6 +47257,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
@@ -47266,7 +47268,6 @@ WeakAurasSaved = {
 ["WARLOCK"] = true,
 },
 },
-["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -47276,172 +47277,12 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["anchorFrameType"] = "SCREEN",
 ["source"] = "import",
-["desc"] = "Made by Luxthos - twitch.tv/luxthos",
 ["color"] = {
 0,
 0,
 0,
 0,
 },
-["information"] = {
-["forceEvents"] = true,
-},
-["conditions"] = {
-},
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["selfPoint"] = "TOP",
-["preferToUpdate"] = false,
-["uid"] = "fbI)M2hit9t",
-["xOffset"] = 0,
-["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["semver"] = "11.0.15",
-["tocversion"] = 110002,
-["id"] = "Class Options - LWA - Warrior",
-["useCooldownModRate"] = true,
-["frameStrata"] = 1,
-["width"] = 1,
-["keepAspectRatio"] = false,
-["config"] = {
-["resources"] = {
-["ignore_pain_bar"] = {
-["font_size"] = 14,
-["font"] = "Friz Quadrata TT",
-["height"] = 20,
-["gradient"] = 1,
-["color2"] = {
-0.94509810209274,
-0.68235296010971,
-0.3647058904171,
-1,
-},
-["color1"] = {
-0.92549026012421,
-0.50980395078659,
-0,
-1,
-},
-},
-["enrage_bar"] = {
-["font_size"] = 14,
-["font"] = "Friz Quadrata TT",
-["height"] = 10,
-["gradient"] = 1,
-["color2"] = {
-0.94509810209274,
-0.68235296010971,
-0.3647058904171,
-1,
-},
-["color1"] = {
-0.92549026012421,
-0.50980395078659,
-0,
-1,
-},
-},
-["rage_bar"] = {
-["font_size"] = 14,
-["font"] = "Friz Quadrata TT",
-["height"] = 20,
-["gradient"] = 1,
-["color2"] = {
-1,
-0.29411765933037,
-0.13333334028721,
-1,
-},
-["color1"] = {
-0.69019607843137,
-0,
-0,
-1,
-},
-},
-["swing_timer_bar"] = {
-["ooc_gradient"] = 1,
-["ooc_color2"] = {
-1,
-1,
-1,
-0.36458298563957,
-},
-["color1"] = {
-0.92549026012421,
-0.50980395078659,
-0,
-1,
-},
-["ooc_color1"] = {
-0.71764707565308,
-0.71764707565308,
-0.71764707565308,
-0.24739544093609,
-},
-["font"] = "Friz Quadrata TT",
-["height"] = 5,
-["gradient"] = 1,
-["color2"] = {
-0.94509810209274,
-0.68235296010971,
-0.3647058904171,
-1,
-},
-["font_size"] = 14,
-},
-["improved_whirlwind"] = {
-["font_size"] = 14,
-["font"] = "Friz Quadrata TT",
-["height"] = 10,
-["gradient"] = 1,
-["color2"] = {
-0.49803924560547,
-0.85490202903748,
-1,
-1,
-},
-["color1"] = {
-0.16078431904316,
-0.58431375026703,
-0.87450987100601,
-1,
-},
-},
-["shield_block_bar"] = {
-["font_size"] = 14,
-["font"] = "Friz Quadrata TT",
-["height"] = 10,
-["gradient"] = 1,
-["color2"] = {
-0.49803924560547,
-0.83529418706894,
-0.93333339691162,
-1,
-},
-["color1"] = {
-0.28235295414925,
-0.6235294342041,
-0.72549021244049,
-1,
-},
-},
-},
-},
-["inverse"] = false,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-["custom"] = "aura_env.CLASS = aura_env.id:gsub(\"Class Options %- LWA %- \", \"\")\n\nLWA = LWA or {}\nLWA[aura_env.CLASS] = LWA[aura_env.CLASS] or {}\n\nlocal LWA = LWA[aura_env.CLASS]\n\nLWA.configs = LWA.configs or {}\nLWA.configs[\"class\"] = aura_env.config\n\n",
-["do_custom"] = true,
-},
-},
-["displayIcon"] = 134520,
-["cooldown"] = false,
 ["authorOptions"] = {
 {
 ["subOptions"] = {
@@ -48251,6 +48092,166 @@ WeakAurasSaved = {
 ["size"] = 10,
 },
 },
+["information"] = {
+["forceEvents"] = true,
+},
+["conditions"] = {
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["selfPoint"] = "TOP",
+["preferToUpdate"] = false,
+["uid"] = "fbI)M2hit9t",
+["xOffset"] = 0,
+["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["semver"] = "11.0.15",
+["tocversion"] = 110002,
+["id"] = "Class Options - LWA - Warrior",
+["useCooldownModRate"] = true,
+["frameStrata"] = 1,
+["width"] = 1,
+["keepAspectRatio"] = false,
+["config"] = {
+["resources"] = {
+["ignore_pain_bar"] = {
+["font_size"] = 14,
+["font"] = "Friz Quadrata TT",
+["height"] = 20,
+["gradient"] = 1,
+["color2"] = {
+0.94509810209274,
+0.68235296010971,
+0.3647058904171,
+1,
+},
+["color1"] = {
+0.92549026012421,
+0.50980395078659,
+0,
+1,
+},
+},
+["enrage_bar"] = {
+["font_size"] = 14,
+["font"] = "Friz Quadrata TT",
+["height"] = 10,
+["gradient"] = 1,
+["color2"] = {
+0.94509810209274,
+0.68235296010971,
+0.3647058904171,
+1,
+},
+["color1"] = {
+0.92549026012421,
+0.50980395078659,
+0,
+1,
+},
+},
+["rage_bar"] = {
+["font_size"] = 14,
+["font"] = "Friz Quadrata TT",
+["height"] = 20,
+["gradient"] = 1,
+["color2"] = {
+1,
+0.29411765933037,
+0.13333334028721,
+1,
+},
+["color1"] = {
+0.69019607843137,
+0,
+0,
+1,
+},
+},
+["swing_timer_bar"] = {
+["ooc_gradient"] = 1,
+["ooc_color2"] = {
+1,
+1,
+1,
+0.36458298563957,
+},
+["color1"] = {
+0.92549026012421,
+0.50980395078659,
+0,
+1,
+},
+["ooc_color1"] = {
+0.71764707565308,
+0.71764707565308,
+0.71764707565308,
+0.24739544093609,
+},
+["font"] = "Friz Quadrata TT",
+["height"] = 5,
+["gradient"] = 1,
+["color2"] = {
+0.94509810209274,
+0.68235296010971,
+0.3647058904171,
+1,
+},
+["font_size"] = 14,
+},
+["improved_whirlwind"] = {
+["font_size"] = 14,
+["font"] = "Friz Quadrata TT",
+["height"] = 10,
+["gradient"] = 1,
+["color2"] = {
+0.49803924560547,
+0.85490202903748,
+1,
+1,
+},
+["color1"] = {
+0.16078431904316,
+0.58431375026703,
+0.87450987100601,
+1,
+},
+},
+["shield_block_bar"] = {
+["font_size"] = 14,
+["font"] = "Friz Quadrata TT",
+["height"] = 10,
+["gradient"] = 1,
+["color2"] = {
+0.49803924560547,
+0.83529418706894,
+0.93333339691162,
+1,
+},
+["color1"] = {
+0.28235295414925,
+0.6235294342041,
+0.72549021244049,
+1,
+},
+},
+},
+},
+["inverse"] = false,
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+["custom"] = "aura_env.CLASS = aura_env.id:gsub(\"Class Options %- LWA %- \", \"\")\n\nLWA = LWA or {}\nLWA[aura_env.CLASS] = LWA[aura_env.CLASS] or {}\n\nlocal LWA = LWA[aura_env.CLASS]\n\nLWA.configs = LWA.configs or {}\nLWA.configs[\"class\"] = aura_env.config\n\n",
+["do_custom"] = true,
+},
+},
+["displayIcon"] = 134520,
+["cooldown"] = false,
+["desc"] = "Made by Luxthos - twitch.tv/luxthos",
 },
 ["EMS_7_恶魔箭"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -48261,9 +48262,8 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "EMS",
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -48294,7 +48294,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -48459,9 +48460,8 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["parent"] = "CAT",
+["xOffset"] = 180,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -48471,7 +48471,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 180,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -48571,13 +48572,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 8936\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["spellIds"] = {
-},
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -48811,39 +48812,39 @@ WeakAurasSaved = {
 ["config"] = {
 },
 },
-["CSZ_13_切割"] = {
+["CJQ_8_十字军打击"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["authorOptions"] = {
-},
-["width"] = 10,
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["width"] = 10,
+["xOffset"] = 80,
+["parent"] = "CJQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
 ["load"] = {
-["class_and_spec"] = {
-["single"] = 259,
-},
-["spec"] = {
-["multi"] = {
-},
-},
 ["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
 ["use_class_and_spec"] = true,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 70,
 },
 ["size"] = {
 ["multi"] = {
@@ -48852,7 +48853,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 130,
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -48862,6 +48864,7 @@ WeakAurasSaved = {
 ["finish"] = {
 },
 },
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -48907,22 +48910,6 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "15",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
 ["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
@@ -48937,8 +48924,24 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
 ["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 315496\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 35395\n    local skill_id_1 = 407480\n    local skill_id_2 = 406647\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["debuffType"] = "HELPFUL",
@@ -48952,9 +48955,11 @@ WeakAurasSaved = {
 ["customTriggerLogic"] = "",
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["internalVersion"] = 78,
-["alpha"] = 1,
+["config"] = {
+},
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "CJQ_8_十字军打击",
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -48975,14 +48980,11 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["id"] = "CSZ_13_切割",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "7tUTX8BdgLH",
+["uid"] = "tvtz6pCCI6J",
+["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -49002,9 +49004,9 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 140,
 ["authorOptions"] = {
 },
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -49014,7 +49016,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 140,
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -49097,13 +49099,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 322109\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 322109\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -49192,22 +49194,53 @@ WeakAurasSaved = {
 },
 ["width"] = 10,
 },
-["Celestial Conduit (Mistweaver)"] = {
-["iconSource"] = -1,
-["wagoID"] = "r1MFNt9rm",
-["xOffset"] = 0,
-["adjustedMax"] = "",
-["adjustedMin"] = "",
+["CAT_11_痛击"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["authorOptions"] = {
+},
+["width"] = 10,
+["parent"] = "CAT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["cooldownSwipe"] = true,
-["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
+["regionType"] = "texture",
+["load"] = {
+["use_never"] = false,
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 103,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "TOPLEFT",
+["xOffset"] = 110,
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
 ["init"] = {
-["custom"] = "",
-["do_custom"] = false,
 },
 ["finish"] = {
 },
@@ -49215,64 +49248,110 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
-["type"] = "spell",
+["use_namerealm"] = false,
+["type"] = "unit",
+["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["debuffType"] = "HELPFUL",
-["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnReady",
-["unit"] = "player",
-["names"] = {
-},
-["use_spellName"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["use_unit"] = true,
+["unit"] = "target",
+["hostility"] = "hostile",
 ["spellIds"] = {
 },
+["use_hostility"] = true,
+["names"] = {
+},
 ["subeventPrefix"] = "SPELL",
-["use_exact_spellName"] = true,
-["event"] = "Cooldown Progress (Spell)",
-["use_track"] = true,
-["spellName"] = 443591,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["track"] = "auto",
-["duration"] = "1",
-["genericShowOn"] = "showAlways",
-["use_unit"] = true,
-["use_showgcd"] = true,
-["debuffType"] = "HELPFUL",
-["type"] = "spell",
-["unit"] = "player",
-["subeventSuffix"] = "_CAST_START",
-["use_genericShowOn"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cooldown Progress (Spell)",
-["use_exact_spellName"] = false,
-["realSpellName"] = "Invoke Xuen, the White Tiger",
-["use_spellName"] = true,
-["spellIds"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["health_operator"] = {
+">",
 },
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "target",
+["health"] = {
+"0",
+},
+["use_health"] = true,
+["use_unit"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["spellName"] = 0,
+["use_inverse"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+["realSpellName"] = 0,
+["use_spellName"] = true,
+["use_absorbMode"] = true,
+["use_unit"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_genericShowOn"] = true,
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["subeventSuffix"] = "_CAST_START",
+["event"] = "Health",
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["unevent"] = "auto",
-["use_track"] = true,
-["spellName"] = 443028,
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 106830\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom_type"] = "status",
+["check"] = "event",
+["unit"] = "player",
+["spellIds"] = {
+},
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
-["genericShowOn"] = "showOnCooldown",
 },
 },
-["disjunctive"] = "any",
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
 ["activeTriggerMode"] = -10,
 },
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["internalVersion"] = 78,
-["progressSource"] = {
--1,
-"",
-},
+["frameStrata"] = 1,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -49287,238 +49366,41 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "preset",
-["easeType"] = "none",
+["type"] = "none",
 ["easeStrength"] = 3,
-["preset"] = "fade",
 ["duration_type"] = "seconds",
+["easeType"] = "none",
 },
 },
-["desaturate"] = false,
-["version"] = 96,
+["id"] = "CAT_11_痛击",
+["selfPoint"] = "BOTTOMLEFT",
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["uid"] = "YysWXBli3uM",
+["config"] = {
+},
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
-{
-["border_size"] = 2,
-["border_offset"] = 0,
-["border_color"] = {
-1,
-1,
-1,
-0,
 },
-["border_visible"] = true,
-["border_edge"] = "Square Full White",
-["type"] = "subborder",
-},
-{
-["glowFrequency"] = 0.25,
-["type"] = "subglow",
-["glowDuration"] = 1,
-["glowType"] = "Proc",
-["glowThickness"] = 1,
-["glowYOffset"] = 0,
-["glowColor"] = {
-1,
-1,
-1,
-1,
-},
-["useGlowColor"] = false,
-["glowXOffset"] = 0,
-["glowLength"] = 10,
-["glow"] = false,
-["glowScale"] = 1,
-["glowLines"] = 8,
-["glowBorder"] = false,
-},
-},
-["height"] = 48,
-["load"] = {
-["use_petbattle"] = false,
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["single"] = "MONK",
-["multi"] = {
-},
-},
-["spec"] = {
-["single"] = 3,
-["multi"] = {
-},
-},
-["use_herotalent"] = false,
-["use_class"] = true,
-["role"] = {
-["multi"] = {
-},
-},
-["use_spec"] = true,
-["herotalent"] = {
-["multi"] = {
-[125062] = true,
-},
-},
-["use_spellknown"] = false,
-["use_never"] = false,
-["use_class_and_spec"] = true,
-["itemtypeequipped"] = {
-},
-},
-["useAdjustededMax"] = false,
-["width"] = 48,
-["icon"] = true,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["cooldown"] = true,
-["displayIcon"] = "",
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["cooldownEdge"] = false,
-["preferToUpdate"] = false,
-["uid"] = "kyHbgXPG)gW",
-["authorOptions"] = {
-},
-["anchorFrameParent"] = false,
-["useCooldownModRate"] = true,
-["parent"] = "Core - LWA - Monk",
-["cooldownTextDisabled"] = false,
-["semver"] = "11.0.19",
-["tocversion"] = 110005,
-["id"] = "Celestial Conduit (Mistweaver)",
-["zoom"] = 0.3,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["config"] = {
-},
-["inverse"] = true,
-["selfPoint"] = "CENTER",
+["height"] = 10,
 ["conditions"] = {
-{
-["check"] = {
-["trigger"] = 2,
-["variable"] = "onCooldown",
-["value"] = 0,
-},
-["changes"] = {
-{
-["value"] = false,
-["property"] = "sub.3.glow",
-},
-{
-["value"] = "Proc",
-["property"] = "sub.3.glowType",
-},
-},
-},
-{
-["check"] = {
-["trigger"] = -1,
-["variable"] = "incombat",
-["value"] = 0,
-},
-["changes"] = {
-{
-["property"] = "sub.3.glow",
-},
-},
-},
-{
-["check"] = {
-["trigger"] = 2,
-["variable"] = "onCooldown",
-["value"] = 1,
-},
-["changes"] = {
-{
-["value"] = true,
-["property"] = "desaturate",
-},
-},
-},
-{
-["check"] = {
-["trigger"] = 2,
-["variable"] = "insufficientResources",
-["value"] = 1,
-["checks"] = {
-{
-["value"] = 1,
-["variable"] = "insufficientResources",
-},
-{
-["trigger"] = -1,
-["variable"] = "incombat",
-},
-},
-},
-["changes"] = {
-{
-["value"] = {
-0.47450983524323,
-0.5137255191803,
-1,
-1,
-},
-["property"] = "color",
-},
-{
-["value"] = true,
-["property"] = "desaturate",
-},
-},
-},
-{
-["check"] = {
-["trigger"] = 1,
-["variable"] = "show",
-["value"] = 1,
-},
-["changes"] = {
-{
-["value"] = true,
-["property"] = "sub.3.glow",
-},
-{
-["value"] = "Proc",
-["property"] = "sub.3.glowType",
-},
-},
-},
 },
 ["information"] = {
 ["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
 },
-["keepAspectRatio"] = true,
+["desaturate"] = false,
 },
 ["JX_13_轮回"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "JX",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "JX",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -49549,7 +49431,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 130,
 ["actions"] = {
@@ -49628,13 +49514,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 322109\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -49735,8 +49621,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CSZ",
 ["xOffset"] = 40,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -49746,8 +49633,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -49917,8 +49803,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 90,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "MK",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -49929,12 +49820,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "MK",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -50114,13 +50000,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 50,
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -50151,7 +50032,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -50300,13 +50186,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -50316,7 +50198,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -50487,13 +50373,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "FZT",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -50504,7 +50385,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 90,
 ["actions"] = {
 ["start"] = {
@@ -50692,8 +50578,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -50725,12 +50616,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -50875,235 +50761,18 @@ WeakAurasSaved = {
 },
 ["anchorFrameType"] = "SCREEN",
 },
-["XT_14_驱散"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["uid"] = "ViAY8Hc1(II",
-["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
-["parent"] = "XT",
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["xOffset"] = 140,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["use_namerealm"] = false,
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["use_unit"] = true,
-["unit"] = "target",
-["hostility"] = "hostile",
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["names"] = {
-},
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["health_operator"] = {
-">",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["health"] = {
-"0",
-},
-["use_health"] = true,
-["use_unit"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "15",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["debuffType"] = "HELPFUL",
-["use_inverse"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-["realSpellName"] = 0,
-["use_spellName"] = true,
-["use_absorbMode"] = true,
-["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnCooldown",
-["use_unit"] = true,
-["use_track"] = true,
-["spellName"] = 0,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 2782,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "aura2",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "player",
-["debuffType"] = "HARMFUL",
-["use_unit"] = true,
-["use_debuffClass"] = true,
-["remOperator"] = ">=",
-["rem"] = "1",
-["debuffClass"] = {
-["curse"] = true,
-["poison"] = true,
-},
-["useRem"] = false,
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "custom",
-["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and t[4] and t[5] and t[6]\nend",
-["activeTriggerMode"] = -10,
-},
-["conditions"] = {
-},
-["internalVersion"] = 78,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "XT_14_驱散",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["frameStrata"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["config"] = {
-},
-["alpha"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_never"] = false,
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["use_combat"] = true,
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 104,
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["width"] = 10,
-},
 ["TKS_17_黑眼"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "TKS",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -51134,7 +50803,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["parent"] = "TKS",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -51262,6 +50931,193 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
+},
+["width"] = 10,
+},
+["ZS_10_猛擊"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 100,
+["desaturate"] = false,
+["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["load"] = {
+["use_never"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "ZS",
+["rotate"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["hostility"] = "hostile",
+["spellIds"] = {
+},
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["use_hostility"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["health_operator"] = {
+">",
+},
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "target",
+["health"] = {
+"0",
+},
+["use_health"] = true,
+["use_percenthealth"] = false,
+["use_unit"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+["use_spellName"] = true,
+["use_inverse"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["use_genericShowOn"] = true,
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["debuffType"] = "HELPFUL",
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["spellName"] = 1464,
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 78,
+["config"] = {
+},
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "ZS_10_猛擊",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["uid"] = "1MXJYs7fEm4",
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
 },
 ["width"] = 10,
 },
@@ -51395,8 +51251,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "JsJBa44W4db",
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "EMS",
-["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -51406,12 +51267,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 60,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -51608,13 +51464,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 90,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "TKS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -51645,7 +51497,11 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -51957,14 +51813,18 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+["custom"] = "",
+["do_custom"] = false,
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = 606543,
 ["animation"] = {
@@ -52046,15 +51906,11 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-["custom"] = "",
-["do_custom"] = false,
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["TF_5_清毒"] = {
@@ -52062,13 +51918,14 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -52099,8 +51956,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["xOffset"] = 50,
 ["actions"] = {
 ["start"] = {
@@ -52348,9 +52204,13 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 90,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -52360,11 +52220,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "XT",
 ["actions"] = {
@@ -52557,13 +52413,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "XDK",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -52594,7 +52450,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 20,
+["parent"] = "XDK",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -52873,14 +52729,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -52950,13 +52808,11 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["CSZ_12_無盡責罰"] = {
@@ -52964,13 +52820,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -52980,7 +52836,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 120,
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -53155,7 +53011,7 @@ WeakAurasSaved = {
 0,
 1,
 },
-["width"] = 230,
+["desaturate"] = false,
 ["mirror"] = false,
 ["yOffset"] = 5,
 ["anchorPoint"] = "BOTTOMLEFT",
@@ -53220,7 +53076,7 @@ WeakAurasSaved = {
 ["id"] = "1_bg",
 ["uid"] = "J6BeZI7xicE",
 ["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
+["width"] = 230,
 ["rotation"] = 0,
 ["config"] = {
 },
@@ -53252,15 +53108,20 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["anchorFrameType"] = "SCREEN",
 },
 ["XDK_9_脓疮打击"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 90,
 ["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -53270,12 +53131,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 90,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -53450,9 +53306,8 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "EMS",
+["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -53462,7 +53317,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 90,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -53658,14 +53514,14 @@ WeakAurasSaved = {
 ["names"] = {
 },
 ["custom_type"] = "event",
-["spellIds"] = {
-},
+["custom"] = "function(event, unit, _, spellid)\n    if spellid == 376079 then\n        local desc, matches, totalDuration = C_Spell.GetSpellDescription(376079), {}, 0\n        \n        if desc then\n            local locale, index = GetLocale(), 3\n            \n            if locale == \"deDE\" or locale == \"koKR\" or locale == \"zhCN\" or locale == \"zhTW\" then\n                index = 2\n            end\n            \n            for t in desc:gmatch(\"(%d[%d%.,]*)\") do\n                if (LARGE_NUMBER_SEPERATOR == \",\") then\n                    t = t:gsub(\",\", \"\")\n                else\n                    t = t:gsub(\"%.\", \"\")\n                    t = t:gsub(\",\", \".\")\n                end\n                \n                tinsert(matches, tonumber(t))\n            end\n            \n            totalDuration = matches[index] or 0\n        end\n        \n        aura_env.duration = totalDuration\n        aura_env.expiration = GetTime() + totalDuration\n        \n        return true\n    end\nend",
 ["use_spellName"] = false,
 ["event"] = "Combat Log",
-["custom"] = "function(event, unit, _, spellid)\n    if spellid == 376079 then\n        local desc, matches, totalDuration = C_Spell.GetSpellDescription(376079), {}, 0\n        \n        if desc then\n            local locale, index = GetLocale(), 3\n            \n            if locale == \"deDE\" or locale == \"koKR\" or locale == \"zhCN\" or locale == \"zhTW\" then\n                index = 2\n            end\n            \n            for t in desc:gmatch(\"(%d[%d%.,]*)\") do\n                if (LARGE_NUMBER_SEPERATOR == \",\") then\n                    t = t:gsub(\",\", \"\")\n                else\n                    t = t:gsub(\"%.\", \"\")\n                    t = t:gsub(\",\", \".\")\n                end\n                \n                tinsert(matches, tonumber(t))\n            end\n            \n            totalDuration = matches[index] or 0\n        end\n        \n        aura_env.duration = totalDuration\n        aura_env.expiration = GetTime() + totalDuration\n        \n        return true\n    end\nend",
+["events"] = "UNIT_SPELLCAST_SUCCEEDED:player",
 ["customDuration"] = "function()\n    return aura_env.duration, aura_env.expiration\nend",
 ["use_spellId"] = true,
-["events"] = "UNIT_SPELLCAST_SUCCEEDED:player",
+["spellIds"] = {
+},
 ["use_sourceUnit"] = true,
 ["check"] = "event",
 ["subeventSuffix"] = "_CAST_SUCCESS",
@@ -53819,11 +53675,8 @@ WeakAurasSaved = {
 ["useAdjustededMax"] = false,
 ["anchorFrameType"] = "SCREEN",
 ["source"] = "import",
-["progressSource"] = {
--1,
-"",
-},
 ["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
+["parent"] = "Core - LWA - Warrior",
 ["information"] = {
 ["forceEvents"] = true,
 },
@@ -53951,15 +53804,22 @@ WeakAurasSaved = {
 },
 ["displayIcon"] = 3565453,
 ["cooldown"] = true,
-["parent"] = "Core - LWA - Warrior",
+["progressSource"] = {
+-1,
+"",
+},
 },
 ["FQ_6_药水"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "FQ",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -53969,11 +53829,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 60,
 ["actions"] = {
@@ -54154,13 +54010,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 20,
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -54170,7 +54021,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -54371,8 +54227,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 100,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -54403,8 +54260,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -54754,14 +54610,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -54916,21 +54774,24 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["CSZ_5_伏擊"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 50,
 ["width"] = 10,
-["parent"] = "CSZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -54961,12 +54822,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -55116,8 +54972,13 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["xOffset"] = 130,
 ["parent"] = "CAT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -55147,12 +55008,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 130,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -55251,13 +55107,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274837\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274837\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -55561,13 +55417,8 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "BuzoshW3w9Q",
 ["width"] = 10,
+["xOffset"] = 170,
 ["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -55597,7 +55448,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -55753,8 +55609,9 @@ WeakAurasSaved = {
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 150,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -55785,8 +55642,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -55940,8 +55796,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 110,
 ["parent"] = "EMS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -55951,8 +55808,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 110,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -56127,13 +55983,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "CAT",
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -56143,7 +55994,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 120,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -56243,13 +56099,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 391888\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 391888\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -56327,13 +56183,8 @@ WeakAurasSaved = {
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 60,
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -56364,7 +56215,12 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -56711,14 +56567,16 @@ WeakAurasSaved = {
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -56787,21 +56645,24 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["KTZ_9_眉心"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "FZP00)lO4gA",
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "KTZ",
-["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -56831,12 +56692,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 90,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -56987,9 +56843,9 @@ WeakAurasSaved = {
 ["config"] = {
 },
 ["width"] = 10,
+["xOffset"] = 50,
 ["authorOptions"] = {
 },
-["parent"] = "TKS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -56999,7 +56855,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 50,
+["parent"] = "TKS",
 ["color"] = {
 1,
 1,
@@ -57188,8 +57044,9 @@ WeakAurasSaved = {
 1,
 },
 ["width"] = 10,
-["parent"] = "JX",
 ["xOffset"] = 50,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -57219,8 +57076,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "JX",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -57339,8 +57195,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "JX",
-["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -57371,12 +57232,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 150,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -57458,13 +57314,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 325153\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["spellIds"] = {
-},
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -57560,8 +57416,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "DKT",
-["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -57592,12 +57453,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 160,
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -57699,13 +57555,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49028\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49028\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -57799,9 +57655,9 @@ WeakAurasSaved = {
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 80,
 ["authorOptions"] = {
 },
+["parent"] = "FZT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -57811,7 +57667,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FZT",
+["xOffset"] = 80,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -57999,8 +57855,9 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["parent"] = "KTZ",
-["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -58010,8 +57867,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 60,
 ["color"] = {
 1,
 1,
@@ -58306,17 +58162,29 @@ WeakAurasSaved = {
 },
 ["useAdjustededMax"] = false,
 ["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["preferToUpdate"] = false,
-["parent"] = "Core - LWA - Monk",
+["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["cooldown"] = true,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["preferToUpdate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -58337,15 +58205,6 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["uid"] = "ykhJ(Rng0Av",
 ["anchorFrameParent"] = false,
 ["width"] = 48,
@@ -58442,17 +58301,15 @@ WeakAurasSaved = {
 ["information"] = {
 ["forceEvents"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Monk",
 },
 ["FQ_1_圣疗"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "3kF2xvR079Z",
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["parent"] = "FQ",
-["xOffset"] = 10,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -58460,8 +58317,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 10,
 ["color"] = {
 1,
 1,
@@ -58771,14 +58627,13 @@ WeakAurasSaved = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 50,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -58808,7 +58663,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KTZ",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -59149,14 +59005,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = 1360980,
 ["animation"] = {
@@ -59321,13 +59179,11 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["Heart of the Jade Serpent"] = {
@@ -59522,14 +59378,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -59599,13 +59457,11 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["FQ_8_盾击"] = {
@@ -59613,13 +59469,12 @@ true,
 ["config"] = {
 },
 ["width"] = 10,
+["parent"] = "FQ",
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -59630,7 +59485,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FQ",
+["authorOptions"] = {
+},
 ["xOffset"] = 80,
 ["actions"] = {
 ["start"] = {
@@ -59765,13 +59621,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 53600\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 53600\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -60028,14 +59884,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -60197,13 +60055,11 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["EMS_15_恶魔力量"] = {
@@ -60211,13 +60067,9 @@ true,
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "EMS",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "EMS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -60248,7 +60100,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 150,
 ["actions"] = {
@@ -60388,9 +60244,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "TKS",
 ["authorOptions"] = {
 },
+["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -60400,7 +60256,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 160,
+["parent"] = "TKS",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -60704,17 +60560,29 @@ true,
 },
 ["useAdjustededMax"] = false,
 ["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["preferToUpdate"] = false,
-["parent"] = "Core - LWA - Monk",
+["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["cooldown"] = true,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["preferToUpdate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -60735,15 +60603,6 @@ true,
 ["easeType"] = "none",
 },
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["uid"] = "InjgwChlXJ8",
 ["anchorFrameParent"] = false,
 ["width"] = 48,
@@ -60849,23 +60708,20 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Monk",
 },
 ["JX_17_喷火"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "JX",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -60875,7 +60731,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 170,
+["parent"] = "JX",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -60991,13 +60847,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["spellIds"] = {
+},
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 115181\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["spellIds"] = {
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 115181\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -61020,13 +60876,13 @@ true,
 ["trigger"] = {
 ["unit"] = "target",
 ["type"] = "aura2",
-["useExactSpellId"] = false,
-["auraspellids"] = {
-},
-["useName"] = true,
-["matchesShowOn"] = "showOnMissing",
 ["auranames"] = {
 "123725",
+},
+["useExactSpellId"] = false,
+["useName"] = true,
+["matchesShowOn"] = "showOnMissing",
+["auraspellids"] = {
 },
 ["debuffType"] = "HARMFUL",
 },
@@ -61276,8 +61132,9 @@ true,
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
 ["xOffset"] = 80,
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -61287,8 +61144,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -61389,13 +61245,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 100784\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 100784\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -61470,8 +61326,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 90,
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -61482,12 +61343,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "WQZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -61670,9 +61526,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "KTZ",
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["xOffset"] = 20,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -61703,11 +61563,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -61872,9 +61728,8 @@ true,
 1,
 },
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["xOffset"] = 20,
+["parent"] = "CJQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -61905,7 +61760,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CJQ",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -62064,9 +61920,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
-["parent"] = "FQ",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -62097,11 +61957,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 20,
 ["actions"] = {
@@ -62429,13 +62285,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 180,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -62445,7 +62301,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "ZQS",
+["xOffset"] = 180,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -62620,9 +62476,8 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["parent"] = "TKS",
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -62632,7 +62487,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 130,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -62929,14 +62785,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -63005,13 +62863,11 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["WQZ_8_壓制"] = {
@@ -63023,8 +62879,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["parent"] = "WQZ",
 ["xOffset"] = 80,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -63055,8 +62912,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "WQZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -63206,13 +63062,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "ZQS",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -63243,7 +63099,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 60,
+["parent"] = "ZQS",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -63392,14 +63248,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 130,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -63430,7 +63281,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -63744,14 +63600,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -63896,13 +63754,11 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["TF_17_天神"] = {
@@ -63914,9 +63770,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "TF",
 ["authorOptions"] = {
 },
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -63947,7 +63803,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["parent"] = "TF",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -64026,13 +63882,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 443028\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 443028\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -64104,9 +63960,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
-["xOffset"] = 70,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -64116,11 +63976,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "TKS",
 ["actions"] = {
@@ -64307,9 +64163,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "TKS",
 ["authorOptions"] = {
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -64340,7 +64196,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 20,
+["parent"] = "TKS",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -64500,8 +64356,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "XDK",
 ["xOffset"] = 40,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -64511,8 +64368,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "XDK",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -64691,9 +64547,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
-["parent"] = "XT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -64724,11 +64584,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 180,
 ["actions"] = {
@@ -64827,13 +64683,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1126\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1126\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -65164,14 +65020,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -65240,13 +65098,11 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["CSZ_7_截肢"] = {
@@ -65258,9 +65114,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "CSZ",
 ["authorOptions"] = {
 },
+["xOffset"] = 70,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -65291,7 +65147,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -65455,14 +65311,14 @@ true,
 ["event"] = "GTFO",
 ["unit"] = "player",
 ["debuffType"] = "HELPFUL",
+["custom"] = "function(event, ...)\n    local arg1, arg2 = ...\n    local this = aura_env\n    \n    if \"LWA_INIT\" == event and not arg1 then\n        this.Init()\n        \n    elseif \"LWA_UPDATE_BAR\" == event and arg1 then\n        this.UpdateBar(...)\n        \n    elseif \"LWA_UPDATE_RESOURCES\" == event then\n        this.UpdateResources()\n        \n    elseif \"PLAYER_ENTERING_WORLD\" == event then\n        if arg1 or arg2 then\n            this.ThrottledInit()\n            \n            C_Timer.After(2, function()\n                    WeakAuras.ScanEvents(\"LWA_INIT\", true)\n            end)\n        end\n    else\n        this.ThrottledInit()\n    end\n    \n    return true\nend",
 ["events"] = "OPTIONS LWA_OPTIONS LWA_INIT LWA_UPDATE_RESOURCES LWA_UPDATE_BAR PLAYER_ENTERING_WORLD LOADING_SCREEN_DISABLED PLAYER_SPECIALIZATION_CHANGED PLAYER_TALENT_UPDATE PLAYER_PVP_TALENT_UPDATE PLAYER_LEVEL_UP TRAIT_CONFIG_CREATED TRAIT_CONFIG_UPDATED UNIT_EXITED_VEHICLE:player UPDATE_VEHICLE_ACTIONBAR UPDATE_OVERRIDE_ACTIONBAR PLAYER_CONTROL_GAINED CINEMATIC_STOP STOP_MOVIE CLIENT_SCENE_CLOSED PET_BATTLE_CLOSE LWA_UPDATE_SHAPESHIFT_FORM UNIT_PET:player",
-["spellIds"] = {
-},
 ["custom_type"] = "event",
 ["names"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["custom"] = "function(event, ...)\n    local arg1, arg2 = ...\n    local this = aura_env\n    \n    if \"LWA_INIT\" == event and not arg1 then\n        this.Init()\n        \n    elseif \"LWA_UPDATE_BAR\" == event and arg1 then\n        this.UpdateBar(...)\n        \n    elseif \"LWA_UPDATE_RESOURCES\" == event then\n        this.UpdateResources()\n        \n    elseif \"PLAYER_ENTERING_WORLD\" == event then\n        if arg1 or arg2 then\n            this.ThrottledInit()\n            \n            C_Timer.After(2, function()\n                    WeakAuras.ScanEvents(\"LWA_INIT\", true)\n            end)\n        end\n    else\n        this.ThrottledInit()\n    end\n    \n    return true\nend",
+["spellIds"] = {
+},
 ["custom_hide"] = "custom",
 },
 ["untrigger"] = {
@@ -65475,14 +65331,14 @@ true,
 ["event"] = "GTFO",
 ["unit"] = "player",
 ["debuffType"] = "HELPFUL",
+["custom"] = "function(event, ...)\n    if not aura_env.parentFrame then\n        aura_env.parentFrame = WeakAuras.GetRegion(aura_env.parent)\n    end\n    \n    local frame = aura_env.parentFrame\n    \n    if frame then\n        local arg1 = select(1, ...)\n        local cfg = aura_env.config.alpha\n        local alpha = cfg.global\n        local hasSpecialUI = false\n        \n        if \"CLIENT_SCENE_OPENED\" == event then\n            aura_env.currentScene = arg1\n            \n        elseif \"CLIENT_SCENE_CLOSED\" == event then\n            aura_env.currentScene = nil\n        end\n        \n        if aura_env.currentScene == 1 then\n            hasSpecialUI = true\n        end\n        \n        hasSpecialUI = hasSpecialUI or UnitHasVehicleUI(\"player\") or HasOverrideActionBar() or HasVehicleActionBar() or false\n        \n        if \"STATUS\" == event or WeakAuras.IsOptionsOpen() then\n            frame:SetAlpha(1)\n            \n        elseif \"BARBER_SHOP_OPEN\" == event or hasSpecialUI then\n            frame:SetAlpha(0)\n            \n        elseif \"LWA_ALPHA\" == event then\n            local class = UnitClassBase(\"player\")\n            local isMounted = IsMounted() or (\"DRUID\" == class and tContains({3, 4, 27, 29}, GetShapeshiftFormID()))\n            local isSkyriding = WeakAuras.IsRetail() and isMounted and select(2, C_PlayerInfo.GetGlidingInfo())\n            \n            if not UnitAffectingCombat(\"player\") then\n                alpha = min(alpha, cfg.ooc)\n            end\n            \n            if (isSkyriding or (isMounted and (not cfg.skyriding_only or (HasBonusActionBar() and (11 == GetBonusBarIndex() or (\"EVOKER\" == class and 7 == GetBonusBarIndex()))))))\n            then\n                alpha = min(alpha, cfg.mounted)\n            else\n                if UnitExists(\"target\") then\n                    local isEnemy = UnitCanAttack(\"player\", \"target\") or UnitIsEnemy(\"player\", \"target\")\n                    \n                    if (not isEnemy and cfg.ignore_friendly) or (isEnemy and cfg.ignore_enemy) then\n                        alpha = cfg.global\n                    end\n                end\n            end\n            \n            frame:SetAlpha(alpha / 100)\n        else\n            C_Timer.After(0.05, function()\n                    WeakAuras.ScanEvents(\"LWA_ALPHA\")\n            end)\n        end\n        \n        return true\n    end\nend",
 ["events"] = "OPTIONS LWA_INIT PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED PLAYER_REGEN_DISABLED PLAYER_TARGET_CHANGED PLAYER_ALIVE PLAYER_DEAD PLAYER_UNGHOST BARBER_SHOP_OPEN BARBER_SHOP_CLOSE CLIENT_SCENE_OPENED CLIENT_SCENE_CLOSED PLAYER_MOUNT_DISPLAY_CHANGED LWA_UPDATE_SHAPESHIFT_FORM STATUS LWA_ALPHA UPDATE_VEHICLE_ACTIONBAR UPDATE_OVERRIDE_ACTIONBAR UPDATE_BONUS_ACTIONBAR",
-["spellIds"] = {
-},
 ["custom_type"] = "event",
 ["names"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["custom"] = "function(event, ...)\n    if not aura_env.parentFrame then\n        aura_env.parentFrame = WeakAuras.GetRegion(aura_env.parent)\n    end\n    \n    local frame = aura_env.parentFrame\n    \n    if frame then\n        local arg1 = select(1, ...)\n        local cfg = aura_env.config.alpha\n        local alpha = cfg.global\n        local hasSpecialUI = false\n        \n        if \"CLIENT_SCENE_OPENED\" == event then\n            aura_env.currentScene = arg1\n            \n        elseif \"CLIENT_SCENE_CLOSED\" == event then\n            aura_env.currentScene = nil\n        end\n        \n        if aura_env.currentScene == 1 then\n            hasSpecialUI = true\n        end\n        \n        hasSpecialUI = hasSpecialUI or UnitHasVehicleUI(\"player\") or HasOverrideActionBar() or HasVehicleActionBar() or false\n        \n        if \"STATUS\" == event or WeakAuras.IsOptionsOpen() then\n            frame:SetAlpha(1)\n            \n        elseif \"BARBER_SHOP_OPEN\" == event or hasSpecialUI then\n            frame:SetAlpha(0)\n            \n        elseif \"LWA_ALPHA\" == event then\n            local class = UnitClassBase(\"player\")\n            local isMounted = IsMounted() or (\"DRUID\" == class and tContains({3, 4, 27, 29}, GetShapeshiftFormID()))\n            local isSkyriding = WeakAuras.IsRetail() and isMounted and select(2, C_PlayerInfo.GetGlidingInfo())\n            \n            if not UnitAffectingCombat(\"player\") then\n                alpha = min(alpha, cfg.ooc)\n            end\n            \n            if (isSkyriding or (isMounted and (not cfg.skyriding_only or (HasBonusActionBar() and (11 == GetBonusBarIndex() or (\"EVOKER\" == class and 7 == GetBonusBarIndex()))))))\n            then\n                alpha = min(alpha, cfg.mounted)\n            else\n                if UnitExists(\"target\") then\n                    local isEnemy = UnitCanAttack(\"player\", \"target\") or UnitIsEnemy(\"player\", \"target\")\n                    \n                    if (not isEnemy and cfg.ignore_friendly) or (isEnemy and cfg.ignore_enemy) then\n                        alpha = cfg.global\n                    end\n                end\n            end\n            \n            frame:SetAlpha(alpha / 100)\n        else\n            C_Timer.After(0.05, function()\n                    WeakAuras.ScanEvents(\"LWA_ALPHA\")\n            end)\n        end\n        \n        return true\n    end\nend",
+["spellIds"] = {
+},
 ["custom_hide"] = "custom",
 },
 ["untrigger"] = {
@@ -65564,6 +65420,7 @@ true,
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
@@ -65574,7 +65431,6 @@ true,
 ["WARLOCK"] = true,
 },
 },
-["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -65584,189 +65440,12 @@ true,
 ["useAdjustededMax"] = false,
 ["anchorFrameType"] = "SCREEN",
 ["source"] = "import",
-["desc"] = "Made by Luxthos - twitch.tv/luxthos",
 ["color"] = {
 0,
 0,
 0,
 0,
 },
-["information"] = {
-["forceEvents"] = true,
-},
-["conditions"] = {
-},
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["selfPoint"] = "TOP",
-["preferToUpdate"] = false,
-["uid"] = "sje43fQsMuA",
-["xOffset"] = 0,
-["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
-["cooldownTextDisabled"] = false,
-["zoom"] = 0,
-["semver"] = "11.0.15",
-["tocversion"] = 110002,
-["id"] = "General Options - LWA - Warrior",
-["useCooldownModRate"] = true,
-["frameStrata"] = 1,
-["width"] = 405,
-["keepAspectRatio"] = false,
-["config"] = {
-["top"] = {
-["font_size"] = 16,
-["font"] = "Friz Quadrata TT",
-["spacing"] = 0,
-["height"] = 32,
-["margin"] = 10,
-["width"] = 38,
-},
-["maintenance"] = {
-["font_size"] = 16,
-["font"] = "Friz Quadrata TT",
-["margin"] = 10,
-["spacing"] = 0,
-["height"] = 32,
-["limit_icons"] = false,
-["nb_max"] = 10,
-["width"] = 38,
-},
-["style"] = {
-["zoom"] = 30,
-["border_resources"] = true,
-["border_icons"] = true,
-["border_color"] = {
-0,
-0,
-0,
-1,
-},
-["border_offset"] = 1,
-["resource_texture"] = "Solid",
-["border_size"] = 1,
-},
-["core"] = {
-["spacing2"] = 0,
-["nb_max"] = 8,
-["resources_position"] = 2,
-["width"] = 48,
-["nb_min"] = 5,
-["font_size"] = 18,
-["font"] = "Friz Quadrata TT",
-["height"] = 40,
-["spacing"] = 0,
-["width2"] = 44,
-["overflow_position"] = 1,
-["margin"] = 0,
-["height2"] = 36,
-},
-["side"] = {
-["font_size"] = 16,
-["font"] = "Friz Quadrata TT",
-["grow_direction"] = 1,
-["spacing"] = 0,
-["height"] = 32,
-["margin"] = 3,
-["nb"] = 3,
-["width"] = 38,
-},
-["resources"] = {
-["cast_bar"] = {
-["emp_gradient"] = 1,
-["emp_color1"] = {
-1,
-1,
-1,
-0.90000000596046,
-},
-["emp_color2"] = {
-1,
-1,
-1,
-1,
-},
-["unint_color1"] = {
-0.52549019607843,
-0.52549019607843,
-0.52549019607843,
-0.90000000596046,
-},
-["color1"] = {
-0.52941176470588,
-0.090196078431373,
-0.090196078431373,
-1,
-},
-["font_size"] = 14,
-["unint_gradient"] = 1,
-["color2"] = {
-0.77647058823529,
-0.1843137254902,
-0.1843137254902,
-1,
-},
-["height"] = 20,
-["unint_color2"] = {
-0.70980392156863,
-0.70980392156863,
-0.70980392156863,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["gradient"] = 1,
-},
-["health_bar"] = {
-["color2"] = {
-0.58431375026703,
-0.85098046064377,
-0.30588236451149,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["font_size"] = 14,
-["height"] = 20,
-["gradient"] = 1,
-["format"] = 5,
-["color1"] = {
-0.24313727021217,
-0.58431375026703,
-0.10980392992496,
-1,
-},
-},
-},
-["alpha"] = {
-["skyriding_only"] = false,
-["ignore_enemy"] = true,
-["global"] = 100,
-["ooc"] = 100,
-["mounted"] = 100,
-["ignore_friendly"] = true,
-},
-["utility"] = {
-["font_size"] = 16,
-["font"] = "Friz Quadrata TT",
-["margin"] = 10,
-["spacing"] = 0,
-["height"] = 32,
-["limit_icons"] = false,
-["nb_max"] = 10,
-["width"] = 38,
-},
-},
-["inverse"] = false,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-["custom"] = "local this = aura_env\nlocal suffix = this.id:gsub(\"General Options %- LWA %- \", \"\")\nlocal CLASS = suffix:gsub(\"[%s%d]+$\", \"\")\nthis.CLASS = CLASS\n\nlocal CLASS_GROUP = WeakAuras.GetData(this.id).parent\nlocal DYNAMIC_EFFECTS_GROUP = \"Dynamic Effects - LWA - \" .. suffix\nlocal CORE_GROUP = \"Core - LWA - \" .. suffix\nlocal LEFT_SIDE_GROUP = \"Left Side - LWA - \" .. suffix\nlocal RIGHT_SIDE_GROUP = \"Right Side - LWA - \" .. suffix\nlocal UTILITIES_GROUP = \"Utilities - LWA - \" .. suffix\nlocal MAINTENANCE_GROUP = \"Maintenance - LWA - \" .. suffix\nlocal RESOURCES_GROUP = \"Resources - LWA - \" .. suffix\nlocal CAST_BAR = \"Cast Bar - LWA - \" .. suffix\n\nlocal NB_CORE = 8\nlocal CORE_WIDTH = 405\nlocal CORE_HEIGHT = 48\nlocal RESOURCES_HEIGHT = 0\n\nLWA = LWA or {}\nLWA[CLASS] = LWA[CLASS] or {}\n\nlocal LWA = LWA[CLASS]\n\nlocal config = nil\nLWA.configs = LWA.configs or {}\nLWA.configs[\"general\"] = this.config\n\nthis.resources = nil\nthis.parentFrame = nil\n\n\nlocal WeakAuras, C_Timer, time, min, max, floor, ceil, fmod, Round, pairs, ipairs, type, unpack, tinsert, FormatLargeNumber, DECIMAL_SEPARATOR = WeakAuras, C_Timer, time, min, max, floor, ceil, math.fmod, Round, pairs, ipairs, type, unpack, tinsert, FormatLargeNumber, DECIMAL_SEPARATOR\nlocal SharedMedia = LibStub(\"LibSharedMedia-3.0\")\n\n\nif WeakAuras.IsImporting() then\n    local function CheckImport()\n        if WeakAuras.IsImporting() or not this.isImporting then return end\n\n        this.isImporting:Cancel()\n        this.isImporting = false\n\n        C_Timer.After(1, function()\n                WeakAuras.ScanEvents(\"LWA_INIT\", true)\n        end)\n    end\n\n    this.isImporting = C_Timer.NewTicker(0.5, CheckImport)\nelse\n    this.isImporting = false\nend\n\nlocal function tclone(t1)\n    local t = {}\n\n    if t1 then\n        for k, v in pairs(t1) do\n            if \"table\" == type(v) then\n                v = tclone(v)\n            end\n\n            if \"string\" == type(k) then\n                t[k] = v\n            else\n                tinsert(t, v)\n            end\n        end\n    end\n\n    return t\nend\n\nlocal function tmerge(...)\n    local ts = {...}\n    local t = tclone(ts[1])\n    local t2\n\n    for i = 2, #ts do\n        t2 = ts[i] or {}\n\n        for k, v in pairs(t2) do\n            if \"table\" == type(v) then\n                v = tclone(v)\n\n                if t[k] and #t[k] == 0 then\n                    t[k] = tmerge(t[k], v)\n                else\n                    t[k] = v\n                end\n            else\n                t[k] = v\n            end\n        end\n    end\n\n    return t\nend\n\nlocal function SetRegionSize(r, w, h)\n    r:SetRegionWidth(w)\n    r:SetRegionHeight(h)\nend\n\nlocal function CalcSpacing(spacing)\n    local s, bs, bo, s2 = spacing, config.style.border_size, config.style.border_offset\n\n    if bs > 0 then\n        s2 = max(bs, bo)\n    else\n        s2 = 0\n    end\n\n    if s > 0 then\n        s = s + (s2 * 2)\n    else\n        s = s2\n    end\n\n    return s\nend\n\nlocal function UpdateAnchorFrame(skipCore)\n    if this.isImporting then return end\n\n    local config = LWA.GetConfig()\n    local h1 = config.core.height\n    local s1 = CalcSpacing(config.core.spacing)\n    local m1 = config.core.margin\n    local h, y = max(1, CORE_HEIGHT + RESOURCES_HEIGHT + s1 + m1), 0\n\n    if 1 == h % 2 then\n        h = h + 1\n    end\n\n    SetRegionSize(this.region, CORE_WIDTH, h)\n\n    if config.core.resources_position == 1 then -- Above\n        y = y + RESOURCES_HEIGHT + s1 + m1\n    end\n\n    if config.core.overflow_position == 1 then -- Above\n        y = y + max(CORE_HEIGHT, h1) - h1\n    end\n\n    this.region:SetOffset(0, y)\n\n    local function RepositionGroups()\n        local configs = { config.core, config.utility, config.maintenance }\n\n        for i, g in ipairs({ CORE_GROUP, UTILITIES_GROUP, MAINTENANCE_GROUP }) do\n            if not (skipCore and CORE_GROUP == g) then\n                g = WeakAuras.GetRegion(g)\n\n                if g then\n                    g:PositionChildren()\n\n                    if 0 == #g.sortedChildren then\n                        g:SetHeight(configs[i].height)\n                        g.currentHeight = configs[i].height\n                    end\n                end\n            end\n        end\n    end\n\n    if skipCore then\n        C_Timer.After(0.05, RepositionGroups)\n    else\n        RepositionGroups()\n    end\nend\n\nfunction LWA.GetConfig(grp, force)\n    local default = {\n        style = {\n            border_offset = 1,\n            border_size = 1,\n            border_icons = true,\n            border_resources = true,\n            border_color = { [1] = 0, [2] = 0, [3] = 0, [4] = 1 },\n            zoom = 30,\n            resource_texture = \"Solid\",\n        },\n        core = {\n            font = \"\",\n            font_size = 18,\n            nb_min = 5,\n            nb_max = 8,\n            width = 48,\n            height = 48,\n            spacing = 3,\n            width2 = 48,\n            height2 = 48,\n            spacing2 = 3,\n            margin = 0,\n            overflow_position = 2, -- Below\n            resources_position = 2, -- Below\n        },\n        core2 = { -- Fake group\n            width = 48,\n            height = 48,\n            spacing = 3,\n        },\n        utility = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 10,\n            nb_max = 10,\n            limit_icons = false,\n            behavior = 2, -- Always Show\n        },\n        top = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 10,\n        },\n        side = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 3,\n            grow_direction = 1,\n            nb = 60,\n        },\n        maintenance = {\n            font = \"\",\n            font_size = 16,\n            width = 36,\n            height = 36,\n            spacing = 0,\n            margin = 10,\n            nb_max = 10,\n            limit_icons = false,\n        },\n        alpha = {\n            global = 100,\n            ooc = 100,\n            mounted = 0,\n            skyriding_only = false,\n            ignore_enemy = true,\n            ignore_friendly = true,\n        },\n        resources = {\n            health_bar = {\n                format = 1\n            },\n            mana_bar = {\n                format = 1\n            }\n        },\n    }\n\n    if force or not config or WeakAuras.IsOptionsOpen() then\n        config = tmerge(\n            default,\n            LWA.configs[\"general\"],\n            LWA.configs[\"class\"] or {}\n        )\n\n        -- Special case for Core's Overflow\n        config.core2 = {\n            width = config.core.width2,\n            height = config.core.height2,\n            spacing = config.core.spacing2,\n            font = config.core.font,\n            font_size = config.core.font_size,\n        }\n    end\n\n    if grp then\n        return config[grp] or {}\n    end\n\n    return config\nend\n\nlocal function UpdateSubRegions(region, subCfg, applyBorders)\n    if region and #region.subRegions > 0 then\n        local config = LWA.GetConfig()\n        local bSize, bOffset, r, g, b, a = 0, 0 -- Border\n        local cfgFont, cfgSize, currentFont, currentSize, flags\n\n        if applyBorders then\n            bSize = config.style.border_size\n            bOffset = config.style.border_offset\n            r, g, b, a = unpack(config.style.border_color)\n        end\n\n        if subCfg then\n            cfgFont = subCfg.font\n            cfgSize = subCfg.font_size or 14\n\n            if cfgFont then\n                cfgFont = SharedMedia:Fetch(\"font\", cfgFont)\n            end\n        end\n\n        for _, subRegion in ipairs(region.subRegions) do\n            if \"subborder\" == subRegion.type then\n                subRegion:SetVisible(bSize > 0)\n\n                if bSize > 0 then\n                    region:AnchorSubRegion(subRegion, \"area\", region.regionType == \"aurabar\" and \"bar\", nil, bOffset, bOffset)\n\n                    local bd = subRegion:GetBackdrop()\n                    bd.edgeSize = bSize\n                    subRegion:SetBackdrop(bd)\n                    subRegion:SetBorderColor(r, g, b, a)\n                end\n            elseif \"subtext\" == subRegion.type and cfgFont then\n                currentFont, currentSize, flags = subRegion.text:GetFont()\n\n                if currentFont ~= cfgFont or currentSize ~= cfgSize then\n                    subRegion.text:SetFont(cfgFont, cfgSize, flags)\n                end\n            end\n        end\n    end\nend\n\nlocal function UpdateIcon(region, key, selfPoint)\n    if not region then return end\n\n    local config = LWA.GetConfig()\n    local zoom = config.style.zoom / 100\n    local subCfg = config[key]\n\n    region:SetAnchor(selfPoint, region.relativeTo, region.relativePoint)\n\n    if region.SetZoom then\n        region:SetZoom(min(1, zoom + (region.extraZoom or 0)))\n    end\n\n    SetRegionSize(region, subCfg.width, subCfg.height)\n\n    UpdateSubRegions(region, subCfg, config.style.border_icons)\nend\n\nlocal function UpdateResource(region, index, nb, inCombat)\n    if not region then return end\n\n    index = max(1, index or 1)\n    nb = max(1, nb or 1)\n\n    if not inCombat then\n        local config, subCfg = LWA.GetConfig(), {}\n\n        local w, h = CORE_WIDTH, 20\n\n        if nb > 1 then\n            local s = CalcSpacing(config.core.spacing)\n\n            w = (w + s) / nb - s\n        end\n\n        local cg = region.configGroup\n\n        if cg and config.resources[cg] then\n            subCfg = config.resources[cg]\n            h = subCfg.height or 20\n        end\n\n        local lastW, lastH = region.width, region.height\n\n        SetRegionSize(region, w, h)\n\n        UpdateSubRegions(region, subCfg, config.style.border_resources)\n\n        if config.style.resource_texture then\n            region.textureSource = \"LSM\"\n            region:SetStatusBarTextureLSM(config.style.resource_texture)\n\n            if region.overlaysTexture then\n                for i, _ in ipairs(region.overlaysTexture) do\n                    region.overlaysTexture[i] = config.style.resource_texture\n                end\n            end\n        end\n\n        if lastW ~= w or lastH ~= h then\n            region.bar:Update()\n        end\n\n        if region.bar.spark then\n            region.bar.spark:SetHeight(max(15, Round(h * 2)))\n        end\n    end\n\n    this.UpdateBar({ region = region }, index, nb)\nend\n\nlocal throttledInitHandler, throttledInitLastRun = nil, 0\n\nfunction this.ThrottledInit()\n    if throttledInitHandler or this.isImporting then return end\n\n    local currentTime, delay = time(), 0.25\n\n    if throttledInitLastRun > currentTime - 0.5 then\n        delay = max(0.25, currentTime - throttledInitLastRun)\n    end\n\n    throttledInitHandler = C_Timer.NewTimer(delay, function()\n            WeakAuras.ScanEvents(\"LWA_INIT\")\n    end)\nend\n\nfunction this.Init()\n    if this.isImporting then return end\n\n    throttledInitLastRun = time()\n\n    local config = LWA.GetConfig(nil, true)\n    local isOptionsOpen = WeakAuras.IsOptionsOpen()\n    local zoom = config.style.zoom / 100\n\n    if throttledInitHandler then\n        throttledInitHandler:Cancel()\n        throttledInitHandler = nil\n    end\n\n    if not this.parentFrame then\n        this.parentFrame = WeakAuras.GetRegion(CLASS_GROUP)\n    end\n\n    if this.parentFrame and not this.parentFrame.SetRealScale then\n        this.parentFrame.SetRealScale = this.parentFrame.SetScale\n\n        this.parentFrame.SetScale = function(self, scale)\n            this.parentFrame:SetRealScale(scale)\n            local castBar = WeakAuras.GetRegion(CAST_BAR)\n\n            if castBar then\n                castBar:SetScale(scale)\n            end\n        end\n    end\n\n    if isOptionsOpen then\n        NB_CORE = config.core.nb_max\n    else\n        NB_CORE = max(4, config.core.nb_min, min(NB_CORE, config.core.nb_max))\n\n        local castBar = WeakAuras.GetRegion(CAST_BAR)\n\n        if castBar then\n            castBar:SetParent(UIParent)\n\n            if this.parentFrame then\n                castBar:SetScale(this.parentFrame:GetScale())\n            end\n        end\n    end\n\n    local spacing = CalcSpacing(config.core.spacing)\n\n    CORE_WIDTH = NB_CORE * (config.core.width + spacing) - spacing\n\n    local grpRegion = WeakAuras.GetRegion(CORE_GROUP)\n\n    if grpRegion then\n        grpRegion:PositionChildren()\n\n        if not isOptionsOpen then\n            NB_CORE = max(4, config.core.nb_min, min(#grpRegion.sortedChildren, config.core.nb_max))\n\n            CORE_WIDTH = NB_CORE * (config.core.width + spacing) - spacing\n        end\n\n        this.region:SetRegionWidth(CORE_WIDTH)\n    end\n\n    this.UpdateResources()\n\n    for _, g in ipairs({ DYNAMIC_EFFECTS_GROUP, LEFT_SIDE_GROUP, RIGHT_SIDE_GROUP }) do\n        g = WeakAuras.GetRegion(g)\n\n        if g then\n            g:PositionChildren()\n        end\n    end\nend\n\nhooksecurefunc(\"SetUIVisibility\", function(isVisible)\n        if isVisible and this and this.ThrottledInit then\n            this.ThrottledInit()\n        end\nend)\n\nfunction this.UpdateResources()\n    if this.isImporting then return end\n\n    local grpRegion = WeakAuras.GetRegion(RESOURCES_GROUP)\n\n    if not this.resources then\n        local grpData = WeakAuras.GetData(RESOURCES_GROUP)\n\n        this.resources = grpData and grpData.controlledChildren\n    end\n\n    if grpRegion and this.resources and #this.resources > 0 then\n        local config = LWA.GetConfig()\n\n        local totalHeight, nb = 0, 0\n        local h1 = config.core.height\n        local s1 = CalcSpacing(config.core.spacing)\n        local m1 = config.core.margin\n        local y = 0\n\n        if config.core.resources_position == 2 then -- Below\n            y = max(CORE_HEIGHT, h1) + s1 + m1\n        end\n\n        grpRegion:SetOffset(0, -y)\n\n        local isOptionsOpen = WeakAuras.IsOptionsOpen()\n        local resRegion, isVisible, regionType\n        local w, h, cg = 0, 0\n\n        y = 0\n\n        for _, resId in ipairs(this.resources) do\n            resRegion = WeakAuras.GetRegion(resId)\n\n            if resRegion then\n                isVisible = isOptionsOpen\n                regionType = resRegion.regionType\n                h = 0\n\n                if \"aurabar\" == regionType then\n                    isVisible = isVisible or resRegion:IsVisible()\n                    UpdateResource(resRegion)\n\n                    h = resRegion.height\n\n                elseif \"dynamicgroup\" == regionType then\n                    local nbChild = 0\n                    local childRegions = {}\n\n                    for _, region in pairs(resRegion.controlledChildren) do\n                        if region and region[\"\"] then\n                            nbChild = nbChild + 1\n\n                            childRegions[region[\"\"].regionData.dataIndex] = region[\"\"].regionData.region\n\n                            isVisible = isVisible or region[\"\"].regionData.region:IsVisible()\n                        end\n                    end\n\n                    resRegion.childYOffset = -y\n                    h = 0\n\n                    for i, region in ipairs(childRegions) do\n                        UpdateResource(region, i, nbChild)\n\n                        h = max(h, region.height)\n\n                        region:SetYOffset(-y)\n                    end\n\n                    if h <= 0 then\n                        h = 20\n                    end\n                end\n\n                if isVisible then\n                    nb = nb + 1\n\n                    if \"dynamicgroup\" == regionType then\n                        resRegion:PositionChildren()\n                    else\n                        resRegion:SetOffset(0, -y)\n                    end\n\n                    totalHeight = totalHeight + h\n                    y = y + h + s1\n                end\n            end\n        end\n\n        RESOURCES_HEIGHT = totalHeight + max(nb - 1, 0) * CalcSpacing(config.core.spacing)\n    end\n\n    UpdateAnchorFrame()\nend\n\nfunction this.UpdateBar(aura, i, nb)\n    local config = LWA.GetConfig(\"resources\")\n    local e = aura or aura_env\n    local region = e and e.region\n    local cg = region and region.configGroup\n\n    if not (region and region:IsVisible() and cg and config[cg]) then return end\n\n    local cs = region.colorState or \"\"\n\n    if cs ~= \"\" then\n        cs = cs .. \"_\"\n    end\n\n    cg = config[cg]\n\n    local c1, c2 = cg[cs .. \"color1\"], cg[cs .. \"color2\"]\n\n    if c1 and c2 then\n        nb = max(1, min(region.indexMax or 99, nb or 1))\n        i = min(nb, max(1, region.index or i or 1)) - (region.indexOffset or 0)\n\n        local bar = region.bar\n\n        if cg[cs .. \"gradient\"] and cg[cs .. \"gradient\"] < 3 then\n            if nb > 1 and 1 == cg[cs .. \"gradient\"] then\n                local function MixRGB(c1, c2, pos)\n                    pos = 1 - (pos or 0.5)\n\n                    return {\n                        (c1[1] * pos) + (c2[1] * (1 - pos)),\n                        (c1[2] * pos) + (c2[2] * (1 - pos)),\n                        (c1[3] * pos) + (c2[3] * (1 - pos)),\n                        (c1[4] * pos) + (c2[4] * (1 - pos))\n                    }\n                end\n\n                local cc1, cc2 = c1, c2\n\n                if i > 1 then\n                    c1 = MixRGB(cc1, cc2, (i - 1) / nb)\n                end\n\n                c2 = MixRGB(cc1, cc2, i / nb)\n            end\n\n            local orientation = \"HORIZONTAL\"\n\n            if 2 == cg[cs .. \"gradient\"] then\n                orientation = \"VERTICAL\"\n\n                local tmp = c1\n                c1 = c2\n                c2 = tmp\n            end\n\n            region.enableGradient = true\n            region.gradientOrientation = orientation\n            region.barColor2 = c2\n            region:Color(unpack(c1))\n        else\n            region.enableGradient = false\n            region:Color(unpack(c1))\n        end\n\n        if region.ot then\n            region.ot:SetColorTexture(unpack(c2))\n        end\n    end\nend\n\nfunction LWA.GrowCore(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local h1 = config.core.height\n    local s1 = CalcSpacing(config.core.spacing)\n    local w2 = config.core.width2\n    local h2 = config.core.height2\n    local s2 = CalcSpacing(config.core.spacing2)\n    local m1 = config.core.margin\n\n    local maxCore = min(nb, config.core.nb_max)\n    local maxOverflow = nb - maxCore\n    local x, y\n    local xOffset = ((maxCore - 1) * (w1 + s1) / 2)\n    local yOffset = h1\n    local nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    local coreHeight = h1 + (ceil(maxOverflow / nbPerRow) * (h2 + s2))\n    local oldWidth, oldHeight = CORE_WIDTH, CORE_HEIGHT\n\n    if maxOverflow > 0 then\n        coreHeight = coreHeight + max(s1, s2) - s2\n    end\n\n    CORE_HEIGHT = coreHeight\n\n    if not WeakAuras.IsOptionsOpen() then\n        NB_CORE = max(4, config.core.nb_min, maxCore)\n\n        CORE_WIDTH = NB_CORE * (w1 + s1) - s1\n    end\n\n    UpdateAnchorFrame(true)\n\n    if oldWidth ~= CORE_WIDTH or oldHeight ~= CORE_HEIGHT then\n        this.UpdateResources()\n    end\n\n    if config.core.resources_position == 1 then  -- Above\n        yOffset = h1 + RESOURCES_HEIGHT + s1 + m1\n    end\n\n    if config.core.overflow_position == 1 then  -- Above\n        yOffset = yOffset + coreHeight - h1\n    end\n\n    for i, regionData in ipairs(activeRegions) do\n        x = (i - 1) * (w1 + s1) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"core\", \"BOTTOM\")\n\n        newPositions[i] = { x, y }\n\n        if i == maxCore then break end\n    end\n\n    if maxOverflow > 0 then\n        local i2, m, anchor, yMult\n\n        xOffset = ((maxCore - 1) * (w2 + s2) / 2)\n        yOffset = h1\n\n        if config.core.overflow_position == 1 then -- Above\n            yOffset = yOffset - h2 + max(s1, s2) - s2 - coreHeight\n            yMult = 1\n            anchor = \"BOTTOM\"\n\n            if config.core.resources_position == 1 then  -- Above\n                yOffset = yOffset - RESOURCES_HEIGHT - s1 - m1\n            end\n        else\n            if config.core.resources_position == 1 then  -- Above\n                yOffset = yOffset + RESOURCES_HEIGHT + s1 + m1\n            end\n\n            yOffset = yOffset - h2\n            yMult = -1\n            anchor = \"TOP\"\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            if i > maxCore then\n                i2 = i - maxCore\n                m = (i2 % nbPerRow)\n\n                if m == 1 then\n                    xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n                    yOffset = yOffset + h2 + s2\n                end\n\n                if m == 0 then\n                    m = nbPerRow\n                end\n\n                x = (m - 1) * (w2 + s2) - xOffset\n                y = yOffset * yMult\n\n                UpdateIcon(regionData.region, \"core2\", anchor)\n\n                newPositions[i] = { x, y }\n            end\n        end\n    end\nend\n\nfunction LWA.GrowDynamicEffects(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local maxCore = min(nb, NB_CORE)\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.top.width\n    local h2 = config.top.height\n    local s2 = CalcSpacing(config.top.spacing)\n\n    local xOffset = (maxCore - 1) * (w1 + s1) / 2\n    local yOffset = config.top.margin + max(s1, s2) - s2 - h2\n    local x, y, m\n\n    local nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = yOffset\n\n        UpdateIcon(regionData.region, \"top\", \"BOTTOM\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowSide(newPositions, activeRegions, xMult)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w = config.side.width\n    local h = config.side.height\n    local s2 = CalcSpacing(config.side.spacing)\n    local s1 = CalcSpacing(config.core.spacing)\n    local h1 = config.core.height\n    local m1 = config.core.margin\n\n    local baseX, baseY = config.side.margin + max(s1, s2), 0\n    local xOffset, yOffset, yMult = 0, 0, 1\n    local nbPerRC, m = min(config.side.nb, nb)\n    local grow = config.side.grow_direction\n    local anchor\n\n    if config.core.resources_position == 2 and config.core.overflow_position == 2 then -- Below\n        if grow == 2 or grow == 4 then -- Upward\n            baseY = baseY - config.top.margin\n        end\n    else\n        if config.core.resources_position == 1 then -- Above\n            baseY = baseY + RESOURCES_HEIGHT + s1 + m1\n        end\n\n        if config.core.overflow_position == 1 then -- Above\n            baseY = baseY + max(CORE_HEIGHT, h1) - h1\n        end\n    end\n\n    xMult = xMult or 1\n\n    if xMult < 0 then\n        anchor = \"TOPRIGHT\"\n    else\n        anchor = \"TOPLEFT\"\n    end\n\n    if grow == 3 or grow == 4 then -- Horizontal\n        if grow == 4 then -- Upward\n            yOffset = -baseY\n            yMult = -1\n        else\n            yOffset = baseY - h - s2\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            m = (i % nbPerRC)\n\n            if m == 1 or (nbPerRC == 1 and i == 1) then\n                xOffset = baseX\n                yOffset = yOffset + h + s2\n            end\n\n            UpdateIcon(regionData.region, \"side\", anchor)\n\n            newPositions[i] = { xOffset * xMult, -yOffset * yMult }\n\n            xOffset = xOffset + w + s2\n        end\n    else\n        xOffset = baseX - w - s2\n\n        if grow == 2 then -- Upward\n            baseY = -baseY + h + s2\n            yOffset = baseY\n            yMult = -1\n        else\n            yOffset = -h - s2\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            m = (i % nbPerRC)\n\n            if m == 1 or (nbPerRC == 1 and i == 1) then\n                xOffset = xOffset + w + s2\n                yOffset = baseY\n            end\n\n            UpdateIcon(regionData.region, \"side\", anchor)\n\n            newPositions[i] = { xOffset * xMult, -yOffset * yMult }\n\n            yOffset = yOffset + h + s2\n        end\n    end\nend\n\nfunction LWA.GrowUtilities(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.utility.width\n    local h2 = config.utility.height\n    local s2 = CalcSpacing(config.utility.spacing)\n\n    local maxCore, nbPerRow\n\n    if config.utility.limit_icons then\n        nbPerRow = config.utility.nb_max\n        maxCore = min(nb, nbPerRow)\n    else\n        maxCore = min(nb, NB_CORE)\n        nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    end\n\n    local xOffset = (maxCore - 1) * (w2 + s2) / 2\n    local yOffset = config.utility.margin + max(s1, s2) - s2 - h2\n    local x, y, m\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"utility\", \"TOP\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowMaintenance(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.maintenance.width\n    local h2 = config.maintenance.height\n    local s2 = CalcSpacing(config.maintenance.spacing)\n\n    local maxCore, nbPerRow\n\n    if config.maintenance.limit_icons then\n        nbPerRow = config.maintenance.nb_max\n        maxCore = min(nb, nbPerRow)\n    else\n        maxCore = min(nb, NB_CORE)\n        nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    end\n\n    local xOffset = (maxCore - 1) * (w2 + s2) / 2\n    local yOffset = config.maintenance.margin + config.utility.margin + max(CalcSpacing(config.utility.spacing), s2) - s2 - h2\n    local x, y, m\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"maintenance\", \"TOP\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowDynamicResource(newPositions, activeRegions, inCombat)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local s = CalcSpacing(config.core.spacing)\n    local w = (CORE_WIDTH + s) / nb\n    local xOffset, x = (CORE_WIDTH - w + s) / 2\n    local childYOffset = aura_env.region.childYOffset or 0\n\n    for i, regionData in ipairs(activeRegions) do\n        x = (i - 1) * w - xOffset\n\n        if not this.isImporting then\n            UpdateResource(regionData.region, i, nb, inCombat)\n            regionData.region:SetYOffset(childYOffset)\n        end\n\n        newPositions[i] = { x, 0 }\n    end\nend\n\nlocal function round(num, decimals)\n    local mult = 10^(decimals or 0)\n\n    return Round((num or 0) * mult) / mult\nend\n\nlocal barFormats = {\n    \"value\",\n    \"kvalue\",\n    \"value (percent)\",\n    \"kvalue (percent)\",\n    \"percent\",\n}\n\nfunction LWA.UpdateBarText(value, percent, format)\n    local text = barFormats[format] or \"value\"\n    value = value or 0\n    percent = percent or 0\n\n    text = text:gsub(\"percent\", round(percent, 0))\n\n    if 2 == format or 4 == format then\n        local rem = fmod(value, 1000) or 0\n\n        if rem >= 950 or value >= 1000000 then\n            rem = 0\n        end\n\n        text = text:gsub(\"kvalue\", FormatLargeNumber(Round((value - rem) / 1000)) .. \".\" .. Round(rem / 100) .. \" K\"):gsub(\"%.0 K\", \" K\"):gsub(\"%.\", DECIMAL_SEPERATOR)\n    else\n        text = text:gsub(\"value\", value)\n    end\n\n    return text\nend\n",
-["do_custom"] = true,
-},
-},
-["displayIcon"] = 134520,
-["cooldown"] = false,
 ["authorOptions"] = {
 {
 ["useName"] = true,
@@ -67226,6 +66905,183 @@ true,
 ["width"] = 2,
 },
 },
+["information"] = {
+["forceEvents"] = true,
+},
+["conditions"] = {
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["selfPoint"] = "TOP",
+["preferToUpdate"] = false,
+["uid"] = "sje43fQsMuA",
+["xOffset"] = 0,
+["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
+["cooldownTextDisabled"] = false,
+["zoom"] = 0,
+["semver"] = "11.0.15",
+["tocversion"] = 110002,
+["id"] = "General Options - LWA - Warrior",
+["useCooldownModRate"] = true,
+["frameStrata"] = 1,
+["width"] = 405,
+["keepAspectRatio"] = false,
+["config"] = {
+["top"] = {
+["font_size"] = 16,
+["font"] = "Friz Quadrata TT",
+["spacing"] = 0,
+["height"] = 32,
+["margin"] = 10,
+["width"] = 38,
+},
+["maintenance"] = {
+["font_size"] = 16,
+["font"] = "Friz Quadrata TT",
+["margin"] = 10,
+["spacing"] = 0,
+["height"] = 32,
+["limit_icons"] = false,
+["nb_max"] = 10,
+["width"] = 38,
+},
+["style"] = {
+["zoom"] = 30,
+["border_resources"] = true,
+["border_icons"] = true,
+["border_color"] = {
+0,
+0,
+0,
+1,
+},
+["border_offset"] = 1,
+["resource_texture"] = "Solid",
+["border_size"] = 1,
+},
+["core"] = {
+["width"] = 48,
+["nb_max"] = 8,
+["resources_position"] = 2,
+["nb_min"] = 5,
+["spacing2"] = 0,
+["font_size"] = 18,
+["font"] = "Friz Quadrata TT",
+["height"] = 40,
+["spacing"] = 0,
+["width2"] = 44,
+["overflow_position"] = 1,
+["margin"] = 0,
+["height2"] = 36,
+},
+["side"] = {
+["font_size"] = 16,
+["font"] = "Friz Quadrata TT",
+["grow_direction"] = 1,
+["spacing"] = 0,
+["height"] = 32,
+["margin"] = 3,
+["nb"] = 3,
+["width"] = 38,
+},
+["resources"] = {
+["cast_bar"] = {
+["emp_gradient"] = 1,
+["emp_color1"] = {
+1,
+1,
+1,
+0.90000000596046,
+},
+["emp_color2"] = {
+1,
+1,
+1,
+1,
+},
+["unint_color1"] = {
+0.52549019607843,
+0.52549019607843,
+0.52549019607843,
+0.90000000596046,
+},
+["color1"] = {
+0.52941176470588,
+0.090196078431373,
+0.090196078431373,
+1,
+},
+["font_size"] = 14,
+["unint_gradient"] = 1,
+["color2"] = {
+0.77647058823529,
+0.1843137254902,
+0.1843137254902,
+1,
+},
+["height"] = 20,
+["unint_color2"] = {
+0.70980392156863,
+0.70980392156863,
+0.70980392156863,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["gradient"] = 1,
+},
+["health_bar"] = {
+["color2"] = {
+0.58431375026703,
+0.85098046064377,
+0.30588236451149,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["font_size"] = 14,
+["height"] = 20,
+["gradient"] = 1,
+["format"] = 5,
+["color1"] = {
+0.24313727021217,
+0.58431375026703,
+0.10980392992496,
+1,
+},
+},
+},
+["alpha"] = {
+["skyriding_only"] = false,
+["ignore_enemy"] = true,
+["global"] = 100,
+["ooc"] = 100,
+["mounted"] = 100,
+["ignore_friendly"] = true,
+},
+["utility"] = {
+["font_size"] = 16,
+["font"] = "Friz Quadrata TT",
+["margin"] = 10,
+["spacing"] = 0,
+["height"] = 32,
+["limit_icons"] = false,
+["nb_max"] = 10,
+["width"] = 38,
+},
+},
+["inverse"] = false,
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+["custom"] = "local this = aura_env\nlocal suffix = this.id:gsub(\"General Options %- LWA %- \", \"\")\nlocal CLASS = suffix:gsub(\"[%s%d]+$\", \"\")\nthis.CLASS = CLASS\n\nlocal CLASS_GROUP = WeakAuras.GetData(this.id).parent\nlocal DYNAMIC_EFFECTS_GROUP = \"Dynamic Effects - LWA - \" .. suffix\nlocal CORE_GROUP = \"Core - LWA - \" .. suffix\nlocal LEFT_SIDE_GROUP = \"Left Side - LWA - \" .. suffix\nlocal RIGHT_SIDE_GROUP = \"Right Side - LWA - \" .. suffix\nlocal UTILITIES_GROUP = \"Utilities - LWA - \" .. suffix\nlocal MAINTENANCE_GROUP = \"Maintenance - LWA - \" .. suffix\nlocal RESOURCES_GROUP = \"Resources - LWA - \" .. suffix\nlocal CAST_BAR = \"Cast Bar - LWA - \" .. suffix\n\nlocal NB_CORE = 8\nlocal CORE_WIDTH = 405\nlocal CORE_HEIGHT = 48\nlocal RESOURCES_HEIGHT = 0\n\nLWA = LWA or {}\nLWA[CLASS] = LWA[CLASS] or {}\n\nlocal LWA = LWA[CLASS]\n\nlocal config = nil\nLWA.configs = LWA.configs or {}\nLWA.configs[\"general\"] = this.config\n\nthis.resources = nil\nthis.parentFrame = nil\n\n\nlocal WeakAuras, C_Timer, time, min, max, floor, ceil, fmod, Round, pairs, ipairs, type, unpack, tinsert, FormatLargeNumber, DECIMAL_SEPARATOR = WeakAuras, C_Timer, time, min, max, floor, ceil, math.fmod, Round, pairs, ipairs, type, unpack, tinsert, FormatLargeNumber, DECIMAL_SEPARATOR\nlocal SharedMedia = LibStub(\"LibSharedMedia-3.0\")\n\n\nif WeakAuras.IsImporting() then\n    local function CheckImport()\n        if WeakAuras.IsImporting() or not this.isImporting then return end\n\n        this.isImporting:Cancel()\n        this.isImporting = false\n\n        C_Timer.After(1, function()\n                WeakAuras.ScanEvents(\"LWA_INIT\", true)\n        end)\n    end\n\n    this.isImporting = C_Timer.NewTicker(0.5, CheckImport)\nelse\n    this.isImporting = false\nend\n\nlocal function tclone(t1)\n    local t = {}\n\n    if t1 then\n        for k, v in pairs(t1) do\n            if \"table\" == type(v) then\n                v = tclone(v)\n            end\n\n            if \"string\" == type(k) then\n                t[k] = v\n            else\n                tinsert(t, v)\n            end\n        end\n    end\n\n    return t\nend\n\nlocal function tmerge(...)\n    local ts = {...}\n    local t = tclone(ts[1])\n    local t2\n\n    for i = 2, #ts do\n        t2 = ts[i] or {}\n\n        for k, v in pairs(t2) do\n            if \"table\" == type(v) then\n                v = tclone(v)\n\n                if t[k] and #t[k] == 0 then\n                    t[k] = tmerge(t[k], v)\n                else\n                    t[k] = v\n                end\n            else\n                t[k] = v\n            end\n        end\n    end\n\n    return t\nend\n\nlocal function SetRegionSize(r, w, h)\n    r:SetRegionWidth(w)\n    r:SetRegionHeight(h)\nend\n\nlocal function CalcSpacing(spacing)\n    local s, bs, bo, s2 = spacing, config.style.border_size, config.style.border_offset\n\n    if bs > 0 then\n        s2 = max(bs, bo)\n    else\n        s2 = 0\n    end\n\n    if s > 0 then\n        s = s + (s2 * 2)\n    else\n        s = s2\n    end\n\n    return s\nend\n\nlocal function UpdateAnchorFrame(skipCore)\n    if this.isImporting then return end\n\n    local config = LWA.GetConfig()\n    local h1 = config.core.height\n    local s1 = CalcSpacing(config.core.spacing)\n    local m1 = config.core.margin\n    local h, y = max(1, CORE_HEIGHT + RESOURCES_HEIGHT + s1 + m1), 0\n\n    if 1 == h % 2 then\n        h = h + 1\n    end\n\n    SetRegionSize(this.region, CORE_WIDTH, h)\n\n    if config.core.resources_position == 1 then -- Above\n        y = y + RESOURCES_HEIGHT + s1 + m1\n    end\n\n    if config.core.overflow_position == 1 then -- Above\n        y = y + max(CORE_HEIGHT, h1) - h1\n    end\n\n    this.region:SetOffset(0, y)\n\n    local function RepositionGroups()\n        local configs = { config.core, config.utility, config.maintenance }\n\n        for i, g in ipairs({ CORE_GROUP, UTILITIES_GROUP, MAINTENANCE_GROUP }) do\n            if not (skipCore and CORE_GROUP == g) then\n                g = WeakAuras.GetRegion(g)\n\n                if g then\n                    g:PositionChildren()\n\n                    if 0 == #g.sortedChildren then\n                        g:SetHeight(configs[i].height)\n                        g.currentHeight = configs[i].height\n                    end\n                end\n            end\n        end\n    end\n\n    if skipCore then\n        C_Timer.After(0.05, RepositionGroups)\n    else\n        RepositionGroups()\n    end\nend\n\nfunction LWA.GetConfig(grp, force)\n    local default = {\n        style = {\n            border_offset = 1,\n            border_size = 1,\n            border_icons = true,\n            border_resources = true,\n            border_color = { [1] = 0, [2] = 0, [3] = 0, [4] = 1 },\n            zoom = 30,\n            resource_texture = \"Solid\",\n        },\n        core = {\n            font = \"\",\n            font_size = 18,\n            nb_min = 5,\n            nb_max = 8,\n            width = 48,\n            height = 48,\n            spacing = 3,\n            width2 = 48,\n            height2 = 48,\n            spacing2 = 3,\n            margin = 0,\n            overflow_position = 2, -- Below\n            resources_position = 2, -- Below\n        },\n        core2 = { -- Fake group\n            width = 48,\n            height = 48,\n            spacing = 3,\n        },\n        utility = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 10,\n            nb_max = 10,\n            limit_icons = false,\n            behavior = 2, -- Always Show\n        },\n        top = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 10,\n        },\n        side = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 3,\n            grow_direction = 1,\n            nb = 60,\n        },\n        maintenance = {\n            font = \"\",\n            font_size = 16,\n            width = 36,\n            height = 36,\n            spacing = 0,\n            margin = 10,\n            nb_max = 10,\n            limit_icons = false,\n        },\n        alpha = {\n            global = 100,\n            ooc = 100,\n            mounted = 0,\n            skyriding_only = false,\n            ignore_enemy = true,\n            ignore_friendly = true,\n        },\n        resources = {\n            health_bar = {\n                format = 1\n            },\n            mana_bar = {\n                format = 1\n            }\n        },\n    }\n\n    if force or not config or WeakAuras.IsOptionsOpen() then\n        config = tmerge(\n            default,\n            LWA.configs[\"general\"],\n            LWA.configs[\"class\"] or {}\n        )\n\n        -- Special case for Core's Overflow\n        config.core2 = {\n            width = config.core.width2,\n            height = config.core.height2,\n            spacing = config.core.spacing2,\n            font = config.core.font,\n            font_size = config.core.font_size,\n        }\n    end\n\n    if grp then\n        return config[grp] or {}\n    end\n\n    return config\nend\n\nlocal function UpdateSubRegions(region, subCfg, applyBorders)\n    if region and #region.subRegions > 0 then\n        local config = LWA.GetConfig()\n        local bSize, bOffset, r, g, b, a = 0, 0 -- Border\n        local cfgFont, cfgSize, currentFont, currentSize, flags\n\n        if applyBorders then\n            bSize = config.style.border_size\n            bOffset = config.style.border_offset\n            r, g, b, a = unpack(config.style.border_color)\n        end\n\n        if subCfg then\n            cfgFont = subCfg.font\n            cfgSize = subCfg.font_size or 14\n\n            if cfgFont then\n                cfgFont = SharedMedia:Fetch(\"font\", cfgFont)\n            end\n        end\n\n        for _, subRegion in ipairs(region.subRegions) do\n            if \"subborder\" == subRegion.type then\n                subRegion:SetVisible(bSize > 0)\n\n                if bSize > 0 then\n                    region:AnchorSubRegion(subRegion, \"area\", region.regionType == \"aurabar\" and \"bar\", nil, bOffset, bOffset)\n\n                    local bd = subRegion:GetBackdrop()\n                    bd.edgeSize = bSize\n                    subRegion:SetBackdrop(bd)\n                    subRegion:SetBorderColor(r, g, b, a)\n                end\n            elseif \"subtext\" == subRegion.type and cfgFont then\n                currentFont, currentSize, flags = subRegion.text:GetFont()\n\n                if currentFont ~= cfgFont or currentSize ~= cfgSize then\n                    subRegion.text:SetFont(cfgFont, cfgSize, flags)\n                end\n            end\n        end\n    end\nend\n\nlocal function UpdateIcon(region, key, selfPoint)\n    if not region then return end\n\n    local config = LWA.GetConfig()\n    local zoom = config.style.zoom / 100\n    local subCfg = config[key]\n\n    region:SetAnchor(selfPoint, region.relativeTo, region.relativePoint)\n\n    if region.SetZoom then\n        region:SetZoom(min(1, zoom + (region.extraZoom or 0)))\n    end\n\n    SetRegionSize(region, subCfg.width, subCfg.height)\n\n    UpdateSubRegions(region, subCfg, config.style.border_icons)\nend\n\nlocal function UpdateResource(region, index, nb, inCombat)\n    if not region then return end\n\n    index = max(1, index or 1)\n    nb = max(1, nb or 1)\n\n    if not inCombat then\n        local config, subCfg = LWA.GetConfig(), {}\n\n        local w, h = CORE_WIDTH, 20\n\n        if nb > 1 then\n            local s = CalcSpacing(config.core.spacing)\n\n            w = (w + s) / nb - s\n        end\n\n        local cg = region.configGroup\n\n        if cg and config.resources[cg] then\n            subCfg = config.resources[cg]\n            h = subCfg.height or 20\n        end\n\n        local lastW, lastH = region.width, region.height\n\n        SetRegionSize(region, w, h)\n\n        UpdateSubRegions(region, subCfg, config.style.border_resources)\n\n        if config.style.resource_texture then\n            region.textureSource = \"LSM\"\n            region:SetStatusBarTextureLSM(config.style.resource_texture)\n\n            if region.overlaysTexture then\n                for i, _ in ipairs(region.overlaysTexture) do\n                    region.overlaysTexture[i] = config.style.resource_texture\n                end\n            end\n        end\n\n        if lastW ~= w or lastH ~= h then\n            region.bar:Update()\n        end\n\n        if region.bar.spark then\n            region.bar.spark:SetHeight(max(15, Round(h * 2)))\n        end\n    end\n\n    this.UpdateBar({ region = region }, index, nb)\nend\n\nlocal throttledInitHandler, throttledInitLastRun = nil, 0\n\nfunction this.ThrottledInit()\n    if throttledInitHandler or this.isImporting then return end\n\n    local currentTime, delay = time(), 0.25\n\n    if throttledInitLastRun > currentTime - 0.5 then\n        delay = max(0.25, currentTime - throttledInitLastRun)\n    end\n\n    throttledInitHandler = C_Timer.NewTimer(delay, function()\n            WeakAuras.ScanEvents(\"LWA_INIT\")\n    end)\nend\n\nfunction this.Init()\n    if this.isImporting then return end\n\n    throttledInitLastRun = time()\n\n    local config = LWA.GetConfig(nil, true)\n    local isOptionsOpen = WeakAuras.IsOptionsOpen()\n    local zoom = config.style.zoom / 100\n\n    if throttledInitHandler then\n        throttledInitHandler:Cancel()\n        throttledInitHandler = nil\n    end\n\n    if not this.parentFrame then\n        this.parentFrame = WeakAuras.GetRegion(CLASS_GROUP)\n    end\n\n    if this.parentFrame and not this.parentFrame.SetRealScale then\n        this.parentFrame.SetRealScale = this.parentFrame.SetScale\n\n        this.parentFrame.SetScale = function(self, scale)\n            this.parentFrame:SetRealScale(scale)\n            local castBar = WeakAuras.GetRegion(CAST_BAR)\n\n            if castBar then\n                castBar:SetScale(scale)\n            end\n        end\n    end\n\n    if isOptionsOpen then\n        NB_CORE = config.core.nb_max\n    else\n        NB_CORE = max(4, config.core.nb_min, min(NB_CORE, config.core.nb_max))\n\n        local castBar = WeakAuras.GetRegion(CAST_BAR)\n\n        if castBar then\n            castBar:SetParent(UIParent)\n\n            if this.parentFrame then\n                castBar:SetScale(this.parentFrame:GetScale())\n            end\n        end\n    end\n\n    local spacing = CalcSpacing(config.core.spacing)\n\n    CORE_WIDTH = NB_CORE * (config.core.width + spacing) - spacing\n\n    local grpRegion = WeakAuras.GetRegion(CORE_GROUP)\n\n    if grpRegion then\n        grpRegion:PositionChildren()\n\n        if not isOptionsOpen then\n            NB_CORE = max(4, config.core.nb_min, min(#grpRegion.sortedChildren, config.core.nb_max))\n\n            CORE_WIDTH = NB_CORE * (config.core.width + spacing) - spacing\n        end\n\n        this.region:SetRegionWidth(CORE_WIDTH)\n    end\n\n    this.UpdateResources()\n\n    for _, g in ipairs({ DYNAMIC_EFFECTS_GROUP, LEFT_SIDE_GROUP, RIGHT_SIDE_GROUP }) do\n        g = WeakAuras.GetRegion(g)\n\n        if g then\n            g:PositionChildren()\n        end\n    end\nend\n\nhooksecurefunc(\"SetUIVisibility\", function(isVisible)\n        if isVisible and this and this.ThrottledInit then\n            this.ThrottledInit()\n        end\nend)\n\nfunction this.UpdateResources()\n    if this.isImporting then return end\n\n    local grpRegion = WeakAuras.GetRegion(RESOURCES_GROUP)\n\n    if not this.resources then\n        local grpData = WeakAuras.GetData(RESOURCES_GROUP)\n\n        this.resources = grpData and grpData.controlledChildren\n    end\n\n    if grpRegion and this.resources and #this.resources > 0 then\n        local config = LWA.GetConfig()\n\n        local totalHeight, nb = 0, 0\n        local h1 = config.core.height\n        local s1 = CalcSpacing(config.core.spacing)\n        local m1 = config.core.margin\n        local y = 0\n\n        if config.core.resources_position == 2 then -- Below\n            y = max(CORE_HEIGHT, h1) + s1 + m1\n        end\n\n        grpRegion:SetOffset(0, -y)\n\n        local isOptionsOpen = WeakAuras.IsOptionsOpen()\n        local resRegion, isVisible, regionType\n        local w, h, cg = 0, 0\n\n        y = 0\n\n        for _, resId in ipairs(this.resources) do\n            resRegion = WeakAuras.GetRegion(resId)\n\n            if resRegion then\n                isVisible = isOptionsOpen\n                regionType = resRegion.regionType\n                h = 0\n\n                if \"aurabar\" == regionType then\n                    isVisible = isVisible or resRegion:IsVisible()\n                    UpdateResource(resRegion)\n\n                    h = resRegion.height\n\n                elseif \"dynamicgroup\" == regionType then\n                    local nbChild = 0\n                    local childRegions = {}\n\n                    for _, region in pairs(resRegion.controlledChildren) do\n                        if region and region[\"\"] then\n                            nbChild = nbChild + 1\n\n                            childRegions[region[\"\"].regionData.dataIndex] = region[\"\"].regionData.region\n\n                            isVisible = isVisible or region[\"\"].regionData.region:IsVisible()\n                        end\n                    end\n\n                    resRegion.childYOffset = -y\n                    h = 0\n\n                    for i, region in ipairs(childRegions) do\n                        UpdateResource(region, i, nbChild)\n\n                        h = max(h, region.height)\n\n                        region:SetYOffset(-y)\n                    end\n\n                    if h <= 0 then\n                        h = 20\n                    end\n                end\n\n                if isVisible then\n                    nb = nb + 1\n\n                    if \"dynamicgroup\" == regionType then\n                        resRegion:PositionChildren()\n                    else\n                        resRegion:SetOffset(0, -y)\n                    end\n\n                    totalHeight = totalHeight + h\n                    y = y + h + s1\n                end\n            end\n        end\n\n        RESOURCES_HEIGHT = totalHeight + max(nb - 1, 0) * CalcSpacing(config.core.spacing)\n    end\n\n    UpdateAnchorFrame()\nend\n\nfunction this.UpdateBar(aura, i, nb)\n    local config = LWA.GetConfig(\"resources\")\n    local e = aura or aura_env\n    local region = e and e.region\n    local cg = region and region.configGroup\n\n    if not (region and region:IsVisible() and cg and config[cg]) then return end\n\n    local cs = region.colorState or \"\"\n\n    if cs ~= \"\" then\n        cs = cs .. \"_\"\n    end\n\n    cg = config[cg]\n\n    local c1, c2 = cg[cs .. \"color1\"], cg[cs .. \"color2\"]\n\n    if c1 and c2 then\n        nb = max(1, min(region.indexMax or 99, nb or 1))\n        i = min(nb, max(1, region.index or i or 1)) - (region.indexOffset or 0)\n\n        local bar = region.bar\n\n        if cg[cs .. \"gradient\"] and cg[cs .. \"gradient\"] < 3 then\n            if nb > 1 and 1 == cg[cs .. \"gradient\"] then\n                local function MixRGB(c1, c2, pos)\n                    pos = 1 - (pos or 0.5)\n\n                    return {\n                        (c1[1] * pos) + (c2[1] * (1 - pos)),\n                        (c1[2] * pos) + (c2[2] * (1 - pos)),\n                        (c1[3] * pos) + (c2[3] * (1 - pos)),\n                        (c1[4] * pos) + (c2[4] * (1 - pos))\n                    }\n                end\n\n                local cc1, cc2 = c1, c2\n\n                if i > 1 then\n                    c1 = MixRGB(cc1, cc2, (i - 1) / nb)\n                end\n\n                c2 = MixRGB(cc1, cc2, i / nb)\n            end\n\n            local orientation = \"HORIZONTAL\"\n\n            if 2 == cg[cs .. \"gradient\"] then\n                orientation = \"VERTICAL\"\n\n                local tmp = c1\n                c1 = c2\n                c2 = tmp\n            end\n\n            region.enableGradient = true\n            region.gradientOrientation = orientation\n            region.barColor2 = c2\n            region:Color(unpack(c1))\n        else\n            region.enableGradient = false\n            region:Color(unpack(c1))\n        end\n\n        if region.ot then\n            region.ot:SetColorTexture(unpack(c2))\n        end\n    end\nend\n\nfunction LWA.GrowCore(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local h1 = config.core.height\n    local s1 = CalcSpacing(config.core.spacing)\n    local w2 = config.core.width2\n    local h2 = config.core.height2\n    local s2 = CalcSpacing(config.core.spacing2)\n    local m1 = config.core.margin\n\n    local maxCore = min(nb, config.core.nb_max)\n    local maxOverflow = nb - maxCore\n    local x, y\n    local xOffset = ((maxCore - 1) * (w1 + s1) / 2)\n    local yOffset = h1\n    local nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    local coreHeight = h1 + (ceil(maxOverflow / nbPerRow) * (h2 + s2))\n    local oldWidth, oldHeight = CORE_WIDTH, CORE_HEIGHT\n\n    if maxOverflow > 0 then\n        coreHeight = coreHeight + max(s1, s2) - s2\n    end\n\n    CORE_HEIGHT = coreHeight\n\n    if not WeakAuras.IsOptionsOpen() then\n        NB_CORE = max(4, config.core.nb_min, maxCore)\n\n        CORE_WIDTH = NB_CORE * (w1 + s1) - s1\n    end\n\n    UpdateAnchorFrame(true)\n\n    if oldWidth ~= CORE_WIDTH or oldHeight ~= CORE_HEIGHT then\n        this.UpdateResources()\n    end\n\n    if config.core.resources_position == 1 then  -- Above\n        yOffset = h1 + RESOURCES_HEIGHT + s1 + m1\n    end\n\n    if config.core.overflow_position == 1 then  -- Above\n        yOffset = yOffset + coreHeight - h1\n    end\n\n    for i, regionData in ipairs(activeRegions) do\n        x = (i - 1) * (w1 + s1) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"core\", \"BOTTOM\")\n\n        newPositions[i] = { x, y }\n\n        if i == maxCore then break end\n    end\n\n    if maxOverflow > 0 then\n        local i2, m, anchor, yMult\n\n        xOffset = ((maxCore - 1) * (w2 + s2) / 2)\n        yOffset = h1\n\n        if config.core.overflow_position == 1 then -- Above\n            yOffset = yOffset - h2 + max(s1, s2) - s2 - coreHeight\n            yMult = 1\n            anchor = \"BOTTOM\"\n\n            if config.core.resources_position == 1 then  -- Above\n                yOffset = yOffset - RESOURCES_HEIGHT - s1 - m1\n            end\n        else\n            if config.core.resources_position == 1 then  -- Above\n                yOffset = yOffset + RESOURCES_HEIGHT + s1 + m1\n            end\n\n            yOffset = yOffset - h2\n            yMult = -1\n            anchor = \"TOP\"\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            if i > maxCore then\n                i2 = i - maxCore\n                m = (i2 % nbPerRow)\n\n                if m == 1 then\n                    xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n                    yOffset = yOffset + h2 + s2\n                end\n\n                if m == 0 then\n                    m = nbPerRow\n                end\n\n                x = (m - 1) * (w2 + s2) - xOffset\n                y = yOffset * yMult\n\n                UpdateIcon(regionData.region, \"core2\", anchor)\n\n                newPositions[i] = { x, y }\n            end\n        end\n    end\nend\n\nfunction LWA.GrowDynamicEffects(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local maxCore = min(nb, NB_CORE)\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.top.width\n    local h2 = config.top.height\n    local s2 = CalcSpacing(config.top.spacing)\n\n    local xOffset = (maxCore - 1) * (w1 + s1) / 2\n    local yOffset = config.top.margin + max(s1, s2) - s2 - h2\n    local x, y, m\n\n    local nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = yOffset\n\n        UpdateIcon(regionData.region, \"top\", \"BOTTOM\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowSide(newPositions, activeRegions, xMult)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w = config.side.width\n    local h = config.side.height\n    local s2 = CalcSpacing(config.side.spacing)\n    local s1 = CalcSpacing(config.core.spacing)\n    local h1 = config.core.height\n    local m1 = config.core.margin\n\n    local baseX, baseY = config.side.margin + max(s1, s2), 0\n    local xOffset, yOffset, yMult = 0, 0, 1\n    local nbPerRC, m = min(config.side.nb, nb)\n    local grow = config.side.grow_direction\n    local anchor\n\n    if config.core.resources_position == 2 and config.core.overflow_position == 2 then -- Below\n        if grow == 2 or grow == 4 then -- Upward\n            baseY = baseY - config.top.margin\n        end\n    else\n        if config.core.resources_position == 1 then -- Above\n            baseY = baseY + RESOURCES_HEIGHT + s1 + m1\n        end\n\n        if config.core.overflow_position == 1 then -- Above\n            baseY = baseY + max(CORE_HEIGHT, h1) - h1\n        end\n    end\n\n    xMult = xMult or 1\n\n    if xMult < 0 then\n        anchor = \"TOPRIGHT\"\n    else\n        anchor = \"TOPLEFT\"\n    end\n\n    if grow == 3 or grow == 4 then -- Horizontal\n        if grow == 4 then -- Upward\n            yOffset = -baseY\n            yMult = -1\n        else\n            yOffset = baseY - h - s2\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            m = (i % nbPerRC)\n\n            if m == 1 or (nbPerRC == 1 and i == 1) then\n                xOffset = baseX\n                yOffset = yOffset + h + s2\n            end\n\n            UpdateIcon(regionData.region, \"side\", anchor)\n\n            newPositions[i] = { xOffset * xMult, -yOffset * yMult }\n\n            xOffset = xOffset + w + s2\n        end\n    else\n        xOffset = baseX - w - s2\n\n        if grow == 2 then -- Upward\n            baseY = -baseY + h + s2\n            yOffset = baseY\n            yMult = -1\n        else\n            yOffset = -h - s2\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            m = (i % nbPerRC)\n\n            if m == 1 or (nbPerRC == 1 and i == 1) then\n                xOffset = xOffset + w + s2\n                yOffset = baseY\n            end\n\n            UpdateIcon(regionData.region, \"side\", anchor)\n\n            newPositions[i] = { xOffset * xMult, -yOffset * yMult }\n\n            yOffset = yOffset + h + s2\n        end\n    end\nend\n\nfunction LWA.GrowUtilities(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.utility.width\n    local h2 = config.utility.height\n    local s2 = CalcSpacing(config.utility.spacing)\n\n    local maxCore, nbPerRow\n\n    if config.utility.limit_icons then\n        nbPerRow = config.utility.nb_max\n        maxCore = min(nb, nbPerRow)\n    else\n        maxCore = min(nb, NB_CORE)\n        nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    end\n\n    local xOffset = (maxCore - 1) * (w2 + s2) / 2\n    local yOffset = config.utility.margin + max(s1, s2) - s2 - h2\n    local x, y, m\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"utility\", \"TOP\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowMaintenance(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.maintenance.width\n    local h2 = config.maintenance.height\n    local s2 = CalcSpacing(config.maintenance.spacing)\n\n    local maxCore, nbPerRow\n\n    if config.maintenance.limit_icons then\n        nbPerRow = config.maintenance.nb_max\n        maxCore = min(nb, nbPerRow)\n    else\n        maxCore = min(nb, NB_CORE)\n        nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    end\n\n    local xOffset = (maxCore - 1) * (w2 + s2) / 2\n    local yOffset = config.maintenance.margin + config.utility.margin + max(CalcSpacing(config.utility.spacing), s2) - s2 - h2\n    local x, y, m\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"maintenance\", \"TOP\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowDynamicResource(newPositions, activeRegions, inCombat)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local s = CalcSpacing(config.core.spacing)\n    local w = (CORE_WIDTH + s) / nb\n    local xOffset, x = (CORE_WIDTH - w + s) / 2\n    local childYOffset = aura_env.region.childYOffset or 0\n\n    for i, regionData in ipairs(activeRegions) do\n        x = (i - 1) * w - xOffset\n\n        if not this.isImporting then\n            UpdateResource(regionData.region, i, nb, inCombat)\n            regionData.region:SetYOffset(childYOffset)\n        end\n\n        newPositions[i] = { x, 0 }\n    end\nend\n\nlocal function round(num, decimals)\n    local mult = 10^(decimals or 0)\n\n    return Round((num or 0) * mult) / mult\nend\n\nlocal barFormats = {\n    \"value\",\n    \"kvalue\",\n    \"value (percent)\",\n    \"kvalue (percent)\",\n    \"percent\",\n}\n\nfunction LWA.UpdateBarText(value, percent, format)\n    local text = barFormats[format] or \"value\"\n    value = value or 0\n    percent = percent or 0\n\n    text = text:gsub(\"percent\", round(percent, 0))\n\n    if 2 == format or 4 == format then\n        local rem = fmod(value, 1000) or 0\n\n        if rem >= 950 or value >= 1000000 then\n            rem = 0\n        end\n\n        text = text:gsub(\"kvalue\", FormatLargeNumber(Round((value - rem) / 1000)) .. \".\" .. Round(rem / 100) .. \" K\"):gsub(\"%.0 K\", \" K\"):gsub(\"%.\", DECIMAL_SEPERATOR)\n    else\n        text = text:gsub(\"value\", value)\n    end\n\n    return text\nend\n",
+["do_custom"] = true,
+},
+},
+["displayIcon"] = 134520,
+["cooldown"] = false,
+["desc"] = "Made by Luxthos - twitch.tv/luxthos",
 },
 ["Resources - LWA - Warrior"] = {
 ["controlledChildren"] = {
@@ -67495,18 +67351,26 @@ true,
 ["useAdjustededMax"] = false,
 ["source"] = "import",
 ["zoom"] = 0.3,
-["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
-["color"] = {
-1,
-1,
-1,
-1,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["information"] = {
-["forceEvents"] = true,
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -67515,9 +67379,23 @@ true,
 ["init"] = {
 },
 },
+["information"] = {
+["forceEvents"] = true,
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["progressSource"] = {
+-1,
+"",
+},
 ["authorOptions"] = {
 },
-["preferToUpdate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["config"] = {
 },
 ["anchorFrameParent"] = false,
@@ -67530,13 +67408,10 @@ true,
 ["useCooldownModRate"] = true,
 ["frameStrata"] = 1,
 ["width"] = 48,
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Warrior",
 ["uid"] = "sqxTH66JuJV",
 ["inverse"] = true,
-["parent"] = "Core - LWA - Warrior",
+["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
 ["conditions"] = {
 {
 ["check"] = {
@@ -67609,39 +67484,15 @@ true,
 },
 },
 ["cooldown"] = true,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["preferToUpdate"] = false,
 },
 ["DKT_17_亡者"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["config"] = {
 },
 ["width"] = 10,
+["xOffset"] = 170,
 ["parent"] = "DKT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -67651,7 +67502,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 170,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -67754,13 +67610,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 46585\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 46585\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -67991,14 +67847,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -68067,27 +67925,20 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-},
-["XDK_17_亡者大军"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["parent"] = "XDK",
-["width"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+},
+["XDK_17_亡者大军"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["parent"] = "XDK",
+["width"] = 10,
 ["authorOptions"] = {
 },
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -68097,7 +67948,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 170,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -68267,9 +68123,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 140,
 ["parent"] = "DKT",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -68300,7 +68155,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 140,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -68406,13 +68262,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 50842\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 50842\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -68506,8 +68362,9 @@ true,
 1,
 },
 ["width"] = 10,
-["parent"] = "ZQS",
 ["xOffset"] = 10,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -68538,8 +68395,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
-},
+["parent"] = "ZQS",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -68710,14 +68566,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "CJQ",
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["xOffset"] = 40,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -68748,7 +68599,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["xOffset"] = 40,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -68963,8 +68819,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "XT",
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 50,
 ["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -68975,12 +68836,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 50,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -69508,14 +69364,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -69584,26 +69442,20 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-},
-["CAT_7_怒"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["xOffset"] = 70,
-["width"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+},
+["CAT_7_怒"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 70,
+["width"] = 10,
 ["parent"] = "CAT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -69633,7 +69485,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -69732,13 +69588,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 5217\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 5217\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -69797,9 +69653,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["xOffset"] = 80,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -69830,12 +69691,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 80,
 ["parent"] = "MK",
 ["actions"] = {
 ["start"] = {
@@ -69993,14 +69849,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 80,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -70031,7 +69882,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XDK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -70185,8 +70041,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 170,
 ["parent"] = "KBZ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -70217,8 +70074,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 170,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -70367,13 +70223,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 130,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "FZT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -70383,7 +70235,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -70555,9 +70411,9 @@ true,
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 120,
 ["authorOptions"] = {
 },
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -70567,7 +70423,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 120,
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -70654,13 +70510,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 152175\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 152175\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -70754,9 +70610,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["parent"] = "CSZ",
 ["authorOptions"] = {
 },
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -70787,7 +70643,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -70937,13 +70793,9 @@ true,
 ["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "KTZ",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -70953,7 +70805,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 30,
 ["actions"] = {
@@ -71236,7 +71092,7 @@ true,
 ["regionType"] = "group",
 ["borderSize"] = 2,
 ["anchorFrameParent"] = false,
-["uid"] = "ghphQzlApG0",
+["borderInset"] = 1,
 ["borderOffset"] = 4,
 ["semver"] = "11.0.19",
 ["tocversion"] = 110005,
@@ -71246,9 +71102,9 @@ true,
 ["anchorFrameType"] = "SCREEN",
 ["authorOptions"] = {
 },
+["uid"] = "ghphQzlApG0",
 ["config"] = {
 },
-["borderInset"] = 1,
 ["frameStrata"] = 2,
 ["conditions"] = {
 },
@@ -71399,11 +71255,8 @@ true,
 ["anchorFrameFrame"] = "WeakAuras:General Options - LWA - Monk",
 ["hybridPosition"] = "hybridFirst",
 ["limit"] = 5,
-["config"] = {
-},
-["gridType"] = "RD",
+["xOffset"] = -6.103515625e-05,
 ["borderSize"] = 2,
-["anchorFrameParent"] = false,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -71424,6 +71277,9 @@ true,
 ["easeType"] = "none",
 },
 },
+["anchorFrameParent"] = false,
+["config"] = {
+},
 ["stepAngle"] = 15,
 ["rowSpace"] = 1,
 ["semver"] = "11.0.19",
@@ -71441,7 +71297,7 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["xOffset"] = -6.103515625e-05,
+["gridType"] = "RD",
 },
 ["XDK_12_黑暗突变"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -71452,8 +71308,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 120,
 ["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -71484,8 +71341,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 120,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -71634,13 +71490,12 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 150,
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -71672,7 +71527,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 150,
+["authorOptions"] = {
+},
 ["parent"] = "FQ",
 ["actions"] = {
 ["start"] = {
@@ -71803,13 +71659,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 24275\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 24275\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -71868,14 +71724,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "XDK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -71885,7 +71740,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XDK",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -72065,9 +71921,9 @@ true,
 ["config"] = {
 },
 ["width"] = 10,
+["parent"] = "XT",
 ["authorOptions"] = {
 },
-["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -72077,7 +71933,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "XT",
+["xOffset"] = 170,
 ["color"] = {
 1,
 1,
@@ -72180,13 +72036,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 213771\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 213771\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -72265,8 +72121,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "NN7ZJsYxnap",
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["parent"] = "KTZ",
-["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -72296,8 +72153,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 130,
 ["color"] = {
 1,
 1,
@@ -72456,9 +72312,8 @@ true,
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["parent"] = "FZT",
+["xOffset"] = 50,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -72468,7 +72323,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 50,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -72734,8 +72590,9 @@ true,
 1,
 },
 ["width"] = 10,
-["xOffset"] = 40,
 ["parent"] = "CAT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -72745,8 +72602,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 40,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -73007,9 +72863,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "MgcU5sppvFE",
 ["width"] = 10,
-["parent"] = "KTZ",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "KTZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -73040,11 +72900,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 150,
 ["actions"] = {
@@ -73195,13 +73051,9 @@ true,
 ["config"] = {
 },
 ["width"] = 10,
-["parent"] = "DKT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "DKT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -73211,7 +73063,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 90,
 ["actions"] = {
@@ -73314,13 +73170,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194844\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194844\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -73433,9 +73289,8 @@ true,
 1,
 },
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["parent"] = "CJQ",
+["xOffset"] = 170,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -73466,7 +73321,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 170,
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -73615,9 +73471,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["width"] = 10,
-["parent"] = "FQ",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -73648,11 +73508,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 50,
 ["actions"] = {
@@ -73817,8 +73673,9 @@ true,
 1,
 },
 ["width"] = 10,
-["xOffset"] = 120,
 ["parent"] = "CJQ",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -73849,8 +73706,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 120,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -74137,17 +73993,29 @@ true,
 },
 ["useAdjustededMax"] = false,
 ["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["preferToUpdate"] = false,
-["parent"] = "Core - LWA - Monk",
+["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["cooldown"] = true,
 ["useAdjustededMin"] = false,
 ["regionType"] = "icon",
+["preferToUpdate"] = false,
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -74168,15 +74036,6 @@ true,
 ["easeType"] = "none",
 },
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["uid"] = "1ex0oxWu6s(",
 ["anchorFrameParent"] = false,
 ["width"] = 48,
@@ -74280,10 +74139,7 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Monk",
 },
 ["CJQ_16_复仇之怒"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -74294,9 +74150,8 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["xOffset"] = 160,
+["parent"] = "CJQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -74306,7 +74161,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CJQ",
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -74599,14 +74455,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -74675,13 +74533,11 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["WQZ"] = {
@@ -74918,7 +74774,7 @@ true,
 ["regionType"] = "group",
 ["borderSize"] = 2,
 ["anchorFrameParent"] = false,
-["uid"] = "GQE)WzOXAMC",
+["borderInset"] = 1,
 ["borderOffset"] = 4,
 ["semver"] = "11.0.15",
 ["tocversion"] = 110002,
@@ -74928,9 +74784,9 @@ true,
 ["anchorFrameType"] = "SCREEN",
 ["authorOptions"] = {
 },
+["uid"] = "GQE)WzOXAMC",
 ["config"] = {
 },
-["borderInset"] = 1,
 ["frameStrata"] = 2,
 ["conditions"] = {
 },
@@ -74943,9 +74799,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 70,
 ["authorOptions"] = {
 },
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -74976,7 +74832,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -75080,13 +74936,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 100780\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 100780\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -75147,8 +75003,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 40,
 ["parent"] = "EMS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -75179,8 +75036,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["xOffset"] = 40,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -75371,9 +75227,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["desaturate"] = false,
+["xOffset"] = 110,
 ["parent"] = "DKT",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -75404,7 +75259,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 110,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -75510,13 +75366,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195292\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195292\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -75725,14 +75581,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -75802,26 +75660,20 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-},
-["KBZ_15_龙吼/矛"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["parent"] = "KBZ",
-["width"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+},
+["KBZ_15_龙吼/矛"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["parent"] = "KBZ",
+["width"] = 10,
 ["xOffset"] = 150,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -75831,7 +75683,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -76007,9 +75863,8 @@ true,
 1,
 },
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "FZT",
+["xOffset"] = 180,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -76019,7 +75874,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 180,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -76190,13 +76046,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -76227,7 +76083,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 20,
+["parent"] = "KBZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -76398,9 +76254,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 80,
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "CAT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -76410,11 +76270,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -76515,13 +76371,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1079\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1079\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -76755,14 +76611,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -76815,26 +76673,19 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-},
-["JX_10_错骨"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["width"] = 10,
-["parent"] = "JX",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+},
+["JX_10_错骨"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["width"] = 10,
+["xOffset"] = 100,
+["parent"] = "JX",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -76865,7 +76716,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 100,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -77023,9 +76879,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 110,
 ["authorOptions"] = {
 },
+["parent"] = "CJQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -77035,7 +76891,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "CJQ",
+["xOffset"] = 110,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -77244,13 +77100,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "A7BmzdtmGSF",
 ["width"] = 10,
+["parent"] = "KTZ",
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -77281,7 +77132,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KTZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 40,
 ["actions"] = {
 ["start"] = {
@@ -77430,9 +77286,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["xOffset"] = 20,
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["xOffset"] = 20,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -77463,11 +77323,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["parent"] = "MK",
 ["actions"] = {
@@ -77645,8 +77501,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 20,
-["parent"] = "CSZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -77656,12 +77517,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "CSZ",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -77842,13 +77698,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "nyur2PM8Sps",
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 60,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -77858,8 +77715,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 60,
 ["parent"] = "TF",
 ["actions"] = {
 ["start"] = {
@@ -78050,13 +77906,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["desaturate"] = false,
-["parent"] = "EMS",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["parent"] = "EMS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -78066,7 +77918,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["xOffset"] = 170,
 ["actions"] = {
@@ -78224,8 +78080,9 @@ true,
 ["config"] = {
 },
 ["width"] = 10,
+["authorOptions"] = {
+},
 ["parent"] = "FQ",
-["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -78235,8 +78092,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 90,
 ["color"] = {
 1,
 1,
@@ -78358,13 +78214,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 26573\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 26573\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -78374,14 +78230,14 @@ true,
 ["trigger"] = {
 ["unit"] = "player",
 ["type"] = "aura2",
+["useExactSpellId"] = false,
 ["auraspellids"] = {
-},
-["auranames"] = {
-"奉献",
 },
 ["useName"] = true,
 ["matchesShowOn"] = "showOnMissing",
-["useExactSpellId"] = false,
+["auranames"] = {
+"奉献",
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -78493,14 +78349,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 130,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -78531,7 +78382,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "XT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -78662,13 +78518,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 33917\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 33917\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -78727,9 +78583,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "R0H4bknKYMY",
 ["width"] = 10,
+["xOffset"] = 70,
 ["parent"] = "KTZ",
-["authorOptions"] = {
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -78759,7 +78614,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 70,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
@@ -78913,13 +78769,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 80,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "EMS",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -78929,7 +78781,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -79100,73 +78956,56 @@ true,
 },
 ["width"] = 10,
 },
-["ZS_10_猛擊"] = {
+["XT_14_驱散"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["xOffset"] = 100,
-["desaturate"] = false,
-["parent"] = "ZS",
+["uid"] = "ViAY8Hc1(II",
+["anchorFrameType"] = "SCREEN",
+["xOffset"] = 140,
 ["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
-["regionType"] = "texture",
-["load"] = {
-["use_never"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["size"] = {
-["multi"] = {
-},
-},
+["anchorPoint"] = "TOPLEFT",
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
 },
 ["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
+["regionType"] = "texture",
+["parent"] = "XT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
+["use_namerealm"] = false,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["names"] = {
-},
+["use_unit"] = true,
+["unit"] = "target",
 ["hostility"] = "hostile",
 ["spellIds"] = {
 },
-["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
+["names"] = {
+},
 ["use_hostility"] = true,
+["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -79186,7 +79025,6 @@ true,
 "0",
 },
 ["use_health"] = true,
-["use_percenthealth"] = false,
 ["use_unit"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -79202,7 +79040,7 @@ true,
 ["unit"] = "target",
 ["use_range"] = true,
 ["use_unit"] = true,
-["range"] = "5",
+["range"] = "15",
 ["range_operator"] = "<=",
 ["debuffType"] = "HELPFUL",
 },
@@ -79213,16 +79051,18 @@ true,
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
+["debuffType"] = "HELPFUL",
+["use_inverse"] = true,
 ["event"] = "Cast",
 ["unit"] = "player",
+["realSpellName"] = 0,
 ["use_spellName"] = true,
-["use_inverse"] = true,
+["use_absorbMode"] = true,
+["use_genericShowOn"] = true,
 ["genericShowOn"] = "showOnCooldown",
 ["use_unit"] = true,
-["use_genericShowOn"] = true,
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 0,
 },
 ["untrigger"] = {
 },
@@ -79234,46 +79074,70 @@ true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 2782,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 1464,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
+{
+["trigger"] = {
+["type"] = "aura2",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "player",
+["debuffType"] = "HARMFUL",
+["use_unit"] = true,
+["use_debuffClass"] = true,
+["remOperator"] = ">=",
+["rem"] = "1",
+["debuffClass"] = {
+["curse"] = true,
+["poison"] = true,
+},
+["useRem"] = false,
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "custom",
+["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and t[4] and t[5] and t[6]\nend",
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["internalVersion"] = 78,
-["config"] = {
+["conditions"] = {
 },
+["internalVersion"] = 78,
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["selfPoint"] = "BOTTOMLEFT",
-["id"] = "ZS_10_猛擊",
+["id"] = "XT_14_驱散",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
 ["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 ["rotation"] = 0,
-["uid"] = "1MXJYs7fEm4",
+["config"] = {
+},
 ["alpha"] = 1,
 ["subRegions"] = {
 {
@@ -79281,9 +79145,31 @@ true,
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_never"] = false,
+["talent"] = {
+["multi"] = {
 },
-["information"] = {
+},
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["use_combat"] = true,
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 104,
+},
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["width"] = 10,
 },
@@ -79474,14 +79360,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -79608,13 +79496,11 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["EMS"] = {
@@ -79747,13 +79633,8 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["xOffset"] = 40,
 ["parent"] = "MK",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -79784,7 +79665,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["xOffset"] = 40,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -79956,53 +79842,22 @@ true,
 },
 ["width"] = 10,
 },
-["CAT_11_痛击"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["authorOptions"] = {
-},
-["width"] = 10,
-["xOffset"] = 110,
-["parent"] = "CAT",
-["mirror"] = false,
+["Celestial Conduit (Mistweaver)"] = {
+["iconSource"] = -1,
+["wagoID"] = "r1MFNt9rm",
+["xOffset"] = 0,
+["adjustedMax"] = "",
+["adjustedMin"] = "",
 ["yOffset"] = 0,
-["regionType"] = "texture",
-["load"] = {
-["use_never"] = false,
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 103,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["rotate"] = false,
+["anchorPoint"] = "CENTER",
+["cooldownSwipe"] = true,
+["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
 ["actions"] = {
 ["start"] = {
 },
 ["init"] = {
+["custom"] = "",
+["do_custom"] = false,
 },
 ["finish"] = {
 },
@@ -80010,110 +79865,64 @@ true,
 ["triggers"] = {
 {
 ["trigger"] = {
-["use_namerealm"] = false,
-["type"] = "unit",
-["use_absorbHealMode"] = true,
+["type"] = "spell",
 ["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["use_unit"] = true,
-["unit"] = "target",
-["hostility"] = "hostile",
-["spellIds"] = {
-},
-["use_hostility"] = true,
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
-["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["health_operator"] = {
-">",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["health"] = {
-"0",
-},
-["use_health"] = true,
-["use_unit"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["spellName"] = 0,
-["use_inverse"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-["realSpellName"] = 0,
-["use_spellName"] = true,
-["use_absorbMode"] = true,
-["use_unit"] = true,
-["genericShowOn"] = "showOnCooldown",
 ["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnReady",
+["unit"] = "player",
+["names"] = {
+},
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_exact_spellName"] = true,
+["event"] = "Cooldown Progress (Spell)",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 443591,
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
+["track"] = "auto",
+["duration"] = "1",
+["genericShowOn"] = "showAlways",
 ["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
+["use_showgcd"] = true,
 ["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
+["type"] = "spell",
+["unit"] = "player",
 ["subeventSuffix"] = "_CAST_START",
-["event"] = "Health",
+["use_genericShowOn"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cooldown Progress (Spell)",
+["use_exact_spellName"] = false,
+["realSpellName"] = "Invoke Xuen, the White Tiger",
+["use_spellName"] = true,
+["spellIds"] = {
+},
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["spellIds"] = {
-},
-["custom_type"] = "status",
-["check"] = "event",
-["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 106830\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["debuffType"] = "HELPFUL",
+["unevent"] = "auto",
+["use_track"] = true,
+["spellName"] = 443028,
 },
 ["untrigger"] = {
+["genericShowOn"] = "showOnCooldown",
 },
 },
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
+["disjunctive"] = "any",
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["internalVersion"] = 78,
-["frameStrata"] = 1,
+["progressSource"] = {
+-1,
+"",
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -80128,33 +79937,226 @@ true,
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
+["type"] = "preset",
 ["easeType"] = "none",
+["easeStrength"] = 3,
+["preset"] = "fade",
+["duration_type"] = "seconds",
 },
 },
-["id"] = "CAT_11_痛击",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["rotation"] = 0,
-["uid"] = "YysWXBli3uM",
-["config"] = {
-},
+["desaturate"] = false,
+["version"] = 96,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
+{
+["border_size"] = 2,
+["border_offset"] = 0,
+["border_color"] = {
+1,
+1,
+1,
+0,
 },
-["height"] = 10,
+["border_visible"] = true,
+["border_edge"] = "Square Full White",
+["type"] = "subborder",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "Proc",
+["glowThickness"] = 1,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["useGlowColor"] = false,
+["glowXOffset"] = 0,
+["glowLength"] = 10,
+["glow"] = false,
+["glowScale"] = 1,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 48,
+["load"] = {
+["use_petbattle"] = false,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["single"] = "MONK",
+["multi"] = {
+},
+},
+["spec"] = {
+["single"] = 3,
+["multi"] = {
+},
+},
+["use_herotalent"] = false,
+["use_class"] = true,
+["role"] = {
+["multi"] = {
+},
+},
+["use_spec"] = true,
+["herotalent"] = {
+["multi"] = {
+[125062] = true,
+},
+},
+["use_spellknown"] = false,
+["use_never"] = false,
+["use_class_and_spec"] = true,
+["itemtypeequipped"] = {
+},
+},
+["useAdjustededMax"] = false,
+["width"] = 48,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["keepAspectRatio"] = true,
+["cooldown"] = true,
+["displayIcon"] = "",
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["cooldownEdge"] = false,
+["preferToUpdate"] = false,
+["uid"] = "kyHbgXPG)gW",
+["authorOptions"] = {
+},
+["anchorFrameParent"] = false,
+["useCooldownModRate"] = true,
+["parent"] = "Core - LWA - Monk",
+["cooldownTextDisabled"] = false,
+["semver"] = "11.0.19",
+["tocversion"] = 110005,
+["id"] = "Celestial Conduit (Mistweaver)",
+["zoom"] = 0.3,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["config"] = {
+},
+["inverse"] = true,
+["selfPoint"] = "CENTER",
 ["conditions"] = {
+{
+["check"] = {
+["trigger"] = 2,
+["variable"] = "onCooldown",
+["value"] = 0,
+},
+["changes"] = {
+{
+["value"] = false,
+["property"] = "sub.3.glow",
+},
+{
+["value"] = "Proc",
+["property"] = "sub.3.glowType",
+},
+},
+},
+{
+["check"] = {
+["trigger"] = -1,
+["variable"] = "incombat",
+["value"] = 0,
+},
+["changes"] = {
+{
+["property"] = "sub.3.glow",
+},
+},
+},
+{
+["check"] = {
+["trigger"] = 2,
+["variable"] = "onCooldown",
+["value"] = 1,
+},
+["changes"] = {
+{
+["value"] = true,
+["property"] = "desaturate",
+},
+},
+},
+{
+["check"] = {
+["trigger"] = 2,
+["variable"] = "insufficientResources",
+["value"] = 1,
+["checks"] = {
+{
+["value"] = 1,
+["variable"] = "insufficientResources",
+},
+{
+["trigger"] = -1,
+["variable"] = "incombat",
+},
+},
+},
+["changes"] = {
+{
+["value"] = {
+0.47450983524323,
+0.5137255191803,
+1,
+1,
+},
+["property"] = "color",
+},
+{
+["value"] = true,
+["property"] = "desaturate",
+},
+},
+},
+{
+["check"] = {
+["trigger"] = 1,
+["variable"] = "show",
+["value"] = 1,
+},
+["changes"] = {
+{
+["value"] = true,
+["property"] = "sub.3.glow",
+},
+{
+["value"] = "Proc",
+["property"] = "sub.3.glowType",
+},
+},
+},
 },
 ["information"] = {
 ["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
 },
-["desaturate"] = false,
+["icon"] = true,
 },
 ["FZT_15_挫志"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -80165,8 +80167,9 @@ true,
 1,
 },
 ["desaturate"] = false,
-["xOffset"] = 150,
 ["parent"] = "FZT",
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -80176,8 +80179,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["xOffset"] = 150,
 ["conditions"] = {
 },
 ["actions"] = {
@@ -80343,40 +80345,39 @@ true,
 },
 ["anchorFrameType"] = "SCREEN",
 },
-["CJQ_8_十字军打击"] = {
+["CSZ_13_切割"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["authorOptions"] = {
+},
+["width"] = 10,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["width"] = 10,
-["authorOptions"] = {
-},
-["xOffset"] = 80,
+["xOffset"] = 130,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
 ["load"] = {
+["class_and_spec"] = {
+["single"] = 259,
+},
+["spec"] = {
+["multi"] = {
+},
+},
 ["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
 ["use_class_and_spec"] = true,
+["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 70,
 },
 ["size"] = {
 ["multi"] = {
@@ -80385,7 +80386,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "CJQ",
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -80395,7 +80396,6 @@ true,
 ["finish"] = {
 },
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -80441,6 +80441,22 @@ true,
 },
 {
 ["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "15",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
 ["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
@@ -80455,24 +80471,8 @@ true,
 },
 {
 ["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
 ["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 35395\n    local skill_id_1 = 407480\n    local skill_id_2 = 406647\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 315496\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["debuffType"] = "HELPFUL",
@@ -80486,11 +80486,9 @@ true,
 ["customTriggerLogic"] = "",
 ["activeTriggerMode"] = -10,
 },
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["internalVersion"] = 78,
-["config"] = {
-},
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "CJQ_8_十字军打击",
+["alpha"] = 1,
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -80511,11 +80509,14 @@ true,
 ["easeType"] = "none",
 },
 },
-["alpha"] = 1,
+["id"] = "CSZ_13_切割",
+["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
-["uid"] = "tvtz6pCCI6J",
-["frameStrata"] = 1,
+["config"] = {
+},
+["uid"] = "7tUTX8BdgLH",
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -80534,14 +80535,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 30,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "WQZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -80572,7 +80568,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "WQZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -80732,13 +80733,13 @@ true,
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["parent"] = "KBZ",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 120,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -80748,7 +80749,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 120,
+["parent"] = "KBZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -81094,14 +81095,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -81234,13 +81237,11 @@ true,
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["CJQ_14_灰烬觉醒"] = {
@@ -81248,13 +81249,8 @@ true,
 ["authorOptions"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["parent"] = "CJQ",
+["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -81264,7 +81260,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 140,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -81571,18 +81572,26 @@ true,
 ["useAdjustededMax"] = false,
 ["source"] = "import",
 ["zoom"] = 0.3,
-["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
-["color"] = {
-1,
-1,
-1,
-1,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["information"] = {
-["forceEvents"] = true,
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["actions"] = {
 ["start"] = {
 },
@@ -81591,9 +81600,23 @@ true,
 ["init"] = {
 },
 },
+["information"] = {
+["forceEvents"] = true,
+},
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["progressSource"] = {
+-1,
+"",
+},
 ["authorOptions"] = {
 },
-["preferToUpdate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["config"] = {
 },
 ["anchorFrameParent"] = false,
@@ -81606,13 +81629,10 @@ true,
 ["useCooldownModRate"] = true,
 ["frameStrata"] = 1,
 ["width"] = 48,
-["progressSource"] = {
--1,
-"",
-},
+["parent"] = "Core - LWA - Warrior",
 ["uid"] = "nzVTyWnJ8bB",
 ["inverse"] = true,
-["parent"] = "Core - LWA - Warrior",
+["url"] = "https://wago.io/LuxthosWarriorWarWithin/107",
 ["conditions"] = {
 {
 ["check"] = {
@@ -81685,26 +81705,7 @@ true,
 },
 },
 ["cooldown"] = true,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["preferToUpdate"] = false,
 },
 ["CAT_16_挥砍"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
@@ -81715,9 +81716,8 @@ true,
 1,
 },
 ["desaturate"] = false,
-["authorOptions"] = {
-},
 ["parent"] = "CAT",
+["xOffset"] = 160,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -81727,7 +81727,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 160,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -81827,13 +81828,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 202028\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 202028\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -82100,14 +82101,18 @@ true,
 },
 ["alpha"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+["custom"] = "",
+["do_custom"] = false,
+},
+},
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
@@ -82261,15 +82266,11 @@ true,
 },
 ["displayIcon"] = 970854,
 ["cooldown"] = true,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-["custom"] = "",
-["do_custom"] = false,
-},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 },
 ["FZT"] = {
@@ -82400,8 +82401,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "QMCbFFjjMfg",
 ["desaturate"] = false,
+["authorOptions"] = {
+},
 ["xOffset"] = 20,
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -82411,8 +82413,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "TF",
 ["color"] = {
 1,
 1,
@@ -82614,13 +82615,8 @@ true,
 ["config"] = {
 },
 ["width"] = 10,
+["xOffset"] = 180,
 ["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -82631,7 +82627,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 180,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["parent"] = "FQ",
 ["actions"] = {
 ["start"] = {
@@ -82762,13 +82763,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 204019\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["spellIds"] = {
 },
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
 ["check"] = "event",
 ["custom_type"] = "status",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 204019\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -82970,14 +82971,16 @@ true,
 },
 ["frameStrata"] = 1,
 ["useAdjustededMax"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["source"] = "import",
 ["preferToUpdate"] = false,
+["source"] = "import",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
 ["cooldown"] = true,
 ["displayIcon"] = "",
 ["animation"] = {
@@ -83046,26 +83049,20 @@ true,
 ["information"] = {
 ["forceEvents"] = true,
 },
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-},
-["TKS_5_药"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["parent"] = "TKS",
-["anchorFrameType"] = "SCREEN",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+},
+["TKS_5_药"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["parent"] = "TKS",
+["anchorFrameType"] = "SCREEN",
 ["xOffset"] = 50,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -83096,7 +83093,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["rotate"] = false,
 ["actions"] = {
@@ -83283,13 +83284,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "KBZ",
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 10,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -83297,7 +83294,11 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["conditions"] = {
 },
@@ -83602,9 +83603,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "ZQS",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "ZQS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -83635,11 +83640,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 30,
 ["actions"] = {
@@ -83880,8 +83881,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["uid"] = "C6GuloJE8Wr",
 ["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["xOffset"] = 60,
-["parent"] = "MK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -83912,12 +83918,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "MK",
 ["authorOptions"] = {
 },
 ["actions"] = {
@@ -84124,8 +84125,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "CSZ",
 ["xOffset"] = 160,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -84135,8 +84137,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -84306,9 +84307,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["authorOptions"] = {
 },
-["parent"] = "TF",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -84339,12 +84345,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "TF",
 ["xOffset"] = 90,
 ["actions"] = {
 ["start"] = {
@@ -84425,13 +84426,13 @@ true,
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["spellIds"] = {
 },
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 107428\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
 ["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 107428\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -84487,13 +84488,14 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 200,
+["authorOptions"] = {
+},
 ["color"] = {
 0.2352941334247589,
 1,
 0.3333333432674408,
 1,
 },
-["parent"] = "JX_HuoXue",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -84501,8 +84503,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
-},
+["parent"] = "JX_HuoXue",
 ["xOffset"] = 0,
 ["actions"] = {
 ["start"] = {
@@ -84596,11 +84597,11 @@ true,
 ["height"] = 200,
 ["rotate"] = false,
 ["load"] = {
+["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
 ["class_and_spec"] = {
 ["single"] = 268,
 },
@@ -84608,12 +84609,12 @@ true,
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["use_class_and_spec"] = true,
+["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -84626,13 +84627,13 @@ true,
 ["authorOptions"] = {
 },
 ["desaturate"] = false,
-["xOffset"] = 80,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["parent"] = "TKS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -84663,7 +84664,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "TKS",
+["xOffset"] = 80,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -84821,9 +84822,9 @@ true,
 1,
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "ZS",
 ["authorOptions"] = {
 },
+["xOffset"] = 90,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -84831,7 +84832,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 90,
+["parent"] = "ZS",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -85015,9 +85016,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 60,
 ["width"] = 10,
-["authorOptions"] = {
-},
 ["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -85027,11 +85032,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -85203,13 +85204,8 @@ true,
 ["authorOptions"] = {
 },
 ["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["xOffset"] = 10,
+["parent"] = "XT",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -85240,7 +85236,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["parent"] = "XT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -85402,9 +85403,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["alpha"] = 1,
 ["width"] = 10,
-["parent"] = "EMS",
-["authorOptions"] = {
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["parent"] = "EMS",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -85412,11 +85417,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 ["xOffset"] = 20,
 ["actions"] = {
@@ -85610,14 +85611,14 @@ true,
 ["event"] = "GTFO",
 ["unit"] = "player",
 ["custom_hide"] = "custom",
+["custom"] = "function(event, ...)\n    local arg1, arg2 = ...\n    local this = aura_env\n    \n    if \"LWA_INIT\" == event and not arg1 then\n        this.Init()\n        \n    elseif \"LWA_UPDATE_BAR\" == event and arg1 then\n        this.UpdateBar(...)\n        \n    elseif \"LWA_UPDATE_RESOURCES\" == event then\n        this.UpdateResources()\n        \n    elseif \"PLAYER_ENTERING_WORLD\" == event then\n        if arg1 or arg2 then\n            this.ThrottledInit()\n            \n            C_Timer.After(2, function()\n                    WeakAuras.ScanEvents(\"LWA_INIT\", true)\n            end)\n        end\n    else\n        this.ThrottledInit()\n    end\n    \n    return true\nend",
 ["events"] = "OPTIONS LWA_OPTIONS LWA_INIT LWA_UPDATE_RESOURCES LWA_UPDATE_BAR PLAYER_ENTERING_WORLD LOADING_SCREEN_DISABLED PLAYER_SPECIALIZATION_CHANGED PLAYER_TALENT_UPDATE PLAYER_PVP_TALENT_UPDATE PLAYER_LEVEL_UP TRAIT_CONFIG_CREATED TRAIT_CONFIG_UPDATED UNIT_EXITED_VEHICLE:player UPDATE_VEHICLE_ACTIONBAR UPDATE_OVERRIDE_ACTIONBAR PLAYER_CONTROL_GAINED CINEMATIC_STOP STOP_MOVIE CLIENT_SCENE_CLOSED PET_BATTLE_CLOSE LWA_UPDATE_SHAPESHIFT_FORM UNIT_PET:player",
-["spellIds"] = {
-},
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
 ["custom_type"] = "event",
-["custom"] = "function(event, ...)\n    local arg1, arg2 = ...\n    local this = aura_env\n    \n    if \"LWA_INIT\" == event and not arg1 then\n        this.Init()\n        \n    elseif \"LWA_UPDATE_BAR\" == event and arg1 then\n        this.UpdateBar(...)\n        \n    elseif \"LWA_UPDATE_RESOURCES\" == event then\n        this.UpdateResources()\n        \n    elseif \"PLAYER_ENTERING_WORLD\" == event then\n        if arg1 or arg2 then\n            this.ThrottledInit()\n            \n            C_Timer.After(2, function()\n                    WeakAuras.ScanEvents(\"LWA_INIT\", true)\n            end)\n        end\n    else\n        this.ThrottledInit()\n    end\n    \n    return true\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -85630,14 +85631,14 @@ true,
 ["event"] = "GTFO",
 ["unit"] = "player",
 ["custom_hide"] = "custom",
+["custom"] = "function(event, ...)\n    if not aura_env.parentFrame then\n        aura_env.parentFrame = WeakAuras.GetRegion(aura_env.parent)\n    end\n    \n    local frame = aura_env.parentFrame\n    \n    if frame then\n        local arg1 = select(1, ...)\n        local cfg = aura_env.config.alpha\n        local alpha = cfg.global\n        local hasSpecialUI = false\n        \n        if \"CLIENT_SCENE_OPENED\" == event then\n            aura_env.currentScene = arg1\n            \n        elseif \"CLIENT_SCENE_CLOSED\" == event then\n            aura_env.currentScene = nil\n        end\n        \n        if aura_env.currentScene == 1 then\n            hasSpecialUI = true\n        end\n        \n        hasSpecialUI = hasSpecialUI or UnitHasVehicleUI(\"player\") or HasOverrideActionBar() or HasVehicleActionBar() or false\n        \n        if \"STATUS\" == event or WeakAuras.IsOptionsOpen() then\n            frame:SetAlpha(1)\n            \n        elseif \"BARBER_SHOP_OPEN\" == event or hasSpecialUI then\n            frame:SetAlpha(0)\n            \n        elseif \"LWA_ALPHA\" == event then\n            local class = UnitClassBase(\"player\")\n            local isMounted = IsMounted() or (\"DRUID\" == class and tContains({3, 4, 27, 29}, GetShapeshiftFormID()))\n            local isSkyriding = WeakAuras.IsRetail() and isMounted and select(2, C_PlayerInfo.GetGlidingInfo())\n            \n            if not UnitAffectingCombat(\"player\") then\n                alpha = min(alpha, cfg.ooc)\n            end\n            \n            if (isSkyriding or (isMounted and (not cfg.skyriding_only or (HasBonusActionBar() and (11 == GetBonusBarIndex() or (\"EVOKER\" == class and 7 == GetBonusBarIndex()))))))\n            then\n                alpha = min(alpha, cfg.mounted)\n            else\n                if UnitExists(\"target\") then\n                    local isEnemy = UnitCanAttack(\"player\", \"target\") or UnitIsEnemy(\"player\", \"target\")\n                    \n                    if (not isEnemy and cfg.ignore_friendly) or (isEnemy and cfg.ignore_enemy) then\n                        alpha = cfg.global\n                    end\n                end\n            end\n            \n            frame:SetAlpha(alpha / 100)\n        else\n            C_Timer.After(0.05, function()\n                    WeakAuras.ScanEvents(\"LWA_ALPHA\")\n            end)\n        end\n        \n        return true\n    end\nend",
 ["events"] = "OPTIONS LWA_INIT PLAYER_ENTERING_WORLD PLAYER_REGEN_ENABLED PLAYER_REGEN_DISABLED PLAYER_TARGET_CHANGED PLAYER_ALIVE PLAYER_DEAD PLAYER_UNGHOST BARBER_SHOP_OPEN BARBER_SHOP_CLOSE CLIENT_SCENE_OPENED CLIENT_SCENE_CLOSED PLAYER_MOUNT_DISPLAY_CHANGED LWA_UPDATE_SHAPESHIFT_FORM STATUS LWA_ALPHA UPDATE_VEHICLE_ACTIONBAR UPDATE_OVERRIDE_ACTIONBAR UPDATE_BONUS_ACTIONBAR",
-["spellIds"] = {
-},
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
 ["custom_type"] = "event",
-["custom"] = "function(event, ...)\n    if not aura_env.parentFrame then\n        aura_env.parentFrame = WeakAuras.GetRegion(aura_env.parent)\n    end\n    \n    local frame = aura_env.parentFrame\n    \n    if frame then\n        local arg1 = select(1, ...)\n        local cfg = aura_env.config.alpha\n        local alpha = cfg.global\n        local hasSpecialUI = false\n        \n        if \"CLIENT_SCENE_OPENED\" == event then\n            aura_env.currentScene = arg1\n            \n        elseif \"CLIENT_SCENE_CLOSED\" == event then\n            aura_env.currentScene = nil\n        end\n        \n        if aura_env.currentScene == 1 then\n            hasSpecialUI = true\n        end\n        \n        hasSpecialUI = hasSpecialUI or UnitHasVehicleUI(\"player\") or HasOverrideActionBar() or HasVehicleActionBar() or false\n        \n        if \"STATUS\" == event or WeakAuras.IsOptionsOpen() then\n            frame:SetAlpha(1)\n            \n        elseif \"BARBER_SHOP_OPEN\" == event or hasSpecialUI then\n            frame:SetAlpha(0)\n            \n        elseif \"LWA_ALPHA\" == event then\n            local class = UnitClassBase(\"player\")\n            local isMounted = IsMounted() or (\"DRUID\" == class and tContains({3, 4, 27, 29}, GetShapeshiftFormID()))\n            local isSkyriding = WeakAuras.IsRetail() and isMounted and select(2, C_PlayerInfo.GetGlidingInfo())\n            \n            if not UnitAffectingCombat(\"player\") then\n                alpha = min(alpha, cfg.ooc)\n            end\n            \n            if (isSkyriding or (isMounted and (not cfg.skyriding_only or (HasBonusActionBar() and (11 == GetBonusBarIndex() or (\"EVOKER\" == class and 7 == GetBonusBarIndex()))))))\n            then\n                alpha = min(alpha, cfg.mounted)\n            else\n                if UnitExists(\"target\") then\n                    local isEnemy = UnitCanAttack(\"player\", \"target\") or UnitIsEnemy(\"player\", \"target\")\n                    \n                    if (not isEnemy and cfg.ignore_friendly) or (isEnemy and cfg.ignore_enemy) then\n                        alpha = cfg.global\n                    end\n                end\n            end\n            \n            frame:SetAlpha(alpha / 100)\n        else\n            C_Timer.After(0.05, function()\n                    WeakAuras.ScanEvents(\"LWA_ALPHA\")\n            end)\n        end\n        \n        return true\n    end\nend",
+["spellIds"] = {
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -85739,188 +85740,11 @@ true,
 ["useAdjustededMax"] = false,
 ["width"] = 405,
 ["source"] = "import",
-["desc"] = "Made by Luxthos - twitch.tv/luxthos",
 ["color"] = {
 0,
 0,
 0,
 0,
-},
-["cooldown"] = false,
-["displayIcon"] = 134520,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-["custom"] = "local this = aura_env\nlocal suffix = this.id:gsub(\"General Options %- LWA %- \", \"\")\nlocal CLASS = suffix:gsub(\"[%s%d]+$\", \"\")\nthis.CLASS = CLASS\n\nlocal CLASS_GROUP = WeakAuras.GetData(this.id).parent\nlocal DYNAMIC_EFFECTS_GROUP = \"Dynamic Effects - LWA - \" .. suffix\nlocal CORE_GROUP = \"Core - LWA - \" .. suffix\nlocal LEFT_SIDE_GROUP = \"Left Side - LWA - \" .. suffix\nlocal RIGHT_SIDE_GROUP = \"Right Side - LWA - \" .. suffix\nlocal UTILITIES_GROUP = \"Utilities - LWA - \" .. suffix\nlocal MAINTENANCE_GROUP = \"Maintenance - LWA - \" .. suffix\nlocal RESOURCES_GROUP = \"Resources - LWA - \" .. suffix\nlocal CAST_BAR = \"Cast Bar - LWA - \" .. suffix\n\nlocal NB_CORE = 8\nlocal CORE_WIDTH = 405\nlocal CORE_HEIGHT = 48\nlocal RESOURCES_HEIGHT = 0\n\nLWA = LWA or {}\nLWA[CLASS] = LWA[CLASS] or {}\n\nlocal LWA = LWA[CLASS]\n\nlocal config = nil\nLWA.configs = LWA.configs or {}\nLWA.configs[\"general\"] = this.config\n\nthis.resources = nil\nthis.parentFrame = nil\n\n\nlocal WeakAuras, C_Timer, time, min, max, floor, ceil, fmod, Round, pairs, ipairs, type, unpack, tinsert, FormatLargeNumber, DECIMAL_SEPARATOR = WeakAuras, C_Timer, time, min, max, floor, ceil, math.fmod, Round, pairs, ipairs, type, unpack, tinsert, FormatLargeNumber, DECIMAL_SEPARATOR\nlocal SharedMedia = LibStub(\"LibSharedMedia-3.0\")\n\n\nif WeakAuras.IsImporting() then\n    local function CheckImport()\n        if WeakAuras.IsImporting() or not this.isImporting then return end\n\n        this.isImporting:Cancel()\n        this.isImporting = false\n\n        C_Timer.After(1, function()\n                WeakAuras.ScanEvents(\"LWA_INIT\", true)\n        end)\n    end\n\n    this.isImporting = C_Timer.NewTicker(0.5, CheckImport)\nelse\n    this.isImporting = false\nend\n\nlocal function tclone(t1)\n    local t = {}\n\n    if t1 then\n        for k, v in pairs(t1) do\n            if \"table\" == type(v) then\n                v = tclone(v)\n            end\n\n            if \"string\" == type(k) then\n                t[k] = v\n            else\n                tinsert(t, v)\n            end\n        end\n    end\n\n    return t\nend\n\nlocal function tmerge(...)\n    local ts = {...}\n    local t = tclone(ts[1])\n    local t2\n\n    for i = 2, #ts do\n        t2 = ts[i] or {}\n\n        for k, v in pairs(t2) do\n            if \"table\" == type(v) then\n                v = tclone(v)\n\n                if t[k] and #t[k] == 0 then\n                    t[k] = tmerge(t[k], v)\n                else\n                    t[k] = v\n                end\n            else\n                t[k] = v\n            end\n        end\n    end\n\n    return t\nend\n\nlocal function SetRegionSize(r, w, h)\n    r:SetRegionWidth(w)\n    r:SetRegionHeight(h)\nend\n\nlocal function CalcSpacing(spacing)\n    local s, bs, bo, s2 = spacing, config.style.border_size, config.style.border_offset\n\n    if bs > 0 then\n        s2 = max(bs, bo)\n    else\n        s2 = 0\n    end\n\n    if s > 0 then\n        s = s + (s2 * 2)\n    else\n        s = s2\n    end\n\n    return s\nend\n\nlocal function UpdateAnchorFrame(skipCore)\n    if this.isImporting then return end\n\n    local config = LWA.GetConfig()\n    local h1 = config.core.height\n    local s1 = CalcSpacing(config.core.spacing)\n    local m1 = config.core.margin\n    local h, y = max(1, CORE_HEIGHT + RESOURCES_HEIGHT + s1 + m1), 0\n\n    if 1 == h % 2 then\n        h = h + 1\n    end\n\n    SetRegionSize(this.region, CORE_WIDTH, h)\n\n    if config.core.resources_position == 1 then -- Above\n        y = y + RESOURCES_HEIGHT + s1 + m1\n    end\n\n    if config.core.overflow_position == 1 then -- Above\n        y = y + max(CORE_HEIGHT, h1) - h1\n    end\n\n    this.region:SetOffset(0, y)\n\n    local function RepositionGroups()\n        local configs = { config.core, config.utility, config.maintenance }\n\n        for i, g in ipairs({ CORE_GROUP, UTILITIES_GROUP, MAINTENANCE_GROUP }) do\n            if not (skipCore and CORE_GROUP == g) then\n                g = WeakAuras.GetRegion(g)\n\n                if g then\n                    g:PositionChildren()\n\n                    if 0 == #g.sortedChildren then\n                        g:SetHeight(configs[i].height)\n                        g.currentHeight = configs[i].height\n                    end\n                end\n            end\n        end\n    end\n\n    if skipCore then\n        C_Timer.After(0.05, RepositionGroups)\n    else\n        RepositionGroups()\n    end\nend\n\nfunction LWA.GetConfig(grp, force)\n    local default = {\n        style = {\n            border_offset = 1,\n            border_size = 1,\n            border_icons = true,\n            border_resources = true,\n            border_color = { [1] = 0, [2] = 0, [3] = 0, [4] = 1 },\n            zoom = 30,\n            resource_texture = \"Solid\",\n        },\n        core = {\n            font = \"\",\n            font_size = 18,\n            nb_min = 5,\n            nb_max = 8,\n            width = 48,\n            height = 48,\n            spacing = 3,\n            width2 = 48,\n            height2 = 48,\n            spacing2 = 3,\n            margin = 0,\n            overflow_position = 2, -- Below\n            resources_position = 2, -- Below\n        },\n        core2 = { -- Fake group\n            width = 48,\n            height = 48,\n            spacing = 3,\n        },\n        utility = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 10,\n            nb_max = 10,\n            limit_icons = false,\n            behavior = 2, -- Always Show\n        },\n        top = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 10,\n        },\n        side = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 3,\n            grow_direction = 1,\n            nb = 60,\n        },\n        maintenance = {\n            font = \"\",\n            font_size = 16,\n            width = 36,\n            height = 36,\n            spacing = 0,\n            margin = 10,\n            nb_max = 10,\n            limit_icons = false,\n        },\n        alpha = {\n            global = 100,\n            ooc = 100,\n            mounted = 0,\n            skyriding_only = false,\n            ignore_enemy = true,\n            ignore_friendly = true,\n        },\n        resources = {\n            health_bar = {\n                format = 1\n            },\n            mana_bar = {\n                format = 1\n            }\n        },\n    }\n\n    if force or not config or WeakAuras.IsOptionsOpen() then\n        config = tmerge(\n            default,\n            LWA.configs[\"general\"],\n            LWA.configs[\"class\"] or {}\n        )\n\n        -- Special case for Core's Overflow\n        config.core2 = {\n            width = config.core.width2,\n            height = config.core.height2,\n            spacing = config.core.spacing2,\n            font = config.core.font,\n            font_size = config.core.font_size,\n        }\n    end\n\n    if grp then\n        return config[grp] or {}\n    end\n\n    return config\nend\n\nlocal function UpdateSubRegions(region, subCfg, applyBorders)\n    if region and #region.subRegions > 0 then\n        local config = LWA.GetConfig()\n        local bSize, bOffset, r, g, b, a = 0, 0 -- Border\n        local cfgFont, cfgSize, currentFont, currentSize, flags\n\n        if applyBorders then\n            bSize = config.style.border_size\n            bOffset = config.style.border_offset\n            r, g, b, a = unpack(config.style.border_color)\n        end\n\n        if subCfg then\n            cfgFont = subCfg.font\n            cfgSize = subCfg.font_size or 14\n\n            if cfgFont then\n                cfgFont = SharedMedia:Fetch(\"font\", cfgFont)\n            end\n        end\n\n        for _, subRegion in ipairs(region.subRegions) do\n            if \"subborder\" == subRegion.type then\n                subRegion:SetVisible(bSize > 0)\n\n                if bSize > 0 then\n                    region:AnchorSubRegion(subRegion, \"area\", region.regionType == \"aurabar\" and \"bar\", nil, bOffset, bOffset)\n\n                    local bd = subRegion:GetBackdrop()\n                    bd.edgeSize = bSize\n                    subRegion:SetBackdrop(bd)\n                    subRegion:SetBorderColor(r, g, b, a)\n                end\n            elseif \"subtext\" == subRegion.type and cfgFont then\n                currentFont, currentSize, flags = subRegion.text:GetFont()\n\n                if currentFont ~= cfgFont or currentSize ~= cfgSize then\n                    subRegion.text:SetFont(cfgFont, cfgSize, flags)\n                end\n            end\n        end\n    end\nend\n\nlocal function UpdateIcon(region, key, selfPoint)\n    if not region then return end\n\n    local config = LWA.GetConfig()\n    local zoom = config.style.zoom / 100\n    local subCfg = config[key]\n\n    region:SetAnchor(selfPoint, region.relativeTo, region.relativePoint)\n\n    if region.SetZoom then\n        region:SetZoom(min(1, zoom + (region.extraZoom or 0)))\n    end\n\n    SetRegionSize(region, subCfg.width, subCfg.height)\n\n    UpdateSubRegions(region, subCfg, config.style.border_icons)\nend\n\nlocal function UpdateResource(region, index, nb, inCombat)\n    if not region then return end\n\n    index = max(1, index or 1)\n    nb = max(1, nb or 1)\n\n    if not inCombat then\n        local config, subCfg = LWA.GetConfig(), {}\n\n        local w, h = CORE_WIDTH, 20\n\n        if nb > 1 then\n            local s = CalcSpacing(config.core.spacing)\n\n            w = (w + s) / nb - s\n        end\n\n        local cg = region.configGroup\n\n        if cg and config.resources[cg] then\n            subCfg = config.resources[cg]\n            h = subCfg.height or 20\n        end\n\n        local lastW, lastH = region.width, region.height\n\n        SetRegionSize(region, w, h)\n\n        UpdateSubRegions(region, subCfg, config.style.border_resources)\n\n        if config.style.resource_texture then\n            region.textureSource = \"LSM\"\n            region:SetStatusBarTextureLSM(config.style.resource_texture)\n\n            if region.overlaysTexture then\n                for i, _ in ipairs(region.overlaysTexture) do\n                    region.overlaysTexture[i] = config.style.resource_texture\n                end\n            end\n        end\n\n        if lastW ~= w or lastH ~= h then\n            region.bar:Update()\n        end\n\n        if region.bar.spark then\n            region.bar.spark:SetHeight(max(15, Round(h * 2)))\n        end\n    end\n\n    this.UpdateBar({ region = region }, index, nb)\nend\n\nlocal throttledInitHandler, throttledInitLastRun = nil, 0\n\nfunction this.ThrottledInit()\n    if throttledInitHandler or this.isImporting then return end\n\n    local currentTime, delay = time(), 0.25\n\n    if throttledInitLastRun > currentTime - 0.5 then\n        delay = max(0.25, currentTime - throttledInitLastRun)\n    end\n\n    throttledInitHandler = C_Timer.NewTimer(delay, function()\n            WeakAuras.ScanEvents(\"LWA_INIT\")\n    end)\nend\n\nfunction this.Init()\n    if this.isImporting then return end\n\n    throttledInitLastRun = time()\n\n    local config = LWA.GetConfig(nil, true)\n    local isOptionsOpen = WeakAuras.IsOptionsOpen()\n    local zoom = config.style.zoom / 100\n\n    if throttledInitHandler then\n        throttledInitHandler:Cancel()\n        throttledInitHandler = nil\n    end\n\n    if not this.parentFrame then\n        this.parentFrame = WeakAuras.GetRegion(CLASS_GROUP)\n    end\n\n    if this.parentFrame and not this.parentFrame.SetRealScale then\n        this.parentFrame.SetRealScale = this.parentFrame.SetScale\n\n        this.parentFrame.SetScale = function(self, scale)\n            this.parentFrame:SetRealScale(scale)\n            local castBar = WeakAuras.GetRegion(CAST_BAR)\n\n            if castBar then\n                castBar:SetScale(scale)\n            end\n        end\n    end\n\n    if isOptionsOpen then\n        NB_CORE = config.core.nb_max\n    else\n        NB_CORE = max(4, config.core.nb_min, min(NB_CORE, config.core.nb_max))\n\n        local castBar = WeakAuras.GetRegion(CAST_BAR)\n\n        if castBar then\n            castBar:SetParent(UIParent)\n\n            if this.parentFrame then\n                castBar:SetScale(this.parentFrame:GetScale())\n            end\n        end\n    end\n\n    local spacing = CalcSpacing(config.core.spacing)\n\n    CORE_WIDTH = NB_CORE * (config.core.width + spacing) - spacing\n\n    local grpRegion = WeakAuras.GetRegion(CORE_GROUP)\n\n    if grpRegion then\n        grpRegion:PositionChildren()\n\n        if not isOptionsOpen then\n            NB_CORE = max(4, config.core.nb_min, min(#grpRegion.sortedChildren, config.core.nb_max))\n\n            CORE_WIDTH = NB_CORE * (config.core.width + spacing) - spacing\n        end\n\n        this.region:SetRegionWidth(CORE_WIDTH)\n    end\n\n    this.UpdateResources()\n\n    for _, g in ipairs({ DYNAMIC_EFFECTS_GROUP, LEFT_SIDE_GROUP, RIGHT_SIDE_GROUP }) do\n        g = WeakAuras.GetRegion(g)\n\n        if g then\n            g:PositionChildren()\n        end\n    end\nend\n\nhooksecurefunc(\"SetUIVisibility\", function(isVisible)\n        if isVisible and this and this.ThrottledInit then\n            this.ThrottledInit()\n        end\nend)\n\nfunction this.UpdateResources()\n    if this.isImporting then return end\n\n    local grpRegion = WeakAuras.GetRegion(RESOURCES_GROUP)\n\n    if not this.resources then\n        local grpData = WeakAuras.GetData(RESOURCES_GROUP)\n\n        this.resources = grpData and grpData.controlledChildren\n    end\n\n    if grpRegion and this.resources and #this.resources > 0 then\n        local config = LWA.GetConfig()\n\n        local totalHeight, nb = 0, 0\n        local h1 = config.core.height\n        local s1 = CalcSpacing(config.core.spacing)\n        local m1 = config.core.margin\n        local y = 0\n\n        if config.core.resources_position == 2 then -- Below\n            y = max(CORE_HEIGHT, h1) + s1 + m1\n        end\n\n        grpRegion:SetOffset(0, -y)\n\n        local isOptionsOpen = WeakAuras.IsOptionsOpen()\n        local resRegion, isVisible, regionType\n        local w, h, cg = 0, 0\n\n        y = 0\n\n        for _, resId in ipairs(this.resources) do\n            resRegion = WeakAuras.GetRegion(resId)\n\n            if resRegion then\n                isVisible = isOptionsOpen\n                regionType = resRegion.regionType\n                h = 0\n\n                if \"aurabar\" == regionType then\n                    isVisible = isVisible or resRegion:IsVisible()\n                    UpdateResource(resRegion)\n\n                    h = resRegion.height\n\n                elseif \"dynamicgroup\" == regionType then\n                    local nbChild = 0\n                    local childRegions = {}\n\n                    for _, region in pairs(resRegion.controlledChildren) do\n                        if region and region[\"\"] then\n                            nbChild = nbChild + 1\n\n                            childRegions[region[\"\"].regionData.dataIndex] = region[\"\"].regionData.region\n\n                            isVisible = isVisible or region[\"\"].regionData.region:IsVisible()\n                        end\n                    end\n\n                    resRegion.childYOffset = -y\n                    h = 0\n\n                    for i, region in ipairs(childRegions) do\n                        UpdateResource(region, i, nbChild)\n\n                        h = max(h, region.height)\n\n                        region:SetYOffset(-y)\n                    end\n\n                    if h <= 0 then\n                        h = 20\n                    end\n                end\n\n                if isVisible then\n                    nb = nb + 1\n\n                    if \"dynamicgroup\" == regionType then\n                        resRegion:PositionChildren()\n                    else\n                        resRegion:SetOffset(0, -y)\n                    end\n\n                    totalHeight = totalHeight + h\n                    y = y + h + s1\n                end\n            end\n        end\n\n        RESOURCES_HEIGHT = totalHeight + max(nb - 1, 0) * CalcSpacing(config.core.spacing)\n    end\n\n    UpdateAnchorFrame()\nend\n\nfunction this.UpdateBar(aura, i, nb)\n    local config = LWA.GetConfig(\"resources\")\n    local e = aura or aura_env\n    local region = e and e.region\n    local cg = region and region.configGroup\n\n    if not (region and region:IsVisible() and cg and config[cg]) then return end\n\n    local cs = region.colorState or \"\"\n\n    if cs ~= \"\" then\n        cs = cs .. \"_\"\n    end\n\n    cg = config[cg]\n\n    local c1, c2 = cg[cs .. \"color1\"], cg[cs .. \"color2\"]\n\n    if c1 and c2 then\n        nb = max(1, min(region.indexMax or 99, nb or 1))\n        i = min(nb, max(1, region.index or i or 1)) - (region.indexOffset or 0)\n\n        local bar = region.bar\n\n        if cg[cs .. \"gradient\"] and cg[cs .. \"gradient\"] < 3 then\n            if nb > 1 and 1 == cg[cs .. \"gradient\"] then\n                local function MixRGB(c1, c2, pos)\n                    pos = 1 - (pos or 0.5)\n\n                    return {\n                        (c1[1] * pos) + (c2[1] * (1 - pos)),\n                        (c1[2] * pos) + (c2[2] * (1 - pos)),\n                        (c1[3] * pos) + (c2[3] * (1 - pos)),\n                        (c1[4] * pos) + (c2[4] * (1 - pos))\n                    }\n                end\n\n                local cc1, cc2 = c1, c2\n\n                if i > 1 then\n                    c1 = MixRGB(cc1, cc2, (i - 1) / nb)\n                end\n\n                c2 = MixRGB(cc1, cc2, i / nb)\n            end\n\n            local orientation = \"HORIZONTAL\"\n\n            if 2 == cg[cs .. \"gradient\"] then\n                orientation = \"VERTICAL\"\n\n                local tmp = c1\n                c1 = c2\n                c2 = tmp\n            end\n\n            region.enableGradient = true\n            region.gradientOrientation = orientation\n            region.barColor2 = c2\n            region:Color(unpack(c1))\n        else\n            region.enableGradient = false\n            region:Color(unpack(c1))\n        end\n\n        if region.ot then\n            region.ot:SetColorTexture(unpack(c2))\n        end\n    end\nend\n\nfunction LWA.GrowCore(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local h1 = config.core.height\n    local s1 = CalcSpacing(config.core.spacing)\n    local w2 = config.core.width2\n    local h2 = config.core.height2\n    local s2 = CalcSpacing(config.core.spacing2)\n    local m1 = config.core.margin\n\n    local maxCore = min(nb, config.core.nb_max)\n    local maxOverflow = nb - maxCore\n    local x, y\n    local xOffset = ((maxCore - 1) * (w1 + s1) / 2)\n    local yOffset = h1\n    local nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    local coreHeight = h1 + (ceil(maxOverflow / nbPerRow) * (h2 + s2))\n    local oldWidth, oldHeight = CORE_WIDTH, CORE_HEIGHT\n\n    if maxOverflow > 0 then\n        coreHeight = coreHeight + max(s1, s2) - s2\n    end\n\n    CORE_HEIGHT = coreHeight\n\n    if not WeakAuras.IsOptionsOpen() then\n        NB_CORE = max(4, config.core.nb_min, maxCore)\n\n        CORE_WIDTH = NB_CORE * (w1 + s1) - s1\n    end\n\n    UpdateAnchorFrame(true)\n\n    if oldWidth ~= CORE_WIDTH or oldHeight ~= CORE_HEIGHT then\n        this.UpdateResources()\n    end\n\n    if config.core.resources_position == 1 then  -- Above\n        yOffset = h1 + RESOURCES_HEIGHT + s1 + m1\n    end\n\n    if config.core.overflow_position == 1 then  -- Above\n        yOffset = yOffset + coreHeight - h1\n    end\n\n    for i, regionData in ipairs(activeRegions) do\n        x = (i - 1) * (w1 + s1) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"core\", \"BOTTOM\")\n\n        newPositions[i] = { x, y }\n\n        if i == maxCore then break end\n    end\n\n    if maxOverflow > 0 then\n        local i2, m, anchor, yMult\n\n        xOffset = ((maxCore - 1) * (w2 + s2) / 2)\n        yOffset = h1\n\n        if config.core.overflow_position == 1 then -- Above\n            yOffset = yOffset - h2 + max(s1, s2) - s2 - coreHeight\n            yMult = 1\n            anchor = \"BOTTOM\"\n\n            if config.core.resources_position == 1 then  -- Above\n                yOffset = yOffset - RESOURCES_HEIGHT - s1 - m1\n            end\n        else\n            if config.core.resources_position == 1 then  -- Above\n                yOffset = yOffset + RESOURCES_HEIGHT + s1 + m1\n            end\n\n            yOffset = yOffset - h2\n            yMult = -1\n            anchor = \"TOP\"\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            if i > maxCore then\n                i2 = i - maxCore\n                m = (i2 % nbPerRow)\n\n                if m == 1 then\n                    xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n                    yOffset = yOffset + h2 + s2\n                end\n\n                if m == 0 then\n                    m = nbPerRow\n                end\n\n                x = (m - 1) * (w2 + s2) - xOffset\n                y = yOffset * yMult\n\n                UpdateIcon(regionData.region, \"core2\", anchor)\n\n                newPositions[i] = { x, y }\n            end\n        end\n    end\nend\n\nfunction LWA.GrowDynamicEffects(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local maxCore = min(nb, NB_CORE)\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.top.width\n    local h2 = config.top.height\n    local s2 = CalcSpacing(config.top.spacing)\n\n    local xOffset = (maxCore - 1) * (w1 + s1) / 2\n    local yOffset = config.top.margin + max(s1, s2) - s2 - h2\n    local x, y, m\n\n    local nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = yOffset\n\n        UpdateIcon(regionData.region, \"top\", \"BOTTOM\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowSide(newPositions, activeRegions, xMult)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w = config.side.width\n    local h = config.side.height\n    local s2 = CalcSpacing(config.side.spacing)\n    local s1 = CalcSpacing(config.core.spacing)\n    local h1 = config.core.height\n    local m1 = config.core.margin\n\n    local baseX, baseY = config.side.margin + max(s1, s2), 0\n    local xOffset, yOffset, yMult = 0, 0, 1\n    local nbPerRC, m = min(config.side.nb, nb)\n    local grow = config.side.grow_direction\n    local anchor\n\n    if config.core.resources_position == 2 and config.core.overflow_position == 2 then -- Below\n        if grow == 2 or grow == 4 then -- Upward\n            baseY = baseY - config.top.margin\n        end\n    else\n        if config.core.resources_position == 1 then -- Above\n            baseY = baseY + RESOURCES_HEIGHT + s1 + m1\n        end\n\n        if config.core.overflow_position == 1 then -- Above\n            baseY = baseY + max(CORE_HEIGHT, h1) - h1\n        end\n    end\n\n    xMult = xMult or 1\n\n    if xMult < 0 then\n        anchor = \"TOPRIGHT\"\n    else\n        anchor = \"TOPLEFT\"\n    end\n\n    if grow == 3 or grow == 4 then -- Horizontal\n        if grow == 4 then -- Upward\n            yOffset = -baseY\n            yMult = -1\n        else\n            yOffset = baseY - h - s2\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            m = (i % nbPerRC)\n\n            if m == 1 or (nbPerRC == 1 and i == 1) then\n                xOffset = baseX\n                yOffset = yOffset + h + s2\n            end\n\n            UpdateIcon(regionData.region, \"side\", anchor)\n\n            newPositions[i] = { xOffset * xMult, -yOffset * yMult }\n\n            xOffset = xOffset + w + s2\n        end\n    else\n        xOffset = baseX - w - s2\n\n        if grow == 2 then -- Upward\n            baseY = -baseY + h + s2\n            yOffset = baseY\n            yMult = -1\n        else\n            yOffset = -h - s2\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            m = (i % nbPerRC)\n\n            if m == 1 or (nbPerRC == 1 and i == 1) then\n                xOffset = xOffset + w + s2\n                yOffset = baseY\n            end\n\n            UpdateIcon(regionData.region, \"side\", anchor)\n\n            newPositions[i] = { xOffset * xMult, -yOffset * yMult }\n\n            yOffset = yOffset + h + s2\n        end\n    end\nend\n\nfunction LWA.GrowUtilities(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.utility.width\n    local h2 = config.utility.height\n    local s2 = CalcSpacing(config.utility.spacing)\n\n    local maxCore, nbPerRow\n\n    if config.utility.limit_icons then\n        nbPerRow = config.utility.nb_max\n        maxCore = min(nb, nbPerRow)\n    else\n        maxCore = min(nb, NB_CORE)\n        nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    end\n\n    local xOffset = (maxCore - 1) * (w2 + s2) / 2\n    local yOffset = config.utility.margin + max(s1, s2) - s2 - h2\n    local x, y, m\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"utility\", \"TOP\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowMaintenance(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.maintenance.width\n    local h2 = config.maintenance.height\n    local s2 = CalcSpacing(config.maintenance.spacing)\n\n    local maxCore, nbPerRow\n\n    if config.maintenance.limit_icons then\n        nbPerRow = config.maintenance.nb_max\n        maxCore = min(nb, nbPerRow)\n    else\n        maxCore = min(nb, NB_CORE)\n        nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    end\n\n    local xOffset = (maxCore - 1) * (w2 + s2) / 2\n    local yOffset = config.maintenance.margin + config.utility.margin + max(CalcSpacing(config.utility.spacing), s2) - s2 - h2\n    local x, y, m\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"maintenance\", \"TOP\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowDynamicResource(newPositions, activeRegions, inCombat)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local s = CalcSpacing(config.core.spacing)\n    local w = (CORE_WIDTH + s) / nb\n    local xOffset, x = (CORE_WIDTH - w + s) / 2\n    local childYOffset = aura_env.region.childYOffset or 0\n\n    for i, regionData in ipairs(activeRegions) do\n        x = (i - 1) * w - xOffset\n\n        if not this.isImporting then\n            UpdateResource(regionData.region, i, nb, inCombat)\n            regionData.region:SetYOffset(childYOffset)\n        end\n\n        newPositions[i] = { x, 0 }\n    end\nend\n\nlocal function round(num, decimals)\n    local mult = 10^(decimals or 0)\n\n    return Round((num or 0) * mult) / mult\nend\n\nlocal barFormats = {\n    \"value\",\n    \"kvalue\",\n    \"value (percent)\",\n    \"kvalue (percent)\",\n    \"percent\",\n}\n\nfunction LWA.UpdateBarText(value, percent, format)\n    local text = barFormats[format] or \"value\"\n    value = value or 0\n    percent = percent or 0\n\n    text = text:gsub(\"percent\", round(percent, 0))\n\n    if 2 == format or 4 == format then\n        local rem = fmod(value, 1000) or 0\n\n        if rem >= 950 or value >= 1000000 then\n            rem = 0\n        end\n\n        text = text:gsub(\"kvalue\", FormatLargeNumber(Round((value - rem) / 1000)) .. \".\" .. Round(rem / 100) .. \" K\"):gsub(\"%.0 K\", \" K\"):gsub(\"%.\", DECIMAL_SEPERATOR)\n    else\n        text = text:gsub(\"value\", value)\n    end\n\n    return text\nend\n",
-["do_custom"] = true,
-},
-["finish"] = {
-},
-},
-["preferToUpdate"] = false,
-["config"] = {
-["top"] = {
-["font_size"] = 16,
-["font"] = "Friz Quadrata TT",
-["spacing"] = 0,
-["height"] = 32,
-["margin"] = 10,
-["width"] = 38,
-},
-["style"] = {
-["zoom"] = 30,
-["border_size"] = 1,
-["border_icons"] = true,
-["border_color"] = {
-0,
-0,
-0,
-1,
-},
-["resource_texture"] = "Solid",
-["border_offset"] = 1,
-["border_resources"] = true,
-},
-["maintenance"] = {
-["font_size"] = 16,
-["font"] = "Friz Quadrata TT",
-["nb_max"] = 10,
-["spacing"] = 0,
-["height"] = 32,
-["limit_icons"] = false,
-["margin"] = 10,
-["width"] = 38,
-},
-["core"] = {
-["spacing2"] = 0,
-["margin"] = 0,
-["resources_position"] = 2,
-["width"] = 48,
-["nb_min"] = 5,
-["font_size"] = 18,
-["font"] = "Friz Quadrata TT",
-["width2"] = 44,
-["spacing"] = 0,
-["height"] = 40,
-["overflow_position"] = 1,
-["nb_max"] = 8,
-["height2"] = 36,
-},
-["side"] = {
-["font_size"] = 16,
-["font"] = "Friz Quadrata TT",
-["spacing"] = 0,
-["grow_direction"] = 1,
-["height"] = 32,
-["nb"] = 3,
-["margin"] = 3,
-["width"] = 38,
-},
-["resources"] = {
-["cast_bar"] = {
-["emp_gradient"] = 1,
-["emp_color1"] = {
-1,
-1,
-1,
-0.90000000596046,
-},
-["emp_color2"] = {
-1,
-1,
-1,
-1,
-},
-["unint_color1"] = {
-0.52549019607843,
-0.52549019607843,
-0.52549019607843,
-0.90000000596046,
-},
-["color1"] = {
-0.52941176470588,
-0.090196078431373,
-0.090196078431373,
-1,
-},
-["font_size"] = 14,
-["unint_gradient"] = 1,
-["unint_color2"] = {
-0.70980392156863,
-0.70980392156863,
-0.70980392156863,
-1,
-},
-["height"] = 20,
-["gradient"] = 1,
-["font"] = "Friz Quadrata TT",
-["color2"] = {
-0.77647058823529,
-0.1843137254902,
-0.1843137254902,
-1,
-},
-},
-["health_bar"] = {
-["color2"] = {
-0.58431375026703,
-0.85098046064377,
-0.30588236451149,
-1,
-},
-["font"] = "Friz Quadrata TT",
-["font_size"] = 14,
-["height"] = 20,
-["gradient"] = 1,
-["format"] = 5,
-["color1"] = {
-0.24313727021217,
-0.58431375026703,
-0.10980392992496,
-1,
-},
-},
-},
-["alpha"] = {
-["skyriding_only"] = false,
-["ignore_enemy"] = true,
-["global"] = 100,
-["ooc"] = 100,
-["mounted"] = 100,
-["ignore_friendly"] = true,
-},
-["utility"] = {
-["font_size"] = 16,
-["font"] = "Friz Quadrata TT",
-["nb_max"] = 10,
-["spacing"] = 0,
-["height"] = 32,
-["limit_icons"] = false,
-["margin"] = 10,
-["width"] = 38,
-},
-},
-["keepAspectRatio"] = false,
-["useCooldownModRate"] = true,
-["zoom"] = 0,
-["cooldownTextDisabled"] = false,
-["semver"] = "11.0.19",
-["tocversion"] = 110005,
-["id"] = "General Options - LWA - Monk",
-["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
-["alpha"] = 0,
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 0,
-["uid"] = "gBrUvzAd8tB",
-["inverse"] = false,
-["selfPoint"] = "TOP",
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
 },
 ["authorOptions"] = {
 {
@@ -87381,19 +87205,191 @@ true,
 ["width"] = 2,
 },
 },
+["cooldown"] = false,
+["displayIcon"] = 134520,
+["useAdjustededMin"] = false,
+["regionType"] = "icon",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+["custom"] = "local this = aura_env\nlocal suffix = this.id:gsub(\"General Options %- LWA %- \", \"\")\nlocal CLASS = suffix:gsub(\"[%s%d]+$\", \"\")\nthis.CLASS = CLASS\n\nlocal CLASS_GROUP = WeakAuras.GetData(this.id).parent\nlocal DYNAMIC_EFFECTS_GROUP = \"Dynamic Effects - LWA - \" .. suffix\nlocal CORE_GROUP = \"Core - LWA - \" .. suffix\nlocal LEFT_SIDE_GROUP = \"Left Side - LWA - \" .. suffix\nlocal RIGHT_SIDE_GROUP = \"Right Side - LWA - \" .. suffix\nlocal UTILITIES_GROUP = \"Utilities - LWA - \" .. suffix\nlocal MAINTENANCE_GROUP = \"Maintenance - LWA - \" .. suffix\nlocal RESOURCES_GROUP = \"Resources - LWA - \" .. suffix\nlocal CAST_BAR = \"Cast Bar - LWA - \" .. suffix\n\nlocal NB_CORE = 8\nlocal CORE_WIDTH = 405\nlocal CORE_HEIGHT = 48\nlocal RESOURCES_HEIGHT = 0\n\nLWA = LWA or {}\nLWA[CLASS] = LWA[CLASS] or {}\n\nlocal LWA = LWA[CLASS]\n\nlocal config = nil\nLWA.configs = LWA.configs or {}\nLWA.configs[\"general\"] = this.config\n\nthis.resources = nil\nthis.parentFrame = nil\n\n\nlocal WeakAuras, C_Timer, time, min, max, floor, ceil, fmod, Round, pairs, ipairs, type, unpack, tinsert, FormatLargeNumber, DECIMAL_SEPARATOR = WeakAuras, C_Timer, time, min, max, floor, ceil, math.fmod, Round, pairs, ipairs, type, unpack, tinsert, FormatLargeNumber, DECIMAL_SEPARATOR\nlocal SharedMedia = LibStub(\"LibSharedMedia-3.0\")\n\n\nif WeakAuras.IsImporting() then\n    local function CheckImport()\n        if WeakAuras.IsImporting() or not this.isImporting then return end\n\n        this.isImporting:Cancel()\n        this.isImporting = false\n\n        C_Timer.After(1, function()\n                WeakAuras.ScanEvents(\"LWA_INIT\", true)\n        end)\n    end\n\n    this.isImporting = C_Timer.NewTicker(0.5, CheckImport)\nelse\n    this.isImporting = false\nend\n\nlocal function tclone(t1)\n    local t = {}\n\n    if t1 then\n        for k, v in pairs(t1) do\n            if \"table\" == type(v) then\n                v = tclone(v)\n            end\n\n            if \"string\" == type(k) then\n                t[k] = v\n            else\n                tinsert(t, v)\n            end\n        end\n    end\n\n    return t\nend\n\nlocal function tmerge(...)\n    local ts = {...}\n    local t = tclone(ts[1])\n    local t2\n\n    for i = 2, #ts do\n        t2 = ts[i] or {}\n\n        for k, v in pairs(t2) do\n            if \"table\" == type(v) then\n                v = tclone(v)\n\n                if t[k] and #t[k] == 0 then\n                    t[k] = tmerge(t[k], v)\n                else\n                    t[k] = v\n                end\n            else\n                t[k] = v\n            end\n        end\n    end\n\n    return t\nend\n\nlocal function SetRegionSize(r, w, h)\n    r:SetRegionWidth(w)\n    r:SetRegionHeight(h)\nend\n\nlocal function CalcSpacing(spacing)\n    local s, bs, bo, s2 = spacing, config.style.border_size, config.style.border_offset\n\n    if bs > 0 then\n        s2 = max(bs, bo)\n    else\n        s2 = 0\n    end\n\n    if s > 0 then\n        s = s + (s2 * 2)\n    else\n        s = s2\n    end\n\n    return s\nend\n\nlocal function UpdateAnchorFrame(skipCore)\n    if this.isImporting then return end\n\n    local config = LWA.GetConfig()\n    local h1 = config.core.height\n    local s1 = CalcSpacing(config.core.spacing)\n    local m1 = config.core.margin\n    local h, y = max(1, CORE_HEIGHT + RESOURCES_HEIGHT + s1 + m1), 0\n\n    if 1 == h % 2 then\n        h = h + 1\n    end\n\n    SetRegionSize(this.region, CORE_WIDTH, h)\n\n    if config.core.resources_position == 1 then -- Above\n        y = y + RESOURCES_HEIGHT + s1 + m1\n    end\n\n    if config.core.overflow_position == 1 then -- Above\n        y = y + max(CORE_HEIGHT, h1) - h1\n    end\n\n    this.region:SetOffset(0, y)\n\n    local function RepositionGroups()\n        local configs = { config.core, config.utility, config.maintenance }\n\n        for i, g in ipairs({ CORE_GROUP, UTILITIES_GROUP, MAINTENANCE_GROUP }) do\n            if not (skipCore and CORE_GROUP == g) then\n                g = WeakAuras.GetRegion(g)\n\n                if g then\n                    g:PositionChildren()\n\n                    if 0 == #g.sortedChildren then\n                        g:SetHeight(configs[i].height)\n                        g.currentHeight = configs[i].height\n                    end\n                end\n            end\n        end\n    end\n\n    if skipCore then\n        C_Timer.After(0.05, RepositionGroups)\n    else\n        RepositionGroups()\n    end\nend\n\nfunction LWA.GetConfig(grp, force)\n    local default = {\n        style = {\n            border_offset = 1,\n            border_size = 1,\n            border_icons = true,\n            border_resources = true,\n            border_color = { [1] = 0, [2] = 0, [3] = 0, [4] = 1 },\n            zoom = 30,\n            resource_texture = \"Solid\",\n        },\n        core = {\n            font = \"\",\n            font_size = 18,\n            nb_min = 5,\n            nb_max = 8,\n            width = 48,\n            height = 48,\n            spacing = 3,\n            width2 = 48,\n            height2 = 48,\n            spacing2 = 3,\n            margin = 0,\n            overflow_position = 2, -- Below\n            resources_position = 2, -- Below\n        },\n        core2 = { -- Fake group\n            width = 48,\n            height = 48,\n            spacing = 3,\n        },\n        utility = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 10,\n            nb_max = 10,\n            limit_icons = false,\n            behavior = 2, -- Always Show\n        },\n        top = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 10,\n        },\n        side = {\n            font = \"\",\n            font_size = 16,\n            width = 38,\n            height = 38,\n            spacing = 3,\n            margin = 3,\n            grow_direction = 1,\n            nb = 60,\n        },\n        maintenance = {\n            font = \"\",\n            font_size = 16,\n            width = 36,\n            height = 36,\n            spacing = 0,\n            margin = 10,\n            nb_max = 10,\n            limit_icons = false,\n        },\n        alpha = {\n            global = 100,\n            ooc = 100,\n            mounted = 0,\n            skyriding_only = false,\n            ignore_enemy = true,\n            ignore_friendly = true,\n        },\n        resources = {\n            health_bar = {\n                format = 1\n            },\n            mana_bar = {\n                format = 1\n            }\n        },\n    }\n\n    if force or not config or WeakAuras.IsOptionsOpen() then\n        config = tmerge(\n            default,\n            LWA.configs[\"general\"],\n            LWA.configs[\"class\"] or {}\n        )\n\n        -- Special case for Core's Overflow\n        config.core2 = {\n            width = config.core.width2,\n            height = config.core.height2,\n            spacing = config.core.spacing2,\n            font = config.core.font,\n            font_size = config.core.font_size,\n        }\n    end\n\n    if grp then\n        return config[grp] or {}\n    end\n\n    return config\nend\n\nlocal function UpdateSubRegions(region, subCfg, applyBorders)\n    if region and #region.subRegions > 0 then\n        local config = LWA.GetConfig()\n        local bSize, bOffset, r, g, b, a = 0, 0 -- Border\n        local cfgFont, cfgSize, currentFont, currentSize, flags\n\n        if applyBorders then\n            bSize = config.style.border_size\n            bOffset = config.style.border_offset\n            r, g, b, a = unpack(config.style.border_color)\n        end\n\n        if subCfg then\n            cfgFont = subCfg.font\n            cfgSize = subCfg.font_size or 14\n\n            if cfgFont then\n                cfgFont = SharedMedia:Fetch(\"font\", cfgFont)\n            end\n        end\n\n        for _, subRegion in ipairs(region.subRegions) do\n            if \"subborder\" == subRegion.type then\n                subRegion:SetVisible(bSize > 0)\n\n                if bSize > 0 then\n                    region:AnchorSubRegion(subRegion, \"area\", region.regionType == \"aurabar\" and \"bar\", nil, bOffset, bOffset)\n\n                    local bd = subRegion:GetBackdrop()\n                    bd.edgeSize = bSize\n                    subRegion:SetBackdrop(bd)\n                    subRegion:SetBorderColor(r, g, b, a)\n                end\n            elseif \"subtext\" == subRegion.type and cfgFont then\n                currentFont, currentSize, flags = subRegion.text:GetFont()\n\n                if currentFont ~= cfgFont or currentSize ~= cfgSize then\n                    subRegion.text:SetFont(cfgFont, cfgSize, flags)\n                end\n            end\n        end\n    end\nend\n\nlocal function UpdateIcon(region, key, selfPoint)\n    if not region then return end\n\n    local config = LWA.GetConfig()\n    local zoom = config.style.zoom / 100\n    local subCfg = config[key]\n\n    region:SetAnchor(selfPoint, region.relativeTo, region.relativePoint)\n\n    if region.SetZoom then\n        region:SetZoom(min(1, zoom + (region.extraZoom or 0)))\n    end\n\n    SetRegionSize(region, subCfg.width, subCfg.height)\n\n    UpdateSubRegions(region, subCfg, config.style.border_icons)\nend\n\nlocal function UpdateResource(region, index, nb, inCombat)\n    if not region then return end\n\n    index = max(1, index or 1)\n    nb = max(1, nb or 1)\n\n    if not inCombat then\n        local config, subCfg = LWA.GetConfig(), {}\n\n        local w, h = CORE_WIDTH, 20\n\n        if nb > 1 then\n            local s = CalcSpacing(config.core.spacing)\n\n            w = (w + s) / nb - s\n        end\n\n        local cg = region.configGroup\n\n        if cg and config.resources[cg] then\n            subCfg = config.resources[cg]\n            h = subCfg.height or 20\n        end\n\n        local lastW, lastH = region.width, region.height\n\n        SetRegionSize(region, w, h)\n\n        UpdateSubRegions(region, subCfg, config.style.border_resources)\n\n        if config.style.resource_texture then\n            region.textureSource = \"LSM\"\n            region:SetStatusBarTextureLSM(config.style.resource_texture)\n\n            if region.overlaysTexture then\n                for i, _ in ipairs(region.overlaysTexture) do\n                    region.overlaysTexture[i] = config.style.resource_texture\n                end\n            end\n        end\n\n        if lastW ~= w or lastH ~= h then\n            region.bar:Update()\n        end\n\n        if region.bar.spark then\n            region.bar.spark:SetHeight(max(15, Round(h * 2)))\n        end\n    end\n\n    this.UpdateBar({ region = region }, index, nb)\nend\n\nlocal throttledInitHandler, throttledInitLastRun = nil, 0\n\nfunction this.ThrottledInit()\n    if throttledInitHandler or this.isImporting then return end\n\n    local currentTime, delay = time(), 0.25\n\n    if throttledInitLastRun > currentTime - 0.5 then\n        delay = max(0.25, currentTime - throttledInitLastRun)\n    end\n\n    throttledInitHandler = C_Timer.NewTimer(delay, function()\n            WeakAuras.ScanEvents(\"LWA_INIT\")\n    end)\nend\n\nfunction this.Init()\n    if this.isImporting then return end\n\n    throttledInitLastRun = time()\n\n    local config = LWA.GetConfig(nil, true)\n    local isOptionsOpen = WeakAuras.IsOptionsOpen()\n    local zoom = config.style.zoom / 100\n\n    if throttledInitHandler then\n        throttledInitHandler:Cancel()\n        throttledInitHandler = nil\n    end\n\n    if not this.parentFrame then\n        this.parentFrame = WeakAuras.GetRegion(CLASS_GROUP)\n    end\n\n    if this.parentFrame and not this.parentFrame.SetRealScale then\n        this.parentFrame.SetRealScale = this.parentFrame.SetScale\n\n        this.parentFrame.SetScale = function(self, scale)\n            this.parentFrame:SetRealScale(scale)\n            local castBar = WeakAuras.GetRegion(CAST_BAR)\n\n            if castBar then\n                castBar:SetScale(scale)\n            end\n        end\n    end\n\n    if isOptionsOpen then\n        NB_CORE = config.core.nb_max\n    else\n        NB_CORE = max(4, config.core.nb_min, min(NB_CORE, config.core.nb_max))\n\n        local castBar = WeakAuras.GetRegion(CAST_BAR)\n\n        if castBar then\n            castBar:SetParent(UIParent)\n\n            if this.parentFrame then\n                castBar:SetScale(this.parentFrame:GetScale())\n            end\n        end\n    end\n\n    local spacing = CalcSpacing(config.core.spacing)\n\n    CORE_WIDTH = NB_CORE * (config.core.width + spacing) - spacing\n\n    local grpRegion = WeakAuras.GetRegion(CORE_GROUP)\n\n    if grpRegion then\n        grpRegion:PositionChildren()\n\n        if not isOptionsOpen then\n            NB_CORE = max(4, config.core.nb_min, min(#grpRegion.sortedChildren, config.core.nb_max))\n\n            CORE_WIDTH = NB_CORE * (config.core.width + spacing) - spacing\n        end\n\n        this.region:SetRegionWidth(CORE_WIDTH)\n    end\n\n    this.UpdateResources()\n\n    for _, g in ipairs({ DYNAMIC_EFFECTS_GROUP, LEFT_SIDE_GROUP, RIGHT_SIDE_GROUP }) do\n        g = WeakAuras.GetRegion(g)\n\n        if g then\n            g:PositionChildren()\n        end\n    end\nend\n\nhooksecurefunc(\"SetUIVisibility\", function(isVisible)\n        if isVisible and this and this.ThrottledInit then\n            this.ThrottledInit()\n        end\nend)\n\nfunction this.UpdateResources()\n    if this.isImporting then return end\n\n    local grpRegion = WeakAuras.GetRegion(RESOURCES_GROUP)\n\n    if not this.resources then\n        local grpData = WeakAuras.GetData(RESOURCES_GROUP)\n\n        this.resources = grpData and grpData.controlledChildren\n    end\n\n    if grpRegion and this.resources and #this.resources > 0 then\n        local config = LWA.GetConfig()\n\n        local totalHeight, nb = 0, 0\n        local h1 = config.core.height\n        local s1 = CalcSpacing(config.core.spacing)\n        local m1 = config.core.margin\n        local y = 0\n\n        if config.core.resources_position == 2 then -- Below\n            y = max(CORE_HEIGHT, h1) + s1 + m1\n        end\n\n        grpRegion:SetOffset(0, -y)\n\n        local isOptionsOpen = WeakAuras.IsOptionsOpen()\n        local resRegion, isVisible, regionType\n        local w, h, cg = 0, 0\n\n        y = 0\n\n        for _, resId in ipairs(this.resources) do\n            resRegion = WeakAuras.GetRegion(resId)\n\n            if resRegion then\n                isVisible = isOptionsOpen\n                regionType = resRegion.regionType\n                h = 0\n\n                if \"aurabar\" == regionType then\n                    isVisible = isVisible or resRegion:IsVisible()\n                    UpdateResource(resRegion)\n\n                    h = resRegion.height\n\n                elseif \"dynamicgroup\" == regionType then\n                    local nbChild = 0\n                    local childRegions = {}\n\n                    for _, region in pairs(resRegion.controlledChildren) do\n                        if region and region[\"\"] then\n                            nbChild = nbChild + 1\n\n                            childRegions[region[\"\"].regionData.dataIndex] = region[\"\"].regionData.region\n\n                            isVisible = isVisible or region[\"\"].regionData.region:IsVisible()\n                        end\n                    end\n\n                    resRegion.childYOffset = -y\n                    h = 0\n\n                    for i, region in ipairs(childRegions) do\n                        UpdateResource(region, i, nbChild)\n\n                        h = max(h, region.height)\n\n                        region:SetYOffset(-y)\n                    end\n\n                    if h <= 0 then\n                        h = 20\n                    end\n                end\n\n                if isVisible then\n                    nb = nb + 1\n\n                    if \"dynamicgroup\" == regionType then\n                        resRegion:PositionChildren()\n                    else\n                        resRegion:SetOffset(0, -y)\n                    end\n\n                    totalHeight = totalHeight + h\n                    y = y + h + s1\n                end\n            end\n        end\n\n        RESOURCES_HEIGHT = totalHeight + max(nb - 1, 0) * CalcSpacing(config.core.spacing)\n    end\n\n    UpdateAnchorFrame()\nend\n\nfunction this.UpdateBar(aura, i, nb)\n    local config = LWA.GetConfig(\"resources\")\n    local e = aura or aura_env\n    local region = e and e.region\n    local cg = region and region.configGroup\n\n    if not (region and region:IsVisible() and cg and config[cg]) then return end\n\n    local cs = region.colorState or \"\"\n\n    if cs ~= \"\" then\n        cs = cs .. \"_\"\n    end\n\n    cg = config[cg]\n\n    local c1, c2 = cg[cs .. \"color1\"], cg[cs .. \"color2\"]\n\n    if c1 and c2 then\n        nb = max(1, min(region.indexMax or 99, nb or 1))\n        i = min(nb, max(1, region.index or i or 1)) - (region.indexOffset or 0)\n\n        local bar = region.bar\n\n        if cg[cs .. \"gradient\"] and cg[cs .. \"gradient\"] < 3 then\n            if nb > 1 and 1 == cg[cs .. \"gradient\"] then\n                local function MixRGB(c1, c2, pos)\n                    pos = 1 - (pos or 0.5)\n\n                    return {\n                        (c1[1] * pos) + (c2[1] * (1 - pos)),\n                        (c1[2] * pos) + (c2[2] * (1 - pos)),\n                        (c1[3] * pos) + (c2[3] * (1 - pos)),\n                        (c1[4] * pos) + (c2[4] * (1 - pos))\n                    }\n                end\n\n                local cc1, cc2 = c1, c2\n\n                if i > 1 then\n                    c1 = MixRGB(cc1, cc2, (i - 1) / nb)\n                end\n\n                c2 = MixRGB(cc1, cc2, i / nb)\n            end\n\n            local orientation = \"HORIZONTAL\"\n\n            if 2 == cg[cs .. \"gradient\"] then\n                orientation = \"VERTICAL\"\n\n                local tmp = c1\n                c1 = c2\n                c2 = tmp\n            end\n\n            region.enableGradient = true\n            region.gradientOrientation = orientation\n            region.barColor2 = c2\n            region:Color(unpack(c1))\n        else\n            region.enableGradient = false\n            region:Color(unpack(c1))\n        end\n\n        if region.ot then\n            region.ot:SetColorTexture(unpack(c2))\n        end\n    end\nend\n\nfunction LWA.GrowCore(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local h1 = config.core.height\n    local s1 = CalcSpacing(config.core.spacing)\n    local w2 = config.core.width2\n    local h2 = config.core.height2\n    local s2 = CalcSpacing(config.core.spacing2)\n    local m1 = config.core.margin\n\n    local maxCore = min(nb, config.core.nb_max)\n    local maxOverflow = nb - maxCore\n    local x, y\n    local xOffset = ((maxCore - 1) * (w1 + s1) / 2)\n    local yOffset = h1\n    local nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    local coreHeight = h1 + (ceil(maxOverflow / nbPerRow) * (h2 + s2))\n    local oldWidth, oldHeight = CORE_WIDTH, CORE_HEIGHT\n\n    if maxOverflow > 0 then\n        coreHeight = coreHeight + max(s1, s2) - s2\n    end\n\n    CORE_HEIGHT = coreHeight\n\n    if not WeakAuras.IsOptionsOpen() then\n        NB_CORE = max(4, config.core.nb_min, maxCore)\n\n        CORE_WIDTH = NB_CORE * (w1 + s1) - s1\n    end\n\n    UpdateAnchorFrame(true)\n\n    if oldWidth ~= CORE_WIDTH or oldHeight ~= CORE_HEIGHT then\n        this.UpdateResources()\n    end\n\n    if config.core.resources_position == 1 then  -- Above\n        yOffset = h1 + RESOURCES_HEIGHT + s1 + m1\n    end\n\n    if config.core.overflow_position == 1 then  -- Above\n        yOffset = yOffset + coreHeight - h1\n    end\n\n    for i, regionData in ipairs(activeRegions) do\n        x = (i - 1) * (w1 + s1) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"core\", \"BOTTOM\")\n\n        newPositions[i] = { x, y }\n\n        if i == maxCore then break end\n    end\n\n    if maxOverflow > 0 then\n        local i2, m, anchor, yMult\n\n        xOffset = ((maxCore - 1) * (w2 + s2) / 2)\n        yOffset = h1\n\n        if config.core.overflow_position == 1 then -- Above\n            yOffset = yOffset - h2 + max(s1, s2) - s2 - coreHeight\n            yMult = 1\n            anchor = \"BOTTOM\"\n\n            if config.core.resources_position == 1 then  -- Above\n                yOffset = yOffset - RESOURCES_HEIGHT - s1 - m1\n            end\n        else\n            if config.core.resources_position == 1 then  -- Above\n                yOffset = yOffset + RESOURCES_HEIGHT + s1 + m1\n            end\n\n            yOffset = yOffset - h2\n            yMult = -1\n            anchor = \"TOP\"\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            if i > maxCore then\n                i2 = i - maxCore\n                m = (i2 % nbPerRow)\n\n                if m == 1 then\n                    xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n                    yOffset = yOffset + h2 + s2\n                end\n\n                if m == 0 then\n                    m = nbPerRow\n                end\n\n                x = (m - 1) * (w2 + s2) - xOffset\n                y = yOffset * yMult\n\n                UpdateIcon(regionData.region, \"core2\", anchor)\n\n                newPositions[i] = { x, y }\n            end\n        end\n    end\nend\n\nfunction LWA.GrowDynamicEffects(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local maxCore = min(nb, NB_CORE)\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.top.width\n    local h2 = config.top.height\n    local s2 = CalcSpacing(config.top.spacing)\n\n    local xOffset = (maxCore - 1) * (w1 + s1) / 2\n    local yOffset = config.top.margin + max(s1, s2) - s2 - h2\n    local x, y, m\n\n    local nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = yOffset\n\n        UpdateIcon(regionData.region, \"top\", \"BOTTOM\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowSide(newPositions, activeRegions, xMult)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w = config.side.width\n    local h = config.side.height\n    local s2 = CalcSpacing(config.side.spacing)\n    local s1 = CalcSpacing(config.core.spacing)\n    local h1 = config.core.height\n    local m1 = config.core.margin\n\n    local baseX, baseY = config.side.margin + max(s1, s2), 0\n    local xOffset, yOffset, yMult = 0, 0, 1\n    local nbPerRC, m = min(config.side.nb, nb)\n    local grow = config.side.grow_direction\n    local anchor\n\n    if config.core.resources_position == 2 and config.core.overflow_position == 2 then -- Below\n        if grow == 2 or grow == 4 then -- Upward\n            baseY = baseY - config.top.margin\n        end\n    else\n        if config.core.resources_position == 1 then -- Above\n            baseY = baseY + RESOURCES_HEIGHT + s1 + m1\n        end\n\n        if config.core.overflow_position == 1 then -- Above\n            baseY = baseY + max(CORE_HEIGHT, h1) - h1\n        end\n    end\n\n    xMult = xMult or 1\n\n    if xMult < 0 then\n        anchor = \"TOPRIGHT\"\n    else\n        anchor = \"TOPLEFT\"\n    end\n\n    if grow == 3 or grow == 4 then -- Horizontal\n        if grow == 4 then -- Upward\n            yOffset = -baseY\n            yMult = -1\n        else\n            yOffset = baseY - h - s2\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            m = (i % nbPerRC)\n\n            if m == 1 or (nbPerRC == 1 and i == 1) then\n                xOffset = baseX\n                yOffset = yOffset + h + s2\n            end\n\n            UpdateIcon(regionData.region, \"side\", anchor)\n\n            newPositions[i] = { xOffset * xMult, -yOffset * yMult }\n\n            xOffset = xOffset + w + s2\n        end\n    else\n        xOffset = baseX - w - s2\n\n        if grow == 2 then -- Upward\n            baseY = -baseY + h + s2\n            yOffset = baseY\n            yMult = -1\n        else\n            yOffset = -h - s2\n        end\n\n        for i, regionData in ipairs(activeRegions) do\n            m = (i % nbPerRC)\n\n            if m == 1 or (nbPerRC == 1 and i == 1) then\n                xOffset = xOffset + w + s2\n                yOffset = baseY\n            end\n\n            UpdateIcon(regionData.region, \"side\", anchor)\n\n            newPositions[i] = { xOffset * xMult, -yOffset * yMult }\n\n            yOffset = yOffset + h + s2\n        end\n    end\nend\n\nfunction LWA.GrowUtilities(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.utility.width\n    local h2 = config.utility.height\n    local s2 = CalcSpacing(config.utility.spacing)\n\n    local maxCore, nbPerRow\n\n    if config.utility.limit_icons then\n        nbPerRow = config.utility.nb_max\n        maxCore = min(nb, nbPerRow)\n    else\n        maxCore = min(nb, NB_CORE)\n        nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    end\n\n    local xOffset = (maxCore - 1) * (w2 + s2) / 2\n    local yOffset = config.utility.margin + max(s1, s2) - s2 - h2\n    local x, y, m\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"utility\", \"TOP\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowMaintenance(newPositions, activeRegions)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local w1 = config.core.width\n    local s1 = CalcSpacing(config.core.spacing)\n\n    local w2 = config.maintenance.width\n    local h2 = config.maintenance.height\n    local s2 = CalcSpacing(config.maintenance.spacing)\n\n    local maxCore, nbPerRow\n\n    if config.maintenance.limit_icons then\n        nbPerRow = config.maintenance.nb_max\n        maxCore = min(nb, nbPerRow)\n    else\n        maxCore = min(nb, NB_CORE)\n        nbPerRow = floor((CORE_WIDTH + s2) / (w2 + s2)) or 1\n    end\n\n    local xOffset = (maxCore - 1) * (w2 + s2) / 2\n    local yOffset = config.maintenance.margin + config.utility.margin + max(CalcSpacing(config.utility.spacing), s2) - s2 - h2\n    local x, y, m\n\n    for i, regionData in ipairs(activeRegions) do\n        m = (i % nbPerRow)\n\n        if m == 1 then\n            xOffset = (min(nb - i, nbPerRow - 1)) * (w2 + s2) / 2\n            yOffset = yOffset + h2 + s2\n        end\n\n        if m == 0 then\n            m = nbPerRow\n        end\n\n        x = (m - 1) * (w2 + s2) - xOffset\n        y = -yOffset\n\n        UpdateIcon(regionData.region, \"maintenance\", \"TOP\")\n\n        newPositions[i] = { x, y }\n    end\nend\n\nfunction LWA.GrowDynamicResource(newPositions, activeRegions, inCombat)\n    local nb = #activeRegions\n\n    if nb <= 0 then return end\n\n    local config = LWA.GetConfig()\n\n    local s = CalcSpacing(config.core.spacing)\n    local w = (CORE_WIDTH + s) / nb\n    local xOffset, x = (CORE_WIDTH - w + s) / 2\n    local childYOffset = aura_env.region.childYOffset or 0\n\n    for i, regionData in ipairs(activeRegions) do\n        x = (i - 1) * w - xOffset\n\n        if not this.isImporting then\n            UpdateResource(regionData.region, i, nb, inCombat)\n            regionData.region:SetYOffset(childYOffset)\n        end\n\n        newPositions[i] = { x, 0 }\n    end\nend\n\nlocal function round(num, decimals)\n    local mult = 10^(decimals or 0)\n\n    return Round((num or 0) * mult) / mult\nend\n\nlocal barFormats = {\n    \"value\",\n    \"kvalue\",\n    \"value (percent)\",\n    \"kvalue (percent)\",\n    \"percent\",\n}\n\nfunction LWA.UpdateBarText(value, percent, format)\n    local text = barFormats[format] or \"value\"\n    value = value or 0\n    percent = percent or 0\n\n    text = text:gsub(\"percent\", round(percent, 0))\n\n    if 2 == format or 4 == format then\n        local rem = fmod(value, 1000) or 0\n\n        if rem >= 950 or value >= 1000000 then\n            rem = 0\n        end\n\n        text = text:gsub(\"kvalue\", FormatLargeNumber(Round((value - rem) / 1000)) .. \".\" .. Round(rem / 100) .. \" K\"):gsub(\"%.0 K\", \" K\"):gsub(\"%.\", DECIMAL_SEPERATOR)\n    else\n        text = text:gsub(\"value\", value)\n    end\n\n    return text\nend\n",
+["do_custom"] = true,
+},
+["finish"] = {
+},
+},
+["preferToUpdate"] = false,
+["config"] = {
+["top"] = {
+["font_size"] = 16,
+["font"] = "Friz Quadrata TT",
+["spacing"] = 0,
+["height"] = 32,
+["margin"] = 10,
+["width"] = 38,
+},
+["style"] = {
+["zoom"] = 30,
+["border_size"] = 1,
+["border_icons"] = true,
+["border_color"] = {
+0,
+0,
+0,
+1,
+},
+["resource_texture"] = "Solid",
+["border_offset"] = 1,
+["border_resources"] = true,
+},
+["maintenance"] = {
+["font_size"] = 16,
+["font"] = "Friz Quadrata TT",
+["nb_max"] = 10,
+["spacing"] = 0,
+["height"] = 32,
+["limit_icons"] = false,
+["margin"] = 10,
+["width"] = 38,
+},
+["core"] = {
+["width"] = 48,
+["margin"] = 0,
+["resources_position"] = 2,
+["nb_min"] = 5,
+["spacing2"] = 0,
+["font_size"] = 18,
+["font"] = "Friz Quadrata TT",
+["width2"] = 44,
+["spacing"] = 0,
+["height"] = 40,
+["overflow_position"] = 1,
+["nb_max"] = 8,
+["height2"] = 36,
+},
+["side"] = {
+["font_size"] = 16,
+["font"] = "Friz Quadrata TT",
+["spacing"] = 0,
+["grow_direction"] = 1,
+["height"] = 32,
+["nb"] = 3,
+["margin"] = 3,
+["width"] = 38,
+},
+["resources"] = {
+["cast_bar"] = {
+["emp_gradient"] = 1,
+["emp_color1"] = {
+1,
+1,
+1,
+0.90000000596046,
+},
+["emp_color2"] = {
+1,
+1,
+1,
+1,
+},
+["unint_color1"] = {
+0.52549019607843,
+0.52549019607843,
+0.52549019607843,
+0.90000000596046,
+},
+["color1"] = {
+0.52941176470588,
+0.090196078431373,
+0.090196078431373,
+1,
+},
+["font_size"] = 14,
+["unint_gradient"] = 1,
+["unint_color2"] = {
+0.70980392156863,
+0.70980392156863,
+0.70980392156863,
+1,
+},
+["height"] = 20,
+["gradient"] = 1,
+["font"] = "Friz Quadrata TT",
+["color2"] = {
+0.77647058823529,
+0.1843137254902,
+0.1843137254902,
+1,
+},
+},
+["health_bar"] = {
+["color2"] = {
+0.58431375026703,
+0.85098046064377,
+0.30588236451149,
+1,
+},
+["font"] = "Friz Quadrata TT",
+["font_size"] = 14,
+["height"] = 20,
+["gradient"] = 1,
+["format"] = 5,
+["color1"] = {
+0.24313727021217,
+0.58431375026703,
+0.10980392992496,
+1,
+},
+},
+},
+["alpha"] = {
+["skyriding_only"] = false,
+["ignore_enemy"] = true,
+["global"] = 100,
+["ooc"] = 100,
+["mounted"] = 100,
+["ignore_friendly"] = true,
+},
+["utility"] = {
+["font_size"] = 16,
+["font"] = "Friz Quadrata TT",
+["nb_max"] = 10,
+["spacing"] = 0,
+["height"] = 32,
+["limit_icons"] = false,
+["margin"] = 10,
+["width"] = 38,
+},
+},
+["keepAspectRatio"] = false,
+["useCooldownModRate"] = true,
+["zoom"] = 0,
+["cooldownTextDisabled"] = false,
+["semver"] = "11.0.19",
+["tocversion"] = 110005,
+["id"] = "General Options - LWA - Monk",
+["url"] = "https://wago.io/LuxthosMonkWarWithin/96",
+["alpha"] = 0,
+["anchorFrameType"] = "SCREEN",
+["xOffset"] = 0,
+["uid"] = "gBrUvzAd8tB",
+["inverse"] = false,
+["selfPoint"] = "TOP",
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+},
+["desc"] = "Made by Luxthos - twitch.tv/luxthos",
 },
 ["FQ_17_军备盾"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 170,
 ["desaturate"] = false,
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "FQ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -87403,7 +87399,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["parent"] = "FQ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -87615,14 +87616,9 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 50,
 ["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["authorOptions"] = {
 },
+["parent"] = "KBZ",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -87653,7 +87649,12 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["parent"] = "KBZ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -87811,12 +87812,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["xOffset"] = 90,
 ["width"] = 10,
-["parent"] = "CSZ",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
@@ -87848,8 +87850,7 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "TOPLEFT",
-["authorOptions"] = {
-},
+["parent"] = "CSZ",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -87998,14 +87999,13 @@ true,
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["parent"] = "TKS",
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -88015,7 +88015,8 @@ true,
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 150,
+["authorOptions"] = {
+},
 ["conditions"] = {
 },
 ["actions"] = {
@@ -88168,10 +88169,9 @@ true,
 ["width"] = 10,
 },
 },
-["registered"] = {
-},
-["ProfilingWindow"] = {
-["xOffset"] = 997.6217651367188,
-["yOffset"] = -359.38623046875,
+["dbVersion"] = 78,
+["RealTimeProfilingWindow"] = {
+["xOffset"] = 499.0067138671875,
+["yOffset"] = -304.5638427734375,
 },
 }
