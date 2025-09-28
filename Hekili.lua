@@ -60,8 +60,8 @@ HekiliDB = {
 },
 [268] = {
 ["settings"] = {
-["max_damage"] = true,
 ["vivify_percent"] = 65,
+["max_damage"] = true,
 ["purify_stagger_maxhp"] = 6,
 ["purify_for_celestial"] = true,
 ["purify_for_niuzao"] = true,
@@ -145,9 +145,9 @@ HekiliDB = {
 ["fallback"] = {
 {
 ["enabled"] = true,
+["description"] = "Fallback",
 ["criteria"] = "chi > 5 & combo_strike",
 ["action"] = "spinning_crane_kick",
-["description"] = "Fallback",
 },
 {
 ["enabled"] = true,
@@ -445,9 +445,9 @@ HekiliDB = {
 ["default_st"] = {
 {
 ["enabled"] = true,
+["description"] = "1 target",
 ["criteria"] = "combo_strike & buff.pressure_point.up & variable.small_hotjs_active",
 ["action"] = "rising_sun_kick",
-["description"] = "1 target",
 },
 {
 ["enabled"] = true,
@@ -731,9 +731,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Potion",
 ["criteria"] = "buff.invoke_xuen_the_white_tiger.up & buff.storm_earth_and_fire.up",
 ["action"] = "potion",
-["description"] = "Potion",
 },
 {
 ["enabled"] = true,
@@ -845,9 +845,9 @@ HekiliDB = {
 ["default_aoe"] = {
 {
 ["enabled"] = true,
+["description"] = ">=5 Targets",
 ["criteria"] = "( energy > 55 & talent.inner_peace.enabled || energy > 60 & ! talent.inner_peace.enabled ) & combo_strike & chi.max - chi >= 2 & buff.teachings_of_the_monastery.stack < buff.teachings_of_the_monastery.max_stack & ( talent.energy_burst.enabled & ! buff.bok_proc.up ) & ! buff.ordered_elements.up || ( talent.energy_burst.enabled & ! buff.bok_proc.up ) & ! buff.ordered_elements.up & ! cooldown.fists_of_fury.remains & chi < 3 || ( prev.strike_of_the_windlord || cooldown.strike_of_the_windlord.remains ) & cooldown.celestial_conduit.remains < 2 & buff.ordered_elements.up & chi < 5 & combo_strike",
 ["action"] = "tiger_palm",
-["description"] = ">=5 Targets",
 },
 {
 ["enabled"] = true,
@@ -1207,9 +1207,9 @@ HekiliDB = {
 ["normal_opener"] = {
 {
 ["enabled"] = true,
+["description"] = "normal opener",
 ["criteria"] = "chi < 6 & combo_strike",
 ["action"] = "tiger_palm",
-["description"] = "normal opener",
 },
 {
 ["enabled"] = true,
@@ -1255,9 +1255,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "mindbender",
 ["description"] = "Use Shadowfiend and Mindbender on cooldown as long as Vampiric Touch and Shadow Word: Pain are active and sync with Dark Ascension",
 ["criteria"] = "( dot.shadow_word_pain.ticking & variable.dots_up || action.shadow_crash.in_flight ) & ( ! cooldown.halo.up || ! talent.power_surge.enabled ) & ( boss & fight_remains < 30 || target.time_to_die > 15 ) & ( ! talent.dark_ascension.enabled || cooldown.dark_ascension.remains < gcd.max || boss & fight_remains < 15 )",
-["action"] = "mindbender",
 },
 {
 ["enabled"] = true,
@@ -1305,9 +1305,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "void_volley",
 ["description"] = "Use Void Volley if it would expire soon",
 ["criteria"] = "buff.void_volley.remains <= 5 || buff.entropic_rift.up & action.void_blast.usable_in > buff.entropic_rift.remains || target.time_to_die <= 5",
-["action"] = "void_volley",
 },
 {
 ["enabled"] = true,
@@ -1353,9 +1353,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "shadow_crash",
 ["description"] = "Healing spell action list for proccing Twist of Fate. Set priest.twist_of_fate_heal_rppm=<rppm> to make this be used. actions.main+=/call_action_list,name=heal_for_tof,if=!buff.twist_of_fate.up&buff.twist_of_fate_can_trigger_on_ally_heal.up&(talent.rhapsody||talent.divine_star||talent.halo)",
 ["criteria"] = "! variable.holding_crash & raid_event.adds.in >= 30 & talent.descending_darkness.enabled & raid_event.movement.in >= 30",
-["action"] = "shadow_crash",
 },
 {
 ["enabled"] = true,
@@ -1384,9 +1384,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "shadow_crash",
 ["description"] = "Use Shadow Crash while moving as a low-priority action when adds will not spawn in 20 seconds.",
 ["criteria"] = "raid_event.adds.in > 20",
-["action"] = "shadow_crash",
 },
 {
 ["enabled"] = true,
@@ -1436,33 +1436,33 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "flash_heal",
 ["description"] = "Use <a href='https://www.wowhead.com/spell=10060/power-infusion'>Power Infusion</a> while <a href='https://www.wowhead.com/spell=194249/voidform'>Voidform</a> or <a href='https://www.wowhead.com/spell=391109/dark-ascension'>Dark Ascension</a> is active. Chain directly after your own <a href='https://www.wowhead.com/spell=10060/power-infusion'>Power Infusion</a>. Use Flash Heal to proc Nexus-King's Command trinket",
 ["criteria"] = "equipped.nexuskings_command & buff.oathbound.up & ( ! buff.boon_of_the_oathsworn.up || buff.boon_of_the_oathsworn.remains < 3 ) & ( ( talent.void_eruption.enabled & ( buff.voidform.up || cooldown.void_eruption.up ) ) || ( talent.dark_ascension.enabled & cooldown.dark_ascension.up ) || ( talent.power_surge.enabled & cooldown.halo.up ) || ( talent.entropic_rift.enabled & cooldown.void_torrent.up ) )",
-["action"] = "flash_heal",
 },
 {
 ["enabled"] = true,
+["action"] = "power_infusion",
 ["description"] = "Sync Power Infusion with Voidform or Dark Ascension",
 ["criteria"] = "( buff.voidform.up || buff.dark_ascension.up & ( fight_remains <= 80 || fight_remains >= 140 ) ) & ( ! buff.power_infusion.up || set_bonus.tww2_4pc & buff.power_infusion.remains <= 15 )",
-["action"] = "power_infusion",
 },
 {
 ["enabled"] = true,
+["action"] = "halo",
 ["description"] = "Make sure Mindbender is active before popping Dark Ascension unless you have insignificant talent points or too many targets",
 ["criteria"] = "talent.power_surge.enabled & ( pet.fiend.active & cooldown.fiend.remains >= 4 & talent.mindbender.enabled || ! talent.mindbender.enabled & ! cooldown.fiend.up || active_enemies > 2 & ! talent.inescapable_torment.enabled || ! talent.dark_ascension.enabled ) & ( cooldown.mind_blast.charges = 0 || ! cooldown.void_torrent.up || ! talent.void_eruption.enabled || cooldown.void_eruption.remains >= gcd.max * 4 || buff.mind_devourer.up & talent.mind_devourer.enabled )",
-["action"] = "halo",
 },
 {
 ["enabled"] = true,
+["action"] = "void_eruption",
 ["description"] = "Make sure Mindbender is active before popping Void Eruption and dump charges of Mind Blast if Mind Devourer is not active and you are not Archon",
 ["criteria"] = "( pet.fiend.active & cooldown.fiend.remains >= 4 || ! talent.mindbender.enabled & ! cooldown.fiend.up || active_enemies > 2 & ! talent.inescapable_torment.enabled ) & ( cooldown.mind_blast.charges = 0 || time > 15 || buff.mind_devourer.up & talent.mind_devourer.enabled || buff.power_surge.up )",
-["action"] = "void_eruption",
 },
 {
 ["enabled"] = true,
+["action"] = "dark_ascension",
 ["description"] = "Use Dark Ascension when you have enough Insanity to cast Devouring Plague.",
 ["criteria"] = "( pet.fiend.active & cooldown.fiend.remains >= 4 || ! talent.mindbender.enabled & ! cooldown.fiend.up || active_enemies > 2 & ! talent.inescapable_torment.enabled ) & ( active_dot.devouring_plague >= 1 || insanity >= ( 20 - ( 5 * talent.minds_eye.enabled ) + ( 5 * talent.distorted_reality.enabled ) - ( pet.fiend.active * 2 ) ) )",
-["action"] = "dark_ascension",
 },
 {
 ["enabled"] = true,
@@ -1471,9 +1471,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "desperate_prayer",
 ["description"] = "Use Desperate Prayer to heal up should Shadow Word: Death or other damage bring you below 75%",
 ["criteria"] = "health.pct <= 75",
-["action"] = "desperate_prayer",
 },
 },
 ["aoe_variables"] = {
@@ -1620,9 +1620,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "shadow_crash",
 ["description"] = "Use Shadow Crash to apply Vampiric Touch to as many adds as possible while being efficient with Vampiric Touch refresh windows",
 ["criteria"] = "! variable.holding_crash",
-["action"] = "shadow_crash",
 },
 },
 ["trinkets"] = {
@@ -1663,15 +1663,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "spymasters_web",
 ["criteria"] = "( buff.power_infusion.remains >= 10 & buff.spymasters_report.stack >= 36 & fight_remains > 240 ) & ( buff.voidform.up || buff.dark_ascension.up || ! talent.dark_ascension.enabled & ! talent.void_eruption.enabled ) || ( ( buff.power_infusion.remains >= 10 & buff.bloodlust.up & buff.spymasters_report.stack >= 10 ) || buff.power_infusion.remains >= 10 & ( boss & fight_remains < 120 ) ) & ( buff.voidform.up || buff.dark_ascension.up || ! talent.dark_ascension.enabled & ! talent.void_eruption.enabled ) || ( boss & fight_remains <= 20 || buff.dark_ascension.up & boss & fight_remains <= 60 || buff.entropic_rift.up & talent.entropic_rift.enabled & boss & fight_remains <= 30 ) & ! buff.spymasters_web.up",
 ["name"] = "spymasters_web",
-["action"] = "spymasters_web",
 },
 {
 ["enabled"] = true,
+["action"] = "prized_gladiators_badge_of_ferocity",
 ["criteria"] = "( buff.voidform.up || buff.power_infusion.remains >= 10 || buff.dark_ascension.up || ( talent.void_eruption.enabled & cooldown.void_eruption.remains > 10 ) || equipped.neural_synapse_enhancer & buff.entropic_rift.up ) || boss & fight_remains < 20",
 ["name"] = "prized_gladiators_badge_of_ferocity",
-["action"] = "prized_gladiators_badge_of_ferocity",
 },
 {
 ["enabled"] = true,
@@ -1724,9 +1724,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "holy_nova",
 ["description"] = "Use Holy Nova when Rhapsody is fully stacked to acquire Twist of Fate if an ally can be healed for it and it is not currently up.",
 ["criteria"] = "buff.rhapsody.stack = 20 & talent.rhapsody.enabled",
-["action"] = "holy_nova",
 },
 },
 },
@@ -1843,9 +1843,9 @@ HekiliDB = {
 ["cleave"] = {
 {
 ["enabled"] = true,
+["description"] = "Cleave",
 ["criteria"] = "! death_and_decay.ticking & variable.adds_remain || talent.gift_of_the_sanlayn.enabled",
 ["action"] = "any_dnd",
-["description"] = "Cleave",
 },
 {
 ["enabled"] = true,
@@ -1883,9 +1883,9 @@ HekiliDB = {
 ["cds_shared"] = {
 {
 ["enabled"] = true,
+["description"] = "Shared CDs",
 ["criteria"] = "( variable.st_planning || variable.adds_remain ) & ( ! talent.summon_gargoyle.enabled || cooldown.summon_gargoyle.remains > 60 ) & ( buff.dark_transformation.up & 30 >= buff.dark_transformation.remains || ! talent.vampiric_strike.enabled & pet.army_ghoul.active & pet.army_ghoul.remains <= 30 || ! talent.vampiric_strike.enabled & pet.apoc_ghoul.active & pet.apoc_ghoul.remains <= 30 || ! talent.vampiric_strike.enabled & pet.abomination.active & pet.abomination.remains <= 30 ) || fight_remains <= 30",
 ["action"] = "potion",
-["description"] = "Shared CDs",
 },
 {
 ["enabled"] = true,
@@ -2086,9 +2086,9 @@ HekiliDB = {
 ["cds_aoe_san"] = {
 {
 ["enabled"] = true,
+["description"] = "Sanlayn CDs AoE",
 ["criteria"] = "variable.adds_remain & ( buff.death_and_decay.up || active_enemies <= 3 )",
 ["action"] = "dark_transformation",
-["description"] = "Sanlayn CDs AoE",
 },
 {
 ["enabled"] = true,
@@ -2175,9 +2175,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "pet.apoc_ghoul.active || ! talent.apocalypse.enabled & buff.dark_transformation.up || cooldown.apocalypse.ready",
 ["name"] = "cursed_stone_idol",
 ["action"] = "cursed_stone_idol",
-["criteria"] = "pet.apoc_ghoul.active || ! talent.apocalypse.enabled & buff.dark_transformation.up || cooldown.apocalypse.ready",
 },
 {
 ["enabled"] = true,
@@ -2331,9 +2331,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["description"] = "Shared Cooldowns",
 ["criteria"] = "active_enemies >= 1 & ( ! talent.summon_gargoyle.enabled || cooldown.summon_gargoyle.remains > 60 ) & ( buff.dark_transformation.up & 30 >= buff.dark_transformation.remains || pet.army_ghoul.active & pet.army_ghoul.remains <= 30 || pet.apoc_ghoul.active & pet.apoc_ghoul.remains <= 30 || pet.abomination.active & pet.abomination.remains <= 30 ) || boss & fight_remains <= 30",
 ["action"] = "potion",
-["description"] = "Shared Cooldowns",
 },
 {
 ["enabled"] = true,
@@ -2588,9 +2588,9 @@ HekiliDB = {
 ["cds"] = {
 {
 ["enabled"] = true,
+["description"] = "Non-Sanlayn CDs",
 ["criteria"] = "variable.st_planning || boss & fight_remains < 20",
 ["action"] = "dark_transformation",
-["description"] = "Non-Sanlayn CDs",
 },
 {
 ["enabled"] = true,
@@ -2611,9 +2611,9 @@ HekiliDB = {
 ["san_st"] = {
 {
 ["enabled"] = true,
+["description"] = "San'layn Single Target",
 ["criteria"] = "buff.infliction_of_sorrow.up",
 ["action"] = "wound_spender",
-["description"] = "San'layn Single Target",
 },
 {
 ["enabled"] = true,
@@ -2669,9 +2669,9 @@ HekiliDB = {
 ["cds_san"] = {
 {
 ["enabled"] = true,
+["description"] = "Sanlayn CDs ST",
 ["criteria"] = "variable.st_planning || fight_remains < 20",
 ["action"] = "dark_transformation",
-["description"] = "Sanlayn CDs ST",
 },
 {
 ["enabled"] = true,
@@ -3362,9 +3362,9 @@ HekiliDB = {
 ["single_target"] = {
 {
 ["enabled"] = true,
+["description"] = "Single Target Rotation",
 ["criteria"] = "buff.killing_machine.stack = 2 || ( buff.killing_machine.up & rune >= 3 )",
 ["action"] = "obliterate",
-["description"] = "Single Target Rotation",
 },
 {
 ["enabled"] = true,
@@ -3411,9 +3411,9 @@ HekiliDB = {
 ["aoe"] = {
 {
 ["enabled"] = true,
+["description"] = "Aoe Rotation",
 ["criteria"] = "( buff.killing_machine.stack = 2 || ( buff.killing_machine.up & rune >= 3 ) ) & active_enemies >= variable.frostscythe_prio",
 ["action"] = "frostscythe",
-["description"] = "Aoe Rotation",
 },
 {
 ["enabled"] = true,
@@ -3528,9 +3528,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.latent_energy.stack > 8 & buff.pillar_of_frost.remains & ( ! talent.breath_of_sindragosa.enabled || buff.breath_of_sindragosa.remains )",
 ["name"] = "unyielding_netherprism",
 ["action"] = "unyielding_netherprism",
-["criteria"] = "buff.latent_energy.stack > 8 & buff.pillar_of_frost.remains & ( ! talent.breath_of_sindragosa.enabled || buff.breath_of_sindragosa.remains )",
 },
 {
 ["enabled"] = true,
@@ -4440,27 +4440,27 @@ HekiliDB = {
 ["cooldowns"] = {
 {
 ["enabled"] = true,
+["action"] = "shadowfiend",
 ["description"] = "Don't use pets during shadow covenant windows, wasting GCDs -- is this even possible anymore?",
 ["criteria"] = "! buff.shadow_covenant.up",
-["action"] = "shadowfiend",
 },
 {
 ["enabled"] = true,
+["action"] = "power_infusion",
 ["description"] = "hold PI to use with shadow covenant if we have it",
 ["criteria"] = "! talent.shadow_covenant.enabled || ( talent.shadow_covenant.enabled & ( cooldown.shadowfiend.up || buff.shadow_covenant.up ) )",
-["action"] = "power_infusion",
 },
 {
 ["enabled"] = true,
+["action"] = "potion",
 ["description"] = "sync potion with PI",
 ["criteria"] = "buff.power_infusion.up",
-["action"] = "potion",
 },
 {
 ["enabled"] = true,
+["action"] = "use_items",
 ["description"] = "sync trinkets with PI",
 ["criteria"] = "buff.power_infusion.up || cooldown.power_infusion.remains >= action_cooldown",
-["action"] = "use_items",
 },
 },
 ["long_scov"] = {
@@ -4582,9 +4582,9 @@ HekiliDB = {
 ["scov_prep"] = {
 {
 ["enabled"] = true,
+["action"] = "power_word_radiance",
 ["description"] = "Prepare to enter shadow covenant",
 ["criteria"] = "cooldown.shadowfiend.remains < cast_time",
-["action"] = "power_word_radiance",
 },
 },
 },
@@ -4617,9 +4617,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "shadow_word_pain",
 ["description"] = "Don't cast SW:P during apotheosis or divine favor: chastise. We also don't cycle targets because it isn't worth the GCDs, since Smite deals slightly more damage than a full SW:P.",
 ["criteria"] = "( refreshable || ! ticking ) & ( target.time_to_die >= dot.shadow_word_pain.duration ) & ! buff.divine_favor_chastise.up & ! buff.apotheosis.up",
-["action"] = "shadow_word_pain",
 },
 {
 ["enabled"] = true,
@@ -4691,9 +4691,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "holy_nova",
 ["description"] = "There are particular breakpoints combinations of rhapsody and spell targets beyond which holy nova beats everything else we can do",
 ["criteria"] = "( spell_targets.holy_nova >= 2 & buff.rhapsody.stack >= 18 ) || ( spell_targets.holy_nova >= 3 & buff.rhapsody.stack >= 9 ) || ( spell_targets.holy_nova >= 4 & buff.rhapsody.stack >= 4 ) || spell_targets.holy_nova >= 5",
-["action"] = "holy_nova",
 },
 {
 ["action"] = "mindgames",
@@ -4722,9 +4722,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "holy_nova",
 ["description"] = "There are particular breakpoints combinations of rhapsody and spell targets beyond which holy nova beats everything else we can do",
 ["criteria"] = "( spell_targets.holy_nova >= 2 & buff.rhapsody.stack >= 18 ) || ( spell_targets.holy_nova >= 3 & buff.rhapsody.stack >= 9 ) || ( spell_targets.holy_nova >= 4 & buff.rhapsody.stack >= 4 ) || spell_targets.holy_nova >= 5",
-["action"] = "holy_nova",
 },
 {
 ["action"] = "mindgames",
@@ -4737,9 +4737,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "holy_word_chastise",
 ["description"] = "We can use chastise for damage as long as we will have apotheosis available before the next divine word, otherwise only use it when it will be back up at the same time as divine word",
 ["criteria"] = "( cooldown.apotheosis.remains < cooldown.divine_word.remains ) || ( cooldown.holy_word_chastise.duration_expected <= cooldown.divine_word.remains )",
-["action"] = "holy_word_chastise",
 },
 {
 ["action"] = "smite",
@@ -4765,9 +4765,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "holy_nova",
 ["description"] = "There are particular breakpoints combinations of rhapsody and spell targets beyond which holy nova beats everything else we can do",
 ["criteria"] = "( spell_targets.holy_nova >= 2 & buff.rhapsody.stack >= 18 ) || ( spell_targets.holy_nova >= 3 & buff.rhapsody.stack >= 9 ) || ( spell_targets.holy_nova >= 4 & buff.rhapsody.stack >= 4 ) || spell_targets.holy_nova >= 5",
-["action"] = "holy_nova",
 },
 {
 ["action"] = "mindgames",
@@ -4801,9 +4801,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "apotheosis",
 ["description"] = "Hold Apotheosis if chastise will be up soon",
 ["criteria"] = "cooldown.holy_word_chastise.remains > ( gcd.max * 3 )",
-["action"] = "apotheosis",
 },
 {
 ["enabled"] = true,
@@ -4817,9 +4817,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "holy_nova",
 ["description"] = "There are particular breakpoints combinations of rhapsody and spell targets beyond which holy nova beats everything else we can do",
 ["criteria"] = "( spell_targets.holy_nova >= 2 & buff.rhapsody.stack >= 18 ) || ( spell_targets.holy_nova >= 3 & buff.rhapsody.stack >= 9 ) || ( spell_targets.holy_nova >= 4 & buff.rhapsody.stack >= 4 ) || spell_targets.holy_nova >= 5",
-["action"] = "holy_nova",
 },
 {
 ["action"] = "mindgames",
@@ -4842,21 +4842,21 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "power_infusion",
 ["description"] = "Sync PI with divine favor: chastise if we took divine word",
 ["criteria"] = "( ! talent.divine_word.enabled || ( cooldown.divine_word.up & cooldown.holy_word_chastise.up ) )",
-["action"] = "power_infusion",
 },
 {
 ["enabled"] = true,
+["action"] = "potion",
 ["description"] = "Only potion in sync with power infusion",
 ["criteria"] = "buff.power_infusion.up",
-["action"] = "potion",
 },
 {
 ["enabled"] = true,
+["action"] = "use_items",
 ["description"] = "hold trinkets to use with PI",
 ["criteria"] = "buff.power_infusion.up",
-["action"] = "use_items",
 },
 },
 ["divine_favor_chastise_prep"] = {
@@ -4879,21 +4879,21 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["action"] = "apotheosis",
 ["description"] = "Use apotheosis to get Chastise back if its on cooldown and Divine Word will be up soon. We can use Apotheosis (2min CD) to reset Chastise for every other Divine Word (1min CD).",
 ["criteria"] = "( cooldown.holy_word_chastise.remains > cooldown.divine_word.remains ) & ( cooldown.divine_word.remains <= ( variable.empyreal_exec_time + variable.apotheosis_exec_time ) )",
-["action"] = "apotheosis",
 },
 {
 ["enabled"] = true,
+["action"] = "divine_word",
 ["description"] = "Divine Word only if we can sync with Chastise and (if talented) Empyreal Blaze",
 ["criteria"] = "cooldown.holy_word_chastise.up & ( ! talent.empyreal_blaze.enabled || buff.empyreal_blaze.up )",
-["action"] = "divine_word",
 },
 {
 ["enabled"] = true,
+["action"] = "holy_word_chastise",
 ["description"] = "Holy word chastise to trigger divine favor: chastise",
 ["criteria"] = "! talent.empyreal_blaze.enabled & buff.divine_word.up || talent.empyreal_blaze.enabled & buff.empyreal_blaze.down",
-["action"] = "holy_word_chastise",
 },
 },
 },
@@ -5013,9 +5013,9 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.inner_resilience.up",
 ["name"] = "tome_of_lights_devotion",
 ["action"] = "tome_of_lights_devotion",
-["criteria"] = "buff.inner_resilience.up",
 },
 {
 ["enabled"] = false,
@@ -5039,15 +5039,15 @@ HekiliDB = {
 },
 {
 ["enabled"] = true,
+["criteria"] = "buff.weapons_of_order.up & debuff.weapons_of_order_debuff.stack = 4",
 ["name"] = "signet_of_the_priory",
 ["action"] = "signet_of_the_priory",
-["criteria"] = "buff.weapons_of_order.up & debuff.weapons_of_order_debuff.stack = 4",
 },
 {
 ["enabled"] = true,
+["criteria"] = "! talent.weapons_of_order.enabled",
 ["name"] = "signet_of_the_priory",
 ["action"] = "signet_of_the_priory",
-["criteria"] = "! talent.weapons_of_order.enabled",
 },
 {
 ["enabled"] = true,
