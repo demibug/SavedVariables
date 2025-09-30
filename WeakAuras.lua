@@ -3,10 +3,11 @@ WeakAurasSaved = {
 ["dynamicIconCache"] = {
 },
 ["editor_tab_spaces"] = 4,
+["editor_font_size"] = 12,
 ["login_squelch_time"] = 10,
 ["lastArchiveClear"] = 1758871434,
 ["minimap"] = {
-["minimapPos"] = 309.030438684119,
+["minimapPos"] = 332.6546679412693,
 ["hide"] = false,
 },
 ["lastUpgrade"] = 1758871441,
@@ -14,39 +15,56 @@ WeakAurasSaved = {
 ["migrationCutoff"] = 730,
 ["features"] = {
 },
-["editor_font_size"] = 12,
-["historyCutoff"] = 730,
-["registered"] = {
-},
 ["displays"] = {
 ["MMK_13_踏"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["uid"] = "3piA7n1Vb2H",
+["desaturate"] = false,
+["authorOptions"] = {
+},
+["parent"] = "MMK",
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["xOffset"] = 130,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["width"] = 10,
-["authorOptions"] = {
-},
-["xOffset"] = 130,
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MMK",
-["conditions"] = {
-},
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -55,18 +73,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["names"] = {
+},
 ["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "hostile",
+["use_unit"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -96,10 +114,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 388193,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 388193,
 },
 ["untrigger"] = {
 },
@@ -108,11 +126,11 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "aura2",
 ["useExactSpellId"] = true,
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["auraspellids"] = {
 "1215495",
 },
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -124,149 +142,110 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 388193,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 388193,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["rotate"] = false,
 ["internalVersion"] = 86,
-["frameStrata"] = 1,
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MMK_13_踏",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["alpha"] = 1,
+["id"] = "MMK_13_踏",
+["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "3piA7n1Vb2H",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
+["conditions"] = {
 },
+["information"] = {
 },
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
+["width"] = 10,
 },
 ["MMK_STEP_HINT"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["authorOptions"] = {
-},
-["desaturate"] = false,
+["alpha"] = 1,
+["width"] = 100,
 ["parent"] = "MMK_HINT",
+["xOffset"] = 0,
+["mirror"] = false,
+["yOffset"] = -200,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
 ["color"] = {
 0.1921568810939789,
 1,
 0.3294117748737335,
 1,
 },
-["mirror"] = false,
-["yOffset"] = -200,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 270,
+["authorOptions"] = {
 },
-["talent"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["xOffset"] = 0,
-["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
+},
+["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura29",
+["conditions"] = {
+},
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["subeventPrefix"] = "SPELL",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["subeventPrefix"] = "SPELL",
+["names"] = {
+},
 ["unit"] = "target",
-["use_unit"] = true,
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_hostility"] = true,
+["use_dead"] = false,
+["use_unit"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -280,16 +259,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["subeventPrefix"] = "SPELL",
-["spellName"] = 388193,
+["debuffType"] = "HELPFUL",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["genericShowOn"] = "showOnCooldown",
-["unit"] = "player",
 ["names"] = {
 },
+["unit"] = "player",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 388193,
 },
 ["untrigger"] = {
 },
@@ -298,25 +277,24 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "aura2",
 ["useExactSpellId"] = true,
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["matchesShowOn"] = "showOnMissing",
 ["auraspellids"] = {
 "389387",
 },
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura29",
-["internalVersion"] = 86,
-["uid"] = "OJeMoACU5mx",
+["selfPoint"] = "CENTER",
+["id"] = "MMK_STEP_HINT",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -324,35 +302,54 @@ WeakAurasSaved = {
 ["type"] = "preset",
 ["easeType"] = "none",
 ["duration_type"] = "seconds",
-["preset"] = "alphaPulse",
 ["easeStrength"] = 3,
+["preset"] = "alphaPulse",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_STEP_HINT",
-["selfPoint"] = "CENTER",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
+["uid"] = "OJeMoACU5mx",
 ["config"] = {
 },
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 100,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 270,
 },
-["information"] = {
+["talent"] = {
+["multi"] = {
 },
-["width"] = 100,
+},
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
 },
 ["BDK_15_冰打"] = {
 ["parent"] = "BDK",
@@ -362,9 +359,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -373,18 +370,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["use_dead"] = false,
-["hostility"] = "hostile",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -409,14 +406,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -427,9 +424,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49143\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -462,13 +459,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["use_never"] = false,
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
-["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -479,37 +476,42 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["alpha"] = 1,
-["xOffset"] = 150,
+["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["tocversion"] = 110200,
 ["id"] = "BDK_15_冰打",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["width"] = 10,
+["frameStrata"] = 1,
 ["uid"] = "ecksjfizKAA",
-["authorOptions"] = {
-},
 ["config"] = {
+},
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -517,12 +519,7 @@ WeakAurasSaved = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 150,
 },
 ["SSM_15_蓝"] = {
 ["parent"] = "SMS",
@@ -532,10 +529,10 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
+["finish"] = {
+},
 ["init"] = {
 ["do_custom"] = false,
-},
-["finish"] = {
 },
 },
 ["triggers"] = {
@@ -556,16 +553,16 @@ WeakAurasSaved = {
 ["event"] = "Power",
 ["use_percentpower"] = true,
 ["use_unit"] = true,
-["percentpower"] = {
-"30",
+["percenthealth_operator"] = {
+"<=",
 },
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
 ["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
+["percentpower"] = {
+"30",
 },
 ["percentpower_operator"] = {
 "<=",
@@ -582,25 +579,25 @@ WeakAurasSaved = {
 ["event"] = "Item Count",
 ["unit"] = "player",
 ["count"] = "1",
-["debuffType"] = "HELPFUL",
-["use_itemName"] = true,
-["type"] = "item",
-["genericShowOn"] = "showOnCooldown",
 ["count_operator"] = ">=",
+["genericShowOn"] = "showOnCooldown",
+["type"] = "item",
+["use_itemName"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "item",
-["event"] = "Cooldown Progress (Item)",
+["use_itemName"] = true,
 ["itemName"] = 212239,
 ["genericShowOn"] = "showOnReady",
 ["use_genericShowOn"] = true,
-["use_itemName"] = true,
-["debuffType"] = "HELPFUL",
+["event"] = "Cooldown Progress (Item)",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -612,20 +609,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -652,13 +649,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
-["use_never"] = false,
-["use_alive"] = true,
-["use_combat"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_alive"] = true,
+["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -669,59 +666,80 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
+["uid"] = "MQHo)WRPvvm",
+["authorOptions"] = {
 },
-["xOffset"] = 150,
 ["tocversion"] = 110200,
 ["id"] = "SSM_15_蓝",
-["frameStrata"] = 1,
 ["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["width"] = 10,
-["uid"] = "MQHo)WRPvvm",
-["selfPoint"] = "BOTTOMLEFT",
+["config"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["selfPoint"] = "BOTTOMLEFT",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["authorOptions"] = {
-},
+["xOffset"] = 150,
 },
 ["DKT_5_戒指"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
+["xOffset"] = 50,
+["desaturate"] = false,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 50,
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["class"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["use_alive"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["parent"] = "DKT",
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -736,13 +754,13 @@ WeakAurasSaved = {
 ["stacks"] = "",
 ["spellIds"] = {
 },
-["unit"] = "player",
-["names"] = {
-},
-["useExactSpellId"] = true,
 ["auraspellids"] = {
 "1215495",
 },
+["useExactSpellId"] = true,
+["names"] = {
+},
+["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -755,11 +773,11 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 49028,
 ["use_inverse"] = true,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 49028,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -769,25 +787,25 @@ WeakAurasSaved = {
 ["use_inCombat"] = false,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["use_unit"] = true,
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["use_dead"] = true,
 ["use_absorbHealMode"] = true,
 ["type"] = "unit",
 ["use_unit"] = true,
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -796,49 +814,67 @@ WeakAurasSaved = {
 ["customTriggerLogic"] = "function(t)\n    return t[1] and (t[2] or t[3] or t[4])\nend",
 ["activeTriggerMode"] = -10,
 },
-["conditions"] = {
-},
-["internalVersion"] = 86,
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["uid"] = "uAnMzpRPenT",
 ["selfPoint"] = "BOTTOMLEFT",
 ["id"] = "DKT_5_戒指",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["alpha"] = 1,
-["width"] = 10,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "uAnMzpRPenT",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
+["conditions"] = {
+},
+["information"] = {
+},
+["width"] = 10,
+},
+["MMK_15_抚慰"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["uid"] = "8i31I8Nl5Jo",
+["desaturate"] = false,
+["xOffset"] = 150,
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
 ["load"] = {
-["use_alive"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
 ["class_and_spec"] = {
-["single"] = 250,
+["single"] = 270,
 },
 ["talent"] = {
 ["multi"] = {
@@ -848,49 +884,33 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["spec"] = {
-["multi"] = {
-},
-},
 ["use_class_and_spec"] = true,
+["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
 },
 },
-["desaturate"] = false,
-},
-["MMK_15_抚慰"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["parent"] = "MMK",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["width"] = 10,
-["xOffset"] = 150,
-["parent"] = "MMK",
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["authorOptions"] = {
-},
-["conditions"] = {
-},
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["rotate"] = false,
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -902,13 +922,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["unit"] = "target",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["use_unit"] = true,
-["hostility"] = "friendly",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "friendly",
+["use_unit"] = true,
+["unit"] = "target",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -952,14 +972,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -971,10 +991,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 115175,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 115175,
 },
 ["untrigger"] = {
 },
@@ -982,141 +1002,97 @@ WeakAurasSaved = {
 {
 ["trigger"] = {
 ["type"] = "aura2",
-["unit"] = "target",
+["debuffType"] = "HELPFUL",
 ["useExactSpellId"] = true,
-["matchesShowOn"] = "showOnMissing",
-["ownOnly"] = true,
 ["auraspellids"] = {
 "115175",
 },
-["debuffType"] = "HELPFUL",
+["matchesShowOn"] = "showOnMissing",
+["ownOnly"] = true,
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["internalVersion"] = 86,
-["frameStrata"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_15_抚慰",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_15_抚慰",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "8i31I8Nl5Jo",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["spec"] = {
-["multi"] = {
+["conditions"] = {
 },
+["information"] = {
 },
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["use_alive"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
+["width"] = 10,
 },
 ["MMK_1_移花"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
+["xOffset"] = 10,
+["anchorFrameType"] = "SCREEN",
+["parent"] = "MMK",
+["authorOptions"] = {
 },
-["desaturate"] = false,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["authorOptions"] = {
+["conditions"] = {
 },
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MMK",
-["xOffset"] = 10,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "spell",
 ["subeventSuffix"] = "_CAST_START",
-["debuffType"] = "HELPFUL",
+["spellName"] = 322101,
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["names"] = {
@@ -1125,11 +1101,11 @@ WeakAurasSaved = {
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
-["unit"] = "player",
-["use_inverse"] = false,
 ["genericShowOn"] = "showOnCooldown",
+["use_inverse"] = false,
+["unit"] = "player",
 ["use_track"] = true,
-["spellName"] = 322101,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -1139,18 +1115,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_unit"] = true,
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -1195,61 +1171,82 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["rotate"] = false,
 ["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_1_移花",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_1_移花",
-["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["width"] = 10,
+["desaturate"] = false,
 ["rotation"] = 0,
+["config"] = {
+},
 ["uid"] = "zCb5dCVEXXf",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
 },
-["information"] = {
 },
-["anchorFrameType"] = "SCREEN",
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["width"] = 10,
 },
 ["BDK_11_冰川"] = {
 ["parent"] = "BDK",
@@ -1259,9 +1256,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -1270,18 +1267,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["use_dead"] = false,
-["hostility"] = "hostile",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -1306,14 +1303,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -1324,9 +1321,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194913\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -1359,13 +1356,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["use_never"] = false,
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
-["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -1376,42 +1373,41 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["alpha"] = 1,
-["authorOptions"] = {
-},
+["width"] = 10,
+["xOffset"] = 110,
 ["tocversion"] = 110200,
 ["id"] = "BDK_11_冰川",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["width"] = 10,
+["frameStrata"] = 1,
 ["uid"] = "6cBkj50wCuj",
+["config"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["config"] = {
 },
 ["conditions"] = {
 },
@@ -1419,57 +1415,82 @@ WeakAurasSaved = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["xOffset"] = 110,
+["authorOptions"] = {
+},
 },
 ["MMK_3_糖"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["authorOptions"] = {
+["config"] = {
 },
-["desaturate"] = false,
+["anchorFrameType"] = "SCREEN",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["parent"] = "MMK",
+["xOffset"] = 30,
 ["mirror"] = false,
 ["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
+["anchorPoint"] = "CENTER",
+["load"] = {
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
 },
 ["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["xOffset"] = 30,
-["conditions"] = {
+["regionType"] = "texture",
+["parent"] = "MMK",
+["authorOptions"] = {
 },
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["rotate"] = false,
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["names"] = {
+},
 ["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "hostile",
+["use_unit"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -1501,25 +1522,25 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["use_includeCharges"] = true,
 ["count"] = "1",
-["count_operator"] = ">=",
-["itemName"] = 5512,
-["genericShowOn"] = "showOnCooldown",
-["use_itemName"] = true,
 ["debuffType"] = "HELPFUL",
+["use_itemName"] = true,
+["genericShowOn"] = "showOnCooldown",
+["itemName"] = 5512,
+["count_operator"] = ">=",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["itemName"] = 5512,
-["genericShowOn"] = "showOnReady",
+["event"] = "Cooldown Progress (Item)",
 ["type"] = "item",
 ["use_itemName"] = true,
 ["use_genericShowOn"] = true,
-["event"] = "Cooldown Progress (Item)",
-["unit"] = "player",
+["genericShowOn"] = "showOnReady",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -1546,207 +1567,59 @@ WeakAurasSaved = {
 },
 ["activeTriggerMode"] = -10,
 },
-["internalVersion"] = 86,
-["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_3_糖",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_3_糖",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["width"] = 10,
 ["rotation"] = 0,
 ["uid"] = "QNPmtbLra6z",
-["config"] = {
-},
+["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 270,
+["conditions"] = {
 },
-["talent"] = {
-["multi"] = {
+["information"] = {
 },
-},
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["anchorFrameType"] = "SCREEN",
+["desaturate"] = false,
 },
 ["MKT_12_爆炸"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["width"] = 10,
-["authorOptions"] = {
-},
-["xOffset"] = 120,
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MKT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 325153\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["use_debuffClass"] = false,
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["conditions"] = {
-},
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MKT_12_爆炸",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["alpha"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "sgz)jNw(eHg",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
+["anchorFrameType"] = "SCREEN",
+["parent"] = "MKT",
+["xOffset"] = 120,
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
 ["load"] = {
 ["use_alive"] = true,
 ["use_class_and_spec"] = true,
@@ -1771,28 +1644,11 @@ WeakAurasSaved = {
 },
 },
 },
-["anchorFrameType"] = "SCREEN",
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["authorOptions"] = {
 },
-["Timeline Icon waiting group"] = {
-["arcLength"] = 360,
-["controlledChildren"] = {
-"Timeline Icon waiting",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["wagoID"] = "NyseKq1Xo",
-["parent"] = "Raid Ability Timeline",
-["preferToUpdate"] = false,
-["yOffset"] = 15,
-["anchorPoint"] = "TOP",
-["stepAngle"] = 15,
-["borderColor"] = {
-0,
-0,
-0,
-1,
-},
-["space"] = 2,
-["url"] = "https://wago.io/RaidAbilityTimeline/81",
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
@@ -1804,24 +1660,78 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
-["unit"] = "player",
-["type"] = "aura2",
-["spellIds"] = {
-},
+["type"] = "unit",
+["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
-["debuffType"] = "HELPFUL",
-["event"] = "Health",
+["unit"] = "target",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["subeventPrefix"] = "SPELL",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["use_dead"] = false,
+["hostility"] = "hostile",
+["use_unit"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
 },
-["columnSpace"] = 1,
-["radius"] = 200,
-["useLimit"] = false,
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 325153\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["use_debuffClass"] = false,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["uid"] = "sgz)jNw(eHg",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MKT_12_爆炸",
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -1842,19 +1752,108 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["frameStrata"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["desaturate"] = false,
+},
+["Timeline Icon waiting group"] = {
+["arcLength"] = 360,
+["controlledChildren"] = {
+"Timeline Icon waiting",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["wagoID"] = "NyseKq1Xo",
+["parent"] = "Raid Ability Timeline",
+["preferToUpdate"] = false,
+["yOffset"] = 15,
+["anchorPoint"] = "TOP",
+["sort"] = "ascending",
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["space"] = 2,
+["url"] = "https://wago.io/RaidAbilityTimeline/81",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["names"] = {
+},
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["subeventPrefix"] = "SPELL",
+["debuffType"] = "HELPFUL",
+["event"] = "Health",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+},
+["columnSpace"] = 1,
+["radius"] = 200,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["selfPoint"] = "BOTTOM",
 ["align"] = "CENTER",
 ["grow"] = "UP",
 ["gridType"] = "RD",
 ["fullCircle"] = true,
 ["rotation"] = 0,
-["stagger"] = 0,
+["sortHybridTable"] = {
+["Timeline Icon waiting"] = false,
+},
 ["version"] = 81,
 ["subRegions"] = {
 },
-["xOffset"] = 0,
-["uid"] = "zHX0pjpkeZ8",
+["internalVersion"] = 86,
+["borderInset"] = 1,
 ["load"] = {
-["talent"] = {
+["size"] = {
 ["multi"] = {
 },
 },
@@ -1866,12 +1865,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["size"] = {
+["talent"] = {
 ["multi"] = {
 },
 },
 },
-["config"] = {
+["authorOptions"] = {
 },
 ["backdropColor"] = {
 1,
@@ -1879,18 +1878,18 @@ WeakAurasSaved = {
 1,
 0.5,
 },
-["animate"] = false,
 ["source"] = "import",
-["frameStrata"] = 1,
+["animate"] = false,
+["gridWidth"] = 5,
 ["scale"] = 1,
 ["centerType"] = "LR",
 ["border"] = false,
-["borderEdge"] = "Square Full White",
+["anchorFrameFrame"] = "WeakAuras:Vertical bar",
 ["regionType"] = "dynamicgroup",
 ["borderSize"] = 2,
-["sort"] = "ascending",
-["alpha"] = 1,
 ["limit"] = 5,
+["borderEdge"] = "Square Full White",
+["frameStrata"] = 1,
 ["anchorFrameParent"] = true,
 ["constantFactor"] = "RADIUS",
 ["rowSpace"] = 1,
@@ -1898,21 +1897,19 @@ WeakAurasSaved = {
 ["semver"] = "1.0.80",
 ["tocversion"] = 110107,
 ["id"] = "Timeline Icon waiting group",
-["anchorFrameFrame"] = "WeakAuras:Vertical bar",
-["gridWidth"] = 5,
+["stepAngle"] = 15,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
+["config"] = {
 },
-["borderInset"] = 1,
-["internalVersion"] = 86,
-["sortHybridTable"] = {
-["Timeline Icon waiting"] = false,
-},
+["uid"] = "zHX0pjpkeZ8",
+["xOffset"] = 0,
+["stagger"] = 0,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["selfPoint"] = "BOTTOM",
+["useLimit"] = false,
 },
 ["MMK_10_错骨"] = {
 ["color"] = {
@@ -1927,9 +1924,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -1946,9 +1943,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
 ["hostility"] = "hostile",
+["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -2000,10 +1997,10 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
-["spellName"] = 115078,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnReady",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 115078,
 },
 ["untrigger"] = {
 },
@@ -2019,9 +2016,9 @@ WeakAurasSaved = {
 ["castType"] = "channel",
 ["remaining"] = "0.5",
 ["use_interruptible"] = true,
-["unit"] = "target",
-["use_absorbMode"] = true,
 ["type"] = "unit",
+["use_absorbMode"] = true,
+["unit"] = "target",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -2039,7 +2036,7 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["event"] = "Cast",
-["remaining_operator"] = "<=",
+["use_unit"] = true,
 ["castType"] = "cast",
 ["use_spellName"] = true,
 ["spellIds"] = {
@@ -2080,10 +2077,10 @@ WeakAurasSaved = {
 449734,
 },
 ["use_absorbMode"] = true,
-["use_remaining"] = true,
 ["use_spellIds"] = true,
+["use_remaining"] = true,
 ["use_track"] = true,
-["use_unit"] = true,
+["remaining_operator"] = "<=",
 },
 ["untrigger"] = {
 },
@@ -2102,11 +2099,11 @@ WeakAurasSaved = {
 ["event"] = "Cast",
 ["castType"] = "cast",
 ["use_spellName"] = true,
-["unit"] = "target",
+["remaining_operator"] = ">=",
 ["use_remaining"] = true,
 ["use_absorbMode"] = true,
 ["use_track"] = true,
-["remaining_operator"] = ">=",
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
@@ -2120,11 +2117,11 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 116705,
 ["use_inverse"] = true,
 ["genericShowOn"] = "showOnReady",
 ["use_track"] = true,
-["spellName"] = 116705,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -2136,20 +2133,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -2176,13 +2173,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["use_never"] = false,
+["use_combat"] = true,
+["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
-["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -2193,26 +2190,26 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "ZwkDdhXtoIn",
-["parent"] = "MMK",
-["tocversion"] = 110200,
-["id"] = "MMK_10_错骨",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["width"] = 10,
-["frameStrata"] = 1,
 ["config"] = {
 },
+["selfPoint"] = "BOTTOMLEFT",
+["tocversion"] = 110200,
+["id"] = "MMK_10_错骨",
+["width"] = 10,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["uid"] = "ZwkDdhXtoIn",
+["xOffset"] = 100,
 ["authorOptions"] = {
 },
-["xOffset"] = 100,
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["selfPoint"] = "BOTTOMLEFT",
+["parent"] = "MMK",
 },
 ["BDK_8_印记"] = {
 ["parent"] = "BDK",
@@ -2222,9 +2219,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -2233,18 +2230,18 @@ WeakAurasSaved = {
 ["use_dead"] = false,
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["type"] = "unit",
-["hostility"] = "hostile",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
+["unit"] = "target",
 ["names"] = {
 },
-["unit"] = "target",
-["use_hostility"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -2269,14 +2266,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -2287,9 +2284,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 439843\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -2322,13 +2319,13 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["use_combat"] = true,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
+["use_combat"] = true,
+["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -2339,41 +2336,42 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "MU9crta2hUX",
-["xOffset"] = 80,
+["config"] = {
+},
+["authorOptions"] = {
+},
 ["tocversion"] = 110200,
 ["id"] = "BDK_8_印记",
-["alpha"] = 1,
 ["frameStrata"] = 1,
+["alpha"] = 1,
 ["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["config"] = {
+["uid"] = "MU9crta2hUX",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
 },
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
 },
 ["conditions"] = {
 },
@@ -2381,148 +2379,17 @@ WeakAurasSaved = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["authorOptions"] = {
-},
+["xOffset"] = 80,
 },
 ["MMK_23_猛虎"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["width"] = 10,
+["uid"] = "hUs1uOWiYwh",
+["desaturate"] = false,
 ["xOffset"] = 230,
-["authorOptions"] = {
-},
+["parent"] = "MMK",
 ["mirror"] = false,
 ["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["parent"] = "MMK",
-["conditions"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 100780,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["internalVersion"] = 86,
-["frameStrata"] = 1,
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MMK_23_猛虎",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "hUs1uOWiYwh",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
 ["load"] = {
 ["use_alive"] = true,
 ["use_class_and_spec"] = true,
@@ -2547,7 +2414,137 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "target",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["use_dead"] = false,
+["hostility"] = "hostile",
+["use_unit"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["debuffType"] = "HELPFUL",
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["spellName"] = 100780,
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["rotate"] = false,
+["internalVersion"] = 86,
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "MMK_23_猛虎",
+["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["width"] = 10,
 },
 ["FZT_10_雷鳴"] = {
 ["parent"] = "FZT",
@@ -2557,9 +2554,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -2576,9 +2573,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -2623,14 +2620,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -2642,10 +2639,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 384318,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 384318,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -2656,14 +2653,14 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["genericShowOn"] = "showOnCooldown",
 ["unit"] = "player",
-["debuffType"] = "HELPFUL",
+["spellName"] = 107574,
 ["use_spellName"] = true,
 ["type"] = "spell",
-["remaining_operator"] = ">=",
-["event"] = "Cooldown Progress (Spell)",
 ["remaining"] = "30",
+["event"] = "Cooldown Progress (Spell)",
+["remaining_operator"] = ">=",
 ["use_track"] = true,
-["spellName"] = 107574,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -2696,13 +2693,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["use_never"] = false,
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
-["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -2713,26 +2710,8 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["anchorFrameType"] = "SCREEN",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["frameStrata"] = 1,
+["authorOptions"] = {
 },
 ["tocversion"] = 110200,
 ["id"] = "FZT_10_雷鳴",
@@ -2743,19 +2722,37 @@ WeakAurasSaved = {
 1,
 },
 ["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["width"] = 10,
-["frameStrata"] = 1,
 ["uid"] = "6ymcvSAy8pj",
+["xOffset"] = 100,
 ["config"] = {
 },
-["xOffset"] = 100,
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["authorOptions"] = {
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
 },
 },
 ["SMS_12_恢复"] = {
@@ -2818,15 +2815,14 @@ WeakAurasSaved = {
 1,
 1,
 },
-["parent"] = "SMS",
+["preferToUpdate"] = false,
 ["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
-["barColor2"] = {
-1,
-1,
-0,
-1,
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
 },
-["crop_x"] = 0.41,
+["conditions"] = {
+},
 ["desaturateBackground"] = false,
 ["cooldownSwipe"] = true,
 ["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
@@ -2852,12 +2848,12 @@ WeakAurasSaved = {
 ["event"] = "Unit Characteristics",
 ["spellIds"] = {
 },
-["use_unit"] = true,
-["type"] = "unit",
-["hostility"] = "friendly",
-["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
+["subeventPrefix"] = "SPELL",
+["hostility"] = "friendly",
+["type"] = "unit",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -2906,14 +2902,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -2925,10 +2921,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 139,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 139,
 },
 ["untrigger"] = {
 },
@@ -2945,30 +2941,32 @@ WeakAurasSaved = {
 },
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["auto"] = true,
+["auraRotation"] = 0,
 ["load"] = {
-["zoneIds"] = "g431",
-["level_operator"] = {
-">=",
+["size"] = {
+["single"] = "party",
+["multi"] = {
 },
+},
+["use_zoneIds"] = false,
 ["use_level"] = false,
 ["instance_type"] = {
 ["single"] = 8,
@@ -2976,15 +2974,17 @@ WeakAurasSaved = {
 [8] = true,
 },
 },
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 257,
+["level"] = {
+"70",
 },
-["talent"] = {
+["level_operator"] = {
+">=",
+},
+["spec"] = {
 ["multi"] = {
 },
 },
+["use_never"] = false,
 ["difficulty"] = {
 },
 ["race"] = {
@@ -2996,28 +2996,32 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["spec"] = {
+["talent"] = {
 ["multi"] = {
 },
 },
-["level"] = {
-"70",
+["class_and_spec"] = {
+["single"] = 257,
 },
-["use_zoneIds"] = false,
-["size"] = {
-["single"] = "party",
-["multi"] = {
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["zoneIds"] = "g431",
+},
+["actions"] = {
+["start"] = {
+["sound_path"] = "",
+["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
+["do_sound"] = false,
+},
+["init"] = {
+},
+["finish"] = {
+["hide_all_glows"] = true,
 },
 },
-},
-["authorOptions"] = {
-},
-["limitWeakAuras"] = {
-["hash"] = "0bf6b48a855637aa0397388ef4dc9437a29c8f0a32e93b3c6e050d64da07f02c",
-},
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
+["sameTexture"] = true,
+["width"] = 10,
+["useCooldownModRate"] = true,
 ["version"] = 51,
 ["subRegions"] = {
 {
@@ -3026,66 +3030,59 @@ WeakAurasSaved = {
 },
 ["height"] = 10,
 ["textureSource"] = "Picker",
-["cooldownTextDisabled"] = true,
-["sparkBlendMode"] = "ADD",
-["useAdjustededMax"] = false,
-["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
-["source"] = "import",
-["id"] = "SMS_12_恢复",
-["config"] = {
-},
-["rotate"] = false,
-["mirror"] = false,
-["adjustedMin"] = "",
-["desaturate"] = false,
-["uid"] = "DjBvozQUKcB",
-["anchorFrameParent"] = false,
-["icon_side"] = "LEFT",
-["cooldown"] = true,
-["backgroundColor"] = {
-0,
-0,
-0,
-0.300000011920929,
-},
-["sparkHeight"] = 30,
-["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
-["sparkWidth"] = 10,
-["tocversion"] = 110200,
-["semver"] = "1.5.5",
-["fontSize"] = 12,
-["sparkHidden"] = "NEVER",
 ["foregroundColor"] = {
 1,
 1,
 1,
 1,
 },
-["useCooldownModRate"] = true,
-["width"] = 10,
-["sameTexture"] = true,
-["actions"] = {
-["start"] = {
-["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
-["sound_path"] = "",
-["do_sound"] = false,
+["sparkBlendMode"] = "ADD",
+["useAdjustededMax"] = false,
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["source"] = "import",
+["sparkHidden"] = "NEVER",
+["fontSize"] = 12,
+["rotate"] = false,
+["mirror"] = false,
+["tocversion"] = 110200,
+["sparkWidth"] = 10,
+["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["sparkHeight"] = 30,
+["icon_side"] = "LEFT",
+["backgroundColor"] = {
+0,
+0,
+0,
+0.300000011920929,
 },
-["finish"] = {
-["hide_all_glows"] = true,
+["cooldown"] = true,
+["anchorFrameParent"] = false,
+["uid"] = "DjBvozQUKcB",
+["desaturate"] = false,
+["adjustedMin"] = "",
+["semver"] = "1.5.5",
+["config"] = {
 },
-["init"] = {
+["id"] = "SMS_12_恢复",
+["cooldownTextDisabled"] = true,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["limitWeakAuras"] = {
+["hash"] = "0bf6b48a855637aa0397388ef4dc9437a29c8f0a32e93b3c6e050d64da07f02c",
 },
+["authorOptions"] = {
 },
 ["inverse"] = false,
-["auraRotation"] = 0,
+["auto"] = true,
 ["orientation"] = "HORIZONTAL",
-["conditions"] = {
+["crop_x"] = 0.41,
+["barColor2"] = {
+1,
+1,
+0,
+1,
 },
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["preferToUpdate"] = false,
+["parent"] = "SMS",
 },
 ["DKT_7_打断"] = {
 ["authorOptions"] = {
@@ -3096,9 +3093,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -3115,9 +3112,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
 ["hostility"] = "hostile",
+["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -3169,10 +3166,10 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
-["spellName"] = 47528,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnReady",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 47528,
 },
 ["untrigger"] = {
 },
@@ -3188,9 +3185,9 @@ WeakAurasSaved = {
 ["castType"] = "channel",
 ["remaining"] = "0.5",
 ["use_interruptible"] = true,
-["unit"] = "target",
-["use_absorbMode"] = true,
 ["type"] = "unit",
+["use_absorbMode"] = true,
+["unit"] = "target",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -3208,7 +3205,7 @@ WeakAurasSaved = {
 ["use_remaining"] = true,
 ["use_absorbHealMode"] = true,
 ["event"] = "Cast",
-["use_genericShowOn"] = true,
+["unit"] = "target",
 ["castType"] = "cast",
 ["use_spellName"] = true,
 ["spellIds"] = {
@@ -3249,10 +3246,10 @@ WeakAurasSaved = {
 449734,
 },
 ["use_absorbMode"] = true,
-["use_spellIds"] = true,
 ["type"] = "unit",
+["use_spellIds"] = true,
 ["use_track"] = true,
-["unit"] = "target",
+["use_genericShowOn"] = true,
 },
 ["untrigger"] = {
 },
@@ -3271,11 +3268,11 @@ WeakAurasSaved = {
 ["event"] = "Cast",
 ["castType"] = "cast",
 ["use_spellName"] = true,
-["use_unit"] = true,
+["use_genericShowOn"] = true,
 ["use_remaining"] = true,
 ["use_absorbMode"] = true,
 ["use_track"] = true,
-["use_genericShowOn"] = true,
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -3287,20 +3284,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -3325,14 +3322,14 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 250,
+},
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 250,
 },
 ["size"] = {
 ["multi"] = {
@@ -3344,23 +3341,7 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "Bb(XGPSUqFi",
-["xOffset"] = 70,
-["tocversion"] = 110200,
-["id"] = "DKT_7_打断",
-["frameStrata"] = 1,
-["alpha"] = 1,
-["width"] = 10,
-["anchorFrameType"] = "SCREEN",
 ["config"] = {
-},
-["parent"] = "DKT",
-["selfPoint"] = "BOTTOMLEFT",
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
 },
 ["color"] = {
 1,
@@ -3368,6 +3349,22 @@ WeakAurasSaved = {
 1,
 1,
 },
+["tocversion"] = 110200,
+["id"] = "DKT_7_打断",
+["alpha"] = 1,
+["frameStrata"] = 1,
+["width"] = 10,
+["anchorFrameType"] = "SCREEN",
+["uid"] = "Bb(XGPSUqFi",
+["selfPoint"] = "BOTTOMLEFT",
+["parent"] = "DKT",
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["xOffset"] = 70,
 },
 ["MKT_4_戒指"] = {
 ["parent"] = "MKT",
@@ -3377,9 +3374,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -3393,11 +3390,11 @@ WeakAurasSaved = {
 ["spellIds"] = {
 },
 ["unit"] = "player",
-["subeventPrefix"] = "SPELL",
-["useName"] = true,
 ["auranames"] = {
 "1215495",
 },
+["useName"] = true,
+["subeventPrefix"] = "SPELL",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -3411,15 +3408,15 @@ WeakAurasSaved = {
 ["event"] = "Cooldown Progress (Spell)",
 ["names"] = {
 },
-["debuffType"] = "HELPFUL",
+["spellName"] = 1241059,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["genericShowOn"] = "showOnCooldown",
-["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
+["subeventPrefix"] = "SPELL",
 ["use_track"] = true,
-["spellName"] = 1241059,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -3429,11 +3426,11 @@ WeakAurasSaved = {
 ["use_inCombat"] = false,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["use_unit"] = true,
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -3454,24 +3451,24 @@ WeakAurasSaved = {
 ["height"] = 10,
 ["rotate"] = false,
 ["load"] = {
-["use_never"] = false,
-["spec"] = {
-["multi"] = {
-},
-},
 ["class_and_spec"] = {
 ["single"] = 268,
 },
+["use_alive"] = true,
+["use_never"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_class_and_spec"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -3482,49 +3479,49 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
-},
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["uid"] = "R4pM4jDWs66",
+["authorOptions"] = {
 },
 ["tocversion"] = 110200,
 ["id"] = "MKT_4_戒指",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
 ["width"] = 10,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["alpha"] = 1,
-["uid"] = "R4pM4jDWs66",
-["xOffset"] = 40,
+["config"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 40,
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["authorOptions"] = {
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
 },
 },
 ["FZT_9_盾衝"] = {
@@ -3535,9 +3532,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -3554,9 +3551,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -3601,14 +3598,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -3620,10 +3617,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 385952,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 385952,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -3634,14 +3631,14 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["genericShowOn"] = "showOnCooldown",
 ["unit"] = "player",
-["debuffType"] = "HELPFUL",
+["spellName"] = 107574,
 ["use_spellName"] = true,
 ["type"] = "spell",
-["remaining_operator"] = ">=",
-["event"] = "Cooldown Progress (Spell)",
 ["remaining"] = "30",
+["event"] = "Cooldown Progress (Spell)",
+["remaining_operator"] = ">=",
 ["use_track"] = true,
-["spellName"] = 107574,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -3653,20 +3650,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -3693,13 +3690,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["use_never"] = false,
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
-["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -3710,23 +3707,23 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["parent"] = "FZT",
+["frameStrata"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
 ["tocversion"] = 110200,
 ["id"] = "FZT_9_盾衝",
 ["authorOptions"] = {
 },
 ["alpha"] = 1,
+["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
 ["uid"] = "YKNug3Zb0dp",
-["config"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["config"] = {
 },
 ["conditions"] = {
 },
@@ -3734,7 +3731,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["selfPoint"] = "BOTTOMLEFT",
+["parent"] = "FZT",
 },
 ["SMS_2_绝望祷言"] = {
 ["parent"] = "SMS",
@@ -3744,31 +3741,31 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "spell",
-["debuffType"] = "HELPFUL",
+["spellName"] = 19236,
 ["subeventSuffix"] = "_CAST_START",
-["genericShowOn"] = "showOnCooldown",
-["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
 ["realSpellName"] = "胜利在望",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
-["use_exact_spellName"] = false,
-["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
+["subeventPrefix"] = "SPELL",
+["use_exact_spellName"] = false,
 ["use_track"] = true,
-["spellName"] = 19236,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -3795,14 +3792,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -3814,20 +3811,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -3856,12 +3853,12 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
-["use_combat"] = true,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -3872,99 +3869,81 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "BTnMr(2wABz",
-["color"] = {
-1,
-1,
-1,
-1,
+["config"] = {
+},
+["authorOptions"] = {
 },
 ["tocversion"] = 110200,
 ["id"] = "SMS_2_绝望祷言",
-["alpha"] = 1,
 ["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["width"] = 10,
-["config"] = {
-},
-["selfPoint"] = "BOTTOMLEFT",
+["uid"] = "BTnMr(2wABz",
 ["xOffset"] = 20,
+["selfPoint"] = "BOTTOMLEFT",
 ["conditions"] = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-},
-},
-["MMK_17_旭日"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["authorOptions"] = {
-},
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 170,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+},
+["MMK_17_旭日"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["xOffset"] = 170,
+["parent"] = "MMK",
 ["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_alive"] = true,
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
+["regionType"] = "texture",
+["information"] = {
 },
 ["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MMK",
-["rotate"] = false,
+["anchorPoint"] = "CENTER",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["authorOptions"] = {
+},
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["conditions"] = {
+},
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_unit"] = true,
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -3989,14 +3968,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -4008,86 +3987,126 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 107428,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 107428,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["internalVersion"] = 86,
-["uid"] = "ISxpSpjqI8c",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MMK_17_旭日",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
+["id"] = "MMK_17_旭日",
+["selfPoint"] = "BOTTOMLEFT",
 ["alpha"] = 1,
 ["width"] = 10,
 ["rotation"] = 0,
+["uid"] = "ISxpSpjqI8c",
 ["config"] = {
 },
-["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 270,
 },
-["information"] = {
+["talent"] = {
+["multi"] = {
 },
-["desaturate"] = false,
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["anchorFrameType"] = "SCREEN",
 },
 ["MKT_1_移花"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
+["desaturate"] = false,
+["parent"] = "MKT",
+["xOffset"] = 10,
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 268,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 10,
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MKT",
-["authorOptions"] = {
-},
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -4095,7 +4114,7 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "spell",
 ["subeventSuffix"] = "_CAST_START",
-["spellName"] = 322101,
+["debuffType"] = "HELPFUL",
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["names"] = {
@@ -4104,11 +4123,11 @@ WeakAurasSaved = {
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
-["genericShowOn"] = "showOnCooldown",
-["use_inverse"] = false,
 ["unit"] = "player",
+["use_inverse"] = false,
+["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 322101,
 },
 ["untrigger"] = {
 },
@@ -4118,18 +4137,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["names"] = {
+},
 ["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "hostile",
+["use_unit"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -4174,84 +4193,62 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["conditions"] = {
-},
-["internalVersion"] = 86,
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["uid"] = "f4Q1nLAKS6X",
 ["selfPoint"] = "BOTTOMLEFT",
 ["id"] = "MKT_1_移花",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["alpha"] = 1,
-["width"] = 10,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "f4Q1nLAKS6X",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["spec"] = {
-["multi"] = {
+["conditions"] = {
 },
+["information"] = {
 },
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 268,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
+["width"] = 10,
 },
 ["Raid Ability Timeline Icon <10"] = {
 ["outline"] = "OUTLINE",
@@ -4268,7 +4265,7 @@ WeakAurasSaved = {
 ["yOffset"] = -4.6730041503906e-05,
 ["anchorPoint"] = "CENTER",
 ["cooldownSwipe"] = false,
-["semver"] = "1.0.80",
+["alpha"] = 1,
 ["customTextUpdate"] = "event",
 ["url"] = "https://wago.io/RaidAbilityTimeline/81",
 ["icon"] = true,
@@ -4282,22 +4279,22 @@ WeakAurasSaved = {
 ["use_cloneId"] = true,
 ["debuffType"] = "HELPFUL",
 ["type"] = "addons",
-["customVariables"] = "{\n    expirationTime = true,\n    duration = true,    \n    shouldGlow = {\n        display = \"Should Glow\",\n        type = \"bool\",\n        test = function(state, needle)\n            if aura_env and aura_env.IDoption and aura_env.IDoptions[state.spellID] then return (aura_env.IDoptions[state.spellID] and aura_env.IDoptions[state.spellID].glow) == (needle == 1) \n            elseif aura_env and aura_env.options and aura_env.options[state.message] then\n                return (aura_env.options[state.message] and aura_env.options[state.message].glow) == (needle == 1) \n            elseif aura_env and aura_env.options and aura_env.options[aura_env.state.submsg] and aura_env.options[aura_env.state.submsg].IgnoreAlertNumber then\n                return (aura_env.options[aura_env.state.submsg] and aura_env.options[aura_env.state.submsg].glow) == (needle == 1)           else return end        \n            \n        end,\n    },\n    \n}",
+["use_isBarEnabled"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["custom_hide"] = "timed",
-["names"] = {
-},
+["unevent"] = "auto",
+["custom_type"] = "status",
 ["event"] = "Boss Mod Timer",
-["check"] = "event",
-["unit"] = "player",
-["events"] = "PHOGUILD_RAT",
+["use_message"] = false,
+["use_remaining"] = true,
 ["spellIds"] = {
 },
-["use_remaining"] = true,
-["use_message"] = false,
-["custom_type"] = "status",
-["unevent"] = "auto",
-["use_isBarEnabled"] = true,
+["events"] = "PHOGUILD_RAT",
+["unit"] = "player",
+["check"] = "event",
+["names"] = {
+},
+["custom_hide"] = "timed",
+["customVariables"] = "{\n    expirationTime = true,\n    duration = true,    \n    shouldGlow = {\n        display = \"Should Glow\",\n        type = \"bool\",\n        test = function(state, needle)\n            if aura_env and aura_env.IDoption and aura_env.IDoptions[state.spellID] then return (aura_env.IDoptions[state.spellID] and aura_env.IDoptions[state.spellID].glow) == (needle == 1) \n            elseif aura_env and aura_env.options and aura_env.options[state.message] then\n                return (aura_env.options[state.message] and aura_env.options[state.message].glow) == (needle == 1) \n            elseif aura_env and aura_env.options and aura_env.options[aura_env.state.submsg] and aura_env.options[aura_env.state.submsg].IgnoreAlertNumber then\n                return (aura_env.options[aura_env.state.submsg] and aura_env.options[aura_env.state.submsg].glow) == (needle == 1)           else return end        \n            \n        end,\n    },\n    \n}",
 },
 ["untrigger"] = {
 },
@@ -4305,13 +4302,13 @@ WeakAurasSaved = {
 ["disjunctive"] = "any",
 ["activeTriggerMode"] = -10,
 },
-["cooldownTextDisabled"] = true,
+["zoom"] = 0,
 ["internalVersion"] = 86,
 ["keepAspectRatio"] = false,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -4322,599 +4319,32 @@ WeakAurasSaved = {
 ["colorG"] = 1,
 ["use_translate"] = true,
 ["type"] = "custom",
-["scaley"] = 1,
+["scalex"] = 1,
 ["easeType"] = "none",
 ["translateFunc"] = "function(progress, startX, startY, deltaX, deltaY)\n    local endX, endY = startX\n    --aura_env.collisionCalc()\n    if not aura_env.state then\n        endY = startY \n    elseif aura_env.state.paused then\n        local prog=1\n        if aura_env.state.remaining then\n            prog = aura_env.state.remaining/aura_env.states[aura_env.state.triggernum].remaining \n        end\n        if prog>1 then prog=1\n        elseif prog<0 then prog=0 end\n        if aura_env.TextAnchor == \"OUTER_LEFT\" then\n            endX = startX + aura_env.AuraWidth\n        elseif aura_env.TextAnchor == \"OUTER_RIGHT\" then\n            endX = startX - aura_env.AuraWidth\n        else  \n            assert(nil, \"RaidAbilityTimeline -- Unsupported Anchor detected: \".. aura_env.TextAnchor)\n        end\n        endY = startY - ((1-prog) * aura_env.config.travelDist) - (aura_env.state.c_offset or 0)\n    else\n        -- normal progress\n        local prog = 1\n        if aura_env.state.expirationTime then\n            prog = (aura_env.state.expirationTime - GetTime()) / aura_env.config.maxDur\n        end\n        if prog > 1 then\n            prog = 1\n        elseif prog < 0 then\n            prog = 0\n        end\n        endY = startY - ((1 - prog) * aura_env.config.travelDist) - (aura_env.state.c_offset or 0) -- + aura_env.config.spacing / 4\n    end\n    if aura_env.config.reverse then\n        endY = -aura_env.config.travelDist - endY\n    end\n    return endX, endY\nend",
-["use_color"] = false,
+["scaley"] = 1,
 ["alpha"] = 0,
-["x"] = 0,
+["colorB"] = 1,
 ["y"] = 0,
-["colorType"] = "straightColor",
-["easeStrength"] = 3,
+["x"] = 0,
+["rotate"] = 0,
 ["translateType"] = "custom",
 ["colorFunc"] = "    function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n      return r1 + (progress * (r2 - r1)), g1 + (progress * (g2 - g1)), b1 + (progress * (b2 - b1)), a1 + (progress * (a2 - a1))\n    end\n  ",
-["rotate"] = 0,
-["colorB"] = 1,
-["scalex"] = 1,
+["easeStrength"] = 3,
+["colorType"] = "straightColor",
+["use_color"] = false,
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["authorOptions"] = {
-{
-["type"] = "number",
-["useDesc"] = true,
-["max"] = 9999,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "maxDur",
-["desc"] = "This needs to match the trigger of Timeline Icon waiting group and Timeline Icon it only controls the ticks being displayed by the background",
-["name"] = "Travel Duration",
-["default"] = 10,
-},
-{
-["subOptions"] = {
-{
-["type"] = "input",
-["useDesc"] = true,
-["width"] = 1,
-["name"] = "Name this Entry",
-["default"] = "Name this Entry",
-["desc"] = "Name this Entry",
-["key"] = "NameField",
-["length"] = 10,
-["multiline"] = false,
-["useLength"] = false,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 1,
-["width"] = 1,
-["useHeight"] = false,
-},
-{
-["useName"] = false,
-["type"] = "header",
-["text"] = "",
-["noMerge"] = false,
-["width"] = 1,
-},
-{
-["type"] = "input",
-["useDesc"] = true,
-["width"] = 1,
-["name"] = "Message",
-["default"] = "",
-["desc"] = "DBM/BW Message to be filtered for",
-["key"] = "message",
-["length"] = 10,
-["multiline"] = false,
-["useLength"] = false,
-},
-{
-["type"] = "toggle",
-["default"] = true,
-["desc"] = "Tick this if you want to ignore the Alert Number e.g. TestBar (4) and replace info for all TestBar's",
-["key"] = "IgnoreAlertNumber",
-["useDesc"] = true,
-["name"] = "Ignore Alert Number",
-["width"] = 1,
-},
-{
-["type"] = "number",
-["useDesc"] = true,
-["max"] = 99999999,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "spellid",
-["desc"] = "Spellid of the BW message to be filtered for",
-["name"] = "Spellid",
-["default"] = 0,
-},
-{
-["type"] = "description",
-["text"] = "Message or spellid are optional and only one has to be set to work",
-["fontSize"] = "medium",
-["width"] = 2,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Use \"Name\" as replacement text",
-["key"] = "replaceSpellName",
-["useDesc"] = true,
-["name"] = "Replace Spell Name",
-["width"] = 1,
-},
-{
-["type"] = "input",
-["useDesc"] = false,
-["width"] = 1,
-["key"] = "spellName",
-["name"] = "Name",
-["multiline"] = false,
-["length"] = 10,
-["default"] = "",
-["useLength"] = false,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Replace the Text color",
-["key"] = "replaceTextColor",
-["useDesc"] = true,
-["name"] = "Replace Text Color",
-["width"] = 1,
-},
-{
-["type"] = "color",
-["default"] = {
-1,
-1,
-1,
-1,
-},
-["desc"] = "Colors the text if \"Replace\" is checked",
-["key"] = "textColor",
-["useDesc"] = true,
-["name"] = "Text Color",
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Enables glow for the given Spell",
-["key"] = "glow",
-["useDesc"] = true,
-["name"] = "Enable Glow",
-["width"] = 1,
-},
-{
-["type"] = "color",
-["default"] = {
-1,
-1,
-1,
-1,
-},
-["key"] = "glowColor",
-["useDesc"] = false,
-["name"] = "Glow Color",
-["width"] = 1,
-},
-},
-["hideReorder"] = true,
-["useDesc"] = false,
-["nameSource"] = 1,
-["width"] = 2,
-["useCollapse"] = true,
-["collapse"] = false,
-["name"] = "Spell Options",
-["key"] = "spellOptions",
-["limitType"] = "none",
-["groupType"] = "array",
-["type"] = "group",
-["size"] = 10,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 6,
-["width"] = 2,
-["useHeight"] = true,
-},
-{
-["type"] = "header",
-["text"] = "",
-["useName"] = false,
-["width"] = 1,
-},
-{
-["type"] = "description",
-["text"] = "\n",
-["fontSize"] = "medium",
-["width"] = 2,
-},
-{
-["desc"] = "Set up how you wanna display Bar Names by default it will show everything like DBM/BW does HideNumber hides the spell number behind certain casts while DbmHide~ hides the ~ infront of some spells",
-["type"] = "select",
-["values"] = {
-"default",
-"DbmHide~",
-"HideNumber",
-"DBMonlyName",
-},
-["default"] = 1,
-["key"] = "NameOption",
-["useDesc"] = true,
-["name"] = "NameOption",
-["width"] = 1,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 1,
-["width"] = 1,
-["useHeight"] = false,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Because I was inverted...",
-["key"] = "reverse",
-["useDesc"] = true,
-["name"] = "Inverse Travel Direction",
-["width"] = 0.8,
-},
-{
-["type"] = "space",
-["variableWidth"] = false,
-["width"] = 1,
-},
-{
-["min"] = 0,
-["type"] = "number",
-["default"] = 200,
-["desc"] = "The total travel distance of the icons. You will also need to manually change the length of the line in the background.",
-["key"] = "travelDist",
-["name"] = "Travel Distance",
-["useDesc"] = true,
-["width"] = 0.6,
-},
-{
-["type"] = "number",
-["useDesc"] = true,
-["max"] = 9999,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "IconSpacing",
-["desc"] = "if you want additional spacing between the icons set the value here",
-["name"] = "Icon Spacing while traveling",
-["default"] = 0,
-},
-{
-["type"] = "space",
-["variableWidth"] = false,
-["width"] = 1,
-},
-{
-["type"] = "number",
-["useDesc"] = true,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "textMaxLength",
-["desc"] = "Max length of the text by the icon. Text longer than this will be truncated and followed by \"..\". Set to 0 to disable truncating text.",
-["name"] = "Text Max Length",
-["default"] = 20,
-},
-{
-["desc"] = "Select how you want to display Paused timers",
-["type"] = "select",
-["values"] = {
-"replace name with paused",
-"add paused to name",
-"add paused but shorten",
-"don't change",
-},
-["default"] = 1,
-["key"] = "textPausedOptions",
-["useDesc"] = true,
-["name"] = "Text Options - Paused",
-["width"] = 1,
-},
-{
-["type"] = "space",
-["variableWidth"] = false,
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = true,
-["key"] = "UseBossModsColor",
-["useDesc"] = false,
-["name"] = "Use Bossmods text Color",
-["width"] = 1,
-},
-},
 ["adjustedMax"] = "",
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["desc"] = "",
-["displayIcon"] = "134376",
-["font"] = "Friz Quadrata TT",
-["version"] = 81,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-{
-["text_shadowXOffset"] = 0,
-["text_text"] = "%c",
-["text_text_format_c.2_format"] = "none",
-["text_text_format_1_format"] = "none",
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
-["text_selfPoint"] = "AUTO",
-["text_automaticWidth"] = "Auto",
-["text_fixedWidth"] = 64,
-["text_text_format_c_format"] = "none",
-["text_justify"] = "CENTER",
-["rotateText"] = "NONE",
-["type"] = "subtext",
-["text_color"] = {
-1,
-1,
-1,
-1,
-},
-["text_font"] = "ArchivoNarrow-Bold",
-["text_wordWrap"] = "WordWrap",
-["text_shadowYOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-["text_text_format_c2_format"] = "none",
-["text_visible"] = true,
-["text_text_format_c1_format"] = "none",
-["anchorYOffset"] = 0,
-["anchor_point"] = "OUTER_LEFT",
-["text_fontSize"] = 15,
-["anchorXOffset"] = 0,
-["text_text_format_c.1_format"] = "none",
-},
-{
-["text_shadowXOffset"] = 0,
-["text_text"] = "%c",
-["text_text_format_c.2_format"] = "none",
-["text_text_format_1_format"] = "none",
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
-["text_selfPoint"] = "AUTO",
-["text_automaticWidth"] = "Auto",
-["text_fixedWidth"] = 64,
-["text_text_format_c_format"] = "none",
-["text_justify"] = "CENTER",
-["rotateText"] = "NONE",
-["type"] = "subtext",
-["text_color"] = {
-1,
-1,
-1,
-1,
-},
-["text_font"] = "ArchivoNarrow-Bold",
-["text_wordWrap"] = "WordWrap",
-["text_shadowYOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-["text_text_format_c2_format"] = "none",
-["text_visible"] = false,
-["text_text_format_c1_format"] = "none",
-["anchorYOffset"] = 0,
-["anchor_point"] = "OUTER_RIGHT",
-["text_fontSize"] = 15,
-["anchorXOffset"] = 0,
-["text_text_format_c.1_format"] = "none",
-},
-{
-["text_text_format_p_time_format"] = 0,
-["text_text"] = "%p",
-["text_text_format_p_gcd_cast"] = false,
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
-["text_fixedWidth"] = 64,
-["text_text_format_p_time_legacy_floor"] = true,
-["rotateText"] = "NONE",
-["text_text_format_p_decimal_precision"] = 0,
-["text_text_format_p_gcd_gcd"] = true,
-["text_color"] = {
-1,
-1,
-0,
-1,
-},
-["text_text_format_p_gcd_channel"] = false,
-["text_shadowYOffset"] = 0,
-["text_wordWrap"] = "WordWrap",
-["text_visible"] = true,
-["text_text_format_p_gcd_hide_zero"] = false,
-["text_fontSize"] = 13,
-["anchorXOffset"] = 0,
-["text_text_format_p_round_type"] = "ceil",
-["text_text_format_c.2_format"] = "none",
-["text_text_format_p_time_mod_rate"] = true,
-["text_selfPoint"] = "AUTO",
-["text_automaticWidth"] = "Auto",
-["anchorYOffset"] = 0,
-["text_justify"] = "CENTER",
-["type"] = "subtext",
-["text_font"] = "PT Sans Narrow",
-["text_text_format_p_time_dynamic_threshold"] = 1,
-["text_shadowXOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-["anchor_point"] = "CENTER",
-["text_text_format_c2_format"] = "none",
-["text_text_format_p_format"] = "timed",
-["text_text_format_p_time_precision"] = 1,
-},
-{
-["glowFrequency"] = 0.25,
-["type"] = "subglow",
-["glowDuration"] = 1,
-["glowType"] = "Pixel",
-["glowThickness"] = 2,
-["glowYOffset"] = 0,
-["glowColor"] = {
-1,
-1,
-1,
-1,
-},
-["useGlowColor"] = true,
-["glowXOffset"] = 0,
-["glowLength"] = 10,
-["glow"] = false,
-["glowScale"] = 1,
-["glowLines"] = 8,
-["glowBorder"] = false,
-},
-},
-["height"] = 31.999906539917,
-["cooldownEdge"] = false,
-["load"] = {
-["ingroup"] = {
-["multi"] = {
-},
-},
-["affixes"] = {
-["multi"] = {
-},
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["zoneIds"] = "",
-["spec"] = {
-["multi"] = {
-},
-},
-["difficulty"] = {
-["multi"] = {
-},
-},
-["race"] = {
-["multi"] = {
-},
-},
-["use_never"] = false,
-["pvptalent"] = {
-["multi"] = {
-},
-},
-["role"] = {
-["multi"] = {
-},
-},
-["faction"] = {
-["multi"] = {
-},
-},
-["talent2"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-["party"] = true,
-["fortyman"] = true,
-["ten"] = true,
-["twentyfive"] = true,
-["twenty"] = true,
-["flexible"] = true,
-},
-},
-},
-["xOffset"] = 1.7166137695312e-05,
-["useAdjustededMax"] = false,
-["fontSize"] = 12,
-["source"] = "import",
-["uid"] = "PEHOl(iv4)t",
-["anchorFrameFrame"] = "WeakAuras:Vertical bar",
-["anchorFrameType"] = "SCREEN",
-["useCooldownModRate"] = true,
-["useAdjustededMin"] = false,
-["regionType"] = "icon",
-["stickyDuration"] = false,
-["alpha"] = 1,
 ["parent"] = "Raid Ability Timeline",
-["justify"] = "LEFT",
-["desaturate"] = false,
-["displayText"] = "%p",
-["zoom"] = 0,
-["auto"] = true,
-["tocversion"] = 110107,
-["id"] = "Raid Ability Timeline Icon <10",
-["actions"] = {
-["start"] = {
-["custom"] = "aura_env.mystates[aura_env.state] = true\naura_env.collisionCalc()\n--aura_env.hideBars()",
-["do_custom"] = true,
-},
-["init"] = {
-["custom"] = "aura_env.mystates = {}\naura_env.TextAnchor = WeakAuras.GetData(aura_env.id).subRegions[2].anchor_point\naura_env.AuraWidth = aura_env.region:GetWidth()\naura_env.AuraHeight = aura_env.region:GetHeight()\naura_env.options = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.options[option.message] = option\nend\naura_env.IDoptions = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.IDoptions[tostring(option.spellid)] = option\nend\n\n\nfunction aura_env.collisionCalc()\n    -- Refresh and recalculate offset\n    \n    local events={}\n    -- Sort everything by exp\n    local now = GetTime()\n    \n    for state in pairs(aura_env.mystates) do\n        state.c_offset = 0\n        table.insert(events, state)\n    end\n    table.sort(events, function(a, b) return (a.expirationTime or 0)<(b.expirationTime or 0) end)\n    \n    -- Calculate offset for the regluar events to prevent icon collision\n    for i = #events, 1, -1 do\n        local state = events[i]\n        local lastState = events[i+1]\n        if lastState then\n            state.c_offset = (aura_env.AuraHeight+aura_env.config.IconSpacing) - \n            (((lastState.expirationTime or 0) - (state.expirationTime or 0)) *\n                aura_env.config.travelDist / 10  - (lastState.c_offset or 0))\n            -- offset must be positive\n            if state.c_offset < 0 then state.c_offset = 0 end\n        end\n    end\nend\n\n--[[\naura_env.hideDBMBarsHelper=function()\n    if DBM and DBM.Bars then\n        if aura_env.config.hideDBMBars then\n            \n            if not DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n                local skin = DBT:RegisterSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n                skin.Options = {\n                    HugeAlpha = 0.0001,\n                    Alpha = 0.0001,\n                    IconLeft = false,\n                    IconRight = false,\n                    InlineIcons = false,\n                    Bar7CustomInline = false\n                }\n                DBT:SetSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n                DBT:Rearrange()\n            end\n            \n        end\n    end\nend\naura_env.hideDBMBarsHelper()\n\n\naura_env.hideBars = function()\n    if aura_env.config.hideDBMBars\n    and DBM \n    and DBM.Bars\n    and DBM.Bars.numBars then\n        for i = 1, DBM.Bars.numBars do\n            if _G[\"DBT_Bar_\"..i] then\n                _G[\"DBT_Bar_\"..i]:Hide()\n            end\n        end\n    end\nend\n--]]",
-["do_custom"] = true,
-},
-["finish"] = {
-["custom"] = "aura_env.mystates[aura_env.state] = nil\naura_env.collisionCalc()",
-["do_custom"] = true,
-},
-},
-["frameStrata"] = 1,
-["width"] = 32.000034332275,
-["selfPoint"] = "CENTER",
-["config"] = {
-["travelDist"] = 198,
-["textPausedOptions"] = 1,
-["textMaxLength"] = 20,
-["maxDur"] = 10,
-["NameOption"] = 1,
-["reverse"] = false,
-["spellOptions"] = {
-{
-["glow"] = true,
-["NameField"] = "Pause",
-["glowColor"] = {
-1,
-0,
-1,
-1,
-},
-["IgnoreAlertNumber"] = false,
-["replaceTextColor"] = true,
-["textColor"] = {
-0,
-1,
-0,
-1,
-},
-["message"] = "Pause!",
-["replaceSpellName"] = true,
-["spellid"] = 0,
-["spellName"] = "Partytimer!",
-},
-},
-["IconSpacing"] = 0,
-["UseBossModsColor"] = true,
-},
-["inverse"] = false,
-["progressSource"] = {
--1,
-"",
-},
+["cooldown"] = true,
+["desc"] = "",
 ["conditions"] = {
 {
 ["check"] = {
@@ -4945,8 +4375,8 @@ WeakAurasSaved = {
 {
 ["trigger"] = 1,
 ["op"] = "<",
-["variable"] = "expirationTime",
 ["value"] = "11",
+["variable"] = "expirationTime",
 },
 {
 ["value"] = "11",
@@ -4972,8 +4402,8 @@ WeakAurasSaved = {
 {
 ["trigger"] = 1,
 ["op"] = "<",
-["variable"] = "expirationTime",
 ["value"] = "1",
+["variable"] = "expirationTime",
 },
 {
 ["value"] = "1",
@@ -5006,8 +4436,8 @@ WeakAurasSaved = {
 {
 ["trigger"] = 1,
 ["op"] = "<",
-["variable"] = "expirationTime",
 ["value"] = "6",
+["variable"] = "expirationTime",
 },
 {
 ["value"] = "6",
@@ -5040,8 +4470,8 @@ WeakAurasSaved = {
 {
 ["trigger"] = 1,
 ["op"] = "<=",
-["variable"] = "expirationTime",
 ["value"] = "10",
+["variable"] = "expirationTime",
 },
 {
 ["value"] = "10",
@@ -5074,69 +4504,6 @@ WeakAurasSaved = {
 },
 },
 },
-["cooldown"] = true,
-["adjustedMin"] = "",
-},
-["Timeline Icon waiting"] = {
-["outline"] = "OUTLINE",
-["iconSource"] = -1,
-["wagoID"] = "NyseKq1Xo",
-["xOffset"] = 1.7166137695312e-05,
-["adjustedMax"] = "",
-["customText"] = "function()\n    if not aura_env.state or WeakAuras.IsOptionsOpen() then return end \n    -- set variables\n    local state = aura_env.state\n    local config = aura_env.config\n    local text = aura_env.state.name\n    if not text then \n        text = aura_env.state.name\n    end\n    local IDoptions = aura_env.IDoptions\n    local options = aura_env.options\n    local submsg = strtrim(text:gsub(\"~\", \"\")) -- cut ~\n    local cutmsg = strtrim(text:gsub(\"^~ ?\", \"\"):gsub(\"%s+%(%d+%)\",\"\"))  -- cut number and ~\n    local nbmsg = strtrim(text:gsub(\"%s+%(%d+%)\",\"\")) -- cut number\n    \n    \n    -- adjust text according to options if needed\n    if options and options[text] and options[text].replaceSpellName and options[text].spellName  then\n        text = options[text].spellName\n        --spell Name\n    elseif state.spellId and state.spellId ~=0 and IDoptions and IDoptions[state.spellId] and IDoptions[state.spellId].replaceSpellName and IDoptions[state.spellId].spellName then\n        text = IDoptions[state.spellId].spellName\n        --spell ID\n    elseif options and options[submsg] and options[submsg].replaceSpellName and options[submsg].spellName then\n        text = options[submsg].spellName\n        --spell Name ignore ~\n    elseif options and options[cutmsg] and options[cutmsg].replaceSpellName and options[cutmsg].spellName and options[cutmsg].IgnoreAlertNumber then\n        text = options[cutmsg].spellName\n        --spell Name ignore Spellcount\n        \n    elseif config.NameOption == 2 then\n        text = submsg\n        -- hide ~ \n    elseif config.NameOption == 3 then\n        text = nbmsg\n        -- hide number\n    elseif config.NameOption == 4 then\n        text = cutmsg\n        -- hide number and ~\n    end\n    \n    \n    -- more Text Adjustments\n    if not text then return end \n    local IconAdjust = string.len(string.match(text,\"|T.-|t\") or \"\") -- find length of any icon within the name\n    text = strtrim(text) -- Trim   \n    if IconAdjust > 0 then IconAdjust = IconAdjust - 2 end -- Make icons take 2 characters in calculation\n    if (config.textMaxLength or 0)>=5 and text:len()-IconAdjust>config.textMaxLength then -- check if length exceeeds the maximum \n        text = WA_Utf8Sub(text,config.textMaxLength+IconAdjust)..\"..\" -- Truncate     \n    end\n    -- adjust texts for paused options\n    if state.paused and config.textPausedOptions == 1 then   \n        text = \"Paused\"\n    elseif state.paused and config.textPausedOptions == 2 then\n        text = text..\"Paused\"\n    elseif state.paused and config.textPausedOptions == 3 then\n        text = WA_Utf8Sub(text,text:len()-8)..\"..\"\n        text = text..\"Paused\"\n    end \n    \n    -- Adjust color according to custom option (this should be a condition but not possible yet)\n    if state.spellId and state.spellId ~=0 and IDoptions and IDoptions[state.spellId] and IDoptions[state.spellId].replaceTextColor then\n        local r,g,b,a = unpack(IDoptions[state.spellId].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n        \n    elseif options and options[state.message] and options[state.message].replaceTextColor then\n        local r,g,b,a = unpack(options[state.message].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n    elseif options and options[submsg] and options[submsg].replaceTextColor and aura_env.options[submsg].IgnoreAlertNumber then\n        local r,g,b,a = unpack(options[submsg].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n    elseif options and options[cutmsg] and options[cutmsg].replaceTextColor and options[cutmsg].IgnoreAlertNumber then\n        local r,g,b,a = unpack(options[cutmsg].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n        \n    elseif state.dbmColor and aura_env.config.UseBossModsColor then\n        local r,g,b = unpack(state.dbmColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255,255*r,255*g,255*b,text)\n    elseif state.bwTextColor and aura_env.config.UseBossModsColor then\n        local r,g,b = unpack(state.bwTextColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255,255*r,255*g,255*b,text)\n        \n    end\n    return text\nend\n\n\n",
-["yOffset"] = -4.6730041503906e-05,
-["anchorPoint"] = "CENTER",
-["cooldownSwipe"] = false,
-["auto"] = true,
-["customTextUpdate"] = "event",
-["url"] = "https://wago.io/RaidAbilityTimeline/81",
-["icon"] = true,
-["triggers"] = {
-{
-["trigger"] = {
-["use_remaining"] = true,
-["use_count"] = false,
-["subeventSuffix"] = "_CAST_START",
-["remaining_operator"] = ">",
-["event"] = "Boss Mod Timer",
-["unit"] = "player",
-["use_isBarEnabled"] = true,
-["remaining"] = "10",
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["names"] = {
-},
-["type"] = "addons",
-["use_cloneId"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["activeTriggerMode"] = -10,
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["internalVersion"] = 86,
-["progressSource"] = {
--1,
-"",
-},
-["selfPoint"] = "CENTER",
-["keepAspectRatio"] = false,
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["displayIcon"] = "134376",
-["desaturate"] = false,
-["desc"] = "",
 ["font"] = "Friz Quadrata TT",
 ["version"] = 81,
 ["subRegions"] = {
@@ -5168,17 +4535,17 @@ WeakAurasSaved = {
 1,
 },
 ["text_font"] = "ArchivoNarrow-Bold",
-["text_wordWrap"] = "WordWrap",
+["text_text_format_c.1_format"] = "none",
 ["text_shadowYOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-["text_text_format_c2_format"] = "none",
 ["text_visible"] = true,
+["text_wordWrap"] = "WordWrap",
+["text_fontType"] = "OUTLINE",
 ["text_text_format_c1_format"] = "none",
 ["anchorYOffset"] = 0,
 ["anchor_point"] = "OUTER_LEFT",
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_c.1_format"] = "none",
+["text_text_format_c2_format"] = "none",
 },
 {
 ["text_shadowXOffset"] = 0,
@@ -5205,17 +4572,17 @@ WeakAurasSaved = {
 1,
 },
 ["text_font"] = "ArchivoNarrow-Bold",
-["text_wordWrap"] = "WordWrap",
+["text_text_format_c.1_format"] = "none",
 ["text_shadowYOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-["text_text_format_c2_format"] = "none",
 ["text_visible"] = false,
+["text_wordWrap"] = "WordWrap",
+["text_fontType"] = "OUTLINE",
 ["text_text_format_c1_format"] = "none",
 ["anchorYOffset"] = 0,
 ["anchor_point"] = "OUTER_RIGHT",
 ["text_fontSize"] = 15,
 ["anchorXOffset"] = 0,
-["text_text_format_c.1_format"] = "none",
+["text_text_format_c2_format"] = "none",
 },
 {
 ["text_text_format_p_time_format"] = 0,
@@ -5254,13 +4621,13 @@ WeakAurasSaved = {
 ["text_justify"] = "CENTER",
 ["type"] = "subtext",
 ["text_font"] = "PT Sans Narrow",
-["text_text_format_p_time_dynamic_threshold"] = 1,
-["text_shadowXOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-["anchor_point"] = "CENTER",
-["text_text_format_c2_format"] = "none",
-["text_text_format_p_format"] = "timed",
 ["text_text_format_p_time_precision"] = 1,
+["text_text_format_p_format"] = "timed",
+["text_text_format_c2_format"] = "none",
+["anchor_point"] = "CENTER",
+["text_fontType"] = "OUTLINE",
+["text_shadowXOffset"] = 0,
+["text_text_format_p_time_dynamic_threshold"] = 1,
 },
 {
 ["glowFrequency"] = 0.25,
@@ -5277,21 +4644,25 @@ WeakAurasSaved = {
 },
 ["useGlowColor"] = true,
 ["glowXOffset"] = 0,
-["glowLength"] = 10,
-["glow"] = false,
 ["glowScale"] = 1,
+["glow"] = false,
+["glowLength"] = 10,
 ["glowLines"] = 8,
 ["glowBorder"] = false,
 },
 },
 ["height"] = 31.999906539917,
-["preferToUpdate"] = false,
+["displayText"] = "%p",
 ["load"] = {
-["talent"] = {
+["ingroup"] = {
 ["multi"] = {
 },
 },
-["spec"] = {
+["affixes"] = {
+["multi"] = {
+},
+},
+["talent"] = {
 ["multi"] = {
 },
 },
@@ -5301,88 +4672,58 @@ WeakAurasSaved = {
 },
 ["size"] = {
 ["multi"] = {
+["party"] = true,
+["flexible"] = true,
+["ten"] = true,
+["twentyfive"] = true,
+["fortyman"] = true,
+["twenty"] = true,
 },
 },
+["talent2"] = {
+["multi"] = {
 },
-["uid"] = "T9XAeAKCuKy",
+},
+["difficulty"] = {
+["multi"] = {
+},
+},
+["race"] = {
+["multi"] = {
+},
+},
+["faction"] = {
+["multi"] = {
+},
+},
+["pvptalent"] = {
+["multi"] = {
+},
+},
+["role"] = {
+["multi"] = {
+},
+},
+["use_never"] = false,
+["spec"] = {
+["multi"] = {
+},
+},
+["zoneIds"] = "",
+},
+["adjustedMin"] = "",
 ["useAdjustededMax"] = false,
 ["fontSize"] = 12,
 ["source"] = "import",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["colorR"] = 1,
-["duration_type"] = "seconds",
-["colorA"] = 1,
-["colorG"] = 1,
-["use_translate"] = false,
-["colorB"] = 1,
-["type"] = "none",
-["scalex"] = 1,
-["easeType"] = "none",
-["translateFunc"] = "function(progress, startX, startY, deltaX, deltaY)\n    return startX + (progress * deltaX), startY + (progress * deltaY)\nend\n",
-["scaley"] = 1,
-["alpha"] = 0,
-["easeStrength"] = 5,
-["y"] = -220,
-["x"] = 0,
-["use_scale"] = false,
-["scaleType"] = "straightScale",
-["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n    return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\nend\n",
-["rotate"] = 0,
-["translateType"] = "straightTranslate",
-["duration"] = "10",
-},
-["finish"] = {
-["type"] = "none",
-["easeType"] = "none",
-["easeStrength"] = 3,
-["preset"] = "slidebottom",
-["duration_type"] = "seconds",
-},
-},
-["width"] = 32.000034332275,
-["useCooldownModRate"] = true,
-["displayText"] = "%p",
-["anchorFrameFrame"] = "WeakAuras:Vertical bar",
-["regionType"] = "icon",
-["parent"] = "Timeline Icon waiting group",
-["stickyDuration"] = false,
-["semver"] = "1.0.80",
-["cooldownTextDisabled"] = true,
-["anchorFrameParent"] = false,
-["useAdjustededMin"] = false,
-["adjustedMin"] = "",
-["zoom"] = 0,
-["justify"] = "LEFT",
-["tocversion"] = 110107,
-["id"] = "Timeline Icon waiting",
-["frameStrata"] = 1,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["actions"] = {
-["start"] = {
-["do_custom"] = false,
-},
-["init"] = {
-["custom"] = "aura_env.options = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.options[option.message] = option\nend\naura_env.IDoptions = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.IDoptions[tostring(option.spellid)] = option\nend\n\nfor k,v in pairs(aura_env.region.subRegions) do\n    if v.type == \"subglow\" then\n        aura_env.glow = v\n    end\nend\n\n\n",
-["do_custom"] = true,
-},
-["finish"] = {
-["do_custom"] = false,
-},
-},
 ["config"] = {
 ["travelDist"] = 198,
-["NameOption"] = 1,
-["UseBossModsColor"] = true,
+["textPausedOptions"] = 1,
 ["textMaxLength"] = 20,
+["maxDur"] = 10,
+["NameOption"] = 1,
 ["reverse"] = false,
+["UseBossModsColor"] = true,
+["IconSpacing"] = 0,
 ["spellOptions"] = {
 {
 ["glow"] = true,
@@ -5393,7 +4734,7 @@ WeakAurasSaved = {
 1,
 1,
 },
-["IgnoreAlertNumber"] = false,
+["spellName"] = "Partytimer!",
 ["replaceTextColor"] = true,
 ["textColor"] = {
 0,
@@ -5404,13 +4745,389 @@ WeakAurasSaved = {
 ["message"] = "Pause!",
 ["replaceSpellName"] = true,
 ["spellid"] = 0,
-["spellName"] = "Partytimer!",
+["IgnoreAlertNumber"] = false,
 },
 },
-["textPausedOptions"] = 1,
 },
+["progressSource"] = {
+-1,
+"",
+},
+["width"] = 32.000034332275,
+["frameStrata"] = 1,
+["anchorFrameFrame"] = "WeakAuras:Vertical bar",
+["regionType"] = "icon",
+["xOffset"] = 1.7166137695312e-05,
+["selfPoint"] = "CENTER",
+["actions"] = {
+["start"] = {
+["custom"] = "aura_env.mystates[aura_env.state] = true\naura_env.collisionCalc()\n--aura_env.hideBars()",
+["do_custom"] = true,
+},
+["finish"] = {
+["custom"] = "aura_env.mystates[aura_env.state] = nil\naura_env.collisionCalc()",
+["do_custom"] = true,
+},
+["init"] = {
+["custom"] = "aura_env.mystates = {}\naura_env.TextAnchor = WeakAuras.GetData(aura_env.id).subRegions[2].anchor_point\naura_env.AuraWidth = aura_env.region:GetWidth()\naura_env.AuraHeight = aura_env.region:GetHeight()\naura_env.options = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.options[option.message] = option\nend\naura_env.IDoptions = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.IDoptions[tostring(option.spellid)] = option\nend\n\n\nfunction aura_env.collisionCalc()\n    -- Refresh and recalculate offset\n    \n    local events={}\n    -- Sort everything by exp\n    local now = GetTime()\n    \n    for state in pairs(aura_env.mystates) do\n        state.c_offset = 0\n        table.insert(events, state)\n    end\n    table.sort(events, function(a, b) return (a.expirationTime or 0)<(b.expirationTime or 0) end)\n    \n    -- Calculate offset for the regluar events to prevent icon collision\n    for i = #events, 1, -1 do\n        local state = events[i]\n        local lastState = events[i+1]\n        if lastState then\n            state.c_offset = (aura_env.AuraHeight+aura_env.config.IconSpacing) - \n            (((lastState.expirationTime or 0) - (state.expirationTime or 0)) *\n                aura_env.config.travelDist / 10  - (lastState.c_offset or 0))\n            -- offset must be positive\n            if state.c_offset < 0 then state.c_offset = 0 end\n        end\n    end\nend\n\n--[[\naura_env.hideDBMBarsHelper=function()\n    if DBM and DBM.Bars then\n        if aura_env.config.hideDBMBars then\n            \n            if not DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n                local skin = DBT:RegisterSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n                skin.Options = {\n                    HugeAlpha = 0.0001,\n                    Alpha = 0.0001,\n                    IconLeft = false,\n                    IconRight = false,\n                    InlineIcons = false,\n                    Bar7CustomInline = false\n                }\n                DBT:SetSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n                DBT:Rearrange()\n            end\n            \n        end\n    end\nend\naura_env.hideDBMBarsHelper()\n\n\naura_env.hideBars = function()\n    if aura_env.config.hideDBMBars\n    and DBM \n    and DBM.Bars\n    and DBM.Bars.numBars then\n        for i = 1, DBM.Bars.numBars do\n            if _G[\"DBT_Bar_\"..i] then\n                _G[\"DBT_Bar_\"..i]:Hide()\n            end\n        end\n    end\nend\n--]]",
+["do_custom"] = true,
+},
+},
+["auto"] = true,
+["desaturate"] = false,
+["justify"] = "LEFT",
+["cooldownTextDisabled"] = true,
+["semver"] = "1.0.80",
+["tocversion"] = 110107,
+["id"] = "Raid Ability Timeline Icon <10",
+["stickyDuration"] = false,
+["useCooldownModRate"] = true,
+["anchorFrameType"] = "SCREEN",
+["useAdjustededMin"] = false,
+["uid"] = "PEHOl(iv4)t",
 ["inverse"] = false,
 ["cooldownEdge"] = false,
+["displayIcon"] = "134376",
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["authorOptions"] = {
+{
+["type"] = "number",
+["useDesc"] = true,
+["max"] = 9999,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "maxDur",
+["default"] = 10,
+["name"] = "Travel Duration",
+["desc"] = "This needs to match the trigger of Timeline Icon waiting group and Timeline Icon it only controls the ticks being displayed by the background",
+},
+{
+["subOptions"] = {
+{
+["type"] = "input",
+["useDesc"] = true,
+["width"] = 1,
+["default"] = "Name this Entry",
+["name"] = "Name this Entry",
+["multiline"] = false,
+["key"] = "NameField",
+["length"] = 10,
+["desc"] = "Name this Entry",
+["useLength"] = false,
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 1,
+["useHeight"] = false,
+["width"] = 1,
+},
+{
+["useName"] = false,
+["type"] = "header",
+["text"] = "",
+["noMerge"] = false,
+["width"] = 1,
+},
+{
+["type"] = "input",
+["useDesc"] = true,
+["width"] = 1,
+["default"] = "",
+["name"] = "Message",
+["multiline"] = false,
+["key"] = "message",
+["length"] = 10,
+["desc"] = "DBM/BW Message to be filtered for",
+["useLength"] = false,
+},
+{
+["type"] = "toggle",
+["default"] = true,
+["width"] = 1,
+["name"] = "Ignore Alert Number",
+["useDesc"] = true,
+["key"] = "IgnoreAlertNumber",
+["desc"] = "Tick this if you want to ignore the Alert Number e.g. TestBar (4) and replace info for all TestBar's",
+},
+{
+["type"] = "number",
+["useDesc"] = true,
+["max"] = 99999999,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "spellid",
+["default"] = 0,
+["name"] = "Spellid",
+["desc"] = "Spellid of the BW message to be filtered for",
+},
+{
+["text"] = "Message or spellid are optional and only one has to be set to work",
+["type"] = "description",
+["fontSize"] = "medium",
+["width"] = 2,
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Replace Spell Name",
+["useDesc"] = true,
+["key"] = "replaceSpellName",
+["desc"] = "Use \"Name\" as replacement text",
+},
+{
+["type"] = "input",
+["useDesc"] = false,
+["width"] = 1,
+["key"] = "spellName",
+["name"] = "Name",
+["default"] = "",
+["length"] = 10,
+["multiline"] = false,
+["useLength"] = false,
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Replace Text Color",
+["useDesc"] = true,
+["key"] = "replaceTextColor",
+["desc"] = "Replace the Text color",
+},
+{
+["type"] = "color",
+["default"] = {
+1,
+1,
+1,
+1,
+},
+["width"] = 1,
+["name"] = "Text Color",
+["useDesc"] = true,
+["key"] = "textColor",
+["desc"] = "Colors the text if \"Replace\" is checked",
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Enable Glow",
+["useDesc"] = true,
+["key"] = "glow",
+["desc"] = "Enables glow for the given Spell",
+},
+{
+["type"] = "color",
+["default"] = {
+1,
+1,
+1,
+1,
+},
+["key"] = "glowColor",
+["name"] = "Glow Color",
+["useDesc"] = false,
+["width"] = 1,
+},
+},
+["hideReorder"] = true,
+["useDesc"] = false,
+["nameSource"] = 1,
+["width"] = 2,
+["useCollapse"] = true,
+["name"] = "Spell Options",
+["collapse"] = false,
+["type"] = "group",
+["limitType"] = "none",
+["groupType"] = "array",
+["key"] = "spellOptions",
+["size"] = 10,
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 6,
+["useHeight"] = true,
+["width"] = 2,
+},
+{
+["text"] = "",
+["type"] = "header",
+["useName"] = false,
+["width"] = 1,
+},
+{
+["text"] = "\n",
+["type"] = "description",
+["fontSize"] = "medium",
+["width"] = 2,
+},
+{
+["width"] = 1,
+["type"] = "select",
+["values"] = {
+"default",
+"DbmHide~",
+"HideNumber",
+"DBMonlyName",
+},
+["name"] = "NameOption",
+["useDesc"] = true,
+["key"] = "NameOption",
+["default"] = 1,
+["desc"] = "Set up how you wanna display Bar Names by default it will show everything like DBM/BW does HideNumber hides the spell number behind certain casts while DbmHide~ hides the ~ infront of some spells",
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 1,
+["useHeight"] = false,
+["width"] = 1,
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 0.8,
+["name"] = "Inverse Travel Direction",
+["useDesc"] = true,
+["key"] = "reverse",
+["desc"] = "Because I was inverted...",
+},
+{
+["type"] = "space",
+["variableWidth"] = false,
+["width"] = 1,
+},
+{
+["min"] = 0,
+["type"] = "number",
+["default"] = 200,
+["width"] = 0.6,
+["useDesc"] = true,
+["name"] = "Travel Distance",
+["key"] = "travelDist",
+["desc"] = "The total travel distance of the icons. You will also need to manually change the length of the line in the background.",
+},
+{
+["type"] = "number",
+["useDesc"] = true,
+["max"] = 9999,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "IconSpacing",
+["default"] = 0,
+["name"] = "Icon Spacing while traveling",
+["desc"] = "if you want additional spacing between the icons set the value here",
+},
+{
+["type"] = "space",
+["variableWidth"] = false,
+["width"] = 1,
+},
+{
+["type"] = "number",
+["useDesc"] = true,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "textMaxLength",
+["default"] = 20,
+["name"] = "Text Max Length",
+["desc"] = "Max length of the text by the icon. Text longer than this will be truncated and followed by \"..\". Set to 0 to disable truncating text.",
+},
+{
+["width"] = 1,
+["type"] = "select",
+["values"] = {
+"replace name with paused",
+"add paused to name",
+"add paused but shorten",
+"don't change",
+},
+["name"] = "Text Options - Paused",
+["useDesc"] = true,
+["key"] = "textPausedOptions",
+["default"] = 1,
+["desc"] = "Select how you want to display Paused timers",
+},
+{
+["type"] = "space",
+["variableWidth"] = false,
+["width"] = 1,
+},
+{
+["type"] = "toggle",
+["default"] = true,
+["key"] = "UseBossModsColor",
+["name"] = "Use Bossmods text Color",
+["useDesc"] = false,
+["width"] = 1,
+},
+},
+},
+["Timeline Icon waiting"] = {
+["outline"] = "OUTLINE",
+["iconSource"] = -1,
+["wagoID"] = "NyseKq1Xo",
+["xOffset"] = 1.7166137695312e-05,
+["adjustedMax"] = "",
+["customText"] = "function()\n    if not aura_env.state or WeakAuras.IsOptionsOpen() then return end \n    -- set variables\n    local state = aura_env.state\n    local config = aura_env.config\n    local text = aura_env.state.name\n    if not text then \n        text = aura_env.state.name\n    end\n    local IDoptions = aura_env.IDoptions\n    local options = aura_env.options\n    local submsg = strtrim(text:gsub(\"~\", \"\")) -- cut ~\n    local cutmsg = strtrim(text:gsub(\"^~ ?\", \"\"):gsub(\"%s+%(%d+%)\",\"\"))  -- cut number and ~\n    local nbmsg = strtrim(text:gsub(\"%s+%(%d+%)\",\"\")) -- cut number\n    \n    \n    -- adjust text according to options if needed\n    if options and options[text] and options[text].replaceSpellName and options[text].spellName  then\n        text = options[text].spellName\n        --spell Name\n    elseif state.spellId and state.spellId ~=0 and IDoptions and IDoptions[state.spellId] and IDoptions[state.spellId].replaceSpellName and IDoptions[state.spellId].spellName then\n        text = IDoptions[state.spellId].spellName\n        --spell ID\n    elseif options and options[submsg] and options[submsg].replaceSpellName and options[submsg].spellName then\n        text = options[submsg].spellName\n        --spell Name ignore ~\n    elseif options and options[cutmsg] and options[cutmsg].replaceSpellName and options[cutmsg].spellName and options[cutmsg].IgnoreAlertNumber then\n        text = options[cutmsg].spellName\n        --spell Name ignore Spellcount\n        \n    elseif config.NameOption == 2 then\n        text = submsg\n        -- hide ~ \n    elseif config.NameOption == 3 then\n        text = nbmsg\n        -- hide number\n    elseif config.NameOption == 4 then\n        text = cutmsg\n        -- hide number and ~\n    end\n    \n    \n    -- more Text Adjustments\n    if not text then return end \n    local IconAdjust = string.len(string.match(text,\"|T.-|t\") or \"\") -- find length of any icon within the name\n    text = strtrim(text) -- Trim   \n    if IconAdjust > 0 then IconAdjust = IconAdjust - 2 end -- Make icons take 2 characters in calculation\n    if (config.textMaxLength or 0)>=5 and text:len()-IconAdjust>config.textMaxLength then -- check if length exceeeds the maximum \n        text = WA_Utf8Sub(text,config.textMaxLength+IconAdjust)..\"..\" -- Truncate     \n    end\n    -- adjust texts for paused options\n    if state.paused and config.textPausedOptions == 1 then   \n        text = \"Paused\"\n    elseif state.paused and config.textPausedOptions == 2 then\n        text = text..\"Paused\"\n    elseif state.paused and config.textPausedOptions == 3 then\n        text = WA_Utf8Sub(text,text:len()-8)..\"..\"\n        text = text..\"Paused\"\n    end \n    \n    -- Adjust color according to custom option (this should be a condition but not possible yet)\n    if state.spellId and state.spellId ~=0 and IDoptions and IDoptions[state.spellId] and IDoptions[state.spellId].replaceTextColor then\n        local r,g,b,a = unpack(IDoptions[state.spellId].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n        \n    elseif options and options[state.message] and options[state.message].replaceTextColor then\n        local r,g,b,a = unpack(options[state.message].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n    elseif options and options[submsg] and options[submsg].replaceTextColor and aura_env.options[submsg].IgnoreAlertNumber then\n        local r,g,b,a = unpack(options[submsg].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n    elseif options and options[cutmsg] and options[cutmsg].replaceTextColor and options[cutmsg].IgnoreAlertNumber then\n        local r,g,b,a = unpack(options[cutmsg].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n        \n    elseif state.dbmColor and aura_env.config.UseBossModsColor then\n        local r,g,b = unpack(state.dbmColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255,255*r,255*g,255*b,text)\n    elseif state.bwTextColor and aura_env.config.UseBossModsColor then\n        local r,g,b = unpack(state.bwTextColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255,255*r,255*g,255*b,text)\n        \n    end\n    return text\nend\n\n\n",
+["yOffset"] = -4.6730041503906e-05,
+["anchorPoint"] = "CENTER",
+["cooldownSwipe"] = false,
+["parent"] = "Timeline Icon waiting group",
+["customTextUpdate"] = "event",
+["url"] = "https://wago.io/RaidAbilityTimeline/81",
+["icon"] = true,
+["triggers"] = {
+{
+["trigger"] = {
+["use_remaining"] = true,
+["use_count"] = false,
+["subeventSuffix"] = "_CAST_START",
+["remaining_operator"] = ">",
+["event"] = "Boss Mod Timer",
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
+["remaining"] = "10",
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["type"] = "addons",
+["names"] = {
+},
+["use_cloneId"] = true,
+["use_isBarEnabled"] = true,
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["activeTriggerMode"] = -10,
+},
+["keepAspectRatio"] = false,
+["internalVersion"] = 86,
+["progressSource"] = {
+-1,
+"",
+},
+["selfPoint"] = "CENTER",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["cooldown"] = true,
 ["conditions"] = {
 {
 ["check"] = {
@@ -5441,8 +5158,8 @@ WeakAurasSaved = {
 {
 ["trigger"] = 1,
 ["op"] = "<",
-["variable"] = "expirationTime",
 ["value"] = "60",
+["variable"] = "expirationTime",
 },
 {
 ["value"] = "60",
@@ -5466,8 +5183,8 @@ WeakAurasSaved = {
 {
 ["trigger"] = 1,
 ["op"] = "<",
-["variable"] = "expirationTime",
 ["value"] = "600",
+["variable"] = "expirationTime",
 },
 {
 ["value"] = "600",
@@ -5504,7 +5221,156 @@ WeakAurasSaved = {
 },
 },
 },
-["cooldown"] = true,
+["stickyDuration"] = false,
+["desaturate"] = false,
+["font"] = "Friz Quadrata TT",
+["version"] = 81,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["text_shadowXOffset"] = 0,
+["text_text"] = "%c",
+["text_text_format_c.2_format"] = "none",
+["text_text_format_1_format"] = "none",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
+["text_selfPoint"] = "AUTO",
+["text_automaticWidth"] = "Auto",
+["text_fixedWidth"] = 64,
+["text_text_format_c_format"] = "none",
+["text_justify"] = "CENTER",
+["rotateText"] = "NONE",
+["type"] = "subtext",
+["text_color"] = {
+1,
+1,
+1,
+1,
+},
+["text_font"] = "ArchivoNarrow-Bold",
+["text_text_format_c.1_format"] = "none",
+["text_shadowYOffset"] = 0,
+["text_visible"] = true,
+["text_wordWrap"] = "WordWrap",
+["text_fontType"] = "OUTLINE",
+["text_text_format_c1_format"] = "none",
+["anchorYOffset"] = 0,
+["anchor_point"] = "OUTER_LEFT",
+["text_fontSize"] = 15,
+["anchorXOffset"] = 0,
+["text_text_format_c2_format"] = "none",
+},
+{
+["text_shadowXOffset"] = 0,
+["text_text"] = "%c",
+["text_text_format_c.2_format"] = "none",
+["text_text_format_1_format"] = "none",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
+["text_selfPoint"] = "AUTO",
+["text_automaticWidth"] = "Auto",
+["text_fixedWidth"] = 64,
+["text_text_format_c_format"] = "none",
+["text_justify"] = "CENTER",
+["rotateText"] = "NONE",
+["type"] = "subtext",
+["text_color"] = {
+1,
+1,
+1,
+1,
+},
+["text_font"] = "ArchivoNarrow-Bold",
+["text_text_format_c.1_format"] = "none",
+["text_shadowYOffset"] = 0,
+["text_visible"] = false,
+["text_wordWrap"] = "WordWrap",
+["text_fontType"] = "OUTLINE",
+["text_text_format_c1_format"] = "none",
+["anchorYOffset"] = 0,
+["anchor_point"] = "OUTER_RIGHT",
+["text_fontSize"] = 15,
+["anchorXOffset"] = 0,
+["text_text_format_c2_format"] = "none",
+},
+{
+["text_text_format_p_time_format"] = 0,
+["text_text"] = "%p",
+["text_text_format_p_gcd_cast"] = false,
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
+["text_fixedWidth"] = 64,
+["text_text_format_p_time_legacy_floor"] = true,
+["rotateText"] = "NONE",
+["text_text_format_p_decimal_precision"] = 0,
+["text_text_format_p_gcd_gcd"] = true,
+["text_color"] = {
+1,
+1,
+0,
+1,
+},
+["text_text_format_p_gcd_channel"] = false,
+["text_shadowYOffset"] = 0,
+["text_wordWrap"] = "WordWrap",
+["text_visible"] = true,
+["text_text_format_p_gcd_hide_zero"] = false,
+["text_fontSize"] = 13,
+["anchorXOffset"] = 0,
+["text_text_format_p_round_type"] = "ceil",
+["text_text_format_c.2_format"] = "none",
+["text_text_format_p_time_mod_rate"] = true,
+["text_selfPoint"] = "AUTO",
+["text_automaticWidth"] = "Auto",
+["anchorYOffset"] = 0,
+["text_justify"] = "CENTER",
+["type"] = "subtext",
+["text_font"] = "PT Sans Narrow",
+["text_text_format_p_time_precision"] = 1,
+["text_text_format_p_format"] = "timed",
+["text_text_format_c2_format"] = "none",
+["anchor_point"] = "CENTER",
+["text_fontType"] = "OUTLINE",
+["text_shadowXOffset"] = 0,
+["text_text_format_p_time_dynamic_threshold"] = 1,
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "Pixel",
+["glowThickness"] = 2,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["useGlowColor"] = true,
+["glowXOffset"] = 0,
+["glowScale"] = 1,
+["glow"] = false,
+["glowLength"] = 10,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 31.999906539917,
 ["authorOptions"] = {
 {
 ["subOptions"] = {
@@ -5512,20 +5378,20 @@ WeakAurasSaved = {
 ["type"] = "input",
 ["useDesc"] = true,
 ["width"] = 1,
-["name"] = "Name this Entry",
 ["default"] = "Name this Entry",
-["desc"] = "Name this Entry",
+["name"] = "Name this Entry",
+["multiline"] = false,
 ["key"] = "NameField",
 ["length"] = 10,
-["multiline"] = false,
+["desc"] = "Name this Entry",
 ["useLength"] = false,
 },
 {
 ["type"] = "space",
 ["variableWidth"] = true,
 ["height"] = 1,
-["width"] = 1,
 ["useHeight"] = false,
+["width"] = 1,
 },
 {
 ["useName"] = false,
@@ -5538,22 +5404,22 @@ WeakAurasSaved = {
 ["type"] = "input",
 ["useDesc"] = true,
 ["width"] = 1,
-["name"] = "Message",
 ["default"] = "",
-["desc"] = "DBM/BW Message to be filtered for",
+["name"] = "Message",
+["multiline"] = false,
 ["key"] = "message",
 ["length"] = 10,
-["multiline"] = false,
+["desc"] = "DBM/BW Message to be filtered for",
 ["useLength"] = false,
 },
 {
 ["type"] = "toggle",
 ["default"] = true,
-["desc"] = "Tick this if you want to ignore the Alert Number e.g. TestBar (4) and replace info for all TestBar's",
-["key"] = "IgnoreAlertNumber",
-["useDesc"] = true,
-["name"] = "Ignore Alert Number",
 ["width"] = 1,
+["name"] = "Ignore Alert Number",
+["useDesc"] = true,
+["key"] = "IgnoreAlertNumber",
+["desc"] = "Tick this if you want to ignore the Alert Number e.g. TestBar (4) and replace info for all TestBar's",
 },
 {
 ["type"] = "number",
@@ -5563,24 +5429,24 @@ WeakAurasSaved = {
 ["width"] = 1,
 ["min"] = 0,
 ["key"] = "spellid",
-["desc"] = "Spellid of the BW message to be filtered for",
-["name"] = "Spellid",
 ["default"] = 0,
+["name"] = "Spellid",
+["desc"] = "Spellid of the BW message to be filtered for",
 },
 {
-["type"] = "description",
 ["text"] = "Message or spellid are optional and only one has to be set to work",
+["type"] = "description",
 ["fontSize"] = "medium",
 ["width"] = 2,
 },
 {
 ["type"] = "toggle",
 ["default"] = false,
-["desc"] = "Use \"Name\" as replacement text",
-["key"] = "replaceSpellName",
-["useDesc"] = true,
-["name"] = "Replace Spell Name",
 ["width"] = 1,
+["name"] = "Replace Spell Name",
+["useDesc"] = true,
+["key"] = "replaceSpellName",
+["desc"] = "Use \"Name\" as replacement text",
 },
 {
 ["type"] = "input",
@@ -5588,19 +5454,19 @@ WeakAurasSaved = {
 ["width"] = 1,
 ["key"] = "spellName",
 ["name"] = "Name",
-["multiline"] = false,
-["length"] = 10,
 ["default"] = "",
+["length"] = 10,
+["multiline"] = false,
 ["useLength"] = false,
 },
 {
 ["type"] = "toggle",
 ["default"] = false,
-["desc"] = "Replace the Text color",
-["key"] = "replaceTextColor",
-["useDesc"] = true,
-["name"] = "Replace Text Color",
 ["width"] = 1,
+["name"] = "Replace Text Color",
+["useDesc"] = true,
+["key"] = "replaceTextColor",
+["desc"] = "Replace the Text color",
 },
 {
 ["type"] = "color",
@@ -5610,20 +5476,20 @@ WeakAurasSaved = {
 1,
 1,
 },
-["desc"] = "Colors the text if \"Replace\" is checked",
-["key"] = "textColor",
-["useDesc"] = true,
-["name"] = "Text Color",
 ["width"] = 1,
+["name"] = "Text Color",
+["useDesc"] = true,
+["key"] = "textColor",
+["desc"] = "Colors the text if \"Replace\" is checked",
 },
 {
 ["type"] = "toggle",
 ["default"] = false,
-["desc"] = "Enables glow for the given Spell",
-["key"] = "glow",
-["useDesc"] = true,
-["name"] = "Enable Glow",
 ["width"] = 1,
+["name"] = "Enable Glow",
+["useDesc"] = true,
+["key"] = "glow",
+["desc"] = "Enables glow for the given Spell",
 },
 {
 ["type"] = "color",
@@ -5634,8 +5500,8 @@ WeakAurasSaved = {
 1,
 },
 ["key"] = "glowColor",
-["useDesc"] = false,
 ["name"] = "Glow Color",
+["useDesc"] = false,
 ["width"] = 1,
 },
 },
@@ -5644,35 +5510,35 @@ WeakAurasSaved = {
 ["nameSource"] = 1,
 ["width"] = 2,
 ["useCollapse"] = true,
-["collapse"] = false,
 ["name"] = "Spell Options",
-["key"] = "spellOptions",
+["collapse"] = false,
+["type"] = "group",
 ["limitType"] = "none",
 ["groupType"] = "array",
-["type"] = "group",
+["key"] = "spellOptions",
 ["size"] = 10,
 },
 {
 ["type"] = "space",
 ["variableWidth"] = true,
 ["height"] = 6,
-["width"] = 2,
 ["useHeight"] = true,
+["width"] = 2,
 },
 {
-["type"] = "header",
 ["text"] = "",
+["type"] = "header",
 ["useName"] = false,
 ["width"] = 1,
 },
 {
-["type"] = "description",
 ["text"] = "\n",
+["type"] = "description",
 ["fontSize"] = "medium",
 ["width"] = 2,
 },
 {
-["desc"] = "Set up how you wanna display Bar Names by default it will show everything like DBM/BW does HideNumber hides the spell number behind certain casts while DbmHide~ hides the ~ infront of some spells",
+["width"] = 1,
 ["type"] = "select",
 ["values"] = {
 "default",
@@ -5680,27 +5546,27 @@ WeakAurasSaved = {
 "HideNumber",
 "DBMonlyName",
 },
-["default"] = 1,
-["key"] = "NameOption",
-["useDesc"] = true,
 ["name"] = "NameOption",
-["width"] = 1,
+["useDesc"] = true,
+["key"] = "NameOption",
+["default"] = 1,
+["desc"] = "Set up how you wanna display Bar Names by default it will show everything like DBM/BW does HideNumber hides the spell number behind certain casts while DbmHide~ hides the ~ infront of some spells",
 },
 {
 ["type"] = "space",
 ["variableWidth"] = true,
 ["height"] = 1,
-["width"] = 1,
 ["useHeight"] = false,
+["width"] = 1,
 },
 {
 ["type"] = "toggle",
 ["default"] = false,
-["desc"] = "Because I was inverted...",
-["key"] = "reverse",
-["useDesc"] = true,
-["name"] = "Inverse Travel Direction",
 ["width"] = 0.8,
+["name"] = "Inverse Travel Direction",
+["useDesc"] = true,
+["key"] = "reverse",
+["desc"] = "Because I was inverted...",
 },
 {
 ["type"] = "space",
@@ -5711,11 +5577,11 @@ WeakAurasSaved = {
 ["min"] = 0,
 ["type"] = "number",
 ["default"] = 200,
-["desc"] = "The total travel distance of the icons. You will also need to manually change the length of the line in the background.",
-["key"] = "travelDist",
-["name"] = "Travel Distance",
-["useDesc"] = true,
 ["width"] = 0.6,
+["useDesc"] = true,
+["name"] = "Travel Distance",
+["key"] = "travelDist",
+["desc"] = "The total travel distance of the icons. You will also need to manually change the length of the line in the background.",
 },
 {
 ["type"] = "space",
@@ -5729,12 +5595,12 @@ WeakAurasSaved = {
 ["width"] = 1,
 ["min"] = 0,
 ["key"] = "textMaxLength",
-["desc"] = "Max length of the text by the icon. Text longer than this will be truncated and followed by \"..\". Set to 0 to disable truncating text.",
-["name"] = "Text Max Length",
 ["default"] = 20,
+["name"] = "Text Max Length",
+["desc"] = "Max length of the text by the icon. Text longer than this will be truncated and followed by \"..\". Set to 0 to disable truncating text.",
 },
 {
-["desc"] = "Select how you want to display Paused timers",
+["width"] = 1,
 ["type"] = "select",
 ["values"] = {
 "replace name with paused",
@@ -5742,11 +5608,11 @@ WeakAurasSaved = {
 "add paused but shorten",
 "don't change",
 },
-["default"] = 1,
-["key"] = "textPausedOptions",
-["useDesc"] = true,
 ["name"] = "Text Options - Paused",
-["width"] = 1,
+["useDesc"] = true,
+["key"] = "textPausedOptions",
+["default"] = 1,
+["desc"] = "Select how you want to display Paused timers",
 },
 {
 ["type"] = "space",
@@ -5757,45 +5623,195 @@ WeakAurasSaved = {
 ["type"] = "toggle",
 ["default"] = true,
 ["key"] = "UseBossModsColor",
-["useDesc"] = false,
 ["name"] = "Use Bossmods text Color",
+["useDesc"] = false,
 ["width"] = 1,
 },
 },
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["config"] = {
+["travelDist"] = 198,
+["NameOption"] = 1,
+["UseBossModsColor"] = true,
+["textMaxLength"] = 20,
+["textPausedOptions"] = 1,
+["spellOptions"] = {
+{
+["glow"] = true,
+["NameField"] = "Pause",
+["glowColor"] = {
+1,
+0,
+1,
+1,
+},
+["spellName"] = "Partytimer!",
+["replaceTextColor"] = true,
+["textColor"] = {
+0,
+1,
+0,
+1,
+},
+["message"] = "Pause!",
+["replaceSpellName"] = true,
+["spellid"] = 0,
+["IgnoreAlertNumber"] = false,
+},
+},
+["reverse"] = false,
+},
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["source"] = "import",
+["cooldownEdge"] = false,
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["preferToUpdate"] = false,
+["anchorFrameFrame"] = "WeakAuras:Vertical bar",
+["regionType"] = "icon",
+["actions"] = {
+["start"] = {
+["do_custom"] = false,
+},
+["finish"] = {
+["do_custom"] = false,
+},
+["init"] = {
+["custom"] = "aura_env.options = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.options[option.message] = option\nend\naura_env.IDoptions = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.IDoptions[tostring(option.spellid)] = option\nend\n\nfor k,v in pairs(aura_env.region.subRegions) do\n    if v.type == \"subglow\" then\n        aura_env.glow = v\n    end\nend\n\n\n",
+["do_custom"] = true,
+},
+},
+["frameStrata"] = 1,
+["justify"] = "LEFT",
+["zoom"] = 0,
+["anchorFrameParent"] = false,
+["useAdjustededMin"] = false,
+["semver"] = "1.0.80",
+["cooldownTextDisabled"] = true,
+["auto"] = true,
+["tocversion"] = 110107,
+["id"] = "Timeline Icon waiting",
+["displayText"] = "%p",
+["useCooldownModRate"] = true,
+["width"] = 32.000034332275,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["colorR"] = 1,
+["duration_type"] = "seconds",
+["colorA"] = 1,
+["colorG"] = 1,
+["use_translate"] = false,
+["duration"] = "10",
+["type"] = "none",
+["translateType"] = "straightTranslate",
+["easeType"] = "none",
+["translateFunc"] = "function(progress, startX, startY, deltaX, deltaY)\n    return startX + (progress * deltaX), startY + (progress * deltaY)\nend\n",
+["scaley"] = 1,
+["alpha"] = 0,
+["rotate"] = 0,
+["y"] = -220,
+["x"] = 0,
+["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n    return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\nend\n",
+["scaleType"] = "straightScale",
+["use_scale"] = false,
+["easeStrength"] = 5,
+["scalex"] = 1,
+["colorB"] = 1,
+},
+["finish"] = {
+["type"] = "none",
+["easeType"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["preset"] = "slidebottom",
+},
+},
+["uid"] = "T9XAeAKCuKy",
+["inverse"] = false,
+["desc"] = "",
+["displayIcon"] = "134376",
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["adjustedMin"] = "",
 },
 ["DKT_18_精髓"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["xOffset"] = 180,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["desaturate"] = false,
+["xOffset"] = 180,
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["parent"] = "DKT",
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["conditions"] = {
-},
-["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -5804,16 +5820,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["debuffType"] = "HELPFUL",
+["spellName"] = 195182,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
+["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 195182,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -5827,8 +5843,8 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_unit"] = true,
 ["hostility"] = "hostile",
-["use_dead"] = false,
 ["use_hostility"] = true,
+["use_dead"] = false,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -5857,75 +5873,56 @@ WeakAurasSaved = {
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195182\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
 ["debuffType"] = "HELPFUL",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195182\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
+["internalVersion"] = 86,
+["uid"] = "F7939DFTU5f",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
 ["id"] = "DKT_18_精髓",
 ["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["width"] = 10,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "F7939DFTU5f",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
+["conditions"] = {
 },
+["information"] = {
 },
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
+["width"] = 10,
 },
 ["FZT_7_盾擋"] = {
 ["parent"] = "FZT",
@@ -5935,9 +5932,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -5954,9 +5951,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -6006,10 +6003,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 2565,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 2565,
 },
 ["untrigger"] = {
 },
@@ -6039,32 +6036,32 @@ WeakAurasSaved = {
 ["auraspellids"] = {
 "132404",
 },
-["debuffType"] = "HELPFUL",
+["useRem"] = true,
 ["use_genericShowOn"] = true,
 ["genericShowOn"] = "showOnCooldown",
 ["unit"] = "player",
 ["type"] = "aura2",
 ["use_spellName"] = true,
-["useExactSpellId"] = true,
+["event"] = "Cooldown Progress (Spell)",
 ["matchesShowOn"] = "showOnActive",
 ["remOperator"] = "<=",
-["event"] = "Cooldown Progress (Spell)",
+["useExactSpellId"] = true,
 ["use_track"] = true,
-["useRem"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -6076,20 +6073,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -6114,14 +6111,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["class_and_spec"] = {
+["single"] = 73,
+},
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 73,
 },
 ["size"] = {
 ["multi"] = {
@@ -6133,8 +6130,9 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["anchorFrameType"] = "SCREEN",
-["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
+["authorOptions"] = {
+},
 ["tocversion"] = 110200,
 ["id"] = "FZT_7_盾擋",
 ["color"] = {
@@ -6144,20 +6142,19 @@ WeakAurasSaved = {
 1,
 },
 ["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["width"] = 10,
-["frameStrata"] = 1,
 ["config"] = {
 },
-["uid"] = "PGEaIpOi5Y9",
 ["xOffset"] = 70,
+["uid"] = "PGEaIpOi5Y9",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["authorOptions"] = {
-},
+["selfPoint"] = "BOTTOMLEFT",
 },
 ["FZT_18_丢"] = {
 ["parent"] = "FZT",
@@ -6167,9 +6164,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -6178,18 +6175,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_hostility"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["names"] = {
+},
 ["use_inCombat"] = true,
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
 ["hostility"] = "hostile",
+["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -6234,14 +6231,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -6253,20 +6250,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -6296,10 +6293,10 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["use_combat"] = true,
-["use_alive"] = true,
 ["use_class_and_spec"] = true,
+["use_alive"] = true,
+["use_combat"] = true,
+["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -6310,31 +6307,31 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "j2R0hN(oh0C",
-["authorOptions"] = {
-},
-["tocversion"] = 110200,
-["id"] = "FZT_18_丢",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["width"] = 10,
-["alpha"] = 1,
 ["config"] = {
 },
+["selfPoint"] = "BOTTOMLEFT",
+["tocversion"] = 110200,
+["id"] = "FZT_18_丢",
+["width"] = 10,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["uid"] = "j2R0hN(oh0C",
+["xOffset"] = 180,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 180,
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["selfPoint"] = "BOTTOMLEFT",
+["authorOptions"] = {
+},
 },
 ["SMS_4_药水"] = {
 ["parent"] = "SMS",
@@ -6344,10 +6341,10 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
 ["do_custom"] = false,
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -6385,25 +6382,25 @@ WeakAurasSaved = {
 ["event"] = "Item Count",
 ["unit"] = "player",
 ["count"] = "1",
-["count_operator"] = ">=",
-["genericShowOn"] = "showOnCooldown",
-["type"] = "item",
-["use_itemName"] = true,
 ["debuffType"] = "HELPFUL",
+["use_itemName"] = true,
+["type"] = "item",
+["genericShowOn"] = "showOnCooldown",
+["count_operator"] = ">=",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "item",
-["use_itemName"] = true,
+["genericShowOn"] = "showOnReady",
 ["event"] = "Cooldown Progress (Item)",
 ["itemName"] = 211878,
 ["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnReady",
-["debuffType"] = "HELPFUL",
+["use_itemName"] = true,
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -6415,20 +6412,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -6453,14 +6450,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["class_and_spec"] = {
+["single"] = 257,
+},
+["use_alive"] = true,
+["use_combat"] = true,
 ["spec"] = {
 ["multi"] = {
 },
-},
-["use_combat"] = true,
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 257,
 },
 ["size"] = {
 ["multi"] = {
@@ -6472,17 +6469,46 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["xOffset"] = 40,
+["alpha"] = 1,
+["authorOptions"] = {
+},
 ["tocversion"] = 110200,
 ["id"] = "SMS_4_药水",
 ["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
+["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["uid"] = "(5q0jAk2THr",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["config"] = {
 },
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["xOffset"] = 40,
+},
+["MKT_6_糖"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["authorOptions"] = {
+},
+["desaturate"] = false,
+["parent"] = "MKT",
+["xOffset"] = 60,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
 ["color"] = {
 1,
 1,
@@ -6491,82 +6517,33 @@ WeakAurasSaved = {
 },
 ["conditions"] = {
 },
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["authorOptions"] = {
-},
-},
-["MKT_6_糖"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["uid"] = "KrPZ7y)eR27",
-["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["xOffset"] = 60,
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 268,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MKT",
-["authorOptions"] = {
-},
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_unit"] = true,
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -6598,25 +6575,25 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["use_includeCharges"] = true,
 ["count"] = "1",
-["debuffType"] = "HELPFUL",
-["use_itemName"] = true,
-["genericShowOn"] = "showOnCooldown",
-["itemName"] = 5512,
 ["count_operator"] = ">=",
+["itemName"] = 5512,
+["genericShowOn"] = "showOnCooldown",
+["use_itemName"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["itemName"] = 5512,
-["event"] = "Cooldown Progress (Item)",
+["genericShowOn"] = "showOnReady",
 ["type"] = "item",
 ["use_itemName"] = true,
 ["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnReady",
-["debuffType"] = "HELPFUL",
+["event"] = "Cooldown Progress (Item)",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -6643,48 +6620,68 @@ WeakAurasSaved = {
 },
 ["activeTriggerMode"] = -10,
 },
-["rotate"] = false,
 ["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["frameStrata"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MKT_6_糖",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MKT_6_糖",
-["selfPoint"] = "BOTTOMLEFT",
 ["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
+["width"] = 10,
 ["rotation"] = 0,
+["uid"] = "KrPZ7y)eR27",
 ["config"] = {
 },
-["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
 },
-["information"] = {
 },
-["desaturate"] = false,
+["class_and_spec"] = {
+["single"] = 268,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["anchorFrameType"] = "SCREEN",
 },
 ["FZT_1_勝利"] = {
 ["parent"] = "FZT",
@@ -6694,9 +6691,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -6711,11 +6708,11 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
+["hostility"] = "hostile",
+["use_unit"] = true,
+["unit"] = "target",
 ["names"] = {
 },
-["unit"] = "target",
-["use_unit"] = true,
-["hostility"] = "hostile",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -6760,22 +6757,22 @@ WeakAurasSaved = {
 {
 ["trigger"] = {
 ["type"] = "spell",
-["debuffType"] = "HELPFUL",
+["spellName"] = 202168,
 ["subeventSuffix"] = "_CAST_START",
-["genericShowOn"] = "showOnCooldown",
-["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
 ["realSpellName"] = "胜利在望",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
-["use_exact_spellName"] = false,
-["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
+["subeventPrefix"] = "SPELL",
+["use_exact_spellName"] = false,
 ["use_track"] = true,
-["spellName"] = 202168,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -6802,14 +6799,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -6821,20 +6818,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -6863,12 +6860,12 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
-["use_combat"] = true,
-["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -6879,82 +6876,59 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["authorOptions"] = {
-},
+["alpha"] = 1,
+["xOffset"] = 10,
 ["tocversion"] = 110200,
 ["id"] = "FZT_1_勝利",
 ["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
+["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["uid"] = "pTnZWPNZ29X",
-["config"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["config"] = {
 },
 ["conditions"] = {
 },
 ["information"] = {
 },
-["xOffset"] = 10,
+["authorOptions"] = {
+},
 },
 ["MMK_16_氤氲"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["authorOptions"] = {
+},
+["xOffset"] = 160,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "MMK",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
-["parent"] = "MMK",
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_alive"] = true,
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["xOffset"] = 160,
-["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+},
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -6966,13 +6940,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["use_hostility"] = true,
+["unit"] = "target",
 ["spellIds"] = {
 },
-["use_dead"] = false,
-["hostility"] = "friendly",
 ["use_unit"] = true,
-["unit"] = "target",
+["hostility"] = "friendly",
+["use_dead"] = false,
+["use_hostility"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -7001,10 +6975,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 124682,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 124682,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -7012,28 +6986,13 @@ WeakAurasSaved = {
 {
 ["trigger"] = {
 ["type"] = "aura2",
-["unit"] = "target",
+["debuffType"] = "HELPFUL",
 ["useExactSpellId"] = true,
-["ownOnly"] = true,
-["matchesShowOn"] = "showOnActive",
 ["auraspellids"] = {
 "115175",
 },
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "aura2",
-["debuffType"] = "HELPFUL",
-["useExactSpellId"] = true,
-["auraspellids"] = {
-"124682",
-},
-["matchesShowOn"] = "showOnMissing",
 ["ownOnly"] = true,
+["matchesShowOn"] = "showOnActive",
 ["unit"] = "target",
 },
 ["untrigger"] = {
@@ -7041,14 +7000,29 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["type"] = "aura2",
+["unit"] = "target",
+["useExactSpellId"] = true,
+["ownOnly"] = true,
+["matchesShowOn"] = "showOnMissing",
+["auraspellids"] = {
+"124682",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -7057,47 +7031,70 @@ WeakAurasSaved = {
 ["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and (t[4] or (t[5] and t[6]))\nend",
 ["activeTriggerMode"] = -10,
 },
+["conditions"] = {
+},
 ["internalVersion"] = 86,
-["uid"] = "M5jp18LAg2P",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_16_氤氲",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_16_氤氲",
-["selfPoint"] = "BOTTOMLEFT",
 ["alpha"] = 1,
 ["width"] = 10,
 ["rotation"] = 0,
+["uid"] = "M5jp18LAg2P",
 ["config"] = {
 },
-["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 270,
 },
-["information"] = {
+["talent"] = {
+["multi"] = {
 },
-["desaturate"] = false,
+},
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["anchorFrameType"] = "SCREEN",
 },
 ["BDK_1_死打"] = {
 ["parent"] = "BDK",
@@ -7107,9 +7104,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -7118,18 +7115,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_hostility"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["hostility"] = "hostile",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["hostility"] = "hostile",
+["names"] = {
+},
 ["use_dead"] = false,
-["unit"] = "target",
+["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["subeventPrefix"] = "SPELL",
 ["use_unit"] = true,
-["use_absorbHealMode"] = true,
+["subeventPrefix"] = "SPELL",
+["unit"] = "target",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -7155,36 +7152,36 @@ WeakAurasSaved = {
 {
 ["trigger"] = {
 ["type"] = "spell",
-["debuffType"] = "HELPFUL",
+["spellName"] = 49998,
 ["subeventSuffix"] = "_CAST_START",
-["event"] = "Action Usable",
-["use_genericShowOn"] = true,
 ["genericShowOn"] = "showOnCooldown",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
 ["unit"] = "player",
 ["realSpellName"] = "胜利在望",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
+["subeventPrefix"] = "SPELL",
+["use_exact_spellName"] = false,
 ["names"] = {
 },
-["use_exact_spellName"] = false,
-["subeventPrefix"] = "SPELL",
 ["use_track"] = true,
-["spellName"] = 49998,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -7215,9 +7212,9 @@ WeakAurasSaved = {
 ["auraspellids"] = {
 "101568",
 },
-["unit"] = "player",
-["useExactSpellId"] = true,
 ["debuffType"] = "HELPFUL",
+["useExactSpellId"] = true,
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -7249,20 +7246,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -7291,12 +7288,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -7307,99 +7304,81 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["frameStrata"] = 1,
-["authorOptions"] = {
-},
+["anchorFrameType"] = "SCREEN",
+["selfPoint"] = "BOTTOMLEFT",
 ["tocversion"] = 110200,
 ["id"] = "BDK_1_死打",
 ["xOffset"] = 10,
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["width"] = 10,
-["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
 ["config"] = {
 },
+["uid"] = "pfBm)kgkAUh",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["uid"] = "pfBm)kgkAUh",
 ["conditions"] = {
 },
 ["information"] = {
 },
-["selfPoint"] = "BOTTOMLEFT",
+["authorOptions"] = {
+},
 },
 ["MMK_4_红"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["authorOptions"] = {
+},
+["xOffset"] = 40,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "MMK",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
-["parent"] = "MMK",
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["xOffset"] = 40,
-["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["conditions"] = {
+},
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_unit"] = true,
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -7431,25 +7410,25 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["use_includeCharges"] = true,
 ["count"] = "1",
-["debuffType"] = "HELPFUL",
-["use_itemName"] = true,
-["genericShowOn"] = "showOnCooldown",
-["itemName"] = 211878,
 ["count_operator"] = ">=",
+["itemName"] = 211878,
+["genericShowOn"] = "showOnCooldown",
+["use_itemName"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["itemName"] = 211878,
-["event"] = "Cooldown Progress (Item)",
+["genericShowOn"] = "showOnReady",
 ["type"] = "item",
 ["use_itemName"] = true,
 ["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnReady",
-["debuffType"] = "HELPFUL",
+["event"] = "Cooldown Progress (Item)",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -7476,48 +7455,66 @@ WeakAurasSaved = {
 },
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["internalVersion"] = 86,
-["uid"] = "xAtgMPK2sse",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_4_红",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_4_红",
-["selfPoint"] = "BOTTOMLEFT",
 ["alpha"] = 1,
 ["width"] = 10,
 ["rotation"] = 0,
+["uid"] = "xAtgMPK2sse",
 ["config"] = {
 },
-["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
 },
-["information"] = {
 },
-["desaturate"] = false,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["anchorFrameType"] = "SCREEN",
 },
 ["FZT_13_雷霆"] = {
 ["parent"] = "FZT",
@@ -7527,9 +7524,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -7546,9 +7543,9 @@ WeakAurasSaved = {
 ["use_hostility"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["subeventPrefix"] = "SPELL",
 ["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -7593,14 +7590,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -7611,9 +7608,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 6343\n    local skill_id_1 = 435222\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -7644,14 +7641,14 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 73,
-},
-["use_combat"] = true,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 73,
 },
 ["size"] = {
 ["multi"] = {
@@ -7663,43 +7660,7 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "6BuwJceiOrQ",
-["xOffset"] = 130,
-["tocversion"] = 110200,
-["id"] = "FZT_13_雷霆",
-["width"] = 10,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["config"] = {
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["authorOptions"] = {
-},
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
 },
 ["color"] = {
 1,
@@ -7707,6 +7668,42 @@ WeakAurasSaved = {
 1,
 1,
 },
+["tocversion"] = 110200,
+["id"] = "FZT_13_雷霆",
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["width"] = 10,
+["alpha"] = 1,
+["uid"] = "6BuwJceiOrQ",
+["authorOptions"] = {
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["xOffset"] = 130,
 },
 ["FZT_8_漏氣盾"] = {
 ["parent"] = "FZT",
@@ -7716,11 +7713,11 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
+["finish"] = {
+},
 ["init"] = {
 ["do_custom"] = true,
 ["custom"] = "aura_env.IPSpellId = 190456\naura_env.getCastIP = function()\n  local IPDescription = C_Spell.GetSpellDescription(aura_env.IPSpellId) or \"\"\n  local castIPString = IPDescription:match(\"%%.+%d\") or \"\"\n  castIPString = castIPString:gsub(\"%D\", \"\")\n  local castIP = tonumber(castIPString) or 0\n  return castIP\nend",
-},
-["finish"] = {
 },
 },
 ["triggers"] = {
@@ -7735,11 +7732,11 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["spellIds"] = {
 },
-["use_absorbHealMode"] = true,
+["hostility"] = "hostile",
+["use_unit"] = true,
 ["names"] = {
 },
-["use_unit"] = true,
-["hostility"] = "hostile",
+["use_absorbHealMode"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -7785,7 +7782,7 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "spell",
 ["subeventSuffix"] = "_CAST_START",
-["spellName"] = 190456,
+["debuffType"] = "HELPFUL",
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["subeventPrefix"] = "SPELL",
@@ -7794,11 +7791,11 @@ WeakAurasSaved = {
 ["spellIds"] = {
 },
 ["genericShowOn"] = "showOnCooldown",
-["unit"] = "player",
 ["names"] = {
 },
+["unit"] = "player",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 190456,
 },
 ["untrigger"] = {
 },
@@ -7811,25 +7808,25 @@ WeakAurasSaved = {
 },
 ["use_tooltipValue"] = false,
 ["debuffType"] = "HELPFUL",
-["use_tooltip"] = false,
+["unit"] = "player",
 ["useName"] = false,
 ["subeventPrefix"] = "SPELL",
 ["auraspellids"] = {
 "190456",
 },
-["subeventSuffix"] = "_CAST_START",
+["matchesShowOn"] = "showOnMissing",
 ["fetchTooltip"] = false,
 ["event"] = "Action Usable",
-["type"] = "aura2",
+["spellName"] = 0,
 ["realSpellName"] = 0,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["useExactSpellId"] = true,
-["spellName"] = 0,
-["matchesShowOn"] = "showOnMissing",
+["type"] = "aura2",
+["subeventSuffix"] = "_CAST_START",
 ["use_track"] = true,
-["unit"] = "player",
+["use_tooltip"] = false,
 },
 ["untrigger"] = {
 },
@@ -7843,13 +7840,13 @@ WeakAurasSaved = {
 },
 ["use_tooltipValue"] = false,
 ["use_tooltip"] = false,
-["spellName"] = 0,
 ["debuffType"] = "HELPFUL",
-["unit"] = "player",
+["spellName"] = 0,
+["subeventPrefix"] = "SPELL",
 ["useName"] = false,
 ["matchesShowOn"] = "showOnActive",
 ["useExactSpellId"] = true,
-["subeventSuffix"] = "_CAST_START",
+["type"] = "aura2",
 ["fetchTooltip"] = false,
 ["event"] = "Action Usable",
 ["auraspellids"] = {
@@ -7859,9 +7856,9 @@ WeakAurasSaved = {
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
-["type"] = "aura2",
+["subeventSuffix"] = "_CAST_START",
 ["remOperator"] = "<=",
-["subeventPrefix"] = "SPELL",
+["unit"] = "player",
 ["use_track"] = true,
 ["useRem"] = true,
 },
@@ -7896,9 +7893,9 @@ WeakAurasSaved = {
 ["custom"] = "function()\n    local maxHealth = UnitHealthMax(\"player\") or 1\n    local currentIP = select(16, WA_GetUnitBuff(\"player\", aura_env.IPSpellId)) or 0\n    local castIP = aura_env.getCastIP()\n    local IPCap = math.floor(maxHealth * 0.3)\n    \n    -- maxAdditionalAbsorb can't be less than 0. Even if IPCap becomes lower than currentIP (resulting in a negative value), you won't lose absorb by casting IP.\n    local maxAdditionalAbsorb = math.max(0, IPCap - currentIP)\n    -- additionalAbsorb is castIP or the max amount of absorb that can be gained, whichever is lower.\n    -- For example, if IPCap is 100 and currentIP is 70, a max of 30 absorb can be gained. If castIP is lower than that (say 25), that's what will be gained, otherwise it's that max value (if castIP is 35, you will still only gain 30).\n    local additionalAbsorb = math.min(maxAdditionalAbsorb, castIP)\n    \n    -- e.g. if additionalAbsorb is 160 and castIP is 200, that cast will only grant 160 of its 200 absorb which is 80%, hence the name percentOfCast.\n    local percentOfCast = additionalAbsorb / castIP\n    \n    if (currentIP + castIP <= IPCap) and (percentOfCast >= 0.6) then\n        return true\n    else\n        return false\n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "update",
-["custom_hide"] = "timed",
-["debuffType"] = "HELPFUL",
 ["unit"] = "player",
+["debuffType"] = "HELPFUL",
+["custom_hide"] = "timed",
 },
 ["untrigger"] = {
 },
@@ -7909,23 +7906,23 @@ WeakAurasSaved = {
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 190456\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["unit"] = "player",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 190456\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -7958,13 +7955,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["use_never"] = false,
+["use_alive"] = true,
+["use_combat"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["use_alive"] = true,
-["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -7975,27 +7972,8 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["alpha"] = 1,
+["xOffset"] = 80,
 ["tocversion"] = 110200,
 ["id"] = "FZT_8_漏氣盾",
 ["color"] = {
@@ -8005,91 +7983,87 @@ WeakAurasSaved = {
 1,
 },
 ["frameStrata"] = 1,
+["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["config"] = {
 },
-["uid"] = "ChO4g74(IPG",
 ["authorOptions"] = {
 },
+["uid"] = "ChO4g74(IPG",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["xOffset"] = 80,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 },
 ["MMK_22_幻灭"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["xOffset"] = 220,
-["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["desaturate"] = false,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["authorOptions"] = {
-},
+["parent"] = "MMK",
 ["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
+["regionType"] = "texture",
+["information"] = {
 },
 ["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MMK",
-["rotate"] = false,
+["anchorPoint"] = "CENTER",
+["authorOptions"] = {
+},
+["xOffset"] = 220,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+},
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_unit"] = true,
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -8114,14 +8088,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -8133,26 +8107,26 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 100784,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 100784,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["stacks"] = "2",
 ["useStacks"] = true,
 ["useExactSpellId"] = true,
-["stacksOperator"] = ">=",
+["type"] = "aura2",
 ["auraspellids"] = {
 "202090",
 },
-["type"] = "aura2",
-["unit"] = "player",
+["stacksOperator"] = ">=",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -8161,69 +8135,51 @@ WeakAurasSaved = {
 ["customTriggerLogic"] = "",
 ["activeTriggerMode"] = -10,
 },
+["conditions"] = {
+},
 ["internalVersion"] = 86,
-["uid"] = "CjOTTrEDOku",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_22_幻灭",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_22_幻灭",
-["selfPoint"] = "BOTTOMLEFT",
 ["alpha"] = 1,
 ["width"] = 10,
 ["rotation"] = 0,
+["uid"] = "CjOTTrEDOku",
 ["config"] = {
 },
-["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
-},
-["information"] = {
-},
-["desaturate"] = false,
-},
-["MMK_14_活血"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
-["parent"] = "MMK",
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
+["rotate"] = false,
 ["load"] = {
-["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
 ["class_and_spec"] = {
 ["single"] = 270,
 },
@@ -8231,29 +8187,52 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_class_and_spec"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
+["use_combat"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
 },
 },
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
+["anchorFrameType"] = "SCREEN",
+},
+["MMK_14_活血"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["authorOptions"] = {
+},
 ["xOffset"] = 140,
-["rotate"] = false,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "MMK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["conditions"] = {
+},
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -8262,16 +8241,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["debuffType"] = "HELPFUL",
+["spellName"] = 116670,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
+["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 116670,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -8280,25 +8259,25 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "aura2",
 ["useExactSpellId"] = true,
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["auraspellids"] = {
 "392883",
 },
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -8313,13 +8292,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["use_hostility"] = true,
+["unit"] = "target",
 ["spellIds"] = {
 },
-["use_dead"] = false,
-["hostility"] = "friendly",
 ["use_unit"] = true,
-["unit"] = "target",
+["hostility"] = "friendly",
+["use_dead"] = false,
+["use_hostility"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -8366,18 +8345,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["names"] = {
+},
 ["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "hostile",
+["use_unit"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -8407,10 +8386,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 107428,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 107428,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -8419,48 +8398,66 @@ WeakAurasSaved = {
 ["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and ((t[4] and t[5] and t[6]) or (t[7] and t[8] and t[9]))\nend",
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["internalVersion"] = 86,
-["uid"] = "r0Yxe852jEh",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MMK_14_活血",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
+["id"] = "MMK_14_活血",
+["selfPoint"] = "BOTTOMLEFT",
 ["alpha"] = 1,
 ["width"] = 10,
 ["rotation"] = 0,
+["uid"] = "r0Yxe852jEh",
 ["config"] = {
 },
-["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
 },
-["information"] = {
 },
-["desaturate"] = false,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["anchorFrameType"] = "SCREEN",
 },
 ["SMS_17_痛"] = {
 ["parent"] = "SMS",
@@ -8470,9 +8467,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -8481,18 +8478,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "hostile",
 ["spellIds"] = {
 },
-["unit"] = "target",
 ["names"] = {
 },
-["hostility"] = "hostile",
+["unit"] = "target",
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -8517,14 +8514,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -8535,9 +8532,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 589\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -8570,13 +8567,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
-["use_never"] = false,
-["use_combat"] = true,
-["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
+["use_combat"] = true,
+["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -8587,17 +8584,129 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "ggEdVYs41kE",
-["authorOptions"] = {
+["config"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["tocversion"] = 110200,
 ["id"] = "SMS_17_痛",
-["alpha"] = 1,
 ["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["width"] = 10,
-["config"] = {
+["uid"] = "ggEdVYs41kE",
+["xOffset"] = 170,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["authorOptions"] = {
+},
+},
+["MMK_7_矮人"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 70,
+["width"] = 10,
+["parent"] = "MMK",
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "spell",
+["subeventSuffix"] = "_CAST_START",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["spellName"] = 20594,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["names"] = {
+},
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["debuffClass"] = {
+["disease"] = true,
+["magic"] = true,
+["curse"] = true,
+},
+["use_debuffClass"] = true,
+["useExactSpellId"] = false,
+["useIgnoreExactSpellId"] = false,
+["type"] = "aura2",
+["auraspellids"] = {
+},
+["debuffType"] = "HARMFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_7_矮人",
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -8618,36 +8727,19 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["xOffset"] = 170,
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-},
-["MMK_7_矮人"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
 ["config"] = {
 },
-["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
+["uid"] = "vYwUiE)IB(2",
+["subRegions"] = {
+{
+["type"] = "subbackground",
 },
-["authorOptions"] = {
 },
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
+["height"] = 10,
+["rotate"] = false,
 ["load"] = {
 ["use_alive"] = true,
 ["use_class_and_spec"] = true,
@@ -8672,102 +8764,7 @@ WeakAurasSaved = {
 },
 },
 },
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MMK",
-["xOffset"] = 70,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "spell",
-["subeventSuffix"] = "_CAST_START",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
-["use_spellName"] = true,
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["genericShowOn"] = "showOnCooldown",
-["names"] = {
-},
-["use_track"] = true,
-["spellName"] = 20594,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HARMFUL",
-["debuffClass"] = {
-["disease"] = true,
-["magic"] = true,
-["curse"] = true,
-},
-["use_debuffClass"] = true,
-["useExactSpellId"] = false,
-["useIgnoreExactSpellId"] = false,
-["auraspellids"] = {
-},
-["type"] = "aura2",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["rotate"] = false,
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "MMK_7_矮人",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
 ["desaturate"] = false,
-["rotation"] = 0,
-["uid"] = "vYwUiE)IB(2",
-["alpha"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["conditions"] = {
-},
-["information"] = {
-},
-["width"] = 10,
 },
 ["SMS_1_自盾"] = {
 ["parent"] = "SMS",
@@ -8777,31 +8774,31 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "spell",
-["spellName"] = 17,
+["debuffType"] = "HELPFUL",
 ["subeventSuffix"] = "_CAST_START",
-["genericShowOn"] = "showOnCooldown",
-["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
 ["unit"] = "player",
 ["realSpellName"] = "胜利在望",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
-["subeventPrefix"] = "SPELL",
-["use_exact_spellName"] = false,
 ["names"] = {
 },
+["use_exact_spellName"] = false,
+["subeventPrefix"] = "SPELL",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 17,
 },
 ["untrigger"] = {
 },
@@ -8828,14 +8825,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -8847,20 +8844,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -8889,12 +8886,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
+["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -8905,29 +8902,29 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
+["authorOptions"] = {
+},
 ["tocversion"] = 110200,
 ["id"] = "SMS_1_自盾",
 ["xOffset"] = 10,
 ["alpha"] = 1,
+["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
 ["config"] = {
 },
-["uid"] = "E42CzK9VVrf",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["uid"] = "E42CzK9VVrf",
 ["conditions"] = {
 },
 ["information"] = {
 },
-["authorOptions"] = {
-},
+["selfPoint"] = "BOTTOMLEFT",
 },
 ["FZT_6_打斷"] = {
 ["parent"] = "FZT",
@@ -8937,9 +8934,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -8956,9 +8953,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -9010,10 +9007,10 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 6552,
 ["genericShowOn"] = "showOnReady",
 ["use_track"] = true,
-["spellName"] = 6552,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -9029,9 +9026,9 @@ WeakAurasSaved = {
 ["castType"] = "channel",
 ["remaining"] = "0.5",
 ["use_interruptible"] = true,
-["type"] = "unit",
-["use_absorbMode"] = true,
 ["unit"] = "target",
+["use_absorbMode"] = true,
+["type"] = "unit",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -9049,7 +9046,7 @@ WeakAurasSaved = {
 ["use_spellIds"] = true,
 ["use_absorbHealMode"] = true,
 ["event"] = "Cast",
-["unit"] = "target",
+["remaining_operator"] = "<=",
 ["castType"] = "cast",
 ["use_spellName"] = true,
 ["spellIds"] = {
@@ -9090,10 +9087,10 @@ WeakAurasSaved = {
 449734,
 },
 ["use_absorbMode"] = true,
-["type"] = "unit",
 ["use_remaining"] = true,
+["type"] = "unit",
 ["use_track"] = true,
-["remaining_operator"] = "<=",
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
@@ -9112,11 +9109,11 @@ WeakAurasSaved = {
 ["event"] = "Cast",
 ["castType"] = "cast",
 ["use_spellName"] = true,
-["use_genericShowOn"] = true,
+["unit"] = "target",
 ["type"] = "unit",
 ["use_absorbMode"] = true,
 ["use_track"] = true,
-["unit"] = "target",
+["use_genericShowOn"] = true,
 },
 ["untrigger"] = {
 },
@@ -9128,20 +9125,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -9169,12 +9166,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_class_and_spec"] = true,
+["use_alive"] = true,
+["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 73,
 },
-["use_combat"] = true,
-["use_alive"] = true,
-["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -9185,31 +9182,31 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
-},
-["authorOptions"] = {
-},
+["uid"] = "ruaeuc9cmDA",
+["xOffset"] = 60,
 ["tocversion"] = 110200,
 ["id"] = "FZT_6_打斷",
-["width"] = 10,
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 10,
 ["frameStrata"] = 1,
-["uid"] = "ruaeuc9cmDA",
-["selfPoint"] = "BOTTOMLEFT",
+["config"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["selfPoint"] = "BOTTOMLEFT",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["xOffset"] = 60,
+["authorOptions"] = {
+},
 },
 ["MKT_5_活血酒"] = {
 ["parent"] = "MKT",
@@ -9219,9 +9216,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -9235,13 +9232,13 @@ WeakAurasSaved = {
 ["event"] = "Unit Characteristics",
 ["hostility"] = "hostile",
 ["use_unit"] = true,
-["names"] = {
-},
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["unit"] = "target",
+["names"] = {
+},
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -9271,10 +9268,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 119582,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 119582,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -9309,10 +9306,10 @@ WeakAurasSaved = {
 ["type"] = "custom",
 ["custom"] = "function(self,unitID)\n    local staggerTotal = UnitStagger(\"player\") or 0\n    local heavyStagger  = select(16, WA_GetUnitDebuff(\"player\", 124273)) or 0\n    local middleStagger  = select(16, WA_GetUnitDebuff(\"player\", 124274)) or 0\n    local hpNow = UnitHealth(\"player\") or 1\n    local hpMax = UnitHealthMax(\"player\") or 1\n    \n    local stagger = heavyStagger\n    if stagger <= 0 then\n        stagger = middleStagger\n    end\n    \n    local staggerPercentNow = stagger / hpNow\n    local staggerPercentMax = stagger / hpMax\n    local hpPercent = hpNow / hpMax\n    \n    if (staggerPercentNow >= 0.1) or (staggerPercentMax >= 0.045) or (hpPercent < 0.4 and stagger > 0) then\n        return true\n    else\n        return false\n    end\nend",
 ["custom_type"] = "event",
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
-["events"] = "UNIT_AURA",
 ["custom_hide"] = "timed",
+["events"] = "UNIT_AURA",
+["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -9323,9 +9320,9 @@ WeakAurasSaved = {
 ["auranames"] = {
 "228563",
 },
-["debuffType"] = "HELPFUL",
-["useName"] = true,
 ["unit"] = "player",
+["useName"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -9334,22 +9331,22 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["charges_operator"] = "==",
 ["type"] = "spell",
-["debuffType"] = "HELPFUL",
+["spellName"] = 119582,
 ["subeventSuffix"] = "_CAST_START",
 ["charges"] = "2",
 ["use_charges"] = true,
 ["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
-["unit"] = "player",
+["event"] = "Action Usable",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
-["use_genericShowOn"] = true,
 ["subeventPrefix"] = "SPELL",
-["event"] = "Action Usable",
+["use_genericShowOn"] = true,
+["unit"] = "player",
 ["use_track"] = true,
-["spellName"] = 119582,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -9360,10 +9357,10 @@ WeakAurasSaved = {
 ["auranames"] = {
 "228563",
 },
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["matchesShowOn"] = "showOnMissing",
 ["type"] = "aura2",
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -9374,10 +9371,10 @@ WeakAurasSaved = {
 ["auranames"] = {
 "325092",
 },
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["matchesShowOn"] = "showOnMissing",
 ["type"] = "aura2",
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -9407,11 +9404,11 @@ WeakAurasSaved = {
 },
 ["matchesShowOn"] = "showOnActive",
 ["unit"] = "player",
-["useRem"] = true,
-["remOperator"] = "<=",
-["rem"] = "3",
-["type"] = "aura2",
 ["debuffType"] = "HELPFUL",
+["remOperator"] = "<=",
+["type"] = "aura2",
+["rem"] = "3",
+["useRem"] = true,
 },
 ["untrigger"] = {
 },
@@ -9423,20 +9420,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -9461,14 +9458,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 268,
-},
-["use_combat"] = true,
-["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 268,
 },
 ["size"] = {
 ["multi"] = {
@@ -9480,31 +9477,31 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["frameStrata"] = 1,
-["authorOptions"] = {
-},
+["width"] = 10,
+["selfPoint"] = "BOTTOMLEFT",
 ["tocversion"] = 110200,
 ["id"] = "MKT_5_活血酒",
 ["xOffset"] = 50,
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["width"] = 10,
+["alpha"] = 1,
 ["config"] = {
 },
+["uid"] = "6JyPR0g7jtm",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["uid"] = "6JyPR0g7jtm",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["selfPoint"] = "BOTTOMLEFT",
+["authorOptions"] = {
+},
 },
 ["MKT_9_打断"] = {
 ["color"] = {
@@ -9519,9 +9516,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -9538,9 +9535,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
 ["hostility"] = "hostile",
+["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -9592,10 +9589,10 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
-["spellName"] = 116705,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnReady",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 116705,
 },
 ["untrigger"] = {
 },
@@ -9611,9 +9608,9 @@ WeakAurasSaved = {
 ["castType"] = "channel",
 ["remaining"] = "0.5",
 ["use_interruptible"] = true,
-["unit"] = "target",
-["use_absorbMode"] = true,
 ["type"] = "unit",
+["use_absorbMode"] = true,
+["unit"] = "target",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -9631,7 +9628,7 @@ WeakAurasSaved = {
 ["use_remaining"] = true,
 ["use_absorbHealMode"] = true,
 ["event"] = "Cast",
-["use_genericShowOn"] = true,
+["unit"] = "target",
 ["castType"] = "cast",
 ["use_spellName"] = true,
 ["spellIds"] = {
@@ -9672,10 +9669,10 @@ WeakAurasSaved = {
 449734,
 },
 ["use_absorbMode"] = true,
-["use_spellIds"] = true,
 ["type"] = "unit",
+["use_spellIds"] = true,
 ["use_track"] = true,
-["unit"] = "target",
+["use_genericShowOn"] = true,
 },
 ["untrigger"] = {
 },
@@ -9694,11 +9691,11 @@ WeakAurasSaved = {
 ["event"] = "Cast",
 ["castType"] = "cast",
 ["use_spellName"] = true,
-["use_unit"] = true,
+["use_genericShowOn"] = true,
 ["use_remaining"] = true,
 ["use_absorbMode"] = true,
 ["use_track"] = true,
-["use_genericShowOn"] = true,
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -9710,20 +9707,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -9751,12 +9748,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_class_and_spec"] = true,
-["use_alive"] = true,
-["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 268,
 },
+["use_combat"] = true,
+["use_alive"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -9767,33 +9764,33 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "nD7(hUoz6Ok",
-["authorOptions"] = {
-},
-["tocversion"] = 110200,
-["id"] = "MKT_9_打断",
-["frameStrata"] = 1,
-["alpha"] = 1,
-["width"] = 10,
-["anchorFrameType"] = "SCREEN",
 ["config"] = {
 },
-["xOffset"] = 90,
+["parent"] = "MKT",
+["tocversion"] = 110200,
+["id"] = "MKT_9_打断",
+["alpha"] = 1,
+["frameStrata"] = 1,
+["width"] = 10,
+["anchorFrameType"] = "SCREEN",
+["uid"] = "nD7(hUoz6Ok",
 ["selfPoint"] = "BOTTOMLEFT",
+["xOffset"] = 90,
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["parent"] = "MKT",
+["authorOptions"] = {
+},
 },
 ["DKT_2_死打"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
+["xOffset"] = 20,
+["desaturate"] = false,
+["authorOptions"] = {
 },
-["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
 ["color"] = {
 1,
 1,
@@ -9802,47 +9799,22 @@ WeakAurasSaved = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
+["regionType"] = "texture",
+["information"] = {
 },
 ["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["authorOptions"] = {
+["anchorPoint"] = "CENTER",
+["parent"] = "DKT",
+["conditions"] = {
 },
-["xOffset"] = 20,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
+},
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -9851,16 +9823,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["spellName"] = 49998,
+["debuffType"] = "HELPFUL",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
+["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
-["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 49998,
 },
 ["untrigger"] = {
 },
@@ -9874,8 +9846,8 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_unit"] = true,
 ["hostility"] = "hostile",
-["use_hostility"] = true,
 ["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -9909,13 +9881,13 @@ WeakAurasSaved = {
 ["stacks"] = "35",
 ["spellIds"] = {
 },
+["unit"] = "player",
+["names"] = {
+},
+["useExactSpellId"] = true,
 ["auraspellids"] = {
 "463730",
 },
-["useExactSpellId"] = true,
-["names"] = {
-},
-["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -9989,76 +9961,124 @@ WeakAurasSaved = {
 ["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and ((t[4] and t[5]) or t[6] or t[7])\nend",
 ["activeTriggerMode"] = -10,
 },
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "DKT_2_死打",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "DKT_2_死打",
-["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["width"] = 10,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
+["config"] = {
+},
 ["uid"] = "l7lTaWHuEtw",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["class"] = {
+["multi"] = {
 },
-["information"] = {
 },
-["desaturate"] = false,
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["width"] = 10,
 },
 ["MMK_9_驱散"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["uid"] = "cWgzwn6Jzqx",
+["desaturate"] = false,
+["xOffset"] = 90,
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["parent"] = "MMK",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["width"] = 10,
-["xOffset"] = 90,
-["parent"] = "MMK",
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["authorOptions"] = {
-},
-["conditions"] = {
-},
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["rotate"] = false,
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -10070,13 +10090,13 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["unit"] = "target",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["use_unit"] = true,
-["hostility"] = "friendly",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "friendly",
+["use_unit"] = true,
+["unit"] = "target",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -10105,17 +10125,17 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 115450,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 115450,
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "target",
+["debuffType"] = "HARMFUL",
 ["debuffClass"] = {
 ["poison"] = true,
 ["magic"] = true,
@@ -10124,53 +10144,70 @@ WeakAurasSaved = {
 ["use_debuffClass"] = true,
 ["useExactSpellId"] = false,
 ["useIgnoreExactSpellId"] = false,
-["type"] = "aura2",
 ["auraspellids"] = {
 },
-["debuffType"] = "HARMFUL",
+["type"] = "aura2",
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["internalVersion"] = 86,
-["frameStrata"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_9_驱散",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_9_驱散",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "cWgzwn6Jzqx",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
+["conditions"] = {
+},
+["information"] = {
+},
+["width"] = 10,
+},
+["MMK_12_雷茶"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["uid"] = "3YBGjYcni0S",
+["desaturate"] = false,
+["xOffset"] = 120,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
 ["load"] = {
 ["class"] = {
 ["multi"] = {
@@ -10195,39 +10232,22 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
-},
-["MMK_12_雷茶"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["parent"] = "MMK",
-["width"] = 10,
-["xOffset"] = 120,
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
 ["authorOptions"] = {
 },
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["conditions"] = {
-},
+["parent"] = "MMK",
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["rotate"] = false,
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -10240,12 +10260,12 @@ WeakAurasSaved = {
 ["names"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["unit"] = "target",
+["use_dead"] = false,
 ["spellIds"] = {
 },
-["use_unit"] = true,
 ["hostility"] = "hostile",
-["use_dead"] = false,
+["use_unit"] = true,
+["unit"] = "target",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -10276,12 +10296,12 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 116680,
-["use_charges"] = true,
-["charges"] = "2",
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
 ["debuffType"] = "HELPFUL",
+["use_charges"] = true,
+["genericShowOn"] = "showOnCooldown",
+["charges"] = "2",
+["use_track"] = true,
+["spellName"] = 116680,
 },
 ["untrigger"] = {
 },
@@ -10290,26 +10310,26 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "aura2",
 ["useExactSpellId"] = true,
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["matchesShowOn"] = "showOnMissing",
 ["auraspellids"] = {
 "388026",
 },
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -10335,141 +10355,78 @@ WeakAurasSaved = {
 },
 ["activeTriggerMode"] = -10,
 },
-["internalVersion"] = 86,
-["frameStrata"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_12_雷茶",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_12_雷茶",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "3YBGjYcni0S",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["class"] = {
-["multi"] = {
+["conditions"] = {
 },
+["information"] = {
 },
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 270,
+["width"] = 10,
 },
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
-},
-["DKT_14_抚摩"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
-},
-["desaturate"] = false,
-["parent"] = "DKT",
-["xOffset"] = 140,
-["mirror"] = false,
+["FZT_5_藥水"] = {
+["parent"] = "FZT",
+["preferToUpdate"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["anchorPoint"] = "TOPLEFT",
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
+["do_custom"] = false,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
+},
 ["triggers"] = {
 {
 ["trigger"] = {
-["type"] = "spell",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["spellName"] = 195292,
-["use_spellName"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["names"] = {
+},
+["use_hostility"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["names"] = {
-},
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
+["use_unit"] = true,
+["hostility"] = "hostile",
+["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -10479,14 +10436,17 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
+["health_operator"] = {
+">",
+},
 ["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
+["event"] = "Health",
 ["unit"] = "target",
+["health"] = {
+"0",
+},
+["use_health"] = true,
 ["use_unit"] = true,
-["hostility"] = "hostile",
-["use_hostility"] = true,
-["use_dead"] = false,
-["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -10501,7 +10461,7 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_range"] = true,
 ["use_unit"] = true,
-["range"] = "7",
+["range"] = "8",
 ["range_operator"] = "<=",
 ["debuffType"] = "HELPFUL",
 },
@@ -10510,64 +10470,151 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["type"] = "custom",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom_type"] = "status",
-["check"] = "event",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["percenthealth"] = {
+"35",
+},
+["event"] = "Health",
+["unit"] = "player",
+["use_absorbMode"] = true,
+["use_unit"] = true,
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
+"<=",
+},
 ["debuffType"] = "HELPFUL",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195292\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["itemName"] = 211878,
+["use_count"] = true,
+["use_genericShowOn"] = true,
+["event"] = "Item Count",
+["unit"] = "player",
+["count"] = "0",
+["count_operator"] = ">",
+["genericShowOn"] = "showOnCooldown",
+["type"] = "item",
+["use_itemName"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "item",
+["use_itemName"] = true,
+["itemName"] = 211878,
+["genericShowOn"] = "showOnReady",
+["use_genericShowOn"] = true,
+["event"] = "Cooldown Progress (Item)",
 ["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
 ["activeTriggerMode"] = -10,
 },
+["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "DKT_14_抚摩",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
-["width"] = 10,
+["desaturate"] = false,
 ["rotation"] = 0,
-["uid"] = "1kq4IHltviL",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_never"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 73,
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["frameStrata"] = 1,
+["xOffset"] = 50,
+["tocversion"] = 110200,
+["id"] = "FZT_5_藥水",
+["authorOptions"] = {
+},
+["alpha"] = 1,
+["width"] = 10,
+["anchorFrameType"] = "SCREEN",
+["config"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["uid"] = "nsKOYZ3Ve4N",
 ["conditions"] = {
 },
 ["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
 },
-["anchorFrameType"] = "SCREEN",
+["selfPoint"] = "BOTTOMLEFT",
 },
 ["MKT_18_神鹤"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
+["authorOptions"] = {
 },
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 180,
+["width"] = 10,
+["parent"] = "MKT",
 ["color"] = {
 1,
 1,
@@ -10576,65 +10623,40 @@ WeakAurasSaved = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 268,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
+["regionType"] = "texture",
+["information"] = {
 },
 ["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MKT",
-["authorOptions"] = {
+["anchorPoint"] = "CENTER",
+["xOffset"] = 180,
+["conditions"] = {
 },
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
+},
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_unit"] = true,
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -10659,72 +10681,97 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "custom",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 322729\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["use_debuffClass"] = false,
-["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MKT_18_神鹤",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["alpha"] = 1,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
+["id"] = "MKT_18_神鹤",
+["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["desaturate"] = false,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
+["config"] = {
+},
 ["uid"] = "oWanSTDbg9G",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 268,
 },
-["information"] = {
+["talent"] = {
+["multi"] = {
 },
-["width"] = 10,
+},
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
 },
 ["MMK"] = {
 ["backdropColor"] = {
@@ -10759,14 +10806,32 @@ WeakAurasSaved = {
 "MMK_23_猛虎",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["authorOptions"] = {
-},
-["yOffset"] = 10,
-["border"] = false,
+["xOffset"] = 0,
 ["borderEdge"] = "Square Full White",
-["anchorPoint"] = "BOTTOMLEFT",
+["border"] = false,
+["yOffset"] = 10,
+["regionType"] = "group",
 ["borderSize"] = 2,
-["selfPoint"] = "CENTER",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["borderColor"] = {
 0,
 0,
@@ -10777,16 +10842,15 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["names"] = {
-},
+["debuffType"] = "HELPFUL",
 ["type"] = "aura2",
 ["spellIds"] = {
 },
@@ -10794,94 +10858,40 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["subeventPrefix"] = "SPELL",
 ["event"] = "Health",
-["debuffType"] = "HELPFUL",
+["names"] = {
+},
 },
 ["untrigger"] = {
 },
 },
 },
-["regionType"] = "group",
+["anchorPoint"] = "BOTTOMLEFT",
 ["internalVersion"] = 86,
-["xOffset"] = 0,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
+["authorOptions"] = {
 },
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["selfPoint"] = "CENTER",
 ["id"] = "MMK",
 ["borderOffset"] = 4,
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["config"] = {
-},
+["borderInset"] = 1,
 ["uid"] = ")IX9ObCpJcJ",
-["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["talent"] = {
-["multi"] = {
-},
-},
+["information"] = {
 },
 ["subRegions"] = {
 },
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["conditions"] = {
 },
-["information"] = {
-},
-["borderInset"] = 1,
-},
-["DKT_10_血沸"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
-},
-["desaturate"] = false,
-["parent"] = "DKT",
-["xOffset"] = 100,
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
 ["load"] = {
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 250,
-},
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
 ["class"] = {
 ["multi"] = {
 },
@@ -10891,27 +10901,39 @@ WeakAurasSaved = {
 },
 },
 },
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["authorOptions"] = {
+["config"] = {
 },
+},
+["DKT_10_血沸"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
+["xOffset"] = 100,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "DKT",
+["conditions"] = {
+},
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
+},
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -10920,16 +10942,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["spellName"] = 50842,
+["debuffType"] = "HELPFUL",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
+["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
-["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 50842,
 },
 ["untrigger"] = {
 },
@@ -10943,8 +10965,8 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_unit"] = true,
 ["hostility"] = "hostile",
-["use_hostility"] = true,
 ["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -10973,9 +10995,9 @@ WeakAurasSaved = {
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 50842\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
 ["unit"] = "player",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 50842\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -10984,11 +11006,11 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "aura2",
 ["useExactSpellId"] = true,
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["auraspellids"] = {
 "52172",
 },
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -10997,58 +11019,50 @@ WeakAurasSaved = {
 ["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and (t[4] or t[5])\nend",
 ["activeTriggerMode"] = -10,
 },
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "DKT_10_血沸",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "DKT_10_血沸",
-["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["width"] = 10,
+["desaturate"] = false,
 ["rotation"] = 0,
+["config"] = {
+},
 ["uid"] = "EtZTCKb2h88",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
-},
-["information"] = {
-},
-["anchorFrameType"] = "SCREEN",
-},
-["DKT_17_心打"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
-},
-["desaturate"] = false,
-["parent"] = "DKT",
-["xOffset"] = 170,
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
+["rotate"] = false,
 ["load"] = {
-["use_alive"] = true,
-["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 250,
 },
@@ -11056,12 +11070,9 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
+["use_alive"] = true,
+["use_class_and_spec"] = true,
 ["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
 ["multi"] = {
 },
 },
@@ -11070,24 +11081,39 @@ WeakAurasSaved = {
 },
 },
 },
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["authorOptions"] = {
+["width"] = 10,
 },
+["DKT_17_心打"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
+["xOffset"] = 170,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "DKT",
+["conditions"] = {
+},
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -11096,16 +11122,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["spellName"] = 206930,
+["debuffType"] = "HELPFUL",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
+["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
-["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 206930,
 },
 ["untrigger"] = {
 },
@@ -11119,8 +11145,8 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_unit"] = true,
 ["hostility"] = "hostile",
-["use_hostility"] = true,
 ["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -11149,195 +11175,92 @@ WeakAurasSaved = {
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 206930\n    local skill_id_1 = 433895\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
 ["unit"] = "player",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 206930\n    local skill_id_1 = 433895\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["rotate"] = false,
 ["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "DKT_17_心打",
+["alpha"] = 1,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
+["id"] = "DKT_17_心打",
+["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["width"] = 10,
+["desaturate"] = false,
 ["rotation"] = 0,
+["config"] = {
+},
 ["uid"] = "trBAEFEPp9j",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 250,
 },
-["information"] = {
+["talent"] = {
+["multi"] = {
 },
-["anchorFrameType"] = "SCREEN",
+},
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["width"] = 10,
 },
 ["MKT_19_碧玉"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["width"] = 10,
-["authorOptions"] = {
-},
-["xOffset"] = 190,
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MKT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["conditions"] = {
-},
-["internalVersion"] = 86,
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 116847\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["use_debuffClass"] = false,
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "MKT_19_碧玉",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "DnKI2xwb8u3",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
+["anchorFrameType"] = "SCREEN",
+["parent"] = "MKT",
+["xOffset"] = 190,
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
 ["load"] = {
 ["use_class_and_spec"] = true,
 ["spec"] = {
@@ -11362,156 +11285,10 @@ WeakAurasSaved = {
 },
 },
 },
-["anchorFrameType"] = "SCREEN",
-},
-["BG"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 2,
-["xOffset"] = 0,
-["desaturate"] = false,
-["mirror"] = false,
-["yOffset"] = 5,
+["blendMode"] = "BLEND",
 ["regionType"] = "texture",
 ["authorOptions"] = {
 },
-["blendMode"] = "BLEND",
-["information"] = {
-},
-["anchorPoint"] = "BOTTOMLEFT",
-["conditions"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["subeventPrefix"] = "SPELL",
-["event"] = "Health",
-["names"] = {
-},
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["color"] = {
-0,
-0,
-0,
-1,
-},
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "BG",
-["uid"] = "MzLW4P)rGP9",
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["rotation"] = 0,
-["config"] = {
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 20,
-["rotate"] = false,
-["load"] = {
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["width"] = 300,
-},
-["MMK_21_鹤踢"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["xOffset"] = 210,
-["anchorFrameType"] = "SCREEN",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MMK",
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -11578,28 +11355,13 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
 ["debuffType"] = "HELPFUL",
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["spellName"] = 101546,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["custom_hide"] = "timed",
-["onUpdateThrottle"] = 0.5,
-["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        \n        if UnitExists(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit) and WeakAuras.CheckRange(unit, 8, \"<=\") then\n            count = count + 1\n        end\n    end\n    return count >= 5\nend",
-["custom_type"] = "status",
-["check"] = "update",
 ["type"] = "custom",
-["debuffType"] = "HELPFUL",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 116847\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["use_debuffClass"] = false,
 ["unit"] = "player",
 },
 ["untrigger"] = {
@@ -11608,7 +11370,7 @@ WeakAurasSaved = {
 ["activeTriggerMode"] = -10,
 },
 ["internalVersion"] = 86,
-["uid"] = "oENh0Fn26k6",
+["uid"] = "DnKI2xwb8u3",
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -11629,14 +11391,14 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_21_鹤踢",
+["id"] = "MKT_19_碧玉",
 ["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["width"] = 10,
 ["rotation"] = 0,
 ["config"] = {
 },
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -11649,11 +11411,133 @@ WeakAurasSaved = {
 },
 ["desaturate"] = false,
 },
-["BDK_14_冰镰"] = {
-["parent"] = "BDK",
-["preferToUpdate"] = false,
+["BG"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["authorOptions"] = {
+},
+["anchorFrameType"] = "SCREEN",
+["mirror"] = false,
+["yOffset"] = 5,
+["anchorPoint"] = "BOTTOMLEFT",
+["xOffset"] = 0,
+["blendMode"] = "BLEND",
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["regionType"] = "texture",
+["rotate"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["color"] = {
+0,
+0,
+0,
+1,
+},
+["internalVersion"] = 86,
+["triggers"] = {
+{
+["trigger"] = {
+["names"] = {
+},
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "player",
+["subeventPrefix"] = "SPELL",
+["event"] = "Health",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "BG",
+["config"] = {
+},
+["frameStrata"] = 2,
+["width"] = 300,
+["rotation"] = 0,
+["uid"] = "MzLW4P)rGP9",
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 20,
+["conditions"] = {
+},
+["information"] = {
+},
+["desaturate"] = false,
+},
+["MMK_21_鹤踢"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["parent"] = "MMK",
+["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["authorOptions"] = {
+},
+["xOffset"] = 210,
 ["actions"] = {
 ["start"] = {
 },
@@ -11665,21 +11549,184 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["spellName"] = 101546,
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["onUpdateThrottle"] = 0.5,
+["custom"] = "function()\n    local count = 0\n    for i = 1, 40 do\n        local unit = \"nameplate\"..i\n        \n        if UnitExists(unit) and UnitCanAttack(\"player\", unit) and UnitAffectingCombat(unit) and WeakAuras.CheckRange(unit, 8, \"<=\") then\n            count = count + 1\n        end\n    end\n    return count >= 5\nend",
+["custom_type"] = "status",
+["check"] = "update",
+["debuffType"] = "HELPFUL",
+["type"] = "custom",
+["custom_hide"] = "timed",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["conditions"] = {
+},
+["internalVersion"] = 86,
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_21_鹤踢",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["alpha"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["uid"] = "oENh0Fn26k6",
+["config"] = {
+},
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["anchorFrameType"] = "SCREEN",
+},
+["BDK_14_冰镰"] = {
+["parent"] = "BDK",
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
 ["use_dead"] = false,
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["type"] = "unit",
-["hostility"] = "hostile",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
+["unit"] = "target",
 ["names"] = {
 },
-["unit"] = "target",
-["use_hostility"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -11704,14 +11751,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -11722,9 +11769,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 207230\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -11736,20 +11783,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -11774,14 +11821,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 251,
-},
-["use_combat"] = true,
-["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 251,
 },
 ["size"] = {
 ["multi"] = {
@@ -11793,83 +11840,102 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "iNi8G2tte2F",
-["xOffset"] = 140,
-["tocversion"] = 110200,
-["id"] = "BDK_14_冰镰",
-["alpha"] = 1,
-["frameStrata"] = 1,
-["width"] = 10,
-["anchorFrameType"] = "SCREEN",
 ["config"] = {
 },
+["authorOptions"] = {
+},
+["tocversion"] = 110200,
+["id"] = "BDK_14_冰镰",
+["frameStrata"] = 1,
+["alpha"] = 1,
+["width"] = 10,
+["anchorFrameType"] = "SCREEN",
+["uid"] = "iNi8G2tte2F",
+["selfPoint"] = "BOTTOMLEFT",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["selfPoint"] = "BOTTOMLEFT",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["authorOptions"] = {
-},
+["xOffset"] = 140,
 },
 ["DKT_4_红"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["desaturate"] = false,
-["parent"] = "DKT",
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
+["xOffset"] = 40,
+["anchorFrameType"] = "SCREEN",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 40,
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["parent"] = "DKT",
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["conditions"] = {
-},
-["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["names"] = {
+},
 ["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "hostile",
+["use_unit"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -11901,25 +11967,25 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["use_includeCharges"] = true,
 ["count"] = "1",
-["count_operator"] = ">=",
-["itemName"] = 211878,
-["genericShowOn"] = "showOnCooldown",
-["use_itemName"] = true,
 ["debuffType"] = "HELPFUL",
+["use_itemName"] = true,
+["genericShowOn"] = "showOnCooldown",
+["itemName"] = 211878,
+["count_operator"] = ">=",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["itemName"] = 211878,
-["genericShowOn"] = "showOnReady",
+["event"] = "Cooldown Progress (Item)",
 ["type"] = "item",
 ["use_itemName"] = true,
 ["use_genericShowOn"] = true,
-["event"] = "Cooldown Progress (Item)",
-["unit"] = "player",
+["genericShowOn"] = "showOnReady",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -11951,11 +12017,11 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 49998,
+["debuffType"] = "HELPFUL",
 ["use_inverse"] = true,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 49998,
 },
 ["untrigger"] = {
 },
@@ -11971,9 +12037,9 @@ WeakAurasSaved = {
 ["runesCount_operator"] = "<=",
 ["use_genericShowOn"] = true,
 ["use_runesCount"] = true,
+["use_unit"] = true,
 ["rune"] = 0,
 ["runesCount"] = "3",
-["use_unit"] = true,
 ["use_powertype"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -11982,66 +12048,47 @@ WeakAurasSaved = {
 },
 ["activeTriggerMode"] = -10,
 },
+["internalVersion"] = 86,
+["uid"] = "Bom8ixMXHqn",
 ["selfPoint"] = "BOTTOMLEFT",
 ["id"] = "DKT_4_红",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["alpha"] = 1,
-["width"] = 10,
+["frameStrata"] = 1,
+["desaturate"] = false,
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "Bom8ixMXHqn",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 250,
+["conditions"] = {
 },
-["talent"] = {
-["multi"] = {
+["information"] = {
 },
-},
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["anchorFrameType"] = "SCREEN",
+["width"] = 10,
 },
 ["BDK_10_符文武器"] = {
 ["parent"] = "BDK",
@@ -12051,9 +12098,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -12062,18 +12109,18 @@ WeakAurasSaved = {
 ["use_dead"] = false,
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["type"] = "unit",
-["hostility"] = "hostile",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
+["unit"] = "target",
 ["names"] = {
 },
-["unit"] = "target",
-["use_hostility"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -12098,14 +12145,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -12116,9 +12163,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 47568\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -12130,20 +12177,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -12168,14 +12215,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 251,
-},
-["use_combat"] = true,
-["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 251,
 },
 ["size"] = {
 ["multi"] = {
@@ -12187,30 +12234,30 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "o59zflm(8aa",
-["authorOptions"] = {
-},
-["tocversion"] = 110200,
-["id"] = "BDK_10_符文武器",
-["alpha"] = 1,
-["frameStrata"] = 1,
-["width"] = 10,
-["anchorFrameType"] = "SCREEN",
 ["config"] = {
-},
-["xOffset"] = 100,
-["selfPoint"] = "BOTTOMLEFT",
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
 },
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["tocversion"] = 110200,
+["id"] = "BDK_10_符文武器",
+["frameStrata"] = 1,
+["alpha"] = 1,
+["width"] = 10,
+["anchorFrameType"] = "SCREEN",
+["uid"] = "o59zflm(8aa",
+["selfPoint"] = "BOTTOMLEFT",
+["xOffset"] = 100,
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["authorOptions"] = {
 },
 },
 ["SMS_16_神圣之火"] = {
@@ -12221,9 +12268,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -12232,18 +12279,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["names"] = {
+},
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "hostile",
 ["spellIds"] = {
 },
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
-["hostility"] = "hostile",
+["use_unit"] = true,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -12268,14 +12315,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -12286,9 +12333,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 14914\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -12319,14 +12366,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["class_and_spec"] = {
+["single"] = 257,
+},
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 257,
 },
 ["size"] = {
 ["multi"] = {
@@ -12338,156 +12385,30 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
+["frameStrata"] = 1,
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["tocversion"] = 110200,
 ["id"] = "SMS_16_神圣之火",
 ["authorOptions"] = {
 },
 ["alpha"] = 1,
+["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
 ["config"] = {
 },
-["uid"] = "e203KTAr005",
 ["xOffset"] = 160,
+["uid"] = "e203KTAr005",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["color"] = {
-1,
-1,
-1,
-1,
-},
-},
-["MKT_17_旭日"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MKT",
-["xOffset"] = 170,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 107428\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["use_debuffClass"] = false,
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["conditions"] = {
-},
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MKT_17_旭日",
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -12508,19 +12429,17 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["alpha"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["config"] = {
 },
-["uid"] = "aYa1w88mLx7",
-["subRegions"] = {
-{
-["type"] = "subbackground",
+["MKT_17_旭日"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 170,
+["anchorFrameType"] = "SCREEN",
+["parent"] = "MKT",
+["authorOptions"] = {
 },
-},
-["height"] = 10,
-["rotate"] = false,
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
 ["load"] = {
 ["class"] = {
 ["multi"] = {
@@ -12545,7 +12464,135 @@ WeakAurasSaved = {
 },
 },
 },
-["anchorFrameType"] = "SCREEN",
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["rotate"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "target",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["use_dead"] = false,
+["hostility"] = "hostile",
+["use_unit"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 107428\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["use_debuffClass"] = false,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["uid"] = "aYa1w88mLx7",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MKT_17_旭日",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["desaturate"] = false,
 },
 ["SMS_10_快速治疗"] = {
 ["user_y"] = 0,
@@ -12605,14 +12652,15 @@ WeakAurasSaved = {
 1,
 1,
 },
-["parent"] = "SMS",
+["preferToUpdate"] = false,
 ["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
+["barColor2"] = {
+1,
+1,
+0,
+1,
 },
-["conditions"] = {
-},
+["crop_x"] = 0.41,
 ["desaturateBackground"] = false,
 ["cooldownSwipe"] = true,
 ["sparkColor"] = {
@@ -12643,12 +12691,12 @@ WeakAurasSaved = {
 ["event"] = "Unit Characteristics",
 ["spellIds"] = {
 },
+["unit"] = "target",
+["type"] = "unit",
+["hostility"] = "friendly",
+["subeventPrefix"] = "SPELL",
 ["names"] = {
 },
-["subeventPrefix"] = "SPELL",
-["hostility"] = "friendly",
-["type"] = "unit",
-["unit"] = "target",
 },
 ["untrigger"] = {
 },
@@ -12697,14 +12745,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -12716,10 +12764,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 2061,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 2061,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -12728,12 +12776,12 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "aura2",
 ["useExactSpellId"] = true,
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["matchesShowOn"] = "showOnMissing",
 ["auraspellids"] = {
 "390993",
 },
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -12744,9 +12792,9 @@ WeakAurasSaved = {
 ["auraspellids"] = {
 "114255",
 },
-["unit"] = "player",
-["useExactSpellId"] = true,
 ["debuffType"] = "HELPFUL",
+["useExactSpellId"] = true,
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -12763,24 +12811,89 @@ WeakAurasSaved = {
 },
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
+["zoom"] = 0.3,
+["actions"] = {
+["start"] = {
+["sound_path"] = "",
+["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
+["do_sound"] = false,
+},
+["finish"] = {
+["hide_all_glows"] = true,
+},
+["init"] = {
+},
+},
+["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["cooldownTextDisabled"] = true,
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["version"] = 51,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["textureSource"] = "Picker",
+["xOffset"] = 100,
+["sparkBlendMode"] = "ADD",
+["useAdjustededMax"] = false,
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["source"] = "import",
+["id"] = "SMS_10_快速治疗",
+["iconSource"] = -1,
+["config"] = {
+},
+["mirror"] = false,
+["tocversion"] = 110200,
+["adjustedMin"] = "",
+["desaturate"] = false,
+["anchorFrameParent"] = false,
+["icon_side"] = "LEFT",
+["uid"] = "FS1GzFEJf)8",
+["cooldown"] = true,
+["sparkHeight"] = 30,
+["backgroundColor"] = {
+0,
+0,
+0,
+0.300000011920929,
+},
+["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["sparkWidth"] = 10,
+["semver"] = "1.5.5",
+["rotate"] = false,
+["sparkHidden"] = "NEVER",
+["fontSize"] = 12,
+["useCooldownModRate"] = true,
+["width"] = 10,
+["auto"] = true,
+["foregroundColor"] = {
+1,
+1,
+1,
+1,
+},
+["inverse"] = false,
 ["load"] = {
 ["use_never"] = false,
 ["class"] = {
@@ -12811,172 +12924,81 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["zoneIds"] = "g431",
-["difficulty"] = {
-},
-["use_class_and_spec"] = true,
-["use_combat"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["use_level"] = false,
-["use_alive"] = true,
-["level_operator"] = {
-">=",
-},
 ["class_and_spec"] = {
 ["single"] = 257,
 },
+["difficulty"] = {
 },
-["actions"] = {
-["start"] = {
-["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
-["sound_path"] = "",
-["do_sound"] = false,
+["level_operator"] = {
+">=",
 },
-["init"] = {
-},
-["finish"] = {
-["hide_all_glows"] = true,
-},
-},
-["foregroundColor"] = {
-1,
-1,
-1,
-1,
-},
-["auto"] = true,
-["width"] = 10,
-["useCooldownModRate"] = true,
-["version"] = 51,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["textureSource"] = "Picker",
-["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
-["sparkBlendMode"] = "ADD",
-["useAdjustededMax"] = false,
-["fontSize"] = 12,
-["source"] = "import",
-["sparkHidden"] = "NEVER",
-["rotate"] = false,
-["config"] = {
-},
-["mirror"] = false,
-["sparkWidth"] = 10,
-["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
-["backgroundColor"] = {
-0,
-0,
-0,
-0.300000011920929,
-},
-["sparkHeight"] = 30,
-["icon_side"] = "LEFT",
-["cooldown"] = true,
-["uid"] = "FS1GzFEJf)8",
-["anchorFrameParent"] = false,
-["desaturate"] = false,
-["adjustedMin"] = "",
-["tocversion"] = 110200,
-["semver"] = "1.5.5",
-["iconSource"] = -1,
-["id"] = "SMS_10_快速治疗",
-["xOffset"] = 100,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["cooldownTextDisabled"] = true,
-["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["inverse"] = false,
-["zoom"] = 0.3,
-["orientation"] = "HORIZONTAL",
-["crop_x"] = 0.41,
-["barColor2"] = {
-1,
-1,
-0,
-1,
-},
-["preferToUpdate"] = false,
-},
-["MKT_13_幻灭"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
-},
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 130,
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 268,
-},
+["use_alive"] = true,
+["use_level"] = false,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
 ["use_combat"] = true,
-["size"] = {
-["multi"] = {
+["use_class_and_spec"] = true,
+["zoneIds"] = "g431",
 },
+["orientation"] = "HORIZONTAL",
+["conditions"] = {
 },
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
 },
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MKT",
+["parent"] = "SMS",
+},
+["MKT_13_幻灭"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["width"] = 10,
+["parent"] = "MKT",
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["xOffset"] = 130,
+["conditions"] = {
+},
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
+},
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_unit"] = true,
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -13001,72 +13023,97 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "custom",
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 205523\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["use_debuffClass"] = false,
-["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MKT_13_幻灭",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["alpha"] = 1,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
+["id"] = "MKT_13_幻灭",
+["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["desaturate"] = false,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
+["config"] = {
+},
 ["uid"] = "75zNLMXZZf8",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
 },
-["information"] = {
 },
-["width"] = 10,
+["class_and_spec"] = {
+["single"] = 268,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
 },
 ["SMS_5_驱散"] = {
 ["sparkWidth"] = 10,
@@ -13132,15 +13179,14 @@ WeakAurasSaved = {
 1,
 1,
 },
-["parent"] = "SMS",
+["preferToUpdate"] = false,
 ["adjustedMin"] = "",
-["barColor2"] = {
-1,
-1,
-0,
-1,
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
 },
-["crop_x"] = 0.41,
+["conditions"] = {
+},
 ["desaturateBackground"] = false,
 ["cooldownSwipe"] = true,
 ["compress"] = false,
@@ -13165,13 +13211,13 @@ WeakAurasSaved = {
 ["event"] = "Unit Characteristics",
 ["spellIds"] = {
 },
-["classification"] = {
-},
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["hostility"] = "friendly",
 ["names"] = {
 },
-["hostility"] = "friendly",
-["subeventPrefix"] = "SPELL",
-["unit"] = "target",
+["classification"] = {
+},
 },
 ["untrigger"] = {
 },
@@ -13198,23 +13244,23 @@ WeakAurasSaved = {
 ["magic"] = true,
 },
 ["use_debuffClass"] = true,
-["debuffType"] = "HARMFUL",
-["type"] = "aura2",
 ["unit"] = "target",
+["type"] = "aura2",
+["debuffType"] = "HARMFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -13226,10 +13272,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 527,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 527,
 },
 ["untrigger"] = {
 },
@@ -13246,26 +13292,86 @@ WeakAurasSaved = {
 },
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["uid"] = "wxjShMjCqLT",
+["auto"] = true,
 ["cooldownTextDisabled"] = true,
+["cooldown"] = true,
+["anchorPoint"] = "CENTER",
+["width"] = 10,
+["useCooldownModRate"] = true,
+["version"] = 51,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
+["sparkBlendMode"] = "ADD",
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["source"] = "import",
+["id"] = "SMS_5_驱散",
+["iconSource"] = -1,
+["textureSource"] = "Picker",
+["mirror"] = false,
+["auraRotation"] = 0,
+["backgroundColor"] = {
+0,
+0,
+0,
+0.300000011920929,
+},
+["desaturate"] = false,
+["anchorFrameParent"] = false,
+["icon_side"] = "LEFT",
+["sparkColor"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+["sound_path"] = "",
+["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
+["do_sound"] = false,
+},
+["init"] = {
+},
+["finish"] = {
+["hide_all_glows"] = true,
+},
+},
+["sparkHeight"] = 30,
+["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+["startAngle"] = 0,
+["xOffset"] = 50,
+["semver"] = "1.5.5",
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["sparkHidden"] = "NEVER",
+["user_y"] = 0,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["load"] = {
 ["use_never"] = false,
 ["level_operator"] = {
@@ -13293,97 +13399,38 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 257,
-},
+["zoneIds"] = "g431",
 ["difficulty"] = {
 },
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
+["use_class_and_spec"] = true,
+["use_combat"] = true,
+["use_zoneIds"] = false,
 ["instance_type"] = {
 ["single"] = 8,
 ["multi"] = {
 [8] = true,
 },
 },
-["use_zoneIds"] = false,
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["zoneIds"] = "g431",
-},
-["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["version"] = 51,
-["subRegions"] = {
-{
-["type"] = "subbackground",
+["use_alive"] = true,
+["class"] = {
+["multi"] = {
 },
 },
-["height"] = 10,
-["rotate"] = false,
-["user_y"] = 0,
-["sparkBlendMode"] = "ADD",
-["useAdjustededMax"] = false,
-["fontSize"] = 12,
-["source"] = "import",
-["sparkHidden"] = "NEVER",
-["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
-["textureSource"] = "Picker",
-["mirror"] = false,
-["xOffset"] = 50,
-["startAngle"] = 0,
-["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-["sparkHeight"] = 30,
-["icon_side"] = "LEFT",
-["actions"] = {
-["start"] = {
-["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
-["sound_path"] = "",
-["do_sound"] = false,
-},
-["finish"] = {
-["hide_all_glows"] = true,
-},
-["init"] = {
+["class_and_spec"] = {
+["single"] = 257,
 },
 },
-["sparkColor"] = {
-1,
-1,
-1,
-1,
-},
-["anchorFrameParent"] = false,
-["desaturate"] = false,
-["backgroundColor"] = {
-0,
-0,
-0,
-0.300000011920929,
-},
-["auraRotation"] = 0,
-["semver"] = "1.5.5",
-["iconSource"] = -1,
-["id"] = "SMS_5_驱散",
-["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
-["useCooldownModRate"] = true,
-["width"] = 10,
-["anchorPoint"] = "CENTER",
-["cooldown"] = true,
 ["inverse"] = false,
-["auto"] = true,
+["uid"] = "wxjShMjCqLT",
 ["orientation"] = "HORIZONTAL",
-["conditions"] = {
+["crop_x"] = 0.41,
+["barColor2"] = {
+1,
+1,
+0,
+1,
 },
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["preferToUpdate"] = false,
+["parent"] = "SMS",
 },
 ["FZT_12_盾猛"] = {
 ["parent"] = "FZT",
@@ -13393,9 +13440,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -13412,9 +13459,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -13459,14 +13506,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -13477,9 +13524,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 23922\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -13510,14 +13557,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["class_and_spec"] = {
+["single"] = 73,
+},
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 73,
 },
 ["size"] = {
 ["multi"] = {
@@ -13529,49 +13576,49 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
-},
-["authorOptions"] = {
+["uid"] = "rmKIwP5X4D1",
+["color"] = {
+1,
+1,
+1,
+1,
 },
 ["tocversion"] = 110200,
 ["id"] = "FZT_12_盾猛",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["width"] = 10,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
-["uid"] = "rmKIwP5X4D1",
+["config"] = {
+},
+["xOffset"] = 120,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["xOffset"] = 120,
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
 },
 ["Raid Ability Timeline Backdrop"] = {
@@ -13632,19 +13679,21 @@ WeakAurasSaved = {
 ["wagoID"] = "NyseKq1Xo",
 ["parent"] = "Raid Ability Timeline",
 ["adjustedMin"] = "",
-["preferToUpdate"] = false,
-["barColor2"] = {
+["color"] = {
 1,
 1,
-0,
 1,
+0.771618694067,
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
 },
 ["desaturateBackground"] = false,
-["conditions"] = {
-},
+["crop_x"] = 0.41,
 ["compress"] = false,
 ["customTextUpdate"] = "update",
-["crop"] = 0.41,
+["uid"] = "NrlegamJ0Ux",
 ["desaturateForeground"] = false,
 ["triggers"] = {
 {
@@ -13656,11 +13705,11 @@ WeakAurasSaved = {
 ["use_spellId"] = false,
 ["spellIds"] = {
 },
-["use_isBarEnabled"] = true,
-["subeventPrefix"] = "SPELL",
+["debuffType"] = "HELPFUL",
 ["names"] = {
 },
-["debuffType"] = "HELPFUL",
+["subeventPrefix"] = "SPELL",
+["use_isBarEnabled"] = true,
 },
 ["untrigger"] = {
 },
@@ -13673,30 +13722,30 @@ WeakAurasSaved = {
 ["useAdjustedMin"] = false,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
 ["backdropInFront"] = false,
 ["borderBackdrop"] = "None",
-["desaturate"] = true,
+["anchorPoint"] = "CENTER",
 ["stickyDuration"] = false,
 ["discrete_rotation"] = 0,
-["sparkRotationMode"] = "AUTO",
+["user_y"] = 0,
 ["version"] = 81,
 ["subRegions"] = {
 {
@@ -13707,31 +13756,133 @@ WeakAurasSaved = {
 },
 {
 ["border_offset"] = 1,
-["border_size"] = 1,
-["border_visible"] = true,
+["type"] = "subborder",
+["anchor_area"] = "bar",
 ["border_color"] = {
 0,
 0,
 0,
 1,
 },
-["anchor_area"] = "bar",
+["border_visible"] = true,
 ["border_edge"] = "1 Pixel",
-["type"] = "subborder",
+["border_size"] = 1,
 },
 },
 ["height"] = 228,
 ["textureSource"] = "LSM",
-["width"] = 32,
+["anchorFrameType"] = "SCREEN",
 ["sparkBlendMode"] = "ADD",
 ["useAdjustededMax"] = false,
 ["backgroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
 ["source"] = "import",
 ["zoom"] = 0,
-["foregroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
+["backgroundColor"] = {
+0.058823529411765,
+0.058823529411765,
+0.058823529411765,
+0.80000001192093,
+},
 ["useAdjustedMax"] = false,
 ["mirror"] = false,
-["id"] = "Raid Ability Timeline Backdrop",
+["sparkHidden"] = "NEVER",
+["backdropColor"] = {
+0,
+0,
+0,
+0.64000001549721,
+},
+["borderInFront"] = true,
+["authorOptions"] = {
+{
+["type"] = "number",
+["useDesc"] = true,
+["max"] = 9999,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "maxDur",
+["default"] = 10,
+["name"] = "Travel Duration",
+["desc"] = "This needs to match the trigger of Timeline Icon waiting group and Timeline Icon it only controls the ticks being displayed by the background",
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Ticks",
+["useDesc"] = true,
+["key"] = "ticks",
+["desc"] = "If you want to show ticks on the bar",
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Show Tick Text",
+["useDesc"] = true,
+["key"] = "tickstext",
+["desc"] = "If you want to show tickstext on the bar (REQUIRED ENABLING TICKS)",
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Show tick text on left Side",
+["useDesc"] = true,
+["key"] = "showTickOnLeftSide",
+["desc"] = "If the tick text should be shown on left side of the bar instead of the right side",
+},
+{
+["text"] = "These options control the default boss mod bars visibility. Changing these options requires a game reload.",
+["type"] = "description",
+["fontSize"] = "medium",
+["width"] = 2,
+},
+{
+["type"] = "toggle",
+["default"] = true,
+["key"] = "hideBWBars",
+["name"] = "Hide Default BigWigs Bars",
+["useDesc"] = false,
+["width"] = 1,
+},
+{
+["type"] = "toggle",
+["default"] = true,
+["key"] = "hideDBMBars",
+["name"] = "Hide Default DBM Bars",
+["useDesc"] = false,
+["width"] = 1,
+},
+},
+["icon_side"] = "RIGHT",
+["spark"] = false,
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+["custom"] = "aura_env.timers={}\nlocal bar = aura_env.region.bar\nlocal j = 1\nwhile bar[\"spark\"..j] do\n    bar[\"spark\"..j]:Hide()\n    j = j + 1\nend\nj = 1\nwhile bar[\"sparktext\"..j] do\n    bar[\"sparktext\"..j]:Hide()\n    j = j + 1\nend\n\nif aura_env.config.ticks then\n    if bar then \n        local widthPerSegment = bar:GetHeight() / aura_env.config.maxDur\n        local tickAmount = floor((aura_env.config.maxDur-0.1)/5) \n        \n        local region = WeakAuras.GetRegion(aura_env.id)\n        --[[local textsubtract = 0\n        if aura_env.config.BigIcon.EnableBigIcon == true then \n            textsubtract = 5\n        end\n        ]]\n        local xoffset = 25\n        if aura_env.config.showTickOnLeftSide then\n            xoffset = -xoffset\n        end\n        \n        \n        for i = 1, tickAmount do\n            if not bar[\"spark\"..i] then\n                local spark = bar:CreateTexture(nil, \"ARTWORK\");\n                spark:SetDrawLayer(\"ARTWORK\", 3);\n                bar[\"spark\"..i] = spark\n            end \n            if aura_env.config.tickstext and not bar[\"sparktext\"..i] then \n                local sparktext = bar:CreateFontString(nil,\"ARTWORK\")\n                sparktext:SetDrawLayer(\"ARTWORK\", 3);\n                bar[\"sparktext\"..i] = sparktext\n                \n            end\n            \n            bar[\"spark\"..i]:SetTexture(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Textures\\\\Square_White.tga\")\n            bar[\"spark\"..i]:SetWidth(bar:GetWidth());\n            bar[\"spark\"..i]:SetHeight(1);\n            bar[\"spark\"..i]:SetBlendMode(\"ALPHAKEY\");\n            bar[\"spark\"..i]:SetVertexColor(\n                1,\n                1,\n                1,\n                1\n            )\n            bar[\"spark\"..i]:ClearAllPoints()\n            local offset = widthPerSegment*(5*i)\n            bar[\"spark\"..i]:SetPoint(\"BOTTOM\", bar, \"BOTTOM\", 0, offset+0.1)\n            bar[\"spark\"..i]:Show()\n            \n            if aura_env.config.tickstext then\n                bar[\"sparktext\"..i]:SetFont(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Fonts\\\\FiraMono-Medium.ttf\",12)  \n                bar[\"sparktext\"..i]:SetText((i*5))\n                bar[\"sparktext\"..i]:ClearAllPoints()\n                bar[\"sparktext\"..i]:SetPoint(\"BOTTOM\", bar, \"Bottom\", xoffset, offset-5)\n                bar[\"sparktext\"..i]:Show()\n            end\n            \n        end\n    end\n    \nend\n\n\n\n\nif DBT and aura_env.config.hideDBMBars then\n    if not DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n        local skin = DBT:RegisterSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n        skin.Options = {\n            HugeAlpha = 0.0001,\n            Alpha = 0.0001,\n            IconLeft = false,\n            IconRight = false,\n            InlineIcons = false,\n            Bar7CustomInline = false,\n            ClickThrough = true,\n            DisableRightClick = true,\n        }\n        if DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n            DBT:SetSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n            DBT:Rearrange()\n        end\n        if AddOnSkins and AddOnSkins[1]:CheckOption('DBM-Core') == true then\n            print(\"Hiding DBM bars while AddonSkins skinning is turned on doesn't work pls either disable the DBM-Core option or the addon and try again\")\n        end\n        \n    end\n    \nelseif DBT and not aura_env.config.hideDBMBars then\n    if DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n        DBT:SetSkin(\"DBM\")\n    end\nend\n\n\nif BigWigsLoader and aura_env.config.hideBWBars then\n    local JODS_WA_RAT_BWCallbackObj = {}\n    local f = function(event,addon,bar,...) \n        bar:SetAlpha(0)\n    end\n    BigWigsLoader.RegisterMessage(JODS_WA_RAT_BWCallbackObj, \"BigWigs_BarCreated\", f);\n    BigWigsLoader.RegisterMessage(JODS_WA_RAT_BWCallbackObj, \"BigWigs_BarEmphasized\", f);\n    \nend\n\n\n\n",
+["do_custom"] = true,
+},
+},
+["sparkHeight"] = 30,
+["rotate"] = true,
+["config"] = {
+["showTickOnLeftSide"] = false,
+["hideBWBars"] = true,
+["hideDBMBars"] = true,
+["ticks"] = true,
+["tickstext"] = true,
+["maxDur"] = 10,
+},
+["progressSource"] = {
+-1,
+"",
+},
+["semver"] = "1.0.80",
 ["load"] = {
 ["ingroup"] = {
 ["multi"] = {
@@ -13749,8 +13900,11 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["zoneIds"] = "",
-["spec"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["talent2"] = {
 ["multi"] = {
 },
 },
@@ -13762,7 +13916,10 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
+["faction"] = {
+["multi"] = {
+},
+},
 ["pvptalent"] = {
 ["multi"] = {
 },
@@ -13771,141 +13928,31 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["faction"] = {
+["use_never"] = false,
+["spec"] = {
 ["multi"] = {
 },
 },
-["talent2"] = {
-["multi"] = {
+["zoneIds"] = "",
 },
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["borderInFront"] = true,
-["authorOptions"] = {
-{
-["type"] = "number",
-["useDesc"] = true,
-["max"] = 9999,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "maxDur",
-["desc"] = "This needs to match the trigger of Timeline Icon waiting group and Timeline Icon it only controls the ticks being displayed by the background",
-["name"] = "Travel Duration",
-["default"] = 10,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "If you want to show ticks on the bar",
-["key"] = "ticks",
-["useDesc"] = true,
-["name"] = "Ticks",
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "If you want to show tickstext on the bar (REQUIRED ENABLING TICKS)",
-["key"] = "tickstext",
-["useDesc"] = true,
-["name"] = "Show Tick Text",
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "If the tick text should be shown on left side of the bar instead of the right side",
-["key"] = "showTickOnLeftSide",
-["useDesc"] = true,
-["name"] = "Show tick text on left Side",
-["width"] = 1,
-},
-{
-["type"] = "description",
-["text"] = "These options control the default boss mod bars visibility. Changing these options requires a game reload.",
-["fontSize"] = "medium",
-["width"] = 2,
-},
-{
-["type"] = "toggle",
-["default"] = true,
-["key"] = "hideBWBars",
-["useDesc"] = false,
-["name"] = "Hide Default BigWigs Bars",
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = true,
-["key"] = "hideDBMBars",
-["useDesc"] = false,
-["name"] = "Hide Default DBM Bars",
-["width"] = 1,
-},
-},
-["icon_side"] = "RIGHT",
-["progressSource"] = {
--1,
-"",
-},
-["config"] = {
-["ticks"] = true,
-["tickstext"] = true,
-["hideDBMBars"] = true,
-["showTickOnLeftSide"] = false,
-["hideBWBars"] = true,
-["maxDur"] = 10,
-},
-["sparkHeight"] = 30,
-["rotate"] = true,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-["custom"] = "aura_env.timers={}\nlocal bar = aura_env.region.bar\nlocal j = 1\nwhile bar[\"spark\"..j] do\n    bar[\"spark\"..j]:Hide()\n    j = j + 1\nend\nj = 1\nwhile bar[\"sparktext\"..j] do\n    bar[\"sparktext\"..j]:Hide()\n    j = j + 1\nend\n\nif aura_env.config.ticks then\n    if bar then \n        local widthPerSegment = bar:GetHeight() / aura_env.config.maxDur\n        local tickAmount = floor((aura_env.config.maxDur-0.1)/5) \n        \n        local region = WeakAuras.GetRegion(aura_env.id)\n        --[[local textsubtract = 0\n        if aura_env.config.BigIcon.EnableBigIcon == true then \n            textsubtract = 5\n        end\n        ]]\n        local xoffset = 25\n        if aura_env.config.showTickOnLeftSide then\n            xoffset = -xoffset\n        end\n        \n        \n        for i = 1, tickAmount do\n            if not bar[\"spark\"..i] then\n                local spark = bar:CreateTexture(nil, \"ARTWORK\");\n                spark:SetDrawLayer(\"ARTWORK\", 3);\n                bar[\"spark\"..i] = spark\n            end \n            if aura_env.config.tickstext and not bar[\"sparktext\"..i] then \n                local sparktext = bar:CreateFontString(nil,\"ARTWORK\")\n                sparktext:SetDrawLayer(\"ARTWORK\", 3);\n                bar[\"sparktext\"..i] = sparktext\n                \n            end\n            \n            bar[\"spark\"..i]:SetTexture(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Textures\\\\Square_White.tga\")\n            bar[\"spark\"..i]:SetWidth(bar:GetWidth());\n            bar[\"spark\"..i]:SetHeight(1);\n            bar[\"spark\"..i]:SetBlendMode(\"ALPHAKEY\");\n            bar[\"spark\"..i]:SetVertexColor(\n                1,\n                1,\n                1,\n                1\n            )\n            bar[\"spark\"..i]:ClearAllPoints()\n            local offset = widthPerSegment*(5*i)\n            bar[\"spark\"..i]:SetPoint(\"BOTTOM\", bar, \"BOTTOM\", 0, offset+0.1)\n            bar[\"spark\"..i]:Show()\n            \n            if aura_env.config.tickstext then\n                bar[\"sparktext\"..i]:SetFont(\"Interface\\\\AddOns\\\\WeakAuras\\\\Media\\\\Fonts\\\\FiraMono-Medium.ttf\",12)  \n                bar[\"sparktext\"..i]:SetText((i*5))\n                bar[\"sparktext\"..i]:ClearAllPoints()\n                bar[\"sparktext\"..i]:SetPoint(\"BOTTOM\", bar, \"Bottom\", xoffset, offset-5)\n                bar[\"sparktext\"..i]:Show()\n            end\n            \n        end\n    end\n    \nend\n\n\n\n\nif DBT and aura_env.config.hideDBMBars then\n    if not DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n        local skin = DBT:RegisterSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n        skin.Options = {\n            HugeAlpha = 0.0001,\n            Alpha = 0.0001,\n            IconLeft = false,\n            IconRight = false,\n            InlineIcons = false,\n            Bar7CustomInline = false,\n            ClickThrough = true,\n            DisableRightClick = true,\n        }\n        if DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n            DBT:SetSkin(\"Jods_Raid_Ability_Timeline_Skin\")\n            DBT:Rearrange()\n        end\n        if AddOnSkins and AddOnSkins[1]:CheckOption('DBM-Core') == true then\n            print(\"Hiding DBM bars while AddonSkins skinning is turned on doesn't work pls either disable the DBM-Core option or the addon and try again\")\n        end\n        \n    end\n    \nelseif DBT and not aura_env.config.hideDBMBars then\n    if DBT:GetSkins().Jods_Raid_Ability_Timeline_Skin then\n        DBT:SetSkin(\"DBM\")\n    end\nend\n\n\nif BigWigsLoader and aura_env.config.hideBWBars then\n    local JODS_WA_RAT_BWCallbackObj = {}\n    local f = function(event,addon,bar,...) \n        bar:SetAlpha(0)\n    end\n    BigWigsLoader.RegisterMessage(JODS_WA_RAT_BWCallbackObj, \"BigWigs_BarCreated\", f);\n    BigWigsLoader.RegisterMessage(JODS_WA_RAT_BWCallbackObj, \"BigWigs_BarEmphasized\", f);\n    \nend\n\n\n\n",
-["do_custom"] = true,
-},
-["finish"] = {
-},
-},
-["spark"] = false,
-["semver"] = "1.0.80",
-["backdropColor"] = {
-0,
-0,
-0,
-0.64000001549721,
-},
-["sparkHidden"] = "NEVER",
-["backgroundColor"] = {
-0.058823529411765,
-0.058823529411765,
-0.058823529411765,
-0.80000001192093,
-},
+["id"] = "Raid Ability Timeline Backdrop",
+["foregroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
 ["frameStrata"] = 3,
-["anchorFrameType"] = "SCREEN",
-["user_y"] = 0,
-["anchorPoint"] = "CENTER",
+["width"] = 32,
+["sparkRotationMode"] = "AUTO",
+["desaturate"] = true,
 ["inverse"] = false,
-["uid"] = "NrlegamJ0Ux",
+["crop"] = 0.41,
 ["orientation"] = "VERTICAL",
-["crop_x"] = 0.41,
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
+["conditions"] = {
 },
-["color"] = {
+["barColor2"] = {
 1,
 1,
+0,
 1,
-0.771618694067,
 },
+["preferToUpdate"] = false,
 },
 ["MKT_3_天神酒"] = {
 ["parent"] = "MKT",
@@ -13915,9 +13962,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -13932,12 +13979,12 @@ WeakAurasSaved = {
 ["hostility"] = "hostile",
 ["names"] = {
 },
-["subeventPrefix"] = "SPELL",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["unit"] = "target",
 ["use_unit"] = true,
-["use_hostility"] = true,
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -13968,15 +14015,15 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["names"] = {
 },
-["spellName"] = 1241059,
+["debuffType"] = "HELPFUL",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["genericShowOn"] = "showOnCooldown",
-["subeventPrefix"] = "SPELL",
 ["unit"] = "player",
+["subeventPrefix"] = "SPELL",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 1241059,
 },
 ["untrigger"] = {
 },
@@ -14003,48 +14050,48 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["useName"] = true,
 ["stacksOperator"] = ">=",
 ["auranames"] = {
 "325092",
 },
-["type"] = "aura2",
-["useStacks"] = true,
 ["stacks"] = "5",
-["unit"] = "player",
+["useStacks"] = true,
+["type"] = "aura2",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["useName"] = true,
 ["stacksOperator"] = ">=",
 ["auranames"] = {
 "228563",
 },
-["useStacks"] = false,
-["type"] = "aura2",
 ["stacks"] = "",
-["unit"] = "player",
+["type"] = "aura2",
+["useStacks"] = false,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "aura2",
 ["stacksOperator"] = ">=",
 ["auranames"] = {
 "325092",
 },
-["useStacks"] = true,
-["useName"] = true,
 ["stacks"] = "3",
-["unit"] = "player",
+["useName"] = true,
+["useStacks"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -14055,9 +14102,9 @@ WeakAurasSaved = {
 ["auranames"] = {
 "1215495",
 },
-["debuffType"] = "HELPFUL",
-["useName"] = true,
 ["unit"] = "player",
+["useName"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -14069,20 +14116,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -14107,14 +14154,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 268,
-},
-["use_combat"] = true,
-["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 268,
 },
 ["size"] = {
 ["multi"] = {
@@ -14126,31 +14173,31 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["frameStrata"] = 1,
-["authorOptions"] = {
-},
+["width"] = 10,
+["selfPoint"] = "BOTTOMLEFT",
 ["tocversion"] = 110200,
 ["id"] = "MKT_3_天神酒",
 ["xOffset"] = 30,
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["width"] = 10,
+["alpha"] = 1,
 ["config"] = {
 },
+["uid"] = "VF7qX08zGSR",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["uid"] = "VF7qX08zGSR",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["selfPoint"] = "BOTTOMLEFT",
+["authorOptions"] = {
+},
 },
 ["FZT_4_糖"] = {
 ["parent"] = "FZT",
@@ -14160,10 +14207,10 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
 ["do_custom"] = false,
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -14180,9 +14227,9 @@ WeakAurasSaved = {
 ["use_hostility"] = true,
 ["spellIds"] = {
 },
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
 ["hostility"] = "hostile",
+["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -14254,25 +14301,25 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["use_includeCharges"] = true,
 ["count"] = "0",
-["count_operator"] = ">",
-["genericShowOn"] = "showOnCooldown",
-["type"] = "item",
-["use_itemName"] = true,
 ["debuffType"] = "HELPFUL",
+["use_itemName"] = true,
+["type"] = "item",
+["genericShowOn"] = "showOnCooldown",
+["count_operator"] = ">",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "item",
-["use_itemName"] = true,
+["genericShowOn"] = "showOnReady",
 ["event"] = "Cooldown Progress (Item)",
 ["itemName"] = 5512,
 ["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnReady",
-["debuffType"] = "HELPFUL",
+["use_itemName"] = true,
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -14303,14 +14350,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["class_and_spec"] = {
+["single"] = 73,
+},
+["use_alive"] = true,
+["use_combat"] = true,
 ["spec"] = {
 ["multi"] = {
 },
-},
-["use_combat"] = true,
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 73,
 },
 ["size"] = {
 ["multi"] = {
@@ -14322,50 +14369,50 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["xOffset"] = 40,
-["tocversion"] = 110200,
-["id"] = "FZT_4_糖",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
 ["frameStrata"] = 1,
-["config"] = {
-},
-["uid"] = "h8WpaRySrlt",
-["authorOptions"] = {
-},
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["tocversion"] = 110200,
+["id"] = "FZT_4_糖",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["alpha"] = 1,
+["width"] = 10,
+["anchorFrameType"] = "SCREEN",
+["config"] = {
+},
+["authorOptions"] = {
+},
+["uid"] = "h8WpaRySrlt",
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["xOffset"] = 40,
 },
 ["BDK_3_红"] = {
 ["parent"] = "BDK",
@@ -14375,10 +14422,10 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
+["finish"] = {
+},
 ["init"] = {
 ["do_custom"] = false,
-},
-["finish"] = {
 },
 },
 ["triggers"] = {
@@ -14387,18 +14434,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_hostility"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["use_unit"] = true,
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["use_unit"] = true,
 ["use_dead"] = false,
-["names"] = {
-},
+["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
 ["subeventPrefix"] = "SPELL",
-["use_absorbHealMode"] = true,
+["hostility"] = "hostile",
+["names"] = {
+},
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -14449,25 +14496,25 @@ WeakAurasSaved = {
 ["event"] = "Item Count",
 ["unit"] = "player",
 ["count"] = "1",
-["debuffType"] = "HELPFUL",
-["use_itemName"] = true,
-["type"] = "item",
-["genericShowOn"] = "showOnCooldown",
 ["count_operator"] = ">=",
+["genericShowOn"] = "showOnCooldown",
+["type"] = "item",
+["use_itemName"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "item",
-["genericShowOn"] = "showOnReady",
+["use_itemName"] = true,
 ["event"] = "Cooldown Progress (Item)",
 ["itemName"] = 211878,
 ["use_genericShowOn"] = true,
-["use_itemName"] = true,
-["unit"] = "player",
+["genericShowOn"] = "showOnReady",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -14479,20 +14526,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -14517,14 +14564,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 251,
-},
-["use_alive"] = true,
-["use_combat"] = true,
 ["spec"] = {
 ["multi"] = {
 },
+},
+["use_combat"] = true,
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 251,
 },
 ["size"] = {
 ["multi"] = {
@@ -14536,23 +14583,22 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["alpha"] = 1,
-["authorOptions"] = {
-},
+["anchorFrameType"] = "SCREEN",
+["xOffset"] = 30,
 ["tocversion"] = 110200,
 ["id"] = "BDK_3_红",
 ["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["width"] = 10,
-["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
 ["uid"] = "uOydISHs4VZ",
+["config"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["config"] = {
 },
 ["conditions"] = {
 },
@@ -14560,7 +14606,8 @@ WeakAurasSaved = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["xOffset"] = 30,
+["authorOptions"] = {
+},
 },
 ["BDK_4_打断"] = {
 ["xOffset"] = 40,
@@ -14570,9 +14617,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -14581,18 +14628,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["use_dead"] = false,
-["hostility"] = "hostile",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -14624,10 +14671,10 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 47528,
 ["genericShowOn"] = "showOnReady",
 ["use_track"] = true,
-["spellName"] = 47528,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -14643,9 +14690,9 @@ WeakAurasSaved = {
 ["castType"] = "channel",
 ["remaining"] = "0.5",
 ["use_interruptible"] = true,
-["unit"] = "target",
-["use_absorbMode"] = true,
 ["type"] = "unit",
+["use_absorbMode"] = true,
+["unit"] = "target",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -14663,7 +14710,7 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["event"] = "Cast",
-["unit"] = "target",
+["use_genericShowOn"] = true,
 ["castType"] = "cast",
 ["use_spellName"] = true,
 ["spellIds"] = {
@@ -14704,10 +14751,10 @@ WeakAurasSaved = {
 449734,
 },
 ["use_absorbMode"] = true,
-["use_spellIds"] = true,
 ["use_remaining"] = true,
+["use_spellIds"] = true,
 ["use_track"] = true,
-["use_genericShowOn"] = true,
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
@@ -14726,11 +14773,11 @@ WeakAurasSaved = {
 ["event"] = "Cast",
 ["castType"] = "cast",
 ["use_spellName"] = true,
-["use_genericShowOn"] = true,
+["use_unit"] = true,
 ["use_remaining"] = true,
 ["use_absorbMode"] = true,
 ["use_track"] = true,
-["use_unit"] = true,
+["use_genericShowOn"] = true,
 },
 ["untrigger"] = {
 },
@@ -14742,20 +14789,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -14780,14 +14827,14 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 251,
-},
-["use_combat"] = true,
-["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 251,
 },
 ["size"] = {
 ["multi"] = {
@@ -14799,7 +14846,24 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["uid"] = "2EiJzlQChtd",
+["parent"] = "BDK",
+["tocversion"] = 110200,
+["id"] = "BDK_4_打断",
+["selfPoint"] = "BOTTOMLEFT",
+["alpha"] = 1,
+["width"] = 10,
+["frameStrata"] = 1,
 ["config"] = {
+},
+["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
 },
 ["color"] = {
 1,
@@ -14807,23 +14871,6 @@ WeakAurasSaved = {
 1,
 1,
 },
-["tocversion"] = 110200,
-["id"] = "BDK_4_打断",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["width"] = 10,
-["frameStrata"] = 1,
-["uid"] = "2EiJzlQChtd",
-["authorOptions"] = {
-},
-["anchorFrameType"] = "SCREEN",
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["parent"] = "BDK",
 },
 ["BDK"] = {
 ["controlledChildren"] = {
@@ -14843,7 +14890,8 @@ WeakAurasSaved = {
 "BDK_16_凋零",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = 0,
+["authorOptions"] = {
+},
 ["preferToUpdate"] = false,
 ["yOffset"] = 10,
 ["anchorPoint"] = "BOTTOMLEFT",
@@ -14856,15 +14904,16 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["names"] = {
+},
 ["type"] = "aura2",
 ["spellIds"] = {
 },
@@ -14872,19 +14921,37 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["subeventPrefix"] = "SPELL",
 ["event"] = "Health",
-["names"] = {
-},
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 },
 ["internalVersion"] = 86,
-["selfPoint"] = "CENTER",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["subRegions"] = {
 },
 ["load"] = {
-["size"] = {
+["talent"] = {
 ["multi"] = {
 },
 },
@@ -14896,7 +14963,7 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["talent"] = {
+["size"] = {
 ["multi"] = {
 },
 },
@@ -14915,39 +14982,19 @@ WeakAurasSaved = {
 ["borderOffset"] = 4,
 ["tocversion"] = 110200,
 ["id"] = "BDK",
-["borderInset"] = 1,
+["uid"] = "MDAksqRe7pI",
 ["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["uid"] = "MDAksqRe7pI",
-["authorOptions"] = {
-},
+["alpha"] = 1,
 ["config"] = {
 },
+["xOffset"] = 0,
+["borderInset"] = 1,
 ["conditions"] = {
 },
 ["information"] = {
 },
-["alpha"] = 1,
+["selfPoint"] = "CENTER",
 },
 ["FZT_17_戰吼"] = {
 ["parent"] = "FZT",
@@ -14957,9 +15004,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -14976,9 +15023,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -15023,14 +15070,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -15041,9 +15088,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 6673\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -15055,20 +15102,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -15093,14 +15140,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["class_and_spec"] = {
+["single"] = 73,
+},
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 73,
 },
 ["size"] = {
 ["multi"] = {
@@ -15112,31 +15159,31 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["anchorFrameType"] = "SCREEN",
-["selfPoint"] = "BOTTOMLEFT",
-["tocversion"] = 110200,
-["id"] = "FZT_17_戰吼",
-["authorOptions"] = {
-},
-["frameStrata"] = 1,
-["width"] = 10,
 ["alpha"] = 1,
-["uid"] = "9d5ll(ROaas",
-["config"] = {
-},
-["xOffset"] = 170,
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["tocversion"] = 110200,
+["id"] = "FZT_17_戰吼",
+["authorOptions"] = {
+},
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["width"] = 10,
+["uid"] = "9d5ll(ROaas",
+["xOffset"] = 170,
+["config"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["selfPoint"] = "BOTTOMLEFT",
 },
 ["SMS_9_静"] = {
 ["user_y"] = 0,
@@ -15204,24 +15251,24 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["zoneIds"] = "g431",
+["use_level"] = false,
 ["difficulty"] = {
 },
-["class"] = {
-["multi"] = {
+["use_class_and_spec"] = true,
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 257,
 },
-},
-["use_combat"] = true,
 ["talent"] = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 257,
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
 },
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["use_level"] = false,
+},
+["zoneIds"] = "g431",
 },
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["startAngle"] = 0,
@@ -15250,14 +15297,15 @@ WeakAurasSaved = {
 1,
 1,
 },
-["parent"] = "SMS",
+["preferToUpdate"] = false,
 ["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
+["barColor2"] = {
+1,
+1,
+0,
+1,
 },
-["conditions"] = {
-},
+["crop_x"] = 0.41,
 ["desaturateBackground"] = false,
 ["cooldownSwipe"] = true,
 ["spark"] = false,
@@ -15283,12 +15331,12 @@ WeakAurasSaved = {
 ["event"] = "Unit Characteristics",
 ["spellIds"] = {
 },
-["use_unit"] = true,
-["subeventPrefix"] = "SPELL",
-["hostility"] = "friendly",
-["type"] = "unit",
 ["names"] = {
 },
+["type"] = "unit",
+["hostility"] = "friendly",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -15309,14 +15357,14 @@ WeakAurasSaved = {
 ["subeventSuffix"] = "_CAST_START",
 ["use_role"] = true,
 ["event"] = "Unit Characteristics",
-["unit"] = "target",
+["role"] = "TANK",
 ["spellIds"] = {
 },
-["type"] = "unit",
-["hostility"] = "friendly",
-["subeventPrefix"] = "SPELL",
 ["use_unit"] = true,
-["role"] = "TANK",
+["subeventPrefix"] = "SPELL",
+["hostility"] = "friendly",
+["type"] = "unit",
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
@@ -15391,14 +15439,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -15410,10 +15458,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 2050,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 2050,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -15430,41 +15478,42 @@ WeakAurasSaved = {
 },
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["auraRotation"] = 0,
+["zoom"] = 0.3,
 ["actions"] = {
 ["start"] = {
-["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
 ["sound_path"] = "",
+["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
 ["do_sound"] = false,
-},
-["init"] = {
 },
 ["finish"] = {
 ["hide_all_glows"] = true,
 },
+["init"] = {
 },
-["sameTexture"] = true,
-["anchorPoint"] = "CENTER",
-["width"] = 10,
-["useCooldownModRate"] = true,
+},
+["crop_y"] = 0.41,
+["authorOptions"] = {
+},
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
 ["version"] = 51,
 ["subRegions"] = {
 {
@@ -15473,54 +15522,52 @@ WeakAurasSaved = {
 },
 ["height"] = 10,
 ["textureSource"] = "Picker",
-["fontSize"] = 12,
+["limitWeakAuras"] = {
+["hash"] = "0bf6b48a855637aa0397388ef4dc9437a29c8f0a32e93b3c6e050d64da07f02c",
+},
 ["sparkBlendMode"] = "ADD",
 ["useAdjustededMax"] = false,
-["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["fontSize"] = 12,
 ["source"] = "import",
-["sparkHidden"] = "NEVER",
-["config"] = {
-},
+["id"] = "SMS_9_静",
+["cooldownTextDisabled"] = true,
 ["tocversion"] = 110200,
 ["mirror"] = false,
-["sparkWidth"] = 10,
-["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["rotate"] = false,
+["adjustedMin"] = "",
+["desaturate"] = false,
+["anchorFrameParent"] = false,
+["icon_side"] = "LEFT",
+["uid"] = "Vw7(hun)d(I",
+["cooldown"] = true,
+["sparkHeight"] = 30,
 ["backgroundColor"] = {
 0,
 0,
 0,
 0.300000011920929,
 },
-["sparkHeight"] = 30,
-["icon_side"] = "LEFT",
-["cooldown"] = true,
-["uid"] = "Vw7(hun)d(I",
-["anchorFrameParent"] = false,
-["desaturate"] = false,
-["adjustedMin"] = "",
-["rotate"] = false,
+["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["sparkWidth"] = 10,
 ["semver"] = "1.5.5",
-["cooldownTextDisabled"] = true,
-["id"] = "SMS_9_静",
-["limitWeakAuras"] = {
-["hash"] = "0bf6b48a855637aa0397388ef4dc9437a29c8f0a32e93b3c6e050d64da07f02c",
+["config"] = {
 },
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
-["crop_y"] = 0.41,
+["sparkHidden"] = "NEVER",
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["useCooldownModRate"] = true,
+["width"] = 10,
+["anchorPoint"] = "CENTER",
+["sameTexture"] = true,
 ["inverse"] = false,
-["zoom"] = 0.3,
+["auraRotation"] = 0,
 ["orientation"] = "HORIZONTAL",
-["crop_x"] = 0.41,
-["barColor2"] = {
-1,
-1,
-0,
-1,
+["conditions"] = {
 },
-["preferToUpdate"] = false,
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["parent"] = "SMS",
 },
 ["FZT_2_破釜"] = {
 ["parent"] = "FZT",
@@ -15530,9 +15577,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -15547,11 +15594,11 @@ WeakAurasSaved = {
 ["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_absorbHealMode"] = true,
+["hostility"] = "hostile",
+["unit"] = "target",
 ["names"] = {
 },
-["unit"] = "target",
-["hostility"] = "hostile",
+["use_absorbHealMode"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -15597,7 +15644,7 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "spell",
 ["subeventSuffix"] = "_CAST_START",
-["spellName"] = 12975,
+["debuffType"] = "HELPFUL",
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["subeventPrefix"] = "SPELL",
@@ -15606,11 +15653,11 @@ WeakAurasSaved = {
 ["spellIds"] = {
 },
 ["genericShowOn"] = "showOnCooldown",
-["unit"] = "player",
 ["names"] = {
 },
+["unit"] = "player",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 12975,
 },
 ["untrigger"] = {
 },
@@ -15665,12 +15712,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
+["use_combat"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
-["use_alive"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -15681,154 +15728,28 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["alpha"] = 1,
+["xOffset"] = 20,
 ["tocversion"] = 110200,
 ["id"] = "FZT_2_破釜",
 ["authorOptions"] = {
 },
 ["frameStrata"] = 1,
+["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["uid"] = "maGQq()ISRQ",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["config"] = {
 },
-["color"] = {
-1,
-1,
-1,
-1,
-},
 ["conditions"] = {
 },
 ["information"] = {
 },
-["xOffset"] = 20,
-},
-["DKT_11_白骨"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["xOffset"] = 110,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "spell",
-["subeventSuffix"] = "_CAST_START",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
-["use_spellName"] = true,
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["genericShowOn"] = "showOnCooldown",
-["names"] = {
-},
-["use_track"] = true,
-["spellName"] = 194844,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["use_unit"] = true,
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "7",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom_type"] = "status",
-["check"] = "event",
-["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194844\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["conditions"] = {
-},
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "DKT_11_白骨",
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -15849,19 +15770,22 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["alpha"] = 1,
-["width"] = 10,
-["rotation"] = 0,
-["config"] = {
 },
-["uid"] = "oQGRRNwk0(J",
-["subRegions"] = {
-{
-["type"] = "subbackground",
+["DKT_11_白骨"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 110,
+["desaturate"] = false,
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["authorOptions"] = {
 },
-["height"] = 10,
-["rotate"] = false,
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
 ["load"] = {
 ["use_alive"] = true,
 ["use_class_and_spec"] = true,
@@ -15886,41 +15810,19 @@ WeakAurasSaved = {
 },
 },
 },
-["desaturate"] = false,
-},
-["DKT_13_墓石"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
 ["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["xOffset"] = 130,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["regionType"] = "texture",
+["parent"] = "DKT",
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["conditions"] = {
-},
-["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -15929,16 +15831,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["debuffType"] = "HELPFUL",
+["spellName"] = 194844,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
+["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 219809,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -15952,8 +15854,8 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_unit"] = true,
 ["hostility"] = "hostile",
-["use_dead"] = false,
 ["use_hostility"] = true,
+["use_dead"] = false,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -15982,75 +15884,220 @@ WeakAurasSaved = {
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 219809\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
 ["debuffType"] = "HELPFUL",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 194844\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
+["internalVersion"] = 86,
+["uid"] = "oQGRRNwk0(J",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "DKT_11_白骨",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["width"] = 10,
+},
+["DKT_13_墓石"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["desaturate"] = false,
+["xOffset"] = 130,
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["parent"] = "DKT",
+["rotate"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "spell",
+["subeventSuffix"] = "_CAST_START",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["spellName"] = 219809,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["names"] = {
+},
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["use_unit"] = true,
+["hostility"] = "hostile",
+["use_hostility"] = true,
+["use_dead"] = false,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "7",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom_type"] = "status",
+["check"] = "event",
+["debuffType"] = "HELPFUL",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 219809\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["uid"] = "NP4aipuDZ5O",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
 ["id"] = "DKT_13_墓石",
 ["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["width"] = 10,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "NP4aipuDZ5O",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["spec"] = {
-["multi"] = {
+["conditions"] = {
 },
+["information"] = {
 },
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
+["width"] = 10,
 },
 ["MMK_HINT"] = {
 ["backdropColor"] = {
@@ -16065,32 +16112,13 @@ WeakAurasSaved = {
 "MMK_LIGHTING_HINT_2",
 },
 ["borderBackdrop"] = "Blizzard Tooltip",
-["scale"] = 1,
-["borderEdge"] = "Square Full White",
-["border"] = false,
+["xOffset"] = 0,
 ["yOffset"] = 0,
-["regionType"] = "group",
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["anchorPoint"] = "CENTER",
 ["borderSize"] = 2,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["selfPoint"] = "CENTER",
 ["borderColor"] = {
 0,
 0,
@@ -16102,16 +16130,15 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["names"] = {
-},
+["debuffType"] = "HELPFUL",
 ["type"] = "aura2",
 ["spellIds"] = {
 },
@@ -16119,25 +16146,52 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["subeventPrefix"] = "SPELL",
 ["event"] = "Health",
-["debuffType"] = "HELPFUL",
+["names"] = {
+},
 },
 ["untrigger"] = {
 },
 },
 },
-["anchorPoint"] = "CENTER",
+["regionType"] = "group",
 ["internalVersion"] = 86,
-["xOffset"] = 0,
-["selfPoint"] = "CENTER",
+["scale"] = 1,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["id"] = "MMK_HINT",
 ["borderOffset"] = 4,
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["borderInset"] = 1,
+["uid"] = "nTycNQ(YV66",
 ["config"] = {
 },
+["information"] = {
+},
+["subRegions"] = {
+},
+["alpha"] = 1,
+["conditions"] = {
+},
 ["load"] = {
-["size"] = {
+["talent"] = {
 ["multi"] = {
 },
 },
@@ -16149,19 +16203,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["talent"] = {
+["size"] = {
 ["multi"] = {
 },
 },
 },
-["subRegions"] = {
-},
-["frameStrata"] = 1,
-["conditions"] = {
-},
-["information"] = {
-},
-["uid"] = "nTycNQ(YV66",
+["borderInset"] = 1,
 },
 ["MKT_10_错骨"] = {
 ["xOffset"] = 100,
@@ -16171,9 +16218,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -16190,9 +16237,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -16244,10 +16291,10 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 115078,
 ["genericShowOn"] = "showOnReady",
 ["use_track"] = true,
-["spellName"] = 115078,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -16263,9 +16310,9 @@ WeakAurasSaved = {
 ["castType"] = "channel",
 ["remaining"] = "0.5",
 ["use_interruptible"] = true,
-["type"] = "unit",
-["use_absorbMode"] = true,
 ["unit"] = "target",
+["use_absorbMode"] = true,
+["type"] = "unit",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -16283,7 +16330,7 @@ WeakAurasSaved = {
 ["use_spellIds"] = true,
 ["use_absorbHealMode"] = true,
 ["event"] = "Cast",
-["unit"] = "target",
+["remaining_operator"] = "<=",
 ["castType"] = "cast",
 ["use_spellName"] = true,
 ["spellIds"] = {
@@ -16324,10 +16371,10 @@ WeakAurasSaved = {
 449734,
 },
 ["use_absorbMode"] = true,
-["type"] = "unit",
 ["use_remaining"] = true,
+["type"] = "unit",
 ["use_track"] = true,
-["remaining_operator"] = "<=",
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
@@ -16346,11 +16393,11 @@ WeakAurasSaved = {
 ["event"] = "Cast",
 ["castType"] = "cast",
 ["use_spellName"] = true,
-["use_genericShowOn"] = true,
+["unit"] = "target",
 ["type"] = "unit",
 ["use_absorbMode"] = true,
 ["use_track"] = true,
-["unit"] = "target",
+["use_genericShowOn"] = true,
 },
 ["untrigger"] = {
 },
@@ -16364,11 +16411,11 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
-["spellName"] = 116705,
+["debuffType"] = "HELPFUL",
 ["use_inverse"] = true,
 ["genericShowOn"] = "showOnReady",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 116705,
 },
 ["untrigger"] = {
 },
@@ -16380,20 +16427,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -16418,14 +16465,14 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 268,
-},
-["use_combat"] = true,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 268,
 },
 ["size"] = {
 ["multi"] = {
@@ -16437,23 +16484,23 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
-},
-["selfPoint"] = "BOTTOMLEFT",
+["uid"] = "wfRhinZrMAF",
+["parent"] = "MKT",
 ["tocversion"] = 110200,
 ["id"] = "MKT_10_错骨",
-["width"] = 10,
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 10,
 ["frameStrata"] = 1,
-["uid"] = "wfRhinZrMAF",
+["config"] = {
+},
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -16461,7 +16508,7 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["parent"] = "MKT",
+["selfPoint"] = "BOTTOMLEFT",
 },
 ["SMS_14_暗影魔"] = {
 ["parent"] = "SMS",
@@ -16471,9 +16518,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -16495,23 +16542,23 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
 ["event"] = "Unit Characteristics",
-["use_classification"] = true,
-["subeventPrefix"] = "SPELL",
-["names"] = {
+["level_operator"] = {
+">=",
 },
-["spellIds"] = {
-},
-["unit"] = "target",
-["hostility"] = "hostile",
-["use_level"] = false,
 ["classification"] = {
 ["single"] = "elite",
 ["multi"] = {
 },
 },
-["level_operator"] = {
-">=",
+["use_level"] = false,
+["spellIds"] = {
 },
+["hostility"] = "hostile",
+["unit"] = "target",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_classification"] = true,
 },
 ["untrigger"] = {
 },
@@ -16539,38 +16586,38 @@ WeakAurasSaved = {
 ["health_operator"] = {
 ">",
 },
-["debuffType"] = "HELPFUL",
+["percentpower_operator"] = {
+"<=",
+},
 ["use_absorbMode"] = true,
 ["event"] = "Power",
 ["use_percentpower"] = true,
-["use_powertype"] = true,
+["percentpower"] = {
+"75",
+},
 ["powertype"] = 0,
 ["health"] = {
 "0",
 },
-["use_unit"] = true,
-["unit"] = "player",
 ["use_absorbHealMode"] = true,
-["percentpower"] = {
-"75",
-},
-["percentpower_operator"] = {
-"<=",
-},
+["unit"] = "player",
+["use_unit"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -16582,10 +16629,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 34433,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 34433,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -16597,20 +16644,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -16638,12 +16685,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_class_and_spec"] = true,
-["use_alive"] = true,
-["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 257,
 },
+["use_combat"] = true,
+["use_alive"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -16654,31 +16701,31 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "qWfdVs9lf0U",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["tocversion"] = 110200,
-["id"] = "SMS_14_暗影魔",
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["width"] = 10,
-["frameStrata"] = 1,
 ["config"] = {
 },
-["selfPoint"] = "BOTTOMLEFT",
+["xOffset"] = 140,
+["tocversion"] = 110200,
+["id"] = "SMS_14_暗影魔",
+["width"] = 10,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["uid"] = "qWfdVs9lf0U",
 ["authorOptions"] = {
 },
+["selfPoint"] = "BOTTOMLEFT",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["xOffset"] = 140,
+["color"] = {
+1,
+1,
+1,
+1,
+},
 },
 ["FZT_15_斬殺"] = {
 ["parent"] = "FZT",
@@ -16688,9 +16735,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -16707,9 +16754,9 @@ WeakAurasSaved = {
 ["use_hostility"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["subeventPrefix"] = "SPELL",
 ["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -16754,14 +16801,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -16772,9 +16819,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 163201\n    local skill_id_1 = 281000\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -16786,20 +16833,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -16826,13 +16873,13 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_never"] = false,
-["use_combat"] = true,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
+["use_combat"] = true,
+["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -16843,31 +16890,31 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
-},
-["authorOptions"] = {
-},
+["uid"] = "NqB1MrHFRZ4",
+["selfPoint"] = "BOTTOMLEFT",
 ["tocversion"] = 110200,
 ["id"] = "FZT_15_斬殺",
-["width"] = 10,
-["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["width"] = 10,
 ["alpha"] = 1,
-["uid"] = "NqB1MrHFRZ4",
-["xOffset"] = 150,
+["config"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["xOffset"] = 150,
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["selfPoint"] = "BOTTOMLEFT",
+["authorOptions"] = {
+},
 },
 ["FZT_3_烈焰"] = {
 ["parent"] = "FZT",
@@ -16877,9 +16924,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -16894,11 +16941,11 @@ WeakAurasSaved = {
 ["subeventPrefix"] = "SPELL",
 ["spellIds"] = {
 },
-["use_absorbHealMode"] = true,
+["hostility"] = "hostile",
+["unit"] = "target",
 ["names"] = {
 },
-["unit"] = "target",
-["hostility"] = "hostile",
+["use_absorbHealMode"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -16944,7 +16991,7 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "spell",
 ["subeventSuffix"] = "_CAST_START",
-["debuffType"] = "HELPFUL",
+["spellName"] = 265221,
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["subeventPrefix"] = "SPELL",
@@ -16953,11 +17000,11 @@ WeakAurasSaved = {
 ["spellIds"] = {
 },
 ["genericShowOn"] = "showOnCooldown",
-["unit"] = "player",
 ["names"] = {
 },
+["unit"] = "player",
 ["use_track"] = true,
-["spellName"] = 265221,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -16969,8 +17016,8 @@ WeakAurasSaved = {
 ["useExactSpellId"] = false,
 ["useIgnoreExactSpellId"] = true,
 ["unit"] = "player",
-["debuffType"] = "HARMFUL",
-["use_debuffClass"] = true,
+["useIgnoreName"] = false,
+["useName"] = false,
 ["debuffClass"] = {
 ["disease"] = true,
 ["bleed"] = true,
@@ -16981,8 +17028,8 @@ WeakAurasSaved = {
 ["ignoreAuraSpellids"] = {
 "461507",
 },
-["useName"] = false,
-["useIgnoreName"] = false,
+["use_debuffClass"] = true,
+["debuffType"] = "HARMFUL",
 },
 ["untrigger"] = {
 },
@@ -17017,12 +17064,12 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
-["use_alive"] = true,
-["use_combat"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_alive"] = true,
+["use_combat"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -17033,55 +17080,55 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
+["uid"] = "83JOWxVgX(L",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
-["xOffset"] = 30,
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 ["tocversion"] = 110200,
 ["id"] = "FZT_3_烈焰",
-["width"] = 10,
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["width"] = 10,
 ["frameStrata"] = 1,
-["uid"] = "83JOWxVgX(L",
+["config"] = {
+},
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["authorOptions"] = {
-},
 ["conditions"] = {
 },
 ["information"] = {
 },
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["xOffset"] = 30,
 },
 ["DKT_3_糖"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
+["xOffset"] = 30,
+["desaturate"] = false,
+["authorOptions"] = {
 },
-["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
 ["color"] = {
 1,
 1,
@@ -17090,65 +17137,40 @@ WeakAurasSaved = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
+["regionType"] = "texture",
+["information"] = {
 },
 ["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["authorOptions"] = {
+["anchorPoint"] = "CENTER",
+["parent"] = "DKT",
+["conditions"] = {
 },
-["xOffset"] = 30,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
+},
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_unit"] = true,
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -17180,25 +17202,25 @@ WeakAurasSaved = {
 ["unit"] = "player",
 ["use_includeCharges"] = true,
 ["count"] = "1",
-["debuffType"] = "HELPFUL",
-["use_itemName"] = true,
-["genericShowOn"] = "showOnCooldown",
-["itemName"] = 5512,
 ["count_operator"] = ">=",
+["itemName"] = 5512,
+["genericShowOn"] = "showOnCooldown",
+["use_itemName"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["itemName"] = 5512,
-["event"] = "Cooldown Progress (Item)",
+["genericShowOn"] = "showOnReady",
 ["type"] = "item",
 ["use_itemName"] = true,
 ["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnReady",
-["debuffType"] = "HELPFUL",
+["event"] = "Cooldown Progress (Item)",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -17230,11 +17252,11 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 49998,
 ["use_inverse"] = true,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 49998,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -17250,9 +17272,9 @@ WeakAurasSaved = {
 ["runesCount_operator"] = "<=",
 ["use_genericShowOn"] = true,
 ["use_runesCount"] = true,
-["use_unit"] = true,
-["runesCount"] = "3",
 ["rune"] = 0,
+["runesCount"] = "3",
+["use_unit"] = true,
 ["use_powertype"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -17261,72 +17283,119 @@ WeakAurasSaved = {
 },
 ["activeTriggerMode"] = -10,
 },
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "DKT_3_糖",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "DKT_3_糖",
-["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["width"] = 10,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
+["config"] = {
+},
 ["uid"] = "Qo93eSo(lyd",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["class"] = {
+["multi"] = {
 },
-["information"] = {
 },
-["desaturate"] = false,
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["width"] = 10,
 },
 ["DKT_8_符文刃"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
+["xOffset"] = 80,
+["desaturate"] = false,
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["xOffset"] = 80,
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["parent"] = "DKT",
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -17337,16 +17406,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["debuffType"] = "HELPFUL",
+["spellName"] = 49028,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
+["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 49028,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -17360,8 +17429,8 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_unit"] = true,
 ["hostility"] = "hostile",
-["use_dead"] = false,
 ["use_hostility"] = true,
+["use_dead"] = false,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -17395,13 +17464,13 @@ WeakAurasSaved = {
 ["stacks"] = "",
 ["spellIds"] = {
 },
-["unit"] = "player",
-["names"] = {
-},
-["useExactSpellId"] = true,
 ["auraspellids"] = {
 "1215495",
 },
+["useExactSpellId"] = true,
+["names"] = {
+},
+["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -17409,77 +17478,55 @@ WeakAurasSaved = {
 },
 ["activeTriggerMode"] = -10,
 },
-["conditions"] = {
-},
-["internalVersion"] = 86,
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["uid"] = "7GYiXZA)cv2",
 ["selfPoint"] = "BOTTOMLEFT",
 ["id"] = "DKT_8_符文刃",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["alpha"] = 1,
-["width"] = 10,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "7GYiXZA)cv2",
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 250,
+["conditions"] = {
 },
-["talent"] = {
-["multi"] = {
+["information"] = {
 },
-},
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
+["width"] = 10,
 },
 ["DKT_9_亡者"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
+["xOffset"] = 90,
+["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
 },
-["desaturate"] = false,
-["parent"] = "DKT",
 ["color"] = {
 1,
 1,
@@ -17488,47 +17535,22 @@ WeakAurasSaved = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
+["regionType"] = "texture",
+["information"] = {
 },
 ["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["authorOptions"] = {
+["anchorPoint"] = "CENTER",
+["parent"] = "DKT",
+["conditions"] = {
 },
-["xOffset"] = 90,
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
+},
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -17537,16 +17559,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["spellName"] = 46585,
+["debuffType"] = "HELPFUL",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
+["genericShowOn"] = "showOnCooldown",
 ["names"] = {
 },
-["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 46585,
 },
 ["untrigger"] = {
 },
@@ -17560,8 +17582,8 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_unit"] = true,
 ["hostility"] = "hostile",
-["use_hostility"] = true,
 ["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -17595,13 +17617,13 @@ WeakAurasSaved = {
 ["stacks"] = "",
 ["spellIds"] = {
 },
+["unit"] = "player",
+["names"] = {
+},
+["useExactSpellId"] = true,
 ["auraspellids"] = {
 "49039",
 },
-["useExactSpellId"] = true,
-["names"] = {
-},
-["unit"] = "player",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -17609,44 +17631,69 @@ WeakAurasSaved = {
 },
 ["activeTriggerMode"] = -10,
 },
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "DKT_9_亡者",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["id"] = "DKT_9_亡者",
-["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["width"] = 10,
+["desaturate"] = false,
 ["rotation"] = 0,
+["config"] = {
+},
 ["uid"] = "ZTtL3UC(AED",
-["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["rotate"] = false,
+["load"] = {
+["class"] = {
+["multi"] = {
 },
-["information"] = {
 },
-["anchorFrameType"] = "SCREEN",
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["width"] = 10,
 },
 ["BDK_7_冰柱"] = {
 ["parent"] = "BDK",
@@ -17656,9 +17703,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -17667,18 +17714,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
 ["use_dead"] = false,
-["hostility"] = "hostile",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -17703,14 +17750,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -17721,9 +17768,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 51271\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -17756,13 +17803,13 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["use_never"] = false,
+["use_combat"] = true,
+["use_alive"] = true,
 ["spec"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
-["use_combat"] = true,
-["use_never"] = false,
 ["size"] = {
 ["multi"] = {
 },
@@ -17773,41 +17820,42 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["alpha"] = 1,
-["xOffset"] = 70,
+["width"] = 10,
+["authorOptions"] = {
+},
 ["tocversion"] = 110200,
 ["id"] = "BDK_7_冰柱",
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
-["width"] = 10,
+["frameStrata"] = 1,
 ["uid"] = "cCgPRxAsOdM",
+["config"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
-},
-["config"] = {
 },
 ["conditions"] = {
 },
@@ -17815,8 +17863,7 @@ WeakAurasSaved = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["authorOptions"] = {
-},
+["xOffset"] = 70,
 },
 ["FZT_16_挫志"] = {
 ["parent"] = "FZT",
@@ -17826,9 +17873,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
+},
+["init"] = {
 },
 },
 ["triggers"] = {
@@ -17845,9 +17892,9 @@ WeakAurasSaved = {
 ["use_absorbHealMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_unit"] = true,
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -17892,14 +17939,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["use_unit"] = true,
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["unit"] = "player",
-["use_inverse"] = true,
 ["use_absorbMode"] = true,
+["use_inverse"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["use_unit"] = true,
 },
 ["untrigger"] = {
 },
@@ -17910,9 +17957,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 1160\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -17948,10 +17995,10 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_class_and_spec"] = true,
-["use_alive"] = true,
-["use_combat"] = true,
 ["use_never"] = false,
+["use_combat"] = true,
+["use_alive"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -17962,42 +18009,23 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["alpha"] = 1,
+["xOffset"] = 160,
 ["tocversion"] = 110200,
 ["id"] = "FZT_16_挫志",
 ["authorOptions"] = {
 },
 ["frameStrata"] = 1,
+["width"] = 10,
 ["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
 ["uid"] = "EJl(J7D)n(C",
-["config"] = {
-},
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["config"] = {
 },
 ["conditions"] = {
 },
@@ -18005,7 +18033,26 @@ WeakAurasSaved = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["xOffset"] = 160,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
 },
 ["SMS_7_光晕"] = {
 ["sparkWidth"] = 10,
@@ -18067,14 +18114,15 @@ WeakAurasSaved = {
 1,
 1,
 },
-["parent"] = "SMS",
+["preferToUpdate"] = false,
 ["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
+["barColor2"] = {
+1,
+1,
+0,
+1,
 },
-["conditions"] = {
-},
+["crop_x"] = 0.41,
 ["desaturateBackground"] = false,
 ["cooldownSwipe"] = true,
 ["auto"] = true,
@@ -18091,12 +18139,12 @@ WeakAurasSaved = {
 ["spellIds"] = {
 },
 ["subeventPrefix"] = "SPELL",
-["useExactSpellId"] = true,
-["names"] = {
-},
 ["auraspellids"] = {
 "1215495",
 },
+["names"] = {
+},
+["useExactSpellId"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -18114,41 +18162,40 @@ WeakAurasSaved = {
 },
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["actions"] = {
-["start"] = {
-["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
-["sound_path"] = "",
-["do_sound"] = false,
-},
-["init"] = {
-},
-["finish"] = {
-["hide_all_glows"] = true,
-},
-},
+["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
 ["auraRotation"] = 0,
-["sameTexture"] = true,
-["user_y"] = 0,
-["width"] = 10,
-["useCooldownModRate"] = true,
+["backgroundColor"] = {
+0,
+0,
+0,
+0.300000011920929,
+},
+["foregroundColor"] = {
+1,
+1,
+1,
+1,
+},
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
 ["version"] = 51,
 ["subRegions"] = {
 {
@@ -18157,17 +18204,27 @@ WeakAurasSaved = {
 },
 ["height"] = 10,
 ["textureSource"] = "Picker",
-["fontSize"] = 12,
+["desc"] = "by 露露緹婭@Bilibili。",
 ["sparkBlendMode"] = "ADD",
 ["useAdjustededMax"] = false,
-["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["fontSize"] = 12,
 ["source"] = "import",
-["sparkHidden"] = "NEVER",
-["config"] = {
-},
+["id"] = "SMS_7_光晕",
+["cooldownTextDisabled"] = true,
 ["tocversion"] = 110200,
 ["mirror"] = false,
-["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["rotate"] = false,
+["adjustedMin"] = "",
+["limitWeakAuras"] = {
+["hash"] = "0bf6b48a855637aa0397388ef4dc9437a29c8f0a32e93b3c6e050d64da07f02c",
+},
+["anchorFrameParent"] = false,
+["icon_side"] = "LEFT",
+["uid"] = "0bdtBac3yYt",
+["cooldown"] = true,
+["sparkHeight"] = 30,
+["authorOptions"] = {
+},
 ["load"] = {
 ["use_never"] = false,
 ["use_class_and_spec"] = true,
@@ -18195,70 +18252,60 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["zoneIds"] = "g431",
+["class_and_spec"] = {
+["single"] = 257,
+},
 ["difficulty"] = {
 },
-["level_operator"] = {
-">=",
-},
-["use_combat"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["use_level"] = false,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 257,
+["use_alive"] = true,
+["use_level"] = false,
+["talent"] = {
+["multi"] = {
 },
 },
-["authorOptions"] = {
+["use_combat"] = true,
+["level_operator"] = {
+">=",
 },
-["sparkHeight"] = 30,
-["icon_side"] = "LEFT",
-["cooldown"] = true,
-["uid"] = "0bdtBac3yYt",
-["anchorFrameParent"] = false,
-["limitWeakAuras"] = {
-["hash"] = "0bf6b48a855637aa0397388ef4dc9437a29c8f0a32e93b3c6e050d64da07f02c",
+["zoneIds"] = "g431",
 },
-["adjustedMin"] = "",
-["rotate"] = false,
+["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 ["semver"] = "1.5.5",
-["cooldownTextDisabled"] = true,
-["id"] = "SMS_7_光晕",
-["desc"] = "by 露露緹婭@Bilibili。",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["foregroundColor"] = {
-1,
-1,
-1,
-1,
+["config"] = {
 },
-["backgroundColor"] = {
-0,
-0,
-0,
-0.300000011920929,
-},
+["sparkHidden"] = "NEVER",
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["useCooldownModRate"] = true,
+["width"] = 10,
+["user_y"] = 0,
+["sameTexture"] = true,
 ["inverse"] = false,
-["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+["actions"] = {
+["start"] = {
+["sound_path"] = "",
+["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
+["do_sound"] = false,
+},
+["finish"] = {
+["hide_all_glows"] = true,
+},
+["init"] = {
+},
+},
 ["orientation"] = "HORIZONTAL",
-["crop_x"] = 0.41,
-["barColor2"] = {
-1,
-1,
-0,
-1,
+["conditions"] = {
 },
-["preferToUpdate"] = false,
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
 },
-["MMK_LIGHTING_HINT_2"] = {
+["parent"] = "SMS",
+},
+["DKT_12_吞噬"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["color"] = {
 1,
@@ -18266,12 +18313,171 @@ WeakAurasSaved = {
 1,
 1,
 },
-["width"] = 200,
-["parent"] = "MMK_HINT",
+["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
+["xOffset"] = 120,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "DKT",
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "spell",
+["subeventSuffix"] = "_CAST_START",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["genericShowOn"] = "showOnCooldown",
+["names"] = {
+},
+["use_track"] = true,
+["spellName"] = 274156,
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["use_unit"] = true,
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "7",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom_type"] = "status",
+["check"] = "event",
+["unit"] = "player",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["alpha"] = 1,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "DKT_12_吞噬",
+["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["rotation"] = 0,
+["config"] = {
+},
+["uid"] = "bhZevbu5bub",
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["width"] = 10,
+},
+["MMK_8_做茧"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["uid"] = "G9iJhpABOQ5",
+["desaturate"] = false,
+["xOffset"] = 80,
 ["authorOptions"] = {
 },
 ["mirror"] = false,
-["yOffset"] = 100,
+["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
 ["load"] = {
 ["spec"] = {
@@ -18299,7 +18505,600 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 0,
+["parent"] = "MMK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["subeventPrefix"] = "SPELL",
+["names"] = {
+},
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["use_dead"] = false,
+["hostility"] = "friendly",
+["use_unit"] = true,
+["unit"] = "target",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "40",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "target",
+["percenthealth"] = {
+"35",
+},
+["use_unit"] = true,
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
+"<=",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["debuffType"] = "HELPFUL",
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["spellName"] = 116849,
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["rotate"] = false,
+["internalVersion"] = 86,
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "MMK_8_做茧",
+["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["width"] = 10,
+},
+["MMK_18_猛虎"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["width"] = 10,
+["xOffset"] = 180,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "MMK",
+["authorOptions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["spellName"] = 100780,
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "aura2",
+["useExactSpellId"] = true,
+["unit"] = "player",
+["auraspellids"] = {
+"1239483",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "aura2",
+["stacksOperator"] = "<",
+["auraspellids"] = {
+"202090",
+},
+["matchesShowOn"] = "showOnMissing",
+["unit"] = "player",
+["stacks"] = "",
+["useStacks"] = false,
+["useExactSpellId"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["stacks"] = "4",
+["useStacks"] = true,
+["useExactSpellId"] = true,
+["type"] = "aura2",
+["auraspellids"] = {
+"202090",
+},
+["stacksOperator"] = "<",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "custom",
+["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and t[4] and t[5] and (t[6] or t[7])\nend",
+["activeTriggerMode"] = -10,
+},
+["conditions"] = {
+},
+["internalVersion"] = 86,
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_18_猛虎",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["uid"] = "9cqFuty4YBG",
+["config"] = {
+},
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
+},
+["MMK_2_自活血"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["config"] = {
+},
+["desaturate"] = false,
+["xOffset"] = 20,
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["parent"] = "MMK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "spell",
+["subeventSuffix"] = "_CAST_START",
+["debuffType"] = "HELPFUL",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["unit"] = "player",
+["use_inverse"] = false,
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["spellName"] = 116670,
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "target",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["use_dead"] = false,
+["hostility"] = "hostile",
+["use_unit"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "15",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "aura2",
+["useExactSpellId"] = true,
+["unit"] = "player",
+["auraspellids"] = {
+"392883",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "player",
+["percenthealth"] = {
+"70",
+},
+["use_unit"] = true,
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
+"<=",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["rotate"] = false,
+["internalVersion"] = 86,
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_2_自活血",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["alpha"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["uid"] = "rugyPBmD5AS",
+["frameStrata"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["anchorFrameType"] = "SCREEN",
+},
+["MKT_7_红"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["anchorFrameType"] = "SCREEN",
+["parent"] = "MKT",
+["xOffset"] = 70,
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 268,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["authorOptions"] = {
+},
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -18315,18 +19114,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
+["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
+["names"] = {
+},
 ["subeventPrefix"] = "SPELL",
-["unit"] = "target",
-["use_unit"] = true,
+["use_hostility"] = true,
 ["spellIds"] = {
 },
 ["use_dead"] = false,
 ["hostility"] = "hostile",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -18335,20 +19134,47 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["type"] = "spell",
-["subeventSuffix"] = "_CAST_START",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "15",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "item",
+["use_count"] = true,
 ["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["subeventPrefix"] = "SPELL",
-["spellName"] = 117952,
-["use_spellName"] = true,
-["spellIds"] = {
-},
+["event"] = "Item Count",
+["unit"] = "player",
+["use_includeCharges"] = true,
+["count"] = "1",
+["debuffType"] = "HELPFUL",
+["use_itemName"] = true,
 ["genericShowOn"] = "showOnCooldown",
-["unit"] = "player",
-["names"] = {
+["itemName"] = 211878,
+["count_operator"] = ">=",
 },
-["use_track"] = true,
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["itemName"] = 211878,
+["event"] = "Cooldown Progress (Item)",
+["type"] = "item",
+["use_itemName"] = true,
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnReady",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -18356,41 +19182,30 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["type"] = "aura2",
-["stacksOperator"] = "==",
-["auraspellids"] = {
-"467317",
-},
-["matchesShowOn"] = "showOnActive",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Health",
 ["unit"] = "player",
-["stacks"] = "2",
-["useStacks"] = true,
-["useExactSpellId"] = true,
+["percenthealth"] = {
+"40",
+},
+["use_unit"] = true,
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
+"<=",
+},
 ["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "aura2",
-["useExactSpellId"] = true,
-["debuffType"] = "HELPFUL",
-["auraspellids"] = {
-"388026",
-},
-["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "1028137",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["internalVersion"] = 86,
-["uid"] = "7(G4FU4CVrg",
-["selfPoint"] = "CENTER",
-["id"] = "MMK_LIGHTING_HINT_2",
+["config"] = {
+},
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -18399,11 +19214,10 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "preset",
-["easeType"] = "none",
-["duration_type"] = "seconds",
-["preset"] = "alphaPulse",
+["type"] = "none",
 ["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
 },
 ["finish"] = {
 ["type"] = "none",
@@ -18412,31 +19226,649 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["rotation"] = 0,
-["config"] = {
-},
+["id"] = "MKT_7_红",
+["selfPoint"] = "BOTTOMLEFT",
 ["alpha"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["uid"] = "yyQVizgQunA",
+["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
-["height"] = 200,
+["height"] = 10,
 ["conditions"] = {
 },
 ["information"] = {
 },
 ["desaturate"] = false,
 },
-["SMS_3_糖"] = {
+["MMK_5_打断"] = {
+["xOffset"] = 50,
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_hostility"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["unit"] = "target",
+["use_absorbHealMode"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["health_operator"] = {
+">",
+},
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "target",
+["health"] = {
+"0",
+},
+["use_health"] = true,
+["use_unit"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_targetRequired"] = false,
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["realSpellName"] = "脚踢",
+["use_spellName"] = true,
+["spellName"] = 116705,
+["genericShowOn"] = "showOnReady",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_castType"] = true,
+["use_remaining"] = true,
+["use_absorbHealMode"] = true,
+["remaining_operator"] = ">=",
+["event"] = "Cast",
+["use_unit"] = true,
+["castType"] = "channel",
+["remaining"] = "0.5",
+["use_interruptible"] = true,
+["unit"] = "target",
+["use_absorbMode"] = true,
+["type"] = "unit",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_castType"] = true,
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["remaining"] = "1",
+["debuffType"] = "HELPFUL",
+["use_interruptible"] = true,
+["use_spellIds"] = true,
+["use_absorbHealMode"] = true,
+["event"] = "Cast",
+["remaining_operator"] = "<=",
+["castType"] = "cast",
+["use_spellName"] = true,
+["spellIds"] = {
+434802,
+436322,
+448248,
+442210,
+433841,
+1229474,
+1229510,
+326450,
+323538,
+462771,
+463058,
+1214468,
+1214780,
+465871,
+427356,
+424421,
+444743,
+423536,
+423051,
+446657,
+355057,
+352347,
+357260,
+351119,
+355934,
+356537,
+356407,
+347775,
+1245669,
+350922,
+1241032,
+428086,
+431333,
+432520,
+449734,
+},
+["use_absorbMode"] = true,
+["use_remaining"] = true,
+["type"] = "unit",
+["use_track"] = true,
+["unit"] = "target",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_castType"] = true,
+["remaining_operator"] = ">=",
+["genericShowOn"] = "showOnCooldown",
+["use_unit"] = true,
+["remaining"] = "0.5",
+["debuffType"] = "HELPFUL",
+["use_interruptible"] = true,
+["use_remaining"] = true,
+["use_absorbHealMode"] = true,
+["event"] = "Cast",
+["castType"] = "cast",
+["use_spellName"] = true,
+["unit"] = "target",
+["type"] = "unit",
+["use_absorbMode"] = true,
+["use_track"] = true,
+["use_genericShowOn"] = true,
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "custom",
+["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and t[4] and (t[5] or (t[6] and t[7]))\nend",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["desaturate"] = false,
+["rotation"] = 0,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_never"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["uid"] = "42x5E53HMqf",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["tocversion"] = 110200,
+["id"] = "MMK_5_打断",
+["alpha"] = 1,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["width"] = 10,
+["config"] = {
+},
+["authorOptions"] = {
+},
+["selfPoint"] = "BOTTOMLEFT",
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["parent"] = "MMK",
+},
+["BDK_9_复生"] = {
+["parent"] = "BDK",
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["use_dead"] = false,
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 46585\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["desaturate"] = false,
+["rotation"] = 0,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_never"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 251,
+},
+["use_combat"] = true,
+["use_alive"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["width"] = 10,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["tocversion"] = 110200,
+["id"] = "BDK_9_复生",
+["selfPoint"] = "BOTTOMLEFT",
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["uid"] = "m8p6kPbh5Eg",
+["config"] = {
+},
+["authorOptions"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["xOffset"] = 90,
+},
+["BDK_13_凛风"] = {
+["parent"] = "BDK",
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["use_dead"] = false,
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49184\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["desaturate"] = false,
+["rotation"] = 0,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_never"] = false,
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 251,
+},
+["use_combat"] = true,
+["use_alive"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["width"] = 10,
+["authorOptions"] = {
+},
+["tocversion"] = 110200,
+["id"] = "BDK_13_凛风",
+["selfPoint"] = "BOTTOMLEFT",
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["uid"] = "nD6LFM1rsLZ",
+["config"] = {
+},
+["xOffset"] = 130,
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["color"] = {
+1,
+1,
+1,
+1,
+},
+},
+["FZT_11_破壞者"] = {
+["parent"] = "FZT",
 ["preferToUpdate"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -18444,7 +19876,6 @@ WeakAurasSaved = {
 ["start"] = {
 },
 ["init"] = {
-["do_custom"] = false,
 },
 ["finish"] = {
 },
@@ -18455,22 +19886,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["percenthealth"] = {
-"50",
-},
-["event"] = "Health",
-["subeventPrefix"] = "SPELL",
-["unit"] = "player",
 ["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["unit"] = "target",
+["use_hostility"] = true,
 ["spellIds"] = {
 },
 ["use_unit"] = true,
-["names"] = {
-},
-["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
-},
+["subeventPrefix"] = "SPELL",
+["hostility"] = "hostile",
+["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -18478,31 +19905,80 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["itemName"] = 5512,
-["use_count"] = true,
-["use_genericShowOn"] = true,
-["event"] = "Item Count",
-["unit"] = "player",
-["use_includeCharges"] = true,
-["count"] = "0",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["health_operator"] = {
+">",
+},
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "target",
+["health"] = {
+"0",
+},
+["use_health"] = true,
+["use_unit"] = true,
 ["debuffType"] = "HELPFUL",
-["use_itemName"] = true,
-["type"] = "item",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
-["count_operator"] = ">",
+["use_track"] = true,
+["spellName"] = 228920,
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
+["useRem"] = true,
+["type"] = "aura2",
+["auraspellids"] = {
+"401150",
+},
+["useExactSpellId"] = true,
+["remOperator"] = ">",
+["rem"] = "5",
 ["unit"] = "player",
-["type"] = "item",
-["event"] = "Cooldown Progress (Item)",
-["itemName"] = 5512,
-["genericShowOn"] = "showOnReady",
-["use_genericShowOn"] = true,
-["use_itemName"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -18524,9 +20000,7 @@ WeakAurasSaved = {
 ["height"] = 10,
 ["rotate"] = false,
 ["load"] = {
-["class_and_spec"] = {
-["single"] = 257,
-},
+["use_never"] = true,
 ["talent"] = {
 ["multi"] = {
 },
@@ -18535,13 +20009,15 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_class_and_spec"] = true,
-["use_never"] = false,
-["use_alive"] = true,
-["use_combat"] = true,
 ["spec"] = {
 ["multi"] = {
 },
+},
+["use_class_and_spec"] = true,
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 73,
 },
 ["size"] = {
 ["multi"] = {
@@ -18553,16 +20029,1149 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "FIXTKfsWSIZ",
-["parent"] = "SMS",
-["tocversion"] = 110200,
-["id"] = "SMS_3_糖",
-["frameStrata"] = 1,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["width"] = 10,
 ["config"] = {
 },
+["authorOptions"] = {
+},
+["tocversion"] = 110200,
+["id"] = "FZT_11_破壞者",
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
+["width"] = 10,
+["alpha"] = 1,
+["uid"] = "q65)TYJmhAG",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["xOffset"] = 120,
+},
+["MKT"] = {
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["controlledChildren"] = {
+"MKT_1_移花",
+"MKT_2_自活血",
+"MKT_3_天神酒",
+"MKT_4_戒指",
+"MKT_5_活血酒",
+"MKT_6_糖",
+"MKT_7_红",
+"MKT_8_矮人",
+"MKT_9_打断",
+"MKT_10_错骨",
+"MKT_11_轮回",
+"MKT_12_爆炸",
+"MKT_13_幻灭",
+"MKT_14_投",
+"MKT_15_突突",
+"MKT_16_猛虎",
+"MKT_17_旭日",
+"MKT_18_神鹤",
+"MKT_19_碧玉",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["xOffset"] = 0,
+["yOffset"] = 10,
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["anchorPoint"] = "BOTTOMLEFT",
+["borderSize"] = 2,
+["selfPoint"] = "CENTER",
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["scale"] = 1,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["names"] = {
+},
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "player",
+["subeventPrefix"] = "SPELL",
+["event"] = "Health",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+},
+["regionType"] = "group",
+["borderOffset"] = 4,
+["authorOptions"] = {
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "MKT",
+["internalVersion"] = 86,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["borderInset"] = 1,
+["config"] = {
+},
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["subRegions"] = {
+},
+["frameStrata"] = 1,
+["conditions"] = {
+},
+["information"] = {
+},
+["uid"] = "iniTnDzanF0",
+},
+["Bigicon"] = {
+["grow"] = "RIGHT",
+["controlledChildren"] = {
+"Timeline BigIcon",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["wagoID"] = "NyseKq1Xo",
+["authorOptions"] = {
+{
+["subOptions"] = {
+{
+["type"] = "input",
+["useDesc"] = true,
+["width"] = 1,
+["default"] = "Name this Entry",
+["name"] = "Name this Entry",
+["multiline"] = false,
+["key"] = "NameField",
+["length"] = 10,
+["desc"] = "Name this Entry",
+["useLength"] = false,
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 1,
+["useHeight"] = false,
+["width"] = 1,
+},
+{
+["useName"] = false,
+["type"] = "header",
+["text"] = "",
+["noMerge"] = false,
+["width"] = 1,
+},
+{
+["type"] = "input",
+["useDesc"] = true,
+["width"] = 1,
+["default"] = "",
+["name"] = "Message",
+["multiline"] = false,
+["key"] = "message",
+["length"] = 10,
+["desc"] = "DBM/BW Message to be filtered for",
+["useLength"] = false,
+},
+{
+["type"] = "toggle",
+["default"] = true,
+["width"] = 1,
+["name"] = "Ignore Alert Number",
+["useDesc"] = true,
+["key"] = "IgnoreAlertNumber",
+["desc"] = "Tick this if you want to ignore the Alert Number e.g. TestBar (4) and replace info for all TestBar's",
+},
+{
+["type"] = "number",
+["useDesc"] = true,
+["max"] = 99999999,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "spellid",
+["default"] = 0,
+["name"] = "Spellid",
+["desc"] = "Spellid of the BW message to be filtered for",
+},
+{
+["text"] = "Message or spellid are optional and only one has to be set to work",
+["type"] = "description",
+["fontSize"] = "medium",
+["width"] = 2,
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Replace Spell Name",
+["useDesc"] = true,
+["key"] = "replaceSpellName",
+["desc"] = "Use \"Name\" as replacement text",
+},
+{
+["type"] = "input",
+["useDesc"] = false,
+["width"] = 1,
+["key"] = "spellName",
+["name"] = "Name",
+["default"] = "",
+["length"] = 10,
+["multiline"] = false,
+["useLength"] = false,
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Replace Text Color",
+["useDesc"] = true,
+["key"] = "replaceTextColor",
+["desc"] = "Replace the Text color",
+},
+{
+["type"] = "color",
+["default"] = {
+1,
+1,
+1,
+1,
+},
+["width"] = 1,
+["name"] = "Text Color",
+["useDesc"] = true,
+["key"] = "textColor",
+["desc"] = "Colors the text if \"Replace\" is checked",
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Enable Glow",
+["useDesc"] = true,
+["key"] = "glow",
+["desc"] = "Enables glow for the given Spell",
+},
+{
+["type"] = "color",
+["default"] = {
+1,
+1,
+1,
+1,
+},
+["key"] = "glowColor",
+["name"] = "Glow Color",
+["useDesc"] = false,
+["width"] = 1,
+},
+},
+["hideReorder"] = true,
+["useDesc"] = false,
+["nameSource"] = 1,
+["width"] = 2,
+["useCollapse"] = true,
+["name"] = "Spell Options",
+["collapse"] = false,
+["type"] = "group",
+["limitType"] = "none",
+["groupType"] = "array",
+["key"] = "spellOptions",
+["size"] = 10,
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 6,
+["useHeight"] = true,
+["width"] = 2,
+},
+{
+["text"] = "",
+["type"] = "header",
+["useName"] = false,
+["width"] = 1,
+},
+{
+["text"] = "\n",
+["type"] = "description",
+["fontSize"] = "medium",
+["width"] = 2,
+},
+{
+["width"] = 1,
+["type"] = "select",
+["values"] = {
+"default",
+"DbmHide~",
+"HideNumber",
+"DBMonlyName",
+},
+["name"] = "NameOption",
+["useDesc"] = true,
+["key"] = "NameOption",
+["default"] = 1,
+["desc"] = "Set up how you wanna display Bar Names by default it will show everything like DBM/BW does HideNumber hides the spell number behind certain casts while DbmHide~ hides the ~ infront of some spells",
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 1,
+["useHeight"] = false,
+["width"] = 1,
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 0.8,
+["name"] = "Inverse Travel Direction",
+["useDesc"] = true,
+["key"] = "reverse",
+["desc"] = "Because I was inverted...",
+},
+{
+["type"] = "space",
+["variableWidth"] = false,
+["width"] = 1,
+},
+{
+["min"] = 0,
+["type"] = "number",
+["default"] = 200,
+["width"] = 0.6,
+["useDesc"] = true,
+["name"] = "Travel Distance",
+["key"] = "travelDist",
+["desc"] = "The total travel distance of the icons. You will also need to manually change the length of the line in the background.",
+},
+{
+["type"] = "number",
+["useDesc"] = true,
+["max"] = 9999,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "IconSpacing",
+["default"] = 0,
+["name"] = "Icon Spacing while traveling",
+["desc"] = "if you want additional spacing between the icons set the value here",
+},
+{
+["type"] = "space",
+["variableWidth"] = false,
+["width"] = 1,
+},
+{
+["type"] = "number",
+["useDesc"] = true,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "textMaxLength",
+["default"] = 20,
+["name"] = "Text Max Length",
+["desc"] = "Max length of the text by the icon. Text longer than this will be truncated and followed by \"..\". Set to 0 to disable truncating text.",
+},
+{
+["width"] = 1,
+["type"] = "select",
+["values"] = {
+"replace name with paused",
+"add paused to name",
+"add paused but shorten",
+"don't change",
+},
+["name"] = "Text Options - Paused",
+["useDesc"] = true,
+["key"] = "textPausedOptions",
+["default"] = 1,
+["desc"] = "Select how you want to display Paused timers",
+},
+{
+["type"] = "space",
+["variableWidth"] = false,
+["width"] = 1,
+},
+{
+["type"] = "toggle",
+["default"] = true,
+["key"] = "UseBossModsColor",
+["name"] = "Use Bossmods text Color",
+["useDesc"] = false,
+["width"] = 1,
+},
+},
+["preferToUpdate"] = false,
+["yOffset"] = -256.00012207031,
+["anchorPoint"] = "CENTER",
+["fullCircle"] = true,
+["rowSpace"] = 1,
+["url"] = "https://wago.io/RaidAbilityTimeline/81",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["names"] = {
+},
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["subeventPrefix"] = "SPELL",
+["debuffType"] = "HELPFUL",
+["event"] = "Health",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+},
+["columnSpace"] = 1,
+["internalVersion"] = 86,
+["frameStrata"] = 1,
+["useLimit"] = false,
+["align"] = "CENTER",
+["uid"] = "PpkAm2EPwEW",
+["gridType"] = "RD",
+["xOffset"] = -15.999877929688,
+["stagger"] = 0,
+["parent"] = "Raid Ability Timeline",
+["version"] = 81,
+["subRegions"] = {
+},
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["space"] = 2,
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["radius"] = 200,
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["config"] = {
+["reverse"] = false,
+["travelDist"] = 200,
+["NameOption"] = 1,
+["textPausedOptions"] = 1,
+["textMaxLength"] = 20,
+["IconSpacing"] = 0,
+["spellOptions"] = {
+},
+["UseBossModsColor"] = true,
+},
+["animate"] = false,
+["source"] = "import",
+["scale"] = 1,
+["centerType"] = "LR",
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["regionType"] = "dynamicgroup",
+["borderSize"] = 2,
+["limit"] = 5,
+["sort"] = "none",
+["gridWidth"] = 5,
+["constantFactor"] = "RADIUS",
+["rotation"] = 0,
+["borderOffset"] = 4,
+["semver"] = "1.0.80",
+["tocversion"] = 110107,
+["id"] = "Bigicon",
+["stepAngle"] = 15,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["sortHybridTable"] = {
+["Timeline BigIcon"] = false,
+},
+["borderInset"] = 1,
+["selfPoint"] = "LEFT",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+},
+["arcLength"] = 360,
+},
+["MKT_2_自活血"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 20,
+["anchorFrameType"] = "SCREEN",
+["parent"] = "MKT",
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "spell",
+["subeventSuffix"] = "_CAST_START",
+["spellName"] = 116670,
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["genericShowOn"] = "showOnCooldown",
+["use_inverse"] = false,
+["unit"] = "player",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "15",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "aura2",
+["useExactSpellId"] = true,
+["debuffType"] = "HELPFUL",
+["auraspellids"] = {
+"392883",
+},
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "player",
+["percenthealth"] = {
+"60",
+},
+["use_unit"] = true,
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
+"<=",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["frameStrata"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MKT_2_自活血",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["alpha"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["uid"] = "baLy(FkL9ot",
+["config"] = {
+},
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 268,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
+},
+["MMK_11_法力茶"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["xOffset"] = 110,
+["parent"] = "MMK",
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["conditions"] = {
+},
+["internalVersion"] = 86,
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "10",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["spellName"] = 115294,
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "aura2",
+["useExactSpellId"] = true,
+["unit"] = "player",
+["auraspellids"] = {
+"1215495",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["debuffType"] = "HELPFUL",
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["spellName"] = 388193,
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Power",
+["unit"] = "player",
+["powertype"] = 0,
+["percentpower_operator"] = {
+"<=",
+},
+["percentpower"] = {
+"95",
+},
+["use_percentpower"] = true,
+["use_unit"] = true,
+["use_powertype"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_11_法力茶",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["alpha"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["uid"] = "P1MBz3qRl2Y",
+["config"] = {
+},
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["anchorFrameType"] = "SCREEN",
+},
+["BDK_12_湮灭"] = {
+["parent"] = "BDK",
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["use_dead"] = false,
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["subeventPrefix"] = "SPELL",
+["type"] = "unit",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["unit"] = "target",
+["names"] = {
+},
+["hostility"] = "hostile",
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_unit"] = true,
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["unit"] = "player",
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49020\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["selfPoint"] = "BOTTOMLEFT",
+["desaturate"] = false,
+["rotation"] = 0,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["class_and_spec"] = {
+["single"] = 251,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["use_never"] = false,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["config"] = {
+},
+["xOffset"] = 120,
+["tocversion"] = 110200,
+["id"] = "BDK_12_湮灭",
+["frameStrata"] = 1,
+["alpha"] = 1,
+["width"] = 10,
+["anchorFrameType"] = "SCREEN",
+["uid"] = "J0Lg4vHVdV8",
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -18591,15 +21200,1080 @@ WeakAurasSaved = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["xOffset"] = 30,
+["color"] = {
+1,
+1,
+1,
+1,
 },
-["MMK_18_猛虎"] = {
+},
+["MKT_16_猛虎"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 160,
+["width"] = 10,
+["parent"] = "MKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["authorOptions"] = {
+},
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 100780\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["use_debuffClass"] = false,
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MKT_16_猛虎",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["config"] = {
+},
+["uid"] = "ZMCO5x(bTvT",
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 268,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
+},
+["FZT_14_復仇"] = {
+["parent"] = "FZT",
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_hostility"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["unit"] = "target",
+["use_absorbHealMode"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["hostility"] = "hostile",
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["health_operator"] = {
+">",
+},
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "target",
+["health"] = {
+"0",
+},
+["use_health"] = true,
+["use_unit"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["unit"] = "player",
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["use_unit"] = true,
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 6572\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["unit"] = "player",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["selfPoint"] = "BOTTOMLEFT",
+["desaturate"] = false,
+["rotation"] = 0,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["class_and_spec"] = {
+["single"] = 73,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_never"] = false,
+["use_combat"] = true,
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["frameStrata"] = 1,
+["authorOptions"] = {
+},
+["tocversion"] = 110200,
+["id"] = "FZT_14_復仇",
+["xOffset"] = 140,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["width"] = 10,
+["config"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["uid"] = "OQcijGIiwE9",
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+},
+["DKT_6_帽子"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["anchorFrameType"] = "SCREEN",
+["authorOptions"] = {
+},
+["xOffset"] = 60,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "DKT",
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "aura2",
+["stacksOperator"] = ">=",
+["subeventSuffix"] = "_CAST_START",
+["event"] = "Health",
+["subeventPrefix"] = "SPELL",
+["useStacks"] = false,
+["stacks"] = "",
+["spellIds"] = {
+},
+["unit"] = "player",
+["names"] = {
+},
+["useExactSpellId"] = true,
+["auraspellids"] = {
+"52172",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["debuffType"] = "HELPFUL",
+["use_inverse"] = true,
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["spellName"] = 50842,
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_inCombat"] = false,
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["unit"] = "player",
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["use_dead"] = true,
+["use_absorbHealMode"] = true,
+["type"] = "unit",
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "custom",
+["customTriggerLogic"] = "function(t)\n    return t[1] and (t[2] or t[3] or t[4])\nend",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["alpha"] = 1,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "DKT_6_帽子",
+["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["rotation"] = 0,
+["config"] = {
+},
+["uid"] = "Z0XCOLBldTW",
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["width"] = 10,
+},
+["FZT_11_崩摧"] = {
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["unit"] = "target",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
+["hostility"] = "hostile",
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["health_operator"] = {
+">",
+},
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "target",
+["health"] = {
+"0",
+},
+["use_health"] = true,
+["use_unit"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 436358\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["selfPoint"] = "BOTTOMLEFT",
+["desaturate"] = false,
+["rotation"] = 0,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_never"] = true,
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["use_alive"] = true,
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 73,
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["config"] = {
+},
+["authorOptions"] = {
+},
+["tocversion"] = 110200,
+["id"] = "FZT_11_崩摧",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["alpha"] = 1,
+["width"] = 10,
+["frameStrata"] = 1,
+["uid"] = "70KxXFo6Uya",
+["xOffset"] = 120,
+["anchorFrameType"] = "SCREEN",
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["parent"] = "FZT",
+},
+["BDK_16_凋零"] = {
+["parent"] = "BDK",
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["use_dead"] = false,
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["subeventPrefix"] = "SPELL",
+["type"] = "unit",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["unit"] = "target",
+["names"] = {
+},
+["hostility"] = "hostile",
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "5",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_unit"] = true,
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["unit"] = "player",
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["selfPoint"] = "BOTTOMLEFT",
+["desaturate"] = false,
+["rotation"] = 0,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["class_and_spec"] = {
+["single"] = 251,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["use_never"] = false,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["config"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["tocversion"] = 110200,
+["id"] = "BDK_16_凋零",
+["frameStrata"] = 1,
+["alpha"] = 1,
+["width"] = 10,
+["anchorFrameType"] = "SCREEN",
+["uid"] = "1(joRhiwDAp",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["xOffset"] = 160,
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["authorOptions"] = {
+},
+},
+["MKT_15_突突"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 150,
+["width"] = 10,
+["parent"] = "MKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["authorOptions"] = {
+},
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 123986\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["use_debuffClass"] = false,
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_unit"] = true,
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["debuffType"] = "HELPFUL",
+["use_ismoving"] = false,
+["use_absorbMode"] = true,
+["event"] = "Conditions",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MKT_15_突突",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["config"] = {
+},
+["uid"] = "I7IFG8u2jT1",
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 268,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
+},
+["MKT_8_矮人"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["authorOptions"] = {
 },
-["desaturate"] = false,
-["xOffset"] = 180,
-["parent"] = "MMK",
+["anchorFrameType"] = "SCREEN",
+["parent"] = "MKT",
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
@@ -18610,7 +22284,7 @@ WeakAurasSaved = {
 },
 },
 ["class_and_spec"] = {
-["single"] = 270,
+["single"] = 268,
 },
 ["talent"] = {
 ["multi"] = {
@@ -18629,12 +22303,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["xOffset"] = 80,
 ["rotate"] = false,
 ["actions"] = {
 ["start"] = {
@@ -18644,7 +22313,913 @@ WeakAurasSaved = {
 ["finish"] = {
 },
 },
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "spell",
+["subeventSuffix"] = "_CAST_START",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["subeventPrefix"] = "SPELL",
+["genericShowOn"] = "showOnCooldown",
+["names"] = {
+},
+["use_track"] = true,
+["spellName"] = 20594,
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HARMFUL",
+["debuffClass"] = {
+["disease"] = true,
+["magic"] = true,
+["curse"] = true,
+},
+["use_debuffClass"] = true,
+["useExactSpellId"] = false,
+["useIgnoreExactSpellId"] = false,
+["auraspellids"] = {
+},
+["type"] = "aura2",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["uid"] = "jlw45r8ldkv",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MKT_8_矮人",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["desaturate"] = false,
+},
+["FZT"] = {
+["controlledChildren"] = {
+"FZT_1_勝利",
+"FZT_2_破釜",
+"FZT_3_烈焰",
+"FZT_4_糖",
+"FZT_5_藥水",
+"FZT_6_打斷",
+"FZT_7_盾擋",
+"FZT_8_漏氣盾",
+"FZT_9_盾衝",
+"FZT_10_雷鳴",
+"FZT_11_崩摧",
+"FZT_11_破壞者",
+"FZT_12_盾猛",
+"FZT_13_雷霆",
+"FZT_14_復仇",
+"FZT_15_斬殺",
+"FZT_16_挫志",
+"FZT_17_戰吼",
+"FZT_18_丢",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["authorOptions"] = {
+},
+["preferToUpdate"] = false,
+["yOffset"] = 10,
+["anchorPoint"] = "BOTTOMLEFT",
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "player",
+["names"] = {
+},
+["event"] = "Health",
+["subeventPrefix"] = "SPELL",
+},
+["untrigger"] = {
+},
+},
+},
+["internalVersion"] = 86,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["subRegions"] = {
+},
+["load"] = {
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["scale"] = 1,
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["regionType"] = "group",
+["borderSize"] = 2,
+["borderOffset"] = 4,
+["tocversion"] = 110200,
+["id"] = "FZT",
+["uid"] = "x5XILn(DOcI",
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["selfPoint"] = "CENTER",
+["borderInset"] = 1,
+["xOffset"] = 0,
+["config"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+},
+["frameStrata"] = 1,
+},
+["MMK_19_复苏"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["uid"] = "WtOq6idbrM3",
+["desaturate"] = false,
+["authorOptions"] = {
+},
+["parent"] = "MMK",
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["xOffset"] = 190,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["rotate"] = false,
+["internalVersion"] = 86,
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "target",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["use_dead"] = false,
+["hostility"] = "hostile",
+["use_unit"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["charges_operator"] = ">",
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["debuffType"] = "HELPFUL",
+["use_charges"] = false,
+["genericShowOn"] = "showOnCooldown",
+["charges"] = "",
+["use_track"] = true,
+["spellName"] = 115151,
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "aura2",
+["unit"] = "player",
+["useExactSpellId"] = true,
+["auraspellids"] = {
+"119611",
+},
+["ownOnly"] = true,
+["matchesShowOn"] = "showOnMissing",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_19_复苏",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["width"] = 10,
+},
+["Raid Ability Timeline"] = {
+["controlledChildren"] = {
+"Timeline Icon waiting group",
+"Raid Ability Timeline Icon <10",
+"Raid Ability Timeline Backdrop",
+"Bigicon",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["wagoID"] = "NyseKq1Xo",
+["authorOptions"] = {
+},
+["preferToUpdate"] = false,
+["yOffset"] = -6.93780517578125,
+["anchorPoint"] = "CENTER",
+["borderColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["url"] = "https://wago.io/RaidAbilityTimeline/81",
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_alwaystrue"] = false,
+["subeventSuffix"] = "_CAST_START",
+["event"] = "Conditions",
+["unit"] = "player",
+["spellIds"] = {
+},
+["buffShowOn"] = "showOnActive",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["desc"] = "Follow me on Twitch: https://www.twitch.tv/Jodsderechte\nCheck out my Wa Guides on YT: https://www.youtube.com/Jodsderechte\nContact me via: https://discord.gg/5mjcV8hgS2",
+["version"] = 81,
+["subRegions"] = {
+},
+["load"] = {
+["ingroup"] = {
+["multi"] = {
+},
+},
+["affixes"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+["talent2"] = {
+["multi"] = {
+},
+},
+["difficulty"] = {
+["multi"] = {
+},
+},
+["race"] = {
+["multi"] = {
+},
+},
+["faction"] = {
+["multi"] = {
+},
+},
+["pvptalent"] = {
+["multi"] = {
+},
+},
+["role"] = {
+["multi"] = {
+},
+},
+["use_class"] = false,
+["spec"] = {
+["multi"] = {
+},
+},
+["zoneIds"] = "",
+},
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["source"] = "import",
+["scale"] = 1,
+["border"] = false,
+["borderEdge"] = "None",
+["regionType"] = "group",
+["borderSize"] = 16,
+["uid"] = "rsF)xvpdH)S",
+["borderOffset"] = 5,
+["semver"] = "1.0.80",
+["tocversion"] = 110107,
+["id"] = "Raid Ability Timeline",
+["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["groupIcon"] = 134376,
+["borderInset"] = 11,
+["alpha"] = 1,
+["config"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+["groupOffset"] = true,
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["xOffset"] = -274.5250244140625,
+},
+["SMS"] = {
+["controlledChildren"] = {
+"SMS_1_自盾",
+"SMS_2_绝望祷言",
+"SMS_3_糖",
+"SMS_4_药水",
+"SMS_5_驱散",
+"SMS_6_盾",
+"SMS_7_光晕",
+"SMS_8_愈合",
+"SMS_9_静",
+"SMS_10_快速治疗",
+"SMS_11_治疗术",
+"SMS_12_恢复",
+"SMS_13_希望",
+"SMS_14_暗影魔",
+"SSM_15_蓝",
+"SMS_16_神圣之火",
+"SMS_17_痛",
+"SMS_18_惩击",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
+["xOffset"] = 0,
+["preferToUpdate"] = false,
+["yOffset"] = 10,
+["anchorPoint"] = "BOTTOMLEFT",
+["borderColor"] = {
+0,
+0,
+0,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "player",
+["subeventPrefix"] = "SPELL",
+["event"] = "Health",
+["names"] = {
+},
+},
+["untrigger"] = {
+},
+},
+},
+["internalVersion"] = 86,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["subRegions"] = {
+},
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["scale"] = 1,
+["border"] = false,
+["borderEdge"] = "Square Full White",
+["regionType"] = "group",
+["borderSize"] = 2,
+["borderOffset"] = 4,
+["tocversion"] = 110200,
+["id"] = "SMS",
+["uid"] = "Do7x0V8bjPU",
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["selfPoint"] = "CENTER",
+["borderInset"] = 1,
+["authorOptions"] = {
+},
+["config"] = {
+},
+["conditions"] = {
+},
+["information"] = {
+},
+["frameStrata"] = 1,
+},
+["MKT_11_轮回"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["width"] = 10,
+["parent"] = "MKT",
+["authorOptions"] = {
+},
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["xOffset"] = 110,
+["conditions"] = {
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["names"] = {
+},
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["spellName"] = 322109,
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MKT_11_轮回",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["rotation"] = 0,
+["config"] = {
+},
+["uid"] = "bw4gDLAzZ)B",
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["class_and_spec"] = {
+["single"] = 268,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_class_and_spec"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["desaturate"] = false,
+},
+["MMK_20_轮回"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["uid"] = "DEmot6KLWtY",
+["desaturate"] = false,
+["authorOptions"] = {
+},
+["parent"] = "MMK",
+["mirror"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["xOffset"] = 200,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["rotate"] = false,
+["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -18709,63 +23284,15 @@ WeakAurasSaved = {
 ["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 100780,
+["spellName"] = 322109,
 },
 ["untrigger"] = {
 },
 },
-{
-["trigger"] = {
-["type"] = "aura2",
-["useExactSpellId"] = true,
-["debuffType"] = "HELPFUL",
-["auraspellids"] = {
-"1239483",
-},
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "aura2",
-["stacksOperator"] = "<",
-["auraspellids"] = {
-"202090",
-},
-["matchesShowOn"] = "showOnMissing",
-["unit"] = "player",
-["stacks"] = "",
-["useStacks"] = false,
-["useExactSpellId"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["stacks"] = "4",
-["useStacks"] = true,
-["useExactSpellId"] = true,
-["stacksOperator"] = "<",
-["auraspellids"] = {
-"202090",
-},
-["type"] = "aura2",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "custom",
-["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and t[4] and t[5] and (t[6] or t[7])\nend",
 ["activeTriggerMode"] = -10,
 },
-["internalVersion"] = 86,
-["uid"] = "9cqFuty4YBG",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "MMK_20_轮回",
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -18786,14 +23313,12 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_18_猛虎",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["frameStrata"] = 1,
+["alpha"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -18806,48 +23331,45 @@ WeakAurasSaved = {
 },
 ["width"] = 10,
 },
-["SMS_13_希望"] = {
-["parent"] = "SMS",
+["BDK_2_糖"] = {
+["color"] = {
+1,
+1,
+1,
+1,
+},
 ["preferToUpdate"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+["do_custom"] = false,
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
 {
 ["trigger"] = {
-["use_dead"] = false,
-["use_hostility"] = true,
-["level_operator"] = {
-">=",
-},
-["use_unit"] = true,
-["use_inCombat"] = true,
-["level"] = {
-},
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
 ["type"] = "unit",
-["use_absorbHealMode"] = true,
+["use_hostility"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["event"] = "Unit Characteristics",
-["use_absorbMode"] = true,
-["classification"] = {
-},
-["spellIds"] = {
-},
-["use_level"] = false,
-["hostility"] = "hostile",
 ["unit"] = "target",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_dead"] = false,
+["use_absorbHealMode"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
 ["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -18861,7 +23383,7 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_range"] = true,
 ["use_unit"] = true,
-["range"] = "40",
+["range"] = "10",
 ["range_operator"] = "<=",
 ["debuffType"] = "HELPFUL",
 },
@@ -18871,27 +23393,18 @@ WeakAurasSaved = {
 {
 ["trigger"] = {
 ["type"] = "unit",
-["use_health"] = true,
-["health_operator"] = {
-">",
+["use_absorbHealMode"] = true,
+["percenthealth"] = {
+"45",
 },
-["percentpower_operator"] = {
+["event"] = "Health",
+["unit"] = "player",
+["use_absorbMode"] = true,
+["use_unit"] = true,
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
 "<=",
 },
-["use_absorbMode"] = true,
-["event"] = "Power",
-["unit"] = "player",
-["percentpower"] = {
-"50",
-},
-["powertype"] = 0,
-["health"] = {
-"0",
-},
-["use_unit"] = true,
-["use_percentpower"] = true,
-["use_absorbHealMode"] = true,
-["use_powertype"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -18899,28 +23412,31 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
+["itemName"] = 5512,
+["use_count"] = true,
 ["use_genericShowOn"] = true,
-["event"] = "Action Usable",
+["event"] = "Item Count",
 ["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 64901,
+["use_includeCharges"] = true,
+["count"] = "1",
+["debuffType"] = "HELPFUL",
+["use_itemName"] = true,
+["type"] = "item",
 ["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
+["count_operator"] = ">=",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "item",
+["event"] = "Cooldown Progress (Item)",
+["itemName"] = 5512,
+["genericShowOn"] = "showOnReady",
+["use_genericShowOn"] = true,
+["use_itemName"] = true,
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -18942,598 +23458,25 @@ WeakAurasSaved = {
 ["height"] = 10,
 ["rotate"] = false,
 ["load"] = {
-["use_never"] = false,
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 257,
-},
-["use_combat"] = true,
-["use_alive"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["tocversion"] = 110200,
-["id"] = "SMS_13_希望",
-["frameStrata"] = 1,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["width"] = 10,
-["uid"] = "jKKuCWIVVD4",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["authorOptions"] = {
-},
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["xOffset"] = 130,
-},
-["SMS_8_愈合"] = {
-["sparkWidth"] = 10,
-["iconSource"] = -1,
-["user_x"] = 0,
-["xOffset"] = 80,
-["adjustedMax"] = "",
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["sparkRotation"] = 0,
-["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["url"] = "https://space.bilibili.com/455259",
-["actions"] = {
-["start"] = {
-["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
-["sound_path"] = "",
-["do_sound"] = false,
-},
-["finish"] = {
-["hide_all_glows"] = true,
-},
-["init"] = {
-},
-},
-["icon_color"] = {
-1,
-1,
-1,
-1,
-},
-["enableGradient"] = false,
-["keepAspectRatio"] = false,
-["selfPoint"] = "BOTTOMLEFT",
-["barColor"] = {
-1,
-1,
-1,
-0,
-},
-["desaturate"] = false,
-["rotation"] = 0,
-["font"] = "Friz Quadrata TT",
-["sparkOffsetY"] = 0,
-["gradientOrientation"] = "HORIZONTAL",
-["crop_y"] = 0.41,
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["startAngle"] = 0,
-["useAdjustededMin"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["slantMode"] = "INSIDE",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-["spark"] = false,
-["compress"] = false,
-["alpha"] = 1,
-["sparkColor"] = {
-1,
-1,
-1,
-1,
-},
-["displayIcon"] = 897131,
-["backgroundOffset"] = 2,
-["sparkOffsetX"] = 0,
-["wagoID"] = "58CNiw_2n",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["parent"] = "SMS",
-["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
-["barColor2"] = {
-1,
-1,
-0,
-1,
-},
-["crop_x"] = 0.41,
-["desaturateBackground"] = false,
-["cooldownSwipe"] = true,
-["auraRotation"] = 0,
-["sparkRotationMode"] = "AUTO",
-["cooldownEdge"] = false,
-["desaturateForeground"] = false,
-["triggers"] = {
-{
-["trigger"] = {
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_absorbMode"] = true,
-["use_character"] = false,
-["use_unit"] = true,
-["use_class"] = false,
-["character"] = "player",
-["debuffType"] = "HELPFUL",
-["classification"] = {
-},
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_role"] = false,
-["event"] = "Unit Characteristics",
-["spellIds"] = {
-},
-["names"] = {
-},
-["type"] = "unit",
-["hostility"] = "friendly",
-["subeventPrefix"] = "SPELL",
-["unit"] = "target",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["use_hostility"] = false,
-["use_absorbMode"] = true,
-["use_character"] = false,
-["unit"] = "target",
-["use_class"] = false,
-["character"] = "player",
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_role"] = true,
-["event"] = "Unit Characteristics",
-["role"] = "TANK",
-["spellIds"] = {
-},
-["use_unit"] = true,
-["subeventPrefix"] = "SPELL",
-["hostility"] = "friendly",
-["classification"] = {
-},
-["names"] = {
-},
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_health"] = false,
-["health_operator"] = {
-"<=",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["use_unit"] = true,
-["percenthealth"] = {
-"95",
-},
-["health"] = {
-},
-["use_absorbHealMode"] = true,
-["unit"] = "target",
-["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
-},
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["health_operator"] = {
-"<=",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["use_unit"] = true,
-["percenthealth"] = {
-"95",
-},
-["health"] = {
-},
-["use_health"] = false,
-["unit"] = "target",
-["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
-},
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "40",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 33076,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "custom",
-["customTriggerLogic"] = "function(t)\n    return t[1] and ((t[2] and t[3]) or (not t[2] and t[4])) and t[5] and t[6] and t[7]\nend",
-["activeTriggerMode"] = -10,
-},
-["endAngle"] = 360,
-["internalVersion"] = 86,
-["progressSource"] = {
--1,
-"",
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["auto"] = true,
-["icon"] = true,
-["backgroundColor"] = {
-0,
-0,
-0,
-0.300000011920929,
-},
-["foregroundColor"] = {
-1,
-1,
-1,
-1,
-},
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["version"] = 51,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["textureSource"] = "Picker",
-["user_y"] = 0,
-["sparkBlendMode"] = "ADD",
-["useAdjustededMax"] = false,
-["fontSize"] = 12,
-["source"] = "import",
-["id"] = "SMS_8_愈合",
-["cooldownTextDisabled"] = true,
-["rotate"] = false,
-["mirror"] = false,
-["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
-["adjustedMin"] = "",
-["limitWeakAuras"] = {
-["hash"] = "0bf6b48a855637aa0397388ef4dc9437a29c8f0a32e93b3c6e050d64da07f02c",
-},
-["anchorFrameParent"] = false,
-["icon_side"] = "LEFT",
-["uid"] = "D51Z3EzW7H(",
-["cooldown"] = true,
-["sparkHeight"] = 30,
-["authorOptions"] = {
-},
-["load"] = {
-["use_never"] = false,
-["class"] = {
-["multi"] = {
-},
-},
-["race"] = {
-["single"] = "Dwarf",
-["multi"] = {
-},
-},
-["level"] = {
-"70",
-},
-["size"] = {
-["single"] = "party",
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 257,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_level"] = false,
-["difficulty"] = {
-},
-["use_class_and_spec"] = true,
-["use_alive"] = true,
-["instance_type"] = {
-["single"] = 8,
-["multi"] = {
-[8] = true,
-},
-},
-["use_zoneIds"] = false,
-["use_combat"] = true,
-["level_operator"] = {
-">=",
-},
-["zoneIds"] = "g431",
-},
-["tocversion"] = 110200,
-["semver"] = "1.5.5",
-["config"] = {
-},
-["sparkHidden"] = "NEVER",
-["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
-["useCooldownModRate"] = true,
-["width"] = 10,
-["sameTexture"] = true,
-["desc"] = "by 露露緹婭@Bilibili。",
-["inverse"] = false,
-["zoom"] = 0.3,
-["orientation"] = "HORIZONTAL",
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["preferToUpdate"] = false,
-},
-["BDK_13_凛风"] = {
-["parent"] = "BDK",
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
-},
-["use_dead"] = false,
-["hostility"] = "hostile",
-["spellIds"] = {
-},
-["use_unit"] = true,
-["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49184\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_never"] = false,
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 251,
 },
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["use_never"] = false,
+["use_alive"] = true,
+["use_combat"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
 ["size"] = {
 ["multi"] = {
 },
@@ -19544,22 +23487,37 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["alpha"] = 1,
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["uid"] = "TeStvAOHyA)",
+["parent"] = "BDK",
 ["tocversion"] = 110200,
-["id"] = "BDK_13_凛风",
-["selfPoint"] = "BOTTOMLEFT",
+["id"] = "BDK_2_糖",
 ["frameStrata"] = 1,
+["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["width"] = 10,
-["uid"] = "nD6LFM1rsLZ",
-["xOffset"] = 130,
 ["config"] = {
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["authorOptions"] = {
 },
 ["conditions"] = {
 },
@@ -19567,829 +23525,204 @@ WeakAurasSaved = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
+["xOffset"] = 20,
+},
+["DKT"] = {
+["backdropColor"] = {
+1,
+1,
+1,
+0.5,
+},
+["controlledChildren"] = {
+"DKT_1_吸血鬼",
+"DKT_2_死打",
+"DKT_3_糖",
+"DKT_4_红",
+"DKT_5_戒指",
+"DKT_6_帽子",
+"DKT_7_打断",
+"DKT_8_符文刃",
+"DKT_9_亡者",
+"DKT_10_血沸",
+"DKT_11_白骨",
+"DKT_12_吞噬",
+"DKT_13_墓石",
+"DKT_14_收割",
+"DKT_15_抚摩",
+"DKT_16_枯萎",
+"DKT_17_心打",
+"DKT_18_精髓",
+},
+["borderBackdrop"] = "Blizzard Tooltip",
 ["authorOptions"] = {
 },
-},
-["Timeline BigIcon"] = {
-["outline"] = "OUTLINE",
-["iconSource"] = -1,
-["wagoID"] = "NyseKq1Xo",
-["xOffset"] = 1.7166137695312e-05,
-["adjustedMax"] = "",
-["customText"] = "function()\n    if not aura_env.state or WeakAuras.IsOptionsOpen() then return \"Example\" end \n    -- set variables\n    local state = aura_env.state\n    local config = aura_env.config\n    local text = aura_env.state.name\n    if not text then \n        text = aura_env.state.name\n    end\n    local IDoptions = aura_env.IDoptions\n    local options = aura_env.options\n    local submsg = strtrim(text:gsub(\"~\", \"\")) -- cut ~\n    local cutmsg = strtrim(text:gsub(\"^~ ?\", \"\"):gsub(\"%s+%(%d+%)\",\"\"))  -- cut number and ~\n    local nbmsg = strtrim(text:gsub(\"%s+%(%d+%)\",\"\")) -- cut number\n    \n    \n    -- adjust text according to options if needed\n    if options and options[text] and options[text].replaceSpellName and options[text].spellName  then\n        text = options[text].spellName\n        --spell Name\n    elseif state.spellId and state.spellId ~=0 and IDoptions and IDoptions[state.spellId] and IDoptions[state.spellId].replaceSpellName and IDoptions[state.spellId].spellName then\n        text = IDoptions[state.spellId].spellName\n        --spell ID\n    elseif options and options[submsg] and options[submsg].replaceSpellName and options[submsg].spellName then\n        text = options[submsg].spellName\n        --spell Name ignore ~\n    elseif options and options[cutmsg] and options[cutmsg].replaceSpellName and options[cutmsg].spellName and options[cutmsg].IgnoreAlertNumber then\n        text = options[cutmsg].spellName\n        --spell Name ignore Spellcount\n        \n    elseif config.NameOption == 2 then\n        text = submsg\n        -- hide ~ \n    elseif config.NameOption == 3 then\n        text = nbmsg\n        -- hide number\n    elseif config.NameOption == 4 then\n        text = cutmsg\n        -- hide number and ~\n    end\n    \n    \n    -- more Text Adjustments\n    if not text then return end \n    local IconAdjust = string.len(string.match(text,\"|T.-|t\") or \"\") -- find length of any icon within the name\n    text = strtrim(text) -- Trim   \n    if IconAdjust > 0 then IconAdjust = IconAdjust - 2 end -- Make icons take 2 characters in calculation\n    if (config.textMaxLength or 0)>=5 and text:len()-IconAdjust>config.textMaxLength then -- check if length exceeeds the maximum \n        text = WA_Utf8Sub(text,config.textMaxLength+IconAdjust)..\"..\" -- Truncate     \n    end\n    -- adjust texts for paused options\n    if state.paused and config.textPausedOptions == 1 then   \n        text = \"Paused\"\n    elseif state.paused and config.textPausedOptions == 2 then\n        text = text..\"Paused\"\n    elseif state.paused and config.textPausedOptions == 3 then\n        text = WA_Utf8Sub(text,text:len()-8)..\"..\"\n        text = text..\"Paused\"\n    end \n    \n    -- Adjust color according to custom option (this should be a condition but not possible yet)\n    if state.spellId and state.spellId ~=0 and IDoptions and IDoptions[state.spellId] and IDoptions[state.spellId].replaceTextColor then\n        local r,g,b,a = unpack(IDoptions[state.spellId].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n        \n    elseif options and options[state.message] and options[state.message].replaceTextColor then\n        local r,g,b,a = unpack(options[state.message].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n    elseif options and options[submsg] and options[submsg].replaceTextColor and aura_env.options[submsg].IgnoreAlertNumber then\n        local r,g,b,a = unpack(options[submsg].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n    elseif options and options[cutmsg] and options[cutmsg].replaceTextColor and options[cutmsg].IgnoreAlertNumber then\n        local r,g,b,a = unpack(options[cutmsg].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n        \n    elseif state.dbmColor and aura_env.config.UseBossModsColor then\n        local r,g,b = unpack(state.dbmColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255,255*r,255*g,255*b,text)\n    elseif state.bwTextColor and aura_env.config.UseBossModsColor then\n        local r,g,b = unpack(state.bwTextColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255,255*r,255*g,255*b,text)\n        \n    end\n    return text\nend\n\n\n",
-["yOffset"] = -4.6730041503906e-05,
-["anchorPoint"] = "CENTER",
-["cooldownSwipe"] = true,
-["auto"] = true,
-["customTextUpdate"] = "event",
-["url"] = "https://wago.io/RaidAbilityTimeline/81",
-["icon"] = true,
-["triggers"] = {
-{
-["trigger"] = {
-["spellId"] = "",
-["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnCooldown",
-["subeventPrefix"] = "SPELL",
-["remaining"] = "5",
-["use_cloneId"] = true,
-["debuffType"] = "HELPFUL",
-["unit"] = "player",
-["type"] = "addons",
-["spellName"] = 0,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["remaining_operator"] = "<",
-["event"] = "Boss Mod Timer",
-["duration"] = "1",
-["realSpellName"] = 0,
-["use_spellName"] = true,
-["spellIds"] = {
-},
-["use_spellId"] = false,
-["use_remaining"] = true,
-["unevent"] = "auto",
-["use_track"] = true,
-["use_isBarEnabled"] = true,
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "any",
-["customTriggerLogic"] = "function(t)\n    return t[1] \nend\n\n\n",
-["activeTriggerMode"] = -10,
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["internalVersion"] = 86,
-["progressSource"] = {
--1,
-"",
-},
+["borderEdge"] = "Square Full White",
+["border"] = false,
+["yOffset"] = 10,
+["anchorPoint"] = "BOTTOMLEFT",
+["borderSize"] = 2,
 ["selfPoint"] = "CENTER",
-["keepAspectRatio"] = false,
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["displayIcon"] = "134376",
-["desaturate"] = false,
-["desc"] = "",
-["font"] = "Friz Quadrata TT",
-["version"] = 81,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-{
-["text_text_format_p_time_format"] = 0,
-["text_text"] = "%p",
-["text_text_format_p_gcd_cast"] = false,
-["text_shadowColor"] = {
+["borderColor"] = {
 0,
 0,
 0,
-1,
-},
-["text_fixedWidth"] = 64,
-["text_text_format_p_time_legacy_floor"] = true,
-["rotateText"] = "NONE",
-["text_text_format_p_decimal_precision"] = 0,
-["text_text_format_p_gcd_gcd"] = true,
-["text_color"] = {
-1,
-1,
-0,
-1,
-},
-["text_text_format_p_gcd_channel"] = false,
-["text_shadowYOffset"] = 0,
-["text_wordWrap"] = "WordWrap",
-["text_visible"] = true,
-["text_text_format_p_gcd_hide_zero"] = false,
-["text_fontSize"] = 25,
-["anchorXOffset"] = 0,
-["text_text_format_p_round_type"] = "ceil",
-["text_text_format_c.2_format"] = "none",
-["text_text_format_p_time_mod_rate"] = true,
-["text_selfPoint"] = "AUTO",
-["text_automaticWidth"] = "Auto",
-["anchorYOffset"] = 0,
-["text_justify"] = "CENTER",
-["type"] = "subtext",
-["text_font"] = "PT Sans Narrow",
-["text_text_format_p_time_dynamic_threshold"] = 1,
-["text_shadowXOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-["anchor_point"] = "CENTER",
-["text_text_format_c2_format"] = "none",
-["text_text_format_p_format"] = "timed",
-["text_text_format_p_time_precision"] = 1,
-},
-{
-["text_shadowXOffset"] = 0,
-["text_text"] = "%c",
-["text_text_format_c.1_format"] = "none",
-["text_text_format_1_format"] = "none",
-["text_shadowColor"] = {
-0,
-0,
-0,
-1,
-},
-["text_selfPoint"] = "AUTO",
-["text_automaticWidth"] = "Auto",
-["text_fixedWidth"] = 64,
-["text_text_format_c_format"] = "none",
-["text_text_format_c_abbreviate_max"] = 8,
-["rotateText"] = "NONE",
-["text_text_format_c.2_format"] = "none",
-["anchorYOffset"] = 0,
-["type"] = "subtext",
-["text_justify"] = "CENTER",
-["text_color"] = {
-1,
-1,
-1,
-1,
-},
-["text_font"] = "ArchivoNarrow-Bold",
-["text_text_format_c2_format"] = "none",
-["text_shadowYOffset"] = 0,
-["text_fontType"] = "OUTLINE",
-["text_wordWrap"] = "WordWrap",
-["text_visible"] = true,
-["text_text_format_c1_format"] = "none",
-["text_text_format_c_abbreviate"] = false,
-["anchor_point"] = "OUTER_BOTTOM",
-["text_fontSize"] = 15,
-["anchorXOffset"] = 0,
-["text_text_format_c12345678910_format"] = "none",
-},
-{
-["glowFrequency"] = 0.25,
-["type"] = "subglow",
-["glowDuration"] = 1,
-["glowType"] = "Pixel",
-["glowThickness"] = 2,
-["glowYOffset"] = 0,
-["glowColor"] = {
-1,
-1,
-1,
-1,
-},
-["useGlowColor"] = true,
-["glowXOffset"] = 0,
-["glowLength"] = 10,
-["glow"] = false,
-["glowScale"] = 1,
-["glowLines"] = 8,
-["glowBorder"] = false,
-},
-},
-["height"] = 80,
-["preferToUpdate"] = false,
-["load"] = {
-["use_never"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["uid"] = "wXwCYPds3Wy",
-["useAdjustededMax"] = false,
-["fontSize"] = 12,
-["source"] = "import",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["colorR"] = 1,
-["duration_type"] = "seconds",
-["colorA"] = 1,
-["colorG"] = 1,
-["use_translate"] = false,
-["colorB"] = 1,
-["type"] = "none",
-["scalex"] = 1,
-["easeType"] = "none",
-["translateFunc"] = "function(progress, startX, startY, deltaX, deltaY)\n    return startX + (progress * deltaX), startY + (progress * deltaY)\nend\n",
-["scaley"] = 1,
-["alpha"] = 0,
-["easeStrength"] = 5,
-["y"] = -220,
-["x"] = 0,
-["use_scale"] = false,
-["scaleType"] = "straightScale",
-["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n    return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\nend\n",
-["rotate"] = 0,
-["translateType"] = "straightTranslate",
-["duration"] = "10",
-},
-["finish"] = {
-["type"] = "none",
-["easeType"] = "none",
-["easeStrength"] = 3,
-["preset"] = "slidebottom",
-["duration_type"] = "seconds",
-},
-},
-["width"] = 80,
-["useCooldownModRate"] = true,
-["displayText"] = "%p",
-["anchorFrameFrame"] = "WeakAuras:Vertical bar",
-["regionType"] = "icon",
-["parent"] = "Bigicon",
-["stickyDuration"] = false,
-["semver"] = "1.0.80",
-["cooldownTextDisabled"] = true,
-["anchorFrameParent"] = false,
-["useAdjustededMin"] = false,
-["adjustedMin"] = "",
-["zoom"] = 0,
-["justify"] = "LEFT",
-["tocversion"] = 110107,
-["id"] = "Timeline BigIcon",
-["frameStrata"] = 1,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["actions"] = {
-["start"] = {
-["do_custom"] = false,
-},
-["init"] = {
-["custom"] = "aura_env.options = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.options[option.message] = option\nend\naura_env.IDoptions = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.IDoptions[tostring(option.spellid)] = option\nend\n\nfor k,v in pairs(aura_env.region.subRegions) do\n    if v.type == \"subglow\" then\n        aura_env.glow = v\n    end\nend\n\n\n",
-["do_custom"] = true,
-},
-["finish"] = {
-["do_custom"] = false,
-},
-},
-["config"] = {
-["NameOption"] = 1,
-["UseBossModsColor"] = true,
-["textMaxLength"] = 8,
-["spellOptions"] = {
-{
-["glow"] = true,
-["NameField"] = "Pause",
-["glowColor"] = {
-1,
-0,
-1,
-1,
-},
-["IgnoreAlertNumber"] = false,
-["replaceTextColor"] = true,
-["textColor"] = {
-0,
-1,
-0,
-1,
-},
-["message"] = "Pause!",
-["replaceSpellName"] = true,
-["spellid"] = 0,
-["spellName"] = "Partytimer!",
-},
-},
-["textPausedOptions"] = 1,
-},
-["inverse"] = false,
-["cooldownEdge"] = false,
-["conditions"] = {
-{
-["check"] = {
-["trigger"] = -1,
-["variable"] = "customcheck",
-["value"] = "function()\n    local msg,spellId\n    \n    if aura_env.state.name or aura_env.state.spellId then\n        msg = aura_env.state.name\n        spellId = aura_env.state.spellId\n    else\n        return false\n    end\n    local options = aura_env.options\n    local IDoptions = aura_env.IDoptions\n    local submsg = strtrim(msg:gsub(\"~\", \"\")) -- cut ~\n    local cutmsg = strtrim(msg:gsub(\"^~ ?\", \"\"):gsub(\"%s+%(%d+%)\",\"\"))  -- cut number and ~\n    if options and options[msg] and options[msg].glow then\n        return true\n    elseif spellId and IDoptions and IDoptions[spellId] and IDoptions[spellId].glow then\n        return true\n    elseif options and options[submsg] and options[submsg].glow then\n        return true\n    elseif options and options[cutmsg] and options[cutmsg].glow and options[cutmsg].IgnoreAlertNumber then     \n        return true\n    else\n        return false\n    end\nend\n\n\n\n",
-},
-["changes"] = {
-{
-["value"] = true,
-["property"] = "sub.4.glow",
-},
-{
-["value"] = {
-["custom"] = "local msg,spellId\nif aura_env.state.name or aura_env.state.spellId then\n    msg = aura_env.state.name\n    spellId = aura_env.state.spellId\nelse\n    return false\nend\nlocal options = aura_env.options\nlocal IDoptions = aura_env.IDoptions\nlocal submsg = strtrim(msg:gsub(\"~\", \"\")) -- cut ~\nlocal cutmsg = strtrim(msg:gsub(\"^~ ?\", \"\"):gsub(\"%s+%(%d+%)\",\"\"))  -- cut number and ~\nif options and options[msg] and options[msg].glow then\n    if options[msg].glowColor then\n        local r,g,b,a = unpack(options[msg].glowColor)\n        --aura_env.glow:SetGlowColor(r,g,b,a) -- no idea why this doesn't work\n        for k,v in pairs(aura_env.region.subRegions) do -- this is very bad practise do NOT DO THIS\n            if v.type == \"subglow\" then\n                v:SetGlowColor(r,g,b,a)\n            end\n        end\n    end\n    \nelseif spellId and IDoptions and IDoptions[spellId] and IDoptions[spellId].glow then\n    if IDoptions[spellId].glowColor then\n        local r,g,b,a = unpack(IDoptions[spellId].glowColor)\n        --aura_env.glow:SetGlowColor(r,g,b,a) -- this should use normal conditions but you can't do that\n        for k,v in pairs(aura_env.region.subRegions) do -- this is very bad practise do NOT DO THIS\n            if v.type == \"subglow\" then\n                v:SetGlowColor(r,g,b,a)\n            end\n        end\n    end\nelseif options and options[submsg] and options[submsg].glow then\n    if options[submsg].glowColor then\n        local r,g,b,a = unpack(options[submsg].glowColor)\n        --aura_env.glow:SetGlowColor(r,g,b,a) -- this should use normal conditions but you can't do that\n        for k,v in pairs(aura_env.region.subRegions) do -- this is very bad practise do NOT DO THIS\n            if v.type == \"subglow\" then\n                v:SetGlowColor(r,g,b,a)\n            end\n        end\n    end\nelseif options and options[cutmsg] and options[cutmsg].glow and options[cutmsg].IgnoreAlertNumber then\n    if options[cutmsg].glowColor then\n        local r,g,b,a = unpack(options[cutmsg].glowColor)\n        --aura_env.glow:SetGlowColor(r,g,b,a) -- this should use normal conditions but you can't do that\n        for k,v in pairs(aura_env.region.subRegions) do -- this is very bad practise do NOT DO THIS\n            if v.type == \"subglow\" then\n                v:SetGlowColor(r,g,b,a)\n            end\n        end\n    end\nend\n\n\n",
-},
-["property"] = "customcode",
-},
-{
-},
-},
-},
-},
-["cooldown"] = true,
-["authorOptions"] = {
-{
-["subOptions"] = {
-{
-["type"] = "input",
-["useDesc"] = true,
-["width"] = 1,
-["name"] = "Name this Entry",
-["default"] = "Name this Entry",
-["desc"] = "Name this Entry",
-["key"] = "NameField",
-["length"] = 10,
-["multiline"] = false,
-["useLength"] = false,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 1,
-["width"] = 1,
-["useHeight"] = false,
-},
-{
-["useName"] = false,
-["type"] = "header",
-["text"] = "",
-["noMerge"] = false,
-["width"] = 1,
-},
-{
-["type"] = "input",
-["useDesc"] = true,
-["width"] = 1,
-["name"] = "Message",
-["default"] = "",
-["desc"] = "DBM/BW Message to be filtered for",
-["key"] = "message",
-["length"] = 10,
-["multiline"] = false,
-["useLength"] = false,
-},
-{
-["type"] = "toggle",
-["default"] = true,
-["desc"] = "Tick this if you want to ignore the Alert Number e.g. TestBar (4) and replace info for all TestBar's",
-["key"] = "IgnoreAlertNumber",
-["useDesc"] = true,
-["name"] = "Ignore Alert Number",
-["width"] = 1,
-},
-{
-["type"] = "number",
-["useDesc"] = true,
-["max"] = 99999999,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "spellid",
-["desc"] = "Spellid of the BW message to be filtered for",
-["name"] = "Spellid",
-["default"] = 0,
-},
-{
-["type"] = "description",
-["text"] = "Message or spellid are optional and only one has to be set to work",
-["fontSize"] = "medium",
-["width"] = 2,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Use \"Name\" as replacement text",
-["key"] = "replaceSpellName",
-["useDesc"] = true,
-["name"] = "Replace Spell Name",
-["width"] = 1,
-},
-{
-["type"] = "input",
-["useDesc"] = false,
-["width"] = 1,
-["key"] = "spellName",
-["name"] = "Name",
-["multiline"] = false,
-["length"] = 10,
-["default"] = "",
-["useLength"] = false,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Replace the Text color",
-["key"] = "replaceTextColor",
-["useDesc"] = true,
-["name"] = "Replace Text Color",
-["width"] = 1,
-},
-{
-["type"] = "color",
-["default"] = {
-1,
-1,
-1,
-1,
-},
-["desc"] = "Colors the text if \"Replace\" is checked",
-["key"] = "textColor",
-["useDesc"] = true,
-["name"] = "Text Color",
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Enables glow for the given Spell",
-["key"] = "glow",
-["useDesc"] = true,
-["name"] = "Enable Glow",
-["width"] = 1,
-},
-{
-["type"] = "color",
-["default"] = {
-1,
-1,
-1,
-1,
-},
-["key"] = "glowColor",
-["useDesc"] = false,
-["name"] = "Glow Color",
-["width"] = 1,
-},
-},
-["hideReorder"] = true,
-["useDesc"] = false,
-["nameSource"] = 1,
-["width"] = 2,
-["useCollapse"] = true,
-["collapse"] = false,
-["name"] = "Spell Options",
-["key"] = "spellOptions",
-["limitType"] = "none",
-["groupType"] = "array",
-["type"] = "group",
-["size"] = 10,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 6,
-["width"] = 2,
-["useHeight"] = true,
-},
-{
-["type"] = "header",
-["text"] = "",
-["useName"] = false,
-["width"] = 1,
-},
-{
-["type"] = "description",
-["text"] = "\n",
-["fontSize"] = "medium",
-["width"] = 2,
-},
-{
-["desc"] = "Set up how you wanna display Bar Names by default it will show everything like DBM/BW does HideNumber hides the spell number behind certain casts while DbmHide~ hides the ~ infront of some spells",
-["type"] = "select",
-["values"] = {
-"default",
-"DbmHide~",
-"HideNumber",
-"DBMonlyName",
-},
-["default"] = 1,
-["key"] = "NameOption",
-["useDesc"] = true,
-["name"] = "NameOption",
-["width"] = 1,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 1,
-["width"] = 1,
-["useHeight"] = false,
-},
-{
-["desc"] = "Select how you want to display Paused timers",
-["type"] = "select",
-["values"] = {
-"replace name with paused",
-"add paused to name",
-"add paused but shorten",
-"don't change",
-},
-["default"] = 1,
-["key"] = "textPausedOptions",
-["useDesc"] = true,
-["name"] = "Text Options - Paused",
-["width"] = 1,
-},
-{
-["type"] = "space",
-["variableWidth"] = false,
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = true,
-["key"] = "UseBossModsColor",
-["useDesc"] = false,
-["name"] = "Use Bossmods text Color",
-["width"] = 1,
-},
-{
-["type"] = "number",
-["useDesc"] = true,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "textMaxLength",
-["desc"] = "Max length of the text by the icon. Text longer than this will be truncated and followed by \"..\". Set to 0 to disable truncating text.",
-["name"] = "Bigicon Text Max Length",
-["default"] = 8,
-},
-},
-},
-["FZT_11_破壞者"] = {
-["parent"] = "FZT",
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
-},
-["unit"] = "target",
-["use_hostility"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["health_operator"] = {
-">",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["health"] = {
-"0",
-},
-["use_health"] = true,
-["use_unit"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 228920,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "aura2",
-["unit"] = "player",
-["useExactSpellId"] = true,
-["remOperator"] = ">",
-["rem"] = "5",
-["auraspellids"] = {
-"401150",
-},
-["useRem"] = true,
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["selfPoint"] = "BOTTOMLEFT",
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_never"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 73,
-},
-["use_combat"] = true,
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "q65)TYJmhAG",
-["xOffset"] = 120,
-["tocversion"] = 110200,
-["id"] = "FZT_11_破壞者",
-["width"] = 10,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["alpha"] = 1,
-["config"] = {
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["authorOptions"] = {
-},
-},
-["MMK_LIGHTING_HINT"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["alpha"] = 1,
-["desaturate"] = false,
-["authorOptions"] = {
-},
-["parent"] = "MMK_HINT",
-["mirror"] = false,
-["yOffset"] = 100,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
 1,
 },
 ["xOffset"] = 0,
 ["actions"] = {
 ["start"] = {
 },
+["init"] = {
+},
 ["finish"] = {
+},
+},
+["triggers"] = {
+{
+["trigger"] = {
+["names"] = {
+},
+["type"] = "aura2",
+["spellIds"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "player",
+["subeventPrefix"] = "SPELL",
+["event"] = "Health",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+},
+["regionType"] = "group",
+["internalVersion"] = 86,
+["scale"] = 1,
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "DKT",
+["borderOffset"] = 4,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["uid"] = "ok(AEDEW9C4",
+["config"] = {
+},
+["information"] = {
+},
+["subRegions"] = {
+},
+["frameStrata"] = 1,
+["conditions"] = {
+},
+["load"] = {
+["size"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["talent"] = {
+["multi"] = {
+},
+},
+},
+["borderInset"] = 1,
+},
+["MMK_LIGHTING_HINT"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 0,
+["width"] = 200,
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["parent"] = "MMK_HINT",
+["mirror"] = false,
+["yOffset"] = 100,
+["anchorPoint"] = "CENTER",
+["load"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["authorOptions"] = {
+},
+["rotate"] = false,
+["actions"] = {
+["start"] = {
 },
 ["init"] = {
 },
+["finish"] = {
+},
 },
 ["texture"] = "1028136",
-["conditions"] = {
-},
-["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
 ["names"] = {
 },
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["subeventPrefix"] = "SPELL",
 ["unit"] = "target",
-["use_hostility"] = true,
+["use_unit"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
 ["use_dead"] = false,
-["use_unit"] = true,
+["hostility"] = "hostile",
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -20403,16 +23736,16 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["subeventPrefix"] = "SPELL",
-["debuffType"] = "HELPFUL",
+["spellName"] = 117952,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
 ["genericShowOn"] = "showOnCooldown",
+["unit"] = "player",
 ["names"] = {
 },
-["unit"] = "player",
 ["use_track"] = true,
-["spellName"] = 117952,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -20438,21 +23771,23 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "aura2",
 ["useExactSpellId"] = true,
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 ["auraspellids"] = {
 "388026",
 },
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
+["internalVersion"] = 86,
+["uid"] = "ikLjCTLpDht",
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -20460,244 +23795,53 @@ WeakAurasSaved = {
 ["type"] = "preset",
 ["easeType"] = "none",
 ["duration_type"] = "seconds",
-["easeStrength"] = 3,
 ["preset"] = "alphaPulse",
+["easeStrength"] = 3,
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
 ["id"] = "MMK_LIGHTING_HINT",
 ["selfPoint"] = "CENTER",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["desaturate"] = false,
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "ikLjCTLpDht",
+["frameStrata"] = 1,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 200,
-["rotate"] = false,
-["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["width"] = 200,
-},
-["BDK_9_复生"] = {
-["parent"] = "BDK",
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
-},
-["use_dead"] = false,
-["hostility"] = "hostile",
-["spellIds"] = {
-},
-["use_unit"] = true,
-["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 46585\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_never"] = false,
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 251,
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["alpha"] = 1,
-["xOffset"] = 90,
-["tocversion"] = 110200,
-["id"] = "BDK_9_复生",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["width"] = 10,
-["uid"] = "m8p6kPbh5Eg",
-["authorOptions"] = {
-},
-["config"] = {
-},
 ["conditions"] = {
 },
 ["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-},
-["DKT_15_枯萎"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
 },
 ["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
+},
+["DKT_14_收割"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["color"] = {
 1,
 1,
 1,
 1,
+},
+["desaturate"] = false,
+["xOffset"] = 140,
+["authorOptions"] = {
 },
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
 ["load"] = {
-["spec"] = {
+["class"] = {
 ["multi"] = {
 },
 },
@@ -20709,12 +23853,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_class_and_spec"] = true,
-["class"] = {
+["spec"] = {
 ["multi"] = {
 },
 },
 ["use_combat"] = true,
+["use_class_and_spec"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -20722,9 +23866,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
-["xOffset"] = 150,
+["parent"] = "DKT",
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
@@ -20734,8 +23877,6 @@ WeakAurasSaved = {
 },
 },
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
 ["triggers"] = {
 {
 ["trigger"] = {
@@ -20744,7 +23885,7 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["spellName"] = 43265,
+["spellName"] = 343294,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -20797,659 +23938,41 @@ WeakAurasSaved = {
 ["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
 ["debuffType"] = "HELPFUL",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 343294\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["debuffType"] = "HELPFUL",
-["use_ismoving"] = false,
 ["use_absorbMode"] = true,
-["event"] = "Conditions",
-["use_unit"] = true,
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "DKT_15_枯萎",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
-["width"] = 10,
-["rotation"] = 0,
-["uid"] = "BugVUCZxLZg",
-["alpha"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["conditions"] = {
-},
-["information"] = {
-},
-["desaturate"] = false,
-},
-["Bigicon"] = {
-["grow"] = "RIGHT",
-["controlledChildren"] = {
-"Timeline BigIcon",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["wagoID"] = "NyseKq1Xo",
-["authorOptions"] = {
-{
-["subOptions"] = {
-{
-["type"] = "input",
-["useDesc"] = true,
-["width"] = 1,
-["name"] = "Name this Entry",
-["default"] = "Name this Entry",
-["desc"] = "Name this Entry",
-["key"] = "NameField",
-["length"] = 10,
-["multiline"] = false,
-["useLength"] = false,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 1,
-["width"] = 1,
-["useHeight"] = false,
-},
-{
-["useName"] = false,
-["type"] = "header",
-["text"] = "",
-["noMerge"] = false,
-["width"] = 1,
-},
-{
-["type"] = "input",
-["useDesc"] = true,
-["width"] = 1,
-["name"] = "Message",
-["default"] = "",
-["desc"] = "DBM/BW Message to be filtered for",
-["key"] = "message",
-["length"] = 10,
-["multiline"] = false,
-["useLength"] = false,
-},
-{
-["type"] = "toggle",
-["default"] = true,
-["desc"] = "Tick this if you want to ignore the Alert Number e.g. TestBar (4) and replace info for all TestBar's",
-["key"] = "IgnoreAlertNumber",
-["useDesc"] = true,
-["name"] = "Ignore Alert Number",
-["width"] = 1,
-},
-{
-["type"] = "number",
-["useDesc"] = true,
-["max"] = 99999999,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "spellid",
-["desc"] = "Spellid of the BW message to be filtered for",
-["name"] = "Spellid",
-["default"] = 0,
-},
-{
-["type"] = "description",
-["text"] = "Message or spellid are optional and only one has to be set to work",
-["fontSize"] = "medium",
-["width"] = 2,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Use \"Name\" as replacement text",
-["key"] = "replaceSpellName",
-["useDesc"] = true,
-["name"] = "Replace Spell Name",
-["width"] = 1,
-},
-{
-["type"] = "input",
-["useDesc"] = false,
-["width"] = 1,
-["key"] = "spellName",
-["name"] = "Name",
-["multiline"] = false,
-["length"] = 10,
-["default"] = "",
-["useLength"] = false,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Replace the Text color",
-["key"] = "replaceTextColor",
-["useDesc"] = true,
-["name"] = "Replace Text Color",
-["width"] = 1,
-},
-{
-["type"] = "color",
-["default"] = {
-1,
-1,
-1,
-1,
-},
-["desc"] = "Colors the text if \"Replace\" is checked",
-["key"] = "textColor",
-["useDesc"] = true,
-["name"] = "Text Color",
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Enables glow for the given Spell",
-["key"] = "glow",
-["useDesc"] = true,
-["name"] = "Enable Glow",
-["width"] = 1,
-},
-{
-["type"] = "color",
-["default"] = {
-1,
-1,
-1,
-1,
-},
-["key"] = "glowColor",
-["useDesc"] = false,
-["name"] = "Glow Color",
-["width"] = 1,
-},
-},
-["hideReorder"] = true,
-["useDesc"] = false,
-["nameSource"] = 1,
-["width"] = 2,
-["useCollapse"] = true,
-["collapse"] = false,
-["name"] = "Spell Options",
-["key"] = "spellOptions",
-["limitType"] = "none",
-["groupType"] = "array",
-["type"] = "group",
-["size"] = 10,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 6,
-["width"] = 2,
-["useHeight"] = true,
-},
-{
-["type"] = "header",
-["text"] = "",
-["useName"] = false,
-["width"] = 1,
-},
-{
-["type"] = "description",
-["text"] = "\n",
-["fontSize"] = "medium",
-["width"] = 2,
-},
-{
-["desc"] = "Set up how you wanna display Bar Names by default it will show everything like DBM/BW does HideNumber hides the spell number behind certain casts while DbmHide~ hides the ~ infront of some spells",
-["type"] = "select",
-["values"] = {
-"default",
-"DbmHide~",
-"HideNumber",
-"DBMonlyName",
-},
-["default"] = 1,
-["key"] = "NameOption",
-["useDesc"] = true,
-["name"] = "NameOption",
-["width"] = 1,
-},
-{
-["type"] = "space",
-["variableWidth"] = true,
-["height"] = 1,
-["width"] = 1,
-["useHeight"] = false,
-},
-{
-["type"] = "toggle",
-["default"] = false,
-["desc"] = "Because I was inverted...",
-["key"] = "reverse",
-["useDesc"] = true,
-["name"] = "Inverse Travel Direction",
-["width"] = 0.8,
-},
-{
-["type"] = "space",
-["variableWidth"] = false,
-["width"] = 1,
-},
-{
-["min"] = 0,
-["type"] = "number",
-["default"] = 200,
-["desc"] = "The total travel distance of the icons. You will also need to manually change the length of the line in the background.",
-["key"] = "travelDist",
-["name"] = "Travel Distance",
-["useDesc"] = true,
-["width"] = 0.6,
-},
-{
-["type"] = "number",
-["useDesc"] = true,
-["max"] = 9999,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "IconSpacing",
-["desc"] = "if you want additional spacing between the icons set the value here",
-["name"] = "Icon Spacing while traveling",
-["default"] = 0,
-},
-{
-["type"] = "space",
-["variableWidth"] = false,
-["width"] = 1,
-},
-{
-["type"] = "number",
-["useDesc"] = true,
-["step"] = 1,
-["width"] = 1,
-["min"] = 0,
-["key"] = "textMaxLength",
-["desc"] = "Max length of the text by the icon. Text longer than this will be truncated and followed by \"..\". Set to 0 to disable truncating text.",
-["name"] = "Text Max Length",
-["default"] = 20,
-},
-{
-["desc"] = "Select how you want to display Paused timers",
-["type"] = "select",
-["values"] = {
-"replace name with paused",
-"add paused to name",
-"add paused but shorten",
-"don't change",
-},
-["default"] = 1,
-["key"] = "textPausedOptions",
-["useDesc"] = true,
-["name"] = "Text Options - Paused",
-["width"] = 1,
-},
-{
-["type"] = "space",
-["variableWidth"] = false,
-["width"] = 1,
-},
-{
-["type"] = "toggle",
-["default"] = true,
-["key"] = "UseBossModsColor",
-["useDesc"] = false,
-["name"] = "Use Bossmods text Color",
-["width"] = 1,
-},
-},
-["preferToUpdate"] = false,
-["yOffset"] = -256.00012207031,
-["anchorPoint"] = "CENTER",
-["fullCircle"] = true,
-["rowSpace"] = 1,
-["url"] = "https://wago.io/RaidAbilityTimeline/81",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
-["debuffType"] = "HELPFUL",
 ["event"] = "Health",
-["names"] = {
-},
-},
-["untrigger"] = {
-},
-},
-},
-["columnSpace"] = 1,
-["internalVersion"] = 86,
-["gridWidth"] = 5,
-["useLimit"] = false,
-["align"] = "CENTER",
-["stepAngle"] = 15,
-["arcLength"] = 360,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["stagger"] = 0,
-["gridType"] = "RD",
-["version"] = 81,
-["subRegions"] = {
-},
-["borderColor"] = {
-0,
-0,
-0,
-1,
-},
-["selfPoint"] = "LEFT",
-["load"] = {
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["sortHybridTable"] = {
-["Timeline BigIcon"] = false,
-},
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["borderInset"] = 1,
-["animate"] = false,
-["uid"] = "PpkAm2EPwEW",
-["scale"] = 1,
-["centerType"] = "LR",
-["border"] = false,
-["borderEdge"] = "Square Full White",
-["regionType"] = "dynamicgroup",
-["borderSize"] = 2,
-["limit"] = 5,
-["parent"] = "Raid Ability Timeline",
-["alpha"] = 1,
-["constantFactor"] = "RADIUS",
-["rotation"] = 0,
-["borderOffset"] = 4,
-["semver"] = "1.0.80",
-["tocversion"] = 110107,
-["id"] = "Bigicon",
-["sort"] = "none",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["source"] = "import",
-["config"] = {
-["UseBossModsColor"] = true,
-["travelDist"] = 200,
-["NameOption"] = 1,
-["reverse"] = false,
-["textMaxLength"] = 20,
-["spellOptions"] = {
-},
-["IconSpacing"] = 0,
-["textPausedOptions"] = 1,
-},
-["radius"] = 200,
-["space"] = 2,
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-},
-["xOffset"] = -15.999877929688,
-},
-["MMK_11_法力茶"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 110,
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MMK",
-["rotate"] = false,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
 ["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
+["percenthealth"] = {
+"35",
 },
-["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
-["spellIds"] = {
-},
-["use_dead"] = false,
-["hostility"] = "hostile",
 ["use_unit"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "10",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["spellName"] = 115294,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "aura2",
-["useExactSpellId"] = true,
-["debuffType"] = "HELPFUL",
-["auraspellids"] = {
-"1215495",
-},
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 388193,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Power",
-["unit"] = "player",
-["powertype"] = 0,
-["debuffType"] = "HELPFUL",
-["use_powertype"] = true,
-["use_unit"] = true,
-["use_percentpower"] = true,
-["percentpower"] = {
-"95",
-},
-["percentpower_operator"] = {
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
 "<=",
 },
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
+["disjunctive"] = "custom",
+["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and (t[4] or t[5])\nend",
 ["activeTriggerMode"] = -10,
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["internalVersion"] = 86,
-["uid"] = "P1MBz3qRl2Y",
+["uid"] = "Rmeqd5tDypR",
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "DKT_14_收割",
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -21470,177 +23993,11 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_11_法力茶",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["width"] = 10,
-["rotation"] = 0,
-["config"] = {
-},
 ["frameStrata"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["conditions"] = {
-},
-["information"] = {
-},
-["desaturate"] = false,
-},
-["MKT_16_猛虎"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
-},
 ["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 268,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MKT",
-["xOffset"] = 160,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
-["spellIds"] = {
-},
-["use_dead"] = false,
-["hostility"] = "hostile",
-["use_unit"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 100780\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["use_debuffClass"] = false,
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["rotate"] = false,
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "MKT_16_猛虎",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
-["desaturate"] = false,
 ["rotation"] = 0,
-["uid"] = "ZMCO5x(bTvT",
+["config"] = {
+},
 ["alpha"] = 1,
 ["subRegions"] = {
 {
@@ -21716,26 +24073,26 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["zoneIds"] = "g431",
+["class_and_spec"] = {
+["single"] = 257,
+},
 ["difficulty"] = {
 },
-["level_operator"] = {
-">=",
-},
-["use_combat"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["use_level"] = false,
-["use_alive"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 257,
+["use_alive"] = true,
+["use_level"] = false,
+["talent"] = {
+["multi"] = {
 },
+},
+["use_combat"] = true,
+["level_operator"] = {
+">=",
+},
+["zoneIds"] = "g431",
 },
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
@@ -21760,14 +24117,15 @@ WeakAurasSaved = {
 1,
 1,
 },
-["parent"] = "SMS",
+["preferToUpdate"] = false,
 ["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
+["barColor2"] = {
+1,
+1,
+0,
+1,
 },
-["conditions"] = {
-},
+["crop_x"] = 0.41,
 ["desaturateBackground"] = false,
 ["cooldownSwipe"] = true,
 ["auto"] = true,
@@ -21794,11 +24152,11 @@ WeakAurasSaved = {
 ["event"] = "Unit Characteristics",
 ["spellIds"] = {
 },
-["unit"] = "target",
-["subeventPrefix"] = "SPELL",
-["hostility"] = "friendly",
-["type"] = "unit",
 ["use_unit"] = true,
+["type"] = "unit",
+["hostility"] = "friendly",
+["subeventPrefix"] = "SPELL",
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
@@ -21851,26 +24209,26 @@ WeakAurasSaved = {
 ["type"] = "aura2",
 ["use_debuffClass"] = false,
 ["useExactSpellId"] = true,
-["unit"] = "target",
+["debuffType"] = "HELPFUL",
 ["matchesShowOn"] = "showOnMissing",
 ["auraspellids"] = {
 "17",
 },
-["debuffType"] = "HELPFUL",
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -21882,10 +24240,10 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 17,
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["spellName"] = 17,
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -21902,35 +24260,30 @@ WeakAurasSaved = {
 },
 ["animation"] = {
 ["start"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["type"] = "none",
 ["easeStrength"] = 3,
+["type"] = "none",
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["cooldown"] = true,
+["tocversion"] = 110200,
 ["uid"] = "YaMa4RTYNbC",
-["crop_y"] = 0.41,
-["foregroundColor"] = {
-1,
-1,
-1,
-1,
-},
-["width"] = 10,
-["useCooldownModRate"] = true,
+["zoom"] = 0.3,
+["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["anchorFrameType"] = "SCREEN",
+["frameStrata"] = 1,
 ["version"] = 51,
 ["subRegions"] = {
 {
@@ -21939,469 +24292,70 @@ WeakAurasSaved = {
 },
 ["height"] = 10,
 ["rotate"] = false,
-["adjustedMin"] = "",
+["user_y"] = 0,
 ["sparkBlendMode"] = "ADD",
 ["useAdjustededMax"] = false,
 ["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 ["source"] = "import",
-["id"] = "SMS_6_盾",
-["iconSource"] = -1,
+["sparkHidden"] = "NEVER",
+["fontSize"] = 12,
 ["auraRotation"] = 0,
 ["mirror"] = false,
-["xOffset"] = 60,
-["backgroundColor"] = {
-0,
-0,
-0,
-0.300000011920929,
-},
-["desaturate"] = false,
-["anchorFrameParent"] = false,
+["textureSource"] = "Picker",
+["startAngle"] = 0,
+["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+["sparkHeight"] = 30,
 ["icon_side"] = "LEFT",
+["actions"] = {
+["start"] = {
+["sound_path"] = "",
+["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
+["do_sound"] = false,
+},
+["finish"] = {
+["hide_all_glows"] = true,
+},
+["init"] = {
+},
+},
 ["sparkColor"] = {
 1,
 1,
 1,
 1,
 },
-["actions"] = {
-["start"] = {
-["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
-["sound_path"] = "",
-["do_sound"] = false,
-},
-["init"] = {
-},
-["finish"] = {
-["hide_all_glows"] = true,
-},
-},
-["sparkHeight"] = 30,
-["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
-["startAngle"] = 0,
-["textureSource"] = "Picker",
-["semver"] = "1.5.5",
-["fontSize"] = 12,
-["sparkHidden"] = "NEVER",
-["user_y"] = 0,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["zoom"] = 0.3,
-["inverse"] = false,
-["tocversion"] = 110200,
-["orientation"] = "HORIZONTAL",
-["crop_x"] = 0.41,
-["barColor2"] = {
-1,
-1,
+["anchorFrameParent"] = false,
+["desaturate"] = false,
+["backgroundColor"] = {
 0,
-1,
+0,
+0,
+0.300000011920929,
 },
-["preferToUpdate"] = false,
-},
-["FZT_14_復仇"] = {
-["parent"] = "FZT",
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_hostility"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
-},
-["unit"] = "target",
-["use_absorbHealMode"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_unit"] = true,
-["subeventPrefix"] = "SPELL",
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["health_operator"] = {
-">",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["health"] = {
-"0",
-},
-["use_health"] = true,
-["use_unit"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["use_unit"] = true,
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["unit"] = "player",
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 6572\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["debuffType"] = "HELPFUL",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["selfPoint"] = "BOTTOMLEFT",
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["class_and_spec"] = {
-["single"] = 73,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["use_alive"] = true,
-["use_combat"] = true,
-["use_never"] = false,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["anchorFrameType"] = "SCREEN",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["tocversion"] = 110200,
-["id"] = "FZT_14_復仇",
-["xOffset"] = 140,
-["alpha"] = 1,
+["xOffset"] = 60,
+["semver"] = "1.5.5",
+["iconSource"] = -1,
+["id"] = "SMS_6_盾",
+["adjustedMin"] = "",
+["useCooldownModRate"] = true,
 ["width"] = 10,
-["frameStrata"] = 1,
-["config"] = {
-},
-["uid"] = "OQcijGIiwE9",
-["color"] = {
+["foregroundColor"] = {
 1,
 1,
 1,
 1,
 },
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
-},
-["authorOptions"] = {
-},
-},
-["FZT_5_藥水"] = {
-["parent"] = "FZT",
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-["do_custom"] = false,
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["names"] = {
-},
-["use_hostility"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_unit"] = true,
-["subeventPrefix"] = "SPELL",
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["health_operator"] = {
-">",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["health"] = {
-"0",
-},
-["use_health"] = true,
-["use_unit"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["percenthealth"] = {
-"35",
-},
-["event"] = "Health",
-["unit"] = "player",
-["use_absorbMode"] = true,
-["use_unit"] = true,
-["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
-},
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["itemName"] = 211878,
-["use_count"] = true,
-["use_genericShowOn"] = true,
-["event"] = "Item Count",
-["unit"] = "player",
-["count"] = "0",
-["debuffType"] = "HELPFUL",
-["use_itemName"] = true,
-["type"] = "item",
-["genericShowOn"] = "showOnCooldown",
-["count_operator"] = ">",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "item",
-["event"] = "Cooldown Progress (Item)",
-["itemName"] = 211878,
-["genericShowOn"] = "showOnReady",
-["use_genericShowOn"] = true,
-["use_itemName"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_never"] = false,
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["class_and_spec"] = {
-["single"] = 73,
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["width"] = 10,
-["selfPoint"] = "BOTTOMLEFT",
-["tocversion"] = 110200,
-["id"] = "FZT_5_藥水",
-["authorOptions"] = {
-},
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["config"] = {
-},
-["uid"] = "nsKOYZ3Ve4N",
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["crop_y"] = 0.41,
+["inverse"] = false,
+["cooldown"] = true,
+["orientation"] = "HORIZONTAL",
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = false,
 ["ignoreOptionsEventErrors"] = false,
 },
-["xOffset"] = 50,
+["parent"] = "SMS",
 },
 ["SMS_18_惩击"] = {
 ["parent"] = "SMS",
@@ -22411,9 +24365,9 @@ WeakAurasSaved = {
 ["actions"] = {
 ["start"] = {
 },
-["finish"] = {
-},
 ["init"] = {
+},
+["finish"] = {
 },
 },
 ["triggers"] = {
@@ -22422,18 +24376,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
 ["use_dead"] = false,
-["use_hostility"] = true,
+["hostility"] = "hostile",
 ["spellIds"] = {
 },
-["unit"] = "target",
 ["names"] = {
 },
-["hostility"] = "hostile",
+["unit"] = "target",
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -22458,14 +24412,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -22476,9 +24430,9 @@ WeakAurasSaved = {
 ["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 585\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
 ["custom_type"] = "status",
 ["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
 ["debuffType"] = "HELPFUL",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -22490,20 +24444,20 @@ WeakAurasSaved = {
 ["internalVersion"] = 86,
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
@@ -22528,15 +24482,15 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["use_combat"] = true,
 ["class_and_spec"] = {
 ["single"] = 257,
 },
-["use_combat"] = true,
-["use_alive"] = true,
-["class"] = {
-["multi"] = {
-},
-},
 ["size"] = {
 ["multi"] = {
 },
@@ -22547,2779 +24501,31 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "hM40HQCyiBB",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["tocversion"] = 110200,
-["id"] = "SMS_18_惩击",
-["alpha"] = 1,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["width"] = 10,
 ["config"] = {
-},
-["selfPoint"] = "BOTTOMLEFT",
-["authorOptions"] = {
-},
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = true,
-["ignoreOptionsEventErrors"] = true,
 },
 ["xOffset"] = 180,
-},
-["BDK_16_凋零"] = {
-["parent"] = "BDK",
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["use_dead"] = false,
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["use_unit"] = true,
-["type"] = "unit",
-["hostility"] = "hostile",
-["spellIds"] = {
-},
-["names"] = {
-},
-["unit"] = "target",
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["unit"] = "player",
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["use_unit"] = true,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["selfPoint"] = "BOTTOMLEFT",
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["class_and_spec"] = {
-["single"] = 251,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_never"] = false,
-["use_combat"] = true,
-["use_alive"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "1(joRhiwDAp",
+["tocversion"] = 110200,
+["id"] = "SMS_18_惩击",
+["frameStrata"] = 1,
+["alpha"] = 1,
+["anchorFrameType"] = "SCREEN",
+["width"] = 10,
+["uid"] = "hM40HQCyiBB",
 ["authorOptions"] = {
 },
-["tocversion"] = 110200,
-["id"] = "BDK_16_凋零",
-["alpha"] = 1,
-["frameStrata"] = 1,
-["width"] = 10,
-["anchorFrameType"] = "SCREEN",
-["config"] = {
-},
-["xOffset"] = 160,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-},
-["MKT_15_突突"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
-},
-["anchorFrameType"] = "SCREEN",
-["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 268,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MKT",
-["xOffset"] = 150,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
-["spellIds"] = {
-},
-["use_dead"] = false,
-["hostility"] = "hostile",
-["use_unit"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 123986\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["use_debuffClass"] = false,
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["debuffType"] = "HELPFUL",
-["use_ismoving"] = false,
-["use_absorbMode"] = true,
-["event"] = "Conditions",
-["use_unit"] = true,
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["rotate"] = false,
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "MKT_15_突突",
 ["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["uid"] = "I7IFG8u2jT1",
-["alpha"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["conditions"] = {
-},
-["information"] = {
-},
-["width"] = 10,
-},
-["FZT_11_崩摧"] = {
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
-},
-["unit"] = "target",
-["use_hostility"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["health_operator"] = {
-">",
-},
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["health"] = {
-"0",
-},
-["use_health"] = true,
-["use_unit"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 436358\n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        \n        if empower_to == nil then\n            if event_ability_id == skill_id then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["selfPoint"] = "BOTTOMLEFT",
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_never"] = true,
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 73,
-},
-["use_combat"] = true,
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "70KxXFo6Uya",
-["parent"] = "FZT",
-["tocversion"] = 110200,
-["id"] = "FZT_11_崩摧",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["alpha"] = 1,
-["width"] = 10,
-["frameStrata"] = 1,
-["config"] = {
-},
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 120,
 ["conditions"] = {
 },
 ["information"] = {
 ["forceEvents"] = true,
 ["ignoreOptionsEventErrors"] = true,
 },
-["authorOptions"] = {
-},
-},
-["Raid Ability Timeline"] = {
-["controlledChildren"] = {
-"Timeline Icon waiting group",
-"Raid Ability Timeline Icon <10",
-"Raid Ability Timeline Backdrop",
-"Bigicon",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["wagoID"] = "NyseKq1Xo",
-["authorOptions"] = {
-},
-["preferToUpdate"] = false,
-["yOffset"] = -6.93780517578125,
-["anchorPoint"] = "CENTER",
-["borderColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["url"] = "https://wago.io/RaidAbilityTimeline/81",
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_alwaystrue"] = false,
-["subeventSuffix"] = "_CAST_START",
-["event"] = "Conditions",
-["unit"] = "player",
-["spellIds"] = {
-},
-["debuffType"] = "HELPFUL",
-["subeventPrefix"] = "SPELL",
-["names"] = {
-},
-["buffShowOn"] = "showOnActive",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["desc"] = "Follow me on Twitch: https://www.twitch.tv/Jodsderechte\nCheck out my Wa Guides on YT: https://www.youtube.com/Jodsderechte\nContact me via: https://discord.gg/5mjcV8hgS2",
-["version"] = 81,
-["subRegions"] = {
-},
-["load"] = {
-["ingroup"] = {
-["multi"] = {
-},
-},
-["affixes"] = {
-["multi"] = {
-},
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["zoneIds"] = "",
-["spec"] = {
-["multi"] = {
-},
-},
-["difficulty"] = {
-["multi"] = {
-},
-},
-["race"] = {
-["multi"] = {
-},
-},
-["use_class"] = false,
-["pvptalent"] = {
-["multi"] = {
-},
-},
-["role"] = {
-["multi"] = {
-},
-},
-["faction"] = {
-["multi"] = {
-},
-},
-["talent2"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["source"] = "import",
-["scale"] = 1,
-["border"] = false,
-["borderEdge"] = "None",
-["regionType"] = "group",
-["borderSize"] = 16,
-["groupIcon"] = 134376,
-["borderOffset"] = 5,
-["semver"] = "1.0.80",
-["tocversion"] = 110107,
-["id"] = "Raid Ability Timeline",
-["xOffset"] = -274.5250244140625,
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["borderInset"] = 11,
-["uid"] = "rsF)xvpdH)S",
-["config"] = {
-},
-["conditions"] = {
-},
-["information"] = {
-["ignoreOptionsEventErrors"] = true,
-["forceEvents"] = true,
-["groupOffset"] = true,
-},
-["selfPoint"] = "BOTTOMLEFT",
-},
-["MMK_19_复苏"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["width"] = 10,
-["authorOptions"] = {
-},
-["xOffset"] = 190,
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MMK",
-["conditions"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["charges_operator"] = ">",
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 115151,
-["use_charges"] = false,
-["charges"] = "",
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "aura2",
-["debuffType"] = "HELPFUL",
-["useExactSpellId"] = true,
-["ownOnly"] = true,
-["matchesShowOn"] = "showOnMissing",
-["auraspellids"] = {
-"119611",
-},
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["frameStrata"] = 1,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "MMK_19_复苏",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "WtOq6idbrM3",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
-},
-["MMK_20_轮回"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["width"] = 10,
-["authorOptions"] = {
-},
-["xOffset"] = 200,
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MMK",
-["conditions"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 322109,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["frameStrata"] = 1,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "MMK_20_轮回",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "DEmot6KLWtY",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
-},
-["SMS"] = {
-["controlledChildren"] = {
-"SMS_1_自盾",
-"SMS_2_绝望祷言",
-"SMS_3_糖",
-"SMS_4_药水",
-"SMS_5_驱散",
-"SMS_6_盾",
-"SMS_7_光晕",
-"SMS_8_愈合",
-"SMS_9_静",
-"SMS_10_快速治疗",
-"SMS_11_治疗术",
-"SMS_12_恢复",
-"SMS_13_希望",
-"SMS_14_暗影魔",
-"SSM_15_蓝",
-"SMS_16_神圣之火",
-"SMS_17_痛",
-"SMS_18_惩击",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["authorOptions"] = {
-},
-["preferToUpdate"] = false,
-["yOffset"] = 10,
-["anchorPoint"] = "BOTTOMLEFT",
-["borderColor"] = {
-0,
-0,
-0,
-1,
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["names"] = {
-},
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["subeventPrefix"] = "SPELL",
-["event"] = "Health",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-},
-["internalVersion"] = 86,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["subRegions"] = {
-},
-["load"] = {
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["scale"] = 1,
-["border"] = false,
-["borderEdge"] = "Square Full White",
-["regionType"] = "group",
-["borderSize"] = 2,
-["borderOffset"] = 4,
-["tocversion"] = 110200,
-["id"] = "SMS",
-["config"] = {
-},
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["uid"] = "Do7x0V8bjPU",
-["xOffset"] = 0,
-["borderInset"] = 1,
-["conditions"] = {
-},
-["information"] = {
-},
-["selfPoint"] = "CENTER",
-},
-["MKT_11_轮回"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
-},
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 110,
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 268,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MKT",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
-["spellIds"] = {
-},
-["use_dead"] = false,
-["hostility"] = "hostile",
-["use_unit"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["debuffType"] = "HELPFUL",
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["spellName"] = 322109,
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["rotate"] = false,
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "MKT_11_轮回",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["uid"] = "bw4gDLAzZ)B",
-["alpha"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["conditions"] = {
-},
-["information"] = {
-},
-["width"] = 10,
-},
-["DKT_1_吸血鬼"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["desaturate"] = false,
-["parent"] = "DKT",
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["xOffset"] = 10,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "spell",
-["subeventSuffix"] = "_CAST_START",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
-["use_spellName"] = true,
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["genericShowOn"] = "showOnCooldown",
-["names"] = {
-},
-["use_track"] = true,
-["spellName"] = 55233,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["use_unit"] = true,
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "7",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "aura2",
-["useStacks"] = true,
-["subeventSuffix"] = "_CAST_START",
-["event"] = "Health",
-["subeventPrefix"] = "SPELL",
-["stacksOperator"] = ">=",
-["stacks"] = "50",
-["spellIds"] = {
-},
-["unit"] = "player",
-["names"] = {
-},
-["useExactSpellId"] = true,
-["auraspellids"] = {
-"463730",
-},
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "player",
-["percenthealth"] = {
-"80",
-},
-["use_unit"] = true,
-["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
-},
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["conditions"] = {
-},
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "DKT_1_吸血鬼",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["width"] = 10,
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "tB8rtKWEy7)",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["anchorFrameType"] = "SCREEN",
-},
-["BDK_2_糖"] = {
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-["do_custom"] = false,
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_hostility"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["use_dead"] = false,
-["use_unit"] = true,
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["hostility"] = "hostile",
-["use_absorbHealMode"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "10",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["percenthealth"] = {
-"45",
-},
-["event"] = "Health",
-["unit"] = "player",
-["use_absorbMode"] = true,
-["use_unit"] = true,
-["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
-},
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["itemName"] = 5512,
-["use_count"] = true,
-["use_genericShowOn"] = true,
-["event"] = "Item Count",
-["unit"] = "player",
-["use_includeCharges"] = true,
-["count"] = "1",
-["count_operator"] = ">=",
-["genericShowOn"] = "showOnCooldown",
-["type"] = "item",
-["use_itemName"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "item",
-["use_itemName"] = true,
-["itemName"] = 5512,
-["genericShowOn"] = "showOnReady",
-["use_genericShowOn"] = true,
-["event"] = "Cooldown Progress (Item)",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["selfPoint"] = "BOTTOMLEFT",
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["class_and_spec"] = {
-["single"] = 251,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_alive"] = true,
-["use_never"] = false,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
-},
-["xOffset"] = 20,
-["tocversion"] = 110200,
-["id"] = "BDK_2_糖",
-["alpha"] = 1,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["width"] = 10,
-["uid"] = "TeStvAOHyA)",
-["authorOptions"] = {
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["parent"] = "BDK",
-},
-["DKT"] = {
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["controlledChildren"] = {
-"DKT_1_吸血鬼",
-"DKT_2_死打",
-"DKT_3_糖",
-"DKT_4_红",
-"DKT_5_戒指",
-"DKT_6_帽子",
-"DKT_7_打断",
-"DKT_8_符文刃",
-"DKT_9_亡者",
-"DKT_10_血沸",
-"DKT_11_白骨",
-"DKT_12_吞噬",
-"DKT_13_墓石",
-"DKT_14_抚摩",
-"DKT_15_枯萎",
-"DKT_16_收割",
-"DKT_17_心打",
-"DKT_18_精髓",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["authorOptions"] = {
-},
-["borderEdge"] = "Square Full White",
-["border"] = false,
-["yOffset"] = 10,
-["regionType"] = "group",
-["borderSize"] = 2,
-["selfPoint"] = "CENTER",
-["borderColor"] = {
-0,
-0,
-0,
-1,
-},
-["scale"] = 1,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["subeventPrefix"] = "SPELL",
-["event"] = "Health",
-["names"] = {
-},
-},
-["untrigger"] = {
-},
-},
-},
-["anchorPoint"] = "BOTTOMLEFT",
-["borderOffset"] = 4,
-["xOffset"] = 0,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "DKT",
-["internalVersion"] = 86,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["config"] = {
-},
-["uid"] = "ok(AEDEW9C4",
-["information"] = {
-},
-["subRegions"] = {
-},
-["alpha"] = 1,
-["conditions"] = {
-},
-["load"] = {
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["borderInset"] = 1,
-},
-["BDK_12_湮灭"] = {
-["parent"] = "BDK",
-["preferToUpdate"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "TOPLEFT",
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["use_dead"] = false,
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["subeventPrefix"] = "SPELL",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["use_unit"] = true,
-["type"] = "unit",
-["hostility"] = "hostile",
-["spellIds"] = {
-},
-["names"] = {
-},
-["unit"] = "target",
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "5",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["unit"] = "player",
-["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
-["use_unit"] = true,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 49020\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["unit"] = "player",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "all",
-["customTriggerLogic"] = "",
-["activeTriggerMode"] = -10,
-},
-["internalVersion"] = 86,
-["selfPoint"] = "BOTTOMLEFT",
-["desaturate"] = false,
-["rotation"] = 0,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["class_and_spec"] = {
-["single"] = 251,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_never"] = false,
-["use_combat"] = true,
-["use_alive"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["mirror"] = false,
-["regionType"] = "texture",
-["blendMode"] = "BLEND",
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["uid"] = "J0Lg4vHVdV8",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["tocversion"] = 110200,
-["id"] = "BDK_12_湮灭",
-["alpha"] = 1,
-["frameStrata"] = 1,
-["width"] = 10,
-["anchorFrameType"] = "SCREEN",
-["config"] = {
-},
-["authorOptions"] = {
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["conditions"] = {
-},
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
-},
-["xOffset"] = 120,
-},
-["MKT_8_矮人"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["width"] = 10,
-["xOffset"] = 80,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MKT",
-["authorOptions"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "spell",
-["subeventSuffix"] = "_CAST_START",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["spellName"] = 20594,
-["use_spellName"] = true,
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["names"] = {
-},
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["debuffClass"] = {
-["disease"] = true,
-["magic"] = true,
-["curse"] = true,
-},
-["use_debuffClass"] = true,
-["useExactSpellId"] = false,
-["useIgnoreExactSpellId"] = false,
-["type"] = "aura2",
-["auraspellids"] = {
-},
-["debuffType"] = "HARMFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["conditions"] = {
-},
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MKT_8_矮人",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["alpha"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "jlw45r8ldkv",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 268,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_combat"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["anchorFrameType"] = "SCREEN",
-},
-["FZT"] = {
-["controlledChildren"] = {
-"FZT_1_勝利",
-"FZT_2_破釜",
-"FZT_3_烈焰",
-"FZT_4_糖",
-"FZT_5_藥水",
-"FZT_6_打斷",
-"FZT_7_盾擋",
-"FZT_8_漏氣盾",
-"FZT_9_盾衝",
-"FZT_10_雷鳴",
-"FZT_11_崩摧",
-"FZT_11_破壞者",
-"FZT_12_盾猛",
-"FZT_13_雷霆",
-"FZT_14_復仇",
-"FZT_15_斬殺",
-"FZT_16_挫志",
-"FZT_17_戰吼",
-"FZT_18_丢",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["xOffset"] = 0,
-["preferToUpdate"] = false,
-["yOffset"] = 10,
-["anchorPoint"] = "BOTTOMLEFT",
-["borderColor"] = {
-0,
-0,
-0,
-1,
-},
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["subeventPrefix"] = "SPELL",
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["names"] = {
-},
-["event"] = "Health",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-},
-["internalVersion"] = 86,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["subRegions"] = {
-},
-["load"] = {
-["size"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["talent"] = {
-["multi"] = {
-},
-},
-},
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["scale"] = 1,
-["border"] = false,
-["borderEdge"] = "Square Full White",
-["regionType"] = "group",
-["borderSize"] = 2,
-["borderOffset"] = 4,
-["tocversion"] = 110200,
-["id"] = "FZT",
-["config"] = {
-},
-["alpha"] = 1,
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
-["uid"] = "x5XILn(DOcI",
-["authorOptions"] = {
-},
-["borderInset"] = 1,
-["conditions"] = {
-},
-["information"] = {
-},
-["selfPoint"] = "CENTER",
-},
-["DKT_6_帽子"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
-},
-["desaturate"] = false,
-["parent"] = "DKT",
-["xOffset"] = 60,
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["use_alive"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "aura2",
-["stacksOperator"] = ">=",
-["subeventSuffix"] = "_CAST_START",
-["event"] = "Health",
-["subeventPrefix"] = "SPELL",
-["useStacks"] = false,
-["stacks"] = "",
-["spellIds"] = {
-},
-["auraspellids"] = {
-"52172",
-},
-["useExactSpellId"] = true,
-["names"] = {
-},
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 50842,
-["use_inverse"] = true,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["use_inCombat"] = false,
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["debuffType"] = "HELPFUL",
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["use_dead"] = true,
-["use_absorbHealMode"] = true,
-["type"] = "unit",
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "custom",
-["customTriggerLogic"] = "function(t)\n    return t[1] and (t[2] or t[3] or t[4])\nend",
-["activeTriggerMode"] = -10,
-},
-["rotate"] = false,
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "DKT_6_帽子",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["frameStrata"] = 1,
-["width"] = 10,
-["rotation"] = 0,
-["uid"] = "Z0XCOLBldTW",
-["alpha"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["conditions"] = {
-},
-["information"] = {
-},
-["anchorFrameType"] = "SCREEN",
-},
-["MKT"] = {
-["backdropColor"] = {
-1,
-1,
-1,
-0.5,
-},
-["controlledChildren"] = {
-"MKT_1_移花",
-"MKT_2_自活血",
-"MKT_3_天神酒",
-"MKT_4_戒指",
-"MKT_5_活血酒",
-"MKT_6_糖",
-"MKT_7_红",
-"MKT_8_矮人",
-"MKT_9_打断",
-"MKT_10_错骨",
-"MKT_11_轮回",
-"MKT_12_爆炸",
-"MKT_13_幻灭",
-"MKT_14_投",
-"MKT_15_突突",
-"MKT_16_猛虎",
-"MKT_17_旭日",
-"MKT_18_神鹤",
-"MKT_19_碧玉",
-},
-["borderBackdrop"] = "Blizzard Tooltip",
-["authorOptions"] = {
-},
-["borderEdge"] = "Square Full White",
-["border"] = false,
-["yOffset"] = 10,
-["regionType"] = "group",
-["borderSize"] = 2,
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["borderColor"] = {
-0,
-0,
-0,
-1,
-},
-["scale"] = 1,
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "aura2",
-["spellIds"] = {
-},
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "player",
-["subeventPrefix"] = "SPELL",
-["event"] = "Health",
-["names"] = {
-},
-},
-["untrigger"] = {
-},
-},
-},
-["anchorPoint"] = "BOTTOMLEFT",
-["borderOffset"] = 4,
-["xOffset"] = 0,
-["selfPoint"] = "CENTER",
-["id"] = "MKT",
-["internalVersion"] = 86,
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["uid"] = "iniTnDzanF0",
-["config"] = {
-},
-["information"] = {
-},
-["subRegions"] = {
-},
-["alpha"] = 1,
-["conditions"] = {
-},
-["load"] = {
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["borderInset"] = 1,
-},
-["DKT_16_收割"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["anchorFrameType"] = "SCREEN",
-["parent"] = "DKT",
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["xOffset"] = 160,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "spell",
-["subeventSuffix"] = "_CAST_START",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["debuffType"] = "HELPFUL",
-["use_spellName"] = true,
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["genericShowOn"] = "showOnCooldown",
-["names"] = {
-},
-["use_track"] = true,
-["spellName"] = 343294,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["use_unit"] = true,
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "7",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "custom",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom_type"] = "status",
-["check"] = "event",
-["unit"] = "player",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 343294\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["conditions"] = {
-},
-["internalVersion"] = 86,
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "DKT_16_收割",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["alpha"] = 1,
-["width"] = 10,
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "Rmeqd5tDypR",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["class_and_spec"] = {
-["single"] = 250,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["use_class_and_spec"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
 },
 ["SMS_11_治疗术"] = {
 ["user_y"] = 0,
@@ -25342,14 +24548,14 @@ WeakAurasSaved = {
 ["url"] = "https://space.bilibili.com/455259",
 ["actions"] = {
 ["start"] = {
-["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
 ["sound_path"] = "",
+["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
 ["do_sound"] = false,
+},
+["init"] = {
 },
 ["finish"] = {
 ["hide_all_glows"] = true,
-},
-["init"] = {
 },
 },
 ["icon_color"] = {
@@ -25397,28 +24603,28 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 257,
-},
+["zoneIds"] = "g431",
 ["difficulty"] = {
 },
-["level_operator"] = {
-">=",
+["class"] = {
+["multi"] = {
 },
-["use_alive"] = true,
+},
+["use_combat"] = true,
+["use_zoneIds"] = false,
 ["instance_type"] = {
 ["single"] = 8,
 ["multi"] = {
 [8] = true,
 },
 },
-["use_zoneIds"] = false,
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
+["use_alive"] = true,
+["level_operator"] = {
+">=",
 },
+["class_and_spec"] = {
+["single"] = 257,
 },
-["zoneIds"] = "g431",
 },
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["startAngle"] = 0,
@@ -25447,15 +24653,14 @@ WeakAurasSaved = {
 1,
 1,
 },
-["parent"] = "SMS",
+["preferToUpdate"] = false,
 ["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
-["barColor2"] = {
-1,
-1,
-0,
-1,
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
 },
-["crop_x"] = 0.41,
+["conditions"] = {
+},
 ["desaturateBackground"] = false,
 ["cooldownSwipe"] = true,
 ["zoom"] = 0.3,
@@ -25482,11 +24687,11 @@ WeakAurasSaved = {
 ["event"] = "Unit Characteristics",
 ["spellIds"] = {
 },
-["unit"] = "target",
-["type"] = "unit",
-["hostility"] = "friendly",
-["subeventPrefix"] = "SPELL",
 ["use_unit"] = true,
+["subeventPrefix"] = "SPELL",
+["hostility"] = "friendly",
+["type"] = "unit",
+["unit"] = "target",
 },
 ["untrigger"] = {
 },
@@ -25535,14 +24740,14 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["use_unit"] = true,
-["use_absorbMode"] = true,
 ["use_inverse"] = true,
+["use_absorbMode"] = true,
 ["event"] = "Cast",
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
 },
 ["untrigger"] = {
 },
@@ -25554,27 +24759,27 @@ WeakAurasSaved = {
 ["event"] = "Action Usable",
 ["unit"] = "player",
 ["use_spellName"] = true,
-["spellName"] = 2060,
+["debuffType"] = "HELPFUL",
 ["genericShowOn"] = "showOnCooldown",
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 2060,
 },
 ["untrigger"] = {
 },
 },
 {
 ["trigger"] = {
-["namePattern_operator"] = "==",
+["debuffType"] = "HELPFUL",
 ["useName"] = true,
-["unit"] = "player",
+["useExactSpellId"] = false,
 ["auranames"] = {
 "390993",
 "1216314",
 },
 ["type"] = "aura2",
 ["useNamePattern"] = false,
-["useExactSpellId"] = false,
-["debuffType"] = "HELPFUL",
+["unit"] = "player",
+["namePattern_operator"] = "==",
 },
 ["untrigger"] = {
 },
@@ -25591,30 +24796,30 @@ WeakAurasSaved = {
 },
 ["animation"] = {
 ["start"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["main"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 ["finish"] = {
-["easeStrength"] = 3,
 ["type"] = "none",
+["easeStrength"] = 3,
 ["duration_type"] = "seconds",
 ["easeType"] = "none",
 },
 },
-["crop_y"] = 0.41,
+["auto"] = true,
 ["auraRotation"] = 0,
-["anchorPoint"] = "CENTER",
-["xOffset"] = 110,
-["anchorFrameType"] = "SCREEN",
-["frameStrata"] = 1,
+["icon"] = true,
+["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["width"] = 10,
+["useCooldownModRate"] = true,
 ["version"] = 51,
 ["subRegions"] = {
 {
@@ -25623,52 +24828,53 @@ WeakAurasSaved = {
 },
 ["height"] = 10,
 ["textureSource"] = "Picker",
-["iconSource"] = -1,
+["fontSize"] = 12,
 ["sparkBlendMode"] = "ADD",
 ["useAdjustededMax"] = false,
 ["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 ["source"] = "import",
-["id"] = "SMS_11_治疗术",
-["cooldownTextDisabled"] = true,
+["sparkHidden"] = "NEVER",
+["config"] = {
+},
 ["tocversion"] = 110200,
 ["mirror"] = false,
-["rotate"] = false,
-["adjustedMin"] = "",
-["desaturate"] = false,
-["anchorFrameParent"] = false,
-["icon_side"] = "LEFT",
-["uid"] = "12IStKRacjR",
-["cooldown"] = true,
-["sparkHeight"] = 30,
+["sparkWidth"] = 10,
+["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
 ["backgroundColor"] = {
 0,
 0,
 0,
 0.300000011920929,
 },
-["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
-["sparkWidth"] = 10,
+["sparkHeight"] = 30,
+["icon_side"] = "LEFT",
+["cooldown"] = true,
+["uid"] = "12IStKRacjR",
+["anchorFrameParent"] = false,
+["desaturate"] = false,
+["adjustedMin"] = "",
+["rotate"] = false,
 ["semver"] = "1.5.5",
-["config"] = {
-},
-["sparkHidden"] = "NEVER",
-["fontSize"] = 12,
-["useCooldownModRate"] = true,
-["width"] = 10,
-["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["icon"] = true,
+["cooldownTextDisabled"] = true,
+["id"] = "SMS_11_治疗术",
+["iconSource"] = -1,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["xOffset"] = 110,
+["anchorPoint"] = "CENTER",
 ["inverse"] = false,
-["auto"] = true,
+["crop_y"] = 0.41,
 ["orientation"] = "HORIZONTAL",
-["conditions"] = {
+["crop_x"] = 0.41,
+["barColor2"] = {
+1,
+1,
+0,
+1,
 },
-["information"] = {
-["forceEvents"] = false,
-["ignoreOptionsEventErrors"] = false,
+["parent"] = "SMS",
 },
-["preferToUpdate"] = false,
-},
-["MMK_6_戒指"] = {
+["DKT_15_抚摩"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
 ["color"] = {
 1,
@@ -25679,222 +24885,43 @@ WeakAurasSaved = {
 ["anchorFrameType"] = "SCREEN",
 ["authorOptions"] = {
 },
-["parent"] = "MMK",
+["xOffset"] = 150,
 ["mirror"] = false,
 ["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["use_alive"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["xOffset"] = 60,
-["rotate"] = false,
-["actions"] = {
-["start"] = {
-},
-["init"] = {
-},
-["finish"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "aura2",
-["auraspellids"] = {
-"1215495",
-},
-["event"] = "Health",
-["unit"] = "player",
-["spellIds"] = {
-},
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
-["useExactSpellId"] = true,
-["subeventSuffix"] = "_CAST_START",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["subeventSuffix"] = "_CAST_START",
-["debuffType"] = "HELPFUL",
-["use_inverse"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["names"] = {
-},
-["use_spellName"] = true,
-["spellIds"] = {
-},
-["subeventPrefix"] = "SPELL",
-["use_genericShowOn"] = true,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["spellName"] = 388193,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["use_inCombat"] = false,
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["debuffType"] = "HELPFUL",
-["use_unit"] = true,
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "custom",
-["customTriggerLogic"] = "function(t)\n    return t[1] and (t[2] or t[3])\nend",
-["activeTriggerMode"] = -10,
-},
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["internalVersion"] = 86,
-["uid"] = "C5jo5MdsL0s",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MMK_6_戒指",
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["alpha"] = 1,
-["width"] = 10,
-["rotation"] = 0,
-["config"] = {
-},
-["frameStrata"] = 1,
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["conditions"] = {
-},
 ["information"] = {
 },
-["desaturate"] = false,
-},
-["MKT_2_自活血"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["uid"] = "baLy(FkL9ot",
-["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["authorOptions"] = {
-},
-["mirror"] = false,
-["yOffset"] = 0,
-["anchorPoint"] = "CENTER",
-["load"] = {
-["use_combat"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["class_and_spec"] = {
-["single"] = 268,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_class_and_spec"] = true,
-["spec"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["size"] = {
-["multi"] = {
-},
-},
-},
 ["blendMode"] = "BLEND",
-["regionType"] = "texture",
-["parent"] = "MKT",
-["xOffset"] = 20,
+["anchorPoint"] = "CENTER",
+["parent"] = "DKT",
+["conditions"] = {
+},
 ["actions"] = {
 ["start"] = {
 },
-["init"] = {
-},
 ["finish"] = {
 },
+["init"] = {
 },
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["rotate"] = false,
-["internalVersion"] = 86,
+},
 ["triggers"] = {
 {
 ["trigger"] = {
 ["type"] = "spell",
 ["subeventSuffix"] = "_CAST_START",
-["debuffType"] = "HELPFUL",
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
-["unit"] = "player",
-["use_inverse"] = false,
+["subeventPrefix"] = "SPELL",
 ["genericShowOn"] = "showOnCooldown",
+["names"] = {
+},
 ["use_track"] = true,
-["spellName"] = 116670,
+["spellName"] = 195292,
 },
 ["untrigger"] = {
 },
@@ -25903,19 +24930,13 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["unit"] = "target",
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
-["use_hostility"] = true,
-["spellIds"] = {
-},
-["use_dead"] = false,
-["hostility"] = "hostile",
+["unit"] = "target",
 ["use_unit"] = true,
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_hostility"] = true,
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
 },
@@ -25931,7 +24952,7 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_range"] = true,
 ["use_unit"] = true,
-["range"] = "15",
+["range"] = "7",
 ["range_operator"] = "<=",
 ["debuffType"] = "HELPFUL",
 },
@@ -25940,12 +24961,694 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["type"] = "aura2",
-["useExactSpellId"] = true,
+["type"] = "custom",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom_type"] = "status",
+["check"] = "event",
 ["unit"] = "player",
-["auraspellids"] = {
-"392883",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 195292\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["debuffType"] = "HELPFUL",
 },
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["internalVersion"] = 86,
+["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "DKT_15_抚摩",
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["frameStrata"] = 1,
+["desaturate"] = false,
+["rotation"] = 0,
+["config"] = {
+},
+["uid"] = "1kq4IHltviL",
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_combat"] = true,
+["class"] = {
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 250,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["width"] = 10,
+},
+["Timeline BigIcon"] = {
+["outline"] = "OUTLINE",
+["iconSource"] = -1,
+["wagoID"] = "NyseKq1Xo",
+["xOffset"] = 1.7166137695312e-05,
+["adjustedMax"] = "",
+["customText"] = "function()\n    if not aura_env.state or WeakAuras.IsOptionsOpen() then return \"Example\" end \n    -- set variables\n    local state = aura_env.state\n    local config = aura_env.config\n    local text = aura_env.state.name\n    if not text then \n        text = aura_env.state.name\n    end\n    local IDoptions = aura_env.IDoptions\n    local options = aura_env.options\n    local submsg = strtrim(text:gsub(\"~\", \"\")) -- cut ~\n    local cutmsg = strtrim(text:gsub(\"^~ ?\", \"\"):gsub(\"%s+%(%d+%)\",\"\"))  -- cut number and ~\n    local nbmsg = strtrim(text:gsub(\"%s+%(%d+%)\",\"\")) -- cut number\n    \n    \n    -- adjust text according to options if needed\n    if options and options[text] and options[text].replaceSpellName and options[text].spellName  then\n        text = options[text].spellName\n        --spell Name\n    elseif state.spellId and state.spellId ~=0 and IDoptions and IDoptions[state.spellId] and IDoptions[state.spellId].replaceSpellName and IDoptions[state.spellId].spellName then\n        text = IDoptions[state.spellId].spellName\n        --spell ID\n    elseif options and options[submsg] and options[submsg].replaceSpellName and options[submsg].spellName then\n        text = options[submsg].spellName\n        --spell Name ignore ~\n    elseif options and options[cutmsg] and options[cutmsg].replaceSpellName and options[cutmsg].spellName and options[cutmsg].IgnoreAlertNumber then\n        text = options[cutmsg].spellName\n        --spell Name ignore Spellcount\n        \n    elseif config.NameOption == 2 then\n        text = submsg\n        -- hide ~ \n    elseif config.NameOption == 3 then\n        text = nbmsg\n        -- hide number\n    elseif config.NameOption == 4 then\n        text = cutmsg\n        -- hide number and ~\n    end\n    \n    \n    -- more Text Adjustments\n    if not text then return end \n    local IconAdjust = string.len(string.match(text,\"|T.-|t\") or \"\") -- find length of any icon within the name\n    text = strtrim(text) -- Trim   \n    if IconAdjust > 0 then IconAdjust = IconAdjust - 2 end -- Make icons take 2 characters in calculation\n    if (config.textMaxLength or 0)>=5 and text:len()-IconAdjust>config.textMaxLength then -- check if length exceeeds the maximum \n        text = WA_Utf8Sub(text,config.textMaxLength+IconAdjust)..\"..\" -- Truncate     \n    end\n    -- adjust texts for paused options\n    if state.paused and config.textPausedOptions == 1 then   \n        text = \"Paused\"\n    elseif state.paused and config.textPausedOptions == 2 then\n        text = text..\"Paused\"\n    elseif state.paused and config.textPausedOptions == 3 then\n        text = WA_Utf8Sub(text,text:len()-8)..\"..\"\n        text = text..\"Paused\"\n    end \n    \n    -- Adjust color according to custom option (this should be a condition but not possible yet)\n    if state.spellId and state.spellId ~=0 and IDoptions and IDoptions[state.spellId] and IDoptions[state.spellId].replaceTextColor then\n        local r,g,b,a = unpack(IDoptions[state.spellId].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n        \n    elseif options and options[state.message] and options[state.message].replaceTextColor then\n        local r,g,b,a = unpack(options[state.message].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n    elseif options and options[submsg] and options[submsg].replaceTextColor and aura_env.options[submsg].IgnoreAlertNumber then\n        local r,g,b,a = unpack(options[submsg].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n    elseif options and options[cutmsg] and options[cutmsg].replaceTextColor and options[cutmsg].IgnoreAlertNumber then\n        local r,g,b,a = unpack(options[cutmsg].textColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255*a,255*r,255*g,255*b,text)\n        \n        \n    elseif state.dbmColor and aura_env.config.UseBossModsColor then\n        local r,g,b = unpack(state.dbmColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255,255*r,255*g,255*b,text)\n    elseif state.bwTextColor and aura_env.config.UseBossModsColor then\n        local r,g,b = unpack(state.bwTextColor)\n        text = string.format(\"\\124c%02x%02x%02x%02x%s\\124r\",255,255*r,255*g,255*b,text)\n        \n    end\n    return text\nend\n\n\n",
+["yOffset"] = -4.6730041503906e-05,
+["anchorPoint"] = "CENTER",
+["cooldownSwipe"] = true,
+["parent"] = "Bigicon",
+["customTextUpdate"] = "event",
+["url"] = "https://wago.io/RaidAbilityTimeline/81",
+["icon"] = true,
+["triggers"] = {
+{
+["trigger"] = {
+["spellId"] = "",
+["use_genericShowOn"] = true,
+["genericShowOn"] = "showOnCooldown",
+["subeventPrefix"] = "SPELL",
+["remaining"] = "5",
+["use_cloneId"] = true,
+["debuffType"] = "HELPFUL",
+["unit"] = "player",
+["type"] = "addons",
+["spellName"] = 0,
+["subeventSuffix"] = "_CAST_START",
+["unevent"] = "auto",
+["use_remaining"] = true,
+["event"] = "Boss Mod Timer",
+["use_spellId"] = false,
+["realSpellName"] = 0,
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["duration"] = "1",
+["remaining_operator"] = "<",
+["names"] = {
+},
+["use_track"] = true,
+["use_isBarEnabled"] = true,
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "any",
+["customTriggerLogic"] = "function(t)\n    return t[1] \nend\n\n\n",
+["activeTriggerMode"] = -10,
+},
+["keepAspectRatio"] = false,
+["internalVersion"] = 86,
+["progressSource"] = {
+-1,
+"",
+},
+["selfPoint"] = "CENTER",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["cooldown"] = true,
+["conditions"] = {
+{
+["check"] = {
+["trigger"] = -1,
+["variable"] = "customcheck",
+["value"] = "function()\n    local msg,spellId\n    \n    if aura_env.state.name or aura_env.state.spellId then\n        msg = aura_env.state.name\n        spellId = aura_env.state.spellId\n    else\n        return false\n    end\n    local options = aura_env.options\n    local IDoptions = aura_env.IDoptions\n    local submsg = strtrim(msg:gsub(\"~\", \"\")) -- cut ~\n    local cutmsg = strtrim(msg:gsub(\"^~ ?\", \"\"):gsub(\"%s+%(%d+%)\",\"\"))  -- cut number and ~\n    if options and options[msg] and options[msg].glow then\n        return true\n    elseif spellId and IDoptions and IDoptions[spellId] and IDoptions[spellId].glow then\n        return true\n    elseif options and options[submsg] and options[submsg].glow then\n        return true\n    elseif options and options[cutmsg] and options[cutmsg].glow and options[cutmsg].IgnoreAlertNumber then     \n        return true\n    else\n        return false\n    end\nend\n\n\n\n",
+},
+["changes"] = {
+{
+["value"] = true,
+["property"] = "sub.4.glow",
+},
+{
+["value"] = {
+["custom"] = "local msg,spellId\nif aura_env.state.name or aura_env.state.spellId then\n    msg = aura_env.state.name\n    spellId = aura_env.state.spellId\nelse\n    return false\nend\nlocal options = aura_env.options\nlocal IDoptions = aura_env.IDoptions\nlocal submsg = strtrim(msg:gsub(\"~\", \"\")) -- cut ~\nlocal cutmsg = strtrim(msg:gsub(\"^~ ?\", \"\"):gsub(\"%s+%(%d+%)\",\"\"))  -- cut number and ~\nif options and options[msg] and options[msg].glow then\n    if options[msg].glowColor then\n        local r,g,b,a = unpack(options[msg].glowColor)\n        --aura_env.glow:SetGlowColor(r,g,b,a) -- no idea why this doesn't work\n        for k,v in pairs(aura_env.region.subRegions) do -- this is very bad practise do NOT DO THIS\n            if v.type == \"subglow\" then\n                v:SetGlowColor(r,g,b,a)\n            end\n        end\n    end\n    \nelseif spellId and IDoptions and IDoptions[spellId] and IDoptions[spellId].glow then\n    if IDoptions[spellId].glowColor then\n        local r,g,b,a = unpack(IDoptions[spellId].glowColor)\n        --aura_env.glow:SetGlowColor(r,g,b,a) -- this should use normal conditions but you can't do that\n        for k,v in pairs(aura_env.region.subRegions) do -- this is very bad practise do NOT DO THIS\n            if v.type == \"subglow\" then\n                v:SetGlowColor(r,g,b,a)\n            end\n        end\n    end\nelseif options and options[submsg] and options[submsg].glow then\n    if options[submsg].glowColor then\n        local r,g,b,a = unpack(options[submsg].glowColor)\n        --aura_env.glow:SetGlowColor(r,g,b,a) -- this should use normal conditions but you can't do that\n        for k,v in pairs(aura_env.region.subRegions) do -- this is very bad practise do NOT DO THIS\n            if v.type == \"subglow\" then\n                v:SetGlowColor(r,g,b,a)\n            end\n        end\n    end\nelseif options and options[cutmsg] and options[cutmsg].glow and options[cutmsg].IgnoreAlertNumber then\n    if options[cutmsg].glowColor then\n        local r,g,b,a = unpack(options[cutmsg].glowColor)\n        --aura_env.glow:SetGlowColor(r,g,b,a) -- this should use normal conditions but you can't do that\n        for k,v in pairs(aura_env.region.subRegions) do -- this is very bad practise do NOT DO THIS\n            if v.type == \"subglow\" then\n                v:SetGlowColor(r,g,b,a)\n            end\n        end\n    end\nend\n\n\n",
+},
+["property"] = "customcode",
+},
+{
+},
+},
+},
+},
+["stickyDuration"] = false,
+["desaturate"] = false,
+["font"] = "Friz Quadrata TT",
+["version"] = 81,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+{
+["text_text_format_p_time_format"] = 0,
+["text_text"] = "%p",
+["text_text_format_p_gcd_cast"] = false,
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
+["text_fixedWidth"] = 64,
+["text_text_format_p_time_legacy_floor"] = true,
+["rotateText"] = "NONE",
+["text_text_format_p_decimal_precision"] = 0,
+["text_text_format_p_gcd_gcd"] = true,
+["text_color"] = {
+1,
+1,
+0,
+1,
+},
+["text_text_format_p_gcd_channel"] = false,
+["text_shadowYOffset"] = 0,
+["text_wordWrap"] = "WordWrap",
+["text_visible"] = true,
+["text_text_format_p_gcd_hide_zero"] = false,
+["text_fontSize"] = 25,
+["anchorXOffset"] = 0,
+["text_text_format_p_round_type"] = "ceil",
+["text_text_format_c.2_format"] = "none",
+["text_text_format_p_time_mod_rate"] = true,
+["text_selfPoint"] = "AUTO",
+["text_automaticWidth"] = "Auto",
+["anchorYOffset"] = 0,
+["text_justify"] = "CENTER",
+["type"] = "subtext",
+["text_font"] = "PT Sans Narrow",
+["text_text_format_p_time_precision"] = 1,
+["text_text_format_p_format"] = "timed",
+["text_text_format_c2_format"] = "none",
+["anchor_point"] = "CENTER",
+["text_fontType"] = "OUTLINE",
+["text_shadowXOffset"] = 0,
+["text_text_format_p_time_dynamic_threshold"] = 1,
+},
+{
+["text_shadowXOffset"] = 0,
+["text_text"] = "%c",
+["text_text_format_c.1_format"] = "none",
+["text_text_format_1_format"] = "none",
+["text_shadowColor"] = {
+0,
+0,
+0,
+1,
+},
+["text_selfPoint"] = "AUTO",
+["text_automaticWidth"] = "Auto",
+["text_fixedWidth"] = 64,
+["text_text_format_c_format"] = "none",
+["text_text_format_c_abbreviate_max"] = 8,
+["rotateText"] = "NONE",
+["text_text_format_c12345678910_format"] = "none",
+["anchorYOffset"] = 0,
+["type"] = "subtext",
+["text_justify"] = "CENTER",
+["text_color"] = {
+1,
+1,
+1,
+1,
+},
+["text_font"] = "ArchivoNarrow-Bold",
+["text_wordWrap"] = "WordWrap",
+["text_shadowYOffset"] = 0,
+["text_text_format_c_abbreviate"] = false,
+["text_text_format_c2_format"] = "none",
+["text_fontType"] = "OUTLINE",
+["text_text_format_c1_format"] = "none",
+["text_visible"] = true,
+["anchor_point"] = "OUTER_BOTTOM",
+["text_fontSize"] = 15,
+["anchorXOffset"] = 0,
+["text_text_format_c.2_format"] = "none",
+},
+{
+["glowFrequency"] = 0.25,
+["type"] = "subglow",
+["glowDuration"] = 1,
+["glowType"] = "Pixel",
+["glowThickness"] = 2,
+["glowYOffset"] = 0,
+["glowColor"] = {
+1,
+1,
+1,
+1,
+},
+["useGlowColor"] = true,
+["glowXOffset"] = 0,
+["glowScale"] = 1,
+["glow"] = false,
+["glowLength"] = 10,
+["glowLines"] = 8,
+["glowBorder"] = false,
+},
+},
+["height"] = 80,
+["authorOptions"] = {
+{
+["subOptions"] = {
+{
+["type"] = "input",
+["useDesc"] = true,
+["width"] = 1,
+["default"] = "Name this Entry",
+["name"] = "Name this Entry",
+["multiline"] = false,
+["key"] = "NameField",
+["length"] = 10,
+["desc"] = "Name this Entry",
+["useLength"] = false,
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 1,
+["useHeight"] = false,
+["width"] = 1,
+},
+{
+["useName"] = false,
+["type"] = "header",
+["text"] = "",
+["noMerge"] = false,
+["width"] = 1,
+},
+{
+["type"] = "input",
+["useDesc"] = true,
+["width"] = 1,
+["default"] = "",
+["name"] = "Message",
+["multiline"] = false,
+["key"] = "message",
+["length"] = 10,
+["desc"] = "DBM/BW Message to be filtered for",
+["useLength"] = false,
+},
+{
+["type"] = "toggle",
+["default"] = true,
+["width"] = 1,
+["name"] = "Ignore Alert Number",
+["useDesc"] = true,
+["key"] = "IgnoreAlertNumber",
+["desc"] = "Tick this if you want to ignore the Alert Number e.g. TestBar (4) and replace info for all TestBar's",
+},
+{
+["type"] = "number",
+["useDesc"] = true,
+["max"] = 99999999,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "spellid",
+["default"] = 0,
+["name"] = "Spellid",
+["desc"] = "Spellid of the BW message to be filtered for",
+},
+{
+["text"] = "Message or spellid are optional and only one has to be set to work",
+["type"] = "description",
+["fontSize"] = "medium",
+["width"] = 2,
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Replace Spell Name",
+["useDesc"] = true,
+["key"] = "replaceSpellName",
+["desc"] = "Use \"Name\" as replacement text",
+},
+{
+["type"] = "input",
+["useDesc"] = false,
+["width"] = 1,
+["key"] = "spellName",
+["name"] = "Name",
+["default"] = "",
+["length"] = 10,
+["multiline"] = false,
+["useLength"] = false,
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Replace Text Color",
+["useDesc"] = true,
+["key"] = "replaceTextColor",
+["desc"] = "Replace the Text color",
+},
+{
+["type"] = "color",
+["default"] = {
+1,
+1,
+1,
+1,
+},
+["width"] = 1,
+["name"] = "Text Color",
+["useDesc"] = true,
+["key"] = "textColor",
+["desc"] = "Colors the text if \"Replace\" is checked",
+},
+{
+["type"] = "toggle",
+["default"] = false,
+["width"] = 1,
+["name"] = "Enable Glow",
+["useDesc"] = true,
+["key"] = "glow",
+["desc"] = "Enables glow for the given Spell",
+},
+{
+["type"] = "color",
+["default"] = {
+1,
+1,
+1,
+1,
+},
+["key"] = "glowColor",
+["name"] = "Glow Color",
+["useDesc"] = false,
+["width"] = 1,
+},
+},
+["hideReorder"] = true,
+["useDesc"] = false,
+["nameSource"] = 1,
+["width"] = 2,
+["useCollapse"] = true,
+["name"] = "Spell Options",
+["collapse"] = false,
+["type"] = "group",
+["limitType"] = "none",
+["groupType"] = "array",
+["key"] = "spellOptions",
+["size"] = 10,
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 6,
+["useHeight"] = true,
+["width"] = 2,
+},
+{
+["text"] = "",
+["type"] = "header",
+["useName"] = false,
+["width"] = 1,
+},
+{
+["text"] = "\n",
+["type"] = "description",
+["fontSize"] = "medium",
+["width"] = 2,
+},
+{
+["width"] = 1,
+["type"] = "select",
+["values"] = {
+"default",
+"DbmHide~",
+"HideNumber",
+"DBMonlyName",
+},
+["name"] = "NameOption",
+["useDesc"] = true,
+["key"] = "NameOption",
+["default"] = 1,
+["desc"] = "Set up how you wanna display Bar Names by default it will show everything like DBM/BW does HideNumber hides the spell number behind certain casts while DbmHide~ hides the ~ infront of some spells",
+},
+{
+["type"] = "space",
+["variableWidth"] = true,
+["height"] = 1,
+["useHeight"] = false,
+["width"] = 1,
+},
+{
+["width"] = 1,
+["type"] = "select",
+["values"] = {
+"replace name with paused",
+"add paused to name",
+"add paused but shorten",
+"don't change",
+},
+["name"] = "Text Options - Paused",
+["useDesc"] = true,
+["key"] = "textPausedOptions",
+["default"] = 1,
+["desc"] = "Select how you want to display Paused timers",
+},
+{
+["type"] = "space",
+["variableWidth"] = false,
+["width"] = 1,
+},
+{
+["type"] = "toggle",
+["default"] = true,
+["key"] = "UseBossModsColor",
+["name"] = "Use Bossmods text Color",
+["useDesc"] = false,
+["width"] = 1,
+},
+{
+["type"] = "number",
+["useDesc"] = true,
+["step"] = 1,
+["width"] = 1,
+["min"] = 0,
+["key"] = "textMaxLength",
+["default"] = 8,
+["name"] = "Bigicon Text Max Length",
+["desc"] = "Max length of the text by the icon. Text longer than this will be truncated and followed by \"..\". Set to 0 to disable truncating text.",
+},
+},
+["load"] = {
+["use_never"] = true,
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["size"] = {
+["multi"] = {
+},
+},
+},
+["config"] = {
+["NameOption"] = 1,
+["UseBossModsColor"] = true,
+["textMaxLength"] = 8,
+["textPausedOptions"] = 1,
+["spellOptions"] = {
+{
+["glow"] = true,
+["NameField"] = "Pause",
+["glowColor"] = {
+1,
+0,
+1,
+1,
+},
+["spellName"] = "Partytimer!",
+["replaceTextColor"] = true,
+["textColor"] = {
+0,
+1,
+0,
+1,
+},
+["message"] = "Pause!",
+["replaceSpellName"] = true,
+["spellid"] = 0,
+["IgnoreAlertNumber"] = false,
+},
+},
+},
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["source"] = "import",
+["cooldownEdge"] = false,
+["anchorFrameType"] = "SCREEN",
+["alpha"] = 1,
+["preferToUpdate"] = false,
+["anchorFrameFrame"] = "WeakAuras:Vertical bar",
+["regionType"] = "icon",
+["actions"] = {
+["start"] = {
+["do_custom"] = false,
+},
+["finish"] = {
+["do_custom"] = false,
+},
+["init"] = {
+["custom"] = "aura_env.options = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.options[option.message] = option\nend\naura_env.IDoptions = {}\nfor _,option in pairs(aura_env.config.spellOptions) do\n    aura_env.IDoptions[tostring(option.spellid)] = option\nend\n\nfor k,v in pairs(aura_env.region.subRegions) do\n    if v.type == \"subglow\" then\n        aura_env.glow = v\n    end\nend\n\n\n",
+["do_custom"] = true,
+},
+},
+["frameStrata"] = 1,
+["justify"] = "LEFT",
+["zoom"] = 0,
+["anchorFrameParent"] = false,
+["useAdjustededMin"] = false,
+["semver"] = "1.0.80",
+["cooldownTextDisabled"] = true,
+["auto"] = true,
+["tocversion"] = 110107,
+["id"] = "Timeline BigIcon",
+["displayText"] = "%p",
+["useCooldownModRate"] = true,
+["width"] = 80,
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["colorR"] = 1,
+["duration_type"] = "seconds",
+["colorA"] = 1,
+["colorG"] = 1,
+["use_translate"] = false,
+["duration"] = "10",
+["type"] = "none",
+["translateType"] = "straightTranslate",
+["easeType"] = "none",
+["translateFunc"] = "function(progress, startX, startY, deltaX, deltaY)\n    return startX + (progress * deltaX), startY + (progress * deltaY)\nend\n",
+["scaley"] = 1,
+["alpha"] = 0,
+["rotate"] = 0,
+["y"] = -220,
+["x"] = 0,
+["scaleFunc"] = "function(progress, startX, startY, scaleX, scaleY)\n    return startX + (progress * (scaleX - startX)), startY + (progress * (scaleY - startY))\nend\n",
+["scaleType"] = "straightScale",
+["use_scale"] = false,
+["easeStrength"] = 5,
+["scalex"] = 1,
+["colorB"] = 1,
+},
+["finish"] = {
+["type"] = "none",
+["easeType"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["preset"] = "slidebottom",
+},
+},
+["uid"] = "wXwCYPds3Wy",
+["inverse"] = false,
+["desc"] = "",
+["displayIcon"] = "134376",
+["information"] = {
+["forceEvents"] = true,
+["ignoreOptionsEventErrors"] = true,
+},
+["adjustedMin"] = "",
+},
+["MMK_6_戒指"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["frameStrata"] = 1,
+["desaturate"] = false,
+["authorOptions"] = {
+},
+["xOffset"] = 60,
+["mirror"] = false,
+["yOffset"] = 0,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["parent"] = "MMK",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["conditions"] = {
+},
+["internalVersion"] = 86,
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "aura2",
+["auraspellids"] = {
+"1215495",
+},
+["event"] = "Health",
+["unit"] = "player",
+["spellIds"] = {
+},
+["names"] = {
+},
+["subeventSuffix"] = "_CAST_START",
+["useExactSpellId"] = true,
+["subeventPrefix"] = "SPELL",
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
@@ -25953,15 +25656,263 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
+["type"] = "spell",
+["subeventSuffix"] = "_CAST_START",
+["spellName"] = 388193,
+["use_inverse"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["names"] = {
+},
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["genericShowOn"] = "showOnCooldown",
+["use_genericShowOn"] = true,
+["subeventPrefix"] = "SPELL",
+["use_track"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_inCombat"] = false,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
+["unit"] = "player",
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "custom",
+["customTriggerLogic"] = "function(t)\n    return t[1] and (t[2] or t[3])\nend",
+["activeTriggerMode"] = -10,
+},
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "MMK_6_戒指",
+["selfPoint"] = "BOTTOMLEFT",
+["alpha"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["uid"] = "C5jo5MdsL0s",
+["config"] = {
+},
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["use_class_and_spec"] = true,
+["class_and_spec"] = {
+["single"] = 270,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_alive"] = true,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["anchorFrameType"] = "SCREEN",
+},
+["SMS_8_愈合"] = {
+["sparkWidth"] = 10,
+["iconSource"] = -1,
+["user_x"] = 0,
+["xOffset"] = 80,
+["adjustedMax"] = "",
+["yOffset"] = 0,
+["anchorPoint"] = "CENTER",
+["sparkRotation"] = 0,
+["textureInput"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["url"] = "https://space.bilibili.com/455259",
+["actions"] = {
+["start"] = {
+["sound_path"] = "",
+["sound"] = "Interface\\Addons\\SharedMedia_Rurutia\\Rurutia\\【露露】矮人.ogg",
+["do_sound"] = false,
+},
+["init"] = {
+},
+["finish"] = {
+["hide_all_glows"] = true,
+},
+},
+["icon_color"] = {
+1,
+1,
+1,
+1,
+},
+["enableGradient"] = false,
+["keepAspectRatio"] = false,
+["selfPoint"] = "BOTTOMLEFT",
+["barColor"] = {
+1,
+1,
+1,
+0,
+},
+["desaturate"] = false,
+["rotation"] = 0,
+["font"] = "Friz Quadrata TT",
+["sparkOffsetY"] = 0,
+["gradientOrientation"] = "HORIZONTAL",
+["crop_y"] = 0.41,
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["startAngle"] = 0,
+["useAdjustededMin"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
+["slantMode"] = "INSIDE",
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["sparkTexture"] = "Interface\\CastingBar\\UI-CastingBar-Spark",
+["spark"] = false,
+["compress"] = false,
+["alpha"] = 1,
+["sparkColor"] = {
+1,
+1,
+1,
+1,
+},
+["displayIcon"] = 897131,
+["backgroundOffset"] = 2,
+["sparkOffsetX"] = 0,
+["wagoID"] = "58CNiw_2n",
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["preferToUpdate"] = false,
+["customText"] = "function()\n    if WeakAuras.IsOptionsOpen() then\n        return \"|cffff0000玩家姓名\"\n    end\n    \n    local Name = aura_env.state.destName\n    if Name then\n        if WA_ClassColorName(Name) ~= \"\" then\n            Name = WA_ClassColorName(Name)\n        end\n        return Name\n    end\nend",
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["conditions"] = {
+},
+["desaturateBackground"] = false,
+["cooldownSwipe"] = true,
+["auraRotation"] = 0,
+["sparkRotationMode"] = "AUTO",
+["cooldownEdge"] = false,
+["desaturateForeground"] = false,
+["triggers"] = {
+{
+["trigger"] = {
+["use_dead"] = false,
+["use_hostility"] = true,
+["use_absorbMode"] = true,
+["use_character"] = false,
+["use_unit"] = true,
+["use_class"] = false,
+["character"] = "player",
+["debuffType"] = "HELPFUL",
+["classification"] = {
+},
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_role"] = false,
+["event"] = "Unit Characteristics",
+["spellIds"] = {
+},
+["unit"] = "target",
+["subeventPrefix"] = "SPELL",
+["hostility"] = "friendly",
+["type"] = "unit",
+["names"] = {
+},
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["use_hostility"] = false,
+["use_absorbMode"] = true,
+["use_character"] = false,
+["unit"] = "target",
+["use_class"] = false,
+["character"] = "player",
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["use_role"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["spellIds"] = {
+},
+["classification"] = {
+},
+["hostility"] = "friendly",
+["subeventPrefix"] = "SPELL",
+["use_unit"] = true,
+["role"] = "TANK",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_health"] = false,
+["health_operator"] = {
+"<=",
+},
 ["use_absorbMode"] = true,
 ["event"] = "Health",
-["unit"] = "player",
-["percenthealth"] = {
-"60",
-},
 ["use_unit"] = true,
+["percenthealth"] = {
+"95",
+},
+["health"] = {
+},
+["use_absorbHealMode"] = true,
+["unit"] = "target",
 ["use_percenthealth"] = true,
 ["percenthealth_operator"] = {
 "<=",
@@ -25973,19 +25924,84 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["unit"] = "player",
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["use_unit"] = true,
+["health_operator"] = {
+"<=",
+},
 ["use_absorbMode"] = true,
-["use_inverse"] = true,
-["event"] = "Cast",
+["event"] = "Health",
+["use_unit"] = true,
+["percenthealth"] = {
+"95",
+},
+["health"] = {
+},
+["use_health"] = false,
+["unit"] = "target",
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
+"<=",
+},
 ["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "40",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["unit"] = "player",
+["use_spellName"] = true,
+["debuffType"] = "HELPFUL",
+["genericShowOn"] = "showOnCooldown",
+["use_track"] = true,
+["spellName"] = 33076,
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "custom",
+["customTriggerLogic"] = "function(t)\n    return t[1] and ((t[2] and t[3]) or (not t[2] and t[4])) and t[5] and t[6] and t[7]\nend",
 ["activeTriggerMode"] = -10,
+},
+["endAngle"] = 360,
+["internalVersion"] = 86,
+["progressSource"] = {
+-1,
+"",
 },
 ["animation"] = {
 ["start"] = {
@@ -26007,28 +26023,123 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["id"] = "MKT_2_自活血",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["config"] = {
-},
-["frameStrata"] = 1,
+["zoom"] = 0.3,
+["icon"] = true,
+["desc"] = "by 露露緹婭@Bilibili。",
+["sameTexture"] = true,
+["width"] = 10,
+["useCooldownModRate"] = true,
+["version"] = 51,
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
 },
 },
 ["height"] = 10,
-["conditions"] = {
+["textureSource"] = "Picker",
+["backgroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["sparkBlendMode"] = "ADD",
+["useAdjustededMax"] = false,
+["fontSize"] = 12,
+["source"] = "import",
+["sparkHidden"] = "NEVER",
+["config"] = {
 },
-["information"] = {
+["rotate"] = false,
+["mirror"] = false,
+["tocversion"] = 110200,
+["load"] = {
+["use_never"] = false,
+["class"] = {
+["multi"] = {
 },
+},
+["race"] = {
+["single"] = "Dwarf",
+["multi"] = {
+},
+},
+["level"] = {
+"70",
+},
+["size"] = {
+["single"] = "party",
+["multi"] = {
+},
+},
+["class_and_spec"] = {
+["single"] = 257,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["spec"] = {
+["multi"] = {
+},
+},
+["zoneIds"] = "g431",
+["difficulty"] = {
+},
+["level_operator"] = {
+">=",
+},
+["use_combat"] = true,
+["use_zoneIds"] = false,
+["instance_type"] = {
+["single"] = 8,
+["multi"] = {
+[8] = true,
+},
+},
+["use_alive"] = true,
+["use_class_and_spec"] = true,
+["use_level"] = false,
+},
+["authorOptions"] = {
+},
+["sparkHeight"] = 30,
+["icon_side"] = "LEFT",
+["cooldown"] = true,
+["uid"] = "D51Z3EzW7H(",
+["anchorFrameParent"] = false,
+["limitWeakAuras"] = {
+["hash"] = "0bf6b48a855637aa0397388ef4dc9437a29c8f0a32e93b3c6e050d64da07f02c",
+},
+["adjustedMin"] = "",
+["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura3",
+["semver"] = "1.5.5",
+["cooldownTextDisabled"] = true,
+["id"] = "SMS_8_愈合",
+["user_y"] = 0,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
+["foregroundColor"] = {
+1,
+1,
+1,
+1,
 },
-["MMK_5_打断"] = {
-["xOffset"] = 50,
+["backgroundColor"] = {
+0,
+0,
+0,
+0.300000011920929,
+},
+["inverse"] = false,
+["auto"] = true,
+["orientation"] = "HORIZONTAL",
+["crop_x"] = 0.41,
+["barColor2"] = {
+1,
+1,
+0,
+1,
+},
+["parent"] = "SMS",
+},
+["SMS_13_希望"] = {
+["parent"] = "SMS",
 ["preferToUpdate"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "TOPLEFT",
@@ -26043,42 +26154,32 @@ WeakAurasSaved = {
 ["triggers"] = {
 {
 ["trigger"] = {
-["type"] = "unit",
+["use_dead"] = false,
 ["use_hostility"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["names"] = {
+["level_operator"] = {
+">=",
 },
-["unit"] = "target",
-["use_absorbHealMode"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
 ["use_unit"] = true,
-["subeventPrefix"] = "SPELL",
+["use_inCombat"] = true,
+["level"] = {
+},
 ["use_attackable"] = true,
 ["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["health_operator"] = {
-">",
+["subeventSuffix"] = "_CAST_START",
+["event"] = "Unit Characteristics",
+["subeventPrefix"] = "SPELL",
+["names"] = {
+},
+["spellIds"] = {
+},
+["unit"] = "target",
+["hostility"] = "hostile",
+["use_level"] = false,
+["classification"] = {
 },
 ["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["health"] = {
-"0",
-},
-["use_health"] = true,
-["use_unit"] = true,
-["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
@@ -26092,7 +26193,7 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_range"] = true,
 ["use_unit"] = true,
-["range"] = "5",
+["range"] = "40",
 ["range_operator"] = "<=",
 ["debuffType"] = "HELPFUL",
 },
@@ -26101,149 +26202,68 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
+["type"] = "unit",
+["use_health"] = true,
+["health_operator"] = {
+">",
+},
+["debuffType"] = "HELPFUL",
+["use_absorbMode"] = true,
+["event"] = "Power",
+["unit"] = "player",
+["use_powertype"] = true,
+["powertype"] = 0,
+["health"] = {
+"0",
+},
+["use_absorbHealMode"] = true,
+["use_percentpower"] = true,
+["use_unit"] = true,
+["percentpower"] = {
+"50",
+},
+["percentpower_operator"] = {
+"<=",
+},
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_inverse"] = true,
+["use_absorbMode"] = true,
+["event"] = "Cast",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
 ["type"] = "spell",
-["use_targetRequired"] = false,
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["realSpellName"] = "脚踢",
 ["use_spellName"] = true,
 ["debuffType"] = "HELPFUL",
-["genericShowOn"] = "showOnReady",
-["use_track"] = true,
-["spellName"] = 116705,
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["use_castType"] = true,
-["use_remaining"] = true,
-["use_absorbHealMode"] = true,
-["remaining_operator"] = ">=",
-["event"] = "Cast",
-["use_unit"] = true,
-["castType"] = "channel",
-["remaining"] = "0.5",
-["use_interruptible"] = true,
-["type"] = "unit",
-["use_absorbMode"] = true,
-["unit"] = "target",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["use_castType"] = true,
-["use_genericShowOn"] = true,
 ["genericShowOn"] = "showOnCooldown",
-["use_unit"] = true,
-["remaining"] = "1",
-["debuffType"] = "HELPFUL",
-["use_interruptible"] = true,
-["use_spellIds"] = true,
-["use_absorbHealMode"] = true,
-["event"] = "Cast",
-["unit"] = "target",
-["castType"] = "cast",
-["use_spellName"] = true,
-["spellIds"] = {
-434802,
-436322,
-448248,
-442210,
-433841,
-1229474,
-1229510,
-326450,
-323538,
-462771,
-463058,
-1214468,
-1214780,
-465871,
-427356,
-424421,
-444743,
-423536,
-423051,
-446657,
-355057,
-352347,
-357260,
-351119,
-355934,
-356537,
-356407,
-347775,
-1245669,
-350922,
-1241032,
-428086,
-431333,
-432520,
-449734,
-},
-["use_absorbMode"] = true,
-["type"] = "unit",
-["use_remaining"] = true,
 ["use_track"] = true,
-["remaining_operator"] = "<=",
+["spellName"] = 64901,
 },
 ["untrigger"] = {
 },
 },
-{
-["trigger"] = {
-["use_castType"] = true,
-["remaining_operator"] = ">=",
-["genericShowOn"] = "showOnCooldown",
-["use_unit"] = true,
-["remaining"] = "0.5",
-["debuffType"] = "HELPFUL",
-["use_interruptible"] = true,
-["use_remaining"] = true,
-["use_absorbHealMode"] = true,
-["event"] = "Cast",
-["castType"] = "cast",
-["use_spellName"] = true,
-["use_genericShowOn"] = true,
-["type"] = "unit",
-["use_absorbMode"] = true,
-["use_track"] = true,
-["unit"] = "target",
-},
-["untrigger"] = {
-},
-},
-["disjunctive"] = "custom",
-["customTriggerLogic"] = "function(t)\n    return t[1] and t[2] and t[3] and t[4] and (t[5] or (t[6] and t[7]))\nend",
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
 ["activeTriggerMode"] = -10,
 },
 ["internalVersion"] = 86,
-["animation"] = {
-["start"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["type"] = "none",
-["easeStrength"] = 3,
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
+["selfPoint"] = "BOTTOMLEFT",
 ["desaturate"] = false,
 ["rotation"] = 0,
 ["subRegions"] = {
@@ -26260,18 +26280,18 @@ WeakAurasSaved = {
 },
 },
 ["use_class_and_spec"] = true,
+["class"] = {
+["multi"] = {
+},
+},
 ["spec"] = {
 ["multi"] = {
 },
 },
-["class_and_spec"] = {
-["single"] = 270,
-},
-["use_combat"] = true,
 ["use_alive"] = true,
-["class"] = {
-["multi"] = {
-},
+["use_combat"] = true,
+["class_and_spec"] = {
+["single"] = 257,
 },
 ["size"] = {
 ["multi"] = {
@@ -26283,18 +26303,37 @@ WeakAurasSaved = {
 ["regionType"] = "texture",
 ["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["config"] = {
-},
-["parent"] = "MMK",
+["uid"] = "jKKuCWIVVD4",
+["xOffset"] = 130,
 ["tocversion"] = 110200,
-["id"] = "MMK_5_打断",
-["frameStrata"] = 1,
+["id"] = "SMS_13_希望",
 ["alpha"] = 1,
+["frameStrata"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["width"] = 10,
-["uid"] = "42x5E53HMqf",
-["selfPoint"] = "BOTTOMLEFT",
+["config"] = {
+},
 ["authorOptions"] = {
+},
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
 },
 ["conditions"] = {
 },
@@ -26309,33 +26348,23 @@ WeakAurasSaved = {
 1,
 },
 },
-["MKT_7_红"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["alpha"] = 1,
-["width"] = 10,
-["authorOptions"] = {
-},
-["xOffset"] = 70,
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["parent"] = "MKT",
+["SMS_3_糖"] = {
 ["color"] = {
 1,
 1,
 1,
 1,
 },
+["preferToUpdate"] = false,
+["yOffset"] = 0,
+["anchorPoint"] = "TOPLEFT",
 ["actions"] = {
 ["start"] = {
 },
 ["finish"] = {
 },
 ["init"] = {
+["do_custom"] = false,
 },
 },
 ["triggers"] = {
@@ -26344,83 +26373,18 @@ WeakAurasSaved = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
 ["subeventSuffix"] = "_CAST_START",
-["names"] = {
+["percenthealth"] = {
+"50",
 },
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
+["event"] = "Health",
 ["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
+["unit"] = "player",
+["use_absorbMode"] = true,
 ["spellIds"] = {
 },
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
 ["use_unit"] = true,
-["range"] = "15",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
+["names"] = {
 },
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "item",
-["use_count"] = true,
-["use_genericShowOn"] = true,
-["event"] = "Item Count",
-["unit"] = "player",
-["use_includeCharges"] = true,
-["count"] = "1",
-["count_operator"] = ">=",
-["itemName"] = 211878,
-["genericShowOn"] = "showOnCooldown",
-["use_itemName"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["itemName"] = 211878,
-["genericShowOn"] = "showOnReady",
-["type"] = "item",
-["use_itemName"] = true,
-["use_genericShowOn"] = true,
-["event"] = "Cooldown Progress (Item)",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "player",
-["percenthealth"] = {
-"40",
-},
-["use_unit"] = true,
 ["use_percenthealth"] = true,
 ["percenthealth_operator"] = {
 "<=",
@@ -26430,12 +26394,95 @@ WeakAurasSaved = {
 ["untrigger"] = {
 },
 },
+{
+["trigger"] = {
+["itemName"] = 5512,
+["use_count"] = true,
+["use_genericShowOn"] = true,
+["event"] = "Item Count",
+["unit"] = "player",
+["use_includeCharges"] = true,
+["count"] = "0",
+["count_operator"] = ">",
+["genericShowOn"] = "showOnCooldown",
+["type"] = "item",
+["use_itemName"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "item",
+["use_itemName"] = true,
+["itemName"] = 5512,
+["genericShowOn"] = "showOnReady",
+["use_genericShowOn"] = true,
+["event"] = "Cooldown Progress (Item)",
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["disjunctive"] = "all",
+["customTriggerLogic"] = "",
 ["activeTriggerMode"] = -10,
 },
-["conditions"] = {
-},
 ["internalVersion"] = 86,
+["selfPoint"] = "BOTTOMLEFT",
+["desaturate"] = false,
+["rotation"] = 0,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["rotate"] = false,
+["load"] = {
+["class_and_spec"] = {
+["single"] = 257,
+},
+["talent"] = {
+["multi"] = {
+},
+},
+["class"] = {
+["multi"] = {
+},
+},
+["use_class_and_spec"] = true,
+["spec"] = {
+["multi"] = {
+},
+},
+["use_combat"] = true,
+["use_alive"] = true,
+["use_never"] = false,
+["size"] = {
+["multi"] = {
+},
+},
+},
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["mirror"] = false,
+["regionType"] = "texture",
+["blendMode"] = "BLEND",
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["config"] = {
+},
+["xOffset"] = 30,
+["tocversion"] = 110200,
+["id"] = "SMS_3_糖",
+["alpha"] = 1,
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
+["width"] = 10,
+["uid"] = "FIXTKfsWSIZ",
+["authorOptions"] = {
+},
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -26456,12 +26503,151 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["id"] = "MKT_7_红",
-["selfPoint"] = "BOTTOMLEFT",
-["frameStrata"] = 1,
+["conditions"] = {
+},
+["information"] = {
+["forceEvents"] = false,
+["ignoreOptionsEventErrors"] = false,
+},
+["parent"] = "SMS",
+},
+["MMK_LIGHTING_HINT_2"] = {
+["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["alpha"] = 1,
 ["desaturate"] = false,
+["parent"] = "MMK_HINT",
+["xOffset"] = 0,
+["mirror"] = false,
+["yOffset"] = 100,
+["regionType"] = "texture",
+["information"] = {
+},
+["blendMode"] = "BLEND",
+["anchorPoint"] = "CENTER",
+["authorOptions"] = {
+},
+["color"] = {
+1,
+1,
+1,
+1,
+},
+["actions"] = {
+["start"] = {
+},
+["finish"] = {
+},
+["init"] = {
+},
+},
+["texture"] = "1028137",
+["conditions"] = {
+},
+["internalVersion"] = 86,
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["subeventPrefix"] = "SPELL",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["unit"] = "target",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["hostility"] = "hostile",
+["use_dead"] = false,
+["use_unit"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "spell",
+["subeventSuffix"] = "_CAST_START",
+["use_genericShowOn"] = true,
+["event"] = "Action Usable",
+["subeventPrefix"] = "SPELL",
+["debuffType"] = "HELPFUL",
+["use_spellName"] = true,
+["spellIds"] = {
+},
+["genericShowOn"] = "showOnCooldown",
+["names"] = {
+},
+["unit"] = "player",
+["use_track"] = true,
+["spellName"] = 117952,
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "aura2",
+["stacksOperator"] = "==",
+["auraspellids"] = {
+"467317",
+},
+["matchesShowOn"] = "showOnActive",
+["unit"] = "player",
+["stacks"] = "2",
+["useStacks"] = true,
+["useExactSpellId"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "aura2",
+["useExactSpellId"] = true,
+["unit"] = "player",
+["auraspellids"] = {
+"388026",
+},
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["animation"] = {
+["start"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "preset",
+["easeType"] = "none",
+["duration_type"] = "seconds",
+["easeStrength"] = 3,
+["preset"] = "alphaPulse",
+},
+["finish"] = {
+["easeStrength"] = 3,
+["type"] = "none",
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "MMK_LIGHTING_HINT_2",
+["selfPoint"] = "CENTER",
+["frameStrata"] = 1,
+["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
-["uid"] = "yyQVizgQunA",
+["uid"] = "7(G4FU4CVrg",
 ["config"] = {
 },
 ["subRegions"] = {
@@ -26469,7 +26655,7 @@ WeakAurasSaved = {
 ["type"] = "subbackground",
 },
 },
-["height"] = 10,
+["height"] = 200,
 ["rotate"] = false,
 ["load"] = {
 ["spec"] = {
@@ -26478,7 +26664,7 @@ WeakAurasSaved = {
 },
 ["use_combat"] = true,
 ["class_and_spec"] = {
-["single"] = 268,
+["single"] = 270,
 },
 ["talent"] = {
 ["multi"] = {
@@ -26495,21 +26681,26 @@ WeakAurasSaved = {
 },
 },
 },
-["anchorFrameType"] = "SCREEN",
+["width"] = 200,
 },
-["DKT_12_吞噬"] = {
+["DKT_1_吸血鬼"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["config"] = {
+["xOffset"] = 10,
+["anchorFrameType"] = "SCREEN",
+["color"] = {
+1,
+1,
+1,
+1,
 },
-["desaturate"] = false,
-["parent"] = "DKT",
-["xOffset"] = 120,
+["authorOptions"] = {
+},
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["anchorPoint"] = "CENTER",
 ["load"] = {
-["use_class_and_spec"] = true,
-["spec"] = {
+["use_combat"] = true,
+["class"] = {
 ["multi"] = {
 },
 },
@@ -26520,12 +26711,12 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["class"] = {
+["use_class_and_spec"] = true,
+["spec"] = {
 ["multi"] = {
 },
 },
 ["use_alive"] = true,
-["use_combat"] = true,
 ["size"] = {
 ["multi"] = {
 },
@@ -26533,14 +26724,8 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["regionType"] = "texture",
-["authorOptions"] = {
-},
-["color"] = {
-1,
-1,
-1,
-1,
-},
+["parent"] = "DKT",
+["rotate"] = false,
 ["actions"] = {
 ["start"] = {
 },
@@ -26557,7 +26742,7 @@ WeakAurasSaved = {
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
 ["unit"] = "player",
-["spellName"] = 274156,
+["spellName"] = 55233,
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
@@ -26606,24 +26791,52 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["type"] = "custom",
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["custom_type"] = "status",
-["check"] = "event",
-["debuffType"] = "HELPFUL",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 274156\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
+["type"] = "aura2",
+["useStacks"] = true,
+["subeventSuffix"] = "_CAST_START",
+["event"] = "Health",
+["subeventPrefix"] = "SPELL",
+["stacksOperator"] = ">=",
+["stacks"] = "50",
+["spellIds"] = {
+},
+["auraspellids"] = {
+"463730",
+},
+["useExactSpellId"] = true,
+["names"] = {
+},
 ["unit"] = "player",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Health",
+["unit"] = "player",
+["percenthealth"] = {
+"80",
+},
+["use_unit"] = true,
+["use_percenthealth"] = true,
+["percenthealth_operator"] = {
+"<=",
+},
+["debuffType"] = "HELPFUL",
 },
 ["untrigger"] = {
 },
 },
 ["activeTriggerMode"] = -10,
 },
-["rotate"] = false,
-["internalVersion"] = 86,
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "DKT_12_吞噬",
+["internalVersion"] = 86,
+["uid"] = "tB8rtKWEy7)",
 ["animation"] = {
 ["start"] = {
 ["type"] = "none",
@@ -26644,10 +26857,13 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
+["id"] = "DKT_1_吸血鬼",
+["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["width"] = 10,
+["desaturate"] = false,
 ["rotation"] = 0,
-["uid"] = "bhZevbu5bub",
+["config"] = {
+},
 ["alpha"] = 1,
 ["subRegions"] = {
 {
@@ -26659,19 +26875,20 @@ WeakAurasSaved = {
 },
 ["information"] = {
 },
-["anchorFrameType"] = "SCREEN",
+["width"] = 10,
 },
-["MMK_2_自活血"] = {
+["DKT_16_枯萎"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
+["xOffset"] = 160,
+["desaturate"] = false,
+["authorOptions"] = {
+},
 ["color"] = {
 1,
 1,
 1,
 1,
 },
-["anchorFrameType"] = "SCREEN",
-["xOffset"] = 20,
-["parent"] = "MMK",
 ["mirror"] = false,
 ["yOffset"] = 0,
 ["regionType"] = "texture",
@@ -26679,8 +26896,7 @@ WeakAurasSaved = {
 },
 ["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["authorOptions"] = {
-},
+["parent"] = "DKT",
 ["conditions"] = {
 },
 ["actions"] = {
@@ -26696,20 +26912,19 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "spell",
 ["subeventSuffix"] = "_CAST_START",
-["spellName"] = 116670,
 ["use_genericShowOn"] = true,
 ["event"] = "Action Usable",
-["names"] = {
-},
-["subeventPrefix"] = "SPELL",
+["unit"] = "player",
+["debuffType"] = "HELPFUL",
 ["use_spellName"] = true,
 ["spellIds"] = {
 },
+["subeventPrefix"] = "SPELL",
 ["genericShowOn"] = "showOnCooldown",
-["use_inverse"] = false,
-["unit"] = "player",
+["names"] = {
+},
 ["use_track"] = true,
-["debuffType"] = "HELPFUL",
+["spellName"] = 43265,
 },
 ["untrigger"] = {
 },
@@ -26718,16 +26933,10 @@ WeakAurasSaved = {
 ["trigger"] = {
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
 ["use_absorbMode"] = true,
 ["event"] = "Unit Characteristics",
 ["unit"] = "target",
-["subeventPrefix"] = "SPELL",
 ["use_unit"] = true,
-["spellIds"] = {
-},
 ["hostility"] = "hostile",
 ["use_dead"] = false,
 ["use_hostility"] = true,
@@ -26746,7 +26955,7 @@ WeakAurasSaved = {
 ["unit"] = "target",
 ["use_range"] = true,
 ["use_unit"] = true,
-["range"] = "15",
+["range"] = "7",
 ["range_operator"] = "<=",
 ["debuffType"] = "HELPFUL",
 },
@@ -26755,12 +26964,12 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
-["type"] = "aura2",
-["useExactSpellId"] = true,
+["type"] = "custom",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["custom_type"] = "status",
+["check"] = "event",
 ["debuffType"] = "HELPFUL",
-["auraspellids"] = {
-"392883",
-},
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 43265\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n    end\nend",
 ["unit"] = "player",
 },
 ["untrigger"] = {
@@ -26768,33 +26977,13 @@ WeakAurasSaved = {
 },
 {
 ["trigger"] = {
+["use_unit"] = true,
 ["type"] = "unit",
 ["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "player",
-["percenthealth"] = {
-"70",
-},
-["use_unit"] = true,
-["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
-},
 ["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
+["use_ismoving"] = false,
 ["use_absorbMode"] = true,
-["event"] = "Cast",
+["event"] = "Conditions",
 ["unit"] = "player",
 },
 ["untrigger"] = {
@@ -26805,6 +26994,8 @@ WeakAurasSaved = {
 ["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
 ["internalVersion"] = 86,
 ["alpha"] = 1,
+["selfPoint"] = "BOTTOMLEFT",
+["id"] = "DKT_16_枯萎",
 ["animation"] = {
 ["start"] = {
 ["easeStrength"] = 3,
@@ -26825,184 +27016,12 @@ WeakAurasSaved = {
 ["easeType"] = "none",
 },
 },
-["id"] = "MMK_2_自活血",
-["selfPoint"] = "BOTTOMLEFT",
 ["frameStrata"] = 1,
-["width"] = 10,
-["rotation"] = 0,
-["uid"] = "rugyPBmD5AS",
-["config"] = {
-},
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
-["load"] = {
-["spec"] = {
-["multi"] = {
-},
-},
-["use_combat"] = true,
-["class_and_spec"] = {
-["single"] = 270,
-},
-["talent"] = {
-["multi"] = {
-},
-},
-["use_alive"] = true,
-["use_class_and_spec"] = true,
-["class"] = {
-["multi"] = {
-},
-},
-["size"] = {
-["multi"] = {
-},
-},
-},
-["desaturate"] = false,
-},
-["MMK_8_做茧"] = {
-["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["color"] = {
-1,
-1,
-1,
-1,
-},
-["width"] = 10,
-["xOffset"] = 80,
-["parent"] = "MMK",
-["mirror"] = false,
-["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
-["anchorPoint"] = "CENTER",
-["authorOptions"] = {
-},
-["conditions"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["subeventPrefix"] = "SPELL",
-["names"] = {
-},
-["unit"] = "target",
-["spellIds"] = {
-},
-["use_unit"] = true,
-["hostility"] = "friendly",
-["use_dead"] = false,
-["use_hostility"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "40",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Health",
-["unit"] = "target",
-["percenthealth"] = {
-"35",
-},
-["use_unit"] = true,
-["use_percenthealth"] = true,
-["percenthealth_operator"] = {
-"<=",
-},
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "spell",
-["use_genericShowOn"] = true,
-["event"] = "Action Usable",
-["unit"] = "player",
-["use_spellName"] = true,
-["spellName"] = 116849,
-["genericShowOn"] = "showOnCooldown",
-["use_track"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["internalVersion"] = 86,
-["frameStrata"] = 1,
-["selfPoint"] = "BOTTOMLEFT",
-["id"] = "MMK_8_做茧",
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["alpha"] = 1,
 ["anchorFrameType"] = "SCREEN",
 ["rotation"] = 0,
 ["config"] = {
 },
-["uid"] = "G9iJhpABOQ5",
+["uid"] = "BugVUCZxLZg",
 ["subRegions"] = {
 {
 ["type"] = "subbackground",
@@ -27015,165 +27034,37 @@ WeakAurasSaved = {
 ["multi"] = {
 },
 },
-["use_combat"] = true,
+["use_alive"] = true,
 ["class_and_spec"] = {
-["single"] = 270,
+["single"] = 250,
 },
 ["talent"] = {
 ["multi"] = {
 },
 },
-["use_alive"] = true,
 ["use_class_and_spec"] = true,
 ["class"] = {
 ["multi"] = {
 },
 },
+["use_combat"] = true,
 ["size"] = {
 ["multi"] = {
 },
 },
 },
-["desaturate"] = false,
+["width"] = 10,
 },
 ["MKT_14_投"] = {
 ["textureWrapMode"] = "CLAMPTOBLACKADDITIVE",
-["frameStrata"] = 1,
-["width"] = 10,
-["color"] = {
-1,
-1,
-1,
-1,
+["authorOptions"] = {
 },
+["anchorFrameType"] = "SCREEN",
+["parent"] = "MKT",
 ["xOffset"] = 140,
 ["mirror"] = false,
 ["yOffset"] = 0,
-["regionType"] = "texture",
-["information"] = {
-},
-["blendMode"] = "BLEND",
 ["anchorPoint"] = "CENTER",
-["parent"] = "MKT",
-["authorOptions"] = {
-},
-["actions"] = {
-["start"] = {
-},
-["finish"] = {
-},
-["init"] = {
-},
-},
-["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
-["conditions"] = {
-},
-["internalVersion"] = 86,
-["triggers"] = {
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["subeventSuffix"] = "_CAST_START",
-["names"] = {
-},
-["use_absorbMode"] = true,
-["event"] = "Unit Characteristics",
-["unit"] = "target",
-["subeventPrefix"] = "SPELL",
-["use_unit"] = true,
-["spellIds"] = {
-},
-["hostility"] = "hostile",
-["use_dead"] = false,
-["use_hostility"] = true,
-["use_attackable"] = true,
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_absorbMode"] = true,
-["event"] = "Range Check",
-["unit"] = "target",
-["use_range"] = true,
-["use_unit"] = true,
-["range"] = "8",
-["range_operator"] = "<=",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["debuffType"] = "HELPFUL",
-["type"] = "unit",
-["use_absorbHealMode"] = true,
-["use_unit"] = true,
-["use_inverse"] = true,
-["use_absorbMode"] = true,
-["event"] = "Cast",
-["unit"] = "player",
-},
-["untrigger"] = {
-},
-},
-{
-["trigger"] = {
-["unit"] = "player",
-["type"] = "custom",
-["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 121253\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
-["custom_type"] = "status",
-["check"] = "event",
-["use_debuffClass"] = false,
-["events"] = "HEKILI_RECOMMENDATION_UPDATE",
-["debuffType"] = "HELPFUL",
-},
-["untrigger"] = {
-},
-},
-["activeTriggerMode"] = -10,
-},
-["animation"] = {
-["start"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["main"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-["finish"] = {
-["easeStrength"] = 3,
-["type"] = "none",
-["duration_type"] = "seconds",
-["easeType"] = "none",
-},
-},
-["id"] = "MKT_14_投",
-["selfPoint"] = "BOTTOMLEFT",
-["alpha"] = 1,
-["desaturate"] = false,
-["rotation"] = 0,
-["config"] = {
-},
-["uid"] = "GT(qFSOBVrq",
-["subRegions"] = {
-{
-["type"] = "subbackground",
-},
-},
-["height"] = 10,
-["rotate"] = false,
 ["load"] = {
 ["spec"] = {
 ["multi"] = {
@@ -27198,7 +27089,138 @@ WeakAurasSaved = {
 },
 },
 },
-["anchorFrameType"] = "SCREEN",
+["blendMode"] = "BLEND",
+["regionType"] = "texture",
+["color"] = {
+1,
+1,
+1,
+1,
 },
+["rotate"] = false,
+["actions"] = {
+["start"] = {
+},
+["init"] = {
+},
+["finish"] = {
+},
+},
+["texture"] = "Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
+["triggers"] = {
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["subeventSuffix"] = "_CAST_START",
+["unit"] = "target",
+["use_absorbMode"] = true,
+["event"] = "Unit Characteristics",
+["names"] = {
+},
+["subeventPrefix"] = "SPELL",
+["use_hostility"] = true,
+["spellIds"] = {
+},
+["use_dead"] = false,
+["hostility"] = "hostile",
+["use_unit"] = true,
+["use_attackable"] = true,
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_absorbMode"] = true,
+["event"] = "Range Check",
+["unit"] = "target",
+["use_range"] = true,
+["use_unit"] = true,
+["range"] = "8",
+["range_operator"] = "<=",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["unit"] = "player",
+["type"] = "unit",
+["use_absorbHealMode"] = true,
+["use_unit"] = true,
+["use_absorbMode"] = true,
+["use_inverse"] = true,
+["event"] = "Cast",
+["debuffType"] = "HELPFUL",
+},
+["untrigger"] = {
+},
+},
+{
+["trigger"] = {
+["debuffType"] = "HELPFUL",
+["type"] = "custom",
+["custom"] = "function(_, event_display, event_ability_id, _, empower_to)\n    local skill_id = 121253\n    local skill_id_1 = 0\n    local skill_id_2 = 0\n    \n    local skill_em = 0\n    \n    if event_display == nil or event_ability_id == nil then return false end\n    \n    if C_AddOns.IsAddOnLoaded(\"Hekili\") then\n        \n        if event_ability_id < 0 then event_ability_id = Hekili.Class.abilities[event_ability_id].item end\n        \n        if empower_to == nil then\n            if event_ability_id == skill_id or (skill_id_1 > 0 and event_ability_id == skill_id_1) or (skill_id_2 > 0 and event_ability_id == skill_id_2) then return true else return false end\n        else\n            if event_ability_id == skill_id and (empower_to == skill_em or skill_em == 0) then\n            return true else return false end\n        end\n        \n    end\nend",
+["custom_type"] = "status",
+["check"] = "event",
+["events"] = "HEKILI_RECOMMENDATION_UPDATE",
+["use_debuffClass"] = false,
+["unit"] = "player",
+},
+["untrigger"] = {
+},
+},
+["activeTriggerMode"] = -10,
+},
+["internalVersion"] = 86,
+["uid"] = "GT(qFSOBVrq",
+["animation"] = {
+["start"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["main"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+["finish"] = {
+["type"] = "none",
+["easeStrength"] = 3,
+["duration_type"] = "seconds",
+["easeType"] = "none",
+},
+},
+["id"] = "MKT_14_投",
+["selfPoint"] = "BOTTOMLEFT",
+["frameStrata"] = 1,
+["width"] = 10,
+["rotation"] = 0,
+["config"] = {
+},
+["alpha"] = 1,
+["subRegions"] = {
+{
+["type"] = "subbackground",
+},
+},
+["height"] = 10,
+["conditions"] = {
+},
+["information"] = {
+},
+["desaturate"] = false,
+},
+},
+["historyCutoff"] = 730,
+["registered"] = {
 },
 }
